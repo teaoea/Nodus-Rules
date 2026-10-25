@@ -13,7 +13,7 @@ from urllib.parse import quote
 TYPES = ("domain", "domain-suffix", "domain-keyword", "ip-cidr", "geoip", "protocol", "port")
 REPO = "https://github.com/blackmatrix7/ios_rule_script"
 RAW = "https://raw.githubusercontent.com/teaoea/nodus-rules/main/"
-TEMPLATE_VERSION = 6
+TEMPLATE_VERSION = 7
 UNSUPPORTED = {"PROCESS-NAME", "PROCESS-PATH", "IP-ASN", "DOMAIN-REGEX", "DOMAIN-WILDCARD",
                "URL-REGEX", "USER-AGENT", "AND", "OR", "NOT", "SRC-IP-CIDR", "SRC-PORT",
                "DST-PORT", "NETWORK", "RULE-SET", "GEOIP", "GEOSITE", "MATCH"}
@@ -177,7 +177,7 @@ def prepare(source, root, date, additions=None):
         block = (f"<!-- {marker}:start -->\n"
                  f"同步时间：{date}\n\n"
                  + f"```text\n{url}\n```\n\n"
-                 + f"```yaml\nrule-providers:\n  - name: {json.dumps(stem, ensure_ascii=False)}\n    url: {url}\n```\n\n"
+                 + f"```yaml\nrule-providers:\n  - name: {stem}\n    url: {url}\n```\n\n"
                  + f"来源：[blackmatrix7/ios_rule_script]({REPO}/blob/master/{source_path})；"
                  + f"[上游说明]({source_readme})。转换及合并由本项目执行，上游内容按 GPL-2.0 分发，"
                  + f"许可与来源记录见 [同步说明]({doc_link})。\n\n"
