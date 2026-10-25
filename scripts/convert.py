@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """将上游 Clash list 转为 Nodus；只写入合并结果，不保留手工原文。"""
-import argparse
 from collections import Counter
-from datetime import datetime, timezone, timedelta
 import ipaddress
+from merge import read_local, merge_conditions, RULE_PRIORITY
 import json
 import os
 from pathlib import Path
@@ -14,6 +13,7 @@ from urllib.parse import quote
 TYPES = ("domain", "domain-suffix", "domain-keyword", "ip-cidr", "geoip", "protocol", "port")
 REPO = "https://github.com/blackmatrix7/ios_rule_script"
 RAW = "https://raw.githubusercontent.com/teaoea/nodus-rules/main/"
+TEMPLATE_VERSION = 2
 UNSUPPORTED = {"PROCESS-NAME", "PROCESS-PATH", "IP-ASN", "DOMAIN-REGEX", "DOMAIN-WILDCARD",
                "URL-REGEX", "USER-AGENT", "AND", "OR", "NOT", "SRC-IP-CIDR", "SRC-PORT",
                "DST-PORT", "NETWORK", "RULE-SET", "GEOIP", "GEOSITE", "MATCH"}
@@ -34,7 +34,7 @@ def host(value):
 
 
 def convert(text):
-    rules, skipped = set(), []
+    rules, seen, skipped = [], set(), []
     input_count = duplicates = no_resolve = 0
     for number, raw in enumerate(text.splitlines(), 1):
         line = raw.strip()
@@ -69,8 +69,10 @@ def convert(text):
                     value = str(network)
                 target = "ip-cidr" if is_ip else kind.lower()
                 rule = f"{target},{value}"
-                duplicates += rule in rules
-                rules.add(rule)
+                duplicates += rule in seen
+                if rule not in seen:
+                    rules.append(rule)
+                    seen.add(rule)
                 no_resolve += len(parts) == 3
             except ValueError as exc:
                 reason = str(exc)
@@ -82,40 +84,9 @@ def convert(text):
                    "no_resolve_removed": no_resolve, "skipped": skipped}
 
 
-def read_local(path):
-    if not path.exists():
-        return set()
-    # 本仓库正文是单个 rules 字符串列表；不猜测其他 YAML 结构。
-    rules, found = set(), False
-    for raw in path.read_text(encoding="utf-8-sig").splitlines():
-        line = raw.strip()
-        if not line or line.startswith("#"):
-            continue
-        if line == "rules: []" and not found:
-            found = True
-            continue
-        if line == "rules:" and not found:
-            found = True
-        elif found and line.startswith("- "):
-            value = line[2:]
-            if value.startswith('"'):
-                value = json.loads(value)
-            elif value.startswith("'"):
-                if not value.endswith("'"):
-                    raise ValueError(f"本地 YAML 引号不完整：{path}")
-                value = value[1:-1].replace("''", "'")
-            if not isinstance(value, str) or value.split(",", 1)[0] not in TYPES:
-                raise ValueError(f"本地条件不符合 Nodus 格式：{path}")
-            rules.add(value)
-        else:
-            raise ValueError(f"本地文件结构无法安全合并：{path}")
-    if not found:
-        raise ValueError(f"本地文件缺少 rules：{path}")
-    return rules
-
 
 def render(name, rules, date):
-    ordered = sorted(rules, key=lambda r: (TYPES.index(r.split(",", 1)[0]), r))
+    ordered = sorted(rules, key=lambda r: RULE_PRIORITY.index(r.split(",", 1)[0]))
     counts = Counter(r.split(",", 1)[0] for r in ordered)
     lines = [f"# 名称：{name}", f"# 来源核对日期：{date}", f"# 规则总数：{len(ordered)}"]
     lines += [f"# {kind}: {counts[kind]}" for kind in TYPES]
@@ -140,7 +111,7 @@ def write_changed(path, content):
     temporary.replace(path)
 
 
-def prepare(source, root, date):
+def prepare(source, root, date, additions=None):
     upstream = source / "rule/Clash"
     sources = sorted(upstream.rglob("*.list"))
     if not sources or not (source / "LICENSE").is_file():
@@ -149,6 +120,16 @@ def prepare(source, root, date):
     planned, report, entries = {}, {}, []
     old_report = root / "rules/sync-report.json"
     previous = json.loads(old_report.read_text()).get("collections", {}) if old_report.exists() else {}
+    history = subprocess.check_output([
+        "git", "-C", str(source), "log", "--format=@@%cI", "--name-only", "--no-renames", "--", "rule/Clash"
+    ], text=True)
+    last_dates = {}
+    last_date = None
+    for line in history.splitlines():
+        if line.startswith("@@"):
+            last_date = line[2:]
+        elif line.endswith(".list") and last_date:
+            last_dates.setdefault(line, last_date)
     for file in sources:
         relative = file.parent.relative_to(upstream)
         name = file.stem
@@ -157,31 +138,47 @@ def prepare(source, root, date):
         target = folder / (stem + ".yaml")
         if target in planned:
             raise ValueError(f"上游名称映射冲突：{target}")
-        rules, detail = convert(file.read_text(encoding="utf-8-sig"))
-        rules |= read_local(target)
+        text = file.read_text(encoding="utf-8-sig")
+        source_key = str(file.relative_to(source))
+        upstream_date = last_dates.get(source_key)
+        if not upstream_date:
+            raise ValueError(f"无法取得上游 Last commit date：{source_key}；需要完整提交历史")
+        old_detail = previous.get(source_key, {})
+        new_conditions = (additions or {}).get(str(file.relative_to(upstream)), set())
+        if (old_detail.get("upstream_last_commit_date") == upstream_date
+                and target.is_file()
+                and old_detail.get("template_version") == TEMPLATE_VERSION
+                and (folder / "README.md").is_file()
+                and not new_conditions.difference(read_local(target))):
+            report[source_key] = {key: value for key, value in old_detail.items() if key != "merged_alias"}
+            entries.append((relative.as_posix(), RAW + quote(str(target.relative_to(root)), safe="/")))
+            continue
+        rules, detail = convert(text)
+        merge_stats = {}
+        rules = merge_conditions(read_local(target), rules, (additions or {}).get(str(file.relative_to(upstream)), set()), stats=merge_stats)
+        detail["merge"] = merge_stats
         # 只迁移旧转换记录明确登记的自动 -direct 文件；手工 -direct 文件不参与重命名。
         old_output = previous.get(str(file.relative_to(source)), {}).get("output")
         alias = folder / (stem + "-direct.yaml")
         if old_output == str(alias.relative_to(root)) and alias.exists():
-            rules |= read_local(alias)
+            rules = merge_conditions(rules, read_local(alias))
             detail["merged_alias"] = str(alias.relative_to(root))
         body = render(name, rules, date).encode()
         planned[target] = body
-        readme = file.with_name("README.md")
-        if not readme.is_file():
-            raise ValueError(f"上游集合缺少 README：{relative}")
-        planned[folder / "README.upstream.md"] = readme.read_bytes()
         url = RAW + quote(str(target.relative_to(root)), safe="/")
         source_path = quote(str(file.relative_to(source)), safe="/")
+        source_readme = REPO + "/blob/master/" + quote(str(file.with_name("README.md").relative_to(source)), safe="/")
         doc_link = quote(os.path.relpath(root / "scripts/README.md", folder), safe="/")
         report_link = quote(os.path.relpath(root / "rules/sync-report.json", folder), safe="/")
         marker = f"upstream-sync:{target.name}"
         block = (f"<!-- {marker}:start -->\n"
-                 "采用 Nodus `rules:` 格式，"
-                 + "导入后按需要选择策略；正文不附带策略。\n\n"
+                 "1. 复制下方 URL。\n"
+                 + "2. 在支持 Nodus 规则集的应用中添加远程规则集，粘贴 URL。\n"
+                 + "3. 选择直连或已配置的代理节点，启用并保存，再下载／加载规则。\n\n"
+                 + f"格式：Nodus `rules:`；同步时间：{date}。\n\n"
                  + f"```text\n{url}\n```\n\n"
                  + f"来源：[blackmatrix7/ios_rule_script]({REPO}/blob/master/{source_path})；"
-                 + "[上游说明原文](README.upstream.md)。转换及合并由本项目执行，上游原文按 GPL-2.0 分发，"
+                 + f"[上游说明]({source_readme})。转换及合并由本项目执行，上游内容按 GPL-2.0 分发，"
                  + f"许可与来源记录见 [同步说明]({doc_link})。\n\n"
                  + f"转换后共 {len(rules)} 条；未转换 {len(detail['skipped'])} 条，"
                  + f"详见 [转换记录]({report_link})。不支持的条件不作等价替换；"
@@ -189,7 +186,8 @@ def prepare(source, root, date):
                  + f"<!-- {marker}:end -->")
         destination_readme = folder / "README.md"
         old = (planned[destination_readme].decode() if destination_readme in planned
-               else destination_readme.read_text() if destination_readme.exists() else f"# {relative.name}\n")
+               else destination_readme.read_text() if destination_readme.exists() else "")
+        old = re.sub(r"\A# " + re.escape(relative.name) + r"\s*\n+", "", old)
         if "<!-- upstream-sync:start -->" in old:
             old = re.sub(r"<!-- upstream-sync:start -->.*?<!-- upstream-sync:end -->", lambda _: block, old, flags=re.S)
         elif f"<!-- {marker}:start -->" in old:
@@ -199,7 +197,9 @@ def prepare(source, root, date):
             old = old.rstrip() + "\n\n" + block + "\n"
         planned[destination_readme] = old.encode()
         detail.update({"output": str(target.relative_to(root)), "rules": len(rules),
-                       "bytes": len(body), "exceeds_current_core": len(body) > 8*1024*1024 or len(rules) > 100000})
+                       "bytes": len(body), "exceeds_current_core": len(body) > 8*1024*1024 or len(rules) > 100000,
+                       "upstream_last_commit_date": upstream_date,
+                       "template_version": TEMPLATE_VERSION})
         report[str(file.relative_to(source))] = detail
         entries.append((relative.as_posix(), url))
     planned[root / "ThirdParty/ios_rule_script/LICENSE"] = (source / "LICENSE").read_bytes()
@@ -207,28 +207,10 @@ def prepare(source, root, date):
     revision = subprocess.check_output(["git", "-C", str(source), "rev-parse", "HEAD"], text=True).strip()
     planned[root / "rules/sync-report.json"] = (json.dumps({"upstream": REPO, "revision": revision,
         "date": date, "collections": report}, ensure_ascii=False, indent=2) + "\n").encode()
-    index = "# 自动同步规则集合\n\n目录及集合划分以上游为准；每份规则集单独合并去重，同一文件夹可包含多份规则集，并同步上游 README。\n\n"
+    index = "# 自动同步规则集合\n\n目录及集合划分以上游为准；每份规则集单独合并去重，同一文件夹可包含多份规则集，上游说明以链接引用，不保存副本。\n\n"
     index += "\n".join(f"- [{name}]({quote(name, safe='/')}/README.md)：[远程规则]({url})" for name, url in entries) + "\n"
     planned[root / "rules/README.md"] = index.encode()
     return planned, report
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--source", type=Path, required=True)
-    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
-    parser.add_argument("--date", default=datetime.now(timezone(timedelta(hours=8))).date().isoformat())
-    args = parser.parse_args()
-    planned, report = prepare(args.source, args.root, args.date)
-    for path, data in planned.items():
-        write_changed(path, data)
-    for detail in report.values():
-        if "merged_alias" in detail:
-            (args.root / detail["merged_alias"]).unlink()
-    print(json.dumps({"collections": len(report), "rules": sum(r["rules"] for r in report.values()),
-        "skipped": sum(len(r["skipped"]) for r in report.values()),
-        "exceeds_current_core": sum(r["exceeds_current_core"] for r in report.values())}, ensure_ascii=False))
 
-
-if __name__ == "__main__":
-    main()
