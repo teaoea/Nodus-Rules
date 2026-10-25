@@ -177,7 +177,7 @@ def prepare(source, root, date):
         report_link = quote(os.path.relpath(root / "rules/sync-report.json", folder), safe="/")
         marker = f"upstream-sync:{target.name}"
         block = (f"<!-- {marker}:start -->\n"
-                 f"## {target.name} 上游同步\n\n采用 Nodus `rules:` 格式，"
+                 "采用 Nodus `rules:` 格式，"
                  + "导入后按需要选择策略；正文不附带策略。\n\n"
                  + f"```text\n{url}\n```\n\n"
                  + f"来源：[blackmatrix7/ios_rule_script]({REPO}/blob/master/{source_path})；"
@@ -186,8 +186,6 @@ def prepare(source, root, date):
                  + f"转换后共 {len(rules)} 条；未转换 {len(detail['skipped'])} 条，"
                  + f"详见 [转换记录]({report_link})。不支持的条件不作等价替换；"
                  + "`no-resolve` 无对应选项，IP 条件保留但此选项不保留。\n\n"
-                 + "大集合保持单文件，当前 Core 的 8 MiB 正文及 100,000 条限制可能导致拒绝加载；"
-                 + "容量支持待 Core 完成。含后缀／关键词的集合用于 `reject` 时这些条目会被 Core 忽略。\n"
                  + f"<!-- {marker}:end -->")
         destination_readme = folder / "README.md"
         old = (planned[destination_readme].decode() if destination_readme in planned
