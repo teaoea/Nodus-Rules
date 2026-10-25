@@ -14,6 +14,14 @@ OWNERSHIP = {
     "Claude": {
         "roots": ["anthropic.com", "claude.ai", "claude.app", "claude.com", "claudemcpcontent.com", "claudeusercontent.com"],
         "telemetry": ["browser-intake-us5-datadoghq.com", "http-intake.logs.us5.datadoghq.com", "cdn.usefathom.com"],
+        # 已核实的规则直接参与每次合并，不依赖轮询搜索或搜索摘要命中。
+        "verified_rules": [
+            "domain-suffix,anthropic.com", "domain-suffix,claude.ai",
+            "domain-suffix,claude.app", "domain-suffix,claude.com",
+            "domain-suffix,claudemcpcontent.com", "domain-suffix,claudeusercontent.com",
+            "domain,browser-intake-us5-datadoghq.com",
+            "domain,http-intake.logs.us5.datadoghq.com", "domain,cdn.usefathom.com",
+        ],
         "evidence": ["https://code.claude.com/docs/en/network-config", "https://code.claude.com/docs/en/desktop#network-access-requirements", "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Claude/Claude.list"],
     },
     "OpenAI": {
@@ -70,6 +78,18 @@ def discover(source, root, timestamp, limit=24, budget_seconds=90, search=public
     cursor = state.get("next_index", 0) % max(len(files), 1)
     reports = dict(state.get("collections", {}))
     additions = {}
+    verified = {}
+    for file in files:
+        policy = OWNERSHIP.get(file.stem, {})
+        rules = set(policy.get("verified_rules", []))
+        if not rules or not policy.get("evidence"):
+            continue
+        if any(rule.split(",", 1)[0] not in {"domain", "domain-suffix"}
+               or not approved_candidate(file.stem, rule.split(",", 1)[1]) for rule in rules):
+            raise ValueError("已核实规则超出集合归属范围")
+        key = file.relative_to(source / "rule/Clash").as_posix()
+        additions[key] = rules
+        verified[key] = {"rules": sorted(rules), "evidence": policy["evidence"]}
     started = time.monotonic()
     attempted = 0
     # 全部集合轮询；每次有请求数量和时长上限，不为“全网”发起无界爬取。
@@ -83,7 +103,7 @@ def discover(source, root, timestamp, limit=24, budget_seconds=90, search=public
             candidates, sources = search(file.stem)
             accepted = sorted(x for x in candidates if approved_candidate(file.stem, x))
             # 精确主机匹配，不将某个第三方服务自动扩大为整个根域。
-            additions[relative + "/" + file.name] = {"domain," + domain for domain in accepted}
+            additions.setdefault(relative + "/" + file.name, set()).update("domain," + domain for domain in accepted)
             detail.update({"status": "checked" if file.stem in OWNERSHIP else "needs_ownership_evidence",
                            "sources": sources, "candidates": sorted(candidates)[:100],
                            "accepted": accepted, "ownership_evidence": OWNERSHIP.get(file.stem, {}).get("evidence", [])})
@@ -95,4 +115,5 @@ def discover(source, root, timestamp, limit=24, budget_seconds=90, search=public
         time.sleep(0.25)
     return additions, {"engine": "Bing public RSS", "checked_at": timestamp,
                        "next_index": (cursor + attempted) % max(len(files), 1),
-                       "attempted": attempted, "total_collections": len(files), "collections": reports}
+                       "attempted": attempted, "total_collections": len(files),
+                       "verified_additions": verified, "collections": reports}
