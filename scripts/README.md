@@ -1,6 +1,6 @@
 # 上游规则自动同步
 
-GitHub Actions 每天新加坡时间 04:23 运行，也可在 Actions 中手动运行“同步 Nodus 规则集”。需要仓库允许 `GITHUB_TOKEN` 写入内容；受保护分支若禁止机器人直接推送，任务会报错，不会绕过保护。工作流提交到 `main` 后才会启用，本地配置完成不代表线上任务已经运行。
+GitHub Actions 每天新加坡时间（UTC+8）00:00 和 12:00 运行，也可在 Actions 中手动运行“同步 Nodus 规则集”。需要仓库允许 `GITHUB_TOKEN` 写入内容；受保护分支若禁止机器人直接推送，任务会报错，不会绕过保护。工作流提交到 `main` 后才会启用，本地配置完成不代表线上任务已经运行。
 
 仅在公开仓库运行，使用标准 `ubuntu-latest` 托管运行器；不使用大型运行器、付费外部服务、Actions 缓存或上传构建产物。按 [GitHub 当前计费规则](https://docs.github.com/en/billing/concepts/product-billing/github-actions)，公开仓库的标准运行器免费。仓库转为私有或缺少公开可见性信息时整项任务跳过；仅每日定时及手动触发，定时任务遇到上游提交未变化时跳过转换和提交。GitHub 将来的政策变化不在本项目控制范围内。
 

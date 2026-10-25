@@ -3,7 +3,7 @@ name: 同步 Nodus 规则集
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 20 * * *'
+    - cron: '0 4,16 * * *'
 
 permissions:
   contents: write
