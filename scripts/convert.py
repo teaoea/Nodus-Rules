@@ -13,7 +13,7 @@ from urllib.parse import quote
 TYPES = ("domain", "domain-suffix", "domain-keyword", "ip-cidr", "geoip", "protocol", "port")
 REPO = "https://github.com/blackmatrix7/ios_rule_script"
 RAW = "https://raw.githubusercontent.com/teaoea/nodus-rules/main/"
-TEMPLATE_VERSION = 4
+TEMPLATE_VERSION = 6
 UNSUPPORTED = {"PROCESS-NAME", "PROCESS-PATH", "IP-ASN", "DOMAIN-REGEX", "DOMAIN-WILDCARD",
                "URL-REGEX", "USER-AGENT", "AND", "OR", "NOT", "SRC-IP-CIDR", "SRC-PORT",
                "DST-PORT", "NETWORK", "RULE-SET", "GEOIP", "GEOSITE", "MATCH"}
@@ -91,7 +91,7 @@ def render(name, rules, date):
     lines = [f"# 名称：{name}", f"# 来源核对日期：{date}", f"# 规则总数：{len(ordered)}"]
     lines += [f"# {kind}: {counts[kind]}" for kind in TYPES]
     lines += ["rules:" if ordered else "rules: []"]
-    lines += ["  - " + json.dumps(r, ensure_ascii=False) for r in ordered]
+    lines += ["  - " + r for r in ordered]
     return "\n".join(lines) + "\n"
 
 
@@ -165,6 +165,7 @@ def prepare(source, root, date, additions=None):
             detail["merged_alias"] = str(alias.relative_to(root))
         body = render(name, rules, date).encode()
         if (target.is_file() and old_detail.get("upstream_last_commit_date") == upstream_date
+                and old_detail.get("template_version") == TEMPLATE_VERSION
                 and set(rules) == set(read_local(target))):
             body = target.read_bytes()
         planned[target] = body
@@ -182,17 +183,8 @@ def prepare(source, root, date, additions=None):
                  + f"许可与来源记录见 [同步说明]({doc_link})。\n\n"
                  + f"<!-- {marker}:end -->")
         destination_readme = folder / "README.md"
-        old = (planned[destination_readme].decode() if destination_readme in planned
-               else destination_readme.read_text() if destination_readme.exists() else "")
-        old = re.sub(r"\A# " + re.escape(relative.name) + r"\s*\n+", "", old)
-        if "<!-- upstream-sync:start -->" in old:
-            old = re.sub(r"<!-- upstream-sync:start -->.*?<!-- upstream-sync:end -->", lambda _: block, old, flags=re.S)
-        elif f"<!-- {marker}:start -->" in old:
-            old = re.sub(re.escape(f"<!-- {marker}:start -->") + r".*?" + re.escape(f"<!-- {marker}:end -->"),
-                         lambda _: block, old, flags=re.S)
-        else:
-            old = old.rstrip() + "\n\n" + block + "\n"
-        planned[destination_readme] = old.encode()
+        existing = planned.get(destination_readme, b"").decode()
+        planned[destination_readme] = (existing.rstrip() + "\n\n" + block + "\n").lstrip("\n").encode()
         detail.update({"output": str(target.relative_to(root)), "rules": len(rules),
                        "bytes": len(body), "exceeds_current_core": len(body) > 8*1024*1024 or len(rules) > 100000,
                        "upstream_last_commit_date": upstream_date,

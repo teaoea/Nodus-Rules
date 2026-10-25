@@ -26,3 +26,5 @@ python3 scripts/sync.py --source .upstream --discover
 上游 checkout 必须保留完整提交历史（`fetch-depth: 0`），才能正确取得每个文件的 Last commit date；不应使用浅层 HEAD 日期代替。依赖仅 Python 标准库。全部转换准备成功后才写入；写入失败不会在 Actions 中提交发布。自动同步仍需仓库允许机器人写入内容。
 
 本项目与上游统一按 [GPL-2.0](../LICENSE) 分发，来源和感谢信息保留；脚本维护直接在 GitHub 完成，全量输出在 Actions 云端生成。
+
+集合 README 生成时按模板直接覆盖，不保留其中的手工内容。运行期间远程分支变化导致推送失败时，在临时运行器读取最新 main、重新生成后重试，最多三次；不强推、不回退远程历史。
