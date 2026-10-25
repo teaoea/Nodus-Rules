@@ -1,0 +1,64 @@
+name: 同步 Nodus 规则集
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 20 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-nodus-rules
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    # 仓库转为私有或可见性信息缺失时跳过，不消耗私有仓库的付费分钟。
+    if: github.event.repository.private == false && github.event.repository.visibility == 'public'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: 读取本仓库
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: main
+      - name: 读取上游规则及说明
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          repository: blackmatrix7/ios_rule_script
+          ref: master
+          path: .upstream
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /LICENSE
+            /rule/Clash/**/*.list
+            /rule/Clash/**/README.md
+      - name: 检查上游是否变化
+        id: upstream
+        run: |
+          current=$(git -C .upstream rev-parse HEAD)
+          previous=$(python3 -c 'import json,pathlib; p=pathlib.Path("rules/sync-report.json"); print(json.loads(p.read_text()).get("revision", "") if p.exists() else "")')
+          if [ "$GITHUB_EVENT_NAME" = schedule ] && [ "$current" = "$previous" ]; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: 验证转换器
+        if: steps.upstream.outputs.changed == 'true'
+        run: python3 -m unittest discover -s tests -v
+      - name: 转换及合并全部规则集
+        if: steps.upstream.outputs.changed == 'true'
+        run: python3 scripts/sync_rules.py --source .upstream
+      - name: 提交生成内容
+        if: steps.upstream.outputs.changed == 'true'
+        run: |
+          git add -- rules/ LICENSE ThirdParty/ios_rule_script/LICENSE
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m '同步上游规则集并转换为 Nodus 格式'
+          git push origin HEAD:main
