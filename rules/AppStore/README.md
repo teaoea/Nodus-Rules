@@ -1,5 +1,5 @@
 <!-- upstream-sync:AppStore.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/AppStore/AppStore.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/AppStore/AppStor
 
 ```yaml
 rule-providers:
-  - name: "AppStore"
+  - name: AppStore
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/AppStore/AppStore.yaml
 ```
 

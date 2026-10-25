@@ -1,5 +1,5 @@
 <!-- upstream-sync:XianYu.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/XianYu/XianYu.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/XianYu/XianYu.ya
 
 ```yaml
 rule-providers:
-  - name: "XianYu"
+  - name: XianYu
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/XianYu/XianYu.yaml
 ```
 

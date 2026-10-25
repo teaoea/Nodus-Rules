@@ -1,5 +1,5 @@
 <!-- upstream-sync:QingCloud.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/QingCloud/QingCloud.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/QingCloud/QingCl
 
 ```yaml
 rule-providers:
-  - name: "QingCloud"
+  - name: QingCloud
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/QingCloud/QingCloud.yaml
 ```
 

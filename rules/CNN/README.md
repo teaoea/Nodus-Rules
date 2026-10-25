@@ -1,5 +1,5 @@
 <!-- upstream-sync:CNN.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/CNN/CNN.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/CNN/CNN.yaml
 
 ```yaml
 rule-providers:
-  - name: "CNN"
+  - name: CNN
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/CNN/CNN.yaml
 ```
 

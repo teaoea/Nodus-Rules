@@ -1,5 +1,5 @@
 <!-- upstream-sync:DigiCert.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/DigiCert/DigiCert.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/DigiCert/DigiCer
 
 ```yaml
 rule-providers:
-  - name: "DigiCert"
+  - name: DigiCert
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/DigiCert/DigiCert.yaml
 ```
 

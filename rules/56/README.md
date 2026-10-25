@@ -1,5 +1,5 @@
 <!-- upstream-sync:56.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/56/56.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/56/56.yaml
 
 ```yaml
 rule-providers:
-  - name: "56"
+  - name: 56
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/56/56.yaml
 ```
 

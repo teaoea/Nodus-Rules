@@ -1,5 +1,5 @@
 <!-- upstream-sync:Ku6.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Ku6/Ku6.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Ku6/Ku6.yaml
 
 ```yaml
 rule-providers:
-  - name: "Ku6"
+  - name: Ku6
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Ku6/Ku6.yaml
 ```
 

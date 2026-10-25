@@ -1,5 +1,5 @@
 <!-- upstream-sync:Camera360.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Camera360/Camera360.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Camera360/Camera
 
 ```yaml
 rule-providers:
-  - name: "Camera360"
+  - name: Camera360
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Camera360/Camera360.yaml
 ```
 

@@ -1,5 +1,5 @@
 <!-- upstream-sync:GoogleVoice.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/GoogleVoice/GoogleVoice.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/GoogleVoice/Goog
 
 ```yaml
 rule-providers:
-  - name: "GoogleVoice"
+  - name: GoogleVoice
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/GoogleVoice/GoogleVoice.yaml
 ```
 

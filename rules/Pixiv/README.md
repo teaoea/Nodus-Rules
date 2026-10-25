@@ -1,5 +1,5 @@
 <!-- upstream-sync:Pixiv.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Pixiv/Pixiv.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Pixiv/Pixiv.yaml
 
 ```yaml
 rule-providers:
-  - name: "Pixiv"
+  - name: Pixiv
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Pixiv/Pixiv.yaml
 ```
 

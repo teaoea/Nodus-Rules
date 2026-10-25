@@ -1,5 +1,5 @@
 <!-- upstream-sync:Verisign.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Verisign/Verisign.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Verisign/Verisig
 
 ```yaml
 rule-providers:
-  - name: "Verisign"
+  - name: Verisign
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Verisign/Verisign.yaml
 ```
 

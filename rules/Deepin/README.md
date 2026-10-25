@@ -1,5 +1,5 @@
 <!-- upstream-sync:Deepin.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Deepin/Deepin.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Deepin/Deepin.ya
 
 ```yaml
 rule-providers:
-  - name: "Deepin"
+  - name: Deepin
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Deepin/Deepin.yaml
 ```
 

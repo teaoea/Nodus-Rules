@@ -1,5 +1,5 @@
 <!-- upstream-sync:NaSDDNS.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/NaSDDNS/NaSDDNS.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/NaSDDNS/NaSDDNS.
 
 ```yaml
 rule-providers:
-  - name: "NaSDDNS"
+  - name: NaSDDNS
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/NaSDDNS/NaSDDNS.yaml
 ```
 

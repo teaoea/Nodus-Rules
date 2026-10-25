@@ -1,5 +1,5 @@
 <!-- upstream-sync:Python.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Python/Python.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Python/Python.ya
 
 ```yaml
 rule-providers:
-  - name: "Python"
+  - name: Python
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Python/Python.yaml
 ```
 

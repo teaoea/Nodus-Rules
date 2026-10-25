@@ -1,5 +1,5 @@
 <!-- upstream-sync:UCloud.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/UCloud/UCloud.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/UCloud/UCloud.ya
 
 ```yaml
 rule-providers:
-  - name: "UCloud"
+  - name: UCloud
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/UCloud/UCloud.yaml
 ```
 

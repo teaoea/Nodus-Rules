@@ -1,5 +1,5 @@
 <!-- upstream-sync:FOXPlus.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/FOXPlus/FOXPlus.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/FOXPlus/FOXPlus.
 
 ```yaml
 rule-providers:
-  - name: "FOXPlus"
+  - name: FOXPlus
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/FOXPlus/FOXPlus.yaml
 ```
 

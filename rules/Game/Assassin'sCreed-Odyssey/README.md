@@ -1,5 +1,5 @@
 <!-- upstream-sync:Assassin-sCreed-Odyssey.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Game/Assassin%27sCreed-Odyssey/Assassin-sCreed-Odyssey.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Game/Assassin%27
 
 ```yaml
 rule-providers:
-  - name: "Assassin-sCreed-Odyssey"
+  - name: Assassin-sCreed-Odyssey
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Game/Assassin%27sCreed-Odyssey/Assassin-sCreed-Odyssey.yaml
 ```
 

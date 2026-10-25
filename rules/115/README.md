@@ -1,5 +1,5 @@
 <!-- upstream-sync:115.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/115/115.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/115/115.yaml
 
 ```yaml
 rule-providers:
-  - name: "115"
+  - name: 115
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/115/115.yaml
 ```
 

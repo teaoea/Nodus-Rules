@@ -1,7 +1,7 @@
 # 名称：Apple
-# 来源核对日期：2026-10-25 17:59 UTC
-# 规则总数：1575
-# domain: 9
+# 来源核对日期：2026-10-25 18:01 UTC
+# 规则总数：1581
+# domain: 15
 # domain-suffix: 1551
 # domain-keyword: 2
 # ip-cidr: 13
@@ -18,6 +18,12 @@ rules:
   - domain,icons.axm-usercontent-apple.com
   - domain,lookup-api.apple.com.edgekey.net
   - domain,p-events-delivery.akamaized.net
+  - domain,account.apple.com
+  - domain,apps.apple.com
+  - domain,asw.apple.com
+  - domain,music.apple.com
+  - domain,support.apple.com
+  - domain,www.apple.com
   - domain-suffix,100beatscheap.com
   - domain-suffix,12diasdepresentesdeitunes.com
   - domain-suffix,12diasderegalosdeitunes.cl

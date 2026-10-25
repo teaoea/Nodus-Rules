@@ -1,5 +1,5 @@
 <!-- upstream-sync:KKBOX.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/KKBOX/KKBOX.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/KKBOX/KKBOX.yaml
 
 ```yaml
 rule-providers:
-  - name: "KKBOX"
+  - name: KKBOX
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/KKBOX/KKBOX.yaml
 ```
 

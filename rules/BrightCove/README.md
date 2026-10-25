@@ -1,5 +1,5 @@
 <!-- upstream-sync:BrightCove.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/BrightCove/BrightCove.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/BrightCove/Brigh
 
 ```yaml
 rule-providers:
-  - name: "BrightCove"
+  - name: BrightCove
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/BrightCove/BrightCove.yaml
 ```
 

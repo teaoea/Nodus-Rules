@@ -1,5 +1,5 @@
 <!-- upstream-sync:AMP.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/AMP/AMP.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/AMP/AMP.yaml
 
 ```yaml
 rule-providers:
-  - name: "AMP"
+  - name: AMP
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/AMP/AMP.yaml
 ```
 

@@ -1,5 +1,5 @@
 <!-- upstream-sync:Crypto.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Crypto/Crypto.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Crypto/Crypto.ya
 
 ```yaml
 rule-providers:
-  - name: "Crypto"
+  - name: Crypto
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Crypto/Crypto.yaml
 ```
 

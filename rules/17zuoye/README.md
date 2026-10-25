@@ -1,5 +1,5 @@
 <!-- upstream-sync:17zuoye.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/17zuoye/17zuoye.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/17zuoye/17zuoye.
 
 ```yaml
 rule-providers:
-  - name: "17zuoye"
+  - name: 17zuoye
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/17zuoye/17zuoye.yaml
 ```
 

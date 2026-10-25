@@ -1,5 +1,5 @@
 <!-- upstream-sync:51Job.yaml:start -->
-同步时间：2026-10-25 17:59 UTC
+同步时间：2026-10-25 18:01 UTC
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/51Job/51Job.yaml
@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/51Job/51Job.yaml
 
 ```yaml
 rule-providers:
-  - name: "51Job"
+  - name: 51Job
     url: https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/51Job/51Job.yaml
 ```
 
