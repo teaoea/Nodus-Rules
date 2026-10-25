@@ -1,6 +1,6 @@
 # 自动同步规则集合
 
-目录及集合划分以上游为准；每份规则集单独合并去重，同一文件夹可包含多份规则集，并同步上游 README。
+目录及集合划分以上游为准；每份规则集单独合并去重，同一文件夹可包含多份规则集，上游说明以链接引用，不保存副本。
 
 - [115](115/README.md)：[远程规则](https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/115/115.yaml)
 - [12306](12306/README.md)：[远程规则](https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/12306/12306.yaml)

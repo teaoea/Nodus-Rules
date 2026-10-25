@@ -1,8 +1,8 @@
 # 名称：Proxy
-# 来源核对日期：2026-10-25
-# 规则总数：6965
+# 来源核对日期：2026-10-25 17:44 UTC
+# 规则总数：6963
 # domain: 9
-# domain-suffix: 6830
+# domain-suffix: 6828
 # domain-keyword: 26
 # ip-cidr: 100
 # geoip: 0
@@ -3128,7 +3128,6 @@ rules:
   - "domain-suffix,jkb.cc"
   - "domain-suffix,jkforum.net"
   - "domain-suffix,jkub.com"
-  - "domain-suffix,jma.go.jp"
   - "domain-suffix,jmscult.com"
   - "domain-suffix,joachims.org"
   - "domain-suffix,jobso.tv"
@@ -4087,7 +4086,6 @@ rules:
   - "domain-suffix,nowtorrents.com"
   - "domain-suffix,noxinfluencer.com"
   - "domain-suffix,noypf.com"
-  - "domain-suffix,npa.go.jp"
   - "domain-suffix,npnt.me"
   - "domain-suffix,nps.gov"
   - "domain-suffix,npsboost.com"

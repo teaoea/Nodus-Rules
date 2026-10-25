@@ -1,7 +1,7 @@
 # 名称：115
-# 来源核对日期：2026-10-25
-# 规则总数：10
-# domain: 1
+# 来源核对日期：2026-10-25 17:44 UTC
+# 规则总数：14
+# domain: 5
 # domain-suffix: 9
 # domain-keyword: 0
 # ip-cidr: 0
@@ -10,6 +10,10 @@
 # port: 0
 rules:
   - "domain,fhnfile.oss-cn-shenzhen.aliyuncs.com"
+  - "domain,115.com"
+  - "domain,aq.115.com"
+  - "domain,f.115.com"
+  - "domain,my.115.com"
   - "domain-suffix,115.com"
   - "domain-suffix,115cdn.com"
   - "domain-suffix,115cdn.net"

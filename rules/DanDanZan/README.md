@@ -1,17 +1,16 @@
-# DanDanZan
-
 <!-- upstream-sync:DanDanZan.yaml:start -->
-## DanDanZan.yaml 上游同步
+1. 复制下方 URL。
+2. 在支持 Nodus 规则集的应用中添加远程规则集，粘贴 URL。
+3. 选择直连或已配置的代理节点，启用并保存，再下载／加载规则。
 
-采用 Nodus `rules:` 格式，导入后按需要选择策略；正文不附带策略。
+格式：Nodus `rules:`；同步时间：2026-10-25 17:44 UTC。
 
 ```text
 https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/DanDanZan/DanDanZan.yaml
 ```
 
-来源：[blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/DanDanZan/DanDanZan.list)；[上游说明原文](README.upstream.md)。转换及合并由本项目执行，上游原文按 GPL-2.0 分发，许可与来源记录见 [同步说明](../../scripts/README.md)。
+来源：[blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/DanDanZan/DanDanZan.list)；[上游说明](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/DanDanZan/README.md)。转换及合并由本项目执行，上游内容按 GPL-2.0 分发，许可与来源记录见 [同步说明](../../scripts/README.md)。
 
 转换后共 7 条；未转换 0 条，详见 [转换记录](../sync-report.json)。不支持的条件不作等价替换；`no-resolve` 无对应选项，IP 条件保留但此选项不保留。
 
-大集合保持单文件，当前 Core 的 8 MiB 正文及 100,000 条限制可能导致拒绝加载；容量支持待 Core 完成。含后缀／关键词的集合用于 `reject` 时这些条目会被 Core 忽略。
 <!-- upstream-sync:DanDanZan.yaml:end -->
