@@ -21,9 +21,7 @@
 
 ## 上游与感谢
 
-本项目参考并同步 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)，转换为 Nodus 格式。
-
-感谢 blackmatrix7、该项目贡献者及其引用的规则作者。具体来源链接保留在各集合 README 中。
+本项目参考并同步 [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)，感谢 blackmatrix7、该项目贡献者及其引用的规则作者。
 
 ## 开源协议
 
