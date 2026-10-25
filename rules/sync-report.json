@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "00d82f6c6c374abb947fabc9c1b69f2a22e71dbc",
-  "date": "2026-10-25 18:11 UTC",
+  "date": "2026-10-25 18:18 UTC",
   "collections": {
     "rule/Clash/115/115.list": {
       "input": 10,
@@ -8737,14 +8737,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 3,
+        "duplicates": 6,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Claude/Claude.yaml",
-      "rules": 3,
-      "bytes": 276,
+      "rules": 9,
+      "bytes": 503,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 8
@@ -19052,10 +19052,30 @@
   },
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-25 18:11 UTC",
-    "next_index": 120,
+    "checked_at": "2026-10-25 18:18 UTC",
+    "next_index": 144,
     "attempted": 24,
     "total_collections": 689,
+    "verified_additions": {
+      "Claude/Claude.list": {
+        "rules": [
+          "domain,browser-intake-us5-datadoghq.com",
+          "domain,cdn.usefathom.com",
+          "domain,http-intake.logs.us5.datadoghq.com",
+          "domain-suffix,anthropic.com",
+          "domain-suffix,claude.ai",
+          "domain-suffix,claude.app",
+          "domain-suffix,claude.com",
+          "domain-suffix,claudemcpcontent.com",
+          "domain-suffix,claudeusercontent.com"
+        ],
+        "evidence": [
+          "https://code.claude.com/docs/en/network-config",
+          "https://code.claude.com/docs/en/desktop#network-access-requirements",
+          "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Claude/Claude.list"
+        ]
+      }
+    },
     "collections": {
       "115/115.list": {
         "checked_at": "2026-10-25 17:44 UTC",
@@ -22328,6 +22348,659 @@
           "microsoft.com",
           "www.bing.com",
           "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Blizzard/Blizzard.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "Blizzard",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.blizzard.com/",
+          "https://us.shop.battle.net/en-us",
+          "https://www.blizzard.com/login",
+          "https://download.battle.net/en-us/desktop",
+          "https://worldofwarcraft.blizzard.com/en-us/",
+          "https://en.wikipedia.org/wiki/Blizzard_Entertainment",
+          "https://overwatch.blizzard.com/en-us/",
+          "https://www.blizzard.com/en-us/games",
+          "https://gear.blizzard.com/"
+        ],
+        "candidates": [
+          "battle.net",
+          "download.battle.net",
+          "en.wikipedia.org",
+          "gear.blizzard.com",
+          "overwatch.blizzard.com",
+          "us.shop.battle.net",
+          "worldofwarcraft.blizzard.com",
+          "www.blizzard.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BlockHttpDNS/BlockHttpDNS.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "BlockHttpDNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Marcus_Jones_(cornerback)",
+          "https://www.espn.com/nfl/player/_/id/4241720/marcus-jones",
+          "https://www.pro-football-reference.com/players/J/JoneMa06.htm",
+          "https://en.wikipedia.org/wiki/Marcus_Jones_(athlete)",
+          "https://www.patriots.com/team/players-roster/marcus-jones/",
+          "https://www.youtube.com/@Marcus-Jones",
+          "https://247sports.com/player/marcus-jones-46161519/"
+        ],
+        "candidates": [
+          "247sports.com",
+          "en.wikipedia.org",
+          "patriots.com",
+          "pro-football-reference.com",
+          "www.espn.com",
+          "www.patriots.com",
+          "www.pro-football-reference.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Bloomberg/Bloomberg.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "Bloomberg",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bloomberg.com/",
+          "https://www.bloomberg.com/markets",
+          "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+          "https://www.bloomberg.com/\"/\"",
+          "https://www.bloomberg.com/live/us",
+          "https://www.bloomberg.com/markets/stocks"
+        ],
+        "candidates": [
+          "bba.bloomberg.net",
+          "bloomberg.com",
+          "en.wikipedia.org",
+          "www.bloomberg.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Blued/Blued.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "Blued",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.blued.cn/",
+          "https://en.wikipedia.org/wiki/Blued_(app)",
+          "https://play.google.com/store/apps/details?id=com.blued.international&hl=en&gl=vn",
+          "https://apkpure.com/blued-gay-chat-social/com.soft.blued",
+          "https://blue-city-holdings-co-ltd-blued.en.aptoide.com/app",
+          "https://www.blued.cn/download.html",
+          "https://mylive.blued.cn/",
+          "https://appsplayground.com/blued-pc-2/",
+          "https://zh.wikipedia.org/wiki/Blued",
+          "https://www.heesay.com/en/"
+        ],
+        "candidates": [
+          "apkpure.com",
+          "appsplayground.com",
+          "blue-city-holdings-co-ltd-blued.en.aptoide.com",
+          "en.wikipedia.org",
+          "mylive.blued.cn",
+          "play.google.com",
+          "www.blued.cn",
+          "www.heesay.com",
+          "zh.wikipedia.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BoXun/BoXun.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "BoXun",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nytimes.com/games/wordle/index.html",
+          "https://www.nytimes.com/spotlight/wordle-review",
+          "https://www.nytimes.com/puzzles/tiles",
+          "https://help.nytimes.com/115010905707-Log-in-to-Your-New-York-Times-Account",
+          "https://www.nytimes.com/games/strands",
+          "https://www.nytimes.com/2026/03/25/crosswords/wordle-review-1741.html",
+          "https://www.nytimes.com/puzzles/spelling-bee/hub",
+          "https://help.nytimes.com/24611727334932-Wordle",
+          "https://www.nytimes.com/crosswords/game/midi",
+          "https://www.nytimes.com/2026/10/22/crosswords/wordle-review-1952.html"
+        ],
+        "candidates": [
+          "help.nytimes.com",
+          "www.nytimes.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Bootcss/Bootcss.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "Bootcss",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bk.com/store-locator",
+          "https://www.storeopeninghours.com/burger-king-oakleaf-town-center-jacksonville-fl",
+          "https://www.yelp.com/search?find_desc=burger+king&find_loc=4647+Town+Center+Pkwy%2C+Jacksonville%2C+FL+32246",
+          "https://bigcityjax.com/restaurants/burger-king-jacksonville-614533",
+          "https://www.bk.com/locations",
+          "https://www.mallsinamerica.com/florida/oakleaf-town-center/burger-king",
+          "https://storestip.com/store-locator/burger-king/united-states/florida/jacksonville",
+          "https://www.storeopeninghours.com/burger-king-towne-center-boulevard-sanford-fl",
+          "https://www.burgerfi.com/location/us/fl/jacksonville-st-john-town-center/",
+          "https://www.hopdoddy.com/locations/jacksonville"
+        ],
+        "candidates": [
+          "bigcityjax.com",
+          "storestip.com",
+          "www.bk.com",
+          "www.burgerfi.com",
+          "www.hopdoddy.com",
+          "www.mallsinamerica.com",
+          "www.storeopeninghours.com",
+          "www.yelp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BrightCove/BrightCove.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "BrightCove",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.brightcove.com/",
+          "https://signin.brightcove.com/",
+          "https://www.brightcove.com/company/about",
+          "https://en.wikipedia.org/wiki/Brightcove",
+          "https://www.brightcove.com/gen-2",
+          "https://www.brightcove.com/products/live-streaming",
+          "https://support.brightcove.com/support/index.html",
+          "https://www.linkedin.com/company/brightcove",
+          "https://supportportal.brightcove.com/s/",
+          "https://general.support.brightcove.com/general/brightcove-product-overview.html"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "general.support.brightcove.com",
+          "signin.brightcove.com",
+          "support.brightcove.com",
+          "supportportal.brightcove.com",
+          "www.brightcove.com",
+          "www.linkedin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BritboxUK/BritboxUK.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "BritboxUK",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://support.google.com/youtubetv/?hl=en",
+          "https://support.google.com/youtube/answer/12466883?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://obsproject.com/forum/resources/youtube-chat-transparent-background-solely-css.486/",
+          "https://obsproject.com/forum/tags/youtube/",
+          "https://support.google.com/youtube/answer/6083634?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtube/answer/10801543?hl=en",
+          "https://support.google.com/youtube/answer/13887963?hl=en",
+          "https://support.google.com/youtube/answer/161805?hl=tr&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtube/answer/16758081?hl=en-GB",
+          "https://obsproject.com/forum/resources/speechchat-for-twitch-youtube-mixer-etc.372/"
+        ],
+        "candidates": [
+          "obsproject.com",
+          "support.google.com",
+          "www.speechchat.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Buypass/Buypass.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "Buypass",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.buypass.com/",
+          "https://www.buypass.com/login",
+          "https://buypass.ai/",
+          "https://www.buypass.no/",
+          "https://www.buypass.com/the-company",
+          "https://www.buypass.com/help",
+          "https://www.buypass.com/products/id-and-authentication",
+          "https://www.buypass.com/the-company/contact-customer-support",
+          "https://thenorwayguide.com/get-buypass/"
+        ],
+        "candidates": [
+          "buypass.ai",
+          "buypass.com",
+          "buypass.us",
+          "thenorwayguide.com",
+          "www.buypass.com",
+          "www.buypass.no"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ByteDance/ByteDance.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "ByteDance",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bytedance.com/en/",
+          "https://en.wikipedia.org/wiki/ByteDance",
+          "https://www.bytedance.com/en/products",
+          "https://seed.bytedance.com/en/",
+          "https://joinbytedance.com/",
+          "https://www.byteplus.com/en",
+          "https://ai.byteplus.com/lumina/en",
+          "https://seed.bytedance.com/en/seedance",
+          "https://www.britannica.com/money/ByteDance",
+          "https://stockanalysis.com/private/bytedance/"
+        ],
+        "candidates": [
+          "ai.byteplus.com",
+          "en.wikipedia.org",
+          "joinbytedance.com",
+          "seed.bytedance.com",
+          "stockanalysis.com",
+          "www.britannica.com",
+          "www.bytedance.com",
+          "www.byteplus.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CAS/CAS.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CAS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cas.org/cas-data/cas-registry",
+          "https://www.casact.org/",
+          "https://www.cas.org/",
+          "https://commonchemistry.cas.org/",
+          "https://en.wikipedia.org/wiki/CAS_Registry_Number",
+          "https://www.cas.sk/",
+          "https://casbenefits.com/"
+        ],
+        "candidates": [
+          "casbenefits.com",
+          "commonchemistry.cas.org",
+          "en.wikipedia.org",
+          "www.cas.org",
+          "www.cas.sk",
+          "www.casact.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CBS/CBS.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CBS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cbs.com/",
+          "https://www.cbs.com/shows/",
+          "https://www.cbsnews.com/",
+          "https://www.cbssports.com/",
+          "https://en.m.wikipedia.org/wiki/CBS",
+          "https://www.cbsnews.com/us/",
+          "https://en.m.wikipedia.org/wiki/List_of_programs_broadcast_by_CBS",
+          "https://www.youtube.com/CBS/videos",
+          "https://help.cbs.com/s/article/Where-can-I-stream-CBS-shows",
+          "https://www.cbs.com/live-tv/stream/tveverywhere/"
+        ],
+        "candidates": [
+          "cbs.com",
+          "en.m.wikipedia.org",
+          "help.cbs.com",
+          "www.cbs.com",
+          "www.cbsnews.com",
+          "www.cbssports.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CCB/CCB.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CCB",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://ccb.vermont.gov/",
+          "https://ccb.vermont.gov/medical",
+          "https://www.oregon.gov/CCB/Pages/default.aspx",
+          "https://en.wikipedia.org/wiki/CCB",
+          "https://ccv.edu/",
+          "https://ccb.vermont.gov/licenses",
+          "https://ccb.vermont.gov/med-dispensaries",
+          "https://ccb.vermont.gov/news",
+          "https://ccb.vermont.gov/guidance",
+          "https://ccb.vermont.gov/FAQ"
+        ],
+        "candidates": [
+          "ccb.info",
+          "ccb.med",
+          "ccb.vermont.gov",
+          "ccv.edu",
+          "en.wikipedia.org",
+          "vermont.gov",
+          "www.oregon.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CCTV/CCTV.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CCTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Closed-circuit_television",
+          "https://tv.cctv.com/",
+          "https://english.cctv.com/",
+          "https://www.cctvsecuritypros.com/",
+          "https://en.wikipedia.org/wiki/Closed-circuit_television_camera",
+          "https://opencctv.org/",
+          "https://www.cctv.com/english/live/"
+        ],
+        "candidates": [
+          "cctv.com",
+          "en.wikipedia.org",
+          "english.cctv.com",
+          "opencctv.org",
+          "tv.cctv.com",
+          "www.cctv.com",
+          "www.cctvsecuritypros.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CEB/CEB.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CEB",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ceb.com/",
+          "https://research.ceb.com/login",
+          "https://www.ceb.org/",
+          "https://www.ceb.org/conf2026/",
+          "https://www.cebupacificair.com/",
+          "https://store.ceb.com/collections/practice-books",
+          "https://www.ceb.com/ceb-search/",
+          "https://www.ceb.lk/",
+          "https://en.wikipedia.org/wiki/CEB_Inc.",
+          "https://payment.ceb.lk/instantpay"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "payment.ceb.lk",
+          "research.ceb.com",
+          "store.ceb.com",
+          "www.ceb.com",
+          "www.ceb.lk",
+          "www.ceb.org",
+          "www.cebupacificair.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CETV/CETV.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CETV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bunkerbranding.com/pages/smilemore",
+          "https://store.steampowered.com/app/4467540/Smile_More/",
+          "https://pixelpoxet.itch.io/smile-more",
+          "https://www.bunkerbranding.com/collections/smile-more",
+          "https://pixelpoxet.itch.io/smile-more/devlog/1420761/smile-more-update",
+          "https://romanatwoodmerch.com/",
+          "https://www.smilemoremealprep.com/",
+          "https://steamcommunity.com/app/4467540/",
+          "https://www.youtube.com/@romanatwoodvlogs",
+          "https://www.facebook.com/p/Smile-More-Laundry-Tan-61560058747191/"
+        ],
+        "candidates": [
+          "bunkerbranding.com",
+          "pixelpoxet.itch.io",
+          "romanatwoodmerch.com",
+          "steamcommunity.com",
+          "store.steampowered.com",
+          "www.bunkerbranding.com",
+          "www.facebook.com",
+          "www.smilemoremealprep.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CGB/CGB.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CGB",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://cgb.com/",
+          "https://cgbgrain.com/",
+          "https://www.cgbfr.com/",
+          "https://www.cgbgiftware.co.uk/",
+          "https://cgb.com/find-us/",
+          "https://www.eaton.com/content/dam/eaton/products/conduit-cable-and-wire-management/crouse-hinds/catalog-pages/crouse-hinds-cgb-cge-cgfp-catalog-page.pdf",
+          "https://cgbgrain.com/cash-bids/",
+          "https://cgb.agricharts.com/",
+          "https://careers.cgb.com/",
+          "https://www.youtube.com/@covertgoblue"
+        ],
+        "candidates": [
+          "careers.cgb.com",
+          "cgb.agricharts.com",
+          "cgb.com",
+          "cgb.fr",
+          "cgbgrain.com",
+          "www.cgbfr.com",
+          "www.cgbgiftware.co.uk",
+          "www.eaton.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CHT/CHT.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CHT",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cht.com/en/",
+          "https://htcc.org/find-a-cht",
+          "https://m.chatgpt.com/",
+          "https://www.getahome.org/",
+          "https://www.cht.com/en/products-solutions",
+          "https://htcc.org/",
+          "https://cht.gov.in/",
+          "https://www.chatgpt.com/auth/ext_callback",
+          "https://www.chthealthcare.com/",
+          "https://www.getahome.org/find-a-home/"
+        ],
+        "candidates": [
+          "cht.gov.in",
+          "htcc.org",
+          "m.chatgpt.com",
+          "www.chatgpt.com",
+          "www.cht.com",
+          "www.chthealthcare.com",
+          "www.getahome.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CIBN/CIBN.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CIBN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cibng.org/",
+          "https://portal.cibng.org/cb_login.asp",
+          "https://new.cibng.org/",
+          "https://www.cibng.org/membership-categories/",
+          "https://cibnus.org/",
+          "https://en.wikipedia.org/wiki/Chartered_Institute_of_Bankers_of_Nigeria",
+          "https://thecibn.com/"
+        ],
+        "candidates": [
+          "cibnus.org",
+          "en.wikipedia.org",
+          "new.cibng.org",
+          "portal.cibng.org",
+          "thecibn.com",
+          "www.cibng.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CKJR/CKJR.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CKJR",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://studentaid.gov/fsa-id/sign-in",
+          "https://studentaid.gov/",
+          "https://aidvantage.studentaid.gov/",
+          "https://studentaid.gov/help-center/contact",
+          "https://studentaid.gov/manage-loans/forgiveness-cancellation/disability-discharge",
+          "https://studentaid.gov/loan-consolidation/",
+          "https://cri.studentaid.gov/content/yourstudentloanservicer",
+          "https://nelnet.studentaid.gov/account/agreements",
+          "https://mohela.studentaid.gov/",
+          "https://studentaid.gov/borrower-defense/"
+        ],
+        "candidates": [
+          "aidvantage.studentaid.gov",
+          "cri.studentaid.gov",
+          "mohela.studentaid.gov",
+          "nelnet.studentaid.gov",
+          "studentaid.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CMB/CMB.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CMB",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.m.wikipedia.org/wiki/Cosmic_microwave_background",
+          "https://www.allmenus.com/oh/cleveland/502745-cmb-soul-food/menu/",
+          "https://www.custommadebetter.com/",
+          "https://online.cmbnv.com/",
+          "https://cmbsoulfood216.com/",
+          "https://www.coffeemeetsbagel.com/",
+          "https://www.cmbinfo.com/",
+          "https://restaurantguru.com/Cmb-Soulfood-Cleveland",
+          "https://www.thisiscleveland.com/locations/cmb-soul-food",
+          "https://www.restaurantji.com/oh/cleveland/cmb-soul-food-/"
+        ],
+        "candidates": [
+          "cmbsoulfood216.com",
+          "en.m.wikipedia.org",
+          "online.cmbnv.com",
+          "restaurantguru.com",
+          "thisiscleveland.com",
+          "www.allmenus.com",
+          "www.cmbinfo.com",
+          "www.coffeemeetsbagel.com",
+          "www.custommadebetter.com",
+          "www.restaurantji.com",
+          "www.thisiscleveland.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CNKI/CNKI.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CNKI",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://c61.oversea.cnki.net/",
+          "https://www.cnki.net/index",
+          "https://cnki.net/",
+          "https://chn.oversea.cnki.net/index/",
+          "https://x.cnki.net/",
+          "https://xs.cnki.net/",
+          "https://tr.oversea.cnki.net/",
+          "https://en.wikipedia.org/wiki/CNKI"
+        ],
+        "candidates": [
+          "c61.oversea.cnki.net",
+          "chn.oversea.cnki.net",
+          "cnki.net",
+          "en.wikipedia.org",
+          "lib.kmyz.edu.cn",
+          "service.cnki.net",
+          "tr.oversea.cnki.net",
+          "www.cnki-net.com.cn",
+          "www.cnki.net",
+          "x.cnki.net",
+          "xs.cnki.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CNN/CNN.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CNN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cnn.com/",
+          "https://www.cnn.com/us",
+          "https://cnnespanol.cnn.com/",
+          "https://en.wikipedia.org/wiki/CNN",
+          "https://www.youtube.com/cnn",
+          "https://www.facebook.com/cnn/",
+          "https://us.cnn.com/video/live/live.html",
+          "https://www.cnn.com/world",
+          "https://www.cnn.com/videos/live",
+          "https://www.cnn.com/index2.html"
+        ],
+        "candidates": [
+          "cnn.com",
+          "cnnespanol.cnn.com",
+          "en.wikipedia.org",
+          "us.cnn.com",
+          "www.cnn.com",
+          "www.facebook.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CNNIC/CNNIC.list": {
+        "checked_at": "2026-10-25 18:18 UTC",
+        "name": "CNNIC",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.mandolincafe.com/tab/jerusalem.txt",
+          "https://www.mandolincafe.com/tab/cherokeeshuffle.txt",
+          "https://www.logicprohelp.com/forums/topic/131065-musescore-into-logic/",
+          "https://www.logicprohelp.com/forums/topic/161301-anyway-to-sync-logic-and-musescore-4/",
+          "https://answers.microsoft.com/en-us/windows/forum/all/blue-screen-crashes-for-windows-10-when-i-play/e1e4f7a4-faf1-4314-b7b8-ee03b2b74270",
+          "https://www.answers.microsoft.com/zh-hans/windows/forum/all/ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â½win8ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°/d8c51abf-b863-4da3-9596-797deace59f7",
+          "https://www.mandolincafe.com/tab/evermore.txt",
+          "https://www.mandolincafe.com/tab/bach.txt",
+          "https://www.mandolincafe.com/tab/goldenslippers.txt",
+          "https://www.logicprohelp.com/forums/topic/78366-midi-keyboard-plays-2-notes-at-the-same-time-solved/"
+        ],
+        "candidates": [
+          "answers.microsoft.com",
+          "logicprohelp.com",
+          "www.answers.microsoft.com",
+          "www.led-zeppelin.org",
+          "www.logicprohelp.com",
+          "www.mandolincafe.com"
         ],
         "accepted": [],
         "ownership_evidence": []
