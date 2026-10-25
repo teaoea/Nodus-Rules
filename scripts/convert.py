@@ -202,7 +202,6 @@ def prepare(source, root, date, additions=None):
                        "template_version": TEMPLATE_VERSION})
         report[str(file.relative_to(source))] = detail
         entries.append((relative.as_posix(), url))
-    planned[root / "ThirdParty/ios_rule_script/LICENSE"] = (source / "LICENSE").read_bytes()
     planned[root / "LICENSE"] = (source / "LICENSE").read_bytes()
     revision = subprocess.check_output(["git", "-C", str(source), "rev-parse", "HEAD"], text=True).strip()
     planned[root / "rules/sync-report.json"] = (json.dumps({"upstream": REPO, "revision": revision,
