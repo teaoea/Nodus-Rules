@@ -1,0 +1,31 @@
+# 名称：ChatGPT
+# 来源核对日期：2026-10-25
+# 规则总数：20
+# domain: 12
+# domain-suffix: 8
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - domain,cdn.openaimerge.com
+  - domain,cdn.workos.com
+  - domain,challenges.cloudflare.com
+  - domain,forwarder.workos.com
+  - domain,frontend-apps-multi-region.workos.com
+  - domain,images.workoscdn.com
+  - domain,js.stripe.com
+  - domain,o207216.ingest.sentry.io
+  - domain,o33249.ingest.sentry.io
+  - domain,rum.browser-intake-datadoghq.com
+  - domain,setup.workos.com
+  - domain,workos.imgix.net
+  - domain-suffix,chatgpt.com
+  - domain-suffix,ct.sendgrid.net
+  - domain-suffix,intercom.io
+  - domain-suffix,intercomcdn.com
+  - domain-suffix,oaistatic.com
+  - domain-suffix,oaistatsig.com
+  - domain-suffix,oaiusercontent.com
+  - domain-suffix,openai.com
