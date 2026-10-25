@@ -1,5 +1,5 @@
 # 名称：Vercel
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：27
 # domain: 0
 # domain-suffix: 27
@@ -9,30 +9,30 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,err.sh"
-  - "domain-suffix,hyper.is"
-  - "domain-suffix,nextjs.org"
-  - "domain-suffix,now.sh"
-  - "domain-suffix,static.fun"
-  - "domain-suffix,title.sh"
-  - "domain-suffix,turborepo.org"
-  - "domain-suffix,vercel-analytics.com"
-  - "domain-suffix,vercel-dns.com"
-  - "domain-suffix,vercel-insights.com"
-  - "domain-suffix,vercel-status.com"
-  - "domain-suffix,vercel.app"
-  - "domain-suffix,vercel.blog"
-  - "domain-suffix,vercel.com"
-  - "domain-suffix,vercel.events"
-  - "domain-suffix,vercel.link"
-  - "domain-suffix,vercel.live"
-  - "domain-suffix,vercel.pub"
-  - "domain-suffix,vercel.sh"
-  - "domain-suffix,vercel.store"
-  - "domain-suffix,zeit-world.co.uk"
-  - "domain-suffix,zeit-world.com"
-  - "domain-suffix,zeit-world.net"
-  - "domain-suffix,zeit-world.org"
-  - "domain-suffix,zeit.co"
-  - "domain-suffix,zeit.sh"
-  - "domain-suffix,zeitworld.com"
+  - domain-suffix,err.sh
+  - domain-suffix,hyper.is
+  - domain-suffix,nextjs.org
+  - domain-suffix,now.sh
+  - domain-suffix,static.fun
+  - domain-suffix,title.sh
+  - domain-suffix,turborepo.org
+  - domain-suffix,vercel-analytics.com
+  - domain-suffix,vercel-dns.com
+  - domain-suffix,vercel-insights.com
+  - domain-suffix,vercel-status.com
+  - domain-suffix,vercel.app
+  - domain-suffix,vercel.blog
+  - domain-suffix,vercel.com
+  - domain-suffix,vercel.events
+  - domain-suffix,vercel.link
+  - domain-suffix,vercel.live
+  - domain-suffix,vercel.pub
+  - domain-suffix,vercel.sh
+  - domain-suffix,vercel.store
+  - domain-suffix,zeit-world.co.uk
+  - domain-suffix,zeit-world.com
+  - domain-suffix,zeit-world.net
+  - domain-suffix,zeit-world.org
+  - domain-suffix,zeit.co
+  - domain-suffix,zeit.sh
+  - domain-suffix,zeitworld.com

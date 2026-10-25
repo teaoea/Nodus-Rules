@@ -1,5 +1,5 @@
 # 名称：AliPay
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：21
 # domain: 0
 # domain-suffix: 21
@@ -9,24 +9,24 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,alipay"
-  - "domain-suffix,alipay-corp.com"
-  - "domain-suffix,alipay-eco.com"
-  - "domain-suffix,alipay-inc.com"
-  - "domain-suffix,alipay-traffic.com"
-  - "domain-suffix,alipay.cn"
-  - "domain-suffix,alipay.com"
-  - "domain-suffix,alipay.com.cn"
-  - "domain-suffix,alipay.hk"
-  - "domain-suffix,alipay.net"
-  - "domain-suffix,alipaydesign.com"
-  - "domain-suffix,alipaydev.com"
-  - "domain-suffix,alipaydns.com"
-  - "domain-suffix,alipayeshop.com"
-  - "domain-suffix,alipaylog.com"
-  - "domain-suffix,alipaymo.com"
-  - "domain-suffix,alipayobjects.com"
-  - "domain-suffix,alipayplus.com"
-  - "domain-suffix,ifaa.org.cn"
-  - "domain-suffix,luohanacademy.com"
-  - "domain-suffix,sinopayment.com.cn"
+  - domain-suffix,alipay
+  - domain-suffix,alipay-corp.com
+  - domain-suffix,alipay-eco.com
+  - domain-suffix,alipay-inc.com
+  - domain-suffix,alipay-traffic.com
+  - domain-suffix,alipay.cn
+  - domain-suffix,alipay.com
+  - domain-suffix,alipay.com.cn
+  - domain-suffix,alipay.hk
+  - domain-suffix,alipay.net
+  - domain-suffix,alipaydesign.com
+  - domain-suffix,alipaydev.com
+  - domain-suffix,alipaydns.com
+  - domain-suffix,alipayeshop.com
+  - domain-suffix,alipaylog.com
+  - domain-suffix,alipaymo.com
+  - domain-suffix,alipayobjects.com
+  - domain-suffix,alipayplus.com
+  - domain-suffix,ifaa.org.cn
+  - domain-suffix,luohanacademy.com
+  - domain-suffix,sinopayment.com.cn

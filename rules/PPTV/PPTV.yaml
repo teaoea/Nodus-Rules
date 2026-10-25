@@ -1,5 +1,5 @@
 # 名称：PPTV
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：19
 # domain: 0
 # domain-suffix: 19
@@ -9,22 +9,22 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,bkrent.cn"
-  - "domain-suffix,g1d.net"
-  - "domain-suffix,iptv.com.cn"
-  - "domain-suffix,jiwunote.com.cn"
-  - "domain-suffix,kidkk.cn"
-  - "domain-suffix,kidpp.cn"
-  - "domain-suffix,kidsn.cn"
-  - "domain-suffix,kidyy.cn"
-  - "domain-suffix,pplive.cn"
-  - "domain-suffix,pplive.com"
-  - "domain-suffix,pplive.com.cn"
-  - "domain-suffix,pplive.net"
-  - "domain-suffix,pptv.com"
-  - "domain-suffix,pptvdata.com"
-  - "domain-suffix,pptvimg.com"
-  - "domain-suffix,pptvnet.com"
-  - "domain-suffix,pptvyun.com"
-  - "domain-suffix,snrent.cn"
-  - "domain-suffix,synacast.com"
+  - domain-suffix,bkrent.cn
+  - domain-suffix,g1d.net
+  - domain-suffix,iptv.com.cn
+  - domain-suffix,jiwunote.com.cn
+  - domain-suffix,kidkk.cn
+  - domain-suffix,kidpp.cn
+  - domain-suffix,kidsn.cn
+  - domain-suffix,kidyy.cn
+  - domain-suffix,pplive.cn
+  - domain-suffix,pplive.com
+  - domain-suffix,pplive.com.cn
+  - domain-suffix,pplive.net
+  - domain-suffix,pptv.com
+  - domain-suffix,pptvdata.com
+  - domain-suffix,pptvimg.com
+  - domain-suffix,pptvnet.com
+  - domain-suffix,pptvyun.com
+  - domain-suffix,snrent.cn
+  - domain-suffix,synacast.com

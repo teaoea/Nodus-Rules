@@ -1,5 +1,5 @@
 # 名称：MeiTu
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：4
 # domain: 0
 # domain-suffix: 4
@@ -9,7 +9,7 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,meipai.com"
-  - "domain-suffix,meitu.com"
-  - "domain-suffix,meitudata.com"
-  - "domain-suffix,meitustat.com"
+  - domain-suffix,meipai.com
+  - domain-suffix,meitu.com
+  - domain-suffix,meitudata.com
+  - domain-suffix,meitustat.com

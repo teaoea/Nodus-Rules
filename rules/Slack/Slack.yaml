@@ -1,5 +1,5 @@
 # 名称：Slack
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：11
 # domain: 0
 # domain-suffix: 11
@@ -9,14 +9,14 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,slack-core.com"
-  - "domain-suffix,slack-edge.com"
-  - "domain-suffix,slack-files.com"
-  - "domain-suffix,slack-imgs.com"
-  - "domain-suffix,slack-msgs.com"
-  - "domain-suffix,slack-redir.net"
-  - "domain-suffix,slack.com"
-  - "domain-suffix,slackb.com"
-  - "domain-suffix,slackcertified.com"
-  - "domain-suffix,slackdemo.com"
-  - "domain-suffix,slackhq.com"
+  - domain-suffix,slack-core.com
+  - domain-suffix,slack-edge.com
+  - domain-suffix,slack-files.com
+  - domain-suffix,slack-imgs.com
+  - domain-suffix,slack-msgs.com
+  - domain-suffix,slack-redir.net
+  - domain-suffix,slack.com
+  - domain-suffix,slackb.com
+  - domain-suffix,slackcertified.com
+  - domain-suffix,slackdemo.com
+  - domain-suffix,slackhq.com

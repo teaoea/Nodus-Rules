@@ -1,5 +1,5 @@
 # 名称：Zee
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：22
 # domain: 0
 # domain-suffix: 22
@@ -9,25 +9,25 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,bgr.in"
-  - "domain-suffix,bollywoodlife.com"
-  - "domain-suffix,careerfundas.com"
-  - "domain-suffix,cricketcountry.com"
-  - "domain-suffix,dnai.in"
-  - "domain-suffix,dnaindia.com"
-  - "domain-suffix,earngeek.com"
-  - "domain-suffix,ekhindi.com"
-  - "domain-suffix,ind.sh"
-  - "domain-suffix,india.com"
-  - "domain-suffix,indiancolleges.com"
-  - "domain-suffix,itripto.com"
-  - "domain-suffix,oncars.in"
-  - "domain-suffix,prepsure.com"
-  - "domain-suffix,thehealthsite.com"
-  - "domain-suffix,wionews.com"
-  - "domain-suffix,yo1health.com"
-  - "domain-suffix,zee.com"
-  - "domain-suffix,zeebiz.com"
-  - "domain-suffix,zeeentertainment.com"
-  - "domain-suffix,zeenews-fonts.s3.amazonaws.com"
-  - "domain-suffix,zeenews.com"
+  - domain-suffix,bgr.in
+  - domain-suffix,bollywoodlife.com
+  - domain-suffix,careerfundas.com
+  - domain-suffix,cricketcountry.com
+  - domain-suffix,dnai.in
+  - domain-suffix,dnaindia.com
+  - domain-suffix,earngeek.com
+  - domain-suffix,ekhindi.com
+  - domain-suffix,ind.sh
+  - domain-suffix,india.com
+  - domain-suffix,indiancolleges.com
+  - domain-suffix,itripto.com
+  - domain-suffix,oncars.in
+  - domain-suffix,prepsure.com
+  - domain-suffix,thehealthsite.com
+  - domain-suffix,wionews.com
+  - domain-suffix,yo1health.com
+  - domain-suffix,zee.com
+  - domain-suffix,zeebiz.com
+  - domain-suffix,zeeentertainment.com
+  - domain-suffix,zeenews-fonts.s3.amazonaws.com
+  - domain-suffix,zeenews.com

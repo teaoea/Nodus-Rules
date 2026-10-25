@@ -1,5 +1,5 @@
 # 名称：Viki
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：8
 # domain: 0
 # domain-suffix: 8
@@ -9,11 +9,11 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,kalhlspd-a.akamaihd.net"
-  - "domain-suffix,m-content-viki.s.llnwi.net"
-  - "domain-suffix,twemoji.maxcdn.com"
-  - "domain-suffix,viki.com"
-  - "domain-suffix,viki.io"
-  - "domain-suffix,viki.net"
-  - "domain-suffix,vikidash.akamaized.net"
-  - "domain-suffix,vikiplatform.com"
+  - domain-suffix,kalhlspd-a.akamaihd.net
+  - domain-suffix,m-content-viki.s.llnwi.net
+  - domain-suffix,twemoji.maxcdn.com
+  - domain-suffix,viki.com
+  - domain-suffix,viki.io
+  - domain-suffix,viki.net
+  - domain-suffix,vikidash.akamaized.net
+  - domain-suffix,vikiplatform.com

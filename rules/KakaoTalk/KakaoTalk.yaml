@@ -1,5 +1,5 @@
 # 名称：KakaoTalk
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：15
 # domain: 0
 # domain-suffix: 9
@@ -9,18 +9,18 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,daum.net"
-  - "domain-suffix,daumcdn.net"
-  - "domain-suffix,daumkakao.io"
-  - "domain-suffix,daumpotplayer.com"
-  - "domain-suffix,kakao.co.kr"
-  - "domain-suffix,kakao.com"
-  - "domain-suffix,kakaocdn.net"
-  - "domain-suffix,kakaocorp.com"
-  - "domain-suffix,potplayer.tv"
-  - "ip-cidr,1.201.0.0/24"
-  - "ip-cidr,103.246.56.0/22"
-  - "ip-cidr,103.27.148.0/22"
-  - "ip-cidr,110.76.140.0/22"
-  - "ip-cidr,113.61.104.0/22"
-  - "ip-cidr,27.0.236.0/22"
+  - domain-suffix,daum.net
+  - domain-suffix,daumcdn.net
+  - domain-suffix,daumkakao.io
+  - domain-suffix,daumpotplayer.com
+  - domain-suffix,kakao.co.kr
+  - domain-suffix,kakao.com
+  - domain-suffix,kakaocdn.net
+  - domain-suffix,kakaocorp.com
+  - domain-suffix,potplayer.tv
+  - ip-cidr,1.201.0.0/24
+  - ip-cidr,103.246.56.0/22
+  - ip-cidr,103.27.148.0/22
+  - ip-cidr,110.76.140.0/22
+  - ip-cidr,113.61.104.0/22
+  - ip-cidr,27.0.236.0/22

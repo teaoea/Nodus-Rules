@@ -1,5 +1,5 @@
 # 名称：JiGuangTuiSong
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：18
 # domain: 0
 # domain-suffix: 18
@@ -9,21 +9,21 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,42r.cn"
-  - "domain-suffix,5566ua.com"
-  - "domain-suffix,aurorapush.cn"
-  - "domain-suffix,e0n.cn"
-  - "domain-suffix,easytomessage.com"
-  - "domain-suffix,japps.cn"
-  - "domain-suffix,jchat.io"
-  - "domain-suffix,jiguang.cn"
-  - "domain-suffix,jmlk.co"
-  - "domain-suffix,jpush.cn"
-  - "domain-suffix,jpush.io"
-  - "domain-suffix,jpushoa.com"
-  - "domain-suffix,jsurvey.cn"
-  - "domain-suffix,jvoice.cn"
-  - "domain-suffix,kc9.cn"
-  - "domain-suffix,n0q.cn"
-  - "domain-suffix,pushcfg.com"
-  - "domain-suffix,s0n.cn"
+  - domain-suffix,42r.cn
+  - domain-suffix,5566ua.com
+  - domain-suffix,aurorapush.cn
+  - domain-suffix,e0n.cn
+  - domain-suffix,easytomessage.com
+  - domain-suffix,japps.cn
+  - domain-suffix,jchat.io
+  - domain-suffix,jiguang.cn
+  - domain-suffix,jmlk.co
+  - domain-suffix,jpush.cn
+  - domain-suffix,jpush.io
+  - domain-suffix,jpushoa.com
+  - domain-suffix,jsurvey.cn
+  - domain-suffix,jvoice.cn
+  - domain-suffix,kc9.cn
+  - domain-suffix,n0q.cn
+  - domain-suffix,pushcfg.com
+  - domain-suffix,s0n.cn

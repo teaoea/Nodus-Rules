@@ -1,5 +1,5 @@
 # 名称：KouDaiShiShang
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：22
 # domain: 0
 # domain-suffix: 22
@@ -9,25 +9,25 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,91ruyu.com"
-  - "domain-suffix,bibikan.cn"
-  - "domain-suffix,fang.xin"
-  - "domain-suffix,fangxin.com"
-  - "domain-suffix,geili.cn"
-  - "domain-suffix,geilicdn.com"
-  - "domain-suffix,kou6ai.cn"
-  - "domain-suffix,koudai.cn"
-  - "domain-suffix,koudai.com"
-  - "domain-suffix,v5.cc"
-  - "domain-suffix,vdian.com"
-  - "domain-suffix,wdfangyi.com"
-  - "domain-suffix,weidian-inc.com"
-  - "domain-suffix,weidian.cc"
-  - "domain-suffix,weidian.cn"
-  - "domain-suffix,weidian.com"
-  - "domain-suffix,weidianfans.com"
-  - "domain-suffix,xihuan.com.cn"
-  - "domain-suffix,youshop01.com"
-  - "domain-suffix,youshop02.com"
-  - "domain-suffix,youshop03.com"
-  - "domain-suffix,youshop04.com"
+  - domain-suffix,91ruyu.com
+  - domain-suffix,bibikan.cn
+  - domain-suffix,fang.xin
+  - domain-suffix,fangxin.com
+  - domain-suffix,geili.cn
+  - domain-suffix,geilicdn.com
+  - domain-suffix,kou6ai.cn
+  - domain-suffix,koudai.cn
+  - domain-suffix,koudai.com
+  - domain-suffix,v5.cc
+  - domain-suffix,vdian.com
+  - domain-suffix,wdfangyi.com
+  - domain-suffix,weidian-inc.com
+  - domain-suffix,weidian.cc
+  - domain-suffix,weidian.cn
+  - domain-suffix,weidian.com
+  - domain-suffix,weidianfans.com
+  - domain-suffix,xihuan.com.cn
+  - domain-suffix,youshop01.com
+  - domain-suffix,youshop02.com
+  - domain-suffix,youshop03.com
+  - domain-suffix,youshop04.com

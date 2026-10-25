@@ -1,5 +1,5 @@
 # 名称：ThomsonReuters
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：31
 # domain: 0
 # domain-suffix: 31
@@ -9,34 +9,34 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,aranzadi.es"
-  - "domain-suffix,corepublishingsolutions.com"
-  - "domain-suffix,elite.com"
-  - "domain-suffix,legaltracker.com"
-  - "domain-suffix,livrariart.com.br"
-  - "domain-suffix,reuters.com"
-  - "domain-suffix,reuters.tv"
-  - "domain-suffix,reutersagency.cn"
-  - "domain-suffix,reutersmedia.net"
-  - "domain-suffix,sweetandmaxwell.co.uk"
-  - "domain-suffix,thomsonreuters.ca"
-  - "domain-suffix,thomsonreuters.cn"
-  - "domain-suffix,thomsonreuters.co.jp"
-  - "domain-suffix,thomsonreuters.co.kr"
-  - "domain-suffix,thomsonreuters.co.nz"
-  - "domain-suffix,thomsonreuters.co.uk"
-  - "domain-suffix,thomsonreuters.com"
-  - "domain-suffix,thomsonreuters.com.ar"
-  - "domain-suffix,thomsonreuters.com.au"
-  - "domain-suffix,thomsonreuters.com.br"
-  - "domain-suffix,thomsonreuters.com.hk"
-  - "domain-suffix,thomsonreuters.com.my"
-  - "domain-suffix,thomsonreuters.com.pe"
-  - "domain-suffix,thomsonreuters.com.sg"
-  - "domain-suffix,thomsonreuters.com.tr"
-  - "domain-suffix,thomsonreuters.es"
-  - "domain-suffix,thomsonreuters.in"
-  - "domain-suffix,thomsonreuters.ru"
-  - "domain-suffix,thomsonreutersmexico.com"
-  - "domain-suffix,tmsnrt.rs"
-  - "domain-suffix,tr.com"
+  - domain-suffix,aranzadi.es
+  - domain-suffix,corepublishingsolutions.com
+  - domain-suffix,elite.com
+  - domain-suffix,legaltracker.com
+  - domain-suffix,livrariart.com.br
+  - domain-suffix,reuters.com
+  - domain-suffix,reuters.tv
+  - domain-suffix,reutersagency.cn
+  - domain-suffix,reutersmedia.net
+  - domain-suffix,sweetandmaxwell.co.uk
+  - domain-suffix,thomsonreuters.ca
+  - domain-suffix,thomsonreuters.cn
+  - domain-suffix,thomsonreuters.co.jp
+  - domain-suffix,thomsonreuters.co.kr
+  - domain-suffix,thomsonreuters.co.nz
+  - domain-suffix,thomsonreuters.co.uk
+  - domain-suffix,thomsonreuters.com
+  - domain-suffix,thomsonreuters.com.ar
+  - domain-suffix,thomsonreuters.com.au
+  - domain-suffix,thomsonreuters.com.br
+  - domain-suffix,thomsonreuters.com.hk
+  - domain-suffix,thomsonreuters.com.my
+  - domain-suffix,thomsonreuters.com.pe
+  - domain-suffix,thomsonreuters.com.sg
+  - domain-suffix,thomsonreuters.com.tr
+  - domain-suffix,thomsonreuters.es
+  - domain-suffix,thomsonreuters.in
+  - domain-suffix,thomsonreuters.ru
+  - domain-suffix,thomsonreutersmexico.com
+  - domain-suffix,tmsnrt.rs
+  - domain-suffix,tr.com

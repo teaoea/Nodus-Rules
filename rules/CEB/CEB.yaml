@@ -1,5 +1,5 @@
 # 名称：CEB
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：15
 # domain: 0
 # domain-suffix: 15
@@ -9,18 +9,18 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,cebbank.com"
-  - "domain-suffix,ceblease.com"
-  - "domain-suffix,eb-ind.com"
-  - "domain-suffix,ebasset.com"
-  - "domain-suffix,ebchina.com"
-  - "domain-suffix,ebchinaintl.com"
-  - "domain-suffix,ebf.com.cn"
-  - "domain-suffix,ebfcn.com"
-  - "domain-suffix,ebfortune.com"
-  - "domain-suffix,ebscn-am.com"
-  - "domain-suffix,ebscn.com"
-  - "domain-suffix,ebtrust.com"
-  - "domain-suffix,everbright.com"
-  - "domain-suffix,secec.com"
-  - "domain-suffix,sunlife-everbright.com"
+  - domain-suffix,cebbank.com
+  - domain-suffix,ceblease.com
+  - domain-suffix,eb-ind.com
+  - domain-suffix,ebasset.com
+  - domain-suffix,ebchina.com
+  - domain-suffix,ebchinaintl.com
+  - domain-suffix,ebf.com.cn
+  - domain-suffix,ebfcn.com
+  - domain-suffix,ebfortune.com
+  - domain-suffix,ebscn-am.com
+  - domain-suffix,ebscn.com
+  - domain-suffix,ebtrust.com
+  - domain-suffix,everbright.com
+  - domain-suffix,secec.com
+  - domain-suffix,sunlife-everbright.com

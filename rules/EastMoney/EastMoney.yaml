@@ -1,5 +1,5 @@
 # 名称：EastMoney
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：33
 # domain: 0
 # domain-suffix: 33
@@ -9,36 +9,36 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,1234567.com.cn"
-  - "domain-suffix,18.cn"
-  - "domain-suffix,18.com.cn"
-  - "domain-suffix,95021.com"
-  - "domain-suffix,caifutong.com.cn"
-  - "domain-suffix,caimi.cn"
-  - "domain-suffix,caimi.com.cn"
-  - "domain-suffix,dfcfs.cn"
-  - "domain-suffix,dfcfs.com"
-  - "domain-suffix,dfcfw.com"
-  - "domain-suffix,dingqibao.cn"
-  - "domain-suffix,dingqibao.com"
-  - "domain-suffix,dingqibao.com.cn"
-  - "domain-suffix,dongfanglicaishi.com"
-  - "domain-suffix,eastmoney.com"
-  - "domain-suffix,eastmoneyfutures.com"
-  - "domain-suffix,emsec.hk"
-  - "domain-suffix,guba.com.cn"
-  - "domain-suffix,haitunzhibo.com"
-  - "domain-suffix,huoqibao.cn"
-  - "domain-suffix,huoqibao.com"
-  - "domain-suffix,huoqibao.com.cn"
-  - "domain-suffix,langke.tv"
-  - "domain-suffix,samacn.org.cn"
-  - "domain-suffix,tiantianfunds.cn"
-  - "domain-suffix,txjhqh.com"
-  - "domain-suffix,uufund.cn"
-  - "domain-suffix,uufund.com"
-  - "domain-suffix,xzsec.com"
-  - "domain-suffix,zhaiba.com"
-  - "domain-suffix,zhongcaisuo.cn"
-  - "domain-suffix,zhongcaisuo.com"
-  - "domain-suffix,zhongcaisuo.com.cn"
+  - domain-suffix,1234567.com.cn
+  - domain-suffix,18.cn
+  - domain-suffix,18.com.cn
+  - domain-suffix,95021.com
+  - domain-suffix,caifutong.com.cn
+  - domain-suffix,caimi.cn
+  - domain-suffix,caimi.com.cn
+  - domain-suffix,dfcfs.cn
+  - domain-suffix,dfcfs.com
+  - domain-suffix,dfcfw.com
+  - domain-suffix,dingqibao.cn
+  - domain-suffix,dingqibao.com
+  - domain-suffix,dingqibao.com.cn
+  - domain-suffix,dongfanglicaishi.com
+  - domain-suffix,eastmoney.com
+  - domain-suffix,eastmoneyfutures.com
+  - domain-suffix,emsec.hk
+  - domain-suffix,guba.com.cn
+  - domain-suffix,haitunzhibo.com
+  - domain-suffix,huoqibao.cn
+  - domain-suffix,huoqibao.com
+  - domain-suffix,huoqibao.com.cn
+  - domain-suffix,langke.tv
+  - domain-suffix,samacn.org.cn
+  - domain-suffix,tiantianfunds.cn
+  - domain-suffix,txjhqh.com
+  - domain-suffix,uufund.cn
+  - domain-suffix,uufund.com
+  - domain-suffix,xzsec.com
+  - domain-suffix,zhaiba.com
+  - domain-suffix,zhongcaisuo.cn
+  - domain-suffix,zhongcaisuo.com
+  - domain-suffix,zhongcaisuo.com.cn

@@ -1,5 +1,5 @@
 # 名称：ZhihuAds
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：5
 # domain: 3
 # domain-suffix: 0
@@ -9,8 +9,8 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain,appcloud2.in.zhihu.com"
-  - "domain,mqtt.zhihu.com"
-  - "domain,sugar.zhihu.com"
-  - "ip-cidr,118.89.204.198/32"
-  - "ip-cidr,2402:4e00:1200:ed00:0:9089:6dac:96b6/128"
+  - domain,appcloud2.in.zhihu.com
+  - domain,mqtt.zhihu.com
+  - domain,sugar.zhihu.com
+  - ip-cidr,118.89.204.198/32
+  - ip-cidr,2402:4e00:1200:ed00:0:9089:6dac:96b6/128

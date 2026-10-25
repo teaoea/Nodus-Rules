@@ -1,5 +1,5 @@
 # 名称：BOC
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：22
 # domain: 0
 # domain-suffix: 22
@@ -9,25 +9,25 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,bank-of-china.com"
-  - "domain-suffix,bankofchina.com"
-  - "domain-suffix,boc.cn"
-  - "domain-suffix,bocamchina.com"
-  - "domain-suffix,bocaviation.com"
-  - "domain-suffix,boccfc.cc"
-  - "domain-suffix,boccfc.cn"
-  - "domain-suffix,bocfullertonbank.com"
-  - "domain-suffix,bocgi.com"
-  - "domain-suffix,bocgins.com"
-  - "domain-suffix,bochk.com"
-  - "domain-suffix,bochkonline.com"
-  - "domain-suffix,bocichina.cn"
-  - "domain-suffix,bocichina.com"
-  - "domain-suffix,bocichina.com.cn"
-  - "domain-suffix,bocifunds.cn"
-  - "domain-suffix,bocifunds.com"
-  - "domain-suffix,bocifunds.com.cn"
-  - "domain-suffix,bocigroup.com"
-  - "domain-suffix,bocim.com"
-  - "domain-suffix,bocservices.com.cn"
-  - "domain-suffix,ftcwifi.com"
+  - domain-suffix,bank-of-china.com
+  - domain-suffix,bankofchina.com
+  - domain-suffix,boc.cn
+  - domain-suffix,bocamchina.com
+  - domain-suffix,bocaviation.com
+  - domain-suffix,boccfc.cc
+  - domain-suffix,boccfc.cn
+  - domain-suffix,bocfullertonbank.com
+  - domain-suffix,bocgi.com
+  - domain-suffix,bocgins.com
+  - domain-suffix,bochk.com
+  - domain-suffix,bochkonline.com
+  - domain-suffix,bocichina.cn
+  - domain-suffix,bocichina.com
+  - domain-suffix,bocichina.com.cn
+  - domain-suffix,bocifunds.cn
+  - domain-suffix,bocifunds.com
+  - domain-suffix,bocifunds.com.cn
+  - domain-suffix,bocigroup.com
+  - domain-suffix,bocim.com
+  - domain-suffix,bocservices.com.cn
+  - domain-suffix,ftcwifi.com

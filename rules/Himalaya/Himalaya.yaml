@@ -1,5 +1,5 @@
 # 名称：Himalaya
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：17
 # domain: 0
 # domain-suffix: 17
@@ -9,20 +9,20 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,9nali.com"
-  - "domain-suffix,conchdate.com"
-  - "domain-suffix,himalaya.com"
-  - "domain-suffix,himalaya.cool"
-  - "domain-suffix,qingxuetang.com"
-  - "domain-suffix,soundconch.com"
-  - "domain-suffix,tableauxmly.com"
-  - "domain-suffix,xima.tv"
-  - "domain-suffix,ximalaya.com"
-  - "domain-suffix,ximalaya.fm"
-  - "domain-suffix,ximalaya.tv"
-  - "domain-suffix,ximalayadata.com"
-  - "domain-suffix,xmcdn.com"
-  - "domain-suffix,zhishif.com"
-  - "domain-suffix,zhishinn.com"
-  - "domain-suffix,zhishiu.com"
-  - "domain-suffix,zhishiv.com"
+  - domain-suffix,9nali.com
+  - domain-suffix,conchdate.com
+  - domain-suffix,himalaya.com
+  - domain-suffix,himalaya.cool
+  - domain-suffix,qingxuetang.com
+  - domain-suffix,soundconch.com
+  - domain-suffix,tableauxmly.com
+  - domain-suffix,xima.tv
+  - domain-suffix,ximalaya.com
+  - domain-suffix,ximalaya.fm
+  - domain-suffix,ximalaya.tv
+  - domain-suffix,ximalayadata.com
+  - domain-suffix,xmcdn.com
+  - domain-suffix,zhishif.com
+  - domain-suffix,zhishinn.com
+  - domain-suffix,zhishiu.com
+  - domain-suffix,zhishiv.com

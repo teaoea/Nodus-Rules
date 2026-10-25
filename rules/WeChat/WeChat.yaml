@@ -1,5 +1,5 @@
 # 名称：WeChat
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：30
 # domain: 8
 # domain-suffix: 22
@@ -9,33 +9,33 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain,apd-pcdnwxlogin.teg.tencent-cloud.net"
-  - "domain,btrace.qq.com"
-  - "domain,dldir1.qq.com"
-  - "domain,slife.xy-asia.com"
-  - "domain,soup.v.qq.com"
-  - "domain,vweixinf.tc.qq.com"
-  - "domain,weixin110.qq.com"
-  - "domain,wup.imtt.qq.com"
-  - "domain-suffix,iot-tencent.com"
-  - "domain-suffix,lbs.gtimg.com"
-  - "domain-suffix,map.qq.com"
-  - "domain-suffix,qlogo.cn"
-  - "domain-suffix,qpic.cn"
-  - "domain-suffix,servicewechat.com"
-  - "domain-suffix,tenpay.com"
-  - "domain-suffix,up-hl.3g.qq.com"
-  - "domain-suffix,vweixinthumb.tc.qq.com"
-  - "domain-suffix,wechat.com"
-  - "domain-suffix,wechatlegal.net"
-  - "domain-suffix,wechatos.net"
-  - "domain-suffix,wechatpay.com"
-  - "domain-suffix,weixin.com"
-  - "domain-suffix,weixin.qq.com"
-  - "domain-suffix,weixinbridge.com"
-  - "domain-suffix,weixinsxy.com"
-  - "domain-suffix,wx.gtimg.com"
-  - "domain-suffix,wx.qq.com"
-  - "domain-suffix,wxapp.tc.qq.com"
-  - "domain-suffix,wxs.qq.com"
-  - "domain-suffix,yun-hl.3g.qq.com"
+  - domain,apd-pcdnwxlogin.teg.tencent-cloud.net
+  - domain,btrace.qq.com
+  - domain,dldir1.qq.com
+  - domain,slife.xy-asia.com
+  - domain,soup.v.qq.com
+  - domain,vweixinf.tc.qq.com
+  - domain,weixin110.qq.com
+  - domain,wup.imtt.qq.com
+  - domain-suffix,iot-tencent.com
+  - domain-suffix,lbs.gtimg.com
+  - domain-suffix,map.qq.com
+  - domain-suffix,qlogo.cn
+  - domain-suffix,qpic.cn
+  - domain-suffix,servicewechat.com
+  - domain-suffix,tenpay.com
+  - domain-suffix,up-hl.3g.qq.com
+  - domain-suffix,vweixinthumb.tc.qq.com
+  - domain-suffix,wechat.com
+  - domain-suffix,wechatlegal.net
+  - domain-suffix,wechatos.net
+  - domain-suffix,wechatpay.com
+  - domain-suffix,weixin.com
+  - domain-suffix,weixin.qq.com
+  - domain-suffix,weixinbridge.com
+  - domain-suffix,weixinsxy.com
+  - domain-suffix,wx.gtimg.com
+  - domain-suffix,wx.qq.com
+  - domain-suffix,wxapp.tc.qq.com
+  - domain-suffix,wxs.qq.com
+  - domain-suffix,yun-hl.3g.qq.com

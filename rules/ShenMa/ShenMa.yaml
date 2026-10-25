@@ -1,5 +1,5 @@
 # 名称：ShenMa
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：13
 # domain: 0
 # domain-suffix: 13
@@ -9,16 +9,16 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,shenma-inc.com"
-  - "domain-suffix,sm.cn"
-  - "domain-suffix,smapi.cn"
-  - "domain-suffix,uczzd.cn"
-  - "domain-suffix,uczzd.com"
-  - "domain-suffix,uczzd.com.cn"
-  - "domain-suffix,uczzd.net"
-  - "domain-suffix,xiaoshuo1-sm.com"
-  - "domain-suffix,xiaoshuo2-sm.com"
-  - "domain-suffix,xiaoshuo3-sm.com"
-  - "domain-suffix,xiaoshuo4-sm.com"
-  - "domain-suffix,xiaoshuo5-sm.com"
-  - "domain-suffix,yisou.com"
+  - domain-suffix,shenma-inc.com
+  - domain-suffix,sm.cn
+  - domain-suffix,smapi.cn
+  - domain-suffix,uczzd.cn
+  - domain-suffix,uczzd.com
+  - domain-suffix,uczzd.com.cn
+  - domain-suffix,uczzd.net
+  - domain-suffix,xiaoshuo1-sm.com
+  - domain-suffix,xiaoshuo2-sm.com
+  - domain-suffix,xiaoshuo3-sm.com
+  - domain-suffix,xiaoshuo4-sm.com
+  - domain-suffix,xiaoshuo5-sm.com
+  - domain-suffix,yisou.com

@@ -1,5 +1,5 @@
 # 名称：DingXiangYuan
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：16
 # domain: 0
 # domain-suffix: 16
@@ -9,19 +9,19 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,0dxy.cn"
-  - "domain-suffix,biomart.cn"
-  - "domain-suffix,centerwatch.cn"
-  - "domain-suffix,crou.cn"
-  - "domain-suffix,dxy.cn"
-  - "domain-suffix,dxy.com"
-  - "domain-suffix,dxy.me"
-  - "domain-suffix,dxy.net"
-  - "domain-suffix,dxycdn.com"
-  - "domain-suffix,dxyer.cn"
-  - "domain-suffix,dxyer.com"
-  - "domain-suffix,guanlannet.com"
-  - "domain-suffix,jobmd.cn"
-  - "domain-suffix,linkmed.com.cn"
-  - "domain-suffix,mdnews.cn"
-  - "domain-suffix,pubmed.cn"
+  - domain-suffix,0dxy.cn
+  - domain-suffix,biomart.cn
+  - domain-suffix,centerwatch.cn
+  - domain-suffix,crou.cn
+  - domain-suffix,dxy.cn
+  - domain-suffix,dxy.com
+  - domain-suffix,dxy.me
+  - domain-suffix,dxy.net
+  - domain-suffix,dxycdn.com
+  - domain-suffix,dxyer.cn
+  - domain-suffix,dxyer.com
+  - domain-suffix,guanlannet.com
+  - domain-suffix,jobmd.cn
+  - domain-suffix,linkmed.com.cn
+  - domain-suffix,mdnews.cn
+  - domain-suffix,pubmed.cn

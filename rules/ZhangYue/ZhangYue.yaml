@@ -1,5 +1,5 @@
 # 名称：ZhangYue
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：26
 # domain: 0
 # domain-suffix: 26
@@ -9,29 +9,29 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,corp3g.cn"
-  - "domain-suffix,ireader.com"
-  - "domain-suffix,ireader.com.cn"
-  - "domain-suffix,ireader.live"
-  - "domain-suffix,ireader.mobi"
-  - "domain-suffix,ireaderm.com"
-  - "domain-suffix,ireaderm.net"
-  - "domain-suffix,iremaker.com"
-  - "domain-suffix,mgcube.cn"
-  - "domain-suffix,palmebook.com"
-  - "domain-suffix,palmeread.cn"
-  - "domain-suffix,palmeread.com"
-  - "domain-suffix,palmestore.cn"
-  - "domain-suffix,palmestore.com"
-  - "domain-suffix,transmonkey.cn"
-  - "domain-suffix,transmonkey.com"
-  - "domain-suffix,transmonkey.net"
-  - "domain-suffix,z3.cn"
-  - "domain-suffix,zhangyue.com"
-  - "domain-suffix,zhangyue.net"
-  - "domain-suffix,zhangyue01.com"
-  - "domain-suffix,zhangyue02.com"
-  - "domain-suffix,zhangyue03.com"
-  - "domain-suffix,zhi3.com.cn"
-  - "domain-suffix,zhi3.net"
-  - "domain-suffix,zuoshujiang.com"
+  - domain-suffix,corp3g.cn
+  - domain-suffix,ireader.com
+  - domain-suffix,ireader.com.cn
+  - domain-suffix,ireader.live
+  - domain-suffix,ireader.mobi
+  - domain-suffix,ireaderm.com
+  - domain-suffix,ireaderm.net
+  - domain-suffix,iremaker.com
+  - domain-suffix,mgcube.cn
+  - domain-suffix,palmebook.com
+  - domain-suffix,palmeread.cn
+  - domain-suffix,palmeread.com
+  - domain-suffix,palmestore.cn
+  - domain-suffix,palmestore.com
+  - domain-suffix,transmonkey.cn
+  - domain-suffix,transmonkey.com
+  - domain-suffix,transmonkey.net
+  - domain-suffix,z3.cn
+  - domain-suffix,zhangyue.com
+  - domain-suffix,zhangyue.net
+  - domain-suffix,zhangyue01.com
+  - domain-suffix,zhangyue02.com
+  - domain-suffix,zhangyue03.com
+  - domain-suffix,zhi3.com.cn
+  - domain-suffix,zhi3.net
+  - domain-suffix,zuoshujiang.com

@@ -1,5 +1,5 @@
 # 名称：XieCheng
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：29
 # domain: 0
 # domain-suffix: 29
@@ -9,32 +9,32 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,c-ctrip.com"
-  - "domain-suffix,colinker.com"
-  - "domain-suffix,ctrip.cn"
-  - "domain-suffix,ctrip.co.id"
-  - "domain-suffix,ctrip.co.kr"
-  - "domain-suffix,ctrip.co.th"
-  - "domain-suffix,ctrip.com"
-  - "domain-suffix,ctrip.com.hk"
-  - "domain-suffix,ctrip.my"
-  - "domain-suffix,ctrip.sg"
-  - "domain-suffix,ctripbiz.com"
-  - "domain-suffix,ctripbuy.hk"
-  - "domain-suffix,ctripteam.com"
-  - "domain-suffix,doticloud.com"
-  - "domain-suffix,easytrip.com"
-  - "domain-suffix,hhtravel.com"
-  - "domain-suffix,hhtravel.com.tw"
-  - "domain-suffix,izuchebao.com"
-  - "domain-suffix,lvtds.com"
-  - "domain-suffix,shuntu.cn"
-  - "domain-suffix,skysea.com"
-  - "domain-suffix,suanya.cn"
-  - "domain-suffix,suanya.com"
-  - "domain-suffix,tieyou.com"
-  - "domain-suffix,toptown.cn"
-  - "domain-suffix,toursbms.com"
-  - "domain-suffix,trip.com"
-  - "domain-suffix,tripcdn.com"
-  - "domain-suffix,vipdlt.com"
+  - domain-suffix,c-ctrip.com
+  - domain-suffix,colinker.com
+  - domain-suffix,ctrip.cn
+  - domain-suffix,ctrip.co.id
+  - domain-suffix,ctrip.co.kr
+  - domain-suffix,ctrip.co.th
+  - domain-suffix,ctrip.com
+  - domain-suffix,ctrip.com.hk
+  - domain-suffix,ctrip.my
+  - domain-suffix,ctrip.sg
+  - domain-suffix,ctripbiz.com
+  - domain-suffix,ctripbuy.hk
+  - domain-suffix,ctripteam.com
+  - domain-suffix,doticloud.com
+  - domain-suffix,easytrip.com
+  - domain-suffix,hhtravel.com
+  - domain-suffix,hhtravel.com.tw
+  - domain-suffix,izuchebao.com
+  - domain-suffix,lvtds.com
+  - domain-suffix,shuntu.cn
+  - domain-suffix,skysea.com
+  - domain-suffix,suanya.cn
+  - domain-suffix,suanya.com
+  - domain-suffix,tieyou.com
+  - domain-suffix,toptown.cn
+  - domain-suffix,toursbms.com
+  - domain-suffix,trip.com
+  - domain-suffix,tripcdn.com
+  - domain-suffix,vipdlt.com

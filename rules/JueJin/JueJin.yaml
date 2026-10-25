@@ -1,5 +1,5 @@
 # 名称：JueJin
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：12
 # domain: 0
 # domain-suffix: 12
@@ -9,15 +9,15 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,b-gold-cdn.xitu.io"
-  - "domain-suffix,juejin.im"
-  - "domain-suffix,mirror-gold-cdn.xitu.io"
-  - "domain-suffix,p1-juejin.byteimg.com"
-  - "domain-suffix,p2-juejin.byteimg.com"
-  - "domain-suffix,p3-juejin.byteimg.com"
-  - "domain-suffix,p4-juejin.byteimg.com"
-  - "domain-suffix,p5-juejin.byteimg.com"
-  - "domain-suffix,p6-juejin.byteimg.com"
-  - "domain-suffix,p7-juejin.byteimg.com"
-  - "domain-suffix,p8-juejin.byteimg.com"
-  - "domain-suffix,p9-juejin.byteimg.com"
+  - domain-suffix,b-gold-cdn.xitu.io
+  - domain-suffix,juejin.im
+  - domain-suffix,mirror-gold-cdn.xitu.io
+  - domain-suffix,p1-juejin.byteimg.com
+  - domain-suffix,p2-juejin.byteimg.com
+  - domain-suffix,p3-juejin.byteimg.com
+  - domain-suffix,p4-juejin.byteimg.com
+  - domain-suffix,p5-juejin.byteimg.com
+  - domain-suffix,p6-juejin.byteimg.com
+  - domain-suffix,p7-juejin.byteimg.com
+  - domain-suffix,p8-juejin.byteimg.com
+  - domain-suffix,p9-juejin.byteimg.com

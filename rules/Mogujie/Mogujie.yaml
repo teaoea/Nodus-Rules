@@ -1,5 +1,5 @@
 # 名称：Mogujie
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：10
 # domain: 0
 # domain-suffix: 10
@@ -9,13 +9,13 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,juangua.com"
-  - "domain-suffix,linkeye.net"
-  - "domain-suffix,meili-inc.com"
-  - "domain-suffix,mogu.com"
-  - "domain-suffix,mogucdn.com"
-  - "domain-suffix,mogujie.com"
-  - "domain-suffix,mogujielive.com"
-  - "domain-suffix,styledata.cn"
-  - "domain-suffix,uniny.com"
-  - "domain-suffix,xdgogogo.com"
+  - domain-suffix,juangua.com
+  - domain-suffix,linkeye.net
+  - domain-suffix,meili-inc.com
+  - domain-suffix,mogu.com
+  - domain-suffix,mogucdn.com
+  - domain-suffix,mogujie.com
+  - domain-suffix,mogujielive.com
+  - domain-suffix,styledata.cn
+  - domain-suffix,uniny.com
+  - domain-suffix,xdgogogo.com

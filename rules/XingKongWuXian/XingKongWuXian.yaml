@@ -1,5 +1,5 @@
 # 名称：XingKongWuXian
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：19
 # domain: 0
 # domain-suffix: 19
@@ -9,22 +9,22 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,avstar01.me"
-  - "domain-suffix,avstar02.me"
-  - "domain-suffix,avstar03.me"
-  - "domain-suffix,avstar04.com"
-  - "domain-suffix,avstar04.me"
-  - "domain-suffix,avstar05.me"
-  - "domain-suffix,avstar06.me"
-  - "domain-suffix,avstar07.com"
-  - "domain-suffix,avstar07.me"
-  - "domain-suffix,avstar09.com"
-  - "domain-suffix,avstar09.me"
-  - "domain-suffix,avstar1.com"
-  - "domain-suffix,avstar2.com"
-  - "domain-suffix,avstar3.com"
-  - "domain-suffix,avstar4.com"
-  - "domain-suffix,avstar5.com"
-  - "domain-suffix,avstar6.com"
-  - "domain-suffix,avstar8.com"
-  - "domain-suffix,avstar9.com"
+  - domain-suffix,avstar01.me
+  - domain-suffix,avstar02.me
+  - domain-suffix,avstar03.me
+  - domain-suffix,avstar04.com
+  - domain-suffix,avstar04.me
+  - domain-suffix,avstar05.me
+  - domain-suffix,avstar06.me
+  - domain-suffix,avstar07.com
+  - domain-suffix,avstar07.me
+  - domain-suffix,avstar09.com
+  - domain-suffix,avstar09.me
+  - domain-suffix,avstar1.com
+  - domain-suffix,avstar2.com
+  - domain-suffix,avstar3.com
+  - domain-suffix,avstar4.com
+  - domain-suffix,avstar5.com
+  - domain-suffix,avstar6.com
+  - domain-suffix,avstar8.com
+  - domain-suffix,avstar9.com

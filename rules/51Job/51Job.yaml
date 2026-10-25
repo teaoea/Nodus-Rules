@@ -1,5 +1,5 @@
 # 名称：51Job
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：19
 # domain: 0
 # domain-suffix: 19
@@ -9,22 +9,22 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,51hr.com"
-  - "domain-suffix,51ideal.com"
-  - "domain-suffix,51jingying.com"
-  - "domain-suffix,51job.com"
-  - "domain-suffix,51jobcdn.com"
-  - "domain-suffix,51laiqiang.com"
-  - "domain-suffix,51mdd.com"
-  - "domain-suffix,51miduoduo.com"
-  - "domain-suffix,coolping.com"
-  - "domain-suffix,correlation-one.cn"
-  - "domain-suffix,ibmcampus.com"
-  - "domain-suffix,maketion.com"
-  - "domain-suffix,myyjs.com"
-  - "domain-suffix,wuyoudagong.com"
-  - "domain-suffix,xinghua.org.cn"
-  - "domain-suffix,yingjiesheng.com"
-  - "domain-suffix,yingjiesheng.net"
-  - "domain-suffix,yingjiesheng.org"
-  - "domain-suffix,zhiding.com.cn"
+  - domain-suffix,51hr.com
+  - domain-suffix,51ideal.com
+  - domain-suffix,51jingying.com
+  - domain-suffix,51job.com
+  - domain-suffix,51jobcdn.com
+  - domain-suffix,51laiqiang.com
+  - domain-suffix,51mdd.com
+  - domain-suffix,51miduoduo.com
+  - domain-suffix,coolping.com
+  - domain-suffix,correlation-one.cn
+  - domain-suffix,ibmcampus.com
+  - domain-suffix,maketion.com
+  - domain-suffix,myyjs.com
+  - domain-suffix,wuyoudagong.com
+  - domain-suffix,xinghua.org.cn
+  - domain-suffix,yingjiesheng.com
+  - domain-suffix,yingjiesheng.net
+  - domain-suffix,yingjiesheng.org
+  - domain-suffix,zhiding.com.cn

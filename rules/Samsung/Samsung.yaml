@@ -1,5 +1,5 @@
 # 名称：Samsung
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：13
 # domain: 0
 # domain-suffix: 13
@@ -9,16 +9,16 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,anrdoezrs.net"
-  - "domain-suffix,galaxyappstore.com"
-  - "domain-suffix,galaxymobile.jp"
-  - "domain-suffix,game-platform.net"
-  - "domain-suffix,knoxemm.com"
-  - "domain-suffix,samsung.com"
-  - "domain-suffix,samsungapps.com"
-  - "domain-suffix,samsungcloud.com"
-  - "domain-suffix,samsungdm.com"
-  - "domain-suffix,samsungeshop.com.cn"
-  - "domain-suffix,samsunggalaxyfriends.com"
-  - "domain-suffix,samsungknox.com"
-  - "domain-suffix,samsungqbe.com"
+  - domain-suffix,anrdoezrs.net
+  - domain-suffix,galaxyappstore.com
+  - domain-suffix,galaxymobile.jp
+  - domain-suffix,game-platform.net
+  - domain-suffix,knoxemm.com
+  - domain-suffix,samsung.com
+  - domain-suffix,samsungapps.com
+  - domain-suffix,samsungcloud.com
+  - domain-suffix,samsungdm.com
+  - domain-suffix,samsungeshop.com.cn
+  - domain-suffix,samsunggalaxyfriends.com
+  - domain-suffix,samsungknox.com
+  - domain-suffix,samsungqbe.com

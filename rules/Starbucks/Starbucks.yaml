@@ -1,5 +1,5 @@
 # 名称：Starbucks
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：32
 # domain: 0
 # domain-suffix: 32
@@ -9,35 +9,35 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,sbux.com.my"
-  - "domain-suffix,sbuxcard.com"
-  - "domain-suffix,starbucks-stars.com"
-  - "domain-suffix,starbucks.ad"
-  - "domain-suffix,starbucks.at"
-  - "domain-suffix,starbucks.be"
-  - "domain-suffix,starbucks.bg"
-  - "domain-suffix,starbucks.ca"
-  - "domain-suffix,starbucks.ch"
-  - "domain-suffix,starbucks.co.id"
-  - "domain-suffix,starbucks.co.jp"
-  - "domain-suffix,starbucks.co.nz"
-  - "domain-suffix,starbucks.co.th"
-  - "domain-suffix,starbucks.co.uk"
-  - "domain-suffix,starbucks.co.za"
-  - "domain-suffix,starbucks.com"
-  - "domain-suffix,starbucks.com.ar"
-  - "domain-suffix,starbucks.com.bn"
-  - "domain-suffix,starbucks.com.cn"
-  - "domain-suffix,starbucks.com.co"
-  - "domain-suffix,starbucks.com.cy"
-  - "domain-suffix,starbucks.com.gr"
-  - "domain-suffix,starbucks.com.hk"
-  - "domain-suffix,starbucks.com.kh"
-  - "domain-suffix,starbucks.com.kz"
-  - "domain-suffix,starbucks.com.mx"
-  - "domain-suffix,starbucks.com.my"
-  - "domain-suffix,starbucks.de"
-  - "domain-suffix,starbucks.fr"
-  - "domain-suffix,starbucks.ie"
-  - "domain-suffix,starbucksathome.com"
-  - "domain-suffix,starbucksreserve.com"
+  - domain-suffix,sbux.com.my
+  - domain-suffix,sbuxcard.com
+  - domain-suffix,starbucks-stars.com
+  - domain-suffix,starbucks.ad
+  - domain-suffix,starbucks.at
+  - domain-suffix,starbucks.be
+  - domain-suffix,starbucks.bg
+  - domain-suffix,starbucks.ca
+  - domain-suffix,starbucks.ch
+  - domain-suffix,starbucks.co.id
+  - domain-suffix,starbucks.co.jp
+  - domain-suffix,starbucks.co.nz
+  - domain-suffix,starbucks.co.th
+  - domain-suffix,starbucks.co.uk
+  - domain-suffix,starbucks.co.za
+  - domain-suffix,starbucks.com
+  - domain-suffix,starbucks.com.ar
+  - domain-suffix,starbucks.com.bn
+  - domain-suffix,starbucks.com.cn
+  - domain-suffix,starbucks.com.co
+  - domain-suffix,starbucks.com.cy
+  - domain-suffix,starbucks.com.gr
+  - domain-suffix,starbucks.com.hk
+  - domain-suffix,starbucks.com.kh
+  - domain-suffix,starbucks.com.kz
+  - domain-suffix,starbucks.com.mx
+  - domain-suffix,starbucks.com.my
+  - domain-suffix,starbucks.de
+  - domain-suffix,starbucks.fr
+  - domain-suffix,starbucks.ie
+  - domain-suffix,starbucksathome.com
+  - domain-suffix,starbucksreserve.com

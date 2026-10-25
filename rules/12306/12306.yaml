@@ -1,5 +1,5 @@
 # 名称：12306
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：15
 # domain: 0
 # domain-suffix: 15
@@ -9,18 +9,18 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,12306.cn"
-  - "domain-suffix,95306.cn"
-  - "domain-suffix,95572.com"
-  - "domain-suffix,china-railway.com.cn"
-  - "domain-suffix,china-ric.com"
-  - "domain-suffix,crct.com"
-  - "domain-suffix,cre.cn"
-  - "domain-suffix,crecc.com.cn"
-  - "domain-suffix,creip.cn"
-  - "domain-suffix,crscl.com.cn"
-  - "domain-suffix,gzrailway.com.cn"
-  - "domain-suffix,nntlj.com"
-  - "domain-suffix,peoplerail.com"
-  - "domain-suffix,rails.cn"
-  - "domain-suffix,tdpress.com"
+  - domain-suffix,12306.cn
+  - domain-suffix,95306.cn
+  - domain-suffix,95572.com
+  - domain-suffix,china-railway.com.cn
+  - domain-suffix,china-ric.com
+  - domain-suffix,crct.com
+  - domain-suffix,cre.cn
+  - domain-suffix,crecc.com.cn
+  - domain-suffix,creip.cn
+  - domain-suffix,crscl.com.cn
+  - domain-suffix,gzrailway.com.cn
+  - domain-suffix,nntlj.com
+  - domain-suffix,peoplerail.com
+  - domain-suffix,rails.cn
+  - domain-suffix,tdpress.com

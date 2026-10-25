@@ -1,5 +1,5 @@
 # 名称：Jwplayer
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：5
 # domain: 0
 # domain-suffix: 5
@@ -9,8 +9,8 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,jwpcdn.com"
-  - "domain-suffix,jwplatform.com"
-  - "domain-suffix,jwplayer.com"
-  - "domain-suffix,jwpltx.com"
-  - "domain-suffix,jwpsrv.com"
+  - domain-suffix,jwpcdn.com
+  - domain-suffix,jwplatform.com
+  - domain-suffix,jwplayer.com
+  - domain-suffix,jwpltx.com
+  - domain-suffix,jwpsrv.com

@@ -1,5 +1,5 @@
 # 名称：Tesla
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：12
 # domain: 0
 # domain-suffix: 12
@@ -9,15 +9,15 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,solarcity.com"
-  - "domain-suffix,tesla-cdn.thron.cn"
-  - "domain-suffix,tesla-cdn.thron.com"
-  - "domain-suffix,tesla.com"
-  - "domain-suffix,tesla.com.cn"
-  - "domain-suffix,tesla.services"
-  - "domain-suffix,teslaenergy.services"
-  - "domain-suffix,teslamotors.cn"
-  - "domain-suffix,teslamotors.com"
-  - "domain-suffix,teslamotors.com.cn"
-  - "domain-suffix,teslazta.net"
-  - "domain-suffix,ts.la"
+  - domain-suffix,solarcity.com
+  - domain-suffix,tesla-cdn.thron.cn
+  - domain-suffix,tesla-cdn.thron.com
+  - domain-suffix,tesla.com
+  - domain-suffix,tesla.com.cn
+  - domain-suffix,tesla.services
+  - domain-suffix,teslaenergy.services
+  - domain-suffix,teslamotors.cn
+  - domain-suffix,teslamotors.com
+  - domain-suffix,teslamotors.com.cn
+  - domain-suffix,teslazta.net
+  - domain-suffix,ts.la

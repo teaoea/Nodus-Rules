@@ -1,5 +1,5 @@
 # 名称：TikTok
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：33
 # domain: 4
 # domain-suffix: 28
@@ -9,36 +9,36 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain,lf16-effectcdn.byteeffecttos-g.com"
-  - "domain,lf16-pkgcdn.pitaya-clientai.com"
-  - "domain,p16-tiktokcdn-com.akamaized.net"
-  - "domain,trae-api-sg.mchost.guru"
-  - "domain-suffix,bytedapm.com"
-  - "domain-suffix,bytegecko-i18n.com"
-  - "domain-suffix,byteintlapi.com"
-  - "domain-suffix,byteoversea.com"
-  - "domain-suffix,capcut.com"
-  - "domain-suffix,capcutapi.com"
-  - "domain-suffix,capcutapi.us"
-  - "domain-suffix,capcutstatic.com"
-  - "domain-suffix,ibytedtos.com"
-  - "domain-suffix,ibyteimg.com"
-  - "domain-suffix,ipstatp.com"
-  - "domain-suffix,isnssdk.com"
-  - "domain-suffix,marscode.com"
-  - "domain-suffix,muscdn.com"
-  - "domain-suffix,musical.ly"
-  - "domain-suffix,sgpstatp.com"
-  - "domain-suffix,snssdk.com"
-  - "domain-suffix,tik-tokapi.com"
-  - "domain-suffix,tiktok.com"
-  - "domain-suffix,tiktokcdn-us.com"
-  - "domain-suffix,tiktokcdn.com"
-  - "domain-suffix,tiktokd.net"
-  - "domain-suffix,tiktokd.org"
-  - "domain-suffix,tiktokmusic.app"
-  - "domain-suffix,tiktokv.com"
-  - "domain-suffix,tiktokv.us"
-  - "domain-suffix,trae.ai"
-  - "domain-suffix,ttwebview.com"
-  - "domain-keyword,tiktok"
+  - domain,lf16-effectcdn.byteeffecttos-g.com
+  - domain,lf16-pkgcdn.pitaya-clientai.com
+  - domain,p16-tiktokcdn-com.akamaized.net
+  - domain,trae-api-sg.mchost.guru
+  - domain-suffix,bytedapm.com
+  - domain-suffix,bytegecko-i18n.com
+  - domain-suffix,byteintlapi.com
+  - domain-suffix,byteoversea.com
+  - domain-suffix,capcut.com
+  - domain-suffix,capcutapi.com
+  - domain-suffix,capcutapi.us
+  - domain-suffix,capcutstatic.com
+  - domain-suffix,ibytedtos.com
+  - domain-suffix,ibyteimg.com
+  - domain-suffix,ipstatp.com
+  - domain-suffix,isnssdk.com
+  - domain-suffix,marscode.com
+  - domain-suffix,muscdn.com
+  - domain-suffix,musical.ly
+  - domain-suffix,sgpstatp.com
+  - domain-suffix,snssdk.com
+  - domain-suffix,tik-tokapi.com
+  - domain-suffix,tiktok.com
+  - domain-suffix,tiktokcdn-us.com
+  - domain-suffix,tiktokcdn.com
+  - domain-suffix,tiktokd.net
+  - domain-suffix,tiktokd.org
+  - domain-suffix,tiktokmusic.app
+  - domain-suffix,tiktokv.com
+  - domain-suffix,tiktokv.us
+  - domain-suffix,trae.ai
+  - domain-suffix,ttwebview.com
+  - domain-keyword,tiktok

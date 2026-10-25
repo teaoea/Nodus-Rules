@@ -1,5 +1,5 @@
 # 名称：NGAA
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：29
 # domain: 0
 # domain-suffix: 29
@@ -9,32 +9,32 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,chinagslb.cn"
-  - "domain-suffix,chinagslb.com"
-  - "domain-suffix,chinagslb.net"
-  - "domain-suffix,cngslb.cn"
-  - "domain-suffix,cngslb.com"
-  - "domain-suffix,cngslb.net"
-  - "domain-suffix,ispcache.cn"
-  - "domain-suffix,ispcache.net"
-  - "domain-suffix,kuaifan.shop"
-  - "domain-suffix,ngaa.cn"
-  - "domain-suffix,ngaa.com.cn"
-  - "domain-suffix,ngaa.info"
-  - "domain-suffix,ngaa.net.cn"
-  - "domain-suffix,ngaa.org.cn"
-  - "domain-suffix,ngaa.shop"
-  - "domain-suffix,ngaa.top"
-  - "domain-suffix,ngaacdn.cn"
-  - "domain-suffix,ngaacdn.com"
-  - "domain-suffix,ngaacdn.net"
-  - "domain-suffix,ngaagslb.cn"
-  - "domain-suffix,ngaagslb.com"
-  - "domain-suffix,ngaagslb.net"
-  - "domain-suffix,sinocache.cn"
-  - "domain-suffix,sinocache.com.cn"
-  - "domain-suffix,sinocache.net"
-  - "domain-suffix,sinogslb.cn"
-  - "domain-suffix,sinogslb.com"
-  - "domain-suffix,sinogslb.net"
-  - "domain-suffix,speedin.shop"
+  - domain-suffix,chinagslb.cn
+  - domain-suffix,chinagslb.com
+  - domain-suffix,chinagslb.net
+  - domain-suffix,cngslb.cn
+  - domain-suffix,cngslb.com
+  - domain-suffix,cngslb.net
+  - domain-suffix,ispcache.cn
+  - domain-suffix,ispcache.net
+  - domain-suffix,kuaifan.shop
+  - domain-suffix,ngaa.cn
+  - domain-suffix,ngaa.com.cn
+  - domain-suffix,ngaa.info
+  - domain-suffix,ngaa.net.cn
+  - domain-suffix,ngaa.org.cn
+  - domain-suffix,ngaa.shop
+  - domain-suffix,ngaa.top
+  - domain-suffix,ngaacdn.cn
+  - domain-suffix,ngaacdn.com
+  - domain-suffix,ngaacdn.net
+  - domain-suffix,ngaagslb.cn
+  - domain-suffix,ngaagslb.com
+  - domain-suffix,ngaagslb.net
+  - domain-suffix,sinocache.cn
+  - domain-suffix,sinocache.com.cn
+  - domain-suffix,sinocache.net
+  - domain-suffix,sinogslb.cn
+  - domain-suffix,sinogslb.com
+  - domain-suffix,sinogslb.net
+  - domain-suffix,speedin.shop

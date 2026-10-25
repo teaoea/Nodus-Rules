@@ -1,5 +1,5 @@
 # 名称：Domob
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：26
 # domain: 0
 # domain-suffix: 26
@@ -9,29 +9,29 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,dmaow.com"
-  - "domain-suffix,dmrta.com"
-  - "domain-suffix,dmrtb.cn"
-  - "domain-suffix,dmrtb.com"
-  - "domain-suffix,dmvideo.cn"
-  - "domain-suffix,dmvideo.mobi"
-  - "domain-suffix,dmvideo.net"
-  - "domain-suffix,dmvideo.org"
-  - "domain-suffix,dmyouxi.com"
-  - "domain-suffix,domob-inc.cn"
-  - "domain-suffix,domob-inc.com"
-  - "domain-suffix,domob.cn"
-  - "domain-suffix,domob.com.cn"
-  - "domain-suffix,domob.org"
-  - "domain-suffix,domobcdn.cn"
-  - "domain-suffix,domobcdn.com"
-  - "domain-suffix,domobnetwork.com"
-  - "domain-suffix,duomeng.cn"
-  - "domain-suffix,duomeng.net"
-  - "domain-suffix,duomeng.org"
-  - "domain-suffix,modh.cn"
-  - "domain-suffix,modh.com.cn"
-  - "domain-suffix,moxz.cn"
-  - "domain-suffix,moxz.net"
-  - "domain-suffix,ugdesk.cn"
-  - "domain-suffix,ugdesk.com"
+  - domain-suffix,dmaow.com
+  - domain-suffix,dmrta.com
+  - domain-suffix,dmrtb.cn
+  - domain-suffix,dmrtb.com
+  - domain-suffix,dmvideo.cn
+  - domain-suffix,dmvideo.mobi
+  - domain-suffix,dmvideo.net
+  - domain-suffix,dmvideo.org
+  - domain-suffix,dmyouxi.com
+  - domain-suffix,domob-inc.cn
+  - domain-suffix,domob-inc.com
+  - domain-suffix,domob.cn
+  - domain-suffix,domob.com.cn
+  - domain-suffix,domob.org
+  - domain-suffix,domobcdn.cn
+  - domain-suffix,domobcdn.com
+  - domain-suffix,domobnetwork.com
+  - domain-suffix,duomeng.cn
+  - domain-suffix,duomeng.net
+  - domain-suffix,duomeng.org
+  - domain-suffix,modh.cn
+  - domain-suffix,modh.com.cn
+  - domain-suffix,moxz.cn
+  - domain-suffix,moxz.net
+  - domain-suffix,ugdesk.cn
+  - domain-suffix,ugdesk.com

@@ -1,5 +1,5 @@
 # 名称：AFP
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：2
 # domain: 0
 # domain-suffix: 2
@@ -9,5 +9,5 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,afp.com"
-  - "domain-suffix,afpforum.com"
+  - domain-suffix,afp.com
+  - domain-suffix,afpforum.com

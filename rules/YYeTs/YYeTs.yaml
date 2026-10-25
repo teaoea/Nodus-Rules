@@ -1,5 +1,5 @@
 # 名称：YYeTs
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：21
 # domain: 0
 # domain-suffix: 21
@@ -9,24 +9,24 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,got001.com"
-  - "domain-suffix,got002.com"
-  - "domain-suffix,jstucdn.com"
-  - "domain-suffix,p4pfile.com"
-  - "domain-suffix,playcvn.com"
-  - "domain-suffix,rrys.tv"
-  - "domain-suffix,rrys2019.com"
-  - "domain-suffix,rrys2020.com"
-  - "domain-suffix,rrysapp.com"
-  - "domain-suffix,yyets.com"
-  - "domain-suffix,zimuzu.com"
-  - "domain-suffix,zimuzu.io"
-  - "domain-suffix,zimuzu.tv"
-  - "domain-suffix,zmz001.com"
-  - "domain-suffix,zmz002.com"
-  - "domain-suffix,zmz003.com"
-  - "domain-suffix,zmz004.com"
-  - "domain-suffix,zmz2019.com"
-  - "domain-suffix,zmzapi.com"
-  - "domain-suffix,zmzapi.net"
-  - "domain-suffix,zmzfile.com"
+  - domain-suffix,got001.com
+  - domain-suffix,got002.com
+  - domain-suffix,jstucdn.com
+  - domain-suffix,p4pfile.com
+  - domain-suffix,playcvn.com
+  - domain-suffix,rrys.tv
+  - domain-suffix,rrys2019.com
+  - domain-suffix,rrys2020.com
+  - domain-suffix,rrysapp.com
+  - domain-suffix,yyets.com
+  - domain-suffix,zimuzu.com
+  - domain-suffix,zimuzu.io
+  - domain-suffix,zimuzu.tv
+  - domain-suffix,zmz001.com
+  - domain-suffix,zmz002.com
+  - domain-suffix,zmz003.com
+  - domain-suffix,zmz004.com
+  - domain-suffix,zmz2019.com
+  - domain-suffix,zmzapi.com
+  - domain-suffix,zmzapi.net
+  - domain-suffix,zmzfile.com

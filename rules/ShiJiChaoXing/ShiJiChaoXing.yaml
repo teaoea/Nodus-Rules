@@ -1,5 +1,5 @@
 # 名称：ShiJiChaoXing
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：33
 # domain: 0
 # domain-suffix: 33
@@ -9,36 +9,36 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,16q.cn"
-  - "domain-suffix,5read.com"
-  - "domain-suffix,aichaoxing.com"
-  - "domain-suffix,chaoxing.cc"
-  - "domain-suffix,chaoxing.com"
-  - "domain-suffix,chaoxingv.com"
-  - "domain-suffix,cxbiji.com"
-  - "domain-suffix,hongbo100.com"
-  - "domain-suffix,jikeiot.cloud"
-  - "domain-suffix,lnlib.net"
-  - "domain-suffix,mndqlib.net"
-  - "domain-suffix,mti100.com"
-  - "domain-suffix,nihaoafrica.org"
-  - "domain-suffix,nihaorwanda.cn"
-  - "domain-suffix,sslawy.com"
-  - "domain-suffix,sslibrary.com"
-  - "domain-suffix,ssreader.cn"
-  - "domain-suffix,ssreader.com.cn"
-  - "domain-suffix,ssvideo.cn"
-  - "domain-suffix,ssvideo.com.cn"
-  - "domain-suffix,study360.com.cn"
-  - "domain-suffix,superlib.com"
-  - "domain-suffix,superlib.net"
-  - "domain-suffix,uonline-sh.com"
-  - "domain-suffix,uonline-sh.net"
-  - "domain-suffix,xuexi365.com"
-  - "domain-suffix,xuexi365.com.cn"
-  - "domain-suffix,xuexi365.net"
-  - "domain-suffix,xxtmail.com"
-  - "domain-suffix,ylike.net"
-  - "domain-suffix,zaifan.com"
-  - "domain-suffix,zaifan.com.cn"
-  - "domain-suffix,zhihang100.com"
+  - domain-suffix,16q.cn
+  - domain-suffix,5read.com
+  - domain-suffix,aichaoxing.com
+  - domain-suffix,chaoxing.cc
+  - domain-suffix,chaoxing.com
+  - domain-suffix,chaoxingv.com
+  - domain-suffix,cxbiji.com
+  - domain-suffix,hongbo100.com
+  - domain-suffix,jikeiot.cloud
+  - domain-suffix,lnlib.net
+  - domain-suffix,mndqlib.net
+  - domain-suffix,mti100.com
+  - domain-suffix,nihaoafrica.org
+  - domain-suffix,nihaorwanda.cn
+  - domain-suffix,sslawy.com
+  - domain-suffix,sslibrary.com
+  - domain-suffix,ssreader.cn
+  - domain-suffix,ssreader.com.cn
+  - domain-suffix,ssvideo.cn
+  - domain-suffix,ssvideo.com.cn
+  - domain-suffix,study360.com.cn
+  - domain-suffix,superlib.com
+  - domain-suffix,superlib.net
+  - domain-suffix,uonline-sh.com
+  - domain-suffix,uonline-sh.net
+  - domain-suffix,xuexi365.com
+  - domain-suffix,xuexi365.com.cn
+  - domain-suffix,xuexi365.net
+  - domain-suffix,xxtmail.com
+  - domain-suffix,ylike.net
+  - domain-suffix,zaifan.com
+  - domain-suffix,zaifan.com.cn
+  - domain-suffix,zhihang100.com

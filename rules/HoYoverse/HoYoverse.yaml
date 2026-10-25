@@ -1,5 +1,5 @@
 # 名称：HoYoverse
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：11
 # domain: 0
 # domain-suffix: 11
@@ -9,14 +9,14 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,genshinimpact.com"
-  - "domain-suffix,honkaiimpact3.com"
-  - "domain-suffix,honkaistarrail.com"
-  - "domain-suffix,hoyo.link"
-  - "domain-suffix,hoyolab.com"
-  - "domain-suffix,hoyoverse.com"
-  - "domain-suffix,juequling.com"
-  - "domain-suffix,n0vadesktop.com"
-  - "domain-suffix,starrails.com"
-  - "domain-suffix,themisweeps.com"
-  - "domain-suffix,yuanshen.com"
+  - domain-suffix,genshinimpact.com
+  - domain-suffix,honkaiimpact3.com
+  - domain-suffix,honkaistarrail.com
+  - domain-suffix,hoyo.link
+  - domain-suffix,hoyolab.com
+  - domain-suffix,hoyoverse.com
+  - domain-suffix,juequling.com
+  - domain-suffix,n0vadesktop.com
+  - domain-suffix,starrails.com
+  - domain-suffix,themisweeps.com
+  - domain-suffix,yuanshen.com

@@ -1,5 +1,5 @@
 # 名称：AppleID
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：4
 # domain: 4
 # domain-suffix: 0
@@ -9,7 +9,7 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain,appleid.apple.com"
-  - "domain,appleid.cdn-apple.com"
-  - "domain,gsa.apple.com"
-  - "domain,idmsa.apple.com"
+  - domain,appleid.apple.com
+  - domain,appleid.cdn-apple.com
+  - domain,gsa.apple.com
+  - domain,idmsa.apple.com

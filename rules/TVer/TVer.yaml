@@ -1,5 +1,5 @@
 # 名称：TVer
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：6
 # domain: 0
 # domain-suffix: 6
@@ -9,9 +9,9 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,dogatch.jp"
-  - "domain-suffix,edge.api.brightcove.com"
-  - "domain-suffix,gorin.jp"
-  - "domain-suffix,screens-lab.jp"
-  - "domain-suffix,tver.co.jp"
-  - "domain-suffix,tver.jp"
+  - domain-suffix,dogatch.jp
+  - domain-suffix,edge.api.brightcove.com
+  - domain-suffix,gorin.jp
+  - domain-suffix,screens-lab.jp
+  - domain-suffix,tver.co.jp
+  - domain-suffix,tver.jp

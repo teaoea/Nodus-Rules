@@ -1,5 +1,5 @@
 # 名称：Xunlei
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：31
 # domain: 0
 # domain-suffix: 31
@@ -9,34 +9,34 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,00cdn.com"
-  - "domain-suffix,155.com"
-  - "domain-suffix,2sonar.com"
-  - "domain-suffix,88cdn.com"
-  - "domain-suffix,8uri.cn"
-  - "domain-suffix,falconalliance.cn"
-  - "domain-suffix,fontong.com"
-  - "domain-suffix,geilijiasu.com"
-  - "domain-suffix,geilijiasu.net"
-  - "domain-suffix,gigaget.com"
-  - "domain-suffix,kanimg.com"
-  - "domain-suffix,kankan.com"
-  - "domain-suffix,kuaipan.cn"
-  - "domain-suffix,n0808.com"
-  - "domain-suffix,neoimaging.cn"
-  - "domain-suffix,newvr.com"
-  - "domain-suffix,p2cdn.com"
-  - "domain-suffix,sandai.net"
-  - "domain-suffix,sjzhushou.com"
-  - "domain-suffix,szxlxzb.com"
-  - "domain-suffix,thundercdn.com"
-  - "domain-suffix,thunderurl.com"
-  - "domain-suffix,xbase.cloud"
-  - "domain-suffix,xbase.xyz"
-  - "domain-suffix,xcloudbase.com"
-  - "domain-suffix,xlisp.net"
-  - "domain-suffix,xlpan.com"
-  - "domain-suffix,xlyouxi.net"
-  - "domain-suffix,xunlei.cn"
-  - "domain-suffix,xunlei.com"
-  - "domain-suffix,xunlei.net"
+  - domain-suffix,00cdn.com
+  - domain-suffix,155.com
+  - domain-suffix,2sonar.com
+  - domain-suffix,88cdn.com
+  - domain-suffix,8uri.cn
+  - domain-suffix,falconalliance.cn
+  - domain-suffix,fontong.com
+  - domain-suffix,geilijiasu.com
+  - domain-suffix,geilijiasu.net
+  - domain-suffix,gigaget.com
+  - domain-suffix,kanimg.com
+  - domain-suffix,kankan.com
+  - domain-suffix,kuaipan.cn
+  - domain-suffix,n0808.com
+  - domain-suffix,neoimaging.cn
+  - domain-suffix,newvr.com
+  - domain-suffix,p2cdn.com
+  - domain-suffix,sandai.net
+  - domain-suffix,sjzhushou.com
+  - domain-suffix,szxlxzb.com
+  - domain-suffix,thundercdn.com
+  - domain-suffix,thunderurl.com
+  - domain-suffix,xbase.cloud
+  - domain-suffix,xbase.xyz
+  - domain-suffix,xcloudbase.com
+  - domain-suffix,xlisp.net
+  - domain-suffix,xlpan.com
+  - domain-suffix,xlyouxi.net
+  - domain-suffix,xunlei.cn
+  - domain-suffix,xunlei.com
+  - domain-suffix,xunlei.net

@@ -1,5 +1,5 @@
 # 名称：LeTV
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：13
 # domain: 0
 # domain-suffix: 13
@@ -9,16 +9,16 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,le.com"
-  - "domain-suffix,lecloud.com"
-  - "domain-suffix,lelecdn.com"
-  - "domain-suffix,lemall.com"
-  - "domain-suffix,letv.com"
-  - "domain-suffix,letv8.com"
-  - "domain-suffix,letvcdn.com"
-  - "domain-suffix,letvcloud.com"
-  - "domain-suffix,letvimg.com"
-  - "domain-suffix,letvlive.com"
-  - "domain-suffix,letvstore.com"
-  - "domain-suffix,sanguowudi.com"
-  - "domain-suffix,videougc.com"
+  - domain-suffix,le.com
+  - domain-suffix,lecloud.com
+  - domain-suffix,lelecdn.com
+  - domain-suffix,lemall.com
+  - domain-suffix,letv.com
+  - domain-suffix,letv8.com
+  - domain-suffix,letvcdn.com
+  - domain-suffix,letvcloud.com
+  - domain-suffix,letvimg.com
+  - domain-suffix,letvlive.com
+  - domain-suffix,letvstore.com
+  - domain-suffix,sanguowudi.com
+  - domain-suffix,videougc.com

@@ -1,5 +1,5 @@
 # 名称：AMP
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：5
 # domain: 1
 # domain-suffix: 4
@@ -9,8 +9,8 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain,amp.akamaized.net"
-  - "domain-suffix,amp.dev"
-  - "domain-suffix,ampproject.com"
-  - "domain-suffix,ampproject.net"
-  - "domain-suffix,ampproject.org"
+  - domain,amp.akamaized.net
+  - domain-suffix,amp.dev
+  - domain-suffix,ampproject.com
+  - domain-suffix,ampproject.net
+  - domain-suffix,ampproject.org

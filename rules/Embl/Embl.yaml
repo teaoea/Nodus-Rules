@@ -1,5 +1,5 @@
 # 名称：Embl
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：7
 # domain: 0
 # domain-suffix: 7
@@ -9,10 +9,10 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,ebi.ac.uk"
-  - "domain-suffix,embl-hamburg.de"
-  - "domain-suffix,embl.de"
-  - "domain-suffix,embl.fr"
-  - "domain-suffix,embl.it"
-  - "domain-suffix,embl.org"
-  - "domain-suffix,emblstatic.net"
+  - domain-suffix,ebi.ac.uk
+  - domain-suffix,embl-hamburg.de
+  - domain-suffix,embl.de
+  - domain-suffix,embl.fr
+  - domain-suffix,embl.it
+  - domain-suffix,embl.org
+  - domain-suffix,emblstatic.net

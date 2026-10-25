@@ -1,5 +1,5 @@
 # 名称：SuNing
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：31
 # domain: 0
 # domain-suffix: 31
@@ -9,34 +9,34 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,10035.com.cn"
-  - "domain-suffix,chinadzfp.com"
-  - "domain-suffix,cloudytrace.cn"
-  - "domain-suffix,cloudytrace.com"
-  - "domain-suffix,cloudytrace.org"
-  - "domain-suffix,cnsuning.com"
-  - "domain-suffix,laox.cn"
-  - "domain-suffix,pinjiago.cn"
-  - "domain-suffix,pinjiago.com"
-  - "domain-suffix,redbaby.com.cn"
-  - "domain-suffix,sndlj.cn"
-  - "domain-suffix,snqrc.cn"
-  - "domain-suffix,suning.cn"
-  - "domain-suffix,suning.com"
-  - "domain-suffix,suningcdn.cn"
-  - "domain-suffix,suningcdn.com"
-  - "domain-suffix,suningcdn.net"
-  - "domain-suffix,suningcloud.com"
-  - "domain-suffix,suningdns.cn"
-  - "domain-suffix,suningdns.com"
-  - "domain-suffix,suningdns.net"
-  - "domain-suffix,suningestate.com"
-  - "domain-suffix,suninggslb.cn"
-  - "domain-suffix,suninggslb.net"
-  - "domain-suffix,suningholdings.com"
-  - "domain-suffix,suninghotel.com"
-  - "domain-suffix,suningmail.com"
-  - "domain-suffix,suningyunyou.cn"
-  - "domain-suffix,suningyunyou.com"
-  - "domain-suffix,wuliuyun.com"
-  - "domain-suffix,yifubao.com"
+  - domain-suffix,10035.com.cn
+  - domain-suffix,chinadzfp.com
+  - domain-suffix,cloudytrace.cn
+  - domain-suffix,cloudytrace.com
+  - domain-suffix,cloudytrace.org
+  - domain-suffix,cnsuning.com
+  - domain-suffix,laox.cn
+  - domain-suffix,pinjiago.cn
+  - domain-suffix,pinjiago.com
+  - domain-suffix,redbaby.com.cn
+  - domain-suffix,sndlj.cn
+  - domain-suffix,snqrc.cn
+  - domain-suffix,suning.cn
+  - domain-suffix,suning.com
+  - domain-suffix,suningcdn.cn
+  - domain-suffix,suningcdn.com
+  - domain-suffix,suningcdn.net
+  - domain-suffix,suningcloud.com
+  - domain-suffix,suningdns.cn
+  - domain-suffix,suningdns.com
+  - domain-suffix,suningdns.net
+  - domain-suffix,suningestate.com
+  - domain-suffix,suninggslb.cn
+  - domain-suffix,suninggslb.net
+  - domain-suffix,suningholdings.com
+  - domain-suffix,suninghotel.com
+  - domain-suffix,suningmail.com
+  - domain-suffix,suningyunyou.cn
+  - domain-suffix,suningyunyou.com
+  - domain-suffix,wuliuyun.com
+  - domain-suffix,yifubao.com

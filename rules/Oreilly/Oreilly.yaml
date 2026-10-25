@@ -1,5 +1,5 @@
 # 名称：Oreilly
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：6
 # domain: 0
 # domain-suffix: 6
@@ -9,9 +9,9 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,oreil.ly"
-  - "domain-suffix,oreilly.com"
-  - "domain-suffix,oreilly.com.cn"
-  - "domain-suffix,oreilly.review"
-  - "domain-suffix,oreillystatic.com"
-  - "domain-suffix,orl.ly"
+  - domain-suffix,oreil.ly
+  - domain-suffix,oreilly.com
+  - domain-suffix,oreilly.com.cn
+  - domain-suffix,oreilly.review
+  - domain-suffix,oreillystatic.com
+  - domain-suffix,orl.ly

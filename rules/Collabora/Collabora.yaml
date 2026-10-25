@@ -1,5 +1,5 @@
 # 名称：Collabora
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：4
 # domain: 0
 # domain-suffix: 4
@@ -9,7 +9,7 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,collabora.co.uk"
-  - "domain-suffix,collabora.com"
-  - "domain-suffix,collabora.org"
-  - "domain-suffix,collaboraoffice.com"
+  - domain-suffix,collabora.co.uk
+  - domain-suffix,collabora.com
+  - domain-suffix,collabora.org
+  - domain-suffix,collaboraoffice.com

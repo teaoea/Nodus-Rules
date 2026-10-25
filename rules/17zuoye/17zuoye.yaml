@@ -1,5 +1,5 @@
 # 名称：17zuoye
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：33
 # domain: 0
 # domain-suffix: 33
@@ -9,36 +9,36 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain-suffix,17beijiang.com"
-  - "domain-suffix,17huayuan.com"
-  - "domain-suffix,17jzt.com"
-  - "domain-suffix,17tiku.com"
-  - "domain-suffix,17xueaoshu.com"
-  - "domain-suffix,17xueba.com"
-  - "domain-suffix,17xueshe.cn"
-  - "domain-suffix,17xueshe.com"
-  - "domain-suffix,17yunzhijiao.cn"
-  - "domain-suffix,17yunzhijiao.com"
-  - "domain-suffix,17yunzhijiao.net"
-  - "domain-suffix,17zuoye.cn"
-  - "domain-suffix,17zuoye.com"
-  - "domain-suffix,17zuoye.net"
-  - "domain-suffix,17zyw.cn"
-  - "domain-suffix,17zyxy.cn"
-  - "domain-suffix,17zyxy.com"
-  - "domain-suffix,17zyxy.net"
-  - "domain-suffix,1j1x.com"
-  - "domain-suffix,happystudy.cc"
-  - "domain-suffix,kuailexue.com"
-  - "domain-suffix,langkoo.com"
-  - "domain-suffix,oaloft.cn"
-  - "domain-suffix,oaloft.com"
-  - "domain-suffix,oaloft.com.cn"
-  - "domain-suffix,oaloft.net"
-  - "domain-suffix,taomingshi.com"
-  - "domain-suffix,ustalk.cn"
-  - "domain-suffix,ustalk.com"
-  - "domain-suffix,voxlearning.com"
-  - "domain-suffix,woshi100.com"
-  - "domain-suffix,zuoyebao.com"
-  - "domain-suffix,zuoyebao.net"
+  - domain-suffix,17beijiang.com
+  - domain-suffix,17huayuan.com
+  - domain-suffix,17jzt.com
+  - domain-suffix,17tiku.com
+  - domain-suffix,17xueaoshu.com
+  - domain-suffix,17xueba.com
+  - domain-suffix,17xueshe.cn
+  - domain-suffix,17xueshe.com
+  - domain-suffix,17yunzhijiao.cn
+  - domain-suffix,17yunzhijiao.com
+  - domain-suffix,17yunzhijiao.net
+  - domain-suffix,17zuoye.cn
+  - domain-suffix,17zuoye.com
+  - domain-suffix,17zuoye.net
+  - domain-suffix,17zyw.cn
+  - domain-suffix,17zyxy.cn
+  - domain-suffix,17zyxy.com
+  - domain-suffix,17zyxy.net
+  - domain-suffix,1j1x.com
+  - domain-suffix,happystudy.cc
+  - domain-suffix,kuailexue.com
+  - domain-suffix,langkoo.com
+  - domain-suffix,oaloft.cn
+  - domain-suffix,oaloft.com
+  - domain-suffix,oaloft.com.cn
+  - domain-suffix,oaloft.net
+  - domain-suffix,taomingshi.com
+  - domain-suffix,ustalk.cn
+  - domain-suffix,ustalk.com
+  - domain-suffix,voxlearning.com
+  - domain-suffix,woshi100.com
+  - domain-suffix,zuoyebao.com
+  - domain-suffix,zuoyebao.net

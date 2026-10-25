@@ -1,5 +1,5 @@
 # 名称：DiscoveryPlus
-# 来源核对日期：2026-10-25 17:44 UTC
+# 来源核对日期：2026-10-25 17:59 UTC
 # 规则总数：14
 # domain: 3
 # domain-suffix: 11
@@ -9,17 +9,17 @@
 # protocol: 0
 # port: 0
 rules:
-  - "domain,discovery-us.conax.cloud"
-  - "domain,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io"
-  - "domain,dplus-northamerica.media-edge.prod-vod.h264.io"
-  - "domain-suffix,disco-api.com"
-  - "domain-suffix,discovery.com"
-  - "domain-suffix,discoveryplus.co.uk"
-  - "domain-suffix,discoveryplus.com"
-  - "domain-suffix,discoveryplus.in"
-  - "domain-suffix,dnitv.com"
-  - "domain-suffix,fwmrm.net"
-  - "domain-suffix,getblueshift.com"
-  - "domain-suffix,litix.io"
-  - "domain-suffix,mobile-collector.newrelic.com"
-  - "domain-suffix,uplynk.com"
+  - domain,discovery-us.conax.cloud
+  - domain,dplus-northamerica-cloudfront-gcs.prod-vod.h264.io
+  - domain,dplus-northamerica.media-edge.prod-vod.h264.io
+  - domain-suffix,disco-api.com
+  - domain-suffix,discovery.com
+  - domain-suffix,discoveryplus.co.uk
+  - domain-suffix,discoveryplus.com
+  - domain-suffix,discoveryplus.in
+  - domain-suffix,dnitv.com
+  - domain-suffix,fwmrm.net
+  - domain-suffix,getblueshift.com
+  - domain-suffix,litix.io
+  - domain-suffix,mobile-collector.newrelic.com
+  - domain-suffix,uplynk.com
