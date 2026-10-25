@@ -1,0 +1,31 @@
+# 名称：SFExpress
+# 来源核对日期：2026-10-25
+# 规则总数：20
+# domain: 0
+# domain-suffix: 20
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,feng1.com"
+  - "domain-suffix,fslinker.com"
+  - "domain-suffix,hbjia.net"
+  - "domain-suffix,rongechain.com"
+  - "domain-suffix,sf-airlines.com"
+  - "domain-suffix,sf-cityrush.com"
+  - "domain-suffix,sf-express.com"
+  - "domain-suffix,sf-financial.com"
+  - "domain-suffix,sf-intra-city.com"
+  - "domain-suffix,sf-jf.com"
+  - "domain-suffix,sf-saas.cn"
+  - "domain-suffix,sf-saas.com"
+  - "domain-suffix,sf-saas.com.cn"
+  - "domain-suffix,sf-tech.com.cn"
+  - "domain-suffix,sf.cn"
+  - "domain-suffix,sfair.com"
+  - "domain-suffix,sfbuy.com"
+  - "domain-suffix,sfcar.hk"
+  - "domain-suffix,sffix.cn"
+  - "domain-suffix,sfgy.org"

@@ -1,0 +1,12 @@
+# 名称：Threads
+# 来源核对日期：2026-10-25
+# 规则总数：1
+# domain: 0
+# domain-suffix: 1
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,threads.net"

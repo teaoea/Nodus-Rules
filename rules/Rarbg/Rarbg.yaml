@@ -1,0 +1,33 @@
+# 名称：Rarbg
+# 来源核对日期：2026-10-25
+# 规则总数：22
+# domain: 0
+# domain-suffix: 22
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,dyncdn.me"
+  - "domain-suffix,proxyrarbg.org"
+  - "domain-suffix,rarbg.bypassed.org"
+  - "domain-suffix,rarbg.is"
+  - "domain-suffix,rarbg.link"
+  - "domain-suffix,rarbg.me"
+  - "domain-suffix,rarbg.to"
+  - "domain-suffix,rarbg.unblocked.vc"
+  - "domain-suffix,rarbgaccess.org"
+  - "domain-suffix,rarbgaccessed.org"
+  - "domain-suffix,rarbgget.org"
+  - "domain-suffix,rarbggo.org"
+  - "domain-suffix,rarbgmirror.com"
+  - "domain-suffix,rarbgmirror.org"
+  - "domain-suffix,rarbgmirror.xyz"
+  - "domain-suffix,rarbgproxy.org"
+  - "domain-suffix,rarbgprx.org"
+  - "domain-suffix,rarbgs.com"
+  - "domain-suffix,rarbgto.org"
+  - "domain-suffix,rarbgunblock.com"
+  - "domain-suffix,rarbgunblock.org"
+  - "domain-suffix,rarbgway.org"

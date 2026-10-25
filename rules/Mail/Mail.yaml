@@ -1,0 +1,23 @@
+# 名称：Mail
+# 来源核对日期：2026-10-25
+# 规则总数：12
+# domain: 9
+# domain-suffix: 3
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,apple.imap.mail.yahoo.com"
+  - "domain,apple.smtp.mail.yahoo.com"
+  - "domain,imap-mail.outlook.com"
+  - "domain,imap.gmail.com"
+  - "domain,outlook.office365.com"
+  - "domain,pop.gmail.com"
+  - "domain,smtp-mail.outlook.com"
+  - "domain,smtp.gmail.com"
+  - "domain,smtp.office365.com"
+  - "domain-suffix,imap.yandex.com"
+  - "domain-suffix,m.hotmail.com"
+  - "domain-suffix,smtp.yandex.com"

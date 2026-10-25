@@ -1,0 +1,22 @@
+# 名称：AnTianKeJi
+# 来源核对日期：2026-10-25
+# 规则总数：11
+# domain: 0
+# domain-suffix: 11
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,antiy.cn"
+  - "domain-suffix,antiy.com"
+  - "domain-suffix,antiy.net.cn"
+  - "domain-suffix,antiycloud.com"
+  - "domain-suffix,avlinsight.com"
+  - "domain-suffix,avlsec.com"
+  - "domain-suffix,avlyun.cn"
+  - "domain-suffix,avlyun.com"
+  - "domain-suffix,avlyun.net"
+  - "domain-suffix,avlyun.org"
+  - "domain-suffix,cloud-backup.com.cn"

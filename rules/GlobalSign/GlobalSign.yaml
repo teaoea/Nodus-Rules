@@ -1,0 +1,24 @@
+# 名称：GlobalSign
+# 来源核对日期：2026-10-25
+# 规则总数：13
+# domain: 0
+# domain-suffix: 13
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,globalsign-media.com"
+  - "domain-suffix,globalsign.be"
+  - "domain-suffix,globalsign.ch"
+  - "domain-suffix,globalsign.co.uk"
+  - "domain-suffix,globalsign.com"
+  - "domain-suffix,globalsign.com.au"
+  - "domain-suffix,globalsign.com.hk"
+  - "domain-suffix,globalsign.com.sg"
+  - "domain-suffix,globalsign.es"
+  - "domain-suffix,globalsign.eu"
+  - "domain-suffix,globalsign.fr"
+  - "domain-suffix,globalsign.net"
+  - "domain-suffix,globalsign.nl"

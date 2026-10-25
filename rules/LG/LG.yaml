@@ -1,0 +1,44 @@
+# 名称：LG
+# 来源核对日期：2026-10-25
+# 规则总数：33
+# domain: 0
+# domain-suffix: 4
+# domain-keyword: 0
+# ip-cidr: 29
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,dacom.co.kr"
+  - "domain-suffix,kidc.net"
+  - "domain-suffix,lg.com"
+  - "domain-suffix,uplus.co.kr"
+  - "ip-cidr,103.226.96.0/22"
+  - "ip-cidr,106.103.189.0/24"
+  - "ip-cidr,106.103.191.0/24"
+  - "ip-cidr,106.103.192.0/18"
+  - "ip-cidr,106.240.0.0/12"
+  - "ip-cidr,110.45.128.0/17"
+  - "ip-cidr,112.154.140.0/24"
+  - "ip-cidr,112.216.0.0/13"
+  - "ip-cidr,112.76.1.0/24"
+  - "ip-cidr,112.76.101.0/24"
+  - "ip-cidr,112.76.107.0/24"
+  - "ip-cidr,112.76.108.0/22"
+  - "ip-cidr,112.76.112.0/24"
+  - "ip-cidr,112.76.114.0/24"
+  - "ip-cidr,112.76.155.0/24"
+  - "ip-cidr,112.76.158.0/23"
+  - "ip-cidr,112.76.160.0/22"
+  - "ip-cidr,112.76.164.0/23"
+  - "ip-cidr,112.76.167.0/24"
+  - "ip-cidr,112.76.168.0/23"
+  - "ip-cidr,112.76.170.0/24"
+  - "ip-cidr,112.76.197.0/24"
+  - "ip-cidr,117.52.30.0/24"
+  - "ip-cidr,182.162.192.0/20"
+  - "ip-cidr,182.162.92.0/23"
+  - "ip-cidr,2001:270::/36"
+  - "ip-cidr,2001:4430:6000::/36"
+  - "ip-cidr,2001:4430:f::/48"
+  - "ip-cidr,2406:5900::/32"

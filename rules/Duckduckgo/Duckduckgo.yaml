@@ -1,0 +1,54 @@
+# 名称：Duckduckgo
+# 来源核对日期：2026-10-25
+# 规则总数：43
+# domain: 0
+# domain-suffix: 43
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,cispaletter.com"
+  - "domain-suffix,cispaletter.org"
+  - "domain-suffix,cometotheduckside.com"
+  - "domain-suffix,ddg.co"
+  - "domain-suffix,ddg.gg"
+  - "domain-suffix,ddh.gg"
+  - "domain-suffix,dgg.gg"
+  - "domain-suffix,dontbubble.us"
+  - "domain-suffix,donttrack.us"
+  - "domain-suffix,duck.co"
+  - "domain-suffix,duck.com"
+  - "domain-suffix,duckduckco.com"
+  - "domain-suffix,duckduckco.de"
+  - "domain-suffix,duckduckgo.ca"
+  - "domain-suffix,duckduckgo.co"
+  - "domain-suffix,duckduckgo.co.uk"
+  - "domain-suffix,duckduckgo.com"
+  - "domain-suffix,duckduckgo.com.mx"
+  - "domain-suffix,duckduckgo.com.tw"
+  - "domain-suffix,duckduckgo.de"
+  - "domain-suffix,duckduckgo.dk"
+  - "domain-suffix,duckduckgo.in"
+  - "domain-suffix,duckduckgo.jp"
+  - "domain-suffix,duckduckgo.ke"
+  - "domain-suffix,duckduckgo.mx"
+  - "domain-suffix,duckduckgo.nl"
+  - "domain-suffix,duckduckgo.org"
+  - "domain-suffix,duckduckgo.pl"
+  - "domain-suffix,duckduckgo.sg"
+  - "domain-suffix,duckduckgo.uk"
+  - "domain-suffix,duckduckhack.com"
+  - "domain-suffix,duckgo.com"
+  - "domain-suffix,ducksear.ch"
+  - "domain-suffix,duckside.com"
+  - "domain-suffix,dukgo.com"
+  - "domain-suffix,enteentegeh.de"
+  - "domain-suffix,fixtracking.com"
+  - "domain-suffix,goduckgo.com"
+  - "domain-suffix,hacksear.ch"
+  - "domain-suffix,justduckit.com"
+  - "domain-suffix,privacysimplified.com"
+  - "domain-suffix,privatebrowsingmyths.com"
+  - "domain-suffix,spreadprivacy.com"

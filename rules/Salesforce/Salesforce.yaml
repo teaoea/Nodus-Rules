@@ -1,0 +1,24 @@
+# 名称：Salesforce
+# 来源核对日期：2026-10-25
+# 规则总数：13
+# domain: 0
+# domain-suffix: 13
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,force.com"
+  - "domain-suffix,heroku.com"
+  - "domain-suffix,herokuapp.com"
+  - "domain-suffix,herokucdn.com"
+  - "domain-suffix,mulesoft.com"
+  - "domain-suffix,salesforce.com"
+  - "domain-suffix,salesforce.org"
+  - "domain-suffix,salesforceliveagent.com"
+  - "domain-suffix,sfdcdigital.com"
+  - "domain-suffix,sfdcstatic.com"
+  - "domain-suffix,tableau.com"
+  - "domain-suffix,trailblazer.me"
+  - "domain-suffix,trailhead.com"

@@ -1,0 +1,19 @@
+# 名称：LineTV
+# 来源核对日期：2026-10-25
+# 规则总数：8
+# domain: 3
+# domain-suffix: 5
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,d17lx9ucc6k9fc.cloudfront.net"
+  - "domain,d3pgb93pk7bvxj.cloudfront.net"
+  - "domain,d3vm9lcxb6xcm4.cloudfront.net"
+  - "domain-suffix,chocotv.com.tw"
+  - "domain-suffix,d3c7rimkq79yfu.cloudfront.net"
+  - "domain-suffix,line-cdn.net"
+  - "domain-suffix,line-scdn.net"
+  - "domain-suffix,linetv.tw"

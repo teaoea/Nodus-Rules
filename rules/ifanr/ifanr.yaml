@@ -1,0 +1,45 @@
+# 名称：ifanr
+# 来源核对日期：2026-10-25
+# 规则总数：34
+# domain: 0
+# domain-suffix: 34
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,01hub.com"
+  - "domain-suffix,app.so"
+  - "domain-suffix,appsolution.cc"
+  - "domain-suffix,bitbe.at"
+  - "domain-suffix,coolbuy.com"
+  - "domain-suffix,dongchehui.net"
+  - "domain-suffix,fabu.io"
+  - "domain-suffix,haomaishe.com"
+  - "domain-suffix,ifanr.cn"
+  - "domain-suffix,ifanr.com"
+  - "domain-suffix,ifanr.in"
+  - "domain-suffix,ifanrcloud.com"
+  - "domain-suffix,ifanrprod.cn"
+  - "domain-suffix,ifanrprod.com"
+  - "domain-suffix,ifanrprod.net"
+  - "domain-suffix,ifanrusercontent.com"
+  - "domain-suffix,ifdesigninc.cn"
+  - "domain-suffix,ifdesignstudio.cn"
+  - "domain-suffix,jmp.gd"
+  - "domain-suffix,menhu.io"
+  - "domain-suffix,minapp.com"
+  - "domain-suffix,mindstore.io"
+  - "domain-suffix,minshop.com"
+  - "domain-suffix,socialbase.cn"
+  - "domain-suffix,socialbasecustomercontent.com"
+  - "domain-suffix,socialbaseusercontent.com"
+  - "domain-suffix,triorder.com"
+  - "domain-suffix,tyqian.com"
+  - "domain-suffix,wantwu.com"
+  - "domain-suffix,weimen.hu"
+  - "domain-suffix,wuzhii.com"
+  - "domain-suffix,xiaoapp.io"
+  - "domain-suffix,xiaoma.io"
+  - "domain-suffix,zhixiaochengxu.com"

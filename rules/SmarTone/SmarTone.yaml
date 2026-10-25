@@ -1,0 +1,26 @@
+# 名称：SmarTone
+# 来源核对日期：2026-10-25
+# 规则总数：15
+# domain: 0
+# domain-suffix: 15
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,barkadahansasmartone.com"
+  - "domain-suffix,healthreach.hk"
+  - "domain-suffix,hkcircleapp.com"
+  - "domain-suffix,homephoneplus.com"
+  - "domain-suffix,ip73.com"
+  - "domain-suffix,s-cashonmobile.com"
+  - "domain-suffix,s-rewards.hk"
+  - "domain-suffix,sahabatsetiasmartone.com"
+  - "domain-suffix,smartone.com"
+  - "domain-suffix,smartoneholdings.com"
+  - "domain-suffix,smartonerobotics.com"
+  - "domain-suffix,smartonesolutions.com.hk"
+  - "domain-suffix,smartonesolutions.hk"
+  - "domain-suffix,valuegb.com"
+  - "domain-suffix,wise-research.com"

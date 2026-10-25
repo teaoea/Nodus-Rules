@@ -1,0 +1,27 @@
+# 名称：XianYu
+# 来源核对日期：2026-10-25
+# 规则总数：16
+# domain: 0
+# domain-suffix: 16
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,ewqcxz.com"
+  - "domain-suffix,hjkhjkl.com"
+  - "domain-suffix,iopiopl.com"
+  - "domain-suffix,lkjujm.com"
+  - "domain-suffix,mnbvdfg.com"
+  - "domain-suffix,nfmrtfv.com"
+  - "domain-suffix,poiuytw.com"
+  - "domain-suffix,qazasd.com"
+  - "domain-suffix,redfcv.com"
+  - "domain-suffix,svfrrg.com"
+  - "domain-suffix,tfgvb.com"
+  - "domain-suffix,uyhjnm.com"
+  - "domain-suffix,vbmnmy.com"
+  - "domain-suffix,wsxsdf.com"
+  - "domain-suffix,xcbbtf.com"
+  - "domain-suffix,xianyu.mobi"

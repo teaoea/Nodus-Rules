@@ -1,0 +1,26 @@
+# 名称：Epic
+# 来源核对日期：2026-10-25
+# 规则总数：15
+# domain: 0
+# domain-suffix: 15
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,battlebreakers.com"
+  - "domain-suffix,eac-cdn.com"
+  - "domain-suffix,easy.ac"
+  - "domain-suffix,easyanticheat.net"
+  - "domain-suffix,epicgames.com"
+  - "domain-suffix,epicgames.dev"
+  - "domain-suffix,fortnite.com"
+  - "domain-suffix,helpshift.com"
+  - "domain-suffix,paragon.com"
+  - "domain-suffix,playparagon.com"
+  - "domain-suffix,roborecall.com"
+  - "domain-suffix,shadowcomplex.com"
+  - "domain-suffix,spyjinx.com"
+  - "domain-suffix,unrealengine.com"
+  - "domain-suffix,unrealtournament.com"

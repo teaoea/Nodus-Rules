@@ -1,0 +1,16 @@
+# 名称：CWSeed
+# 来源核对日期：2026-10-25
+# 规则总数：5
+# domain: 2
+# domain-suffix: 3
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,cwtv-amd-akamai.akamaized.net"
+  - "domain,edge.cwtv-vod-ext.top.comcast.net"
+  - "domain-suffix,cwseed.com"
+  - "domain-suffix,cwtv.com"
+  - "domain-suffix,thecwvideo.com"

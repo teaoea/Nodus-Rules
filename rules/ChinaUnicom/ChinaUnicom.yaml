@@ -1,0 +1,45 @@
+# 名称：ChinaUnicom
+# 来源核对日期：2026-10-25
+# 规则总数：34
+# domain: 0
+# domain-suffix: 33
+# domain-keyword: 0
+# ip-cidr: 1
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,10010.cn"
+  - "domain-suffix,10010.com"
+  - "domain-suffix,10010.com.cn"
+  - "domain-suffix,10010.net"
+  - "domain-suffix,17wo.cn"
+  - "domain-suffix,chinaunicom.cn"
+  - "domain-suffix,chinaunicom.com"
+  - "domain-suffix,chinaunicom.com.cn"
+  - "domain-suffix,chinaunicom.com.hk"
+  - "domain-suffix,chinaunicombidding.cn"
+  - "domain-suffix,chinaunicomglobal.com"
+  - "domain-suffix,cu5gaia.cn"
+  - "domain-suffix,cu5gaia.com"
+  - "domain-suffix,cuecp.cn"
+  - "domain-suffix,cupb.cn"
+  - "domain-suffix,e-engine.com.cn"
+  - "domain-suffix,gd10010.cn"
+  - "domain-suffix,gd116114.net.cn"
+  - "domain-suffix,gd165.com"
+  - "domain-suffix,gnoc.com.cn"
+  - "domain-suffix,mucfc.com"
+  - "domain-suffix,mychinaunicom.com"
+  - "domain-suffix,unicomgd.com"
+  - "domain-suffix,unicompayment.cn"
+  - "domain-suffix,unicompayment.com"
+  - "domain-suffix,unicompayment.net"
+  - "domain-suffix,unicompayment.org"
+  - "domain-suffix,unimip.cn"
+  - "domain-suffix,wo-link.tech"
+  - "domain-suffix,wo.cn"
+  - "domain-suffix,wo.com.cn"
+  - "domain-suffix,wobaif.com"
+  - "domain-suffix,wom186.com"
+  - "ip-cidr,113.200.56.63/32"

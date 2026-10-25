@@ -1,0 +1,34 @@
+# 名称：Westerndigital
+# 来源核对日期：2026-10-25
+# 规则总数：23
+# domain: 0
+# domain-suffix: 23
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,g-technology.com"
+  - "domain-suffix,sandisk.ae"
+  - "domain-suffix,sandisk.cn"
+  - "domain-suffix,sandisk.co.jp"
+  - "domain-suffix,sandisk.co.kr"
+  - "domain-suffix,sandisk.co.uk"
+  - "domain-suffix,sandisk.com"
+  - "domain-suffix,sandisk.com.au"
+  - "domain-suffix,sandisk.com.br"
+  - "domain-suffix,sandisk.com.tr"
+  - "domain-suffix,sandisk.com.tw"
+  - "domain-suffix,sandisk.de"
+  - "domain-suffix,sandisk.es"
+  - "domain-suffix,sandisk.fr"
+  - "domain-suffix,sandisk.hk"
+  - "domain-suffix,sandisk.id"
+  - "domain-suffix,sandisk.in"
+  - "domain-suffix,sandisk.it"
+  - "domain-suffix,sandisk.nl"
+  - "domain-suffix,sandisk.sg"
+  - "domain-suffix,wd.com"
+  - "domain-suffix,wdc.com"
+  - "domain-suffix,westerndigital.com"

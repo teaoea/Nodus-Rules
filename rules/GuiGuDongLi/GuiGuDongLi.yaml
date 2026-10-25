@@ -1,0 +1,22 @@
+# 名称：GuiGuDongLi
+# 来源核对日期：2026-10-25
+# 规则总数：11
+# domain: 0
+# domain-suffix: 11
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,ciweekforum.com"
+  - "domain-suffix,enet.com.cn"
+  - "domain-suffix,enet16.cn"
+  - "domain-suffix,enet16.com"
+  - "domain-suffix,enet16.com.cn"
+  - "domain-suffix,enet16.net"
+  - "domain-suffix,enet369.com"
+  - "domain-suffix,ezhu.cn"
+  - "domain-suffix,ezhu.com"
+  - "domain-suffix,mydor.com"
+  - "domain-suffix,xingzhiheyi.com"

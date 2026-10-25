@@ -1,0 +1,25 @@
+# 名称：SuiShiChuanMei
+# 来源核对日期：2026-10-25
+# 规则总数：14
+# domain: 0
+# domain-suffix: 14
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,91friend.com"
+  - "domain-suffix,adsit.cn"
+  - "domain-suffix,aojiamarly.com"
+  - "domain-suffix,ebaidutv.com"
+  - "domain-suffix,mipujia.cn"
+  - "domain-suffix,mipujia.com"
+  - "domain-suffix,mobhui.cn"
+  - "domain-suffix,mobhui.com"
+  - "domain-suffix,quyaoya.cn"
+  - "domain-suffix,quyaoya.com"
+  - "domain-suffix,smartsocial.cn"
+  - "domain-suffix,socialjia.com"
+  - "domain-suffix,socialpls.com"
+  - "domain-suffix,weibopie.com"

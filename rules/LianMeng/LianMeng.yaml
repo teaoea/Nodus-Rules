@@ -1,0 +1,24 @@
+# 名称：LianMeng
+# 来源核对日期：2026-10-25
+# 规则总数：13
+# domain: 0
+# domain-suffix: 13
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,2333333333333.com"
+  - "domain-suffix,bqtalk.com"
+  - "domain-suffix,faceu.com"
+  - "domain-suffix,faceu.com.cn"
+  - "domain-suffix,faceu.mobi"
+  - "domain-suffix,faceu.net"
+  - "domain-suffix,heycan.com"
+  - "domain-suffix,qmoji.mobi"
+  - "domain-suffix,qmoji.net"
+  - "domain-suffix,ulikecam.cn"
+  - "domain-suffix,ulikecam.com"
+  - "domain-suffix,ulikecam.mobi"
+  - "domain-suffix,ulikecam.net"

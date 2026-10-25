@@ -1,0 +1,38 @@
+# 名称：PingAn
+# 来源核对日期：2026-10-25
+# 规则总数：27
+# domain: 0
+# domain-suffix: 27
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,1010-0000.com"
+  - "domain-suffix,18ebank.com"
+  - "domain-suffix,1qianbao.cn"
+  - "domain-suffix,1qianbao.com"
+  - "domain-suffix,1qianbao.com.cn"
+  - "domain-suffix,1qianbao.net"
+  - "domain-suffix,4008000000.com"
+  - "domain-suffix,4008824365.com"
+  - "domain-suffix,4008880999.cn"
+  - "domain-suffix,4008880999.com"
+  - "domain-suffix,4008880999.net"
+  - "domain-suffix,eka.cn"
+  - "domain-suffix,ekapay.cn"
+  - "domain-suffix,mingyuanfund.com"
+  - "domain-suffix,olatop.cn"
+  - "domain-suffix,olatop.com"
+  - "domain-suffix,olatop.net"
+  - "domain-suffix,pingan.com"
+  - "domain-suffix,pingan.com.cn"
+  - "domain-suffix,pingan.com.hk"
+  - "domain-suffix,pinganonline.com.cn"
+  - "domain-suffix,pinganventures.com"
+  - "domain-suffix,yiqianbao.com.cn"
+  - "domain-suffix,yiqianbao.net"
+  - "domain-suffix,yqb.com"
+  - "domain-suffix,yqbimg.com"
+  - "domain-suffix,yqbimg.net"

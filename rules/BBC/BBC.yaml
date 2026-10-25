@@ -1,0 +1,39 @@
+# 名称：BBC
+# 来源核对日期：2026-10-25
+# 规则总数：28
+# domain: 11
+# domain-suffix: 15
+# domain-keyword: 2
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,aod-dash-uk-live.akamaized.net"
+  - "domain,aod-hls-uk-live.akamaized.net"
+  - "domain,as-dash-uk-live.akamaized.net"
+  - "domain,as-hls-uk-live.akamaized.net"
+  - "domain,vod-dash-uk-live.akamaized.net"
+  - "domain,vod-dash-ww-live.akamaized.net"
+  - "domain,vod-hls-uk-live.akamaized.net"
+  - "domain,vod-sub-uk-live.akamaized.net"
+  - "domain,vod-thumb-uk-live.akamaized.net"
+  - "domain,vod-thumb-ww-live.akamaized.net"
+  - "domain,vs-cmaf-push-uk-live.akamaized.net"
+  - "domain-suffix,bbc"
+  - "domain-suffix,bbc.co"
+  - "domain-suffix,bbc.co.uk"
+  - "domain-suffix,bbc.com"
+  - "domain-suffix,bbc.in"
+  - "domain-suffix,bbc.net.uk"
+  - "domain-suffix,bbcchinese.com"
+  - "domain-suffix,bbcfmt.hs.llnwd.net"
+  - "domain-suffix,bbcfmt.s.llnwi.net"
+  - "domain-suffix,bbci.co"
+  - "domain-suffix,bbci.co.uk"
+  - "domain-suffix,bbcmedia.co.uk"
+  - "domain-suffix,bbcpersian.com"
+  - "domain-suffix,bbcverticals.com"
+  - "domain-suffix,bidi.net.uk"
+  - "domain-keyword,bbcfmt"
+  - "domain-keyword,uk-live"

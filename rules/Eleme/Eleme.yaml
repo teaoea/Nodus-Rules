@@ -1,0 +1,24 @@
+# 名称：Eleme
+# 来源核对日期：2026-10-25
+# 规则总数：13
+# domain: 0
+# domain-suffix: 13
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,ele.me"
+  - "domain-suffix,ele.to"
+  - "domain-suffix,eleme.cn"
+  - "domain-suffix,eleme.com.cn"
+  - "domain-suffix,eleme.io"
+  - "domain-suffix,elemecdn.cn"
+  - "domain-suffix,elemecdn.com"
+  - "domain-suffix,elenet.me"
+  - "domain-suffix,fengniaopaotui.cn"
+  - "domain-suffix,fengniaozhongbao.cn"
+  - "domain-suffix,xingxuanwaimai.com"
+  - "domain-suffix,xyzele.com"
+  - "domain-suffix,youcaishop.cn"

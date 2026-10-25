@@ -1,0 +1,21 @@
+# 名称：Picacg
+# 来源核对日期：2026-10-25
+# 规则总数：10
+# domain: 0
+# domain-suffix: 10
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,bikaa.xyz"
+  - "domain-suffix,bikac.xyz"
+  - "domain-suffix,bikaios.xyz"
+  - "domain-suffix,manhuabika.com"
+  - "domain-suffix,picacgp.com"
+  - "domain-suffix,picacgy.com"
+  - "domain-suffix,picacn.xyz"
+  - "domain-suffix,picacomic.com"
+  - "domain-suffix,picacomic.xyz"
+  - "domain-suffix,wikawika.xyz"

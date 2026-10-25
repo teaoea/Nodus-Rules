@@ -1,0 +1,31 @@
+# 名称：LeJu
+# 来源核对日期：2026-10-25
+# 规则总数：20
+# domain: 0
+# domain-suffix: 20
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,91leju.cn"
+  - "domain-suffix,91leju.com.cn"
+  - "domain-suffix,91leju.net"
+  - "domain-suffix,dichan.com"
+  - "domain-suffix,dichan.net"
+  - "domain-suffix,esfimg.com"
+  - "domain-suffix,fangdudu.com"
+  - "domain-suffix,houseimg.com"
+  - "domain-suffix,ileju.cn"
+  - "domain-suffix,ileju.com"
+  - "domain-suffix,jiajuimg.com"
+  - "domain-suffix,leju.cn"
+  - "domain-suffix,leju.com"
+  - "domain-suffix,ljimg.com"
+  - "domain-suffix,quanup.com"
+  - "domain-suffix,sousea.com"
+  - "domain-suffix,xhaiwai.com"
+  - "domain-suffix,xhwhouse.cn"
+  - "domain-suffix,xhwhouse.com"
+  - "domain-suffix,yiqisooimg.com"

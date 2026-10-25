@@ -1,0 +1,18 @@
+# 名称：DanDanZan
+# 来源核对日期：2026-10-25
+# 规则总数：7
+# domain: 0
+# domain-suffix: 7
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,343480.com"
+  - "domain-suffix,baduziyuan.com"
+  - "domain-suffix,com-hs-hkdy.com"
+  - "domain-suffix,czybjz.com"
+  - "domain-suffix,dandanzan.com"
+  - "domain-suffix,fjhps.com"
+  - "domain-suffix,kuyunbo.club"

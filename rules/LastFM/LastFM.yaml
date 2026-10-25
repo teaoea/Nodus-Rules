@@ -1,0 +1,42 @@
+# 名称：LastFM
+# 来源核对日期：2026-10-25
+# 规则总数：31
+# domain: 2
+# domain-suffix: 29
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,last.us11.list-manage.com"
+  - "domain,lastfm-img2.akamaized.net"
+  - "domain-suffix,audioscrobbler.com"
+  - "domain-suffix,bbfc1.tk"
+  - "domain-suffix,bc9oa.tk"
+  - "domain-suffix,bvuno.tk"
+  - "domain-suffix,cqyos.tk"
+  - "domain-suffix,fuckyeahtfx.com"
+  - "domain-suffix,halkz.tk"
+  - "domain-suffix,itnnl.tk"
+  - "domain-suffix,jdw1v.tk"
+  - "domain-suffix,kn5ak.tk"
+  - "domain-suffix,kwcnn.tk"
+  - "domain-suffix,last.fm"
+  - "domain-suffix,lastfm.cn"
+  - "domain-suffix,lastfm.de"
+  - "domain-suffix,lastfm.es"
+  - "domain-suffix,lastfm.eu"
+  - "domain-suffix,lastfm.freetls.fastly.net"
+  - "domain-suffix,lastfm.ph"
+  - "domain-suffix,lastfm.pl"
+  - "domain-suffix,lastfm.ru"
+  - "domain-suffix,lastfmpresents.com"
+  - "domain-suffix,mwrel.tk"
+  - "domain-suffix,oilofhaemony.com"
+  - "domain-suffix,ouchmonkey.com"
+  - "domain-suffix,pqqx2.tk"
+  - "domain-suffix,rfnva.tk"
+  - "domain-suffix,rmohl.tk"
+  - "domain-suffix,tnjqk.tk"
+  - "domain-suffix,wznka.tk"

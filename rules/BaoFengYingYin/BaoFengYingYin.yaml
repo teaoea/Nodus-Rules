@@ -1,0 +1,19 @@
+# 名称：BaoFengYingYin
+# 来源核对日期：2026-10-25
+# 规则总数：8
+# domain: 0
+# domain-suffix: 8
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,baofeng.com"
+  - "domain-suffix,baofeng.mobi"
+  - "domain-suffix,baofeng.net"
+  - "domain-suffix,baofengtv.com"
+  - "domain-suffix,bfimg.com"
+  - "domain-suffix,bfshow.cn"
+  - "domain-suffix,bjtndao.org"
+  - "domain-suffix,stormshow.cn"

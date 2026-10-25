@@ -1,0 +1,51 @@
+# 名称：AirWick
+# 来源核对日期：2026-10-25
+# 规则总数：40
+# domain: 0
+# domain-suffix: 40
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,airwick.at"
+  - "domain-suffix,airwick.be"
+  - "domain-suffix,airwick.ca"
+  - "domain-suffix,airwick.ch"
+  - "domain-suffix,airwick.cl"
+  - "domain-suffix,airwick.co.in"
+  - "domain-suffix,airwick.co.nz"
+  - "domain-suffix,airwick.co.uk"
+  - "domain-suffix,airwick.co.za"
+  - "domain-suffix,airwick.com"
+  - "domain-suffix,airwick.com.au"
+  - "domain-suffix,airwick.com.br"
+  - "domain-suffix,airwick.com.cn"
+  - "domain-suffix,airwick.com.mx"
+  - "domain-suffix,airwick.com.tr"
+  - "domain-suffix,airwick.cz"
+  - "domain-suffix,airwick.de"
+  - "domain-suffix,airwick.dk"
+  - "domain-suffix,airwick.es"
+  - "domain-suffix,airwick.fi"
+  - "domain-suffix,airwick.fr"
+  - "domain-suffix,airwick.hr"
+  - "domain-suffix,airwick.hu"
+  - "domain-suffix,airwick.ie"
+  - "domain-suffix,airwick.it"
+  - "domain-suffix,airwick.jp"
+  - "domain-suffix,airwick.net"
+  - "domain-suffix,airwick.nl"
+  - "domain-suffix,airwick.no"
+  - "domain-suffix,airwick.pl"
+  - "domain-suffix,airwick.pt"
+  - "domain-suffix,airwick.ro"
+  - "domain-suffix,airwick.ru"
+  - "domain-suffix,airwick.se"
+  - "domain-suffix,airwick.si"
+  - "domain-suffix,airwick.sk"
+  - "domain-suffix,airwick.tv"
+  - "domain-suffix,airwick.us"
+  - "domain-suffix,airwickarabia.com"
+  - "domain-suffix,vipoo.es"

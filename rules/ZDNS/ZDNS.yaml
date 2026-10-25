@@ -1,0 +1,23 @@
+# 名称：ZDNS
+# 来源核对日期：2026-10-25
+# 规则总数：12
+# domain: 0
+# domain-suffix: 12
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,zcmbc.com.cn"
+  - "domain-suffix,zdns.cn"
+  - "domain-suffix,zdns.net.cn"
+  - "domain-suffix,zdns.org.cn"
+  - "domain-suffix,zdnscloud.biz"
+  - "domain-suffix,zdnscloud.cn"
+  - "domain-suffix,zdnscloud.com"
+  - "domain-suffix,zdnscloud.com.cn"
+  - "domain-suffix,zdnscloud.info"
+  - "domain-suffix,zdnscloud.net"
+  - "domain-suffix,zdnscloud.net.cn"
+  - "domain-suffix,zdnscloud.org.cn"

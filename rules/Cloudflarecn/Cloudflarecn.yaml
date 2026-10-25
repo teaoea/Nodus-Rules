@@ -1,0 +1,25 @@
+# 名称：Cloudflarecn
+# 来源核对日期：2026-10-25
+# 规则总数：14
+# domain: 0
+# domain-suffix: 14
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,cf-ns.com"
+  - "domain-suffix,cf-ns.net"
+  - "domain-suffix,cf-ns.site"
+  - "domain-suffix,cf-ns.tech"
+  - "domain-suffix,cftest5.cn"
+  - "domain-suffix,cftest6.cn"
+  - "domain-suffix,cftest7.com"
+  - "domain-suffix,cftest8.com"
+  - "domain-suffix,cloudflare-cn.com"
+  - "domain-suffix,cloudflarecn.net"
+  - "domain-suffix,cloudflareinsights-cn.com"
+  - "domain-suffix,cloudflareprod.com"
+  - "domain-suffix,cloudflarestaging.com"
+  - "domain-suffix,cloudflarestoragegw.com"

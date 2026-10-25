@@ -1,0 +1,17 @@
+# 名称：CNN
+# 来源核对日期：2026-10-25
+# 规则总数：6
+# domain: 0
+# domain-suffix: 6
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,cnn.com"
+  - "domain-suffix,cnn.io"
+  - "domain-suffix,cnn.it"
+  - "domain-suffix,cnnarabic.com"
+  - "domain-suffix,cnnlabs.com"
+  - "domain-suffix,cnnmoney.ch"

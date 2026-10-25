@@ -1,0 +1,27 @@
+# 名称：UPYun
+# 来源核对日期：2026-10-25
+# 规则总数：16
+# domain: 0
+# domain-suffix: 16
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,aicdn.com"
+  - "domain-suffix,aicdn2.com"
+  - "domain-suffix,aicdn3.com"
+  - "domain-suffix,aicdn4.com"
+  - "domain-suffix,aicdn5.com"
+  - "domain-suffix,authbus.com"
+  - "domain-suffix,oncdp.com"
+  - "domain-suffix,shangketang.com"
+  - "domain-suffix,shangzhibo.tv"
+  - "domain-suffix,sktcdn.com"
+  - "domain-suffix,upai.com"
+  - "domain-suffix,upaiyun.com"
+  - "domain-suffix,upcdn.net"
+  - "domain-suffix,upyun.com"
+  - "domain-suffix,yupoo.com"
+  - "domain-suffix,zhidian-inc.cn"

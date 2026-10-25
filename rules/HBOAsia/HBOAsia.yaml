@@ -1,0 +1,29 @@
+# 名称：HBOAsia
+# 来源核对日期：2026-10-25
+# 规则总数：18
+# domain: 16
+# domain-suffix: 2
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com"
+  - "domain,bcbolthboa-a.akamaihd.net"
+  - "domain,cf-images.ap-southeast-1.prod.boltdns.net"
+  - "domain,dai3fd1oh325y.cloudfront.net"
+  - "domain,hboasia1-i.akamaihd.net"
+  - "domain,hboasia2-i.akamaihd.net"
+  - "domain,hboasia3-i.akamaihd.net"
+  - "domain,hboasia4-i.akamaihd.net"
+  - "domain,hboasia5-i.akamaihd.net"
+  - "domain,hboasialive.akamaized.net"
+  - "domain,hbogoprod-vod.akamaized.net"
+  - "domain,hbolb.onwardsmg.com"
+  - "domain,hbounify-prod.evergent.com"
+  - "domain,players.brightcove.net"
+  - "domain,s3-ap-southeast-1.amazonaws.com"
+  - "domain,wmff.warnermediacdn.com"
+  - "domain-suffix,hbogoasia.com"
+  - "domain-suffix,hbogoasia.hk"

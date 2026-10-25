@@ -1,0 +1,33 @@
+# 名称：Bloomberg
+# 来源核对日期：2026-10-25
+# 规则总数：22
+# domain: 0
+# domain-suffix: 22
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,bloomberg.co.kr"
+  - "domain-suffix,bloomberg.com"
+  - "domain-suffix,bloomberg.com.br"
+  - "domain-suffix,bloomberg.fm"
+  - "domain-suffix,bloomberg.tv"
+  - "domain-suffix,bloombergapps.com"
+  - "domain-suffix,bloombergarcade.com"
+  - "domain-suffix,bloombergbeta.com"
+  - "domain-suffix,blpprofessional.com"
+  - "domain-suffix,bmia.org"
+  - "domain-suffix,bnef.com"
+  - "domain-suffix,businessweek.com"
+  - "domain-suffix,businessweekmag.com"
+  - "domain-suffix,bwbx.io"
+  - "domain-suffix,citylab.com"
+  - "domain-suffix,gotraffic.net"
+  - "domain-suffix,londonmithraeum.com"
+  - "domain-suffix,neweconomyforum.com"
+  - "domain-suffix,newenergyfinance.com"
+  - "domain-suffix,quicktake.video"
+  - "domain-suffix,techatbloomberg.com"
+  - "domain-suffix,tictoc.video"

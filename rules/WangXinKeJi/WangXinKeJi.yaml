@@ -1,0 +1,37 @@
+# 名称：WangXinKeJi
+# 来源核对日期：2026-10-25
+# 规则总数：26
+# domain: 0
+# domain-suffix: 26
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,0101cdn.com"
+  - "domain-suffix,hiveshared.com"
+  - "domain-suffix,ionecloud.cn"
+  - "domain-suffix,kuiniuca.com"
+  - "domain-suffix,miuapp.com.cn"
+  - "domain-suffix,onething.net"
+  - "domain-suffix,onethingc.com"
+  - "domain-suffix,onethingcloud.cn"
+  - "domain-suffix,onethingcloud.com"
+  - "domain-suffix,onethingd.com"
+  - "domain-suffix,onethingn.com"
+  - "domain-suffix,onethingpcs.com"
+  - "domain-suffix,onethingtech.com.cn"
+  - "domain-suffix,onethingtech.net"
+  - "domain-suffix,peiluyou.com"
+  - "domain-suffix,seekr.com.cn"
+  - "domain-suffix,uhabo.com"
+  - "domain-suffix,walk-live.com"
+  - "domain-suffix,wezhibo.net"
+  - "domain-suffix,wezhibo.tv"
+  - "domain-suffix,wzhibo.net"
+  - "domain-suffix,wzhibo.tv"
+  - "domain-suffix,xunleioa.com"
+  - "domain-suffix,xycdn.com"
+  - "domain-suffix,xycloud.com"
+  - "domain-suffix,xylive.tv"

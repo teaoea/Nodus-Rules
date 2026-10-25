@@ -1,0 +1,25 @@
+# 名称：YiXiaKeJi
+# 来源核对日期：2026-10-25
+# 规则总数：14
+# domain: 0
+# domain-suffix: 14
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,huangka.com"
+  - "domain-suffix,iyuezhang.net"
+  - "domain-suffix,miaokan.com"
+  - "domain-suffix,miaopai.com"
+  - "domain-suffix,vbbobo.com"
+  - "domain-suffix,vitamio.net"
+  - "domain-suffix,vitamio.org"
+  - "domain-suffix,vitamio.tv"
+  - "domain-suffix,vplayer.net"
+  - "domain-suffix,weishipin.com"
+  - "domain-suffix,xiaoka.tv"
+  - "domain-suffix,xiaokaxiu.com"
+  - "domain-suffix,yixia.com"
+  - "domain-suffix,yixiatong.com"

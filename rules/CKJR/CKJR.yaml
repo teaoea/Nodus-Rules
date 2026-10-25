@@ -1,0 +1,24 @@
+# 名称：CKJR
+# 来源核对日期：2026-10-25
+# 规则总数：13
+# domain: 0
+# domain-suffix: 13
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,51ckjr.com"
+  - "domain-suffix,ckjr001.cn"
+  - "domain-suffix,ckjr001.com"
+  - "domain-suffix,ckjryy.com"
+  - "domain-suffix,meituo.shop"
+  - "domain-suffix,myckjr.cn"
+  - "domain-suffix,myckjr.com"
+  - "domain-suffix,qxckjr.com"
+  - "domain-suffix,sxyckjr.com"
+  - "domain-suffix,tengkackjr.com"
+  - "domain-suffix,tengkaxx.com"
+  - "domain-suffix,tjckjr.com"
+  - "domain-suffix,tkckjr.com"

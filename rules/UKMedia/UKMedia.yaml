@@ -1,0 +1,41 @@
+# 名称：UKMedia
+# 来源核对日期：2026-10-25
+# 规则总数：30
+# domain: 6
+# domain-suffix: 22
+# domain-keyword: 2
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,itvpnp.live.ott.irdeto.com"
+  - "domain,itvpnp.stage.ott.irdeto.com"
+  - "domain,itvpnpmobile-a.akamaihd.net"
+  - "domain,vod-dash-ww-live.akamaized.net"
+  - "domain,vod-thumb-ww-live.akamaized.net"
+  - "domain,vs-cmaf-pushb-ww-live.akamaized.net"
+  - "domain-suffix,bb-static.com"
+  - "domain-suffix,bbc"
+  - "domain-suffix,bbc-reporting-api.app"
+  - "domain-suffix,bbc.co"
+  - "domain-suffix,bbc.co.uk"
+  - "domain-suffix,bbc.com"
+  - "domain-suffix,bbc.in"
+  - "domain-suffix,bbc.net.uk"
+  - "domain-suffix,bbcchinese.com"
+  - "domain-suffix,bbci.co"
+  - "domain-suffix,bbci.co.uk"
+  - "domain-suffix,bbcmedia.co.uk"
+  - "domain-suffix,bbcpersian.com"
+  - "domain-suffix,bbcverticals.com"
+  - "domain-suffix,bidi.net.uk"
+  - "domain-suffix,britbox.co.uk"
+  - "domain-suffix,britbox.com"
+  - "domain-suffix,c4assets.com"
+  - "domain-suffix,channel4.com"
+  - "domain-suffix,itv.com"
+  - "domain-suffix,itvstatic.com"
+  - "domain-suffix,massive-itv.com"
+  - "domain-keyword,bbcfmt"
+  - "domain-keyword,uk-live"

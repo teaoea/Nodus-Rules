@@ -1,0 +1,24 @@
+# 名称：Anime
+# 来源核对日期：2026-10-25
+# 规则总数：13
+# domain: 0
+# domain-suffix: 13
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,9anime.cz"
+  - "domain-suffix,9anime.id"
+  - "domain-suffix,9anime.to"
+  - "domain-suffix,9anime.ws"
+  - "domain-suffix,animedao-tv.com"
+  - "domain-suffix,crunchyroll.com"
+  - "domain-suffix,funimation.com"
+  - "domain-suffix,gogo-load.com"
+  - "domain-suffix,gogoanime.vc"
+  - "domain-suffix,gogoanime.wiki"
+  - "domain-suffix,gogocdn.net"
+  - "domain-suffix,hidive.com"
+  - "domain-suffix,vrv.co"

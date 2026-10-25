@@ -1,0 +1,24 @@
+# 名称：MEGA
+# 来源核对日期：2026-10-25
+# 规则总数：13
+# domain: 0
+# domain-suffix: 3
+# domain-keyword: 0
+# ip-cidr: 10
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,mega.co.nz"
+  - "domain-suffix,mega.io"
+  - "domain-suffix,mega.nz"
+  - "ip-cidr,185.206.24.0/22"
+  - "ip-cidr,2a0b:e40:1::/48"
+  - "ip-cidr,2a0b:e40:2::/47"
+  - "ip-cidr,2a0b:e41:1::/48"
+  - "ip-cidr,2a0b:e42:1::/48"
+  - "ip-cidr,2a0b:e43:1::/48"
+  - "ip-cidr,2a0b:e44:1::/48"
+  - "ip-cidr,2a0b:e45:1::/48"
+  - "ip-cidr,66.203.126.0/23"
+  - "ip-cidr,94.24.36.0/23"

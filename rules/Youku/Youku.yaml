@@ -1,0 +1,46 @@
+# 名称：Youku
+# 来源核对日期：2026-10-25
+# 规则总数：35
+# domain: 0
+# domain-suffix: 34
+# domain-keyword: 0
+# ip-cidr: 1
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,0co3geye.cn"
+  - "domain-suffix,2isbbess.cn"
+  - "domain-suffix,33lwhaoinc.cn"
+  - "domain-suffix,52mtkvideo.cn"
+  - "domain-suffix,9xsecndns.cn"
+  - "domain-suffix,b82yxres.cn"
+  - "domain-suffix,e8h2ty.tdum.alibaba.com"
+  - "domain-suffix,gamenow.club"
+  - "domain-suffix,kumiao.com"
+  - "domain-suffix,kumiao.tv"
+  - "domain-suffix,kuxiaomiao.cn"
+  - "domain-suffix,kuxiaomiao.com"
+  - "domain-suffix,kuxiaomiao.com.cn"
+  - "domain-suffix,kuxiaomiao.net"
+  - "domain-suffix,ns6mitkxo.cn"
+  - "domain-suffix,sk2cdsnw.cn"
+  - "domain-suffix,sogoodtech1.cn"
+  - "domain-suffix,soku.com"
+  - "domain-suffix,tudou.com"
+  - "domain-suffix,ukoo.com.cn"
+  - "domain-suffix,wenyupages.com"
+  - "domain-suffix,wingsmobiletek.cn"
+  - "domain-suffix,wwc.alicdn.com"
+  - "domain-suffix,ykimg.com"
+  - "domain-suffix,yodou.com"
+  - "domain-suffix,yoku.net.cn"
+  - "domain-suffix,yoqoo.com"
+  - "domain-suffix,yoqoo.net"
+  - "domain-suffix,yoqoo.net.cn"
+  - "domain-suffix,yoqoo.tv"
+  - "domain-suffix,youku.com"
+  - "domain-suffix,youku.com.cn"
+  - "domain-suffix,youku.org"
+  - "domain-suffix,youqoo.net"
+  - "ip-cidr,106.11.0.0/16"

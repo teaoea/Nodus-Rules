@@ -1,0 +1,48 @@
+# 名称：UCloud
+# 来源核对日期：2026-10-25
+# 规则总数：37
+# domain: 0
+# domain-suffix: 37
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,cdndo.com"
+  - "domain-suffix,ecloud-gdu.com"
+  - "domain-suffix,fshark.cn"
+  - "domain-suffix,ibusre.cn"
+  - "domain-suffix,ipbaohe.com"
+  - "domain-suffix,ipssh.net"
+  - "domain-suffix,u-cdn.com"
+  - "domain-suffix,u-cdn.net"
+  - "domain-suffix,ucgslb.cn"
+  - "domain-suffix,ucgslb.com"
+  - "domain-suffix,ucgslb.info"
+  - "domain-suffix,ucgslb.net"
+  - "domain-suffix,ucgslb.top"
+  - "domain-suffix,ucloud.cn"
+  - "domain-suffix,ucloud.com.cn"
+  - "domain-suffix,ucloud365.com"
+  - "domain-suffix,ucloudadmin.com"
+  - "domain-suffix,ucloudapi.com"
+  - "domain-suffix,ucloudgda.com"
+  - "domain-suffix,ucloudoss.com"
+  - "domain-suffix,ucloudstack.cn"
+  - "domain-suffix,ucloudstack.com"
+  - "domain-suffix,ucloudstack.net"
+  - "domain-suffix,uclouduewaf.com"
+  - "domain-suffix,ucloudufile.com"
+  - "domain-suffix,uewaf.com"
+  - "domain-suffix,ufileos.com"
+  - "domain-suffix,ugslb.cn"
+  - "domain-suffix,ugslb.com"
+  - "domain-suffix,ugslb.info"
+  - "domain-suffix,ugslb.net"
+  - "domain-suffix,ugslb.top"
+  - "domain-suffix,ugslb2.net"
+  - "domain-suffix,uhasadmin.com"
+  - "domain-suffix,unaming.net"
+  - "domain-suffix,urome.cn"
+  - "domain-suffix,urtc.com.cn"

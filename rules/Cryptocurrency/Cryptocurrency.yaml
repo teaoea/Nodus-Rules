@@ -1,0 +1,54 @@
+# 名称：Cryptocurrency
+# 来源核对日期：2026-10-25
+# 规则总数：43
+# domain: 0
+# domain-suffix: 43
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,aex.com"
+  - "domain-suffix,aicoin.com"
+  - "domain-suffix,aimoon.com"
+  - "domain-suffix,bibox.com"
+  - "domain-suffix,binance.cc"
+  - "domain-suffix,binance.cloud"
+  - "domain-suffix,binance.com"
+  - "domain-suffix,binance.im"
+  - "domain-suffix,binance.me"
+  - "domain-suffix,binance.us"
+  - "domain-suffix,bitcointalk.org"
+  - "domain-suffix,bitfinex.com"
+  - "domain-suffix,bithumb.com"
+  - "domain-suffix,bitmex.com"
+  - "domain-suffix,bitstamp.net"
+  - "domain-suffix,bittrex.com"
+  - "domain-suffix,bnappzh.co"
+  - "domain-suffix,bnappzh.com"
+  - "domain-suffix,bnbstatic.com"
+  - "domain-suffix,bntrace.com"
+  - "domain-suffix,bybit.com"
+  - "domain-suffix,coinbase.com"
+  - "domain-suffix,coincheck.com"
+  - "domain-suffix,coingecko.com"
+  - "domain-suffix,coinmarketcap.com"
+  - "domain-suffix,coinone.co.kr"
+  - "domain-suffix,debank.com"
+  - "domain-suffix,etherscan.io"
+  - "domain-suffix,ftx.com"
+  - "domain-suffix,gate.io"
+  - "domain-suffix,gemini.com"
+  - "domain-suffix,huobi.com"
+  - "domain-suffix,korbit.co.kr"
+  - "domain-suffix,kraken.com"
+  - "domain-suffix,kucoin.com"
+  - "domain-suffix,liquid.com"
+  - "domain-suffix,okex.com"
+  - "domain-suffix,okx.com"
+  - "domain-suffix,pancakeswap.finance"
+  - "domain-suffix,poloniex.com"
+  - "domain-suffix,sushi.com"
+  - "domain-suffix,uniswap.org"
+  - "domain-suffix,zb.com"

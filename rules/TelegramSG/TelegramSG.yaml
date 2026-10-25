@@ -1,0 +1,14 @@
+# 名称：TelegramSG
+# 来源核对日期：2026-10-25
+# 规则总数：3
+# domain: 0
+# domain-suffix: 0
+# domain-keyword: 0
+# ip-cidr: 3
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "ip-cidr,2001:b28:f23f::/48"
+  - "ip-cidr,91.108.16.0/22"
+  - "ip-cidr,91.108.56.0/22"

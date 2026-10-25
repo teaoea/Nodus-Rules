@@ -1,0 +1,23 @@
+# 名称：HeMa
+# 来源核对日期：2026-10-25
+# 规则总数：12
+# domain: 0
+# domain-suffix: 12
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,freshhema.com"
+  - "domain-suffix,hemaapi.cn"
+  - "domain-suffix,hemamax.com"
+  - "domain-suffix,hemaopen.cn"
+  - "domain-suffix,hemaos.com"
+  - "domain-suffix,hemashare.cn"
+  - "domain-suffix,marioall.com"
+  - "domain-suffix,marioin.com"
+  - "domain-suffix,mariowap.com"
+  - "domain-suffix,rexpos.cn"
+  - "domain-suffix,rextech.cn"
+  - "domain-suffix,shyhhema.com"

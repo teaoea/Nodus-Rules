@@ -1,0 +1,40 @@
+# 名称：WanKaHuanJu
+# 来源核对日期：2026-10-25
+# 规则总数：29
+# domain: 0
+# domain-suffix: 29
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,daxianglingke.cn"
+  - "domain-suffix,daxianglingke.com"
+  - "domain-suffix,daxianglingke.com.cn"
+  - "domain-suffix,daxianglink.cn"
+  - "domain-suffix,daxianglink.com"
+  - "domain-suffix,daxianglink.com.cn"
+  - "domain-suffix,gdsa.com"
+  - "domain-suffix,gm825.cn"
+  - "domain-suffix,gm825.com"
+  - "domain-suffix,gm825.com.cn"
+  - "domain-suffix,gm825.net"
+  - "domain-suffix,hapjs.org"
+  - "domain-suffix,ita-alliance.com"
+  - "domain-suffix,itgsa.com"
+  - "domain-suffix,mhacn.cn"
+  - "domain-suffix,mhacn.com"
+  - "domain-suffix,mhacn.com.cn"
+  - "domain-suffix,mhacn.net"
+  - "domain-suffix,quickapp.cn"
+  - "domain-suffix,quickingdata.com"
+  - "domain-suffix,quicklyopen.com"
+  - "domain-suffix,shenyinhudong.cn"
+  - "domain-suffix,shenyinhudong.com"
+  - "domain-suffix,so-quick.cn"
+  - "domain-suffix,wankacn.cn"
+  - "domain-suffix,wankacn.com"
+  - "domain-suffix,wankacn.com.cn"
+  - "domain-suffix,wankacn.net"
+  - "domain-suffix,wankamall.com"

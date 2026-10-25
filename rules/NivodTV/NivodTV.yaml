@@ -1,0 +1,19 @@
+# 名称：NivodTV
+# 来源核对日期：2026-10-25
+# 规则总数：8
+# domain: 0
+# domain-suffix: 7
+# domain-keyword: 1
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,biggggg.com"
+  - "domain-suffix,mudvod.tv"
+  - "domain-suffix,nbys.tv"
+  - "domain-suffix,nbys1.tv"
+  - "domain-suffix,nbyy.tv"
+  - "domain-suffix,newpppp.com"
+  - "domain-suffix,vod360.net"
+  - "domain-keyword,nivod"

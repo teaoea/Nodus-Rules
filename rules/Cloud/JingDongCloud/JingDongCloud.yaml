@@ -1,0 +1,19 @@
+# 名称：JingDongCloud
+# 来源核对日期：2026-10-25
+# 规则总数：8
+# domain: 0
+# domain-suffix: 0
+# domain-keyword: 0
+# ip-cidr: 8
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "ip-cidr,101.124.0.0/16"
+  - "ip-cidr,103.224.220.0/22"
+  - "ip-cidr,114.67.128.0/17"
+  - "ip-cidr,117.72.248.0/22"
+  - "ip-cidr,2402:db40::/33"
+  - "ip-cidr,2402:dfc0:50::/44"
+  - "ip-cidr,2402:dfc0::/44"
+  - "ip-cidr,2403:1ec0:1200::/48"

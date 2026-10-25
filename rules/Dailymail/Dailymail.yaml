@@ -1,0 +1,28 @@
+# 名称：Dailymail
+# 来源核对日期：2026-10-25
+# 规则总数：17
+# domain: 0
+# domain-suffix: 17
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,anm.co.uk"
+  - "domain-suffix,dailym.ai"
+  - "domain-suffix,dailymail.co.uk"
+  - "domain-suffix,dailymail.com"
+  - "domain-suffix,dailymail.com.au"
+  - "domain-suffix,dailymail.dk"
+  - "domain-suffix,dailymailonline.com"
+  - "domain-suffix,dmgmediaprivacy.co.uk"
+  - "domain-suffix,mailhealth.com"
+  - "domain-suffix,mailonline.co.uk"
+  - "domain-suffix,mailonline.com"
+  - "domain-suffix,mailonsunday.co.uk"
+  - "domain-suffix,mailonsunday.ie"
+  - "domain-suffix,metro.co.uk"
+  - "domain-suffix,mol.im"
+  - "domain-suffix,thisismoney.co.uk"
+  - "domain-suffix,thismon.ee"

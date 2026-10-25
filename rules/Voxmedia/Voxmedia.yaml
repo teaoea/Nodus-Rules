@@ -1,0 +1,27 @@
+# 名称：Voxmedia
+# 来源核对日期：2026-10-25
+# 规则总数：16
+# domain: 0
+# domain-suffix: 16
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,cstatic.net"
+  - "domain-suffix,curbed.com"
+  - "domain-suffix,eater.com"
+  - "domain-suffix,funnyordie.com"
+  - "domain-suffix,meridian.net"
+  - "domain-suffix,polygon.com"
+  - "domain-suffix,racked.com"
+  - "domain-suffix,recode.net"
+  - "domain-suffix,sbnation.com"
+  - "domain-suffix,theverge.com"
+  - "domain-suffix,vox-cdn.com"
+  - "domain-suffix,vox.com"
+  - "domain-suffix,voxcreative.com"
+  - "domain-suffix,voxfieldguide.com"
+  - "domain-suffix,voxmedia.com"
+  - "domain-suffix,voxops.net"

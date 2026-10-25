@@ -1,0 +1,43 @@
+# 名称：Lenovo
+# 来源核对日期：2026-10-25
+# 规则总数：32
+# domain: 0
+# domain-suffix: 32
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,blurdev.com"
+  - "domain-suffix,cftsupport.com"
+  - "domain-suffix,fm365.com"
+  - "domain-suffix,idea123.cn"
+  - "domain-suffix,ileapcloud.com"
+  - "domain-suffix,jhwan.com.cn"
+  - "domain-suffix,juhuiwan.com"
+  - "domain-suffix,juhuiwan.com.cn"
+  - "domain-suffix,juhuiwan.net"
+  - "domain-suffix,lenauth.com"
+  - "domain-suffix,lenovo.cn"
+  - "domain-suffix,lenovo.com"
+  - "domain-suffix,lenovo.com.cn"
+  - "domain-suffix,lenovocloudos.com"
+  - "domain-suffix,lenovoeservice.com"
+  - "domain-suffix,lenovogame.com"
+  - "domain-suffix,lenovomm.cn"
+  - "domain-suffix,lenovomm.com"
+  - "domain-suffix,lenovovip.com.cn"
+  - "domain-suffix,lx.pub"
+  - "domain-suffix,lx.run"
+  - "domain-suffix,lxzjjt.cn"
+  - "domain-suffix,lxzjjt.com"
+  - "domain-suffix,surepush.cn"
+  - "domain-suffix,thinkcloudlab.com"
+  - "domain-suffix,thinkpad.com"
+  - "domain-suffix,zhiliaowenda.com.cn"
+  - "domain-suffix,zui.cn"
+  - "domain-suffix,zui.com"
+  - "domain-suffix,zuk.cn"
+  - "domain-suffix,zuk.com"
+  - "domain-suffix,zuk.com.cn"

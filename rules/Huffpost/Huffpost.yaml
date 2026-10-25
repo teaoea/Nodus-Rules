@@ -1,0 +1,29 @@
+# 名称：Huffpost
+# 来源核对日期：2026-10-25
+# 规则总数：18
+# domain: 0
+# domain-suffix: 18
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,huffingtonpost.ca"
+  - "domain-suffix,huffingtonpost.co.uk"
+  - "domain-suffix,huffingtonpost.co.za"
+  - "domain-suffix,huffingtonpost.com"
+  - "domain-suffix,huffingtonpost.com.au"
+  - "domain-suffix,huffingtonpost.com.mx"
+  - "domain-suffix,huffingtonpost.de"
+  - "domain-suffix,huffingtonpost.es"
+  - "domain-suffix,huffingtonpost.fr"
+  - "domain-suffix,huffingtonpost.gr"
+  - "domain-suffix,huffingtonpost.in"
+  - "domain-suffix,huffingtonpost.it"
+  - "domain-suffix,huffingtonpost.jp"
+  - "domain-suffix,huffingtonpost.kr"
+  - "domain-suffix,huffpost.com"
+  - "domain-suffix,huffpostarabi.com"
+  - "domain-suffix,huffpostbrasil.com"
+  - "domain-suffix,huffpostmaghreb.com"

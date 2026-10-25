@@ -1,0 +1,22 @@
+# 名称：Ku6
+# 来源核对日期：2026-10-25
+# 规则总数：11
+# domain: 0
+# domain-suffix: 11
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,feedsp.com"
+  - "domain-suffix,juchang.cn"
+  - "domain-suffix,juchang.com.cn"
+  - "domain-suffix,ku6.cn"
+  - "domain-suffix,ku6.com"
+  - "domain-suffix,ku6.com.cn"
+  - "domain-suffix,ku6.net"
+  - "domain-suffix,ku6cdn.com"
+  - "domain-suffix,ku6img.com"
+  - "domain-suffix,ku6vms.com"
+  - "domain-suffix,weiguan.com"

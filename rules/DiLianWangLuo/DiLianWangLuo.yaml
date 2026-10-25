@@ -1,0 +1,25 @@
+# 名称：DiLianWangLuo
+# 来源核对日期：2026-10-25
+# 规则总数：14
+# domain: 0
+# domain-suffix: 14
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,acadn.cn"
+  - "domain-suffix,acadn.com"
+  - "domain-suffix,bbbcdns.com"
+  - "domain-suffix,dlgslb.cn"
+  - "domain-suffix,dlgslb.net"
+  - "domain-suffix,dwion.com"
+  - "domain-suffix,fastcdn.com"
+  - "domain-suffix,fastcdn.com.cn"
+  - "domain-suffix,flxdns.cn"
+  - "domain-suffix,flxdns.com"
+  - "domain-suffix,globalcdn.cn"
+  - "domain-suffix,mcadn.cn"
+  - "domain-suffix,tlgslb.cn"
+  - "domain-suffix,tlgslb.com"

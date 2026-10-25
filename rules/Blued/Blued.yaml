@@ -1,0 +1,44 @@
+# 名称：Blued
+# 来源核对日期：2026-10-25
+# 规则总数：33
+# domain: 0
+# domain-suffix: 33
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,bf99.com"
+  - "domain-suffix,bldimg.com"
+  - "domain-suffix,bldlive.com"
+  - "domain-suffix,blue-city.com"
+  - "domain-suffix,blued.cdn-gw-dv.net"
+  - "domain-suffix,blued.cn"
+  - "domain-suffix,blued.com"
+  - "domain-suffix,blued.gw-dv.net"
+  - "domain-suffix,bluedgames.cn"
+  - "domain-suffix,bluedgames.com"
+  - "domain-suffix,bluedimg.cn"
+  - "domain-suffix,bluedimg.com"
+  - "domain-suffix,budimg.cn"
+  - "domain-suffix,caihongqi.com"
+  - "domain-suffix,danlan.org"
+  - "domain-suffix,danlancare.cn"
+  - "domain-suffix,danlancare.com"
+  - "domain-suffix,danlanlove.cn"
+  - "domain-suffix,danlanlove.com"
+  - "domain-suffix,fleeper.com"
+  - "domain-suffix,irisdt.cn"
+  - "domain-suffix,irisdt.com"
+  - "domain-suffix,irisdt.net"
+  - "domain-suffix,irisgw.cn"
+  - "domain-suffix,irisgw.com"
+  - "domain-suffix,irisgw.net"
+  - "domain-suffix,ourbluecity.cn"
+  - "domain-suffix,ourbluecity.com"
+  - "domain-suffix,xiaogegelive.cn"
+  - "domain-suffix,xiaogegelive.com"
+  - "domain-suffix,xiaolanapp.com"
+  - "domain-suffix,yijian-app.cn"
+  - "domain-suffix,yijian-app.com"

@@ -1,0 +1,22 @@
+# 名称：Nike
+# 来源核对日期：2026-10-25
+# 规则总数：11
+# domain: 0
+# domain-suffix: 11
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,nike.com"
+  - "domain-suffix,nike.com.br"
+  - "domain-suffix,nike.com.hk"
+  - "domain-suffix,nikecdn.com"
+  - "domain-suffix,nikecloud.com"
+  - "domain-suffix,nikeinc.com.cn"
+  - "domain-suffix,nikestore.com.au"
+  - "domain-suffix,niketracking.com"
+  - "domain-suffix,static-nike.com"
+  - "domain-suffix,swoo.sh"
+  - "domain-suffix,swoosh.com"

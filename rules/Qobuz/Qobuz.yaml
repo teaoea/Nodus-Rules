@@ -1,0 +1,44 @@
+# 名称：Qobuz
+# 来源核对日期：2026-10-25
+# 规则总数：33
+# domain: 0
+# domain-suffix: 31
+# domain-keyword: 0
+# ip-cidr: 2
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,cobeuz.fr"
+  - "domain-suffix,cobuz.fr"
+  - "domain-suffix,cobuzz.fr"
+  - "domain-suffix,kobuz.fr"
+  - "domain-suffix,qobuz.at"
+  - "domain-suffix,qobuz.be"
+  - "domain-suffix,qobuz.biz"
+  - "domain-suffix,qobuz.ca"
+  - "domain-suffix,qobuz.ch"
+  - "domain-suffix,qobuz.co.uk"
+  - "domain-suffix,qobuz.com"
+  - "domain-suffix,qobuz.de"
+  - "domain-suffix,qobuz.eu"
+  - "domain-suffix,qobuz.fi"
+  - "domain-suffix,qobuz.fr"
+  - "domain-suffix,qobuz.gr"
+  - "domain-suffix,qobuz.hk"
+  - "domain-suffix,qobuz.info"
+  - "domain-suffix,qobuz.it"
+  - "domain-suffix,qobuz.lt"
+  - "domain-suffix,qobuz.lu"
+  - "domain-suffix,qobuz.net"
+  - "domain-suffix,qobuz.org"
+  - "domain-suffix,qobuz.pl"
+  - "domain-suffix,qobuz.ro"
+  - "domain-suffix,qobuz.se"
+  - "domain-suffix,qobuz.tv"
+  - "domain-suffix,qobuz.us"
+  - "domain-suffix,quobuz.com"
+  - "domain-suffix,quobuz.fr"
+  - "domain-suffix,static-qobuz.com"
+  - "ip-cidr,52.211.1.180/32"
+  - "ip-cidr,99.81.97.56/32"

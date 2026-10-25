@@ -1,0 +1,27 @@
+# 名称：GovCN
+# 来源核对日期：2026-10-25
+# 规则总数：16
+# domain: 0
+# domain-suffix: 16
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,91huayi.cn"
+  - "domain-suffix,91huayi.com"
+  - "domain-suffix,91huayi.net"
+  - "domain-suffix,gov.cn"
+  - "domain-suffix,heart301.cn"
+  - "domain-suffix,henancme.net"
+  - "domain-suffix,huayi.cn"
+  - "domain-suffix,huayiweibo.com"
+  - "domain-suffix,huayiyuan.com"
+  - "domain-suffix,robot301.net"
+  - "domain-suffix,roboticsurg301.net"
+  - "domain-suffix,scncrc.com"
+  - "domain-suffix,shiyanma.org.cn"
+  - "domain-suffix,sqpx.org"
+  - "domain-suffix,wsglw.com"
+  - "domain-suffix,wsglw.net"

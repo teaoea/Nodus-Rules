@@ -1,0 +1,44 @@
+# 名称：CNNIC
+# 来源核对日期：2026-10-25
+# 规则总数：33
+# domain: 0
+# domain-suffix: 33
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,6pilot.cn"
+  - "domain-suffix,apac.cn"
+  - "domain-suffix,apac.org.cn"
+  - "domain-suffix,apira.org"
+  - "domain-suffix,apirc.org"
+  - "domain-suffix,cdnc.org"
+  - "domain-suffix,cdns.cn"
+  - "domain-suffix,cfid-lab.cn"
+  - "domain-suffix,cfidlab.cn"
+  - "domain-suffix,cilab.cn"
+  - "domain-suffix,cnidp.cn"
+  - "domain-suffix,cnnic.ac.cn"
+  - "domain-suffix,cnnic.cn"
+  - "domain-suffix,cnnic.com.cn"
+  - "domain-suffix,cnnic.net"
+  - "domain-suffix,cnnic.net.cn"
+  - "domain-suffix,cnnic.org.cn"
+  - "domain-suffix,cnnicresearch.cn"
+  - "domain-suffix,cyberspace.cn"
+  - "domain-suffix,djt.org.cn"
+  - "domain-suffix,dns-cert.cn"
+  - "domain-suffix,dnscert.cn"
+  - "domain-suffix,dnslab.cn"
+  - "domain-suffix,dnswood.cn"
+  - "domain-suffix,idatacn.cn"
+  - "domain-suffix,idpcn.cn"
+  - "domain-suffix,internet.cn"
+  - "domain-suffix,myid.cn"
+  - "domain-suffix,nanel.cn"
+  - "domain-suffix,sdns.cn"
+  - "domain-suffix,snsroot.cn"
+  - "domain-suffix,surdata.cn"
+  - "domain-suffix,v6pilot.cn"

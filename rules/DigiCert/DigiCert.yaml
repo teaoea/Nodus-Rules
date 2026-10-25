@@ -1,0 +1,25 @@
+# 名称：DigiCert
+# 来源核对日期：2026-10-25
+# 规则总数：14
+# domain: 0
+# domain-suffix: 14
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,dcocsp.cn"
+  - "domain-suffix,digicert-cn.com"
+  - "domain-suffix,digicert-validation.com"
+  - "domain-suffix,digicert.cn"
+  - "domain-suffix,digicert.com"
+  - "domain-suffix,digitalcertvalidation.com"
+  - "domain-suffix,freessl.com"
+  - "domain-suffix,geotrust.com"
+  - "domain-suffix,public-trust.com"
+  - "domain-suffix,quovadisglobal.com"
+  - "domain-suffix,rapidssl.com"
+  - "domain-suffix,thawte.com"
+  - "domain-suffix,thawte.de"
+  - "domain-suffix,thawte.fr"

@@ -1,0 +1,36 @@
+# 名称：Gettyimages
+# 来源核对日期：2026-10-25
+# 规则总数：25
+# domain: 0
+# domain-suffix: 25
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,gettyimages.ae"
+  - "domain-suffix,gettyimages.at"
+  - "domain-suffix,gettyimages.be"
+  - "domain-suffix,gettyimages.ca"
+  - "domain-suffix,gettyimages.ch"
+  - "domain-suffix,gettyimages.co.jp"
+  - "domain-suffix,gettyimages.co.nz"
+  - "domain-suffix,gettyimages.co.uk"
+  - "domain-suffix,gettyimages.com"
+  - "domain-suffix,gettyimages.com.au"
+  - "domain-suffix,gettyimages.com.br"
+  - "domain-suffix,gettyimages.com.mx"
+  - "domain-suffix,gettyimages.de"
+  - "domain-suffix,gettyimages.dk"
+  - "domain-suffix,gettyimages.es"
+  - "domain-suffix,gettyimages.fi"
+  - "domain-suffix,gettyimages.fr"
+  - "domain-suffix,gettyimages.hk"
+  - "domain-suffix,gettyimages.ie"
+  - "domain-suffix,gettyimages.in"
+  - "domain-suffix,gettyimages.it"
+  - "domain-suffix,gettyimages.nl"
+  - "domain-suffix,gettyimages.no"
+  - "domain-suffix,gettyimages.pt"
+  - "domain-suffix,gettyimages.se"

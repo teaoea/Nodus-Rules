@@ -1,0 +1,23 @@
+# 名称：Binance
+# 来源核对日期：2026-10-25
+# 规则总数：12
+# domain: 0
+# domain-suffix: 12
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,appsflayer.com"
+  - "domain-suffix,binance.cloud"
+  - "domain-suffix,binance.com"
+  - "domain-suffix,binance.me"
+  - "domain-suffix,binancecnt.com"
+  - "domain-suffix,binancefuture.com"
+  - "domain-suffix,bnappzh.co"
+  - "domain-suffix,bnbstatic.com"
+  - "domain-suffix,bnbzh.ac"
+  - "domain-suffix,bntrace.com"
+  - "domain-suffix,saasexch.cc"
+  - "domain-suffix,saasexch.com"

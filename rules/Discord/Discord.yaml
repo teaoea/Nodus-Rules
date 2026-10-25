@@ -1,0 +1,40 @@
+# 名称：Discord
+# 来源核对日期：2026-10-25
+# 规则总数：29
+# domain: 0
+# domain-suffix: 29
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,airhorn.solutions"
+  - "domain-suffix,airhornbot.com"
+  - "domain-suffix,bigbeans.solutions"
+  - "domain-suffix,dis.gd"
+  - "domain-suffix,discord-activities.com"
+  - "domain-suffix,discord-attachments-uploads-prd.storage.googleapis.com"
+  - "domain-suffix,discord.co"
+  - "domain-suffix,discord.com"
+  - "domain-suffix,discord.design"
+  - "domain-suffix,discord.dev"
+  - "domain-suffix,discord.gg"
+  - "domain-suffix,discord.gift"
+  - "domain-suffix,discord.gifts"
+  - "domain-suffix,discord.media"
+  - "domain-suffix,discord.new"
+  - "domain-suffix,discord.store"
+  - "domain-suffix,discord.tools"
+  - "domain-suffix,discordactivities.com"
+  - "domain-suffix,discordapp.com"
+  - "domain-suffix,discordapp.io"
+  - "domain-suffix,discordapp.net"
+  - "domain-suffix,discordapp.page.link"
+  - "domain-suffix,discordcdn.com"
+  - "domain-suffix,discordmerch.com"
+  - "domain-suffix,discordpartygames.com"
+  - "domain-suffix,discordsays.com"
+  - "domain-suffix,discordstatus.com"
+  - "domain-suffix,hammerandchisel.ssl.zendesk.com"
+  - "domain-suffix,watchanimeattheoffice.com"

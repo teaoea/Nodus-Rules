@@ -1,0 +1,25 @@
+# 名称：Vivo
+# 来源核对日期：2026-10-25
+# 规则总数：14
+# domain: 0
+# domain-suffix: 14
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,bbk.com"
+  - "domain-suffix,bbktel.com.cn"
+  - "domain-suffix,funtouchos.com"
+  - "domain-suffix,gdbbk.com"
+  - "domain-suffix,iqoo.com"
+  - "domain-suffix,vivo.cn"
+  - "domain-suffix,vivo.com"
+  - "domain-suffix,vivo.com.cn"
+  - "domain-suffix,vivo.xyz"
+  - "domain-suffix,vivoglobal.com"
+  - "domain-suffix,vivosjpt.com"
+  - "domain-suffix,vivotc.com"
+  - "domain-suffix,vmic.xyz"
+  - "domain-suffix,vsearch.club"

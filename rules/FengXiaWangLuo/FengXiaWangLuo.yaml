@@ -1,0 +1,19 @@
+# 名称：FengXiaWangLuo
+# 来源核对日期：2026-10-25
+# 规则总数：8
+# domain: 0
+# domain-suffix: 8
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,158c.com"
+  - "domain-suffix,ali213.net"
+  - "domain-suffix,fengyx.com"
+  - "domain-suffix,fhyx.com"
+  - "domain-suffix,iyouxia.com"
+  - "domain-suffix,qu2345.com"
+  - "domain-suffix,wy213.com"
+  - "domain-suffix,wy213.net"

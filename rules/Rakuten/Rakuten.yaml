@@ -1,0 +1,29 @@
+# 名称：Rakuten
+# 来源核对日期：2026-10-25
+# 规则总数：18
+# domain: 0
+# domain-suffix: 18
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,ebates.com"
+  - "domain-suffix,infoseek.co.jp"
+  - "domain-suffix,o50.jp"
+  - "domain-suffix,r10.to"
+  - "domain-suffix,r10s.com"
+  - "domain-suffix,r10s.jp"
+  - "domain-suffix,rakuten-static.com"
+  - "domain-suffix,rakuten.ca"
+  - "domain-suffix,rakuten.co.jp"
+  - "domain-suffix,rakuten.com"
+  - "domain-suffix,rakuten.com.tw"
+  - "domain-suffix,rakuten.ne.jp"
+  - "domain-suffix,rakuten.tw"
+  - "domain-suffix,rclon.com"
+  - "domain-suffix,rebates.jp"
+  - "domain-suffix,showtime.co.jp"
+  - "domain-suffix,viber.co.jp"
+  - "domain-suffix,viber.com"

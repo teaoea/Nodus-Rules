@@ -1,0 +1,38 @@
+# 名称：DuoWan
+# 来源核对日期：2026-10-25
+# 规则总数：27
+# domain: 0
+# domain-suffix: 27
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,5253.com"
+  - "domain-suffix,bcshipgo.com"
+  - "domain-suffix,bigda.com"
+  - "domain-suffix,blogchina.org"
+  - "domain-suffix,c19ce66ff87253fdda68740edcb7ce3b.v.smtcdns.net"
+  - "domain-suffix,chinaduo.com"
+  - "domain-suffix,duowan.cn"
+  - "domain-suffix,duowan.com"
+  - "domain-suffix,duowan.com.cn"
+  - "domain-suffix,dwstatic.com"
+  - "domain-suffix,hiido.cn"
+  - "domain-suffix,hiido.com"
+  - "domain-suffix,hiido.net"
+  - "domain-suffix,huanju.cn"
+  - "domain-suffix,huanju.net"
+  - "domain-suffix,huanjuyun.com"
+  - "domain-suffix,joyy.com"
+  - "domain-suffix,joyyinc.com"
+  - "domain-suffix,joyyued.com"
+  - "domain-suffix,pikoplay.com"
+  - "domain-suffix,vooedit.com"
+  - "domain-suffix,yy.com"
+  - "domain-suffix,yy.com.cn"
+  - "domain-suffix,yyclouds.com"
+  - "domain-suffix,yygamedev.com"
+  - "domain-suffix,yystatic.com"
+  - "domain-suffix,zhiniu8.com"

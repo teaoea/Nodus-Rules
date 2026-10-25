@@ -1,0 +1,25 @@
+# 名称：BrightCove
+# 来源核对日期：2026-10-25
+# 规则总数：14
+# domain: 0
+# domain-suffix: 14
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,bcove.video"
+  - "domain-suffix,bcovlive-a.akamaihd.net"
+  - "domain-suffix,bcovlive.io"
+  - "domain-suffix,bcsecure01-a.akamaihd.net"
+  - "domain-suffix,bcvp0rtal.com"
+  - "domain-suffix,boltdns.net"
+  - "domain-suffix,brightcove.com"
+  - "domain-suffix,brightcove.imgix.net"
+  - "domain-suffix,brightcove.net"
+  - "domain-suffix,brightcove.services"
+  - "domain-suffix,brightcovecdn.com"
+  - "domain-suffix,videojs.com"
+  - "domain-suffix,zencdn.net"
+  - "domain-suffix,zencoder.com"

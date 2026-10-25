@@ -1,0 +1,29 @@
+# 名称：Faronics
+# 来源核对日期：2026-10-25
+# 规则总数：18
+# domain: 0
+# domain-suffix: 18
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,clickedu.co.uk"
+  - "domain-suffix,deepfreeze.co.uk"
+  - "domain-suffix,deepfreeze.com"
+  - "domain-suffix,deepfreeze.com.br"
+  - "domain-suffix,deepfreeze.eu"
+  - "domain-suffix,deepfreeze.net"
+  - "domain-suffix,deepfreeze.tech"
+  - "domain-suffix,faronics.ca"
+  - "domain-suffix,faronics.co.uk"
+  - "domain-suffix,faronics.com"
+  - "domain-suffix,faronics.com.au"
+  - "domain-suffix,faronics.com.sg"
+  - "domain-suffix,faronics.eu"
+  - "domain-suffix,faronics.kayako.com"
+  - "domain-suffix,faronics.tech"
+  - "domain-suffix,faronicslabs.com"
+  - "domain-suffix,faronicswise.co.uk"
+  - "domain-suffix,faronicswise.com"

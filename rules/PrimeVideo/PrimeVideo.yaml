@@ -1,0 +1,27 @@
+# 名称：PrimeVideo
+# 来源核对日期：2026-10-25
+# 规则总数：16
+# domain: 9
+# domain-suffix: 6
+# domain-keyword: 1
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,atv-ps.amazon.com"
+  - "domain,avodmp4s3ww-a.akamaihd.net"
+  - "domain,d1v5ir2lpwr8os.cloudfront.net"
+  - "domain,d22qjgkvxw22r6.cloudfront.net"
+  - "domain,d25xi40x97liuc.cloudfront.net"
+  - "domain,d27xxe7juh1us6.cloudfront.net"
+  - "domain,dmqdd6hw24ucf.cloudfront.net"
+  - "domain,fls-na.amazon.com"
+  - "domain,www.amazon.com"
+  - "domain-suffix,aiv-cdn.net"
+  - "domain-suffix,aiv-delivery.net"
+  - "domain-suffix,amazonvideo.com"
+  - "domain-suffix,media-amazon.com"
+  - "domain-suffix,primevideo.com"
+  - "domain-suffix,pv-cdn.net"
+  - "domain-keyword,avoddashs"

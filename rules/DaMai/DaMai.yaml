@@ -1,0 +1,22 @@
+# 名称：DaMai
+# 来源核对日期：2026-10-25
+# 规则总数：11
+# domain: 0
+# domain-suffix: 11
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,baotoo.com"
+  - "domain-suffix,damai.cn"
+  - "domain-suffix,damaicdn.cn"
+  - "domain-suffix,dmcdn.cn"
+  - "domain-suffix,jtwsm.cn"
+  - "domain-suffix,maikr.com"
+  - "domain-suffix,maitix.com"
+  - "domain-suffix,maitix.net"
+  - "domain-suffix,piao.com.cn"
+  - "domain-suffix,piaogroup.com"
+  - "domain-suffix,yanchupiaojia.com"

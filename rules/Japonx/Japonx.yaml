@@ -1,0 +1,21 @@
+# 名称：Japonx
+# 来源核对日期：2026-10-25
+# 规则总数：10
+# domain: 0
+# domain-suffix: 8
+# domain-keyword: 2
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,japonx.com"
+  - "domain-suffix,japonx.net"
+  - "domain-suffix,japonx.tv"
+  - "domain-suffix,japonx.vip"
+  - "domain-suffix,japronx.com"
+  - "domain-suffix,japronx.net"
+  - "domain-suffix,japronx.tv"
+  - "domain-suffix,japronx.vip"
+  - "domain-keyword,japonx"
+  - "domain-keyword,japronx"

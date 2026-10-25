@@ -1,0 +1,17 @@
+# 名称：HaiNanHangKong
+# 来源核对日期：2026-10-25
+# 规则总数：6
+# domain: 0
+# domain-suffix: 5
+# domain-keyword: 1
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,10044.cn"
+  - "domain-suffix,hainanairlines.com"
+  - "domain-suffix,hnacargo.com"
+  - "domain-suffix,hnair.com"
+  - "domain-suffix,hnair.net"
+  - "domain-keyword,hnagroup"

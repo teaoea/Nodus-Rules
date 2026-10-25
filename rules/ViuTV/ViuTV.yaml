@@ -1,0 +1,19 @@
+# 名称：ViuTV
+# 来源核对日期：2026-10-25
+# 规则总数：8
+# domain: 0
+# domain-suffix: 8
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,cognito-identity.us-east-1.amazonaws.com"
+  - "domain-suffix,d1k2us671qcoau.cloudfront.net"
+  - "domain-suffix,d2anahhhmp1ffz.cloudfront.net"
+  - "domain-suffix,dfp6rglgjqszk.cloudfront.net"
+  - "domain-suffix,mobileanalytics.us-east-1.amazonaws.com"
+  - "domain-suffix,viu.com"
+  - "domain-suffix,viu.now.com"
+  - "domain-suffix,viu.tv"

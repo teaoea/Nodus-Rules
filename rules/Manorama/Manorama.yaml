@@ -1,0 +1,23 @@
+# 名称：Manorama
+# 来源核对日期：2026-10-25
+# 规则总数：12
+# domain: 0
+# domain-suffix: 12
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,malayalamanorama.com"
+  - "domain-suffix,manorama.com"
+  - "domain-suffix,manoramanews.com"
+  - "domain-suffix,manoramaonline.com"
+  - "domain-suffix,manoramayearbook.in"
+  - "domain-suffix,onmanorama.com"
+  - "domain-suffix,radiomango.fm"
+  - "domain-suffix,theman.in"
+  - "domain-suffix,theweek.in"
+  - "domain-suffix,vanitaonline.com"
+  - "domain-suffix,vanitha.in"
+  - "domain-suffix,vanithaveedu.com"

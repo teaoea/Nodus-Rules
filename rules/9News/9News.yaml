@@ -1,0 +1,25 @@
+# 名称：9News
+# 来源核对日期：2026-10-25
+# 规则总数：14
+# domain: 0
+# domain-suffix: 14
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,9cdn.net"
+  - "domain-suffix,9nation.com.au"
+  - "domain-suffix,9news.com.au"
+  - "domain-suffix,9now.com.au"
+  - "domain-suffix,freeviewplus.net.au"
+  - "domain-suffix,mi9.com.au"
+  - "domain-suffix,mi9cdn.com"
+  - "domain-suffix,nine.com.au"
+  - "domain-suffix,nineentertainment.com.au"
+  - "domain-suffix,nineentertainmentco.com.au"
+  - "domain-suffix,ninemediaroom.com.au"
+  - "domain-suffix,ninemsn.com.au"
+  - "domain-suffix,static9.net.au"
+  - "domain-suffix,yourtv.com.au"

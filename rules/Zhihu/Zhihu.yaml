@@ -1,0 +1,18 @@
+# 名称：Zhihu
+# 来源核对日期：2026-10-25
+# 规则总数：7
+# domain: 0
+# domain-suffix: 2
+# domain-keyword: 0
+# ip-cidr: 5
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,zhihu.com"
+  - "domain-suffix,zhimg.com"
+  - "ip-cidr,103.41.167.226/32"
+  - "ip-cidr,103.41.167.234/31"
+  - "ip-cidr,103.41.167.236/32"
+  - "ip-cidr,118.89.204.198/32"
+  - "ip-cidr,2402:4e00:1200:ed00:0:9089:6dac:96b6/128"

@@ -1,0 +1,21 @@
+# 名称：BardAI
+# 来源核对日期：2026-10-25
+# 规则总数：10
+# domain: 4
+# domain-suffix: 6
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,ai.google.dev"
+  - "domain,alkalimakersuite-pa.clients6.google.com"
+  - "domain,generativelanguage.googleapis.com"
+  - "domain,makersuite.google.com"
+  - "domain-suffix,bard.google.com"
+  - "domain-suffix,deepmind.com"
+  - "domain-suffix,deepmind.google"
+  - "domain-suffix,gemini.google.com"
+  - "domain-suffix,generativeai.google"
+  - "domain-suffix,proactivebackend-pa.googleapis.com"

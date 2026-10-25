@@ -1,0 +1,33 @@
+# 名称：CSDN
+# 来源核对日期：2026-10-25
+# 规则总数：22
+# domain: 0
+# domain-suffix: 22
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,codechina.net"
+  - "domain-suffix,csdn.com"
+  - "domain-suffix,csdn.net"
+  - "domain-suffix,csdn.net.cn"
+  - "domain-suffix,csdnimg.cn"
+  - "domain-suffix,csto.com"
+  - "domain-suffix,datasea.cn"
+  - "domain-suffix,gitbook.cn"
+  - "domain-suffix,gitchat.cn"
+  - "domain-suffix,gitcode.com"
+  - "domain-suffix,gitcode.net"
+  - "domain-suffix,iteye.com"
+  - "domain-suffix,kaifayun.com"
+  - "domain-suffix,linuxpower.com.cn"
+  - "domain-suffix,powerlinux.com.cn"
+  - "domain-suffix,programmer.com.cn"
+  - "domain-suffix,programmer.net.cn"
+  - "domain-suffix,qualcomm-challenge.com"
+  - "domain-suffix,tinymind.cn"
+  - "domain-suffix,tinymind.com"
+  - "domain-suffix,tinymind.com.cn"
+  - "domain-suffix,topcto50.com"

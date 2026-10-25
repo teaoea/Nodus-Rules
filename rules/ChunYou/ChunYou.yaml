@@ -1,0 +1,51 @@
+# 名称：ChunYou
+# 来源核对日期：2026-10-25
+# 规则总数：40
+# domain: 0
+# domain-suffix: 40
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,3304399.com"
+  - "domain-suffix,3304399.net"
+  - "domain-suffix,3839.com"
+  - "domain-suffix,3839app.com"
+  - "domain-suffix,3839app.net"
+  - "domain-suffix,3839pay.com"
+  - "domain-suffix,3839vc.com"
+  - "domain-suffix,3839video.com"
+  - "domain-suffix,4399api.net"
+  - "domain-suffix,4399biule.com"
+  - "domain-suffix,4399er.com"
+  - "domain-suffix,4399hhh.com"
+  - "domain-suffix,4399inc.com"
+  - "domain-suffix,4399mail.com"
+  - "domain-suffix,4399sj.cn"
+  - "domain-suffix,4399swf.com"
+  - "domain-suffix,4399wanju.com"
+  - "domain-suffix,4399youpai.com"
+  - "domain-suffix,4399youxi.com"
+  - "domain-suffix,4399yyy.com"
+  - "domain-suffix,5054399.com"
+  - "domain-suffix,5054399.net"
+  - "domain-suffix,71acg.com"
+  - "domain-suffix,71acg.net"
+  - "domain-suffix,appeeres.com"
+  - "domain-suffix,bx1k.com"
+  - "domain-suffix,i3839.com"
+  - "domain-suffix,ihykb.com"
+  - "domain-suffix,img4399.com"
+  - "domain-suffix,mail4399.com"
+  - "domain-suffix,me4399.com"
+  - "domain-suffix,my4399.com"
+  - "domain-suffix,mysiteres.com"
+  - "domain-suffix,nzsiteres.com"
+  - "domain-suffix,tuer123.com"
+  - "domain-suffix,wanwan4399.com"
+  - "domain-suffix,we4399.com"
+  - "domain-suffix,webgame163.com"
+  - "domain-suffix,youba.com"
+  - "domain-suffix,yxhhdl.com"

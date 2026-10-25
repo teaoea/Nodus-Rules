@@ -1,0 +1,14 @@
+# 名称：Mailru
+# 来源核对日期：2026-10-25
+# 规则总数：3
+# domain: 0
+# domain-suffix: 3
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,imgsmail.ru"
+  - "domain-suffix,mail.ru"
+  - "domain-suffix,mycdn.me"

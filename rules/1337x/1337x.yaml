@@ -1,0 +1,21 @@
+# 名称：1337x
+# 来源核对日期：2026-10-25
+# 规则总数：10
+# domain: 0
+# domain-suffix: 10
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,1337x.gd"
+  - "domain-suffix,1337x.is"
+  - "domain-suffix,1337x.st"
+  - "domain-suffix,1337x.to"
+  - "domain-suffix,1337x.tw"
+  - "domain-suffix,1337xto.to"
+  - "domain-suffix,1337xx.to"
+  - "domain-suffix,x1337x.eu"
+  - "domain-suffix,x1337x.se"
+  - "domain-suffix,x1337x.ws"

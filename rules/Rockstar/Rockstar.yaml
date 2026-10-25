@@ -1,0 +1,16 @@
+# 名称：Rockstar
+# 来源核对日期：2026-10-25
+# 规则总数：5
+# domain: 0
+# domain-suffix: 5
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,gamedownloads-rockstargames-com.akamaized.net"
+  - "domain-suffix,media-rockstargames-com.akamaized.net"
+  - "domain-suffix,rockstargames.com"
+  - "domain-suffix,rsg.sc"
+  - "domain-suffix,videos-rockstargames-com.akamaized.net"

@@ -1,0 +1,15 @@
+# 名称：Instagram
+# 来源核对日期：2026-10-25
+# 规则总数：4
+# domain: 0
+# domain-suffix: 3
+# domain-keyword: 1
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,cdninstagram.com"
+  - "domain-suffix,instagr.am"
+  - "domain-suffix,instagram.com"
+  - "domain-keyword,instagram"

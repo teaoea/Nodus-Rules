@@ -1,0 +1,43 @@
+# 名称：BaiDuTieBa
+# 来源核对日期：2026-10-25
+# 规则总数：32
+# domain: 31
+# domain-suffix: 1
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,als.baidu.com"
+  - "domain,cdn.hiphotos.baidu.com"
+  - "domain,cpro.baidustatic.com"
+  - "domain,crab.baidu.com"
+  - "domain,dlswbr.baidu.com"
+  - "domain,ecma.bdimg.com"
+  - "domain,feed-image.baidu.com"
+  - "domain,fex.bdstatic.com"
+  - "domain,gomediago.baidu.com"
+  - "domain,gsp0.baidu.com"
+  - "domain,gss0.bdstatic.com"
+  - "domain,hmma.baidu.com"
+  - "domain,mediago-static.cdn.bcebos.com"
+  - "domain,miaowu.baidu.com"
+  - "domain,mobads-log.baidu.com"
+  - "domain,mobads.baidu.com"
+  - "domain,ns-strategy.cdn.bcebos.com"
+  - "domain,nsclick.baidu.com"
+  - "domain,passport.baidu.com"
+  - "domain,sofire.bdstatic.com"
+  - "domain,tb.himg.baidu.com"
+  - "domain,tb1.bdstatic.com"
+  - "domain,tb2.bdstatic.com"
+  - "domain,tb3.bdstatic.com"
+  - "domain,tb4.bdstatic.com"
+  - "domain,tb5.bdstatic.com"
+  - "domain,tb6.bdstatic.com"
+  - "domain,tbmsg.baidu.com"
+  - "domain,tieba-ares.cdn.bcebos.com"
+  - "domain,tiebac.baidu.com"
+  - "domain,tiebapic.baidu.com"
+  - "domain-suffix,tieba.baidu.com"

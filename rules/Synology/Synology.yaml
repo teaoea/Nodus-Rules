@@ -1,0 +1,30 @@
+# 名称：Synology
+# 来源核对日期：2026-10-25
+# 规则总数：19
+# domain: 1
+# domain-suffix: 17
+# domain-keyword: 1
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,d2f0395ykn6hxb.cloudfront.net"
+  - "domain-suffix,diskstation.me"
+  - "domain-suffix,dscloud.biz"
+  - "domain-suffix,dscloud.me"
+  - "domain-suffix,dscloud.mobi"
+  - "domain-suffix,dsmunas.com"
+  - "domain-suffix,dsmunas.net"
+  - "domain-suffix,dsmunas.org"
+  - "domain-suffix,familyds.com"
+  - "domain-suffix,familyds.net"
+  - "domain-suffix,familyds.org"
+  - "domain-suffix,i234.me"
+  - "domain-suffix,myds.com"
+  - "domain-suffix,quickconnect.to"
+  - "domain-suffix,synodns.com"
+  - "domain-suffix,synology.cn"
+  - "domain-suffix,synology.com"
+  - "domain-suffix,synology.me"
+  - "domain-keyword,synology"

@@ -1,0 +1,15 @@
+# 名称：KKTV
+# 来源核对日期：2026-10-25
+# 规则总数：4
+# domain: 2
+# domain-suffix: 2
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,kktv-theater.kk.stream"
+  - "domain,theater-kktv.cdn.hinet.net"
+  - "domain-suffix,kktv.com.tw"
+  - "domain-suffix,kktv.me"

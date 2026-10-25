@@ -1,0 +1,14 @@
+# 名称：PotatoChat
+# 来源核对日期：2026-10-25
+# 规则总数：3
+# domain: 0
+# domain-suffix: 0
+# domain-keyword: 0
+# ip-cidr: 3
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "ip-cidr,13.251.24.0/24"
+  - "ip-cidr,13.251.41.0/24"
+  - "ip-cidr,17.252.156.0/23"

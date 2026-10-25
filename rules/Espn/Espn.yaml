@@ -1,0 +1,22 @@
+# 名称：Espn
+# 来源核对日期：2026-10-25
+# 规则总数：11
+# domain: 3
+# domain-suffix: 8
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,espn.api.edge.bamgrid.com"
+  - "domain,espn.hb.omtrdc.net"
+  - "domain,espndotcom.tt.omtrdc.net"
+  - "domain-suffix,dtci.co"
+  - "domain-suffix,dtci.technology"
+  - "domain-suffix,espn.co.uk"
+  - "domain-suffix,espn.com"
+  - "domain-suffix,espn.net"
+  - "domain-suffix,espncdn.com"
+  - "domain-suffix,espnqa.com"
+  - "domain-suffix,watchespn.com"

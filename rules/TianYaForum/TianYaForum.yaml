@@ -1,0 +1,24 @@
+# 名称：TianYaForum
+# 来源核对日期：2026-10-25
+# 规则总数：13
+# domain: 0
+# domain-suffix: 13
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,gz12301.com"
+  - "domain-suffix,hainan.com"
+  - "domain-suffix,hainan.net"
+  - "domain-suffix,hi114.cn"
+  - "domain-suffix,hibusiness.com"
+  - "domain-suffix,hifortune.net"
+  - "domain-suffix,laibafile.cn"
+  - "domain-suffix,tianya.cn"
+  - "domain-suffix,tianya.com.cn"
+  - "domain-suffix,tianyablog.com"
+  - "domain-suffix,tianyaclub.com"
+  - "domain-suffix,tianyaui.com"
+  - "domain-suffix,tysurl.com"

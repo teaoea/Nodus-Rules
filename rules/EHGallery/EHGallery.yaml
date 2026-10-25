@@ -1,0 +1,18 @@
+# 名称：EHGallery
+# 来源核对日期：2026-10-25
+# 规则总数：7
+# domain: 0
+# domain-suffix: 6
+# domain-keyword: 0
+# ip-cidr: 1
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,e-hentai.org"
+  - "domain-suffix,ehgt.org"
+  - "domain-suffix,ehwiki.org"
+  - "domain-suffix,exhentai.org"
+  - "domain-suffix,hath.network"
+  - "domain-suffix,hentaiverse.org"
+  - "ip-cidr,178.175.128.0/21"

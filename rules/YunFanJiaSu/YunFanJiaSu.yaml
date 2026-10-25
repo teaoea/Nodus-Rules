@@ -1,0 +1,43 @@
+# 名称：YunFanJiaSu
+# 来源核对日期：2026-10-25
+# 规则总数：32
+# domain: 0
+# domain-suffix: 32
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,cdndns2.cn"
+  - "domain-suffix,cdndns2.net"
+  - "domain-suffix,cdnnodedns.cn"
+  - "domain-suffix,mogecloud.cn"
+  - "domain-suffix,mogecloud.com"
+  - "domain-suffix,mogecloud.net"
+  - "domain-suffix,mogengyun.cn"
+  - "domain-suffix,mogengyun.com"
+  - "domain-suffix,mogengyun.net"
+  - "domain-suffix,wertalk.com"
+  - "domain-suffix,yfcache.cn"
+  - "domain-suffix,yfcache.com"
+  - "domain-suffix,yfcalc.com"
+  - "domain-suffix,yfcdn.cn"
+  - "domain-suffix,yfcdn.net"
+  - "domain-suffix,yfcloud.com"
+  - "domain-suffix,yfcloud.io"
+  - "domain-suffix,yfcloud.work"
+  - "domain-suffix,yfdns.cn"
+  - "domain-suffix,yfdns.net"
+  - "domain-suffix,yfdts.net"
+  - "domain-suffix,yflive.cn"
+  - "domain-suffix,yflive.net"
+  - "domain-suffix,yfp2p.net"
+  - "domain-suffix,yfscdn.com"
+  - "domain-suffix,yfscdn.net"
+  - "domain-suffix,yunfancdn.cn"
+  - "domain-suffix,yunfancdn.com"
+  - "domain-suffix,yunfancdn.com.cn"
+  - "domain-suffix,yunfancdn.net"
+  - "domain-suffix,yunfandns.cn"
+  - "domain-suffix,yunfandns.com"

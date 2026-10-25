@@ -1,0 +1,23 @@
+# 名称：LinkedIn
+# 来源核对日期：2026-10-25
+# 规则总数：12
+# domain: 3
+# domain-suffix: 9
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,e122475.dscg.akamaiedge.net"
+  - "domain,licdn.cn.cdn20.com"
+  - "domain,linkedin.sc.omtrdc.net"
+  - "domain-suffix,bizographics.com"
+  - "domain-suffix,l-0005.dc-msedge.net"
+  - "domain-suffix,l-0005.l-msedge.net"
+  - "domain-suffix,licdn.cn"
+  - "domain-suffix,licdn.com"
+  - "domain-suffix,linkedin.at"
+  - "domain-suffix,linkedin.cn"
+  - "domain-suffix,linkedin.com"
+  - "domain-suffix,lnkd.in"

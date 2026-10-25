@@ -1,0 +1,31 @@
+# 名称：Abema
+# 来源核对日期：2026-10-25
+# 规则总数：20
+# domain: 5
+# domain-suffix: 15
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,abematv.akamaized.net"
+  - "domain,ds-linear-abematv.akamaized.net"
+  - "domain,ds-vod-abematv.akamaized.net"
+  - "domain,linear-abematv.akamaized.net"
+  - "domain,vod-abematv.akamaized.net"
+  - "domain-suffix,abema-tv.com"
+  - "domain-suffix,abema.io"
+  - "domain-suffix,abema.tv"
+  - "domain-suffix,adx.promo"
+  - "domain-suffix,ameba.jp"
+  - "domain-suffix,amebame.com"
+  - "domain-suffix,amebaownd.com"
+  - "domain-suffix,amebaowndme.com"
+  - "domain-suffix,ameblo.jp"
+  - "domain-suffix,bucketeer.jp"
+  - "domain-suffix,dokusho-ojikan.jp"
+  - "domain-suffix,hayabusa.dev"
+  - "domain-suffix,hayabusa.io"
+  - "domain-suffix,hayabusa.media"
+  - "domain-suffix,winticket.jp"

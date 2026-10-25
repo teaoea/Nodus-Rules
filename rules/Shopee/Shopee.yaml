@@ -1,0 +1,32 @@
+# 名称：Shopee
+# 来源核对日期：2026-10-25
+# 规则总数：21
+# domain: 0
+# domain-suffix: 21
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,shopee.cl"
+  - "domain-suffix,shopee.cn"
+  - "domain-suffix,shopee.co.id"
+  - "domain-suffix,shopee.co.th"
+  - "domain-suffix,shopee.com"
+  - "domain-suffix,shopee.com.br"
+  - "domain-suffix,shopee.com.co"
+  - "domain-suffix,shopee.com.mx"
+  - "domain-suffix,shopee.com.my"
+  - "domain-suffix,shopee.es"
+  - "domain-suffix,shopee.fr"
+  - "domain-suffix,shopee.id"
+  - "domain-suffix,shopee.in"
+  - "domain-suffix,shopee.io"
+  - "domain-suffix,shopee.ph"
+  - "domain-suffix,shopee.sg"
+  - "domain-suffix,shopee.tw"
+  - "domain-suffix,shopee.vn"
+  - "domain-suffix,shopeemobile.com"
+  - "domain-suffix,shopeesz.com"
+  - "domain-suffix,shp.ee"

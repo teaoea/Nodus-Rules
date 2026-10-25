@@ -1,0 +1,26 @@
+# 名称：Garena
+# 来源核对日期：2026-10-25
+# 规则总数：15
+# domain: 0
+# domain-suffix: 15
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,avatargarenanow-a.akamaihd.net"
+  - "domain-suffix,cdngarenanow-a.akamaihd.net"
+  - "domain-suffix,dlmobilegarena-a.akamaihd.net"
+  - "domain-suffix,garena.co.id"
+  - "domain-suffix,garena.co.th"
+  - "domain-suffix,garena.com"
+  - "domain-suffix,garena.live"
+  - "domain-suffix,garena.my"
+  - "domain-suffix,garena.ph"
+  - "domain-suffix,garena.sg"
+  - "domain-suffix,garena.tv"
+  - "domain-suffix,garena.tw"
+  - "domain-suffix,garena.vn"
+  - "domain-suffix,garenanow.com"
+  - "domain-suffix,seagroup.com"

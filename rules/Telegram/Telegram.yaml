@@ -1,0 +1,46 @@
+# 名称：Telegram
+# 来源核对日期：2026-10-25
+# 规则总数：35
+# domain: 2
+# domain-suffix: 22
+# domain-keyword: 1
+# ip-cidr: 10
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,api.imem.app"
+  - "domain,api.swiftgram.app"
+  - "domain-suffix,cdn-telegram.org"
+  - "domain-suffix,comments.app"
+  - "domain-suffix,contest.com"
+  - "domain-suffix,graph.org"
+  - "domain-suffix,legra.ph"
+  - "domain-suffix,mbrx.app"
+  - "domain-suffix,quiz.directory"
+  - "domain-suffix,stel.com"
+  - "domain-suffix,t.me"
+  - "domain-suffix,tdesktop.com"
+  - "domain-suffix,telega.one"
+  - "domain-suffix,telegra.ph"
+  - "domain-suffix,telegram-cdn.org"
+  - "domain-suffix,telegram.dog"
+  - "domain-suffix,telegram.me"
+  - "domain-suffix,telegram.org"
+  - "domain-suffix,telegram.space"
+  - "domain-suffix,telegramdownload.com"
+  - "domain-suffix,telesco.pe"
+  - "domain-suffix,tg.dev"
+  - "domain-suffix,tx.me"
+  - "domain-suffix,usercontent.dev"
+  - "domain-keyword,nicegram"
+  - "ip-cidr,109.239.140.0/24"
+  - "ip-cidr,139.59.210.98/32"
+  - "ip-cidr,149.154.160.0/20"
+  - "ip-cidr,196.55.216.167/32"
+  - "ip-cidr,2001:67c:4e8::/48"
+  - "ip-cidr,2001:b28:f23c::/47"
+  - "ip-cidr,2001:b28:f23f::/48"
+  - "ip-cidr,2a0a:f280::/29"
+  - "ip-cidr,5.28.192.0/18"
+  - "ip-cidr,91.108.0.0/16"

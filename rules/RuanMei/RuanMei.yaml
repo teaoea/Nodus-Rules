@@ -1,0 +1,33 @@
+# 名称：RuanMei
+# 来源核对日期：2026-10-25
+# 规则总数：22
+# domain: 0
+# domain-suffix: 22
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,6655.com"
+  - "domain-suffix,cike.cn"
+  - "domain-suffix,cooldock.com"
+  - "domain-suffix,dnsnut.com"
+  - "domain-suffix,fengkeji.com"
+  - "domain-suffix,henku.com"
+  - "domain-suffix,ithome.com"
+  - "domain-suffix,ithome.net"
+  - "domain-suffix,jimeng.com"
+  - "domain-suffix,lapin365.com"
+  - "domain-suffix,loogoo.com"
+  - "domain-suffix,ruanmei.cn"
+  - "domain-suffix,ruanmei.com"
+  - "domain-suffix,saayaa.com"
+  - "domain-suffix,souxia.com"
+  - "domain-suffix,tweakcube.com"
+  - "domain-suffix,vista123.com"
+  - "domain-suffix,wanhongbao.com"
+  - "domain-suffix,win7china.com"
+  - "domain-suffix,win8china.com"
+  - "domain-suffix,yaodu365.com"
+  - "domain-suffix,zuihuimai.com"

@@ -1,0 +1,23 @@
+# 名称：IBM
+# 来源核对日期：2026-10-25
+# 规则总数：12
+# domain: 0
+# domain-suffix: 12
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,appdomain.cloud"
+  - "domain-suffix,bluemix.com"
+  - "domain-suffix,bluemix.net"
+  - "domain-suffix,ibm"
+  - "domain-suffix,ibm.com"
+  - "domain-suffix,ibm.eu"
+  - "domain-suffix,ibm.net"
+  - "domain-suffix,ibm.us"
+  - "domain-suffix,s-bluemix.net"
+  - "domain-suffix,s81c.com"
+  - "domain-suffix,weather.com"
+  - "domain-suffix,weatherchannel"

@@ -1,0 +1,24 @@
+# 名称：4399
+# 来源核对日期：2026-10-25
+# 规则总数：13
+# domain: 0
+# domain-suffix: 13
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,4399.cn"
+  - "domain-suffix,4399.com"
+  - "domain-suffix,4399.net"
+  - "domain-suffix,4399api.com"
+  - "domain-suffix,4399dmw.com"
+  - "domain-suffix,4399pk.com"
+  - "domain-suffix,4399sj.com"
+  - "domain-suffix,5054399.com"
+  - "domain-suffix,edu4399.com"
+  - "domain-suffix,funnycore.com"
+  - "domain-suffix,img4399.com"
+  - "domain-suffix,qq163.com"
+  - "domain-suffix,qq163.net"

@@ -1,0 +1,15 @@
+# 名称：ChinaDNS
+# 来源核对日期：2026-10-25
+# 规则总数：4
+# domain: 0
+# domain-suffix: 3
+# domain-keyword: 0
+# ip-cidr: 1
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,dns.alidns.com"
+  - "domain-suffix,doh.360.cn"
+  - "domain-suffix,doh.pub"
+  - "ip-cidr,1.12.12.12/32"

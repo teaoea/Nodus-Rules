@@ -1,0 +1,32 @@
+# 名称：Twitch
+# 来源核对日期：2026-10-25
+# 规则总数：21
+# domain: 0
+# domain-suffix: 8
+# domain-keyword: 1
+# ip-cidr: 12
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,ext-twitch.tv"
+  - "domain-suffix,jtvnw.net"
+  - "domain-suffix,live-video.net"
+  - "domain-suffix,ttvnw.net"
+  - "domain-suffix,twitch-ext.rootonline.de"
+  - "domain-suffix,twitch.tv"
+  - "domain-suffix,twitchcdn.net"
+  - "domain-suffix,twitchsvc.net"
+  - "domain-keyword,ttvnw"
+  - "ip-cidr,103.53.48.0/23"
+  - "ip-cidr,185.42.204.0/22"
+  - "ip-cidr,192.108.239.0/24"
+  - "ip-cidr,192.16.64.0/21"
+  - "ip-cidr,199.9.248.0/21"
+  - "ip-cidr,23.160.0.0/24"
+  - "ip-cidr,2402:2a80::/32"
+  - "ip-cidr,45.113.128.0/22"
+  - "ip-cidr,52.223.192.0/20"
+  - "ip-cidr,52.223.208.0/21"
+  - "ip-cidr,52.223.224.0/19"
+  - "ip-cidr,99.181.64.0/18"

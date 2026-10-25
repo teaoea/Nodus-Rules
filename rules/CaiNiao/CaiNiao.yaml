@@ -1,0 +1,20 @@
+# 名称：CaiNiao
+# 来源核对日期：2026-10-25
+# 规则总数：9
+# domain: 0
+# domain-suffix: 9
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,56che.com"
+  - "domain-suffix,cainiao-inc.cn"
+  - "domain-suffix,cainiao-inc.com"
+  - "domain-suffix,cainiao-inc.net"
+  - "domain-suffix,cainiao.com"
+  - "domain-suffix,cainiao.com.cn"
+  - "domain-suffix,cainiaoyizhan.com"
+  - "domain-suffix,guoguo-app.com"
+  - "domain-suffix,xiaog.xyz"

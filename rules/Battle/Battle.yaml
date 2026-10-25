@@ -1,0 +1,19 @@
+# 名称：Battle
+# 来源核对日期：2026-10-25
+# 规则总数：8
+# domain: 5
+# domain-suffix: 3
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,blizzard.nefficient.co.kr"
+  - "domain,blzddist1-a.akamaihd.net"
+  - "domain,blzddistkr1-a.akamaihd.net"
+  - "domain,bnetproduct-a.akamaihd.net"
+  - "domain,cdn.blz-contentstack.com"
+  - "domain-suffix,battle.net"
+  - "domain-suffix,battlenet.com.cn"
+  - "domain-suffix,blizzard.com"

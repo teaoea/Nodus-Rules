@@ -1,0 +1,27 @@
+# 名称：GoogleEarth
+# 来源核对日期：2026-10-25
+# 规则总数：16
+# domain: 0
+# domain-suffix: 16
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,earth-pa.clients6.google.com"
+  - "domain-suffix,earth.google.com"
+  - "domain-suffix,kh.google.com"
+  - "domain-suffix,khm.google.com"
+  - "domain-suffix,khm.googleapis.com"
+  - "domain-suffix,khm0.google.com"
+  - "domain-suffix,khm0.googleapis.com"
+  - "domain-suffix,khm1.google.com"
+  - "domain-suffix,khm1.googleapis.com"
+  - "domain-suffix,khm2.google.com"
+  - "domain-suffix,khm2.googleapis.com"
+  - "domain-suffix,khm3.google.com"
+  - "domain-suffix,khm3.googleapis.com"
+  - "domain-suffix,khmdb.google.com"
+  - "domain-suffix,khmdb.googleapis.com"
+  - "domain-suffix,mw1.google.com"

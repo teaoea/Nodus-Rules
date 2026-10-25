@@ -1,0 +1,21 @@
+# 名称：56
+# 来源核对日期：2026-10-25
+# 规则总数：10
+# domain: 0
+# domain-suffix: 10
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,56.com"
+  - "domain-suffix,56img.com"
+  - "domain-suffix,56imgs.com"
+  - "domain-suffix,icaneasy.com"
+  - "domain-suffix,icanvideo.com"
+  - "domain-suffix,qf.com.cn"
+  - "domain-suffix,qianfan.tv"
+  - "domain-suffix,somama.com"
+  - "domain-suffix,v-56.com"
+  - "domain-suffix,vicovico.com"

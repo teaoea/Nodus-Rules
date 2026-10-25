@@ -1,0 +1,33 @@
+# 名称：178
+# 来源核对日期：2026-10-25
+# 规则总数：22
+# domain: 0
+# domain-suffix: 22
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,178.com"
+  - "domain-suffix,178.net"
+  - "domain-suffix,766.com"
+  - "domain-suffix,766app.com"
+  - "domain-suffix,766er.com"
+  - "domain-suffix,766test.com"
+  - "domain-suffix,a9vg.com"
+  - "domain-suffix,bigccq.cn"
+  - "domain-suffix,bjyueshenzj.com"
+  - "domain-suffix,carry6.cn"
+  - "domain-suffix,carry6.com"
+  - "domain-suffix,carry6.net"
+  - "domain-suffix,dospy.com"
+  - "domain-suffix,nga.cn"
+  - "domain-suffix,nga.wiki"
+  - "domain-suffix,ngabbs.com"
+  - "domain-suffix,ngacn.cc"
+  - "domain-suffix,psnine.com"
+  - "domain-suffix,stargame.com"
+  - "domain-suffix,tgbus.com"
+  - "domain-suffix,tgbusdata.cn"
+  - "domain-suffix,xyous.com"

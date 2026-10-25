@@ -1,0 +1,31 @@
+# 名称：Wikimedia
+# 来源核对日期：2026-10-25
+# 规则总数：20
+# domain: 0
+# domain-suffix: 20
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,mediawiki.org"
+  - "domain-suffix,toolforge.org"
+  - "domain-suffix,w.wiki"
+  - "domain-suffix,wikibooks.org"
+  - "domain-suffix,wikidata.org"
+  - "domain-suffix,wikileaks.org"
+  - "domain-suffix,wikimedia.org"
+  - "domain-suffix,wikimediacloud.org"
+  - "domain-suffix,wikimediafoundation.org"
+  - "domain-suffix,wikinews.org"
+  - "domain-suffix,wikipedia.com"
+  - "domain-suffix,wikipedia.org"
+  - "domain-suffix,wikiquote.org"
+  - "domain-suffix,wikisource.org"
+  - "domain-suffix,wikiversity.org"
+  - "domain-suffix,wikivoyage.org"
+  - "domain-suffix,wiktionary.org"
+  - "domain-suffix,wmcloud.org"
+  - "domain-suffix,wmflabs.org"
+  - "domain-suffix,wmfusercontent.org"

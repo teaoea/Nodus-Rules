@@ -1,0 +1,31 @@
+# 名称：ZhongXingTongXun
+# 来源核对日期：2026-10-25
+# 规则总数：20
+# domain: 0
+# domain-suffix: 20
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,3gcare.cn"
+  - "domain-suffix,nubia.cc"
+  - "domain-suffix,nubia.cn"
+  - "domain-suffix,nubia.com"
+  - "domain-suffix,nubia.com.cn"
+  - "domain-suffix,nubia.mobi"
+  - "domain-suffix,nubia.net.cn"
+  - "domain-suffix,redmagic.com"
+  - "domain-suffix,shouhubao.com.cn"
+  - "domain-suffix,zte.com.cn"
+  - "domain-suffix,zte.net"
+  - "domain-suffix,ztedevice.com"
+  - "domain-suffix,ztedevice.com.cn"
+  - "domain-suffix,ztedevices.com"
+  - "domain-suffix,ztehotel.com"
+  - "domain-suffix,ztehotel.com.cn"
+  - "domain-suffix,ztehotel.net"
+  - "domain-suffix,ztemall.com"
+  - "domain-suffix,ztems.com"
+  - "domain-suffix,zxingyun.com"

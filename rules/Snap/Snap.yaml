@@ -1,0 +1,17 @@
+# 名称：Snap
+# 来源核对日期：2026-10-25
+# 规则总数：6
+# domain: 0
+# domain-suffix: 6
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,sc-cdn.net"
+  - "domain-suffix,snap-dev.net"
+  - "domain-suffix,snap.com"
+  - "domain-suffix,snapads.com"
+  - "domain-suffix,snapchat.com"
+  - "domain-suffix,snapkit.co"

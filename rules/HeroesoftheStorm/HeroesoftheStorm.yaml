@@ -1,0 +1,20 @@
+# 名称：HeroesoftheStorm
+# 来源核对日期：2026-10-25
+# 规则总数：9
+# domain: 0
+# domain-suffix: 0
+# domain-keyword: 0
+# ip-cidr: 9
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "ip-cidr,103.4.114.233/32"
+  - "ip-cidr,182.162.116.1/32"
+  - "ip-cidr,185.60.112.157/32"
+  - "ip-cidr,185.60.112.158/32"
+  - "ip-cidr,202.9.67.59/32"
+  - "ip-cidr,203.69.111.4/32"
+  - "ip-cidr,24.105.30.129/32"
+  - "ip-cidr,24.105.62.129/32"
+  - "ip-cidr,54.207.104.145/32"

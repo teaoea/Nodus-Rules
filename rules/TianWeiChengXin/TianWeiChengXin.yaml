@@ -1,0 +1,34 @@
+# 名称：TianWeiChengXin
+# 来源核对日期：2026-10-25
+# 规则总数：23
+# domain: 0
+# domain-suffix: 23
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,4006663999.cn"
+  - "domain-suffix,6rencn.com"
+  - "domain-suffix,dcocsp.cn"
+  - "domain-suffix,ev-ssl.cn"
+  - "domain-suffix,ev-ssl.com.cn"
+  - "domain-suffix,fxg365.cn"
+  - "domain-suffix,helloid.cn"
+  - "domain-suffix,itrus.cn"
+  - "domain-suffix,itrus.com"
+  - "domain-suffix,itrus.com.cn"
+  - "domain-suffix,itrus.net.cn"
+  - "domain-suffix,itruscloud.com"
+  - "domain-suffix,itrusign.cn"
+  - "domain-suffix,itrusign.com"
+  - "domain-suffix,mingjian365.cn"
+  - "domain-suffix,mingjian365.com"
+  - "domain-suffix,mingjian365.net"
+  - "domain-suffix,mj365.club"
+  - "domain-suffix,mj365.site"
+  - "domain-suffix,mj365.vip"
+  - "domain-suffix,nowhttps.com"
+  - "domain-suffix,yunssl.cn"
+  - "domain-suffix,yunssl.com"

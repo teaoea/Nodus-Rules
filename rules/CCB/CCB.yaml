@@ -1,0 +1,29 @@
+# 名称：CCB
+# 来源核对日期：2026-10-25
+# 规则总数：18
+# domain: 0
+# domain-suffix: 18
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,ccb-life.com.cn"
+  - "domain-suffix,ccb.cn"
+  - "domain-suffix,ccb.com"
+  - "domain-suffix,ccb.com.cn"
+  - "domain-suffix,ccbcos.com"
+  - "domain-suffix,ccbfund.cn"
+  - "domain-suffix,ccbfund.com"
+  - "domain-suffix,ccbfund.com.cn"
+  - "domain-suffix,ccbfutures.cn"
+  - "domain-suffix,ccbfutures.com"
+  - "domain-suffix,ccbhome.cn"
+  - "domain-suffix,ccbhome.net"
+  - "domain-suffix,ccbintl.com.hk"
+  - "domain-suffix,ccbleasing.com"
+  - "domain-suffix,ccblife-test.com.cn"
+  - "domain-suffix,ccbseoul.com"
+  - "domain-suffix,ccbtrust.com.cn"
+  - "domain-suffix,ccbxt.com"

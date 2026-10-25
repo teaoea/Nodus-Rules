@@ -1,0 +1,15 @@
+# 名称：Classic
+# 来源核对日期：2026-10-25
+# 规则总数：4
+# domain: 4
+# domain-suffix: 0
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,asia.battle.net"
+  - "domain,europe.battle.net"
+  - "domain,useast.battle.net"
+  - "domain,uswest.battle.net"

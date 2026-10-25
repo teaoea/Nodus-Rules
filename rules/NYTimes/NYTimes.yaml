@@ -1,0 +1,27 @@
+# 名称：NYTimes
+# 来源核对日期：2026-10-25
+# 规则总数：16
+# domain: 0
+# domain-suffix: 16
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,d1f1eryiqyjs0r.cloudfront.net"
+  - "domain-suffix,d3lar09xbwlsge.cloudfront.net"
+  - "domain-suffix,d3q1qj9jzsu8nw.cloudfront.net"
+  - "domain-suffix,dc8xl0ndzn2cb.cloudfront.net"
+  - "domain-suffix,nyt.com"
+  - "domain-suffix,nyt.net"
+  - "domain-suffix,nytchina.com"
+  - "domain-suffix,nytcn.me"
+  - "domain-suffix,nytco.com"
+  - "domain-suffix,nyti.ms"
+  - "domain-suffix,nytimes.com"
+  - "domain-suffix,nytimg.com"
+  - "domain-suffix,nytlog.com"
+  - "domain-suffix,nytstyle.com"
+  - "domain-suffix,timestalks.com"
+  - "domain-suffix,tynt.com"

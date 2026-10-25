@@ -1,0 +1,18 @@
+# 名称：Anjuke
+# 来源核对日期：2026-10-25
+# 规则总数：7
+# domain: 0
+# domain-suffix: 7
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,aifang.com"
+  - "domain-suffix,aifcdn.com"
+  - "domain-suffix,ajkinclude.com"
+  - "domain-suffix,anjuke.cn"
+  - "domain-suffix,anjuke.com"
+  - "domain-suffix,anjukestatic.com"
+  - "domain-suffix,jikejia.cn"

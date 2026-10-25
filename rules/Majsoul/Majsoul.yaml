@@ -1,0 +1,22 @@
+# 名称：Majsoul
+# 来源核对日期：2026-10-25
+# 规则总数：11
+# domain: 0
+# domain-suffix: 11
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,game.maj-soul.com"
+  - "domain-suffix,gateway-cdn.maj-soul.com"
+  - "domain-suffix,gateway-hw.maj-soul.com"
+  - "domain-suffix,gateway-sy.catmjstudio.com"
+  - "domain-suffix,gateway-sy.maj-soul.com"
+  - "domain-suffix,gateway-v2.maj-soul.com"
+  - "domain-suffix,lb-cdn.maj-soul.com"
+  - "domain-suffix,lb-hw.maj-soul.com"
+  - "domain-suffix,lb-sy.maj-soul.com"
+  - "domain-suffix,lb-v2.maj-soul.com"
+  - "domain-suffix,majsoul-hk-client.cn-hongkong.log.aliyuncs.com"

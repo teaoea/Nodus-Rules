@@ -1,0 +1,44 @@
+# 名称：Verisign
+# 来源核对日期：2026-10-25
+# 规则总数：33
+# domain: 0
+# domain-suffix: 33
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,verisign.asia"
+  - "domain-suffix,verisign.biz"
+  - "domain-suffix,verisign.ch"
+  - "domain-suffix,verisign.co.in"
+  - "domain-suffix,verisign.co.uk"
+  - "domain-suffix,verisign.com"
+  - "domain-suffix,verisign.com.au"
+  - "domain-suffix,verisign.com.br"
+  - "domain-suffix,verisign.com.cn"
+  - "domain-suffix,verisign.com.es"
+  - "domain-suffix,verisign.com.hk"
+  - "domain-suffix,verisign.com.sg"
+  - "domain-suffix,verisign.com.tw"
+  - "domain-suffix,verisign.com.vn"
+  - "domain-suffix,verisign.de"
+  - "domain-suffix,verisign.dk"
+  - "domain-suffix,verisign.es"
+  - "domain-suffix,verisign.fr"
+  - "domain-suffix,verisign.hk"
+  - "domain-suffix,verisign.in"
+  - "domain-suffix,verisign.info"
+  - "domain-suffix,verisign.jobs"
+  - "domain-suffix,verisign.mobi"
+  - "domain-suffix,verisign.name"
+  - "domain-suffix,verisign.net"
+  - "domain-suffix,verisign.org"
+  - "domain-suffix,verisign.pro"
+  - "domain-suffix,verisign.se"
+  - "domain-suffix,verisign.sg"
+  - "domain-suffix,verisign.tw"
+  - "domain-suffix,verisign.us"
+  - "domain-suffix,verisign.vn"
+  - "domain-suffix,verisigninc.com"

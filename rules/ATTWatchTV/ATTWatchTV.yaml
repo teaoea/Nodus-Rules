@@ -1,0 +1,17 @@
+# 名称：ATTWatchTV
+# 来源核对日期：2026-10-25
+# 规则总数：6
+# domain: 0
+# domain-suffix: 6
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,att.tv"
+  - "domain-suffix,atttvnow.com"
+  - "domain-suffix,attwatchtv.com"
+  - "domain-suffix,directv.com"
+  - "domain-suffix,dtvce.com"
+  - "domain-suffix,nettyinternet.com"

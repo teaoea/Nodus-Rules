@@ -1,0 +1,23 @@
+# 名称：KingsoftCloud
+# 来源核对日期：2026-10-25
+# 规则总数：12
+# domain: 0
+# domain-suffix: 0
+# domain-keyword: 0
+# ip-cidr: 12
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "ip-cidr,103.26.66.0/23"
+  - "ip-cidr,110.43.0.0/22"
+  - "ip-cidr,110.43.32.0/19"
+  - "ip-cidr,120.131.0.0/20"
+  - "ip-cidr,120.92.0.0/21"
+  - "ip-cidr,120.92.10.0/23"
+  - "ip-cidr,120.92.12.0/22"
+  - "ip-cidr,120.92.16.0/20"
+  - "ip-cidr,120.92.216.0/22"
+  - "ip-cidr,120.92.32.0/19"
+  - "ip-cidr,120.92.64.0/18"
+  - "ip-cidr,2401:1d40::/32"

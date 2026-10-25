@@ -1,0 +1,35 @@
+# 名称：CaiXinChuanMei
+# 来源核对日期：2026-10-25
+# 规则总数：24
+# domain: 0
+# domain-suffix: 24
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,caing.cn"
+  - "domain-suffix,caing.com"
+  - "domain-suffix,caixin.com"
+  - "domain-suffix,caixinmedia.cn"
+  - "domain-suffix,caixinmedia.com"
+  - "domain-suffix,caixinmedia.com.cn"
+  - "domain-suffix,caixinonline.com"
+  - "domain-suffix,healthpoint.cn"
+  - "domain-suffix,healthpoint.com.cn"
+  - "domain-suffix,icaing.cn"
+  - "domain-suffix,jianhangcaifu.com"
+  - "domain-suffix,lifetmt.cn"
+  - "domain-suffix,lifetmt.com"
+  - "domain-suffix,lifetmt.com.cn"
+  - "domain-suffix,lifetmt.net"
+  - "domain-suffix,lifetmt.org"
+  - "domain-suffix,weinews.cn"
+  - "domain-suffix,weinews.com.cn"
+  - "domain-suffix,whyenjoy.com"
+  - "domain-suffix,whyenjoy.com.cn"
+  - "domain-suffix,wusuobuneng.cn"
+  - "domain-suffix,wusuobuneng.com"
+  - "domain-suffix,wusuobuneng.com.cn"
+  - "domain-suffix,wusuobuneng.org"

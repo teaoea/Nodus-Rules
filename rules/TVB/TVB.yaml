@@ -1,0 +1,32 @@
+# 名称：TVB
+# 来源核对日期：2026-10-25
+# 规则总数：21
+# domain: 3
+# domain-suffix: 18
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,bcbolt446c5271-a.akamaihd.net"
+  - "domain,edge.api.brightcove.com"
+  - "domain,tvbtracking.azurewebsites.net"
+  - "domain-suffix,bigbigchannel.com.hk"
+  - "domain-suffix,bigbigshop.com"
+  - "domain-suffix,content.jwplatform.com"
+  - "domain-suffix,encoretvb.com"
+  - "domain-suffix,mytvsuper.com"
+  - "domain-suffix,mytvsuperlimited.hb.omtrdc.net"
+  - "domain-suffix,mytvsuperlimited.sc.omtrdc.net"
+  - "domain-suffix,tvb.com"
+  - "domain-suffix,tvb.com.au"
+  - "domain-suffix,tvbanywhere.com"
+  - "domain-suffix,tvbanywhere.com.sg"
+  - "domain-suffix,tvbc.com.cn"
+  - "domain-suffix,tvbeventpower.com.hk"
+  - "domain-suffix,tvbusa.com"
+  - "domain-suffix,tvbweekly.com"
+  - "domain-suffix,tvmedia.net.au"
+  - "domain-suffix,videos-f.jwpsrv.com"
+  - "domain-suffix,youboranqs01.com"

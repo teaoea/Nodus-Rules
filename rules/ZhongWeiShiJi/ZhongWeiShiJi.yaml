@@ -1,0 +1,28 @@
+# 名称：ZhongWeiShiJi
+# 来源核对日期：2026-10-25
+# 规则总数：17
+# domain: 0
+# domain-suffix: 17
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,afdvr.cc"
+  - "domain-suffix,aiwei365.com.cn"
+  - "domain-suffix,aiwei365.net.cn"
+  - "domain-suffix,cloudsee.com"
+  - "domain-suffix,cloudsee.net"
+  - "domain-suffix,cloudseetech.com"
+  - "domain-suffix,jovcloud.com"
+  - "domain-suffix,jovetech.cn"
+  - "domain-suffix,jovetech.com"
+  - "domain-suffix,jovision.cn"
+  - "domain-suffix,jovision.com"
+  - "domain-suffix,jovisionai.com"
+  - "domain-suffix,jovmall.com"
+  - "domain-suffix,nvsip.com"
+  - "domain-suffix,soovvi.com"
+  - "domain-suffix,sunywo.com"
+  - "domain-suffix,xunvision.com"

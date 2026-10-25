@@ -1,0 +1,31 @@
+# 名称：Stackexchange
+# 来源核对日期：2026-10-25
+# 规则总数：20
+# domain: 0
+# domain-suffix: 20
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,askubuntu.com"
+  - "domain-suffix,blogoverflow.com"
+  - "domain-suffix,codeforaliving.io"
+  - "domain-suffix,mathoverflow.net"
+  - "domain-suffix,serverfault.com"
+  - "domain-suffix,sstatic.net"
+  - "domain-suffix,stackapps.com"
+  - "domain-suffix,stackauth.com"
+  - "domain-suffix,stackexchange.com"
+  - "domain-suffix,stackmod.blog"
+  - "domain-suffix,stackoverflow.blog"
+  - "domain-suffix,stackoverflow.co"
+  - "domain-suffix,stackoverflow.com"
+  - "domain-suffix,stackoverflow.email"
+  - "domain-suffix,stackoverflowbusiness.com"
+  - "domain-suffix,stackoverflowcareers.com"
+  - "domain-suffix,stacksnippets.net"
+  - "domain-suffix,superuser.com"
+  - "domain-suffix,tex-talk.net"
+  - "domain-suffix,thesffblog.com"

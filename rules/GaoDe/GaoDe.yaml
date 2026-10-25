@@ -1,0 +1,20 @@
+# 名称：GaoDe
+# 来源核对日期：2026-10-25
+# 规则总数：9
+# domain: 0
+# domain-suffix: 9
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,a-map.cn"
+  - "domain-suffix,a-map.co"
+  - "domain-suffix,a-map.link"
+  - "domain-suffix,a-map.vip"
+  - "domain-suffix,amap.com"
+  - "domain-suffix,amapauto.com"
+  - "domain-suffix,anav.com"
+  - "domain-suffix,autonavi.com"
+  - "domain-suffix,gaode.com"

@@ -1,0 +1,20 @@
+# 名称：KKBOX
+# 来源核对日期：2026-10-25
+# 规则总数：9
+# domain: 0
+# domain-suffix: 9
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain-suffix,kfs.io"
+  - "domain-suffix,kk.stream"
+  - "domain-suffix,kkbox-prime.com"
+  - "domain-suffix,kkbox.com"
+  - "domain-suffix,kkbox.com.tw"
+  - "domain-suffix,kktix.com"
+  - "domain-suffix,kktv.com.tw"
+  - "domain-suffix,kktv.me"
+  - "domain-suffix,theater-kktv.cdn.hinet.net"

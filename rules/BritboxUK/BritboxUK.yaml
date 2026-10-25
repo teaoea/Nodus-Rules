@@ -1,0 +1,19 @@
+# 名称：BritboxUK
+# 来源核对日期：2026-10-25
+# 规则总数：8
+# domain: 2
+# domain-suffix: 6
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - "domain,itvpnp.live.ott.irdeto.com"
+  - "domain,itvpnp.stage.ott.irdeto.com"
+  - "domain-suffix,bb-static.com"
+  - "domain-suffix,bbc.co.uk"
+  - "domain-suffix,britbox.co.uk"
+  - "domain-suffix,britbox.com"
+  - "domain-suffix,itv.com"
+  - "domain-suffix,massive-itv.com"
