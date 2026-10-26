@@ -1,8 +1,8 @@
 # 名称：ProxyLite
-# 来源核对日期：2026-10-25 18:01 UTC
-# 规则总数：986
+# 来源核对日期：2026-10-26 02:58 UTC
+# 规则总数：997
 # domain: 24
-# domain-suffix: 850
+# domain-suffix: 861
 # domain-keyword: 19
 # ip-cidr: 93
 # geoip: 0
@@ -883,6 +883,17 @@ rules:
   - domain-suffix,zoomgov.com
   - domain-suffix,zophar.net
   - domain-suffix,zyxel.com
+  - domain-suffix,bidobido.xyz
+  - domain-suffix,bikaios.xyz
+  - domain-suffix,bikawebapp.com
+  - domain-suffix,diwodiwo.xyz
+  - domain-suffix,e-hentai.org
+  - domain-suffix,exhentai.org
+  - domain-suffix,huakacomic.com
+  - domain-suffix,manhuabika.com
+  - domain-suffix,pica-id.com
+  - domain-suffix,tipatipa.xyz
+  - domain-suffix,wikawika.xyz
   - domain-keyword,1e100
   - domain-keyword,abema
   - domain-keyword,appledaily

@@ -1,10 +1,10 @@
 # 名称：ChinaIPsTest
-# 来源核对日期：2026-10-25 18:01 UTC
-# 规则总数：23004
+# 来源核对日期：2026-10-26 02:58 UTC
+# 规则总数：23009
 # domain: 0
 # domain-suffix: 0
 # domain-keyword: 0
-# ip-cidr: 23004
+# ip-cidr: 23009
 # geoip: 0
 # protocol: 0
 # port: 0
@@ -23013,3 +23013,8 @@ rules:
   - ip-cidr,98.124.142.88/30
   - ip-cidr,99.77.241.0/24
   - ip-cidr,99.83.96.0/24
+  - ip-cidr,112.73.96.0/19
+  - ip-cidr,43.255.68.0/24
+  - ip-cidr,43.255.69.0/24
+  - ip-cidr,43.255.70.0/23
+  - ip-cidr,2001:dc7:fffb::/48

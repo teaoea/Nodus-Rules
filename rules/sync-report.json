@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
-  "revision": "00d82f6c6c374abb947fabc9c1b69f2a22e71dbc",
-  "date": "2026-10-25 18:18 UTC",
+  "revision": "9b29c945b9164a02c7018ed333cb9b5bc1bcb417",
+  "date": "2026-10-26 02:58 UTC",
   "collections": {
     "rule/Clash/115/115.list": {
       "input": 10,
@@ -1149,7 +1149,7 @@
       "template_version": 8
     },
     "rule/Clash/Advertising/Advertising.list": {
-      "input": 296191,
+      "input": 296805,
       "duplicates": 0,
       "no_resolve_removed": 489,
       "skipped": [
@@ -2189,867 +2189,867 @@
           "reason": "域名条件不能是 IP 地址"
         },
         {
-          "line": 295435,
+          "line": 296049,
           "rule": "DOMAIN-KEYWORD,-logging.nextmedia.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295436,
+          "line": 296050,
           "rule": "DOMAIN-KEYWORD,-rtb.gravite.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295437,
+          "line": 296051,
           "rule": "DOMAIN-KEYWORD,-s2s.sensic.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295438,
+          "line": 296052,
           "rule": "DOMAIN-KEYWORD,-spiky.clevertap-prod.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295439,
+          "line": 296053,
           "rule": "DOMAIN-KEYWORD,-tracker.biliapi.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295441,
+          "line": 296055,
           "rule": "DOMAIN-KEYWORD,.engage.3m.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295442,
+          "line": 296056,
           "rule": "DOMAIN-KEYWORD,.estream.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295443,
+          "line": 296057,
           "rule": "DOMAIN-KEYWORD,.freecontent.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295444,
+          "line": 296058,
           "rule": "DOMAIN-KEYWORD,.net.daraz.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295445,
+          "line": 296059,
           "rule": "DOMAIN-KEYWORD,.nimiq.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295446,
+          "line": 296060,
           "rule": "DOMAIN-KEYWORD,.zooplus.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295447,
+          "line": 296061,
           "rule": "DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295448,
+          "line": 296062,
           "rule": "DOMAIN-KEYWORD,a8clk.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295449,
+          "line": 296063,
           "rule": "DOMAIN-KEYWORD,a8cv.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295450,
+          "line": 296064,
           "rule": "DOMAIN-KEYWORD,ad.ixigua.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295451,
+          "line": 296065,
           "rule": "DOMAIN-KEYWORD,adjust.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295467,
+          "line": 296081,
           "rule": "DOMAIN-KEYWORD,analytics-cdn.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295468,
+          "line": 296082,
           "rule": "DOMAIN-KEYWORD,anybest.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295469,
+          "line": 296083,
           "rule": "DOMAIN-KEYWORD,backstory.ebay.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295470,
+          "line": 296084,
           "rule": "DOMAIN-KEYWORD,click.rum.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295471,
+          "line": 296085,
           "rule": "DOMAIN-KEYWORD,cmpworker.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295475,
+          "line": 296089,
           "rule": "DOMAIN-KEYWORD,dc.pimentaafricana",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295477,
+          "line": 296091,
           "rule": "DOMAIN-KEYWORD,doubleclick.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295478,
+          "line": 296092,
           "rule": "DOMAIN-KEYWORD,dubester.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295489,
+          "line": 296103,
           "rule": "DOMAIN-KEYWORD,insights-collector.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295493,
+          "line": 296107,
           "rule": "DOMAIN-KEYWORD,marketing.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295499,
+          "line": 296113,
           "rule": "DOMAIN-KEYWORD,plausible.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295501,
+          "line": 296115,
           "rule": "DOMAIN-KEYWORD,smetrics.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295504,
+          "line": 296118,
           "rule": "DOMAIN-KEYWORD,telemetry.officeapps.live.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295506,
+          "line": 296120,
           "rule": "DOMAIN-KEYWORD,track.msadcenter",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295507,
+          "line": 296121,
           "rule": "DOMAIN-KEYWORD,track.opentable.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295508,
+          "line": 296122,
           "rule": "DOMAIN-KEYWORD,track.tiara",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295509,
+          "line": 296123,
           "rule": "DOMAIN-KEYWORD,trkcmb.business.hsbc.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295510,
+          "line": 296124,
           "rule": "DOMAIN-KEYWORD,trkgbm.business.hsbc.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295511,
+          "line": 296125,
           "rule": "DOMAIN-KEYWORD,trkhinv.business.hsbc.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295512,
+          "line": 296126,
           "rule": "DOMAIN-KEYWORD,trksvg.business.hsbc.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295519,
+          "line": 296133,
           "rule": "DOMAIN-KEYWORD,a.9game.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295520,
+          "line": 296134,
           "rule": "DOMAIN-KEYWORD,a.wkanx.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295521,
+          "line": 296135,
           "rule": "DOMAIN-KEYWORD,a3.bytecdn.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295522,
+          "line": 296136,
           "rule": "DOMAIN-KEYWORD,a3.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295523,
+          "line": 296137,
           "rule": "DOMAIN-KEYWORD,ad.api.moji.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295524,
+          "line": 296138,
           "rule": "DOMAIN-KEYWORD,ad.ihuman.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295525,
+          "line": 296139,
           "rule": "DOMAIN-KEYWORD,ad.toutiao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295526,
+          "line": 296140,
           "rule": "DOMAIN-KEYWORD,adash.man.aliyuncs.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295528,
+          "line": 296142,
           "rule": "DOMAIN-KEYWORD,adm3.autoimg.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295531,
+          "line": 296145,
           "rule": "DOMAIN-KEYWORD,adp.atm.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295532,
+          "line": 296146,
           "rule": "DOMAIN-KEYWORD,adproxy.autohome.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295536,
+          "line": 296150,
           "rule": "DOMAIN-KEYWORD,adsfilebssdlbig.ali.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295537,
+          "line": 296151,
           "rule": "DOMAIN-KEYWORD,adshare.toutiao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295542,
+          "line": 296156,
           "rule": "DOMAIN-KEYWORD,adtrack.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295544,
+          "line": 296158,
           "rule": "DOMAIN-KEYWORD,afpapi.alimama.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295545,
+          "line": 296159,
           "rule": "DOMAIN-KEYWORD,android.bugly.qq.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295546,
+          "line": 296160,
           "rule": "DOMAIN-KEYWORD,ap.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295547,
+          "line": 296161,
           "rule": "DOMAIN-KEYWORD,api.freed.so",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295548,
+          "line": 296162,
           "rule": "DOMAIN-KEYWORD,api.sobot.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295549,
+          "line": 296163,
           "rule": "DOMAIN-KEYWORD,apiinit.amap.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295550,
+          "line": 296164,
           "rule": "DOMAIN-KEYWORD,apimg.qunliao.info",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295551,
+          "line": 296165,
           "rule": "DOMAIN-KEYWORD,app.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295552,
+          "line": 296166,
           "rule": "DOMAIN-KEYWORD,applogapi.autohome.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295556,
+          "line": 296170,
           "rule": "DOMAIN-KEYWORD,asiad.byteactivity",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295557,
+          "line": 296171,
           "rule": "DOMAIN-KEYWORD,av1.xdrig.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295558,
+          "line": 296172,
           "rule": "DOMAIN-KEYWORD,bds.snssdk.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295559,
+          "line": 296173,
           "rule": "DOMAIN-KEYWORD,bdsp.x.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295560,
+          "line": 296174,
           "rule": "DOMAIN-KEYWORD,bj.imp.voiceads.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295564,
+          "line": 296178,
           "rule": "DOMAIN-KEYWORD,c-hzgt2.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295565,
+          "line": 296179,
           "rule": "DOMAIN-KEYWORD,c.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295566,
+          "line": 296180,
           "rule": "DOMAIN-KEYWORD,c.wkanx.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295567,
+          "line": 296181,
           "rule": "DOMAIN-KEYWORD,c1.wkanx.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295568,
+          "line": 296182,
           "rule": "DOMAIN-KEYWORD,c1img.ali.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295569,
+          "line": 296183,
           "rule": "DOMAIN-KEYWORD,caclick.baidu.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295570,
+          "line": 296184,
           "rule": "DOMAIN-KEYWORD,cds.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295571,
+          "line": 296185,
           "rule": "DOMAIN-KEYWORD,client-dmp.suishenyun.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295572,
+          "line": 296186,
           "rule": "DOMAIN-KEYWORD,clk.gentags.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295573,
+          "line": 296187,
           "rule": "DOMAIN-KEYWORD,cm-10-134.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295574,
+          "line": 296188,
           "rule": "DOMAIN-KEYWORD,cm-10-35.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295575,
+          "line": 296189,
           "rule": "DOMAIN-KEYWORD,collectionpv.che168.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295576,
+          "line": 296190,
           "rule": "DOMAIN-KEYWORD,config.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295577,
+          "line": 296191,
           "rule": "DOMAIN-KEYWORD,config.y5en.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295578,
+          "line": 296192,
           "rule": "DOMAIN-KEYWORD,count.atm.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295579,
+          "line": 296193,
           "rule": "DOMAIN-KEYWORD,cpu.baidu.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295582,
+          "line": 296196,
           "rule": "DOMAIN-KEYWORD,dm.bytedance.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295583,
+          "line": 296197,
           "rule": "DOMAIN-KEYWORD,dm.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295584,
+          "line": 296198,
           "rule": "DOMAIN-KEYWORD,dm.toutiao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295590,
+          "line": 296204,
           "rule": "DOMAIN-KEYWORD,editor.sm.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295591,
+          "line": 296205,
           "rule": "DOMAIN-KEYWORD,ems.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295593,
+          "line": 296207,
           "rule": "DOMAIN-KEYWORD,extlog.snssdk.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295594,
+          "line": 296208,
           "rule": "DOMAIN-KEYWORD,fans.m.tmall.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295595,
+          "line": 296209,
           "rule": "DOMAIN-KEYWORD,fc-video.cdn.bcebos.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295596,
+          "line": 296210,
           "rule": "DOMAIN-KEYWORD,fds.api.moji.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295602,
+          "line": 296216,
           "rule": "DOMAIN-KEYWORD,huichuan-mc.sm.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295603,
+          "line": 296217,
           "rule": "DOMAIN-KEYWORD,huichuan.sm.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295604,
+          "line": 296218,
           "rule": "DOMAIN-KEYWORD,iflyad.bj.openstorage.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295605,
+          "line": 296219,
           "rule": "DOMAIN-KEYWORD,image.bianxianmao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295606,
+          "line": 296220,
           "rule": "DOMAIN-KEYWORD,img1.czb365.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295608,
+          "line": 296222,
           "rule": "DOMAIN-KEYWORD,insurance.lianwifi.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295609,
+          "line": 296223,
           "rule": "DOMAIN-KEYWORD,js.union-wifi.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295611,
+          "line": 296225,
           "rule": "DOMAIN-KEYWORD,kepler.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295612,
+          "line": 296226,
           "rule": "DOMAIN-KEYWORD,keplerapi.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295613,
+          "line": 296227,
           "rule": "DOMAIN-KEYWORD,kgipadstat.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295614,
+          "line": 296228,
           "rule": "DOMAIN-KEYWORD,kgipadstatbak.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295615,
+          "line": 296229,
           "rule": "DOMAIN-KEYWORD,kgstaticdlbssdlbig.tx.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295617,
+          "line": 296231,
           "rule": "DOMAIN-KEYWORD,lkme.cc",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295618,
+          "line": 296232,
           "rule": "DOMAIN-KEYWORD,log-dmp.suishenyun.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295619,
+          "line": 296233,
           "rule": "DOMAIN-KEYWORD,log.cs.pp.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295620,
+          "line": 296234,
           "rule": "DOMAIN-KEYWORD,login.push.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295621,
+          "line": 296235,
           "rule": "DOMAIN-KEYWORD,logwebs.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295622,
+          "line": 296236,
           "rule": "DOMAIN-KEYWORD,m.atm.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295623,
+          "line": 296237,
           "rule": "DOMAIN-KEYWORD,m.panda.voiceads.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295624,
+          "line": 296238,
           "rule": "DOMAIN-KEYWORD,m.suning.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295625,
+          "line": 296239,
           "rule": "DOMAIN-KEYWORD,mapi.m.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295628,
+          "line": 296242,
           "rule": "DOMAIN-KEYWORD,me.api.moji.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295629,
+          "line": 296243,
           "rule": "DOMAIN-KEYWORD,medicine.lanjiyin.com.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295632,
+          "line": 296246,
           "rule": "DOMAIN-KEYWORD,mobads.baidu.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295633,
+          "line": 296247,
           "rule": "DOMAIN-KEYWORD,mobilead.kuwo.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295634,
+          "line": 296248,
           "rule": "DOMAIN-KEYWORD,mpos-pic.helipay.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295635,
+          "line": 296249,
           "rule": "DOMAIN-KEYWORD,msg.push.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295636,
+          "line": 296250,
           "rule": "DOMAIN-KEYWORD,nbcollect.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295637,
+          "line": 296251,
           "rule": "DOMAIN-KEYWORD,nbcollectretry.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295638,
+          "line": 296252,
           "rule": "DOMAIN-KEYWORD,news-log.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295639,
+          "line": 296253,
           "rule": "DOMAIN-KEYWORD,news.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295645,
+          "line": 296259,
           "rule": "DOMAIN-KEYWORD,ossp.voicecloud.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295646,
+          "line": 296260,
           "rule": "DOMAIN-KEYWORD,p3-pack.byteimg.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295647,
+          "line": 296261,
           "rule": "DOMAIN-KEYWORD,p3.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295648,
+          "line": 296262,
           "rule": "DOMAIN-KEYWORD,p6-pack.byteimg.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295651,
+          "line": 296265,
           "rule": "DOMAIN-KEYWORD,paradisestatic.vivo.com.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295653,
+          "line": 296267,
           "rule": "DOMAIN-KEYWORD,pc.suishenyun.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295654,
+          "line": 296268,
           "rule": "DOMAIN-KEYWORD,pdds.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295657,
+          "line": 296271,
           "rule": "DOMAIN-KEYWORD,policy.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295658,
+          "line": 296272,
           "rule": "DOMAIN-KEYWORD,puds.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295659,
+          "line": 296273,
           "rule": "DOMAIN-KEYWORD,r1.ykimg.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295660,
+          "line": 296274,
           "rule": "DOMAIN-KEYWORD,rescn.u3.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295661,
+          "line": 296275,
           "rule": "DOMAIN-KEYWORD,rich.kuwo.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295662,
+          "line": 296276,
           "rule": "DOMAIN-KEYWORD,rt-m.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295663,
+          "line": 296277,
           "rule": "DOMAIN-KEYWORD,rtmretry.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295664,
+          "line": 296278,
           "rule": "DOMAIN-KEYWORD,s1.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295665,
+          "line": 296279,
           "rule": "DOMAIN-KEYWORD,s2.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295666,
+          "line": 296280,
           "rule": "DOMAIN-KEYWORD,s3.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295667,
+          "line": 296281,
           "rule": "DOMAIN-KEYWORD,s3a.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295668,
+          "line": 296282,
           "rule": "DOMAIN-KEYWORD,sdfp.snssdk.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295669,
+          "line": 296283,
           "rule": "DOMAIN-KEYWORD,sdk.open.talk.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295670,
+          "line": 296284,
           "rule": "DOMAIN-KEYWORD,searchrecommend.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295671,
+          "line": 296285,
           "rule": "DOMAIN-KEYWORD,server.m.pp.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295673,
+          "line": 296287,
           "rule": "DOMAIN-KEYWORD,splashimgbssdl.yun.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295674,
+          "line": 296288,
           "rule": "DOMAIN-KEYWORD,stsdk.vivo.com.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295675,
+          "line": 296289,
           "rule": "DOMAIN-KEYWORD,stsdk.vivoglobal.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295678,
+          "line": 296292,
           "rule": "DOMAIN-KEYWORD,talk.bz.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295680,
+          "line": 296294,
           "rule": "DOMAIN-KEYWORD,tosv.boe.byted.org",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295681,
+          "line": 296295,
           "rule": "DOMAIN-KEYWORD,tosv.byted.org",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295682,
+          "line": 296296,
           "rule": "DOMAIN-KEYWORD,track.uc.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295683,
+          "line": 296297,
           "rule": "DOMAIN-KEYWORD,tracker.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295684,
+          "line": 296298,
           "rule": "DOMAIN-KEYWORD,trackercdnbj.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295686,
+          "line": 296300,
           "rule": "DOMAIN-KEYWORD,tunion-api.m.taobao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295688,
+          "line": 296302,
           "rule": "DOMAIN-KEYWORD,utp-dmp.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295689,
+          "line": 296303,
           "rule": "DOMAIN-KEYWORD,utp.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295690,
+          "line": 296304,
           "rule": "DOMAIN-KEYWORD,v0-client-lz.rili.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295691,
+          "line": 296305,
           "rule": "DOMAIN-KEYWORD,v1.log.moji.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295692,
+          "line": 296306,
           "rule": "DOMAIN-KEYWORD,v2.reachmax.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295693,
+          "line": 296307,
           "rule": "DOMAIN-KEYWORD,val.atm.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295695,
+          "line": 296309,
           "rule": "DOMAIN-KEYWORD,vs10.bj2ct.u3.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295696,
+          "line": 296310,
           "rule": "DOMAIN-KEYWORD,wgo.mmstat.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295697,
+          "line": 296311,
           "rule": "DOMAIN-KEYWORD,wixsite.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295699,
+          "line": 296313,
           "rule": "DOMAIN-KEYWORD,www.qmlog.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295702,
+          "line": 296316,
           "rule": "DOMAIN-KEYWORD,ynuf.alipay.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295704,
+          "line": 296318,
           "rule": "DOMAIN-KEYWORD,analytics.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295706,
+          "line": 296320,
           "rule": "DOMAIN-KEYWORD,app-log.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295707,
+          "line": 296321,
           "rule": "DOMAIN-KEYWORD,applog.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295709,
+          "line": 296323,
           "rule": "DOMAIN-KEYWORD,ios-log.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295710,
+          "line": 296324,
           "rule": "DOMAIN-KEYWORD,ioslog.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295711,
+          "line": 296325,
           "rule": "DOMAIN-KEYWORD,pc-log.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 295712,
+          "line": 296326,
           "rule": "DOMAIN-KEYWORD,pclog.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         }
       ],
       "merge": {
-        "duplicates": 295814,
+        "duplicates": 295703,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Advertising/Advertising.yaml",
-      "rules": 295814,
-      "bytes": 10930251,
+      "rules": 296539,
+      "bytes": 10957345,
       "exceeds_current_core": true,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/AdvertisingLite/AdvertisingLite.list": {
@@ -3725,7 +3725,7 @@
       "template_version": 8
     },
     "rule/Clash/AdvertisingTest/AdvertisingTest.list": {
-      "input": 320850,
+      "input": 321449,
       "duplicates": 0,
       "no_resolve_removed": 511,
       "skipped": [
@@ -5155,857 +5155,857 @@
           "reason": "域名条件不能是 IP 地址"
         },
         {
-          "line": 320070,
+          "line": 320669,
           "rule": "DOMAIN-KEYWORD,-logging.nextmedia.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320071,
+          "line": 320670,
           "rule": "DOMAIN-KEYWORD,-rtb.gravite.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320072,
+          "line": 320671,
           "rule": "DOMAIN-KEYWORD,-s2s.sensic.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320073,
+          "line": 320672,
           "rule": "DOMAIN-KEYWORD,-spiky.clevertap-prod.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320074,
+          "line": 320673,
           "rule": "DOMAIN-KEYWORD,-tracker.biliapi.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320076,
+          "line": 320675,
           "rule": "DOMAIN-KEYWORD,.engage.3m.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320077,
+          "line": 320676,
           "rule": "DOMAIN-KEYWORD,.estream.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320078,
+          "line": 320677,
           "rule": "DOMAIN-KEYWORD,.freecontent.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320079,
+          "line": 320678,
           "rule": "DOMAIN-KEYWORD,.net.daraz.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320080,
+          "line": 320679,
           "rule": "DOMAIN-KEYWORD,.nimiq.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320081,
+          "line": 320680,
           "rule": "DOMAIN-KEYWORD,.zooplus.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320082,
+          "line": 320681,
           "rule": "DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320083,
+          "line": 320682,
           "rule": "DOMAIN-KEYWORD,a8clk.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320084,
+          "line": 320683,
           "rule": "DOMAIN-KEYWORD,a8cv.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320085,
+          "line": 320684,
           "rule": "DOMAIN-KEYWORD,ad.ixigua.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320086,
+          "line": 320685,
           "rule": "DOMAIN-KEYWORD,adjust.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320102,
+          "line": 320701,
           "rule": "DOMAIN-KEYWORD,anybest.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320103,
+          "line": 320702,
           "rule": "DOMAIN-KEYWORD,backstory.ebay.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320104,
+          "line": 320703,
           "rule": "DOMAIN-KEYWORD,click.rum.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320105,
+          "line": 320704,
           "rule": "DOMAIN-KEYWORD,cmpworker.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320109,
+          "line": 320708,
           "rule": "DOMAIN-KEYWORD,dc.pimentaafricana",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320111,
+          "line": 320710,
           "rule": "DOMAIN-KEYWORD,doubleclick.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320112,
+          "line": 320711,
           "rule": "DOMAIN-KEYWORD,dubester.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320123,
+          "line": 320722,
           "rule": "DOMAIN-KEYWORD,insights-collector.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320127,
+          "line": 320726,
           "rule": "DOMAIN-KEYWORD,marketing.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320133,
+          "line": 320732,
           "rule": "DOMAIN-KEYWORD,plausible.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320135,
+          "line": 320734,
           "rule": "DOMAIN-KEYWORD,smetrics.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320138,
+          "line": 320737,
           "rule": "DOMAIN-KEYWORD,telemetry.officeapps.live.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320140,
+          "line": 320739,
           "rule": "DOMAIN-KEYWORD,track.msadcenter",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320141,
+          "line": 320740,
           "rule": "DOMAIN-KEYWORD,track.opentable.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320142,
+          "line": 320741,
           "rule": "DOMAIN-KEYWORD,track.tiara",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320143,
+          "line": 320742,
           "rule": "DOMAIN-KEYWORD,trkcmb.business.hsbc.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320144,
+          "line": 320743,
           "rule": "DOMAIN-KEYWORD,trkgbm.business.hsbc.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320145,
+          "line": 320744,
           "rule": "DOMAIN-KEYWORD,trkhinv.business.hsbc.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320146,
+          "line": 320745,
           "rule": "DOMAIN-KEYWORD,trksvg.business.hsbc.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320153,
+          "line": 320752,
           "rule": "DOMAIN-KEYWORD,a.9game.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320154,
+          "line": 320753,
           "rule": "DOMAIN-KEYWORD,a.wkanx.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320155,
+          "line": 320754,
           "rule": "DOMAIN-KEYWORD,a3.bytecdn.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320156,
+          "line": 320755,
           "rule": "DOMAIN-KEYWORD,a3.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320157,
+          "line": 320756,
           "rule": "DOMAIN-KEYWORD,ad.api.moji.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320158,
+          "line": 320757,
           "rule": "DOMAIN-KEYWORD,ad.ihuman.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320159,
+          "line": 320758,
           "rule": "DOMAIN-KEYWORD,ad.toutiao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320160,
+          "line": 320759,
           "rule": "DOMAIN-KEYWORD,adash.man.aliyuncs.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320162,
+          "line": 320761,
           "rule": "DOMAIN-KEYWORD,adm3.autoimg.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320165,
+          "line": 320764,
           "rule": "DOMAIN-KEYWORD,adp.atm.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320166,
+          "line": 320765,
           "rule": "DOMAIN-KEYWORD,adproxy.autohome.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320170,
+          "line": 320769,
           "rule": "DOMAIN-KEYWORD,adsfilebssdlbig.ali.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320171,
+          "line": 320770,
           "rule": "DOMAIN-KEYWORD,adshare.toutiao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320176,
+          "line": 320775,
           "rule": "DOMAIN-KEYWORD,adtrack.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320178,
+          "line": 320777,
           "rule": "DOMAIN-KEYWORD,afpapi.alimama.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320179,
+          "line": 320778,
           "rule": "DOMAIN-KEYWORD,android.bugly.qq.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320180,
+          "line": 320779,
           "rule": "DOMAIN-KEYWORD,ap.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320181,
+          "line": 320780,
           "rule": "DOMAIN-KEYWORD,api.freed.so",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320182,
+          "line": 320781,
           "rule": "DOMAIN-KEYWORD,api.sobot.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320183,
+          "line": 320782,
           "rule": "DOMAIN-KEYWORD,apiinit.amap.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320184,
+          "line": 320783,
           "rule": "DOMAIN-KEYWORD,apimg.qunliao.info",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320185,
+          "line": 320784,
           "rule": "DOMAIN-KEYWORD,app.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320186,
+          "line": 320785,
           "rule": "DOMAIN-KEYWORD,applogapi.autohome.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320190,
+          "line": 320789,
           "rule": "DOMAIN-KEYWORD,asiad.byteactivity",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320191,
+          "line": 320790,
           "rule": "DOMAIN-KEYWORD,av1.xdrig.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320192,
+          "line": 320791,
           "rule": "DOMAIN-KEYWORD,bds.snssdk.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320193,
+          "line": 320792,
           "rule": "DOMAIN-KEYWORD,bdsp.x.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320194,
+          "line": 320793,
           "rule": "DOMAIN-KEYWORD,bj.imp.voiceads.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320198,
+          "line": 320797,
           "rule": "DOMAIN-KEYWORD,c-hzgt2.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320199,
+          "line": 320798,
           "rule": "DOMAIN-KEYWORD,c.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320200,
+          "line": 320799,
           "rule": "DOMAIN-KEYWORD,c.wkanx.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320201,
+          "line": 320800,
           "rule": "DOMAIN-KEYWORD,c1.wkanx.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320202,
+          "line": 320801,
           "rule": "DOMAIN-KEYWORD,c1img.ali.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320203,
+          "line": 320802,
           "rule": "DOMAIN-KEYWORD,caclick.baidu.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320204,
+          "line": 320803,
           "rule": "DOMAIN-KEYWORD,cds.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320205,
+          "line": 320804,
           "rule": "DOMAIN-KEYWORD,client-dmp.suishenyun.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320206,
+          "line": 320805,
           "rule": "DOMAIN-KEYWORD,clk.gentags.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320207,
+          "line": 320806,
           "rule": "DOMAIN-KEYWORD,cm-10-134.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320208,
+          "line": 320807,
           "rule": "DOMAIN-KEYWORD,cm-10-35.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320209,
+          "line": 320808,
           "rule": "DOMAIN-KEYWORD,collectionpv.che168.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320210,
+          "line": 320809,
           "rule": "DOMAIN-KEYWORD,config.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320211,
+          "line": 320810,
           "rule": "DOMAIN-KEYWORD,config.y5en.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320212,
+          "line": 320811,
           "rule": "DOMAIN-KEYWORD,count.atm.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320213,
+          "line": 320812,
           "rule": "DOMAIN-KEYWORD,cpu.baidu.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320216,
+          "line": 320815,
           "rule": "DOMAIN-KEYWORD,dm.bytedance.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320217,
+          "line": 320816,
           "rule": "DOMAIN-KEYWORD,dm.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320218,
+          "line": 320817,
           "rule": "DOMAIN-KEYWORD,dm.toutiao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320224,
+          "line": 320823,
           "rule": "DOMAIN-KEYWORD,editor.sm.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320225,
+          "line": 320824,
           "rule": "DOMAIN-KEYWORD,ems.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320227,
+          "line": 320826,
           "rule": "DOMAIN-KEYWORD,extlog.snssdk.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320228,
+          "line": 320827,
           "rule": "DOMAIN-KEYWORD,fans.m.tmall.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320229,
+          "line": 320828,
           "rule": "DOMAIN-KEYWORD,fc-video.cdn.bcebos.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320230,
+          "line": 320829,
           "rule": "DOMAIN-KEYWORD,fds.api.moji.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320236,
+          "line": 320835,
           "rule": "DOMAIN-KEYWORD,huichuan-mc.sm.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320237,
+          "line": 320836,
           "rule": "DOMAIN-KEYWORD,huichuan.sm.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320238,
+          "line": 320837,
           "rule": "DOMAIN-KEYWORD,iflyad.bj.openstorage.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320239,
+          "line": 320838,
           "rule": "DOMAIN-KEYWORD,image.bianxianmao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320240,
+          "line": 320839,
           "rule": "DOMAIN-KEYWORD,img1.czb365.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320242,
+          "line": 320841,
           "rule": "DOMAIN-KEYWORD,insurance.lianwifi.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320243,
+          "line": 320842,
           "rule": "DOMAIN-KEYWORD,js.union-wifi.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320245,
+          "line": 320844,
           "rule": "DOMAIN-KEYWORD,kepler.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320246,
+          "line": 320845,
           "rule": "DOMAIN-KEYWORD,keplerapi.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320247,
+          "line": 320846,
           "rule": "DOMAIN-KEYWORD,kgipadstat.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320248,
+          "line": 320847,
           "rule": "DOMAIN-KEYWORD,kgipadstatbak.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320249,
+          "line": 320848,
           "rule": "DOMAIN-KEYWORD,kgstaticdlbssdlbig.tx.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320251,
+          "line": 320850,
           "rule": "DOMAIN-KEYWORD,lkme.cc",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320252,
+          "line": 320851,
           "rule": "DOMAIN-KEYWORD,log-dmp.suishenyun.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320253,
+          "line": 320852,
           "rule": "DOMAIN-KEYWORD,log.cs.pp.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320254,
+          "line": 320853,
           "rule": "DOMAIN-KEYWORD,login.push.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320255,
+          "line": 320854,
           "rule": "DOMAIN-KEYWORD,logwebs.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320256,
+          "line": 320855,
           "rule": "DOMAIN-KEYWORD,m.atm.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320257,
+          "line": 320856,
           "rule": "DOMAIN-KEYWORD,m.panda.voiceads.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320258,
+          "line": 320857,
           "rule": "DOMAIN-KEYWORD,m.suning.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320259,
+          "line": 320858,
           "rule": "DOMAIN-KEYWORD,mapi.m.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320262,
+          "line": 320861,
           "rule": "DOMAIN-KEYWORD,me.api.moji.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320263,
+          "line": 320862,
           "rule": "DOMAIN-KEYWORD,medicine.lanjiyin.com.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320266,
+          "line": 320865,
           "rule": "DOMAIN-KEYWORD,mobads.baidu.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320267,
+          "line": 320866,
           "rule": "DOMAIN-KEYWORD,mobilead.kuwo.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320268,
+          "line": 320867,
           "rule": "DOMAIN-KEYWORD,mpos-pic.helipay.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320269,
+          "line": 320868,
           "rule": "DOMAIN-KEYWORD,msg.push.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320270,
+          "line": 320869,
           "rule": "DOMAIN-KEYWORD,nbcollect.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320271,
+          "line": 320870,
           "rule": "DOMAIN-KEYWORD,nbcollectretry.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320272,
+          "line": 320871,
           "rule": "DOMAIN-KEYWORD,news-log.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320273,
+          "line": 320872,
           "rule": "DOMAIN-KEYWORD,news.51y5.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320279,
+          "line": 320878,
           "rule": "DOMAIN-KEYWORD,ossp.voicecloud.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320280,
+          "line": 320879,
           "rule": "DOMAIN-KEYWORD,p3-pack.byteimg.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320281,
+          "line": 320880,
           "rule": "DOMAIN-KEYWORD,p3.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320282,
+          "line": 320881,
           "rule": "DOMAIN-KEYWORD,p6-pack.byteimg.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320285,
+          "line": 320884,
           "rule": "DOMAIN-KEYWORD,paradisestatic.vivo.com.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320287,
+          "line": 320886,
           "rule": "DOMAIN-KEYWORD,pc.suishenyun.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320288,
+          "line": 320887,
           "rule": "DOMAIN-KEYWORD,pdds.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320291,
+          "line": 320890,
           "rule": "DOMAIN-KEYWORD,policy.jd.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320292,
+          "line": 320891,
           "rule": "DOMAIN-KEYWORD,puds.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320293,
+          "line": 320892,
           "rule": "DOMAIN-KEYWORD,r1.ykimg.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320294,
+          "line": 320893,
           "rule": "DOMAIN-KEYWORD,rescn.u3.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320295,
+          "line": 320894,
           "rule": "DOMAIN-KEYWORD,rich.kuwo.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320296,
+          "line": 320895,
           "rule": "DOMAIN-KEYWORD,rt-m.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320297,
+          "line": 320896,
           "rule": "DOMAIN-KEYWORD,rtmretry.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320298,
+          "line": 320897,
           "rule": "DOMAIN-KEYWORD,s1.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320299,
+          "line": 320898,
           "rule": "DOMAIN-KEYWORD,s2.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320300,
+          "line": 320899,
           "rule": "DOMAIN-KEYWORD,s3.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320301,
+          "line": 320900,
           "rule": "DOMAIN-KEYWORD,s3a.pstatp.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320302,
+          "line": 320901,
           "rule": "DOMAIN-KEYWORD,sdfp.snssdk.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320303,
+          "line": 320902,
           "rule": "DOMAIN-KEYWORD,sdk.open.talk.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320304,
+          "line": 320903,
           "rule": "DOMAIN-KEYWORD,searchrecommend.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320305,
+          "line": 320904,
           "rule": "DOMAIN-KEYWORD,server.m.pp.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320307,
+          "line": 320906,
           "rule": "DOMAIN-KEYWORD,splashimgbssdl.yun.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320308,
+          "line": 320907,
           "rule": "DOMAIN-KEYWORD,stsdk.vivo.com.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320309,
+          "line": 320908,
           "rule": "DOMAIN-KEYWORD,stsdk.vivoglobal.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320312,
+          "line": 320911,
           "rule": "DOMAIN-KEYWORD,talk.bz.getui.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320314,
+          "line": 320913,
           "rule": "DOMAIN-KEYWORD,tosv.boe.byted.org",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320315,
+          "line": 320914,
           "rule": "DOMAIN-KEYWORD,tosv.byted.org",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320316,
+          "line": 320915,
           "rule": "DOMAIN-KEYWORD,track.uc.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320317,
+          "line": 320916,
           "rule": "DOMAIN-KEYWORD,tracker.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320318,
+          "line": 320917,
           "rule": "DOMAIN-KEYWORD,trackercdnbj.kugou.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320320,
+          "line": 320919,
           "rule": "DOMAIN-KEYWORD,tunion-api.m.taobao.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320322,
+          "line": 320921,
           "rule": "DOMAIN-KEYWORD,utp-dmp.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320323,
+          "line": 320922,
           "rule": "DOMAIN-KEYWORD,utp.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320324,
+          "line": 320923,
           "rule": "DOMAIN-KEYWORD,v0-client-lz.rili.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320325,
+          "line": 320924,
           "rule": "DOMAIN-KEYWORD,v1.log.moji.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320326,
+          "line": 320925,
           "rule": "DOMAIN-KEYWORD,v2.reachmax.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320327,
+          "line": 320926,
           "rule": "DOMAIN-KEYWORD,val.atm.youku.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320329,
+          "line": 320928,
           "rule": "DOMAIN-KEYWORD,vs10.bj2ct.u3.ucweb.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320330,
+          "line": 320929,
           "rule": "DOMAIN-KEYWORD,wgo.mmstat.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320331,
+          "line": 320930,
           "rule": "DOMAIN-KEYWORD,wixsite.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320333,
+          "line": 320932,
           "rule": "DOMAIN-KEYWORD,www.qmlog.cn",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320336,
+          "line": 320935,
           "rule": "DOMAIN-KEYWORD,ynuf.alipay.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320343,
+          "line": 320942,
           "rule": "DOMAIN-KEYWORD,app-log.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320344,
+          "line": 320943,
           "rule": "DOMAIN-KEYWORD,applog.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320346,
+          "line": 320945,
           "rule": "DOMAIN-KEYWORD,ios-log.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320347,
+          "line": 320946,
           "rule": "DOMAIN-KEYWORD,ioslog.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320348,
+          "line": 320947,
           "rule": "DOMAIN-KEYWORD,pc-log.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 320349,
+          "line": 320948,
           "rule": "DOMAIN-KEYWORD,pclog.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         }
       ],
       "merge": {
-        "duplicates": 320397,
+        "duplicates": 320286,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/AdvertisingTest/AdvertisingTest.yaml",
-      "rules": 320397,
-      "bytes": 11805848,
+      "rules": 321107,
+      "bytes": 11832391,
       "exceeds_current_core": true,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/Aerogard/Aerogard.list": {
@@ -6567,103 +6567,103 @@
       "template_version": 8
     },
     "rule/Clash/Apple/Apple.list": {
-      "input": 1593,
+      "input": 1592,
       "duplicates": 0,
       "no_resolve_removed": 13,
       "skipped": [
         {
-          "line": 1572,
+          "line": 1571,
           "rule": "DOMAIN-KEYWORD,apple-support.akadns.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 1573,
+          "line": 1572,
           "rule": "DOMAIN-KEYWORD,apple.com.akadns.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 1574,
+          "line": 1573,
           "rule": "DOMAIN-KEYWORD,apple.com.edgekey.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 1575,
+          "line": 1574,
           "rule": "DOMAIN-KEYWORD,buy.itunes.apple.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 1578,
+          "line": 1577,
           "rule": "DOMAIN-KEYWORD,icloud.com.akadns.net",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 1592,
+          "line": 1591,
           "rule": "PROCESS-NAME,CoreLocationAgent",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1593,
+          "line": 1592,
           "rule": "PROCESS-NAME,WeatherWidget",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1594,
+          "line": 1593,
           "rule": "PROCESS-NAME,apsd",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1595,
+          "line": 1594,
           "rule": "PROCESS-NAME,com.apple.Maps",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1596,
+          "line": 1595,
           "rule": "PROCESS-NAME,findmydevice-user-agent",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1597,
+          "line": 1596,
           "rule": "PROCESS-NAME,fmfd",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1598,
+          "line": 1597,
           "rule": "PROCESS-NAME,mapspushd",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1599,
+          "line": 1598,
           "rule": "PROCESS-NAME,netbiosd",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1600,
+          "line": 1599,
           "rule": "PROCESS-NAME,trustd",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1601,
+          "line": 1600,
           "rule": "PROCESS-NAME,com.apple.geod",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1602,
+          "line": 1601,
           "rule": "PROCESS-NAME,Music",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1603,
+          "line": 1602,
           "rule": "PROCESS-NAME,LookupViewService",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 1604,
+          "line": 1603,
           "rule": "PROCESS-NAME,TV",
           "reason": "Nodus 远程规则不支持此条件或语义"
         }
       ],
       "merge": {
-        "duplicates": 1575,
+        "duplicates": 1574,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
@@ -6672,7 +6672,7 @@
       "rules": 1581,
       "bytes": 56604,
       "exceeds_current_core": false,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/AppleDaily/AppleDaily.list": {
@@ -7453,7 +7453,7 @@
       "rules": 62,
       "bytes": 2318,
       "exceeds_current_core": false,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/BlockHttpDNS/BlockHttpDNS.list": {
@@ -8103,39 +8103,39 @@
       "template_version": 8
     },
     "rule/Clash/ChinaIPs/ChinaIPs.list": {
-      "input": 19618,
+      "input": 19616,
       "duplicates": 0,
-      "no_resolve_removed": 19618,
+      "no_resolve_removed": 19616,
       "skipped": [],
       "merge": {
-        "duplicates": 19618,
+        "duplicates": 19612,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/ChinaIPs/ChinaIPs.yaml",
-      "rules": 19618,
-      "bytes": 561938,
+      "rules": 19622,
+      "bytes": 562056,
       "exceeds_current_core": false,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list": {
-      "input": 23004,
+      "input": 23003,
       "duplicates": 0,
-      "no_resolve_removed": 23004,
+      "no_resolve_removed": 23003,
       "skipped": [],
       "merge": {
-        "duplicates": 23004,
+        "duplicates": 22998,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/ChinaIPs/ChinaIPsTest/ChinaIPsTest.yaml",
-      "rules": 23004,
-      "bytes": 659038,
+      "rules": 23009,
+      "bytes": 659177,
       "exceeds_current_core": false,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/ChinaIPsBGP/ChinaIPsBGP.list": {
@@ -8157,295 +8157,295 @@
       "template_version": 8
     },
     "rule/Clash/ChinaMax/ChinaMax.list": {
-      "input": 123333,
+      "input": 123061,
       "duplicates": 0,
       "no_resolve_removed": 12557,
       "skipped": [
         {
-          "line": 110761,
+          "line": 110489,
           "rule": "DOMAIN-KEYWORD,.tmall.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 123331,
+          "line": 123059,
           "rule": "PROCESS-NAME,com.taobao.taobao",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123332,
+          "line": 123060,
           "rule": "PROCESS-NAME,com.bilibili.app.blue",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123333,
+          "line": 123061,
           "rule": "PROCESS-NAME,com.bilibili.app.in",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123334,
+          "line": 123062,
           "rule": "PROCESS-NAME,com.bilibili.comic",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123335,
+          "line": 123063,
           "rule": "PROCESS-NAME,com.bilibili.comic.intl",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123336,
+          "line": 123064,
           "rule": "PROCESS-NAME,tv.danmaku.bili",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123337,
+          "line": 123065,
           "rule": "PROCESS-NAME,tv.danmaku.bilibilihd",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123338,
+          "line": 123066,
           "rule": "PROCESS-NAME,com.zhiliaoapp.musically",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123339,
+          "line": 123067,
           "rule": "PROCESS-NAME,com.jjwxc.reader",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123340,
+          "line": 123068,
           "rule": "PROCESS-NAME,com.xiaomi.mibrain.speech",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123341,
+          "line": 123069,
           "rule": "PROCESS-NAME,小米云服务.exe",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123342,
+          "line": 123070,
           "rule": "PROCESS-NAME,Thunder",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123343,
+          "line": 123071,
           "rule": "PROCESS-NAME,Thunder.exe",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123344,
+          "line": 123072,
           "rule": "PROCESS-NAME,com.qiyi.video",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 123345,
+          "line": 123073,
           "rule": "IP-ASN,132203,no-resolve",
           "reason": "Nodus 远程规则不支持此条件或语义"
         }
       ],
       "merge": {
-        "duplicates": 123317,
+        "duplicates": 123013,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/ChinaMax/ChinaMax.yaml",
-      "rules": 123317,
-      "bytes": 3757089,
+      "rules": 123349,
+      "bytes": 3758091,
       "exceeds_current_core": true,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list": {
-      "input": 110447,
+      "input": 110176,
       "duplicates": 0,
       "no_resolve_removed": 0,
       "skipped": [
         {
-          "line": 110430,
+          "line": 110159,
           "rule": "DOMAIN-KEYWORD,.tmall.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 110443,
+          "line": 110172,
           "rule": "PROCESS-NAME,com.taobao.taobao",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110444,
+          "line": 110173,
           "rule": "PROCESS-NAME,com.bilibili.app.blue",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110445,
+          "line": 110174,
           "rule": "PROCESS-NAME,com.bilibili.app.in",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110446,
+          "line": 110175,
           "rule": "PROCESS-NAME,com.bilibili.comic",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110447,
+          "line": 110176,
           "rule": "PROCESS-NAME,com.bilibili.comic.intl",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110448,
+          "line": 110177,
           "rule": "PROCESS-NAME,tv.danmaku.bili",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110449,
+          "line": 110178,
           "rule": "PROCESS-NAME,tv.danmaku.bilibilihd",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110450,
+          "line": 110179,
           "rule": "PROCESS-NAME,com.zhiliaoapp.musically",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110451,
+          "line": 110180,
           "rule": "PROCESS-NAME,com.jjwxc.reader",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110452,
+          "line": 110181,
           "rule": "PROCESS-NAME,com.xiaomi.mibrain.speech",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110453,
+          "line": 110182,
           "rule": "PROCESS-NAME,小米云服务.exe",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110454,
+          "line": 110183,
           "rule": "PROCESS-NAME,Thunder",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110455,
+          "line": 110184,
           "rule": "PROCESS-NAME,Thunder.exe",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 110456,
+          "line": 110185,
           "rule": "PROCESS-NAME,com.qiyi.video",
           "reason": "Nodus 远程规则不支持此条件或语义"
         }
       ],
       "merge": {
-        "duplicates": 110432,
+        "duplicates": 110129,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/ChinaMaxNoIP/ChinaMaxNoIP.yaml",
-      "rules": 110432,
-      "bytes": 3385012,
+      "rules": 110464,
+      "bytes": 3386014,
       "exceeds_current_core": true,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/ChinaMaxNoMedia/ChinaMaxNoMedia.list": {
-      "input": 122895,
+      "input": 122624,
       "duplicates": 0,
       "no_resolve_removed": 12557,
       "skipped": [
         {
-          "line": 110325,
+          "line": 110054,
           "rule": "DOMAIN-KEYWORD,.tmall.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 122893,
+          "line": 122622,
           "rule": "PROCESS-NAME,com.taobao.taobao",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122894,
+          "line": 122623,
           "rule": "PROCESS-NAME,com.bilibili.app.blue",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122895,
+          "line": 122624,
           "rule": "PROCESS-NAME,com.bilibili.app.in",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122896,
+          "line": 122625,
           "rule": "PROCESS-NAME,com.bilibili.comic",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122897,
+          "line": 122626,
           "rule": "PROCESS-NAME,com.bilibili.comic.intl",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122898,
+          "line": 122627,
           "rule": "PROCESS-NAME,tv.danmaku.bili",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122899,
+          "line": 122628,
           "rule": "PROCESS-NAME,tv.danmaku.bilibilihd",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122900,
+          "line": 122629,
           "rule": "PROCESS-NAME,com.zhiliaoapp.musically",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122901,
+          "line": 122630,
           "rule": "PROCESS-NAME,com.jjwxc.reader",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122902,
+          "line": 122631,
           "rule": "PROCESS-NAME,com.xiaomi.mibrain.speech",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122903,
+          "line": 122632,
           "rule": "PROCESS-NAME,小米云服务.exe",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122904,
+          "line": 122633,
           "rule": "PROCESS-NAME,Thunder",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122905,
+          "line": 122634,
           "rule": "PROCESS-NAME,Thunder.exe",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122906,
+          "line": 122635,
           "rule": "PROCESS-NAME,com.qiyi.video",
           "reason": "Nodus 远程规则不支持此条件或语义"
         },
         {
-          "line": 122907,
+          "line": 122636,
           "rule": "IP-ASN,132203,no-resolve",
           "reason": "Nodus 远程规则不支持此条件或语义"
         }
       ],
       "merge": {
-        "duplicates": 122879,
+        "duplicates": 122576,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/ChinaMaxNoMedia/ChinaMaxNoMedia.yaml",
-      "rules": 122879,
-      "bytes": 3742837,
+      "rules": 122911,
+      "bytes": 3743839,
       "exceeds_current_core": true,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/ChinaMedia/ChinaMedia.list": {
@@ -8576,27 +8576,27 @@
       "template_version": 8
     },
     "rule/Clash/ChinaTest/ChinaTest.list": {
-      "input": 110329,
+      "input": 110051,
       "duplicates": 0,
       "no_resolve_removed": 15,
       "skipped": [
         {
-          "line": 110316,
+          "line": 110038,
           "rule": "DOMAIN-KEYWORD,.tmall.com",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         }
       ],
       "merge": {
-        "duplicates": 110328,
+        "duplicates": 110018,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/ChinaTest/ChinaTest.yaml",
-      "rules": 110328,
-      "bytes": 3379269,
+      "rules": 110360,
+      "bytes": 3380279,
       "exceeds_current_core": true,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/ChinaUnicom/ChinaUnicom.list": {
@@ -11164,7 +11164,7 @@
       "rules": 612,
       "bytes": 21522,
       "exceeds_current_core": false,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/Game/GameDownload/GameDownload.list": {
@@ -11438,32 +11438,32 @@
       "template_version": 8
     },
     "rule/Clash/Global/Global.list": {
-      "input": 35257,
+      "input": 35267,
       "duplicates": 0,
       "no_resolve_removed": 119,
       "skipped": [
         {
-          "line": 35117,
+          "line": 35127,
           "rule": "DOMAIN-KEYWORD,musical.ly",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         },
         {
-          "line": 35268,
+          "line": 35278,
           "rule": "PROCESS-NAME,LookupViewService",
           "reason": "Nodus 远程规则不支持此条件或语义"
         }
       ],
       "merge": {
-        "duplicates": 29704,
+        "duplicates": 29686,
         "pruned": 5551,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Global/Global.yaml",
-      "rules": 29704,
-      "bytes": 962533,
+      "rules": 29732,
+      "bytes": 963528,
       "exceeds_current_core": false,
-      "upstream_last_commit_date": "2026-10-23T21:02:32Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/GlobalMedia/GlobalMedia.list": {
@@ -15177,7 +15177,7 @@
       "template_version": 8
     },
     "rule/Clash/Proxy/Proxy.list": {
-      "input": 6965,
+      "input": 6985,
       "duplicates": 0,
       "no_resolve_removed": 100,
       "skipped": [],
@@ -15188,19 +15188,19 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Proxy/Proxy.yaml",
-      "rules": 6963,
-      "bytes": 216859,
+      "rules": 6983,
+      "bytes": 217483,
       "exceeds_current_core": false,
-      "upstream_last_commit_date": "2026-10-17T20:04:20Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/ProxyLite/ProxyLite.list": {
-      "input": 987,
+      "input": 998,
       "duplicates": 0,
       "no_resolve_removed": 93,
       "skipped": [
         {
-          "line": 885,
+          "line": 896,
           "rule": "DOMAIN-KEYWORD,.pinterest.",
           "reason": "Nodus 关键词仅支持 1–63 位字母数字或短横线"
         }
@@ -15212,10 +15212,10 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/ProxyLite/ProxyLite.yaml",
-      "rules": 986,
-      "bytes": 29841,
+      "rules": 997,
+      "bytes": 30186,
       "exceeds_current_core": false,
-      "upstream_last_commit_date": "2026-10-03T20:34:24Z",
+      "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 8
     },
     "rule/Clash/Pubmatic/Pubmatic.list": {
@@ -19052,8 +19052,8 @@
   },
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-25 18:18 UTC",
-    "next_index": 144,
+    "checked_at": "2026-10-26 02:58 UTC",
+    "next_index": 168,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -23001,6 +23001,657 @@
           "www.led-zeppelin.org",
           "www.logicprohelp.com",
           "www.mandolincafe.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CSDN/CSDN.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "CSDN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.csdn.net/",
+          "https://play.google.com/store/apps/details?id=net.csdn.csdnplus&hl=zh",
+          "https://www.csdn.net/i/",
+          "https://github.com/tamnd/csdn-cli",
+          "https://zhuanlan.zhihu.com/p/30898724519",
+          "https://activity.csdn.net/china_index.html",
+          "https://apps.apple.com/sg/app/csdn-%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%80%85%E7%A4%BE%E5%8C%BA/id1437086352",
+          "https://en.wikipedia.org/wiki/Chinese_Software_Developer_Network",
+          "https://video.dynatrace.com/watch/KidvKikb9ovaTqLFrjF8gZ",
+          "https://www.csdn.net/mobile/"
+        ],
+        "candidates": [
+          "activity.csdn.net",
+          "apps.apple.com",
+          "en.wikipedia.org",
+          "github.com",
+          "play.google.com",
+          "video.dynatrace.com",
+          "www.csdn.net",
+          "zhuanlan.zhihu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CWSeed/CWSeed.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "CWSeed",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.patreon.com/adeepindigo",
+          "https://www.patreon.com/adeepindigo/posts/health-related-84780509",
+          "https://www.patreon.com/adeepindigo/posts/current-status-157009996",
+          "https://www.patreon.com/kiasims/posts/all-mods-i-use-94397197",
+          "https://www.patreon.com/PandasamaSims4/posts/healthy-living-102663074",
+          "https://www.patreon.com/adeepindigo/join",
+          "https://www.patreon.com/adeepindigo/home",
+          "https://www.patreon.com/Amariib/posts/mod-pre-no-sims-121882388",
+          "https://www.patreon.com/collection/409368",
+          "https://www.patreon.com/adeepindigo/posts/kids-and-teen-84780496"
+        ],
+        "candidates": [
+          "a.deep.indigo",
+          "www.patreon.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CableTV/CableTV.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "CableTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://econsent.org/",
+          "https://www.florencehc.com/products/econsent/",
+          "https://www.advarra.com/solutions/sites/econsent/",
+          "https://www.transceleratebiopharmainc.com/assets/econsent-solutions/what-is-econsent/",
+          "https://www.medidata.com/en/patient-experience/consent/",
+          "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/use-electronic-informed-consent-clinical-investigations-questions-and-answers",
+          "https://consenttools.org/econsent/",
+          "https://www.advarra.com/info-sheet/econsent-info-sheet/",
+          "https://sites.veeva.com/solutions/econsent",
+          "https://www.openclinica.com/solutions/econsent/"
+        ],
+        "candidates": [
+          "consenttools.org",
+          "econsent.org",
+          "sites.veeva.com",
+          "www.advarra.com",
+          "www.fda.gov",
+          "www.florencehc.com",
+          "www.medidata.com",
+          "www.openclinica.com",
+          "www.transceleratebiopharmainc.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CaiNiao/CaiNiao.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "CaiNiao",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://global.cainiao.com/",
+          "https://www.cainiao.com/en/index.html",
+          "https://global.cainiao.com/detail.htm",
+          "https://www.17track.net/en/carriers/cainiao",
+          "https://en.m.wikipedia.org/wiki/Cainiao",
+          "https://www.ordertracker.com/carriers/cainiao",
+          "https://www.cainiao.com/en/cainiao-express-web.html",
+          "https://gpn.cainiao.com/home",
+          "https://globalexpress.cainiao.com/br/home",
+          "https://pbc.cainiao.com/hk"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "global.cainiao.com",
+          "globalexpress.cainiao.com",
+          "gpn.cainiao.com",
+          "pbc.cainiao.com",
+          "www.17track.net",
+          "www.cainiao.com",
+          "www.ordertracker.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CaiXinChuanMei/CaiXinChuanMei.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "CaiXinChuanMei",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://danimorgans.com/",
+          "https://danimorgans.com/collections/wrangler-handbag",
+          "https://danimorgans.com/collections/bags-and-accessories",
+          "https://danimorgans.com/products/mystery-handbag-shops-choice-western-wrangler-handbag",
+          "https://danimorgans.com/pages/collab",
+          "https://danimorgans.com/pages/contact",
+          "https://danimorgans.com/products/mother-s-day-western-mystery-bundle-box",
+          "https://danimorgans.com/collections/mrk",
+          "https://danimorgans.com/collections/jeans",
+          "https://danimorgans.com/collections/wallet"
+        ],
+        "candidates": [
+          "danimorgans.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cake/Cake.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "Cake",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.allrecipes.com/recipes/276/desserts/cakes/",
+          "https://www.walmart.com/order-ahead/cake",
+          "https://www.foodnetwork.com/recipes/packages/baking-guide/crowd-pleasing-cakes/crowd-pleasing-cakes",
+          "https://www.allrecipes.com/recipe/17481/simple-white-cake/",
+          "https://www.marthastewart.com/274319/easy-cake-recipes",
+          "https://www.tasteofhome.com/recipes/dishes-beverages/cakes/",
+          "https://www.kroger.com/d/bakery/custom-cakes",
+          "https://www.thepioneerwoman.com/food-cooking/meals-menus/g39178045/cake-recipes-made-from-scratch/",
+          "https://www.wikihow.com/Bake-a-Cake",
+          "https://www.foodnetwork.com/topics/cake"
+        ],
+        "candidates": [
+          "www.allrecipes.com",
+          "www.foodnetwork.com",
+          "www.kroger.com",
+          "www.marthastewart.com",
+          "www.tasteofhome.com",
+          "www.thepioneerwoman.com",
+          "www.walmart.com",
+          "www.wikihow.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Camera360/Camera360.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "Camera360",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.westgateresorts.com/blog/10-cool-meeting-spaces-nyc/",
+          "https://www.westgateresorts.com/hotels/new-york/midtown-manhattan/westgate-new-york-grand-central/accommodations/luxe-one-bedroom-queen-suite/",
+          "https://nycmeetings.westgateresorts.com/order/start?v=0ad04c6f09a1f8fd50f36a12c1ee14eb",
+          "https://webmedia.westgateresorts.com/documents/getDocument?id=51",
+          "https://webmedia.westgateresorts.com/documents/getDocument?id=15403",
+          "https://careers.westgateresorts.com/hotel-jobs-in-kissimmee-florida",
+          "https://book.westgateresorts.com/?chain=19007&hotel=68742&promo=spring&nights=2",
+          "https://book.westgateresorts.com/?chain=19007&hotel=68744&promo=easter&nights=2",
+          "https://checkin.westgateresorts.com/",
+          "https://www.westgateresorts.com/hotels/new-york/midtown-manhattan/westgate-new-york-grand-central/accommodations/luxe-king-suite/"
+        ],
+        "candidates": [
+          "book.westgateresorts.com",
+          "careers.westgateresorts.com",
+          "checkin.westgateresorts.com",
+          "nycmeetings.westgateresorts.com",
+          "webmedia.westgateresorts.com",
+          "www.westgateresorts.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Canon/Canon.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "Canon",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.usa.canon.com/",
+          "https://www.usa.canon.com/support/software-and-drivers",
+          "https://support.usa.canon.com/kb/s/article/ART116480",
+          "https://myprofile.americas.canon.com/us/signin",
+          "https://global.canon/en/index.html",
+          "https://myprofile.americas.canon.com/us/",
+          "https://en.m.wikipedia.org/wiki/Canon_Inc.",
+          "https://www.usa.canon.com/support",
+          "https://www.usa.canon.com/digital-cameras",
+          "https://www.usa.canon.com/printers"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "global.canon",
+          "myprofile.americas.canon.com",
+          "support.usa.canon.com",
+          "www.usa.canon.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChengTongWangPan/ChengTongWangPan.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChengTongWangPan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://forums.superherohype.com/threads/arrowverse-watching-order-2-0.538707/",
+          "https://forums.superherohype.com/threads/worse-villains-suicide-squad-vs-tasm-2.555023/",
+          "https://forums.superherohype.com/threads/james-gunns-suicide-squad-spinoff-%E2%80%98peacemaker%E2%80%99-starring-john-cena-on-hbo-max.554988/",
+          "https://forums.superherohype.com/",
+          "https://forums.superherohype.com/threads/dcs-equivalent-of-nick-fury.491513/",
+          "https://forums.superherohype.com/threads/suicide-squad-fan4stic-or-justice-league-2017-which-is-the-worst-of-the-worst.557187/",
+          "https://forums.superherohype.com/threads/daniela-melchior-as-ratcatcher-2.556704/",
+          "https://forums.superherohype.com/categories/suicide-squad.709/",
+          "https://forums.superherohype.com/threads/ike-barinholtz-is.496875/",
+          "https://forums.superherohype.com/threads/deadshot-off-the-table-according-to-arrow-executive-producer-marc-guggenheim.496267/"
+        ],
+        "candidates": [
+          "forums.superherohype.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "China/China.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "China",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/China",
+          "https://www.britannica.com/place/China",
+          "https://www.worldatlas.com/maps/china",
+          "https://www.reuters.com/world/china/",
+          "https://theworldfactbook.org/country/china.html",
+          "https://www.scmp.com/news/china",
+          "https://en.wikipedia.org/wiki/History_of_China",
+          "https://www.britannica.com/place/China/State-and-society",
+          "https://www.countryreports.org/country/China",
+          "https://www.bbc.com/news/world/asia/china"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "reuters.com",
+          "theworldfactbook.org",
+          "www.bbc.com",
+          "www.britannica.com",
+          "www.countryreports.org",
+          "www.reuters.com",
+          "www.scmp.com",
+          "www.worldatlas.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaDNS/ChinaDNS.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaDNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://zhidao.baidu.com/html/map/page.html?newmap=1",
+          "https://www.zhihu.com/?lang=zh-Hant",
+          "https://www.zhihu.com/question/2078938974714971101",
+          "https://zhidao.baidu.com/question/2148111130475491468.html",
+          "https://www.zhihu.com/question/2084200588892451205",
+          "https://www.zhihu.com/tardis/zm/art/217881116",
+          "https://zhidao.baidu.com/question/2215092517512942108.html",
+          "https://www.zhihu.com/question/2010457368983527567",
+          "https://www.zhihu.com/question/21647068",
+          "https://www.zhihu.com/tardis/zm/art/376305519"
+        ],
+        "candidates": [
+          "126.com",
+          "boylove6.xyz",
+          "boyloves.space",
+          "quark.browser.mi.com",
+          "www.boylovee.cn",
+          "www.boylovee.hk",
+          "www.jste.net.cn",
+          "www.zhihu.com",
+          "zhidao.baidu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaIPs/ChinaIPs.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaIPs",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://obsproject.com/forum/resources/atem-mini-and-obs.905/",
+          "https://obsproject.com/welcome",
+          "https://obsproject.com/",
+          "https://obsproject.com/cs/download",
+          "https://obsproject.com/forum/threads/scoreboard-windows-macos.23296/",
+          "https://obsproject.com/forum/threads/doubled-audio.108667/",
+          "https://obsproject.com/forum/threads/hints-or-proof-of-recording-microsoft-teams-meeting-without-permission.161951/",
+          "https://obsproject.com/forum/resources/input-overlay.552/",
+          "https://obsproject.com/download",
+          "https://obsproject.com/forum/resources/datetime-digital-clock.882/"
+        ],
+        "candidates": [
+          "obsproject.com",
+          "os.date"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaIPs/ChinaIPsTest/ChinaIPsTest.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaIPsTest",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://support.google.com/youtubetv/?hl=en",
+          "https://support.google.com/youtube/answer/12466883?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://obsproject.com/forum/resources/youtube-chat-transparent-background-solely-css.486/",
+          "https://obsproject.com/forum/tags/youtube/",
+          "https://support.google.com/youtube/answer/6083634?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtube/answer/10801543?hl=en",
+          "https://support.google.com/youtube/answer/161805?hl=tr&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtube/answer/13887963?hl=en",
+          "https://support.google.com/youtube/answer/16758081?hl=en-GB",
+          "https://obsproject.com/forum/resources/speechchat-for-twitch-youtube-mixer-etc.372/"
+        ],
+        "candidates": [
+          "obsproject.com",
+          "support.google.com",
+          "www.speechchat.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaIPsBGP/ChinaIPsBGP.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaIPsBGP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Gun_control",
+          "https://www.justice.gov/doj/reducing-gun-violence",
+          "https://uslawexplained.com/gun_control",
+          "https://www.britannica.com/story/gun-control-in-the-us",
+          "https://gunresponsibility.org/",
+          "https://www.pewresearch.org/short-reads/2024/07/24/key-facts-about-americans-and-guns/",
+          "https://kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/regional-gun-violence-prevention/guide",
+          "https://www.britannica.com/technology/gun-control",
+          "https://en.wikipedia.org/wiki/Gun_laws_in_Washington_(state)",
+          "https://www.atg.wa.gov/firearms"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "gunresponsibility.org",
+          "kingcounty.gov",
+          "uslawexplained.com",
+          "www.atg.wa.gov",
+          "www.britannica.com",
+          "www.justice.gov",
+          "www.pewresearch.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMax/ChinaMax.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaMax",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Die_Hard_(franchise)",
+          "https://en.wikipedia.org/wiki/Die_Hard",
+          "https://www.imdb.com/news/ni63707335/",
+          "https://www.imdb.com/list/ls523834899/",
+          "https://diehard.fandom.com/wiki/Die_Hard_film_series",
+          "https://collider.com/how-to-watch-die-hard-movies-in-order/",
+          "https://movieweb.com/die-hard-movies-how-to-watch-in-order/",
+          "https://fictionhorizon.com/all-die-hard-movies-ranked/",
+          "https://editorial.rottentomatoes.com/guide/all-die-hard-movies-ranked/",
+          "https://www.themoviedb.org/collection/1570-die-hard-collection"
+        ],
+        "candidates": [
+          "collider.com",
+          "diehard.fandom.com",
+          "editorial.rottentomatoes.com",
+          "en.wikipedia.org",
+          "fictionhorizon.com",
+          "movieweb.com",
+          "www.imdb.com",
+          "www.themoviedb.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMaxNoIP/ChinaMaxNoIP.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaMaxNoIP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nytimes.com/games/wordle/index.html",
+          "https://nyt-wordle-app.vercel.app/",
+          "https://www.wordle.name/",
+          "https://www.nytimeswordle.co.uk/game/index.html",
+          "https://www.tomsguide.com/news/what-is-todays-wordle-answer",
+          "https://wordler.org/",
+          "https://wordle.today/unlimited",
+          "https://wordle.ucm.dev/",
+          "https://www.wordle.ie/unlimited/",
+          "https://mashable.com/category/wordle"
+        ],
+        "candidates": [
+          "mashable.com",
+          "nyt-wordle-app.vercel.app",
+          "wordle.ie",
+          "wordle.today",
+          "wordle.ucm.dev",
+          "wordler.org",
+          "www.nytimes.com",
+          "www.nytimeswordle.co.uk",
+          "www.tomsguide.com",
+          "www.wordle.ie",
+          "www.wordle.name"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMaxNoMedia/ChinaMaxNoMedia.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaMaxNoMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://accounts.pointclickcare.com/",
+          "https://pointclickcare.com/login/",
+          "https://pointclickcare--cpdmckeown.sandbox.my.site.com/login?locale=us",
+          "https://www21.pointclickcare.com/poc/userLogin.xhtml",
+          "https://pointclickcare.com/",
+          "https://login.pointclickcare.com/pulse/userLogin.xhtml",
+          "https://www26.pointclickcare.com/emar/userLogin.xhtml",
+          "https://pointclickcare.com/pcc-login-customer-support-resources/",
+          "https://secure.collectivemedical.com/",
+          "https://pointclickcare.com/products/skilled-nursing-platform/"
+        ],
+        "candidates": [
+          "accounts.pointclickcare.com",
+          "login.pointclickcare.com",
+          "pcc.release.version",
+          "pointclickcare--cpdmckeown.sandbox.my.site.com",
+          "pointclickcare.com",
+          "secure.collectivemedical.com",
+          "www21.pointclickcare.com",
+          "www26.pointclickcare.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMedia/ChinaMedia.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.mulligansig.com/",
+          "https://www.mulligansig.com/book-online",
+          "https://mulligansgolfcompany.com/",
+          "https://www.golfnow.com/courses/-7500-mulligans-indoor-golf-details",
+          "https://www.yelp.com/biz/mulligans-indoor-golf-bertram",
+          "https://mulligansindoorgolf.net/",
+          "https://mulligansindoor.com/",
+          "https://thegolfsimlist.com/texas/austin/mulligans-indoor-golf-austin",
+          "https://www.mulligansgolfal.com/",
+          "https://communityimpact.com/austin/leander-liberty-hill/business/2024/01/05/indoor-golf-simulator-lounge-now-open-in-bertram/"
+        ],
+        "candidates": [
+          "communityimpact.com",
+          "mulligansgolfcompany.com",
+          "mulligansindoor.com",
+          "mulligansindoorgolf.net",
+          "thegolfsimlist.com",
+          "www.golfnow.com",
+          "www.mulligansgolfal.com",
+          "www.mulligansig.com",
+          "www.yelp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMobile/ChinaMobile.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaMobile",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://support.google.com/earth/answer/148089?hl=pt-BR",
+          "https://support.google.com/earth/answer/21955?hl=en",
+          "https://www.reddit.com/r/Phobia/comments/nf3823/strange_fear_of_google_earth/",
+          "https://www.reddit.com/r/gis/comments/lczuab/how_accurate_is_google_earth_elevation/",
+          "https://support.google.com/earth/answer/168344?hl=en",
+          "https://support.google.com/earth/answer/21955?hl=vi",
+          "https://support.google.com/earth/answer/168344?hl=it",
+          "https://support.google.com/earth/answer/148134?hl=id",
+          "https://support.google.com/earth/answer/21955?hl=el",
+          "https://support.google.com/earth/answer/168344?hl=ja"
+        ],
+        "candidates": [
+          "support.google.com",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaNews/ChinaNews.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaNews",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://time.is/Russia",
+          "https://24timezones.com/Russia/time",
+          "https://www.worldtimenow.net/time/moscow/",
+          "https://time.now/countries/russia/",
+          "https://www.timeanddate.com/worldclock/russia/moscow",
+          "https://24timezones.com/Moscow/time",
+          "https://www.thetimenow.com/russia/moscow/",
+          "https://www.timeanddate.com/worldclock/russia",
+          "https://nowwhattime.com/russia",
+          "https://en.m.wikipedia.org/wiki/Time_in_Russia"
+        ],
+        "candidates": [
+          "24timezones.com",
+          "en.m.wikipedia.org",
+          "nowwhattime.com",
+          "time.is",
+          "time.now",
+          "timeanddate.com",
+          "www.thetimenow.com",
+          "www.timeanddate.com",
+          "www.worldtimenow.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaNoMedia/ChinaNoMedia.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaNoMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.linkedin.com/in/ejtucker1",
+          "https://www.usafa.edu/facultyprofile/?smid=10927",
+          "https://www.highergov.com/people/eric-dot-tucker-dot-10-us-dot-af-dot-mil/",
+          "https://www.linkedin.com/posts/afvet-eric-tucker_smsgt-eric-s-tucker-usaf-retired-activity-7490008930245431296-9Jas",
+          "https://en.m.wikipedia.org/wiki/Eric_James_Tucker",
+          "https://www.usafa.edu/former-navigator-guides-cadets-on-path-to-success/",
+          "https://honourpoint.in/profile/capt-eric-james-tucker-ac-2/",
+          "https://www.dvidshub.net/image/8304960/luke-days-2024-day-1",
+          "https://notablepeopleproject.org/eric_james_tucker",
+          "https://www.militarytimes.com/news/your-military/2020/05/18/official-fbi-finds-link-between-pensacola-gunman-al-qaida/"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "highergov.com",
+          "honourpoint.in",
+          "notablepeopleproject.org",
+          "www.dvidshub.net",
+          "www.highergov.com",
+          "www.linkedin.com",
+          "www.militarytimes.com",
+          "www.usafa.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaTelecom/ChinaTelecom.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaTelecom",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://blc.edu/academics/library/",
+          "https://blc.edu/about/directory/faculty-staff/",
+          "https://blc.edu/academics/registrar/academic-catalog/",
+          "https://blc.edu/campus-life/campus-services/human-resources/bethany-jobs/",
+          "https://blc.edu/academics/courses/",
+          "https://blc.edu/admissions/accepted-students/student-checklists/",
+          "https://blc.edu/hub/",
+          "https://blc.edu/",
+          "https://blc.edu/about/campus-maps/",
+          "https://blc.edu/about/directory/"
+        ],
+        "candidates": [
+          "blc.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaTest/ChinaTest.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaTest",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://oldlineoutfitters.shop/",
+          "https://oldcedaroutfitters.com/",
+          "https://oeoutfitters.com/contact-us",
+          "https://www.ebay.com/str/oldtreeoutfitter",
+          "https://oldmountainoutfitters.com/",
+          "https://www.oldskooloutfitter.com/",
+          "https://oldworldoutfitters.com/",
+          "https://www.oldschoolhunts.com/services",
+          "https://oldlineoutfitters.shop/collections/all"
+        ],
+        "candidates": [
+          "oeoutfitters.com",
+          "oldcedaroutfitters.com",
+          "oldlineoutfitters.shop",
+          "oldmountainoutfitters.com",
+          "oldworldoutfitters.com",
+          "www.ebay.com",
+          "www.oldmainoutfitters.com",
+          "www.oldschoolhunts.com",
+          "www.oldskooloutfitter.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaUnicom/ChinaUnicom.list": {
+        "checked_at": "2026-10-26 02:58 UTC",
+        "name": "ChinaUnicom",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://tjmaxx.tjx.com/store/index.jsp",
+          "https://www.fox61.com/article/news/local/fairfield-county/stamford-man-charged-in-scheme-to-steal-alter-and-cash-more-than-100-us-treasury-checks/520-4dbd28b7-2439-4a52-a505-3a00affa0edd",
+          "https://www.fox61.com/article/news/crime/police-arrest-ny-man-after-finding-hundreds-of-whippets-kilo-of-marijuana-at-ct-cigar-shop/520-ca77c544-f9ea-48ec-a04e-6dfb3c97cc55",
+          "https://www.fox61.com/article/news/local/new-haven-county/meriden/new-path-forward-meriden-set-to-open-nearly-25-mile-linear-trail/520-0d838975-4ffb-469c-b7db-9717c85ba2d2",
+          "https://www.fox61.com/article/news/crime/manchester-man-sentenced-to-years-in-federal-prison-after-fbi-uncovers-drug-and-gun-operation-linked-to-new-britain-car-dealership/520-4e91fd6b-c203-4941-9be0-e1467e11046f",
+          "https://www.fox61.com/article/news/local/drivers-frustrated-route-8-construction/520-ca783d93-f0f3-4277-9106-39386f6afb3d",
+          "https://www.fox61.com/article/news/local/hartford-county/hartford/family-calls-for-action-after-fatal-domestic-violence-shooting-hartford/520-6446b6f6-06da-41aa-9ecf-8585497c468c",
+          "https://www.fox61.com/article/news/crime/west-haven-man-sentenced-55-years-for-killing-lindsey-hopkins-in-guilford/520-1ebc06ed-e747-4d90-84d3-33944dfe708b",
+          "https://www.fox61.com/article/news/local/new-haven-county/milford/milford-ct-launches-speed-cameras-and-30-day-warning-period/520-5925d7a7-c1a9-43e3-9f53-cea8671caff7",
+          "https://www.fox61.com/article/news/crime/east-hartford-woman-accused-of-stealing-from-ct-medicaid-by-submitting-false-time-sheets/520-3a7376c4-c563-49fa-8f76-0cfc83540be2"
+        ],
+        "candidates": [
+          "fox61.com",
+          "tjmaxx.tjx.com",
+          "www.fox61.com"
         ],
         "accepted": [],
         "ownership_evidence": []

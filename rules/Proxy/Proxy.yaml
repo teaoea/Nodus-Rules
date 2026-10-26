@@ -1,8 +1,8 @@
 # 名称：Proxy
-# 来源核对日期：2026-10-25 18:01 UTC
-# 规则总数：6963
+# 来源核对日期：2026-10-26 02:58 UTC
+# 规则总数：6983
 # domain: 9
-# domain-suffix: 6828
+# domain-suffix: 6848
 # domain-keyword: 26
 # ip-cidr: 100
 # geoip: 0
@@ -6846,6 +6846,26 @@ rules:
   - domain-suffix,zzcartoon.com
   - domain-suffix,zzcloud.me
   - domain-suffix,zzux.com
+  - domain-suffix,123av.org
+  - domain-suffix,bidobido.xyz
+  - domain-suffix,bikaios.xyz
+  - domain-suffix,bikawebapp.com
+  - domain-suffix,console.typesafe.ai
+  - domain-suffix,diwodiwo.xyz
+  - domain-suffix,ga.jspm.io
+  - domain-suffix,huakacomic.com
+  - domain-suffix,kimootoko.net
+  - domain-suffix,manhuabika.com
+  - domain-suffix,minkch.com
+  - domain-suffix,movie.eroterest.net
+  - domain-suffix,njav.com
+  - domain-suffix,njav.tv
+  - domain-suffix,njavtv.com
+  - domain-suffix,pica-id.com
+  - domain-suffix,po-kaki-to.com
+  - domain-suffix,tipatipa.xyz
+  - domain-suffix,wikawika.xyz
+  - domain-suffix,zozovideo.com
   - domain-keyword,1drv
   - domain-keyword,1e100
   - domain-keyword,abema

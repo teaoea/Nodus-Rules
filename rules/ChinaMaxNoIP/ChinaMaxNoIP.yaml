@@ -1,8 +1,8 @@
 # 名称：ChinaMaxNoIP
-# 来源核对日期：2026-10-25 18:01 UTC
-# 规则总数：110432
-# domain: 269
-# domain-suffix: 110151
+# 来源核对日期：2026-10-26 02:58 UTC
+# 规则总数：110464
+# domain: 270
+# domain-suffix: 110182
 # domain-keyword: 12
 # ip-cidr: 0
 # geoip: 0
@@ -278,6 +278,7 @@ rules:
   - domain,zuikzy.win7i.com
   - domain,zzlive.zzc-media.com
   - domain,zzq12345.gearhostpreview.com
+  - domain,l2.weihai.tv
   - domain-suffix,0.zone
   - domain-suffix,00.net
   - domain-suffix,000.link
@@ -110429,6 +110430,37 @@ rules:
   - domain-suffix,zzzyyy.com
   - domain-suffix,zzzzaaaa.com
   - domain-suffix,zzzzzz.me
+  - domain-suffix,00kxs.com
+  - domain-suffix,advance.ai
+  - domain-suffix,auditoryworks.co
+  - domain-suffix,bhgcdn.com
+  - domain-suffix,bqpwlw.com
+  - domain-suffix,cdrcbank.com
+  - domain-suffix,cqyyxc.com
+  - domain-suffix,croakfang.fun
+  - domain-suffix,deeepseek.net
+  - domain-suffix,digitalmall.uk
+  - domain-suffix,gzxiancheng.com
+  - domain-suffix,hmhpay.com
+  - domain-suffix,ibangbank.com
+  - domain-suffix,isigning.com
+  - domain-suffix,jkik635.com
+  - domain-suffix,kehua.com
+  - domain-suffix,kiko-play-niptan.one
+  - domain-suffix,liechacha.com
+  - domain-suffix,luciabid.com
+  - domain-suffix,mediext.com
+  - domain-suffix,mos0039.com
+  - domain-suffix,nanocorechip.com
+  - domain-suffix,onesec.net
+  - domain-suffix,qilongnianzsq.com
+  - domain-suffix,securityhg.com
+  - domain-suffix,sysy.fun
+  - domain-suffix,tongwenads.com
+  - domain-suffix,unimcom.com
+  - domain-suffix,uniminnovation.com
+  - domain-suffix,ycbeyond.com
+  - domain-suffix,yuanmancang.com
   - domain-keyword,alicdn
   - domain-keyword,alipay
   - domain-keyword,aliyun

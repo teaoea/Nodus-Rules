@@ -1,8 +1,8 @@
 # 名称：Global
-# 来源核对日期：2026-10-25 18:01 UTC
-# 规则总数：29704
+# 来源核对日期：2026-10-26 02:58 UTC
+# 规则总数：29732
 # domain: 127
-# domain-suffix: 29423
+# domain-suffix: 29451
 # domain-keyword: 35
 # ip-cidr: 119
 # geoip: 0
@@ -29559,6 +29559,34 @@ rules:
   - domain-suffix,zzitube.com
   - domain-suffix,zzux.com
   - domain-suffix,zzycdz.com
+  - domain-suffix,1password.dev
+  - domain-suffix,cdpred.services
+  - domain-suffix,cdprojekt.com
+  - domain-suffix,cdprojekt.red
+  - domain-suffix,cdprojektred.com
+  - domain-suffix,cyberpunk.net
+  - domain-suffix,playgwent.com
+  - domain-suffix,thewitcher.com
+  - domain-suffix,xn--fiq80y.hk
+  - domain-suffix,xn--fiq80y.xn--j6w193g
+  - domain-suffix,xn--fiq80y3xbiwr.hk
+  - domain-suffix,xn--fiq80y3xbiwr.xn--j6w193g
+  - domain-suffix,xn--fiq80y3xbiwrs0kiu9d.hk
+  - domain-suffix,xn--fiq80y3xbiwrs0kiu9d.xn--j6w193g
+  - domain-suffix,xn--pssu7ci3q5oge0ai91q.xn--j6w193g
+  - domain-suffix,xn--pssu7cz8nr8ibkx1e8a.xn--j6w193g
+  - domain-suffix,123av.org
+  - domain-suffix,bidobido.xyz
+  - domain-suffix,bikawebapp.com
+  - domain-suffix,ga.jspm.io
+  - domain-suffix,huakacomic.com
+  - domain-suffix,kimootoko.net
+  - domain-suffix,minkch.com
+  - domain-suffix,njav.com
+  - domain-suffix,pica-id.com
+  - domain-suffix,po-kaki-to.com
+  - domain-suffix,tipatipa.xyz
+  - domain-suffix,zozovideo.com
   - domain-keyword,1drv
   - domain-keyword,1e100
   - domain-keyword,abema
