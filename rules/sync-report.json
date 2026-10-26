@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "9b29c945b9164a02c7018ed333cb9b5bc1bcb417",
-  "date": "2026-10-26 02:58 UTC",
+  "date": "2026-10-26 18:09 UTC",
   "collections": {
     "rule/Clash/115/115.list": {
       "input": 10,
@@ -8737,14 +8737,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 6,
+        "duplicates": 12,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Claude/Claude.yaml",
-      "rules": 9,
-      "bytes": 503,
+      "rules": 15,
+      "bytes": 667,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 8
@@ -19052,8 +19052,8 @@
   },
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-26 02:58 UTC",
-    "next_index": 168,
+    "checked_at": "2026-10-26 18:09 UTC",
+    "next_index": 192,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -23652,6 +23652,691 @@
           "fox61.com",
           "tjmaxx.tjx.com",
           "www.fox61.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Chromecast/Chromecast.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "Chromecast",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.google.com/cast/setup/",
+          "https://www.google.com/cast/chromecast/home",
+          "https://www.amazon.com/chromecast/s?k=chromecast",
+          "https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&st=Chromecast",
+          "https://support.google.com/chromecast/answer/3228332?hl=en",
+          "https://en.wikipedia.org/wiki/Chromecast",
+          "https://www.amazon.com/clp/B015UKRNGS",
+          "https://www.walmart.com/browse/electronics/google-chromecast/3944_77622_7549938_1229631_3314258",
+          "https://www.bestbuy.com/site/streaming-media-devices/google-chromecast/pcmcat748301684651.c?id=pcmcat748301684651",
+          "https://support.google.com/chromecast/?hl=en"
+        ],
+        "candidates": [
+          "amazon.com",
+          "chromecast.com",
+          "en.wikipedia.org",
+          "support.google.com",
+          "walmart.com",
+          "www.amazon.com",
+          "www.bestbuy.com",
+          "www.google.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChuangKeTie/ChuangKeTie.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "ChuangKeTie",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.iheart.com/",
+          "https://www.iheart.com/live/",
+          "https://www.iheartmedia.com/digital",
+          "https://www.iheart.com/your-library/",
+          "https://www.iheart.com/for-you/",
+          "https://www.iheart.com/podcast/",
+          "https://www.iheart.com/content/welcome-to-iheartradio/",
+          "https://www.iheartradio.ca/en",
+          "https://iheartradio.mx/",
+          "https://news.iheart.com/apps/"
+        ],
+        "candidates": [
+          "iheartradio.mx",
+          "news.iheart.com",
+          "www.iheart.com",
+          "www.iheartmedia.com",
+          "www.iheartradio.ca"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChunYou/ChunYou.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "ChunYou",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://games.gg/runescape-dragonwilds/guides/runescape-dragonwilds-law-runes/",
+          "https://fandomwire.com/runescape-dragonwilds-law-rune-locations-how-to-get/",
+          "https://gamers.wiki/en/games/runescape-dragonwilds/guides/runescape-dragonwilds-runecrafting-law-runes-vents",
+          "https://mapgenie.io/runescape-dragonwilds",
+          "https://dragonwildshq.wiki/guides/law-runes/",
+          "https://dragonwildscodex.com/map/",
+          "https://www.youtube.com/watch?v=DqjqSESuaLA",
+          "https://dragonwilds.runescape.wiki/w/Law_Rune",
+          "https://www.dragonwildswiki.wiki/materials/Dragonwilds-law-runes",
+          "https://howtovideogame.com/runescape-dragonwilds-law-runes/"
+        ],
+        "candidates": [
+          "dragonwilds.runescape.wiki",
+          "dragonwildscodex.com",
+          "dragonwildshq.wiki",
+          "fandomwire.com",
+          "gamers.wiki",
+          "games.gg",
+          "howtovideogame.com",
+          "mapgenie.io",
+          "www.dragonwildswiki.wiki",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cisco/Cisco.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "Cisco",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cisco.com/",
+          "https://www.netacad.com/",
+          "https://www.cisco.com/site/us/en/about/index.html",
+          "https://careers.cisco.com/global/en/home",
+          "https://careers.cisco.com/global/en/search-results",
+          "https://en.wikipedia.org/wiki/Cisco",
+          "https://www.netacad.com/login",
+          "https://apps.cisco.com/ccw/cpc/guest/catalog/home",
+          "https://id.cisco.com/ui/v1.0/profile-ui",
+          "https://learningnetwork.cisco.com/s/"
+        ],
+        "candidates": [
+          "apps.cisco.com",
+          "careers.cisco.com",
+          "en.wikipedia.org",
+          "id.cisco.com",
+          "learningnetwork.cisco.com",
+          "www.cisco.com",
+          "www.netacad.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Civitai/Civitai.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "Civitai",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://civitai.com/",
+          "https://civitai.com/models",
+          "https://civitai.red/models/827184/wai-illustrious-sdxl",
+          "https://civitai.red/bounties",
+          "https://en.wikipedia.org/wiki/Civitai",
+          "https://huggingface.co/Civitai",
+          "https://github.com/civitai/civitai",
+          "https://civitai.com/images",
+          "https://civitai.com/ecosystems",
+          "https://civitaiarchive.com/about"
+        ],
+        "candidates": [
+          "civitai.com",
+          "civitai.red",
+          "civitaiarchive.com",
+          "en.wikipedia.org",
+          "github.com",
+          "huggingface.co",
+          "next.js"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Classic/Classic.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "Classic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.classic.com/",
+          "https://www.merriam-webster.com/dictionary/classic",
+          "https://www.classic.com/search",
+          "https://www.streetsideclassics.com/locations/houston",
+          "https://classics.autotrader.com/classic-cars-for-sale/for-sale-in-Houston-Texas-77001",
+          "https://classics.autotrader.com/",
+          "https://en.m.wikipedia.org/wiki/Classic",
+          "https://www.gatewayclassiccars.com/",
+          "https://classicofhouston.com/",
+          "https://www.gatewayclassiccars.com/vehicles/filters/showroom/houston"
+        ],
+        "candidates": [
+          "classic.com",
+          "classicofhouston.com",
+          "classics.autotrader.com",
+          "en.m.wikipedia.org",
+          "www.classic.com",
+          "www.gatewayclassiccars.com",
+          "www.merriam-webster.com",
+          "www.streetsideclassics.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Claude/Claude.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "Claude",
+        "status": "checked",
+        "sources": [
+          "https://claude.com/",
+          "https://claude.ai/",
+          "https://claude.com/download",
+          "https://platform.claude.com/login",
+          "https://www.anthropic.com/",
+          "https://en.wikipedia.org/wiki/Claude_(AI)",
+          "https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account",
+          "https://support.claude.com/en/articles/10065433-install-claude-desktop",
+          "https://academy.claude.com/courses/claude-101",
+          "https://claude.com/product/overview"
+        ],
+        "candidates": [
+          "academy.claude.com",
+          "claude.ai",
+          "claude.com",
+          "en.wikipedia.org",
+          "platform.claude.com",
+          "support.claude.com",
+          "www.anthropic.com"
+        ],
+        "accepted": [
+          "academy.claude.com",
+          "claude.ai",
+          "claude.com",
+          "platform.claude.com",
+          "support.claude.com",
+          "www.anthropic.com"
+        ],
+        "ownership_evidence": [
+          "https://code.claude.com/docs/en/network-config",
+          "https://code.claude.com/docs/en/desktop#network-access-requirements",
+          "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Claude/Claude.list"
+        ]
+      },
+      "Cloud/360Cloud/360Cloud.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "360Cloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.capitalone.com/",
+          "https://verified.capitalone.com/auth/signin",
+          "https://www.capitalone.com/creditwise/",
+          "https://clientview.capitalone.com/login",
+          "https://ecm.capitalone.com/WCM/bank/pdfs/360-checking-pew.pdf",
+          "https://clientview.capitalone.com/redirect?path=/",
+          "https://menards.capitalone.com/",
+          "https://applicationcenter.capitalone.com/",
+          "https://estates.capitalone.com/",
+          "https://verified.capitalone.com/sign-in-help/pii"
+        ],
+        "candidates": [
+          "applicationcenter.capitalone.com",
+          "clientview.capitalone.com",
+          "ecm.capitalone.com",
+          "estates.capitalone.com",
+          "menards.capitalone.com",
+          "verified.capitalone.com",
+          "www.capitalone.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/AkamaiCloud/AkamaiCloud.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "AkamaiCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.healthline.com/health/pins-and-needles-all-over-body",
+          "https://my.clevelandclinic.org/health/symptoms/24932-paresthesia",
+          "https://respectcaregivers.org/what-causes-pins-and-needles-all-over-the-body/",
+          "https://scienceinsights.org/why-do-i-feel-pins-and-needles-all-over-my-body/",
+          "https://sensationinfo.com/pins-and-needles/pins-needles-all-over-body-causes/",
+          "https://scienceinsights.org/what-causes-pins-and-needles-all-over-your-body/",
+          "https://ubiehealth.com/doctors-note/pins-and-needles-body-solutions",
+          "https://ubiehealth.com/doctors-note/alleviate-pins-needles-body",
+          "https://int.livhospital.com/why-do-i-feel-pins-and-needles-all-over-my-body/",
+          "https://www.webmd.com/brain/paresthesia-facts"
+        ],
+        "candidates": [
+          "int.livhospital.com",
+          "my.clevelandclinic.org",
+          "respectcaregivers.org",
+          "scienceinsights.org",
+          "sensationinfo.com",
+          "ubiehealth.com",
+          "www.healthline.com",
+          "www.webmd.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/AmazonCloud/AmazonCloud.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "AmazonCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://kvcc.edu/",
+          "https://www.kvcc.edu/foundation/",
+          "https://careertraining.kvcc.edu/training-programs/medical-billing-coding-voucher-included/",
+          "https://www.athletics.kvcc.edu/sports/wbkb/index",
+          "https://athletics.kvcc.edu/sports/bsb/index",
+          "https://archives.kvcc.edu/",
+          "https://careertraining.kvcc.edu/training-programs/veterinary-assistant/",
+          "https://valleyhub.kvcc.edu/",
+          "https://signin.kvcc.edu/",
+          "https://branding.kvcc.edu/"
+        ],
+        "candidates": [
+          "archives.kvcc.edu",
+          "athletics.kvcc.edu",
+          "branding.kvcc.edu",
+          "careertraining.kvcc.edu",
+          "kvcc.edu",
+          "signin.kvcc.edu",
+          "valleyhub.kvcc.edu",
+          "www.athletics.kvcc.edu",
+          "www.kvcc.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/BaiduCloud/BaiduCloud.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "BaiduCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://mattersofthenigerianbar.blogspot.com/2026/08/we-did-introduction-is-not-legal.html",
+          "https://asoebiassist.com/blog/nigerian-introduction-ceremony-explained",
+          "https://naijaglamwedding.com/nigerian-marriage-introduction-overview/",
+          "https://thenigerialawyer.com/marriage-under-nigerian-law-customary-marriage-statutory-marriage-validity-and-succession/",
+          "https://www.voiceyourstories.com/introduction-is-not-marriage-it-is-just-a-declaration-of-intention/",
+          "https://marriageinnigeria.ng/nigerian-wedding-traditions/",
+          "https://www.weddingkart.co/wedding-glossary/nigerian-wedding-introduction",
+          "https://the-weddingplanner.com/nigerian-wedding-traditions/",
+          "https://marriageinnigeria.ng/legal-vs-traditional-marriage/",
+          "https://www.nairaland.com/8665776/introduction-not-marriage-it-just/1"
+        ],
+        "candidates": [
+          "asoebiassist.com",
+          "marriageinnigeria.ng",
+          "mattersofthenigerianbar.blogspot.com",
+          "naijaglamwedding.com",
+          "the-weddingplanner.com",
+          "thenigerialawyer.com",
+          "www.nairaland.com",
+          "www.voiceyourstories.com",
+          "www.weddingkart.co"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/CloudCN/CloudCN.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "CloudCN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://bokephot.net/categories/indonesia/",
+          "https://aiobokep.com/",
+          "https://kingbokep.tv/",
+          "https://www.pasarbokep.co/category/bokep-indo",
+          "https://bokeptoket.app/",
+          "https://ruangbokep.co/bokep-indo/",
+          "https://bokepindoh.markets/category/bokep-indo/",
+          "https://ruangbokep.co/",
+          "https://bokeplik.com/category/bokep-indo/",
+          "https://bokepindoh.xxx/category/indonesia/"
+        ],
+        "candidates": [
+          "aiobokep.com",
+          "bokephot.net",
+          "bokepindoh.markets",
+          "bokepindoh.xxx",
+          "bokeplik.com",
+          "bokeptoket.app",
+          "kingbokep.tv",
+          "ruangbokep.co",
+          "www.pasarbokep.co"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/CloudGlobal/CloudGlobal.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "CloudGlobal",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://play.google.com/store/apps/details?id=com.google.android.apps.labs.whisk&hl=en-US",
+          "https://labs.google/flow/tv/channel/follow-me",
+          "https://floow.net/login",
+          "https://labs.google/flow/tv",
+          "https://app.thefloow.ai/",
+          "https://www.thefloow.com/",
+          "https://floow.ai/",
+          "https://www.thefloow.ai/",
+          "https://www.thefloow.com/about-us/",
+          "https://www.floowvideos.com/"
+        ],
+        "candidates": [
+          "app.thefloow.ai",
+          "floow.ai",
+          "floow.net",
+          "labs.google",
+          "play.google.com",
+          "www.floowvideos.com",
+          "www.thefloow.ai",
+          "www.thefloow.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/HiNet/HiNet.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "HiNet",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.researchgate.net/figure/Description-of-success-dimensions-for-various-project-types_tbl3_223330802",
+          "https://www.pmi.org/learning/library/2019/04/07/15/19/mapping-dimensions-project-success-5378",
+          "https://www.wcu.edu/pmi/1998/J97JUN05.PDF",
+          "https://www.sciencedirect.com/science/article/pii/S0024630101000978",
+          "https://www.pmi.org/learning/library/defining-project-success-multilevel-framework-7096",
+          "https://www.4pmti.com/learn/project-success-criteria/",
+          "https://www.scribd.com/document/945530795/24-Mapping-the-Dimensions-of-Project-Success",
+          "https://www.6sigma.us/project-management/project-success-criteria/",
+          "https://www.academia.edu/figures/13566424/table-7-importance-of-success-dimensions-for-various-project"
+        ],
+        "candidates": [
+          "www.4pmti.com",
+          "www.6sigma.us",
+          "www.academia.edu",
+          "www.maxwideman.com",
+          "www.pmi.org",
+          "www.researchgate.net",
+          "www.sciencedirect.com",
+          "www.scribd.com",
+          "www.wcu.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/HuaweiCloud/HuaweiCloud.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "HuaweiCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.spirithoteles.com/en/",
+          "https://www.spirithoteles.com/",
+          "https://spiritmountain.com/hotel/",
+          "https://www.spirit-hospitality.com/en/",
+          "https://www.easyjet.com/en/holidays/spain/costa-del-sol/benalmadena/spirit-hotel-benalmadena-beach",
+          "https://www.jet2holidays.com/spain/costa-del-sol/benalmadena/spirit-hotel-benalmadena-beach",
+          "https://spirithotel.hu/",
+          "https://www.spirithoteles.com/en/about-us/",
+          "https://www.spirithoteles.com/en/sale/"
+        ],
+        "candidates": [
+          "spirithotel.hu",
+          "spiritmountain.com",
+          "www.easyjet.com",
+          "www.jet2holidays.com",
+          "www.spirit-hospitality.com",
+          "www.spirithoteles.com",
+          "www.spirithotels.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/JingDongCloud/JingDongCloud.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "JingDongCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dollargeneral.com/c/home/home-decor",
+          "https://www.dollargeneral.com/c/pet",
+          "https://investor.dollargeneral.com/financials-sec-filings/annual-reports",
+          "https://careers.dollargeneral.com/culture/",
+          "https://coupons.dollargeneral.com/coupon/",
+          "https://investor.dollargeneral.com/financials-sec-filings/sec-filings",
+          "https://careers.dollargeneral.com/retail/",
+          "https://newscenter.dollargeneral.com/",
+          "https://www.dollargeneral.com/c/baby",
+          "https://www.dollargeneral.com/c/food-beverage/frozen-food"
+        ],
+        "candidates": [
+          "careers.dollargeneral.com",
+          "coupons.dollargeneral.com",
+          "investor.dollargeneral.com",
+          "newscenter.dollargeneral.com",
+          "www.dollargeneral.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/KingsoftCloud/KingsoftCloud.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "KingsoftCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.garagegymreviews.com/recumbent-bike-benefits",
+          "https://xcelerategyms.com/recumbent-exercise-bike-benefits/",
+          "https://theworkoutmag.com/training/recumbent-bike-exercise-benefits-guide",
+          "https://peakprimalwellness.com/blogs/wellness/recumbent-bike-benefits",
+          "https://peakprimalwellness.com/blogs/wellness/exercise-bike-benefits",
+          "https://theworkoutmag.com/training/recumbent-bike-benefits-training-protocols",
+          "https://fitnessadvisor101.com/exercise-bike-benefits/",
+          "https://bikingbro.com/is-a-recumbent-bike-a-good-workout/",
+          "https://www.healthline.com/health/fitness-exercise/exercise-bike-benefits",
+          "https://balancedfitnessgear.com/blogs/fitness-news/how-effective-is-the-recumbent-bike-a-complete-guide-to-calories-muscles-cardio-rehab-and-programming"
+        ],
+        "candidates": [
+          "balancedfitnessgear.com",
+          "bikingbro.com",
+          "fitnessadvisor101.com",
+          "peakprimalwellness.com",
+          "theworkoutmag.com",
+          "www.garagegymreviews.com",
+          "www.healthline.com",
+          "xcelerategyms.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/NeteaseCloud/NeteaseCloud.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "NeteaseCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Irvin_Rock",
+          "https://english.arabpsychology.com/theorists/irvin-rock-1922-1995/",
+          "https://archives.uakron.edu/repositories/4/resources/292",
+          "https://psycnet.apa.org/record/2008-14399-001",
+          "https://www.nytimes.com/1995/07/20/obituaries/dr-irvin-rock-73-psychologist-and-expert-on-visual-perception.html",
+          "https://grokipedia.com/page/irvin_rock",
+          "https://www.goodreads.com/author/show/8818.Irvin_Rock",
+          "https://prabook.com/web/irvin.rock/3503359",
+          "https://everything.explained.today/Irvin_Rock/",
+          "https://www.nssrperception.com/docs/Rock%20&%20Palmer%201990%20The%20legacy%20of%20Gestalt%20psychology.pdf"
+        ],
+        "candidates": [
+          "archives.uakron.edu",
+          "en.wikipedia.org",
+          "english.arabpsychology.com",
+          "everything.explained.today",
+          "grokipedia.com",
+          "prabook.com",
+          "psycnet.apa.org",
+          "www.goodreads.com",
+          "www.nssrperception.com",
+          "www.nytimes.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/TencentCloud/TencentCloud.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "TencentCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://travel.usnews.com/hotels/",
+          "https://travel.usnews.com/hotels/aruba/",
+          "https://travel.usnews.com/hotels/sedona_az/",
+          "https://travel.usnews.com/hotels/brands/",
+          "https://travel.usnews.com/hotels/san_antonio_tx/",
+          "https://travel.usnews.com/hotels/boston_ma/"
+        ],
+        "candidates": [
+          "travel.usnews.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloudflare/Cloudflare.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "Cloudflare",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cloudflare.com/",
+          "https://dash.cloudflare.com/login",
+          "https://www.cloudflare.com/en-gb/",
+          "https://en.wikipedia.org/wiki/Cloudflare",
+          "https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/cloudflare-one-client/download/",
+          "https://dash.cloudflare.com/sign-up",
+          "https://www.cloudflare.com/plans/",
+          "https://www.cloudflare.com/personal/",
+          "https://www.cloudflare.com/what-is-cloudflare/",
+          "https://www.cloudflare.com/about/"
+        ],
+        "candidates": [
+          "dash.cloudflare.com",
+          "developers.cloudflare.com",
+          "en.wikipedia.org",
+          "www.cloudflare.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloudflarecn/Cloudflarecn.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "Cloudflarecn",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.questionai.app/questions-t4qDCPaPyp0P/002806-remaining2-trequently-include-multiple-charts",
+          "https://www.gauthmath.com/solution/1805749268251653/2-The-worksheets-that-you-create-typically-contain-many-Charts-As-the-files-will",
+          "https://www.chegg.com/homework-help/questions-and-answers/worksheets-create-typically-contain-many-charts-files-circulated-wide-audience-organizatio-q135036195",
+          "https://brainly.com/question/46781856",
+          "https://www.extendoffice.com/documents/excel/3362-excel-chart-across-multiple-worksheets.html",
+          "https://www.extendoffice.com/documents/excel/1799-excel-move-chart-to-chart-sheet.html",
+          "https://www.geeksforgeeks.org/excel/how-to-create-a-chart-from-multiple-sheets-in-excel/",
+          "https://mobisystems.com/en-us/blog/how-to/how-to-use-excel-charts-for-data-visualization",
+          "https://quizlet.com/975611507/week-5-practice-quiz-flash-cards/",
+          "https://sheetsandcells.com/excel/charts/complete-guide/"
+        ],
+        "candidates": [
+          "brainly.com",
+          "mobisystems.com",
+          "panel.what",
+          "quizlet.com",
+          "sheetsandcells.com",
+          "www.chegg.com",
+          "www.extendoffice.com",
+          "www.gauthmath.com",
+          "www.geeksforgeeks.org",
+          "www.questionai.app"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Clubhouse/Clubhouse.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "Clubhouse",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.clubhouse.com/signin",
+          "https://www.clubhouse.com/",
+          "https://en.wikipedia.org/wiki/Clubhouse_(app)",
+          "https://play.google.com/store/apps/details?id=com.clubhouse.app&hl=en-US",
+          "https://support.clubhouse.com/hc/en-us",
+          "https://support.clubhouse.com/hc/en-us/articles/13683274674835-Getting-Started-with-Clubhouse",
+          "https://www.clubhouse.com/@clubhouse",
+          "https://www.clubhouse.com/download",
+          "https://support.clubhouse.com/hc/en-us/categories/360005092854-Welcome-to-Clubhouse",
+          "https://blog.hubspot.com/marketing/how-to-use-clubhouse"
+        ],
+        "candidates": [
+          "blog.hubspot.com",
+          "clubhouse.com",
+          "en.wikipedia.org",
+          "play.google.com",
+          "support.clubhouse.com",
+          "www.clubhouse.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ClubhouseIP/ClubhouseIP.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "ClubhouseIP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.collincountytx.gov/elections/sample-ballots",
+          "https://theballotbrief.com/state/texas/plano-city",
+          "https://www.plano.gov/elections",
+          "https://ballotpedia.org/Plano_Sample_Ballot",
+          "https://theballotbrief.com/sample-ballot",
+          "https://www.dallascountyvotes.org/voters/ballot/",
+          "https://apps.texastribune.org/features/2026/texas-general-election-ballot-november-2026/",
+          "https://www.collincountygop.org/collin-county-elections/collin-county-sample-ballot/",
+          "https://communityimpact.com/plano/voter-guide/",
+          "https://collincountyvotes.com/whats-on-your-ballot-nov-2026/"
+        ],
+        "candidates": [
+          "apps.texastribune.org",
+          "ballotpedia.org",
+          "collincountyvotes.com",
+          "communityimpact.com",
+          "theballotbrief.com",
+          "www.collincountygop.org",
+          "www.collincountytx.gov",
+          "www.dallascountyvotes.org",
+          "www.plano.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cnet/Cnet.list": {
+        "checked_at": "2026-10-26 18:09 UTC",
+        "name": "Cnet",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cnet.com/",
+          "https://www.cnet.com/reviews/",
+          "https://download.cnet.com/",
+          "https://download.cnet.com/windows/",
+          "https://en.wikipedia.org/wiki/CNET",
+          "https://www.cnet.com/latest/",
+          "https://www.cnet.com/best/",
+          "https://www.cnet.com/news/",
+          "https://www.cnet.com/tech/",
+          "https://www.youtube.com/channel/UCOmcA3f_RrH6b9NmcNa4tdg"
+        ],
+        "candidates": [
+          "download.cnet.com",
+          "en.wikipedia.org",
+          "www.cnet.com",
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []

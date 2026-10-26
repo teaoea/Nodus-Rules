@@ -1,7 +1,7 @@
 # 名称：Claude
-# 来源核对日期：2026-10-25 18:18 UTC
-# 规则总数：9
-# domain: 3
+# 来源核对日期：2026-10-26 18:09 UTC
+# 规则总数：15
+# domain: 9
 # domain-suffix: 6
 # domain-keyword: 0
 # ip-cidr: 0
@@ -12,6 +12,12 @@ rules:
   - domain,cdn.usefathom.com
   - domain,browser-intake-us5-datadoghq.com
   - domain,http-intake.logs.us5.datadoghq.com
+  - domain,academy.claude.com
+  - domain,claude.ai
+  - domain,claude.com
+  - domain,platform.claude.com
+  - domain,support.claude.com
+  - domain,www.anthropic.com
   - domain-suffix,anthropic.com
   - domain-suffix,claude.ai
   - domain-suffix,claude.app
