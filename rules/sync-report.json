@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "9b29c945b9164a02c7018ed333cb9b5bc1bcb417",
-  "date": "2026-10-26 18:09 UTC",
+  "date": "2026-10-27 03:31 UTC",
   "collections": {
     "rule/Clash/115/115.list": {
       "input": 10,
@@ -19052,8 +19052,8 @@
   },
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-26 18:09 UTC",
-    "next_index": 192,
+    "checked_at": "2026-10-27 03:31 UTC",
+    "next_index": 216,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -24337,6 +24337,659 @@
           "en.wikipedia.org",
           "www.cnet.com",
           "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Collabora/Collabora.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Collabora",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.collaboraonline.com/",
+          "https://www.collaboraonline.com/collabora-office/",
+          "https://www.collabora.com/",
+          "https://apps.microsoft.com/detail/9p9mrbxjjg0m",
+          "https://en.wikipedia.org/wiki/Collabora",
+          "https://en.wikipedia.org/wiki/Collabora_Online",
+          "https://www.collaboraoffice.org/online/",
+          "https://www.collabora.com/about-us/open-source/open-source-projects/libreoffice.html",
+          "https://nextcloud.com/collabora/",
+          "https://github.com/CollaboraOnline/online"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "gerrit.collaboraoffice.com",
+          "github.com",
+          "nextcloud.com",
+          "www.collabora.com",
+          "www.collaboraoffice.org",
+          "www.collaboraonline.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Comodo/Comodo.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Comodo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.comodo.com/",
+          "https://www.comodo.com/home/download/download.php?prod=antivirus",
+          "https://www.spanishdict.com/translate/c%C3%B3modo",
+          "https://one.comodo.com/app/login",
+          "https://ssl.comodoca.com/index.php",
+          "https://forums.comodo.com/t/link-to-latest-free-version-of-comodo-internet-security/362758",
+          "https://www.techspot.com/downloads/4758-comodo-internet-security.html"
+        ],
+        "candidates": [
+          "forums.comodo.com",
+          "one.comodo.com",
+          "spanishdictionary.com",
+          "ssl.comodoca.com",
+          "www.comodo.com",
+          "www.spanishdict.com",
+          "www.techspot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Contentful/Contentful.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Contentful",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.contentful.com/",
+          "https://www.contentful.com/products/platform/",
+          "https://app.contentful.com/?login=1",
+          "https://en.wikipedia.org/wiki/Contentful",
+          "https://www.salesforce.com/marketing/content-management-system/",
+          "https://www.contentful.com/pricing/",
+          "https://www.contentful.com/about-us/",
+          "https://www.contentful.com/products/studio/",
+          "https://www.contentful.com/products/",
+          "https://www.contentful.com/products/capabilities/"
+        ],
+        "candidates": [
+          "app.contentful.com",
+          "en.wikipedia.org",
+          "www.contentful.com",
+          "www.salesforce.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Coolapk/Coolapk.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Coolapk",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.peakdistrict.gov.uk/",
+          "https://nationalparks.uk/park/peak-district/",
+          "https://en.wikipedia.org/wiki/Peak_District",
+          "https://visitpeakdistrict.com/locations/peak-district",
+          "https://justwandermore.com/things-to-do-in-the-peak-district/",
+          "https://national-parks.org/united-kingdom/peak-district/",
+          "https://www.tripsavvy.com/peak-district-national-park-complete-guide-5194682",
+          "https://www.peakdistrict.gov.uk/visiting",
+          "https://www.peakdistrict.org/",
+          "https://nationalparksassociation.org/united-kingdom-national-parks/peak-district-national-park/"
+        ],
+        "candidates": [
+          "district.org",
+          "en.wikipedia.org",
+          "justwandermore.com",
+          "national-parks.org",
+          "nationalparks.uk",
+          "nationalparksassociation.org",
+          "visitpeakdistrict.com",
+          "www.peakdistrict.gov.uk",
+          "www.peakdistrict.org",
+          "www.tripsavvy.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Copilot/Copilot.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Copilot",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://copilot.microsoft.com/",
+          "https://adoption.microsoft.com/en-us/copilot/",
+          "https://www.microsoft.com/en-us/copilot/products/copilot-studio",
+          "https://github.com/copilot",
+          "https://copilot.cloud.microsoft/",
+          "https://copilot.com/en-gb/",
+          "https://www.microsoft.com/en-us/copilot",
+          "https://m365.cloud.microsoft/?omkt=en-001&source=post_page---------------------------",
+          "https://explore.microsoft.com/en-us/microsoft-copilot/learn",
+          "https://copilot.cloud.microsoft/cowork"
+        ],
+        "candidates": [
+          "adoption.microsoft.com",
+          "copilot.cloud.microsoft",
+          "copilot.com",
+          "copilot.microsoft.com",
+          "explore.microsoft.com",
+          "github.com",
+          "m365.cloud.microsoft",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Crypto/Crypto.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Crypto",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://coinmarketcap.com/",
+          "https://crypto.com/",
+          "https://crypto.com/en",
+          "https://accounts.crypto.com/login",
+          "https://en.wikipedia.org/wiki/Cryptocurrency",
+          "https://www.tradingview.com/markets/cryptocurrencies/",
+          "https://www.binance.com/",
+          "https://coinmarketcap.com/coins/",
+          "https://www.coingecko.com/",
+          "https://accounts.crypto.com/signup"
+        ],
+        "candidates": [
+          "accounts.crypto.com",
+          "coinmarketcap.com",
+          "crypto.com",
+          "en.wikipedia.org",
+          "www.binance.com",
+          "www.coingecko.com",
+          "www.tradingview.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cryptocurrency/Cryptocurrency.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Cryptocurrency",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://coinmarketcap.com/",
+          "https://www.britannica.com/money/what-is-cryptocurrency",
+          "https://en.m.wikipedia.org/wiki/Cryptocurrency",
+          "https://coinmarketcap.com/coins/",
+          "https://www.coingecko.com/",
+          "https://crypto.com/us/crypto/learn/different-types-of-cryptocurrency",
+          "https://crypto.com/en/price",
+          "https://www.interactivecrypto.com/learn/crypto-basics/what-is-cryptocurrency",
+          "https://www.investopedia.com/terms/c/cryptocurrency.asp",
+          "https://www.binance.com/en/academy/articles/what-is-a-cryptocurrency"
+        ],
+        "candidates": [
+          "coinmarketcap.com",
+          "crypto.com",
+          "en.m.wikipedia.org",
+          "www.binance.com",
+          "www.britannica.com",
+          "www.coingecko.com",
+          "www.interactivecrypto.com",
+          "www.investopedia.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CyberTrust/CyberTrust.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "CyberTrust",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Tell_Me_a_Story_(TV_series)",
+          "https://www.imdb.com/title/tt7695916",
+          "https://www.cwtvpr.com/the-cw/shows/tell-me-a-story/about",
+          "https://www.metacritic.com/tv/tell-me-a-story/",
+          "https://www.imdb.com/title/tt7695916/episodes/",
+          "https://www.tvinsider.com/show/tell-me-a-story/",
+          "https://www.primevideo.com/detail/0RV8YPUEOF4TIJWZZOFY4L4FGX/",
+          "https://www.tvguide.com/tvshows/tell-me-a-story/1030661727/",
+          "https://americanliterature.com/100-great-short-stories/",
+          "https://reedsy.com/short-stories/"
+        ],
+        "candidates": [
+          "americanliterature.com",
+          "cwtvpr.com",
+          "en.wikipedia.org",
+          "reedsy.com",
+          "www.cwtvpr.com",
+          "www.imdb.com",
+          "www.metacritic.com",
+          "www.primevideo.com",
+          "www.tvguide.com",
+          "www.tvinsider.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DAZN/DAZN.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "DAZN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dazn.com/en-US/home",
+          "https://www.dazn.com/",
+          "https://dazngroup.com/",
+          "https://beta.dazn.com/en-US/home",
+          "https://en.wikipedia.org/wiki/DAZN",
+          "https://safe.dazn.com/",
+          "https://app.link.dazn.com/"
+        ],
+        "candidates": [
+          "app.link.dazn.com",
+          "beta.dazn.com",
+          "dazngroup.com",
+          "en.wikipedia.org",
+          "nhl.tv",
+          "safe.dazn.com",
+          "www.dazn.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DMM/DMM.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "DMM",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dmm.com/",
+          "https://accounts.dmm.com/service/login/password",
+          "https://eikaiwa.dmm.com/redirect/engoo/",
+          "https://ja.wikipedia.org/wiki/DMM.com",
+          "https://www.dmm.com/mono/",
+          "https://www.nexusmods.com/crimsondesert/mods/633",
+          "https://en.wikipedia.org/wiki/DMM.com",
+          "https://tv.dmm.com/vod/",
+          "https://games.dmm.com/list/all",
+          "https://dmm-corp.com/"
+        ],
+        "candidates": [
+          "accounts.dmm.com",
+          "dmm-corp.com",
+          "dmm.co.jp",
+          "dmm.com",
+          "eikaiwa.dmm.com",
+          "en.wikipedia.org",
+          "games.dmm.com",
+          "ja.wikipedia.org",
+          "tv.dmm.com",
+          "www.dmm.com",
+          "www.nexusmods.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DNS/DNS.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "DNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cloudflare.com/learning/dns/what-is-dns/",
+          "https://en.wikipedia.org/wiki/Domain_Name_System",
+          "https://www.geeksforgeeks.org/computer-networks/domain-name-system-dns-in-application-layer/",
+          "https://dnschecker.org/",
+          "https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-overview",
+          "https://publicdns.info/best-dns-servers.html",
+          "https://www.ibm.com/think/topics/dns",
+          "https://mxtoolbox.com/DNSLookup.aspx",
+          "https://www.pcmag.com/how-to/what-is-dns-how-it-works-domain-name-system",
+          "https://www.whatismyip.com/dns/"
+        ],
+        "candidates": [
+          "dnschecker.org",
+          "en.wikipedia.org",
+          "learn.microsoft.com",
+          "mxtoolbox.com",
+          "publicdns.info",
+          "www.cloudflare.com",
+          "www.example.com",
+          "www.geeksforgeeks.org",
+          "www.ibm.com",
+          "www.pcmag.com",
+          "www.whatismyip.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DaMai/DaMai.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "DaMai",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/3dspiracy/comments/xbwvyr/what_systems_are_emulatable_on_new_3ds2ds/",
+          "https://www.gameslearningsociety.org/can-i-play-3ds-roms-on-ds/",
+          "https://splicedonline.com/can-you-play-3ds-games-on-any-ds/",
+          "https://www.gameslearningsociety.org/wiki/do-roms-work-on-3ds/",
+          "https://www.reddit.com/r/3dspiracy/comments/197capy/if_i_play_ds_games_off_my_sd_card_is_it_emulating/",
+          "https://splicedonline.com/will-ds-games-work-on-a-3ds-emulator/",
+          "https://boundbyflame.com/how-to-play-ds-and-3ds-games-on-steam-deck/",
+          "https://www.vintageisthenewold.com/faq/can-3ds-emulator-play-ds-games",
+          "https://www.outcyders.net/guide/can-i-play-3ds-games-on-my-ds-dsi",
+          "https://emulation.gametechwiki.com/index.php/Emulators_on_Nintendo_3DS"
+        ],
+        "candidates": [
+          "boundbyflame.com",
+          "emulation.gametechwiki.com",
+          "splicedonline.com",
+          "vintageisthenewold.com",
+          "www.gameslearningsociety.org",
+          "www.outcyders.net",
+          "www.reddit.com",
+          "www.vintageisthenewold.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dailymail/Dailymail.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Dailymail",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dailymail.com/ushome/index.html",
+          "https://www.dailymail.com/home/index.html",
+          "https://www.dailymail.co.uk/home/index.html",
+          "https://www.dailymail.co.uk/ushome/index.html",
+          "https://newspaper.dailymail.com/",
+          "https://www.dailymail.com/news/us/index.html",
+          "https://www.dailymail.com/news/index.html",
+          "https://www.dailymail.com/auhome/index.html",
+          "https://www.dailymail.com/home/latest/index.html",
+          "https://www.dailymail.com/mailplus/us/index.html"
+        ],
+        "candidates": [
+          "newspaper.dailymail.com",
+          "www.dailymail.co.uk",
+          "www.dailymail.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dailymotion/Dailymotion.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Dailymotion",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dailymotion.com/",
+          "https://www.dailymotion.com/stream/videos",
+          "https://www.dailymotion.cc/",
+          "https://en.wikipedia.org/wiki/Dailymotion",
+          "https://geo.dailymotion.com/player/xt5ee.html?video=x9ibbwu",
+          "https://www.dailymotion.com/ca",
+          "https://www.dailymotion.com/us/feed",
+          "https://www.dailymotion.com/us/1",
+          "https://www.youtube.com/dailymotion",
+          "https://dailymotion.vhx.tv/login"
+        ],
+        "candidates": [
+          "dailymotion.vhx.tv",
+          "en.wikipedia.org",
+          "geo.dailymotion.com",
+          "www.dailymotion.cc",
+          "www.dailymotion.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DanDanZan/DanDanZan.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "DanDanZan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.m.wikipedia.org/wiki/Park",
+          "https://www.nps.gov/index.htm",
+          "https://www.park.edu/",
+          "https://southpark.cc.com/",
+          "https://www.nps.gov/findapark/index.htm",
+          "https://parkcommunity.com/",
+          "https://www.nycgovparks.org/",
+          "https://www.merriam-webster.com/dictionary/park",
+          "https://www.britannica.com/art/park",
+          "https://www.nationalparks.org/national-parks-by-state"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "nps.gov",
+          "parkcommunity.com",
+          "southpark.cc.com",
+          "www.britannica.com",
+          "www.merriam-webster.com",
+          "www.nationalparks.org",
+          "www.nps.gov",
+          "www.nycgovparks.org",
+          "www.park.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dandanplay/Dandanplay.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Dandanplay",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://techcommunity.microsoft.com/blog/exchange/released-september-2026-exchange-server-security-updates/4554411",
+          "https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft-certified-azure-ai-apps-and-agents-developer-associate/4494126",
+          "https://support.microsoft.com/en-us/sharepoint/platform/what-is-sharepoint",
+          "https://support.microsoft.com/en-au/support/index",
+          "https://techcommunity.microsoft.com/blog/azurearchitectureblog/how-ms-discovery-is-empowering-scientists-to-do-more/4516670",
+          "https://techcommunity.microsoft.com/category/windows/discussions/windowsinsiderprogram",
+          "https://support.microsoft.com/en-gb/contactus",
+          "https://support.microsoft.com/en-us/forms/sign-in-to-microsoft-forms",
+          "https://techcommunity.microsoft.com/blog/spblog/what%E2%80%99s-new-in-copilot-in-sharepoint-october-2026/4535423",
+          "https://techcommunity.microsoft.com/discussions/windowsinsiderprogram/windows-8-1-iso-download-for-64-and-32-bit/4454650"
+        ],
+        "candidates": [
+          "outlook.com",
+          "support.microsoft.com",
+          "techcommunity.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DangDang/DangDang.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "DangDang",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dangdang.com/",
+          "https://book.dangdang.com/index",
+          "https://en.wikipedia.org/wiki/Dangdang",
+          "https://book.dangdang.com/20141011_mfyx",
+          "https://category.dangdang.com/.html",
+          "https://e.dangdang.com/",
+          "https://search.dangdang.com/?key=%B5%B1%B5%B1%CD%F8%C9%CF%CA%E9%B5%EA",
+          "https://baike.baidu.com/en/item/dangdang/996529",
+          "https://m.dangdang.com/"
+        ],
+        "candidates": [
+          "baike.baidu.com",
+          "book.dangdang.com",
+          "category.dangdang.com",
+          "cs.dangdang.com",
+          "e.dangdang.com",
+          "en.wikipedia.org",
+          "m.dangdang.com",
+          "myhome.dangdang.com",
+          "search.dangdang.com",
+          "www.dangdang.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dedao/Dedao.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Dedao",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dedao.cn/",
+          "https://www.igetget.com/",
+          "https://www.dedao.cn/vip/home?type=ebook",
+          "https://baike.baidu.com/item/%e7%bd%97%e6%8c%af%e5%ae%87/1982837",
+          "https://apps.microsoft.com/detail/xp9b3tzd4x1dc7?hl=zh-CN&gl=CN",
+          "https://www.biji.com/",
+          "https://baike.baidu.com/en/item/Dedao/19128",
+          "https://dedao.aiproducthub.cn/",
+          "https://dedaoai.app/topics",
+          "https://www.igetget.com/download"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "baike.baidu.com",
+          "dedao.aiproducthub.cn",
+          "dedao.cn",
+          "dedaoai.app",
+          "www.biji.com",
+          "www.dedao.cn",
+          "www.igetget.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Deepin/Deepin.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Deepin",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.deepin.org/en/",
+          "https://www.deepin.org/en/download/",
+          "https://en.wikipedia.org/wiki/Deepin",
+          "https://wiki.deepin.org/en/home",
+          "https://sourceforge.net/projects/deepin/",
+          "https://www.deepin.cn/en/deepin-25-release/",
+          "https://www.majorgeeks.com/files/details/deepin.html",
+          "https://bbs.deepin.org/en/post/301497",
+          "https://linuxiac.com/deepin-25-launches-as-immutable-linux-release/",
+          "https://bbs.deepin.org/"
+        ],
+        "candidates": [
+          "bbs.deepin.org",
+          "en.wikipedia.org",
+          "linuxiac.com",
+          "sourceforge.net",
+          "wiki.deepin.org",
+          "www.deepin.cn",
+          "www.deepin.org",
+          "www.majorgeeks.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Deezer/Deezer.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Deezer",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.deezer.com/en/",
+          "https://www.deezer.com/en/login/",
+          "https://tv2.deezer.com/",
+          "https://en.wikipedia.org/wiki/Deezer",
+          "https://support.deezer.com/hc/en-gb/articles/360000618605-Download-The-Deezer-App",
+          "https://account.deezer.com/en/apps/",
+          "https://account.deezer.com/en/signup/"
+        ],
+        "candidates": [
+          "account.deezer.com",
+          "en.wikipedia.org",
+          "support.deezer.com",
+          "tv2.deezer.com",
+          "www.deezer.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dell/Dell.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Dell",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dell.com/en-us",
+          "https://www.dell.com/support/home/en-us",
+          "https://en.wikipedia.org/wiki/Dell",
+          "https://www.dell.com/en-us/shop/laptop-computers/scr/laptop",
+          "https://www.dell.com/support/home/en-us/Products/laptop?app=drivers",
+          "https://www.dell.com/en-us/shop/desktop-computers/scr/desktop",
+          "https://outlet.us.dell.com/GDOOnline/Online/InventorySearch?c=us&l=en&cs=28&s=dfb&brandid=2801"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "outlet.us.dell.com",
+          "www.dell.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Developer/Developer.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "Developer",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hackerrank.com/profile/IByidbk4+QR2RggsLnzRjibR78e4jnH8iDp8FoVXOus=",
+          "https://www.hackerrank.com/profile/admiin",
+          "https://www.hackerrank.com/profile/qFum12gopGJ9JZPJ+pwlqGFoi9KyzAAcR4XYWB+CPhU=",
+          "https://www.hackerrank.com/profile/codestorm"
+        ],
+        "candidates": [
+          "www.hackerrank.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiDi/DiDi.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "DiDi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://web.didiglobal.com/",
+          "https://en.m.wikipedia.org/wiki/DiDi",
+          "https://www.didiglobal.com/",
+          "https://m.imdb.com/title/tt30319503",
+          "https://web.didiglobal.com/mx/pasajero/",
+          "https://en.m.wikipedia.org/wiki/D%C3%ACdi",
+          "https://www.didi-food.com/en-US",
+          "https://careers.didiglobal.com/signIn",
+          "https://www.didi-food.com/en-US/food/",
+          "https://play.google.com/store/apps/details?id=com.didiglobal.passenger&hl=en-US"
+        ],
+        "candidates": [
+          "careers.didiglobal.com",
+          "en.m.wikipedia.org",
+          "m.imdb.com",
+          "play.google.com",
+          "web.didiglobal.com",
+          "www.didi-food.com",
+          "www.didiglobal.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiLianWangLuo/DiLianWangLuo.list": {
+        "checked_at": "2026-10-27 03:31 UTC",
+        "name": "DiLianWangLuo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://openai.com/index/chatgpt/",
+          "https://community.openai.com/t/request-for-free-chatgpt-plus-access-for-students-in-india/1397805",
+          "https://openai.com/es-419/index/gpt-4/",
+          "https://platform.openai.com/onboarding?app=chat",
+          "https://platform.openai.com/onboarding",
+          "https://help.openai.com/en/collections/3742473-chatgpt",
+          "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "https://developers.openai.com/api/docs/models",
+          "https://community.openai.com/t/chat-gpt-4-plus-subscription-across-devices/393440",
+          "https://developers.openai.com/api/docs/models/gpt-image-1.5"
+        ],
+        "candidates": [
+          "community.openai.com",
+          "developers.openai.com",
+          "help.openai.com",
+          "openai.com",
+          "platform.openai.com"
         ],
         "accepted": [],
         "ownership_evidence": []
