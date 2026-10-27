@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "9b29c945b9164a02c7018ed333cb9b5bc1bcb417",
-  "date": "2026-10-27 03:31 UTC",
+  "date": "2026-10-27 17:22 UTC",
   "collections": {
     "rule/Clash/115/115.list": {
       "input": 10,
@@ -19052,8 +19052,8 @@
   },
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-27 03:31 UTC",
-    "next_index": 216,
+    "checked_at": "2026-10-27 17:22 UTC",
+    "next_index": 240,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -24990,6 +24990,640 @@
           "help.openai.com",
           "openai.com",
           "platform.openai.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiSiFanShi/DiSiFanShi.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DiSiFanShi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/",
+          "https://myaccount.microsoft.com/login",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://www.microsoft.com/en-us/microsoft-365",
+          "https://outlook.office.com/mail/",
+          "https://account.microsoft.com/account-checkup",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://mysignins.microsoft.com/"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "mysignins.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiabloIII/DiabloIII.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DiabloIII",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.llbean.com/",
+          "https://llbean.com/\"",
+          "https://citiretailservices.citibankonline.com/RSauth/signon?pageName=signon&siteId=PLCN_LLBEAN&langId=en_US",
+          "https://global.llbean.com/llb/shop/508925/",
+          "https://en.wikipedia.org/wiki/L.L.Bean",
+          "https://www.llbean.com/llb/shop/12?page=clothing",
+          "https://www.llbean.com/llb/shop/32?page=sale",
+          "https://www.llbean.com/llb/shop/27?page=womens-clothing",
+          "https://www.llbean.com/llb/shop/2",
+          "https://www.llbean.com/llb/shop/26?page=mens-clothing"
+        ],
+        "candidates": [
+          "citiretailservices.citibankonline.com",
+          "en.wikipedia.org",
+          "global.llbean.com",
+          "l.l.bean",
+          "llbean.com",
+          "www.llbean.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DianCeWangKe/DianCeWangKe.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DianCeWangKe",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://tools.usps.com/go/TrackConfirmAction!input.action",
+          "https://www.usps.com/",
+          "https://www.usps.com/manage/",
+          "https://www.usps.com/international/customs-forms.htm",
+          "https://m.usps.com/m/TrackConfirmAction_input",
+          "https://tools.usps.com/go/TrackConfirmAction?locale=en",
+          "https://stage-www.usps.com/nationalpremieraccounts/trackmailing.htm",
+          "https://informeddelivery.usps.com/box/pages/intro/start.action",
+          "https://tools.usps.com/go/TrackConfirmAction_input?qtc_tLabels1=9405510200864317970601",
+          "https://faq.usps.com/articles/Knowledge/USPS-Tracking-Plus-The-Basics"
+        ],
+        "candidates": [
+          "faq.usps.com",
+          "informeddelivery.usps.com",
+          "m.usps.com",
+          "stage-www.usps.com",
+          "tools.usps.com",
+          "usps.com",
+          "www.usps.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DigiCert/DigiCert.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DigiCert",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.digicert.com/",
+          "https://www.digicert.com/buy",
+          "https://en.wikipedia.org/wiki/DigiCert",
+          "https://accounts.digicert.com/app/imauth/ui/login",
+          "https://knowledge.digicert.com/general-information/digicert-trusted-root-authority-certificates",
+          "https://www.digicert.com/account/login.php",
+          "https://www.digicert.com/support/tools/certificate-utility-for-windows",
+          "https://www.digicert.com/solutions",
+          "https://www.digicert.com/about",
+          "https://www.digicert.com/tls-ssl/digital-certificates"
+        ],
+        "candidates": [
+          "accounts.digicert.com",
+          "en.wikipedia.org",
+          "knowledge.digicert.com",
+          "www.digicert.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DigitalOcean/DigitalOcean.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DigitalOcean",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.digitalocean.com/",
+          "https://cloud.digitalocean.com/login",
+          "https://www.digitalocean.com/solutions/vps-hosting",
+          "https://en.wikipedia.org/wiki/DigitalOcean",
+          "https://www.digitalocean.com/products",
+          "https://www.digitalocean.com/pricing",
+          "https://www.digitalocean.com/about",
+          "https://www.digitalocean.com/solutions/website-hosting",
+          "https://cloudsupport.digitalocean.com/s/createticket/",
+          "https://cloud.digitalocean.com/security/registrations"
+        ],
+        "candidates": [
+          "cloud.digitalocean.com",
+          "cloudsupport.digitalocean.com",
+          "en.wikipedia.org",
+          "www.digitalocean.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DingTalk/DingTalk.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DingTalk",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dingtalk.io/",
+          "https://www.dingtalk.io/download",
+          "https://n.dingtalk.com/ddmao/Re6l0fKOLPVKpZVELsQ32?dd_mini_app_id=5000000004997171",
+          "https://www.dingtalk.com/",
+          "https://www.dingtalk.com/en/download",
+          "https://n.dingtalk.com/dingding/h5-overseas-tip-new/index.html?isoversea=true&showmenu=false",
+          "https://dingtalk-global.com/",
+          "https://en.wikipedia.org/wiki/DingTalk",
+          "https://www.dingtalk.com/download",
+          "https://www.dingtalk.io/zh/download/"
+        ],
+        "candidates": [
+          "dingtalk-global.com",
+          "en.wikipedia.org",
+          "n.dingtalk.com",
+          "www.dingtalk.com",
+          "www.dingtalk.io"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DingXiangYuan/DingXiangYuan.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DingXiangYuan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.zillow.com/",
+          "https://www.zillow.com/san-jose-ca/",
+          "https://www.zillow.com/homes/for_sale/",
+          "https://www.zillow.com/il/",
+          "https://www.zillow.com/sacramento-ca/",
+          "https://www.zillow.com/raleigh-nc/",
+          "https://www.zillow.com/homes/recently_sold/",
+          "https://www.zillow.com/homes/for_rent/",
+          "https://www.zillow.com/seattle-wa/",
+          "https://www.zillow.com/dallas-tx/"
+        ],
+        "candidates": [
+          "www.zillow.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Direct/Direct.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Direct",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.directv.com/directv-login/",
+          "https://www.directv.com/",
+          "https://www.directauto.com/",
+          "https://www.directvonline.com/channels/",
+          "https://www.usdirect.com/packages",
+          "https://www.directauto.com/welcome",
+          "https://www.usdirect.com/"
+        ],
+        "candidates": [
+          "www.directauto.com",
+          "www.directv.com",
+          "www.directvonline.com",
+          "www.usdirect.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Discord/Discord.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Discord",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://discordapp.com/",
+          "https://discord.com/",
+          "https://discord.com/download",
+          "https://en.wikipedia.org/wiki/Discord",
+          "https://discordapp.com/.well-known/openid-configuration",
+          "https://support.discord.com/hc/en-us",
+          "https://play.google.com/store/apps/details?id=com.discord&hl=en-GB",
+          "https://discord.com/store",
+          "https://discord.com/servers",
+          "https://discord.com/discovery/applications/1"
+        ],
+        "candidates": [
+          "discord.com",
+          "discordapp.com",
+          "en.wikipedia.org",
+          "play.google.com",
+          "support.discord.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiscoveryPlus/DiscoveryPlus.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DiscoveryPlus",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.discoveryplus.com/",
+          "https://auth.discoveryplus.com/login",
+          "https://www.discoveryplus.com/sign-in",
+          "https://links.discoveryplus.com/home",
+          "https://auth.discoveryplus.com/product",
+          "https://play.discoveryplus.com/profile-picker",
+          "https://help.discoveryplus.com/hc/en-us/articles/18203937671703-Sign-in-to-discovery",
+          "https://www.discoveryplus.ca/",
+          "https://www.discoveryplus.com/shows",
+          "https://watch.discoveryplus.ca/"
+        ],
+        "candidates": [
+          "auth.discoveryplus.com",
+          "help.discoveryplus.com",
+          "links.discoveryplus.com",
+          "play.discoveryplus.com",
+          "watch.discoveryplus.ca",
+          "www.discoveryplus.ca",
+          "www.discoveryplus.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Disney/Disney.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Disney",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.disney.com/",
+          "https://www.disneyplus.com/identity/login",
+          "https://thewaltdisneycompany.com/",
+          "https://www.youtube.com/disney",
+          "https://disneyparks.disney.go.com/",
+          "https://www.disneyplus.com/",
+          "https://x.com/Disney",
+          "https://disneyworld.disney.go.com/",
+          "https://movies.disney.com/",
+          "https://en.wikipedia.org/wiki/The_Walt_Disney_Company"
+        ],
+        "candidates": [
+          "disney.com",
+          "disneyparks.disney.go.com",
+          "disneyworld.disney.go.com",
+          "en.wikipedia.org",
+          "movies.disney.com",
+          "thewaltdisneycompany.com",
+          "www.disney.com",
+          "www.disneyplus.com",
+          "www.youtube.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Disqus/Disqus.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Disqus",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://disqus.com/",
+          "https://disqus.com/profile/login/",
+          "https://en.wikipedia.org/wiki/Disqus",
+          "https://help.disqus.com/en",
+          "https://about.disqus.com/lp/disqus-2",
+          "https://about.disqus.com/disqus-101/getting-started-with-disqus",
+          "https://disqus.com/home/welcome/",
+          "https://disqus.com/home/inbox/",
+          "https://disqus.com/profile/signup/",
+          "https://help.disqus.com/en/articles/1717053-what-is-disqus"
+        ],
+        "candidates": [
+          "about.disqus.com",
+          "disqus.com",
+          "en.wikipedia.org",
+          "help.disqus.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Docker/Docker.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Docker",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.docker.com/",
+          "https://www.docker.com/products/docker-desktop/",
+          "https://docs.docker.com/desktop/setup/install/windows-install/",
+          "https://docs.docker.com/",
+          "https://en.wikipedia.org/wiki/Docker_(software)",
+          "https://www.geeksforgeeks.org/devops/introduction-to-docker/",
+          "https://www.geeksforgeeks.org/devops/docker-tutorial/",
+          "https://hub.docker.com/",
+          "https://en.wikipedia.org/wiki/Docker,_Inc.",
+          "https://github.com/docker"
+        ],
+        "candidates": [
+          "docs.docker.com",
+          "en.wikipedia.org",
+          "github.com",
+          "hub.docker.com",
+          "www.docker.com",
+          "www.geeksforgeeks.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Domob/Domob.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Domob",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hacksawgaming.com/games/hot-ross",
+          "https://hot-ross.com/bonus-features/",
+          "https://hot-ross.com/",
+          "https://hotross.com/",
+          "https://slotrox.com/game/hot-ross/",
+          "https://www.online-casinos.com/us/slots/hot-ross/",
+          "https://www.bigwinboard.com/hot-ross-hacksaw-gaming-slot-review/",
+          "https://www.slotark.com/slots/hot-ross/",
+          "https://casino.betmgm.com/en/blog/game-reviews/hot-ross-slot-review/",
+          "https://www.slotstemple.com/free-slots/hot-ross/"
+        ],
+        "candidates": [
+          "casino.betmgm.com",
+          "hot-ross.com",
+          "hotross.com",
+          "slotrox.com",
+          "www.bigwinboard.com",
+          "www.hacksawgaming.com",
+          "www.online-casinos.com",
+          "www.slotark.com",
+          "www.slotstemple.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dood/Dood.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Dood",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://doodle.com/en/",
+          "https://www.youtube.com/@DOOD-cc9hf",
+          "https://doodles.google/",
+          "https://dood-game.com/en/",
+          "https://fluentslang.com/dood-meaning/",
+          "https://www.youtube.com/@DOOD.Original",
+          "https://doodles.google/doodle/doodle-for-google-2025-2026-us-winner/",
+          "https://dood.al/pinktrombone/",
+          "https://gamesdoodle.org/",
+          "https://doodle.com/de/"
+        ],
+        "candidates": [
+          "dood-game.com",
+          "dood.al",
+          "dood.original",
+          "doodle.com",
+          "doodles.google",
+          "fluentslang.com",
+          "gamesdoodle.org",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DouBan/DouBan.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DouBan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://retailwire.com/discussion/instacart-is-moving-into-the-ultrafast-lane/",
+          "https://retailwire.com/instacart-deactivated-a-shopper-and-he-nearly-lost-his-home-he-battled-the-company-and-won-28000-in-back-pay/",
+          "https://community.qvc.com/t5/Community-Chat/Aldi-delivery/td-p/8969860/page/2",
+          "https://community.qvc.com/t5/Beauty/Beauty-Purchases-This-Past-Week-10-23-25/td-p/8993905/page/3",
+          "https://retailwire.com/blog/tipping-how-much-to-tip-instacart-and-shoppers/",
+          "https://retailwire.com/discussion/instacart-caper-cart-foodstorm/",
+          "https://retailwire.com/instacart-forbids-shoppers-from-giving-customers-paper-receipts-from-their-order-heres-why/",
+          "https://retailwire.com/instacart-express-lane/",
+          "https://retailwire.com/instacart-partners-with-uber-eats-for-restaurant-delivery/",
+          "https://retailwire.com/discussion/instacart-has-a-family-plan-to-build-shopping-carts/"
+        ],
+        "candidates": [
+          "community.qvc.com",
+          "retailwire.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DouYin/DouYin.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DouYin",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.douyin.com/",
+          "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3",
+          "https://live.douyin.com/",
+          "https://www.tiktok.com/",
+          "https://so.douyin.com/",
+          "https://z.douyin.com/p53t",
+          "https://v.douyin.com/sLDScR/",
+          "https://www.douyin.com/downloadpage/pc",
+          "https://www.douyin.com/jingxuan",
+          "https://www.douyin.com/downloadpage/app"
+        ],
+        "candidates": [
+          "douyin.com",
+          "live.douyin.com",
+          "so.douyin.com",
+          "v.douyin.com",
+          "www.douyin.com",
+          "www.tiktok.com",
+          "z.douyin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Douyu/Douyu.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Douyu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.douyu.com/search?kw=%E7%9B%B4%E6%92%AD",
+          "https://m.douyu.com/g_yqk",
+          "https://v.douyu.com/",
+          "https://en.wikipedia.org/wiki/Douyu",
+          "https://www.douyu.com/cms/about/about_us.html",
+          "https://yuba.douyu.com/",
+          "https://ir.douyu.com/Home",
+          "https://m.index-douyu-star.com.cn/",
+          "https://m.cool-douyu.com.cn/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "ir.douyu.com",
+          "m.cool-douyu.com.cn",
+          "m.douyu.com",
+          "m.index-douyu-star.com.cn",
+          "v.douyu.com",
+          "www.douyu.com",
+          "yuba.douyu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Download/Download.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Download",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://play.google.com/store/apps/details?id=com.tech.downloader&hl=en-US",
+          "https://www.microsoft.com/en-us/download",
+          "https://www.google.com/intl/en_uk/chrome/",
+          "https://www.google.com/chrome/",
+          "https://play.google.com/store/apps?hl=en",
+          "https://download.cnet.com/",
+          "https://www.whatsapp.com/download",
+          "https://www.microsoft.com/en-us/software-download/",
+          "https://www.techspot.com/downloads/",
+          "https://apps.microsoft.com/home"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "download.cnet.com",
+          "microsoft.com",
+          "play.google.com",
+          "www.google.com",
+          "www.microsoft.com",
+          "www.techspot.com",
+          "www.whatsapp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dropbox/Dropbox.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Dropbox",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dropbox.com/",
+          "https://www.dropbox.com/login",
+          "https://marketing.dropbox.com/login",
+          "https://app.sign.dropbox.com/",
+          "https://aem.dropbox.com/en-us/features/cloud-storage",
+          "https://help.dropbox.com/account-access/sign-in-out",
+          "https://help.dropbox.com/installs/download-dropbox",
+          "https://apps.apple.com/us/app/dropbox-cloud-storage-backup/id327630330",
+          "https://en.wikipedia.org/wiki/Dropbox",
+          "https://www.youtube.com/watch?v=uGKnc6zVluw"
+        ],
+        "candidates": [
+          "aem.dropbox.com",
+          "app.sign.dropbox.com",
+          "apps.apple.com",
+          "dropbox.com",
+          "en.wikipedia.org",
+          "help.dropbox.com",
+          "marketing.dropbox.com",
+          "www.dropbox.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DtDNS/DtDNS.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DtDNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://translate.google.com/",
+          "https://translate.google.com/details",
+          "https://translate.google.com/intl/hr/about/",
+          "https://translate.google.com/intl/ar/about/",
+          "https://translate.google.com/intl/es-419/about/",
+          "https://translate.google.com/intl/ro/about/",
+          "https://translate.google.com/websitetranslationui",
+          "https://translate.google.com/intl/es/about/",
+          "https://translate.google.com/intl/sl/about/",
+          "https://translate.google.com/intl/en-GB/about/"
+        ],
+        "candidates": [
+          "translate.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dubox/Dubox.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Dubox",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.debtconsolidationcare.com/blog/women-vs-men-in-investments",
+          "https://www.debtconsolidationcare.com/blog/women-managing-money",
+          "https://www.debtconsolidationcare.com/forum",
+          "https://www.debtconsolidationcare.com/contactus",
+          "https://www.debtconsolidationcare.com/bankruptcy",
+          "https://www.debtconsolidationcare.com/tools",
+          "https://www.debtconsolidationcare.com/affiliate",
+          "https://www.debtconsolidationcare.com/scam",
+          "https://www.debtconsolidationcare.com/negotiation",
+          "https://www.debtconsolidationcare.com/forum/student/loan-interest-payment.html"
+        ],
+        "candidates": [
+          "www.debtconsolidationcare.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Duckduckgo/Duckduckgo.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "Duckduckgo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://duckduckgo.com/",
+          "https://duckduckgo.com/app",
+          "https://dd53jyxmgchu8.cloudfront.net/",
+          "https://noai.duckduckgo.com/",
+          "https://duckduckgo.com/windows",
+          "https://duckduckgo.com/about",
+          "https://en.wikipedia.org/wiki/DuckDuckGo",
+          "https://duck.ai/",
+          "https://gizmodo.com/download/duckduckgo",
+          "https://fr.wikipedia.org/wiki/DuckDuckGo"
+        ],
+        "candidates": [
+          "dd53jyxmgchu8.cloudfront.net",
+          "duck.ai",
+          "duckduckgo.com",
+          "en.wikipedia.org",
+          "fr.wikipedia.org",
+          "gizmodo.com",
+          "noai.duckduckgo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DuoWan/DuoWan.list": {
+        "checked_at": "2026-10-27 17:22 UTC",
+        "name": "DuoWan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://ukstore.thebeatles.com/collections",
+          "https://ukstore.thebeatles.com/products/revolver-vinyl-4lp-7-single-box-set",
+          "https://usastore.thebeatles.com/collections/outerwear",
+          "https://www.thebeatles.com/",
+          "https://usastore.thebeatles.com/collections/limited-edition-music",
+          "https://www.thebeatles.com/beatles-sale",
+          "https://3savilerow.thebeatles.com/",
+          "https://ukstore.thebeatles.com/collections/t-shirts-tops",
+          "https://ukstore.thebeatles.com/collections/yellow-submarine",
+          "https://usastore.thebeatles.com/"
+        ],
+        "candidates": [
+          "3savilerow.thebeatles.com",
+          "ukstore.thebeatles.com",
+          "usastore.thebeatles.com",
+          "www.thebeatles.com"
         ],
         "accepted": [],
         "ownership_evidence": []
