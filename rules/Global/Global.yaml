@@ -1,8 +1,8 @@
 # 名称：Global
-# 来源核对日期：2026-10-26 02:58 UTC
-# 规则总数：29732
-# domain: 127
-# domain-suffix: 29451
+# 来源核对日期：2026-10-28 03:46 UTC
+# 规则总数：29743
+# domain: 129
+# domain-suffix: 29460
 # domain-keyword: 35
 # ip-cidr: 119
 # geoip: 0
@@ -136,6 +136,8 @@ rules:
   - domain,zftksc.cdn-settings.appsflyersdk.com
   - domain,zftksc.launches.appsflyersdk.com
   - domain,ztedevices.com
+  - domain,dc.services.visualstudio.com
+  - domain,rt.services.visualstudio.com
   - domain-suffix,000webhost.com
   - domain-suffix,01.org
   - domain-suffix,02weqj32.com
@@ -29587,6 +29589,15 @@ rules:
   - domain-suffix,po-kaki-to.com
   - domain-suffix,tipatipa.xyz
   - domain-suffix,zozovideo.com
+  - domain-suffix,addtodropbox.com
+  - domain-suffix,dash.ai
+  - domain-suffix,docsend.com
+  - domain-suffix,dropboxexperiment.com
+  - domain-suffix,dropboxlegal.com
+  - domain-suffix,dropboxteam.com
+  - domain-suffix,hellofax.com
+  - domain-suffix,hellosign.com
+  - domain-suffix,librewolf.dev
   - domain-keyword,1drv
   - domain-keyword,1e100
   - domain-keyword,abema

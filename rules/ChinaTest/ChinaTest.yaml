@@ -1,8 +1,8 @@
 # 名称：ChinaTest
-# 来源核对日期：2026-10-26 02:58 UTC
-# 规则总数：110360
+# 来源核对日期：2026-10-28 03:46 UTC
+# 规则总数：110362
 # domain: 92
-# domain-suffix: 110245
+# domain-suffix: 110247
 # domain-keyword: 8
 # ip-cidr: 15
 # geoip: 0
@@ -110346,6 +110346,8 @@ rules:
   - domain-suffix,uniminnovation.com
   - domain-suffix,ycbeyond.com
   - domain-suffix,yuanmancang.com
+  - domain-suffix,filmorigin.com
+  - domain-suffix,kakaxing.com
   - domain-keyword,alicdn
   - domain-keyword,alipay
   - domain-keyword,aliyun
