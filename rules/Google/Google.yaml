@@ -1,7 +1,7 @@
 # 名称：Google
-# 来源核对日期：2026-10-25 18:01 UTC
-# 规则总数：695
-# domain: 1
+# 来源核对日期：2026-10-29 04:09 UTC
+# 规则总数：700
+# domain: 6
 # domain-suffix: 684
 # domain-keyword: 5
 # ip-cidr: 5
@@ -10,6 +10,11 @@
 # port: 0
 rules:
   - domain,voice.telephony.goog
+  - domain,accounts.google.com
+  - domain,google.com
+  - domain,maps.google.com
+  - domain,ogs.google.com
+  - domain,www.google.com
   - domain-suffix,0emm.com
   - domain-suffix,1e100.net
   - domain-suffix,1ucrs.com

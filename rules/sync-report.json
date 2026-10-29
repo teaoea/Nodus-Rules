@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-28 17:50 UTC",
+  "date": "2026-10-29 04:09 UTC",
   "collections": {
     "rule/Clash/115/115.list": {
       "input": 10,
@@ -11622,8 +11622,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Google/Google.yaml",
-      "rules": 695,
-      "bytes": 22369,
+      "rules": 700,
+      "bytes": 22501,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2026-05-11T18:44:43Z",
       "template_version": 8
@@ -19052,8 +19052,8 @@
   },
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-28 17:50 UTC",
-    "next_index": 288,
+    "checked_at": "2026-10-29 04:09 UTC",
+    "next_index": 312,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -26967,6 +26967,683 @@
           "en.wikipedia.org",
           "www.gettyimages.co.uk",
           "www.gettyimages.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Gigabyte/Gigabyte.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "Gigabyte",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://mail.google.com/mail",
+          "https://accounts.google.com/login?service=mail",
+          "https://accounts.google.com/Login",
+          "https://support.google.com/mail/answer/8494?hl=en&co=genie.platform=desktop",
+          "https://accounts.google.com/?authuser=1",
+          "https://myaccount.google.com/intro/security",
+          "https://myaccount.google.com/",
+          "https://myaccount.google.com/email?pli=1",
+          "https://support.google.com/mail/answer/8494?hl=en-IN&co=GENIE.Platform%3DDesktop",
+          "https://myaccount.google.com/intro/signing-in-to-google"
+        ],
+        "candidates": [
+          "accounts.google.com",
+          "mail.google.com",
+          "myaccount.google.com",
+          "support.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GitBook/GitBook.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GitBook",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gitbook.com/",
+          "https://www.gitbook.com/solutions/public-docs",
+          "https://docs.gitbook.com/",
+          "https://github.com/GitbookIO/gitbook",
+          "https://github.com/gitbookio",
+          "https://security.gitbook.com/",
+          "https://thelinuxcode.com/gitbook-start-using/",
+          "https://aipure.ai/articles/how-to-use-gitbook-a-comprehensive-guide-for-teams",
+          "https://medium.com/beacamp-pub/getting-started-with-gitbook-a-comprehensive-guide-63c8a19fcbb9",
+          "https://www.gitbookstatus.com/"
+        ],
+        "candidates": [
+          "aipure.ai",
+          "docs.gitbook.com",
+          "github.com",
+          "medium.com",
+          "security.gitbook.com",
+          "thelinuxcode.com",
+          "www.gitbook.com",
+          "www.gitbookstatus.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GitHub/GitHub.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GitHub",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://github.com/",
+          "https://github.com/login",
+          "https://github.blog/",
+          "https://x.com/github",
+          "https://www.geeksforgeeks.org/git/what-is-github/",
+          "https://tms-outsource.com/blog/posts/what-is-github/",
+          "https://www.linkedin.com/company/github",
+          "https://github.com/github",
+          "https://desktop.github.com/download/",
+          "https://github.com/search"
+        ],
+        "candidates": [
+          "desktop.github.com",
+          "github.blog",
+          "github.com",
+          "tms-outsource.com",
+          "www.geeksforgeeks.org",
+          "www.linkedin.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GitLab/GitLab.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GitLab",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://gitlab.com/users/sign_in",
+          "https://gitlab.com/gitlab-org/gitlab",
+          "https://about.gitlab.com/",
+          "https://dev.gitlab.org/users/sign_in",
+          "https://en.wikipedia.org/wiki/GitLab",
+          "https://about.gitlab.com/pricing/",
+          "https://docs.gitlab.com/",
+          "https://support.gitlab.com/hc/en-us",
+          "https://dev.gitlab.org/gitlab",
+          "https://en.wikipedia.org/wiki/GitLab_Inc."
+        ],
+        "candidates": [
+          "about.gitlab.com",
+          "dev.gitlab.org",
+          "docs.gitlab.com",
+          "en.wikipedia.org",
+          "gitlab.com",
+          "gitlab.org",
+          "support.gitlab.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Gitee/Gitee.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "Gitee",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://gitee.com/",
+          "https://gitee.com/indexpage",
+          "https://en.wikipedia.org/wiki/Gitee",
+          "https://m.gitee.com/login",
+          "https://gitee.com/login.html",
+          "https://gitee.com/explore",
+          "https://gitee.com/.......&"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "gitee.com",
+          "m.gitee.com",
+          "oschina.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Global/Global.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "Global",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://globle-game.com/",
+          "https://www.global.com.au/",
+          "https://www.merriam-webster.com/dictionary/global",
+          "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry",
+          "https://www.thefreedictionary.com/global",
+          "https://dictionary.cambridge.org/dictionary/english/global",
+          "https://en.wikipedia.org/wiki/Global",
+          "https://www.globaltv.com/",
+          "https://www.definitions.net/definition/Global",
+          "https://www.globalp.com/"
+        ],
+        "candidates": [
+          "definitions.net",
+          "dictionary.cambridge.org",
+          "en.wikipedia.org",
+          "globle-game.com",
+          "www.cbp.gov",
+          "www.definitions.net",
+          "www.global.com.au",
+          "www.globalp.com",
+          "www.globaltv.com",
+          "www.merriam-webster.com",
+          "www.thefreedictionary.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GlobalMedia/GlobalMedia.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GlobalMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.mlb.com/braves",
+          "https://en.wikipedia.org/wiki/Atlanta_Braves",
+          "https://www.mlb.com/braves/roster/",
+          "https://www.yardbarker.com/mlb/teams/atlanta_braves/2",
+          "https://www.espn.com/mlb/team/_/name/atl/atlanta-braves",
+          "https://www.batterypower.com/",
+          "https://bleacherreport.com/atlanta-braves"
+        ],
+        "candidates": [
+          "bleacherreport.com",
+          "en.wikipedia.org",
+          "mlb.com",
+          "www.batterypower.com",
+          "www.espn.com",
+          "www.mlb.com",
+          "www.yardbarker.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GlobalScholar/GlobalScholar.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GlobalScholar",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.accuweather.com/en/us/troutville/24175/hourly-weather-forecast/2220311",
+          "https://weather.com/weather/today/l/Troutville+VA?canonicalCityId=5da8a07ba66270cc84e63b798244e156",
+          "https://www.wunderground.com/forecast/us/va/troutville/24175",
+          "https://weather.com/us/virginia/troutville/postcode/24175/tenday",
+          "https://www.accuweather.com/en/us/troutville/24175/weather-forecast/2220311",
+          "https://www.weatherworld.com/14dayweather/va/troutville.html",
+          "https://www.wunderground.com/weather/us/va/trinity/24175",
+          "https://www.foxweather.com/local-weather/virginia/troutville",
+          "https://www.weatherbug.com/weather-forecast/10-day-weather/troutville-va-24175",
+          "https://forecast.weather.gov/zipcity.php?inputstring=21773"
+        ],
+        "candidates": [
+          "forecast.weather.gov",
+          "weather.com",
+          "weatherworld.com",
+          "www.accuweather.com",
+          "www.foxweather.com",
+          "www.weatherbug.com",
+          "www.weatherworld.com",
+          "www.wunderground.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GlobalSign/GlobalSign.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GlobalSign",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.globalsign.com/en",
+          "https://www.globalsign.com/en/document-signing",
+          "https://shop.globalsign.com/en",
+          "https://en.wikipedia.org/wiki/GlobalSign",
+          "https://shop.globalsign.com/en/ssl",
+          "https://support.globalsign.com/account-finance/account-management/account-login-account-management",
+          "https://support.globalsign.com/",
+          "https://www.globalsign.com/en/company",
+          "https://support.globalsign.com/ca-certificates/globalsign-root-certificates",
+          "https://www.globalsign.com/en/products"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "shop.globalsign.com",
+          "support.globalsign.com",
+          "www.globalsign.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Gog/Gog.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "Gog",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gog.com/",
+          "https://www.gog.com/galaxy",
+          "https://www.google.com/",
+          "https://login.gog.com/login",
+          "https://en.wikipedia.org/wiki/GOG.com",
+          "https://login.gog.com/auth?client_id=46899977096215655&layout=client2&redirect_uri=__REDIRECT_URI__&response_type=code",
+          "https://www.gog.com/en/games",
+          "https://www.gog.com/en/promo/free_games",
+          "https://www.gog.com/games&",
+          "https://apps.microsoft.com/detail/xpffxw40w60kcf"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "gog.com",
+          "login.gog.com",
+          "www.gog.com",
+          "www.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Google/Google.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "Google",
+        "status": "checked",
+        "sources": [
+          "https://www.google.com/",
+          "https://www.google.com.nf/webhp?gl=nf&hl=en&gws_rd=cr&pws=0",
+          "https://accounts.google.com/",
+          "https://en.wikipedia.org/wiki/Google",
+          "https://search.google/",
+          "https://search.google/intl/en-IN/",
+          "https://ogs.google.com/widget/empty",
+          "https://www.google.co.uk/chrome/",
+          "https://maps.google.com/",
+          "https://accounts.google.com/?authuser=1"
+        ],
+        "candidates": [
+          "accounts.google.com",
+          "en.wikipedia.org",
+          "google.com",
+          "maps.google.com",
+          "ogs.google.com",
+          "search.google",
+          "www.google.co.uk",
+          "www.google.com",
+          "www.google.com.nf"
+        ],
+        "accepted": [
+          "accounts.google.com",
+          "google.com",
+          "maps.google.com",
+          "ogs.google.com",
+          "www.google.com"
+        ],
+        "ownership_evidence": [
+          "https://www.google.com/"
+        ]
+      },
+      "GoogleDrive/GoogleDrive.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GoogleDrive",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://drive.google.com/",
+          "https://workspace.google.com/products/drive/",
+          "https://www.google.com/intx/en/drive/download/",
+          "https://drive.google.com/drive/my-drive?hl=in",
+          "https://drive.google.com/drive/?hl=es",
+          "https://support.google.com/drive/answer/10838124?hl=en",
+          "https://www.google.com/intx/en-GB/drive/",
+          "https://myaccount.google.com/",
+          "https://www.about.google/drive/",
+          "https://support.google.com/a/users/answer/13022292?hl=en"
+        ],
+        "candidates": [
+          "drive.google.com",
+          "myaccount.google.com",
+          "support.google.com",
+          "workspace.google.com",
+          "www.about.google",
+          "www.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GoogleEarth/GoogleEarth.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GoogleEarth",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://earth.google.com/web",
+          "https://earth.google.com/intl/en-US/",
+          "https://www.google.com/earth/about/versions/",
+          "https://earth.google.com/web/home",
+          "https://earth.google.com/intl/earth/versions/",
+          "https://earth.google.com/download/ge/agree.html",
+          "https://www.google.com/intl/en_us/earth/versions/",
+          "https://earth.google.es/",
+          "https://www.google.de/intl/de/earth/index.html",
+          "https://www.techspot.com/downloads/1018-google-earth.html"
+        ],
+        "candidates": [
+          "earth.google.com",
+          "earth.google.es",
+          "www.google.com",
+          "www.google.de",
+          "www.techspot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GoogleFCM/GoogleFCM.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GoogleFCM",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nytimes.com/athletic/7730332/2026/10/27/malik-beasley-guilty-plea-illegal-sports-gambling-nba/",
+          "https://abcnews.com/US/former-nba-player-malik-beasley-plead-guilty-federal/story?id=137540820",
+          "https://www.msn.com/en-us/news/other/malik-beasley-agrees-to-plead-guilty-to-gambling-charges/ar-AA2gdW23",
+          "https://nypost.com/2026/10/28/sports/malik-beasley-agrees-to-plead-guilty-for-role-in-gambling-scandal/",
+          "https://www.usatoday.com/story/sports/nba/2026/10/27/malik-beasley-plead-guilty-gambling-charges/92466104007/",
+          "https://people.com/ex-nba-player-malik-beasley-to-plead-guilty-in-sports-betting-case-12197567",
+          "https://www.cbssports.com/nba/news/malik-beasley-plea-deal-department-of-justice-illegal-sports-betting/",
+          "https://sports.yahoo.com/nba/article/ex-nba-guard-malik-beasley-to-plead-guilty-after-involvement-in-gambling-scheme-201748994.html",
+          "https://www.covers.com/industry/malik-beasley-will-plead-guilty-to-rigging-nba-games-oct-28-2026",
+          "https://www.hoopsrumors.com/2026/10/malik-beasley-to-plead-guilty-in-sports-gambling-case.html"
+        ],
+        "candidates": [
+          "abcnews.com",
+          "nypost.com",
+          "people.com",
+          "sports.yahoo.com",
+          "www.cbssports.com",
+          "www.covers.com",
+          "www.hoopsrumors.com",
+          "www.msn.com",
+          "www.nytimes.com",
+          "www.usatoday.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GoogleSearch/GoogleSearch.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GoogleSearch",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.google.com/xhtml/search",
+          "https://search.google/",
+          "https://accounts.google.com/InteractiveLogin?service=safesearchlock",
+          "https://www.google.com.ai/webhp?gl=ai&hl=en-GB&gws_rd=cr&pws=0",
+          "https://search.google/intl/en-IN/",
+          "https://ogs.google.com/widget/empty",
+          "https://support.google.com/websearch/?Hl=en",
+          "https://en.wikipedia.org/wiki/Google_Search",
+          "https://search.google.com/search-console/about",
+          "https://www.google.com/intl/en_us/search/howsearchworks/"
+        ],
+        "candidates": [
+          "accounts.google.com",
+          "en.wikipedia.org",
+          "google.com",
+          "ogs.google.com",
+          "search.google",
+          "search.google.com",
+          "support.google.com",
+          "www.google.com",
+          "www.google.com.ai"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GoogleVoice/GoogleVoice.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GoogleVoice",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://voice.google.com/",
+          "https://voice.google.com/regain",
+          "https://support.google.com/voice/answer/1065750?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/voice/answer/115061?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://play.google.com/store/apps/details?id=com.google.android.apps.googlevoice&hl=en-US",
+          "https://support.google.com/voice/answer/1065750?hl=en&co=GENIE.Platform%3DAndroid",
+          "https://support.google.com/voice/answer/115061?hl=en&co=GENIE.Platform=Android",
+          "https://support.google.com/voice/?hl=en",
+          "https://www.wikihow.com/Get-a-Google-Voice-Phone-Number",
+          "https://apps.apple.com/us/app/google-voice/id318698524"
+        ],
+        "candidates": [
+          "apps.apple.com",
+          "play.google.com",
+          "support.google.com",
+          "voice.google.com",
+          "www.wikihow.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GovCN/GovCN.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GovCN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://stackoverflow.com/questions/550826/translate-linq-to-sql-statement",
+          "https://support.google.com/translate/answer/6350850?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://stackoverflow.com/questions/9628507/how-can-i-tell-google-translate-to-not-translate-a-section-of-a-website",
+          "https://www.reddit.com/r/languagelearning/comments/16xspex/what_makes_deepl_better_than_google_translate/",
+          "https://support.google.com/translate/?hl=en",
+          "https://www.reddit.com/r/languagelearning/comments/1b6i2gq/has_anyone_found_if_google_gemini_is_better_than/",
+          "https://ja.stackoverflow.com/questions/35504/transformtranslate10%E3%81%A8%E3%81%99%E3%82%8B%E3%81%A8%E3%81%9A%E3%82%8C%E3%82%8B",
+          "https://stackoverflow.com/questions/46184458/transform-translate-50-50",
+          "https://stackoverflow.com/questions/34293875/how-to-remove-punctuation-marks-from-a-string-in-python-3-x-using-translate",
+          "https://stackoverflow.com/questions/45870513/angular-ngx-translate-usage-in-typescript"
+        ],
+        "candidates": [
+          "c.city",
+          "c.country",
+          "ja.stackoverflow.com",
+          "stackoverflow.com",
+          "str.translate",
+          "support.google.com",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Gucci/Gucci.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "Gucci",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gucci.com/us/en/",
+          "https://www.gucci.com/",
+          "https://www.nordstrom.com/brands/gucci--3506",
+          "https://en.wikipedia.org/wiki/Guccio_Gucci",
+          "https://www.nordstromrack.com/brands/gucci",
+          "https://www.saksfifthavenue.com/brand/gucci",
+          "https://www.macys.com/shop/brands/gucci?id=337791",
+          "https://www.gucci.com/int/en/",
+          "https://www.gucci.com/us/en/nst/gucci-outlet",
+          "https://www.gucci.com/us/en/ca/women/handbags-c-women-handbags"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "www.gucci.com",
+          "www.macys.com",
+          "www.nordstrom.com",
+          "www.nordstromrack.com",
+          "www.saksfifthavenue.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GuiGuDongLi/GuiGuDongLi.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "GuiGuDongLi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.visitdubai.com/ar",
+          "https://www.visitdubai.com/ar/travel-trade/plan-your-trip/visa-guide",
+          "https://booking.visitdubai.com/ar/deals-and-offers",
+          "https://dsfmap.visitdubai.com/",
+          "https://www.visitdubai.com/ar/festivals-and-events/dsf",
+          "https://www.visitdubai.com/ar/places-to-visit/dubai-mall",
+          "https://www.visitdubai.com/ar/festivals-and-events",
+          "https://www.visitdubai.com/ar/things-to-do/dubai-attractions",
+          "https://www.visitdubai.com/ar/explore-dubai/about-dubai",
+          "https://www.visitdubai.com/ar/places-to-visit/al-fahidi-historical-neighbourhood"
+        ],
+        "candidates": [
+          "booking.visitdubai.com",
+          "dsfmap.visitdubai.com",
+          "www.visitdubai.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HBO/HBO.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "HBO",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hbomax.com/",
+          "https://www.hbo.com/",
+          "https://www.hbomax.com/login",
+          "https://www.hbo.com/schedule",
+          "https://webos.play-hbo.max.com/",
+          "https://link.hbonow.com/",
+          "https://en.wikipedia.org/wiki/HBO",
+          "https://help.hbomax.com/us-en/Home/Index",
+          "https://help.hbomax.com/US/Answer/Detail/000002547",
+          "https://www.tvguide.com/news/best-shows-on-hbo-max/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "help.hbomax.com",
+          "link.hbonow.com",
+          "webos.play-hbo.max.com",
+          "www.hbo.com",
+          "www.hbomax.com",
+          "www.tvguide.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HBOAsia/HBOAsia.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "HBOAsia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/0",
+          "https://www.britannica.com/science/zero-mathematics",
+          "https://simple.wikipedia.org/wiki/0",
+          "https://www.youtube.com/watch?v=ZlsyWhfvvVg",
+          "https://www.mathsisfun.com/numbers/zero.html",
+          "https://www.youtube.com/watch?v=3t54XBsMS8M",
+          "https://brighterly.com/math/zero/"
+        ],
+        "candidates": [
+          "brighterly.com",
+          "en.wikipedia.org",
+          "simple.wikipedia.org",
+          "www.britannica.com",
+          "www.mathsisfun.com",
+          "www.starfall.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HBOHK/HBOHK.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "HBOHK",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.espn.com/mens-college-basketball/team/roster/_/id/194/ohio-state-buckeyes",
+          "https://ohiostatebuckeyes.com/sports/mens-basketball/roster/2025-26",
+          "https://ohiostatebuckeyes.com/sports/mens-basketball/roster/2026-27",
+          "https://www.sports-reference.com/cbb/schools/ohio-state/men/2027.html",
+          "https://cbkalert.com/rosters/ohio-state-buckeyes",
+          "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ohio_State_Buckeyes_men%27s_basketball_team",
+          "https://www.proballers.com/basketball/team/1120/ohio-state-buckeyes/roster",
+          "https://cfbstats.com/2026/team/518/roster.html",
+          "https://www.foxsports.com/college-basketball/ohio-state-buckeyes-team-roster",
+          "https://www.thescore.com/ncaab/teams/808-ohio-state-buckeyes/roster"
+        ],
+        "candidates": [
+          "cbkalert.com",
+          "cfbstats.com",
+          "en.wikipedia.org",
+          "foxsports.com",
+          "ohiostatebuckeyes.com",
+          "sports-reference.com",
+          "www.espn.com",
+          "www.foxsports.com",
+          "www.proballers.com",
+          "www.sports-reference.com",
+          "www.thescore.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HBOUSA/HBOUSA.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "HBOUSA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.speedtest.net/",
+          "https://fast.com/",
+          "https://www.speedtest.org/",
+          "https://www.spectrum.com/internet/speed-test",
+          "https://gfiber.com/speedtest/",
+          "https://speed-test.io/",
+          "https://www.testmyspeed.com/",
+          "https://speed.cloudflare.com/",
+          "https://speed.measurementlab.net/",
+          "https://www.speakeasy.net/speedtest"
+        ],
+        "candidates": [
+          "fast.com",
+          "gfiber.com",
+          "speed-test.io",
+          "speed.cloudflare.com",
+          "speed.measurementlab.net",
+          "speedtest.org",
+          "testmyspeed.com",
+          "www.speakeasy.net",
+          "www.spectrum.com",
+          "www.speedtest.net",
+          "www.speedtest.org",
+          "www.testmyspeed.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HKBN/HKBN.list": {
+        "checked_at": "2026-10-29 04:09 UTC",
+        "name": "HKBN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.timeinlondon.co.uk/",
+          "https://www.worldtimenow.net/time/london/",
+          "https://www.exactlocaltime.com/time-in-london.html",
+          "https://timewithseconds.com/london-time/",
+          "https://www.worldtimeserver.com/current_time_in_GB.aspx?city=London",
+          "https://time.is/London",
+          "https://currenttime.now/london/",
+          "https://www.worldwideclock.com/united-kingdom/london",
+          "https://timeinuk.co.uk/time/london/",
+          "https://www.timeanddate.com/worldclock/uk/london"
+        ],
+        "candidates": [
+          "currenttime.now",
+          "time.is",
+          "timeinuk.co.uk",
+          "timewithseconds.com",
+          "worldtimeserver.com",
+          "www.exactlocaltime.com",
+          "www.timeanddate.com",
+          "www.timeinlondon.co.uk",
+          "www.worldtimenow.net",
+          "www.worldtimeserver.com",
+          "www.worldwideclock.com"
         ],
         "accepted": [],
         "ownership_evidence": []
