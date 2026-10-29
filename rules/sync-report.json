@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-29 04:09 UTC",
+  "date": "2026-10-29 17:58 UTC",
   "collections": {
     "rule/Clash/115/115.list": {
       "input": 10,
@@ -19052,8 +19052,8 @@
   },
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-29 04:09 UTC",
-    "next_index": 312,
+    "checked_at": "2026-10-29 17:58 UTC",
+    "next_index": 336,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -27644,6 +27644,650 @@
           "www.worldtimenow.net",
           "www.worldtimeserver.com",
           "www.worldwideclock.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HKOpenTV/HKOpenTV.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HKOpenTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://frontier.com/",
+          "https://frontier.com/login/",
+          "https://frontier.com/helpcenter/billing/how-to-pay-your-bill",
+          "https://go.frontier.com/availability/az/show-low",
+          "https://go.frontier.com/availability/sc/north-myrtle-beach",
+          "https://go.frontier.com/internet/equipment",
+          "https://frontier.com/helpcenter/internet/troubleshooting/check-for-service-outages",
+          "https://frontier.com/shop/phone",
+          "https://frontier.com/helpcenter",
+          "https://frontier.com/helpcenter/account/how-to-return-frontier-equipment"
+        ],
+        "candidates": [
+          "frontier.com",
+          "go.frontier.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HKedcity/HKedcity.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HKedcity",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dgisupply.com/",
+          "https://www.dgisupply.com/all-brands",
+          "https://www.dgisupply.com/about",
+          "https://www.dgisupply.com/help/contact",
+          "https://www.dgisupply.com/product",
+          "https://www.dgisupply.com/help/locations",
+          "https://www.linkedin.com/company/dgi-supply",
+          "https://www.dgisupply.ca/product",
+          "https://www.dgisupply.ca/",
+          "https://dgisupplydev.com/product"
+        ],
+        "candidates": [
+          "dgisupplydev.com",
+          "www.dgisupply.ca",
+          "www.dgisupply.com",
+          "www.linkedin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HP/HP.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hp.com/us-en/home.html",
+          "https://support.hp.com/us-en",
+          "https://support.hp.com/us-en/drivers",
+          "https://www.hp.com/us-en/shop",
+          "https://account.id.hp.com/",
+          "https://www.hpsmart.com/en",
+          "https://reinvent.hp.com/American-Brand",
+          "https://en.wikipedia.org/wiki/HP_Inc.",
+          "https://instantink.hpconnected.com/us/en/l/v2",
+          "https://123.hp.com/us/en/"
+        ],
+        "candidates": [
+          "123.hp.com",
+          "account.id.hp.com",
+          "en.wikipedia.org",
+          "hp.com",
+          "instantink.hpconnected.com",
+          "reinvent.hp.com",
+          "support.hp.com",
+          "www.hp.com",
+          "www.hpsmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HWTV/HWTV.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HWTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.timeanddate.com/worldclock/usa/florida",
+          "https://24timezones.com/Florida/time",
+          "https://time.is/Florida",
+          "https://www.worldometers.info/time/florida-united-states/",
+          "https://www.timeanddate.com/worldclock/usa/orlando",
+          "https://time.now/state/florida-us/",
+          "https://en.true-time.com/us-fl/",
+          "https://timedate.now/state/florida/",
+          "https://time.is/Miami",
+          "https://en.m.wikipedia.org/wiki/Time_in_Florida"
+        ],
+        "candidates": [
+          "24timezones.com",
+          "en.m.wikipedia.org",
+          "en.true-time.com",
+          "time.is",
+          "time.now",
+          "timeanddate.com",
+          "timedate.now",
+          "www.timeanddate.com",
+          "www.worldometers.info"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HaiNanHangKong/HaiNanHangKong.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HaiNanHangKong",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://github.com/",
+          "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
+          "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+          "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/sudo-mode",
+          "https://github.com/orgs/github/repositories",
+          "https://github.com/beeradmoore/dlss-swapper",
+          "https://github.com/features/actions",
+          "https://github.com/github",
+          "https://github.com/maboloshi/github-chinese",
+          "https://github.com/clashbk/clash"
+        ],
+        "candidates": [
+          "docs.github.com",
+          "github.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HamiVideo/HamiVideo.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HamiVideo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.slcc.edu/",
+          "https://my.slcc.edu/Welcome/",
+          "https://catalog.slcc.edu/",
+          "https://i.slcc.edu/",
+          "https://www.slcc.edu/academics/programs/index.aspx",
+          "https://www.slcc.edu/locations/index.asp",
+          "https://www.slcc.edu/admissions/",
+          "https://slcc.catalog.acalog.com/misc/catalog_list.php?catoid=1",
+          "https://en.wikipedia.org/wiki/Salt_Lake_Community_College",
+          "https://www.slcc.edu/future/index.aspx"
+        ],
+        "candidates": [
+          "catalog.slcc.edu",
+          "en.wikipedia.org",
+          "help.desk",
+          "i.slcc.edu",
+          "international.affairs",
+          "my.slcc.edu",
+          "slcc.catalog.acalog.com",
+          "slcc.edu",
+          "www.slcc.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HanYi/HanYi.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HanYi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.tenforums.com/threads/rdc-connect-remotely-to-your-windows-10-pc.3982/",
+          "https://www.tenforums.com/threads/remove-computer-entries-from-remote-desktop-connection-in-windows-10.92715/",
+          "https://www.tenforums.com/threads/remove-remote-desktop-connection-in-remote-desktop-app-on-windows-10.110546/",
+          "https://www.tenforums.com/network-sharing/163323-attempting-use-wi-fi-safe-mode-networking.html",
+          "https://www.tenforums.com/tutorials/129826-allow-prevent-users-groups-log-remote-desktop.html",
+          "https://www.tenforums.com/threads/create-remote-desktop-connection-shortcut-for-specific-pc-in-windows.92579/",
+          "https://www.tenforums.com/threads/add-remote-desktop-connection-in-remote-desktop-app-on-windows-10-pc.110540/",
+          "https://www.tenforums.com/threads/allow-or-prevent-users-and-groups-to-log-on-with-remote-desktop.129826/",
+          "https://www.tenforums.com/threads/save-remote-desktop-connection-settings-to-rdp-file-in-windows.92781/",
+          "https://www.tenforums.com/threads/use-local-devices-and-resources-on-hyper-v-virtual-machine-in-windows.58091/"
+        ],
+        "candidates": [
+          "mstsc.exe",
+          "www.tenforums.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HashiCorp/HashiCorp.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HashiCorp",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hashicorp.com/",
+          "https://en.wikipedia.org/wiki/HashiCorp",
+          "https://www.hashicorp.com/en/about",
+          "https://www.ibm.com/products/hashicorp",
+          "https://developer.hashicorp.com/terraform",
+          "https://github.com/hashicorp",
+          "https://developer.hashicorp.com/",
+          "https://registry.terraform.io/namespaces/hashicorp",
+          "https://www.hashicorp.com/en/cloud",
+          "https://www.hashicorp.com/en/products/vault"
+        ],
+        "candidates": [
+          "developer.hashicorp.com",
+          "en.wikipedia.org",
+          "github.com",
+          "registry.terraform.io",
+          "www.hashicorp.com",
+          "www.ibm.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Haveibeenpwned/Haveibeenpwned.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "Haveibeenpwned",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://haveibeenpwned.com/",
+          "https://haveibeenpwned.com/PwnedWebsites?web=1",
+          "https://en.wikipedia.org/wiki/Have_I_Been_Pwned%3F",
+          "https://www.reddit.com/r/privacy/comments/12eavyf/how_safe_is_haveibeenpwnedcom/",
+          "https://haveibeenpwned.com/Passwords",
+          "https://haveibeenbreached.com/",
+          "https://haveibeenpwned.com/Subscription",
+          "https://www.cloaked.com/",
+          "https://support.haveibeenpwned.com/hc/en-au",
+          "https://www.wikihow.com/Use-Have-I-Been-Pwned"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "haveibeenbreached.com",
+          "haveibeenpwned.com",
+          "support.haveibeenpwned.com",
+          "www.cloaked.com",
+          "www.reddit.com",
+          "www.wikihow.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HeMa/HeMa.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HeMa",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hema.com/",
+          "https://en.m.wikipedia.org/wiki/Historical_European_martial_arts",
+          "https://www.hemaalliance.com/",
+          "https://www.historicaleuropeanmartialarts.com/",
+          "https://www.hemaalliance.com/club-finders",
+          "https://www.reddit.com/r/Hema/",
+          "https://en.m.wikipedia.org/wiki/HEMA_(store)",
+          "https://www.woodenswords.com/",
+          "https://www.hema.nl/i/department-store",
+          "https://corporate.hema.com/en/about-us/"
+        ],
+        "candidates": [
+          "corporate.hema.com",
+          "en.m.wikipedia.org",
+          "www.hema.com",
+          "www.hema.nl",
+          "www.hemaalliance.com",
+          "www.historicaleuropeanmartialarts.com",
+          "www.reddit.com",
+          "www.woodenswords.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hearthstone/Hearthstone.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "Hearthstone",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://hearthstone.blizzard.com/",
+          "https://hearthstone.blizzard.com/en-us/news/",
+          "https://www.reddit.com/r/hearthstone/wiki/index/",
+          "https://www.hearthstone.com/",
+          "https://us.shop.battle.net/en-us/product/hearthstone",
+          "https://en.wikipedia.org/wiki/Hearthstone",
+          "https://hsreplay.net/meta/",
+          "https://us.shop.battle.net/en-us/family/hearthstone",
+          "https://www.hearthstonestoves.com/",
+          "https://hsreplay.net/decks/"
+        ],
+        "candidates": [
+          "battle.net",
+          "en.wikipedia.org",
+          "hearthstone.blizzard.com",
+          "hsreplay.net",
+          "us.shop.battle.net",
+          "www.hearthstone.com",
+          "www.hearthstonestoves.com",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HeroesoftheStorm/HeroesoftheStorm.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HeroesoftheStorm",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.sos.ca.gov/elections/voter-registration/vote-mail",
+          "https://elections.cdn.sos.ca.gov/pdfs/trusted-info/vbm-faq.pdf",
+          "https://elections.cdn.sos.ca.gov/pdfs/vbm-faqs.pdf",
+          "https://ocvote.gov/faqs/ballot-pickup-faqs",
+          "https://oag.ca.gov/news/press-releases/attorney-general-bonta-issues-bulletin-third-party-collection-voter-ballots-and",
+          "https://factually.co/fact-checks/politics/california-return-ballot-for-someone-else-signature-requirements-403cd0",
+          "https://www.abc10.com/article/news/politics/elections/ballot-harvesting-california/103-8268f222-d39e-422a-8819-55b3fda682d7",
+          "https://www.sos.ca.gov/elections/voting-info/ways-vote",
+          "https://www.stateregstoday.com/politics/election-and-voting/absentee-and-mail-in-voting-procedures-in-california",
+          "https://voterhelpdesk.usvotefoundation.org/en/support/solutions/articles/151000049131-what-if-i-can-t-fill-out-and-sign-my-ballot-myself-"
+        ],
+        "candidates": [
+          "abc10.com",
+          "elections.cdn.sos.ca.gov",
+          "factually.co",
+          "oag.ca.gov",
+          "ocvote.gov",
+          "voterhelpdesk.usvotefoundation.org",
+          "www.abc10.com",
+          "www.sos.ca.gov",
+          "www.stateregstoday.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Heroku/Heroku.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "Heroku",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.heroku.com/",
+          "https://id.heroku.com/login",
+          "https://www.heroku.com/platform/",
+          "https://en.wikipedia.org/wiki/Heroku",
+          "https://signup.heroku.com/",
+          "https://devcenter.heroku.com/articles/how-heroku-works",
+          "https://www.salesforce.com/heroku/",
+          "https://devcenter.heroku.com/articles/heroku-cli",
+          "https://www.heroku.com/what/",
+          "https://www.heroku.com/pricing/"
+        ],
+        "candidates": [
+          "devcenter.heroku.com",
+          "en.wikipedia.org",
+          "id.heroku.com",
+          "node.js",
+          "signup.heroku.com",
+          "www.heroku.com",
+          "www.salesforce.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HibyMusic/HibyMusic.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HibyMusic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://community.ebay.com/forum/shipping-57923/topic/ups-account-number-for-ebay-account-442096/",
+          "https://community.ebay.com/forum/selling-57920/topic/buyer-didnt-receive-item-but-tracking-shows-it-was-delivered-444629/",
+          "https://community.ebay.com/forum/buying-57914/topic/how-exactly-to-beat-the-fake-tracking-number-scam-170307/",
+          "https://community.ebay.com/forum/shipping-57923/",
+          "https://community.ebay.com/forum/announcements-57928/",
+          "https://community.ebay.com/t5/Shipping/Provided-tracking-number-doesn-t-exist-and-the-seller-doesn-t/td-p/32514009/",
+          "https://community.ebay.com/forum/buying-57914/topic/does-anyone-here-know-about-qtrack-having-problems-168091/",
+          "https://community.ebay.com/forum/shipping-57923/topic/how-do-i-reprint-a-shipping-label-or-re-download-a-shipping-qr-code-ebays-help-doesnt-help-102572/",
+          "https://community.ebay.com/forum/ask-a-mentor-57913/topic/how-to-track-esus-tracking-number-230229/"
+        ],
+        "candidates": [
+          "community.ebay.com",
+          "ebay.com",
+          "qtrack.io"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hijacking/Hijacking.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "Hijacking",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.walmart.com/",
+          "https://www.walmart.com/browse",
+          "https://creator.walmart.com/account/login",
+          "https://www.yellowpages.com/weaverville-ca/walmart",
+          "https://corporate.walmart.com/askwalmart/how-do-i-find-information-about-my-local-stores",
+          "https://www.walmart.com/all-departments",
+          "https://www.walmart.com/help/article/pickup-and-delivery/d0d02a5f54e54592930f110aaf6a2f50",
+          "https://www.walmart.com/store-directory",
+          "https://www.nbcnews.com/select/shopping/what-walmart-plus-rcna263677",
+          "https://www.yelp.com/search?find_desc=Walmart&find_loc=Weaverville%2C+CA"
+        ],
+        "candidates": [
+          "corporate.walmart.com",
+          "creator.walmart.com",
+          "walmart.com",
+          "www.nbcnews.com",
+          "www.walmart.com",
+          "www.yellowpages.com",
+          "www.yelp.com",
+          "yp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Himalaya/Himalaya.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "Himalaya",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Himalayas",
+          "https://himalayausa.com/",
+          "https://www.britannica.com/place/Himalayas",
+          "https://himalayawellness.in/",
+          "https://www.himalaya.com/",
+          "https://www.youtube.com/watch?v=nXvnof8fTBc",
+          "https://es.wikipedia.org/wiki/Himalaya",
+          "https://himalayas.app/jobs",
+          "https://www.worldatlas.com/mountains/the-himalayas.html",
+          "https://funworldfacts.com/himalayas/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "es.wikipedia.org",
+          "funworldfacts.com",
+          "himalayas.app",
+          "himalayausa.com",
+          "himalayawellness.in",
+          "www.britannica.com",
+          "www.himalaya.com",
+          "www.worldatlas.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hkgolden/Hkgolden.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "Hkgolden",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ups.com/track?loc=EN_US",
+          "https://www.ups.com/track?loc=en_MY",
+          "https://www.ups.com/track?loc=en_TH",
+          "https://www.ups.com/track?loc=en_GB",
+          "https://www.ups.com/track?loc=en_AE",
+          "https://www.ups.com/gb/en/home",
+          "https://www.ups.com/track?loc=en_SG",
+          "https://es-us.ups.com/track?loc=es_US&requester=ST/",
+          "https://www.ups.com/track?loc=en_VN",
+          "https://www.ups.com/track?loc=en_RO"
+        ],
+        "candidates": [
+          "es-us.ups.com",
+          "www.ups.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HoYoverse/HoYoverse.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HoYoverse",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hoyoverse.com/",
+          "https://account.hoyoverse.com/",
+          "https://www.hoyoverse.com/zh-cn/",
+          "https://genshin.hoyoverse.com/en/",
+          "https://www.hoyolab.com/home",
+          "https://account.hoyoverse.com/?lang=zh-cn",
+          "https://planet.hoyoverse.com/en-us/home",
+          "https://nodusfall.hoyoverse.com/zh-cn/home",
+          "https://www.hoyoverse.com/en/",
+          "https://www.hoyoverse.com/zh-tw/"
+        ],
+        "candidates": [
+          "account.hoyoverse.com",
+          "content.community",
+          "genshin.hoyoverse.com",
+          "nodusfall.hoyoverse.com",
+          "planet.hoyoverse.com",
+          "www.hoyolab.com",
+          "www.hoyoverse.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hpplay/Hpplay.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "Hpplay",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gm-trucks.com/forums/topic/268240-are-there-high-volume-dealers-that-give-substantial-discounts-for-custom-order-silverado-and-sierra/",
+          "https://www.gm-trucks.com/forums/topic/106498-gm-supplier-discount-worth-it/",
+          "https://forums.edmunds.com/discussion/415/general/x/employee-supplier-purchase-programs",
+          "https://forums.edmunds.com/discussion/50970/general/x/has-anyone-received-a-gm-supplier-discount",
+          "https://www.gm-trucks.com/forums/topic/164853-gm-discount-nephews-now-included/",
+          "https://www.gm-trucks.com/forums/topic/154906-supplier-discount-code-do-i-even-bother-with-haggling/",
+          "https://www.gm-trucks.com/forums/topic/154906-supplier-discount-code-do-i-even-bother-with-haggling/page/2/",
+          "https://www.gm-trucks.com/forums/topic/74433-gm-supplier-discount-question/",
+          "https://www.gm-trucks.com/forums/topic/69295-help-i-need-a-gm-supplier-discount/",
+          "https://www.gm-trucks.com/forums/topic/51642-gmid-or-gmsupplier-discount/"
+        ],
+        "candidates": [
+          "forums.edmunds.com",
+          "www.gm-trucks.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuYa/HuYa.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HuYa",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.huya.com/g_ol",
+          "https://www.huya.com/wap/home",
+          "https://www2.huya.com/g/0",
+          "https://m.huya.com/e",
+          "https://v.huya.com/",
+          "https://i.huya.com/",
+          "https://www2.huya.com/download/",
+          "https://hd.huya.com/web/pcexe-channel-download/index.html",
+          "https://tv.huya.com/",
+          "https://m.v.huya.com/"
+        ],
+        "candidates": [
+          "hd.huya.com",
+          "huya.com",
+          "i.huya.com",
+          "m.huya.com",
+          "m.v.huya.com",
+          "tv.huya.com",
+          "v.huya.com",
+          "www.huya.com",
+          "www2.huya.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuaShuTV/HuaShuTV.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HuaShuTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.google.com/drive/",
+          "https://support.google.com/drive/answer/2375012?hl=en-GB&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/drive/answer/6374270?hl=en-gb",
+          "https://stackoverflow.com/questions/64808087/how-do-i-save-files-from-google-colab-to-google-drive",
+          "https://stackoverflow.com/questions/11619805/using-the-google-drive-api-to-download-a-spreadsheet-in-csv-format",
+          "https://www.tenforums.com/threads/add-or-remove-google-drive-from-navigation-pane-in-windows-10.48991/",
+          "https://support.google.com/drive/answer/6374270?hl=iw",
+          "https://support.google.com/drive/answer/2424384?hl=en&co=genie.platform=desktop",
+          "https://support.google.com/drive/answer/1716222?hl=en&co=GENIE.Platform=Android",
+          "https://support.google.com/mail/answer/2487407?hl=en&co=GENIE.Platform%3DDesktop"
+        ],
+        "candidates": [
+          "stackoverflow.com",
+          "support.google.com",
+          "www.google.com",
+          "www.tenforums.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuanJu/HuanJu.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "HuanJu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://support.google.com/docs/answer/6388102?hl=vi&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/a/users/answer/9283133?hl=en",
+          "https://support.google.com/docs/answer/10710316?hl=en",
+          "https://support.google.com/a/users/answer/9300311?hl=en",
+          "https://support.google.com/a/users/answer/9300503?hl=en",
+          "https://support.google.com/docs/answer/9310150?hl=zh-Hans",
+          "https://support.google.com/docs/?hl=ru",
+          "https://support.google.com/docs/thread/99474963/getting-the-message-sorry-unable-to-open-the-file-at-this-time?hl=en",
+          "https://support.google.com/docs/?hl=en",
+          "https://support.google.com/a/users/answer/9300311?hl=fr"
+        ],
+        "candidates": [
+          "support.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Huawei/Huawei.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "Huawei",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.huawei.com/en/",
+          "https://www.huawei.com/fr/",
+          "https://consumer.huawei.com/en/phones/",
+          "https://en.m.wikipedia.org/wiki/HUAWEI",
+          "https://consumer.huawei.com/en/",
+          "https://shop.huawei.com/",
+          "https://fr.m.wikipedia.org/wiki/Huawei",
+          "https://www.lesnumeriques.com/telephone-portable/guide-achat-les-meilleurs-smartphones-huawei-g1.html",
+          "https://m.vmall.com/",
+          "https://e.huawei.com/en/"
+        ],
+        "candidates": [
+          "consumer.huawei.com",
+          "e.huawei.com",
+          "en.m.wikipedia.org",
+          "fr.m.wikipedia.org",
+          "m.vmall.com",
+          "shop.huawei.com",
+          "www.huawei.com",
+          "www.lesnumeriques.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Huffpost/Huffpost.list": {
+        "checked_at": "2026-10-29 17:58 UTC",
+        "name": "Huffpost",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.huffpost.com/news/",
+          "https://en.wikipedia.org/wiki/HuffPost",
+          "https://www.huffpost.com/news/topic/huffpost",
+          "https://www.huffingtonpost.co.uk/",
+          "https://www.huffingtonpost.co.uk/news/",
+          "https://www.huffingtonpost.fr/",
+          "https://simple.wikipedia.org/wiki/HuffPost",
+          "https://www.politico.com/news/huffington-post",
+          "https://www.politico.com/news/the-huffington-post"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "simple.wikipedia.org",
+          "www.huffingtonpost.co.uk",
+          "www.huffingtonpost.fr",
+          "www.huffpost.com",
+          "www.politico.com"
         ],
         "accepted": [],
         "ownership_evidence": []
