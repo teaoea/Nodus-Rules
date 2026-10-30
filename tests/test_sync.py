@@ -129,7 +129,8 @@ class SyncTests(unittest.TestCase):
         self.assertNotIn("%52esolve", rendered)
         self.assertNotIn("For_Clash", rendered)
         self.assertIn("Example.yaml 单独使用。", rendered)
-        self.assertIn("/Example.yaml```", rendered)
+        self.assertIn("/Example.yaml\n```", rendered)
+        self.assertIn("```text\nhttps://", rendered)
 
     def test_yaml_preference_is_scoped_to_directory_and_stem(self):
         from convert import select_sources, preferred_source
@@ -144,6 +145,21 @@ class SyncTests(unittest.TestCase):
         self.assertNotIn(self.folder / "Example.list", sources)
         self.assertEqual(preferred_source(self.folder / "Example_Domain.txt"),
                          self.folder / "Example_Domain.yaml")
+
+    def test_download_urls_use_separate_copyable_code_blocks(self):
+        from convert import render_readme
+        text = ("## Clash\n\n#### 规则链接\n"
+                "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Group/Nested/Example.yaml\n"
+                "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Group/Nested/Example.yaml\n"
+                "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Group/Nested/Example.yaml\n")
+        path = self.folder / "README.md"
+        path.write_text(text)
+        rendered = render_readme(path, self.source / "rule/Clash", self.root).decode()
+        import re
+        blocks = re.findall(r"^```text\n(https://[^\n]+)\n```$", rendered, re.M)
+        self.assertEqual(len(blocks), 3)
+        self.assertTrue(all(url.endswith("/rules/Group/Nested/Example.yaml") for url in blocks))
+        self.assertNotIn("```https://", rendered)
 
     def test_unknown_yaml_structure_fails_closed(self):
         path = self.folder / "Example.yaml"

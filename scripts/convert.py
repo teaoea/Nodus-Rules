@@ -237,7 +237,7 @@ def format_readme(text, name):
             links[group].append(url)
     for title, urls in links.items():
         if urls:
-            parts += ["#### " + title, "\n\n".join("```" + url + "```" for url in urls)]
+            parts += ["#### " + title, "\n\n".join("```text\n" + url + "\n```" for url in urls)]
     children = section("子规则/排除规则")
     if "当前分流规则，已排除以下规则" in children:
         children = children.replace("当前分流规则，未包含其他子规则。", "").strip()
