@@ -267,7 +267,7 @@ def render_readme(file, upstream, root, warnings=None, date=None):
     """按约定格式整理集合 README，下载 URL 对应本仓库实际输出。"""
     text = format_readme(file.read_bytes().decode("utf-8-sig"), file.parent.name)
     country = "中华人民共和国 People's Republic of China"
-    asset = posixpath.relpath("assets/china-label.svg", (root / "rules" / file.parent.relative_to(upstream)).relative_to(root).as_posix())
+    asset = posixpath.relpath("assets/china-label-compact.svg", (root / "rules" / file.parent.relative_to(upstream)).relative_to(root).as_posix())
     marker = "**" + country + "**"
     def country_notice(match):
         body = match[0].replace("【" + marker + "】", "").replace(marker, "")
