@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-30 05:59 UTC",
+  "date": "2026-10-30 17:40 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-30 05:59 UTC",
-    "next_index": 552,
+    "checked_at": "2026-10-30 17:40 UTC",
+    "next_index": 576,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -164207,6 +164207,662 @@
           "www.amazon.com",
           "www.synology.cn",
           "www.synology.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SystemOTA/SystemOTA.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "SystemOTA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://support.microsoft.com/en-us/word/training/collaborate-on-word-documents-with-real-time-co-authoring",
+          "https://learn.microsoft.com/en-us/answers/questions/5345595/does-microsoft-spy-on-the-things-you-are-typing-in",
+          "https://wisechecker.com/how-to-detect-edits-by-other-users-in-real-time-word/",
+          "https://wisechecker.com/how-to-track-co-authors-in-real-time-in-word/",
+          "https://www.groovypost.com/howto/work-together-in-real-time-in-microsoft-office-on-the-web/",
+          "https://en.windowsnoticias.com/Co-authors-in-Word%3A-write-with-others-at-the-same-time-without-stepping-on-each-other%27s-toes./",
+          "https://learn.microsoft.com/en-us/answers/questions/5247217/where-is-the-notification-that-someone-else-is-wor",
+          "https://itigic.com/prevent-microsoft-from-spying-on-you-when-using-word/",
+          "https://support.microsoft.com/en-us/word/training/collaborate-in-word",
+          "https://www.questionai.com/questions-tdaaGGZAz00l/microsoft-word-show-people-editing-adocument-real"
+        ],
+        "candidates": [
+          "en.windowsnoticias.com",
+          "itigic.com",
+          "learn.microsoft.com",
+          "support.microsoft.com",
+          "wisechecker.com",
+          "www.groovypost.com",
+          "www.questionai.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TCL/TCL.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TCL",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://us.tcl.com/",
+          "https://us.tcl.com/collections/all",
+          "https://en.wikipedia.org/wiki/TCL_Technology",
+          "https://tcltv.plus/",
+          "https://www.tcl.com/global/en",
+          "https://support.tcl.com/us",
+          "https://www.tcl.edu/",
+          "https://support.tcl.com/en_US/how-to-purchase-a-tcl-product-online",
+          "https://ecatalogue.tcl.com/",
+          "https://www.tcl.com/in/en"
+        ],
+        "candidates": [
+          "ecatalogue.tcl.com",
+          "en.wikipedia.org",
+          "support.tcl.com",
+          "tcltv.plus",
+          "us.tcl.com",
+          "www.tcl.com",
+          "www.tcl.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TIDAL/TIDAL.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TIDAL",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://tidal.com/",
+          "https://tidal.com/download",
+          "https://desktop.tidal.com/",
+          "https://offer.tidal.com/?lang=en&skipLandingPage=true",
+          "https://dm.tidal.com/",
+          "https://tidal.com/pricing",
+          "https://en.wikipedia.org/wiki/Tidal_(service)",
+          "https://support.tidal.com/hc/en-us/articles/115003671729-Sign-up-for-Tidal",
+          "https://tidal.com/about",
+          "https://offer.tidal.com/?geo=US"
+        ],
+        "candidates": [
+          "account.tidal.com",
+          "desktop.tidal.com",
+          "dm.tidal.com",
+          "en.wikipedia.org",
+          "offer.tidal.com",
+          "support.tidal.com",
+          "tidal.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TVB/TVB.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TVB",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.tvb.com/",
+          "https://tvbanywherena.com/",
+          "https://programme.tvb.com/",
+          "https://programme.tvb.com/jade",
+          "https://www.tvbusa.com/",
+          "https://www.tvbanywhere.com/en/webtv",
+          "https://en.wikipedia.org/wiki/TVB",
+          "https://www.tvb.org/",
+          "https://news.tvb.com/tc",
+          "https://www.tvbanywhere.com/en/tvapp/login?dest=subscription"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "news.tvb.com",
+          "programme.tvb.com",
+          "tvbanywherena.com",
+          "www.tvb.com",
+          "www.tvb.org",
+          "www.tvbanywhere.com",
+          "www.tvbusa.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TVer/TVer.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TVer",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/Cheers/comments/dpd9pb/favourite_cheers_halloween_episode/",
+          "https://www.reddit.com/r/oddlyterrifying/comments/xldwj6/happy_halloween/",
+          "https://www.reddit.com/r/thesims/comments/jlmbjl/happy_halloween_to_celebrate_i_recreated_some_of/",
+          "https://www.reddit.com/r/ffxiv/comments/77iz3v/i_wanna_see_your_halloween_glamours/",
+          "https://www.reddit.com/r/crossdressing/comments/2l4dfp/why_halloween_was_so_great_for_me_storynovel_in/",
+          "https://www.reddit.com/r/malefashionadvice/comments/5ado03/halloween_costume_thread/",
+          "https://www.reddit.com/r/OsuSkins/comments/9rlxcq/hdsd_spowoky_happy_halloween_std/",
+          "https://www.reddit.com/r/Christianity/comments/yikwbs/your_yearly_reminder_that_halloween_isnt_satanic/",
+          "https://www.reddit.com/r/halloween/comments/56ns57/adult_halloween_games/",
+          "https://www.reddit.com/r/halloween/comments/1norv0/halloween_shows_on_youtube_xpost_from/"
+        ],
+        "candidates": [
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TaiKang/TaiKang.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TaiKang",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dell.com/support/kbdoc/en-us/000177325/dell-command-update",
+          "https://www.dell.com/support/kbdoc/en-uk/000177325/dell-command-update",
+          "https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=8dgg4",
+          "https://www.dell.com/support/kbdoc/fr-fr/000177325/dell-command-update",
+          "https://www.dell.com/support/home/en-us/drivers/driversdetails?driverid=jy04x",
+          "https://www.dell.com/support/kbdoc/nl-nl/000177325/dell-command-update",
+          "https://www.dell.com/support/kbdoc/fr-ca/000177325/dell-command-update",
+          "https://www.dell.com/support/kbdoc/zh-cn/000177325/dell-command-update",
+          "https://www.dell.com/support/kbdoc/it-it/000177325/dell-command-update",
+          "https://www.dell.com/support/kbdoc/de-de/000177325/dell-command-update"
+        ],
+        "candidates": [
+          "www.dell.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TaiWanGood/TaiWanGood.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TaiWanGood",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nhl.com/",
+          "https://www.nhl.com/scores",
+          "https://stories.nhl.com/games/6ad6bfbae95d8d9eb80cb484.html",
+          "https://stories.nhl.com/games/6ad6a3afab0926b874ac0d18.html",
+          "https://gamezone.nhl.com/en",
+          "https://media.nhl.com/",
+          "https://records.nhl.com/",
+          "https://www.nhl.com/hurricanes/",
+          "https://www.nhl.com/news/",
+          "https://www.nhl.com/wild/"
+        ],
+        "candidates": [
+          "gamezone.nhl.com",
+          "media.nhl.com",
+          "nhl.com",
+          "nhl.tv",
+          "records.nhl.com",
+          "stories.nhl.com",
+          "www.nhl.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TaiheMusic/TaiheMusic.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TaiheMusic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.uscourts.gov/court-programs/bankruptcy",
+          "https://www.investopedia.com/terms/b/bankruptcy.asp",
+          "https://en.m.wikipedia.org/wiki/Bankruptcy",
+          "https://www.debt.org/bankruptcy/",
+          "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics",
+          "https://bankruptcy.com/",
+          "https://www.investopedia.com/articles/pf/07/bankruptcy.asp",
+          "https://upsolve.org/",
+          "https://bankruptcy.com/what-is-bankruptcy/",
+          "https://www.nolo.com/legal-encyclopedia/filing-for-bankruptcy.html"
+        ],
+        "candidates": [
+          "bankruptcy.com",
+          "debt.org",
+          "en.m.wikipedia.org",
+          "upsolve.org",
+          "www.debt.org",
+          "www.investopedia.com",
+          "www.nolo.com",
+          "www.uscourts.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TapTap/TapTap.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TapTap",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/microsoft-teams/download-app",
+          "https://teams.microsoft.com/v2/download",
+          "https://apps.microsoft.com/detail/xp8bt8dw290mpq?hl=en-US&gl=US",
+          "https://www.microsoft.com/en-us/microsoft-teams/free",
+          "https://go.microsoft.com/fwlink/?linkid=2121418",
+          "https://teams.live.com/free",
+          "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+          "https://microsoft-teams.en.softonic.com/",
+          "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
+          "https://www.techspot.com/downloads/6976-microsoft-teams.html"
+        ],
+        "candidates": [
+          "apps.apple.com",
+          "apps.microsoft.com",
+          "go.microsoft.com",
+          "microsoft-teams.en.softonic.com",
+          "teams.live.com",
+          "teams.microsoft.com",
+          "www.microsoft.com",
+          "www.techspot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TeamViewer/TeamViewer.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TeamViewer",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.teamviewer.com/en/",
+          "https://www.teamviewer.com/en/download/windows/",
+          "https://web.teamviewer.com/Connect",
+          "https://web.teamviewer.com/",
+          "https://service.teamviewer.com/front/en-us/customer",
+          "https://teamviewer.en.softonic.com/",
+          "https://www.techspot.com/downloads/4636-teamviewer.html",
+          "https://en.wikipedia.org/wiki/TeamViewer",
+          "https://www.teamviewer.com/en/solutions/roles/personal-use/",
+          "https://www.teamviewer.com/en-us/global/support/knowledge-base/teamviewer-remote/download-and-installation/download-and-install-teamviewer-remote/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "service.teamviewer.com",
+          "teamviewer.en.softonic.com",
+          "web.teamviewer.com",
+          "www.teamviewer.com",
+          "www.techspot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Teambition/Teambition.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "Teambition",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://help.openai.com/en/collections/3742473-chatgpt",
+          "https://openai.com/zh-Hant/index/chatgpt/",
+          "https://openai.com/de-DE/index/chatgpt/",
+          "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt",
+          "https://platform.openai.com/onboarding",
+          "https://platform.openai.com/onboarding?app=chat&callbackHost=chatgpt.com",
+          "https://community.openai.com/t/work-allowance-exhausted-without-advance-warning/1390444",
+          "https://academy.openai.com/public/clubs/work-users-ynjqu/resources/use-cases-hr",
+          "https://community.openai.com/t/chatgpt-find-discussion-date/75394",
+          "https://status.openai.com/incidents/01JMYB4VC5V3NH8WK2QE4VW3AE"
+        ],
+        "candidates": [
+          "academy.openai.com",
+          "community.openai.com",
+          "help.openai.com",
+          "openai.com",
+          "platform.openai.com",
+          "status.openai.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Teams/Teams.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "Teams",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://teams.microsoft.com/",
+          "https://en.wikipedia.org/wiki/Microsoft_Teams",
+          "https://apps.apple.com/us/app/microsoft-teams/id1113153706",
+          "https://www.microsoft.com/en-us/microsoft-teams/log-in",
+          "https://teams.microsoft.com/convene/meetings?embed=true&isanonymous=true",
+          "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+          "https://dod.teams.microsoft.us/convene/",
+          "https://teams.live.com/free",
+          "https://www.teams.microsoft.com.mcas.ms/_?culture=en-us&country=WW&lm=deeplink&lmsrc=homePageWeb",
+          "https://www.microsoft.com/en-us/microsoft-teams/free"
+        ],
+        "candidates": [
+          "apps.apple.com",
+          "dod.teams.microsoft.us",
+          "en.wikipedia.org",
+          "teams.live.com",
+          "teams.microsoft.com",
+          "teams.microsoft.com.mcas.ms",
+          "www.microsoft.com",
+          "www.teams.microsoft.com.mcas.ms"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Telegram/Telegram.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "Telegram",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://telegram.org/",
+          "https://web.telegram.org/a/get/",
+          "https://desktop.telegram.org/",
+          "https://telegram.me/telegram",
+          "https://web.telegram.org/js/locales/en-us.json",
+          "https://telegram.org/apps",
+          "https://my.telegram.org/",
+          "https://telegram.me/desktop",
+          "https://my.telegram.org/auth?to=sign-in",
+          "https://en.wikipedia.org/wiki/Telegram_(software)"
+        ],
+        "candidates": [
+          "desktop.telegram.org",
+          "en.wikipedia.org",
+          "my.telegram.org",
+          "telegram.me",
+          "telegram.org",
+          "web.telegram.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TelegramNL/TelegramNL.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TelegramNL",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.speedtest.net/",
+          "https://fast.com/",
+          "https://www.speedtest.net/run",
+          "https://speed.cloudflare.com/",
+          "https://www.testmyspeed.com/",
+          "https://en.wikipedia.org/wiki/Test",
+          "https://www.att.com/support/speedtest/",
+          "https://www.highspeedinternet.com/tools/speed-test",
+          "https://www.spectrum.com/internet/speed-test",
+          "https://www.verizon.com/speedtest/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "fast.com",
+          "speed.cloudflare.com",
+          "testmyspeed.com",
+          "www.att.com",
+          "www.highspeedinternet.com",
+          "www.spectrum.com",
+          "www.speedtest.net",
+          "www.testmyspeed.com",
+          "www.verizon.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TelegramSG/TelegramSG.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TelegramSG",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://support.google.com/maps/answer/11270845?hl=en-GB",
+          "https://support.google.com/maps/thread/263795509/how-do-i-search-outside-of-my-region-how-do-i-broaden-the-search-area-to-world?hl=en",
+          "https://support.google.com/earth/thread/237629017/where-in-the-world-did-carmen-go?hl=en",
+          "https://support.google.com/maps/answer/1628031?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/drive/answer/10838124?hl=en",
+          "https://support.google.com/earth/thread/3884256/how-do-i-use-google-earth-and-keep-the-images-flat-as-i-view-them-they-seem-to-want-to-go-into-3d?hl=en",
+          "https://support.google.com/googleplay/answer/190860?hl=en",
+          "https://support.google.com/youtube/?hl=en",
+          "https://support.google.com/maps/?hl=en",
+          "https://support.google.com/earth/thread/271489330/how-to-use-throttle-in-fly-around-the-world?hl=en"
+        ],
+        "candidates": [
+          "support.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TelegramUS/TelegramUS.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TelegramUS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.amazon.com/MRE/s?k=MRE",
+          "https://www.amazon.com/Meals-Ready-Genuine-Military-Surplus/dp/B005I5ML36",
+          "https://www.amzn.com/Best-Sellers-Emergency-Food-Supplies/zgbs/hi/7491113011",
+          "https://www.primalsurvivor.net/buy-cheap-mres/",
+          "https://mredepot.com/collections/mres-meals-ready-to-eat",
+          "https://www.survivalstockup.com/food-water-storage/mre-meals-guide/",
+          "https://www.amazon.ca/mre/s?k=mre",
+          "https://ammocanman.com/",
+          "https://survivalstoic.com/best-mres-to-buy/",
+          "https://www.amazon.com/military-mre/s?k=military+mre"
+        ],
+        "candidates": [
+          "amazon.ca",
+          "amazon.com",
+          "ammocanman.com",
+          "mredepot.com",
+          "survivalstoic.com",
+          "www.amazon.ca",
+          "www.amazon.com",
+          "www.amzn.com",
+          "www.primalsurvivor.net",
+          "www.survivalstockup.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Tencent/Tencent.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "Tencent",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.tencent.com/",
+          "https://en.wikipedia.org/wiki/Tencent",
+          "https://www.tencent.com/zh-cn/",
+          "https://www.tencent.com.cn/zh-hk/",
+          "https://www.qq.com/",
+          "https://careers.tencent.com/en-us/home.html",
+          "https://meeting.tencent.com/download/",
+          "https://www.britannica.com/money/Tencent",
+          "https://hy.tencent.ai/",
+          "https://www.fool.com/investing/how-to-invest/stocks/what-does-tencent-own/"
+        ],
+        "candidates": [
+          "careers.tencent.com",
+          "en.wikipedia.org",
+          "hy.tencent.ai",
+          "meeting.tencent.com",
+          "www.britannica.com",
+          "www.fool.com",
+          "www.qq.com",
+          "www.tencent.com",
+          "www.tencent.com.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TencentVideo/TencentVideo.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TencentVideo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.city-data.com/forum/port-st-lucie-sebastian-vero-beach/2986724-dont-buy-anything-needs-installation-lowes.html",
+          "https://www.city-data.com/so/so-Killeen-Texas.html",
+          "https://5thgenrams.com/community/threads/running-board-hardware-help.55326/",
+          "https://5thgenrams.com/community/threads/memory-seats-stopped-working.4615/",
+          "https://www.city-data.com/locations/Lowes/San-Diego-County-CA.html",
+          "https://www.city-data.com/forum/new-jersey/2959943-bought-water-heater-lowes-installation-329-a.html",
+          "https://www.city-data.com/locations/Lowes/Orange-County-CA.html",
+          "https://www.city-data.com/forum/charlotte/380433-railroad-ties-wanted.html"
+        ],
+        "candidates": [
+          "5thgenrams.com",
+          "www.city-data.com",
+          "www.jlaforums.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TeraBox/TeraBox.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TeraBox",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Laser-induced_breakdown_spectroscopy",
+          "https://www.thermofisher.com/us/en/home/industrial/spectroscopy-elemental-isotope-analysis/portable-analysis-material-id/industrial-elemental-radiation-solutions/how-does-libs-work.html",
+          "https://serc.carleton.edu/msu_nanotech/methods/libs.html",
+          "https://casrai.org/guides/libs-spectroscopy",
+          "https://hha.hitachi-hightech.com/en/blogs-events/blogs/2018/01/03/what-is-libs/",
+          "https://www.keyence.com/products/microscope/digital-microscope/imaging-techniques/libs.jsp",
+          "https://www.spectro.com/products/mobile-metal-analyzer/spectroport-libs-spectrometer",
+          "https://x.com/libsoftiktok",
+          "https://laserscientist.com/laser-induced-breakdown-spectroscopy-libs/",
+          "https://link.springer.com/article/10.1007/s40828-020-00114-x"
+        ],
+        "candidates": [
+          "casrai.org",
+          "en.wikipedia.org",
+          "hha.hitachi-hightech.com",
+          "laserscientist.com",
+          "link.springer.com",
+          "serc.carleton.edu",
+          "www.keyence.com",
+          "www.spectro.com",
+          "www.thermofisher.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Tesla/Tesla.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "Tesla",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.tesla.com/",
+          "https://www.tesla.com/inventory/new",
+          "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+          "https://shop.tesla.com/",
+          "https://www.tesla.com/modely",
+          "https://www.tesla.com/model3",
+          "https://www.tesla.com/about",
+          "https://www.tesla.com/modelx",
+          "https://www.tesla.com/en_ca",
+          "https://www.tesla.com/findus/list/services/united%20states"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "shop.tesla.com",
+          "www.tesla.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TestFlight/TestFlight.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TestFlight",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://testflight.apple.com/",
+          "https://developer.apple.com/testflight/",
+          "https://apps.apple.com/us/app/testflight/id899247664",
+          "https://en.wikipedia.org/wiki/TestFlight",
+          "https://developer.apple.com/cn/testflight/",
+          "https://github.com/pluwen/awesome-testflight-link",
+          "https://iphone.apkpure.com/app/testflight/com.apple.testflight",
+          "https://departures.to/",
+          "https://github.com/fmz200/global-testflight-link",
+          "https://www.igeeksblog.com/how-to-use-testflight-on-iphone-ipad/"
+        ],
+        "candidates": [
+          "apps.apple.com",
+          "departures.to",
+          "developer.apple.com",
+          "en.wikipedia.org",
+          "github.com",
+          "iphone.apkpure.com",
+          "testflight.apple.com",
+          "www.igeeksblog.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ThomsonReuters/ThomsonReuters.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "ThomsonReuters",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.thomsonreuters.com/en",
+          "https://www.thomsonreuters.com/en/login",
+          "https://legal.thomsonreuters.com/en/westlaw",
+          "https://en.wikipedia.org/wiki/Thomson_Reuters",
+          "https://signon.thomsonreuters.com/?productid=mya&bhcp=1",
+          "https://account.thomsonreuters.com/",
+          "https://legal.thomsonreuters.com/en/support",
+          "https://www.reuters.com/",
+          "https://onepass.thomsonreuters.com/"
+        ],
+        "candidates": [
+          "account.thomsonreuters.com",
+          "clear.thomsonreuters.com",
+          "en.wikipedia.org",
+          "legal.thomsonreuters.com",
+          "onepass.thomsonreuters.com",
+          "reuters.com",
+          "signon.thomsonreuters.com",
+          "www.reuters.com",
+          "www.thomsonreuters.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Threads/Threads.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "Threads",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.threads.com/",
+          "https://www.threads.com/login",
+          "https://about.instagram.com/threads",
+          "https://en.wikipedia.org/wiki/Threads_(social_network)",
+          "https://socialbee.com/blog/what-is-threads/",
+          "https://www.threadsmagazine.com/",
+          "https://apps.microsoft.com/detail/9mxbp1fb84cq",
+          "https://play.google.com/store/apps/details?id=com.instagram.barcelona&hl=en-US",
+          "https://www.threads.com/@threads",
+          "https://bulkoid.com/blog/what-is-threads/"
+        ],
+        "candidates": [
+          "about.instagram.com",
+          "apps.microsoft.com",
+          "bulkoid.com",
+          "en.wikipedia.org",
+          "play.google.com",
+          "socialbee.com",
+          "www.threads.com",
+          "www.threadsmagazine.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "TianTianKanKan/TianTianKanKan.yaml": {
+        "checked_at": "2026-10-30 17:40 UTC",
+        "name": "TianTianKanKan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://finance.yahoo.com/quote/VTEB/performance/",
+          "https://finance.yahoo.com/quote/VTEB/history/",
+          "https://uk.finance.yahoo.com/quote/VTEB261016P00052000/",
+          "https://uk.finance.yahoo.com/quote/VTEB/history/",
+          "https://au.finance.yahoo.com/quote/VTEB270219C00052000/",
+          "https://sg.finance.yahoo.com/quote/VTEB260918C00049000/",
+          "https://au.finance.yahoo.com/quote/VTEB261120P00047000/",
+          "https://finance.yahoo.com/quote/VTEB/",
+          "https://finance.yahoo.com/quote/VTEAX/",
+          "https://finance.yahoo.com/quote/CSHI/"
+        ],
+        "candidates": [
+          "au.finance.yahoo.com",
+          "finance.yahoo.com",
+          "sg.finance.yahoo.com",
+          "uk.finance.yahoo.com"
         ],
         "accepted": [],
         "ownership_evidence": []
