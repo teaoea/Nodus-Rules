@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-30 05:55 UTC",
+  "date": "2026-10-30 05:59 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-30 05:55 UTC",
-    "next_index": 528,
+    "checked_at": "2026-10-30 05:59 UTC",
+    "next_index": 552,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -163570,6 +163570,643 @@
           "www.dickssportinggoods.com",
           "www.midwayusa.com",
           "www.tractorsupply.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Slack/Slack.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Slack",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://slack.com/signin",
+          "https://slack.com/ssb/signin",
+          "https://app.slack.com/client",
+          "https://en.wikipedia.org/wiki/Slack_(software)",
+          "https://slackdemo.com/?from=home",
+          "https://api.slack.com/apps",
+          "https://slack.com/ssb/workspace-signin",
+          "https://slack.com/downloads/windows",
+          "https://slack.com/",
+          "https://slack.com/signin%20"
+        ],
+        "candidates": [
+          "api.slack.com",
+          "app.slack.com",
+          "en.wikipedia.org",
+          "slack.com",
+          "slackdemo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SlideShare/SlideShare.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "SlideShare",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.slideshare.net/",
+          "https://www.slideshare.net/Slideshare",
+          "https://es.slideshare.net/slideshare",
+          "https://www.slideshare.net/login/li_connect",
+          "https://www.slideshare.net/explore",
+          "https://support.scribd.com/hc/en-us/categories/360004792932-SlideShare",
+          "https://www.slideshare.net/upload",
+          "https://es.slideshare.net/",
+          "https://en.m.wikipedia.org/wiki/SlideShare",
+          "https://www.slideshare.net/category/www.slideshare.net"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "es.slideshare.net",
+          "support.scribd.com",
+          "www.slideshare.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Sling/Sling.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Sling",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.sling.com/",
+          "https://www.sling.com/sign-in",
+          "https://watch.sling.com/",
+          "https://app.getsling.com/",
+          "https://getsling.com/",
+          "https://auth-client.p.sling.com/",
+          "https://watch2.d.sling.com/",
+          "https://getsling.com/employee-scheduling/",
+          "https://watch.sling.com/1/hub/base_select_hub/browse",
+          "https://fred.sling.com/"
+        ],
+        "candidates": [
+          "app.getsling.com",
+          "auth-client.p.sling.com",
+          "fred.sling.com",
+          "getsling.com",
+          "watch.sling.com",
+          "watch2.d.sling.com",
+          "www.sling.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SmarTone/SmarTone.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "SmarTone",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.smartone.com/en/home/",
+          "https://smartone-iptv.com/en/plugin/smart_one/client_main/",
+          "https://smartone-iptv.com/en/iptv-application-for-adroidtv",
+          "https://play.google.com/store/apps/details?id=build.smartone_iptv.com&hl=en",
+          "https://en.wikipedia.org/wiki/SmarTone",
+          "https://play.google.com/store/apps/details?id=build.smartone_iptv.com&hl=es",
+          "https://myaccount.smartone.com/jsp/uemo/uemo_login.jsp?lang=english&cat=1&cus_type=3",
+          "https://apkpure.com/smartone/build.smartone_iptv.com",
+          "https://myaccount.smartone.com/jsp/uemo/uemo_login.jsp?lang=english&cat=1&cus_type=1"
+        ],
+        "candidates": [
+          "0315.hk",
+          "apkpure.com",
+          "en.wikipedia.org",
+          "myaccount.smartone.com",
+          "play.google.com",
+          "smartone-iptv.com",
+          "smartone.com",
+          "www.smartone.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Snap/Snap.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Snap",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.snapchat.com/",
+          "https://www.ny.gov/services/apply-snap",
+          "https://accounts.snapchat.com/v2/welcome",
+          "https://accounts.snapchat.com/v2/login",
+          "https://www.snapchat.com/download",
+          "https://snap.berkeley.edu/",
+          "https://www.nyc.gov/site/hra/help/snap-benefits-food-program.page",
+          "https://otda.ny.gov/programs/snap/",
+          "https://www.nyc.gov/main/services/snap-benefits",
+          "https://www.fna.usda.gov/snap/supplemental-nutrition-assistance-program"
+        ],
+        "candidates": [
+          "accounts.snapchat.com",
+          "nyc.gov",
+          "otda.ny.gov",
+          "snap.berkeley.edu",
+          "www.fna.usda.gov",
+          "www.ny.gov",
+          "www.nyc.gov",
+          "www.snapchat.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Sohu/Sohu.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Sohu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.sohu.com/",
+          "https://www.sohu.com/?lang=en_us",
+          "https://odin.sohu.com/sohuHome/",
+          "https://en.m.wikipedia.org/wiki/Sohu",
+          "https://tv.sohu.com/",
+          "https://news.sohu.com/?CN",
+          "https://m.sohu.com/?v=1",
+          "https://sports.sohu.com/sports.shtml",
+          "https://news.sohu.com/?lang=en_US",
+          "https://sports.sohu.com/"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "m.sohu.com",
+          "news.sohu.com",
+          "odin.sohu.com",
+          "sohu-inc.com",
+          "sports.sohu.com",
+          "tv.sohu.com",
+          "www.sohu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Sony/Sony.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Sony",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://electronics.sony.com/",
+          "https://www.playstation.com/en-us/",
+          "https://www.sony.net/?l=en_US",
+          "https://electronics.sony.com/c/1",
+          "https://www.sony.com/",
+          "https://www.playstation.com/en-us/your-account-for-playstation/",
+          "https://en.wikipedia.org/wiki/Sony",
+          "https://www.sony.com/electronics/support",
+          "https://www.account.sony.com/home",
+          "https://www.sony.net/products-services/"
+        ],
+        "candidates": [
+          "electronics.sony.com",
+          "en.wikipedia.org",
+          "www.account.sony.com",
+          "www.playstation.com",
+          "www.sony.com",
+          "www.sony.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SouFang/SouFang.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "SouFang",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://neyodi.com/products/postcard",
+          "https://neyodi.com/cart",
+          "https://neyodi.com/products/coaster-agate",
+          "https://neyodi.com/products/candle",
+          "https://neyodi.com/products/rug-hand-woven-durry",
+          "https://neyodi.com/products/cups-set-of-6",
+          "https://neyodi.com/policies/contact-information"
+        ],
+        "candidates": [
+          "neyodi.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SoundCloud/SoundCloud.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "SoundCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://soundcloud.com/",
+          "https://soundcloud.com/signin",
+          "https://soundcouch.soundcloud.com/",
+          "https://m.soundcloud.com/Home",
+          "https://m.soundcloud.com/signin/callback",
+          "https://soundcloud.com/-/",
+          "https://soundcloud.com/soundcloud",
+          "https://soundcloud.com/discover",
+          "https://soundcloud.com/download",
+          "https://apps.microsoft.com/detail/9n5qr3kw6cmc?hl=en-US&gl=US"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "m.soundcloud.com",
+          "soundcloud.com",
+          "soundcouch.soundcloud.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SourceForge/SourceForge.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "SourceForge",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://sourceforge.net/",
+          "https://sourceforge.net/projects/sourceforge/",
+          "https://en.wikipedia.org/wiki/SourceForge",
+          "https://sourceforge.net/directory/?q=software",
+          "https://sourceforge.net/directory/",
+          "https://dev-cpp.sourceforge.net/",
+          "https://www.reddit.com/r/software/comments/bsy0f4/is_sourceforge_safe_to_download_software/",
+          "https://docs.sourceforge.net/getting-started-with-sourceforge",
+          "https://sourceforge.net/directory/windows/",
+          "https://sourceforge.net/about"
+        ],
+        "candidates": [
+          "dev-cpp.sourceforge.net",
+          "docs.sourceforge.net",
+          "en.wikipedia.org",
+          "sourceforge.net",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Spark/Spark.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Spark",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://spark.apache.org/",
+          "https://learn.eltngl.com/",
+          "https://www.sparkdriverapp.com/en_us.html",
+          "https://www.eltngl.com/spark",
+          "https://en.m.wikipedia.org/wiki/Apache_Spark",
+          "https://drive4spark.walmart.com/ca",
+          "https://spark.apache.org/docs/latest/",
+          "https://aws.amazon.com/what-is/apache-spark/",
+          "https://go-spark.app/auth/login",
+          "https://aligners.ormcodigital.com/"
+        ],
+        "candidates": [
+          "aligners.ormcodigital.com",
+          "aws.amazon.com",
+          "drive4spark.walmart.com",
+          "en.m.wikipedia.org",
+          "go-spark.app",
+          "learn.eltngl.com",
+          "spark.apache.org",
+          "sparkdriverapp.ca",
+          "www.eltngl.com",
+          "www.sparkdriverapp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Speedtest/Speedtest.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Speedtest",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.speedtest.net/",
+          "https://gfiber.com/speedtest/",
+          "https://www.speakeasy.net/speedtest",
+          "https://speed.measurementlab.net/",
+          "https://fast.com/",
+          "https://testmy.net/",
+          "https://www.speedtest.org/"
+        ],
+        "candidates": [
+          "fast.com",
+          "gfiber.com",
+          "speed.measurementlab.net",
+          "speedtest.org",
+          "testmy.net",
+          "www.speakeasy.net",
+          "www.speedtest.net",
+          "www.speedtest.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Spotify/Spotify.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Spotify",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.spotify.com/",
+          "https://open.spotify.com/",
+          "https://open.spotify.com/browse/home",
+          "https://www.spotify.com/us/download/windows/",
+          "https://accounts.spotify.com/en/login?nosignup=true",
+          "https://spotify.link/",
+          "https://spotify.link/8JnKrNFWLob",
+          "https://members.spotify.com/",
+          "https://open.spotify.com/download/",
+          "https://open.spotify.com/intl-es"
+        ],
+        "candidates": [
+          "accounts.spotify.com",
+          "members.spotify.com",
+          "open.spotify.com",
+          "spotify.link",
+          "www.spotify.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Stackexchange/Stackexchange.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Stackexchange",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://newyork.craigslist.org/",
+          "https://newyork.craigslist.org/sitemap.html",
+          "https://newyork.craigslist.org/welcome",
+          "https://newyork.craigslist.org/about/sites",
+          "https://newyork.craigslist.org/contact",
+          "https://newyork.craigslist.org/about-us/contact-us",
+          "https://newyork.craigslist.org/search/lgi/boo?query=jet%20ski",
+          "https://newyork.craigslist.org/search/bronx-ny/vac?lat=40.8548&lon=-73.869",
+          "https://newyork.craigslist.org/search/zip?query=yonkers%20ny",
+          "https://newyork.craigslist.org/mnh/clt/d/new-york-ny-knicks-limited-edition/7917887165.html"
+        ],
+        "candidates": [
+          "newyork.craigslist.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "StarCraftII/StarCraftII.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "StarCraftII",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/download/office",
+          "https://www.microsoft.com/en-us/microsoft-365/download-office",
+          "https://www.loopnet.com/search/office-space/usa/for-lease/",
+          "https://officeours.com/",
+          "https://en.m.wikipedia.org/wiki/Office",
+          "https://offices.net/",
+          "https://www.officefinder.com/Local/Local-Office-Space/",
+          "https://www.loopnet.com/search/office-space/houston-tx/for-lease/",
+          "https://www.instantoffices.com/en-us/us",
+          "https://www.easyoffices.com/us"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "officeours.com",
+          "offices.net",
+          "www.easyoffices.com",
+          "www.instantoffices.com",
+          "www.loopnet.com",
+          "www.microsoft.com",
+          "www.officefinder.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Starbucks/Starbucks.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Starbucks",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.starbucks.com/",
+          "https://www.starbucks.com/menu",
+          "https://careers.starbucks.com/",
+          "https://www.shop.starbucks.com/",
+          "https://www.starbucks.at/",
+          "https://www.starbucks.co.uk/menu",
+          "https://en.wikipedia.org/wiki/Starbuck%27s",
+          "https://about.starbucks.com/stories/2026/starbucks-holiday-menu-is-coming-to-town-nov-5/",
+          "https://www.shop.starbucks.com/collections/subscriptions",
+          "https://www.starbucks.co.uk/?skip-redirection"
+        ],
+        "candidates": [
+          "about.starbucks.com",
+          "careers.starbucks.com",
+          "en.wikipedia.org",
+          "www.shop.starbucks.com",
+          "www.starbucks.at",
+          "www.starbucks.co.uk",
+          "www.starbucks.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Steam/Steam.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Steam",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://store.steampowered.com/",
+          "https://play.google.com/store/apps/details?id=com.valvesoftware.android.steam.community&hl=en_US",
+          "https://store.steampowered.com/about/download",
+          "https://www.pcmag.com/reviews/steam-for-pc",
+          "https://www.facebook.com/Steam/",
+          "https://en.wikipedia.org/wiki/Steam_(service)",
+          "https://store.steampowered.com/login/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "play.google.com",
+          "store.steampowered.com",
+          "www.facebook.com",
+          "www.pcmag.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SteamCN/SteamCN.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "SteamCN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://store.steampowered.com/",
+          "https://store.steampowered.com/about/?lang=zh-cn",
+          "https://steamchina.com/",
+          "https://steamcommunity.com/groups/SteamCN",
+          "https://store.steampowered.com/login/",
+          "https://store.steampowered.com/join/",
+          "https://youxi.youth.cn/yw/202009/t20200924_12506935.htm",
+          "https://steamcommunity.com/groups/SteamCN/discussions/0/",
+          "https://keylol.com/t35516-1-1"
+        ],
+        "candidates": [
+          "keylol.com",
+          "steamchina.com",
+          "steamcommunity.com",
+          "store.steamchina.com",
+          "store.steampowered.com",
+          "youxi.youth.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Stripe/Stripe.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Stripe",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://dashboard.stripe.com/",
+          "https://stripe.com/",
+          "https://stripe.com/payments",
+          "https://dashboard.stripe.com/register",
+          "https://en.wikipedia.org/wiki/Stripe,_Inc.",
+          "https://support.stripe.com/",
+          "https://support.stripe.com/questions/what-is-stripe",
+          "https://stripe.com/pricing",
+          "https://stripe.com/about",
+          "https://dashboard.stripe.com/register?locale=en-LI"
+        ],
+        "candidates": [
+          "dashboard.stripe.com",
+          "en.wikipedia.org",
+          "stripe.com",
+          "support.stripe.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SuNing/SuNing.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "SuNing",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.amazon.com/amazonprime",
+          "https://www.amazon.com/",
+          "https://www.amazon.com/gp/video/storefront/",
+          "https://gaming.amazon.com/",
+          "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+          "https://amc.amazon.com/",
+          "https://www.amazon.com/gp/help/customer/display.html?nodeId=GJNNP777QLUYFPNG",
+          "https://www.amazon.com/gp/video/collection/welcomehubtest",
+          "https://www.amazon.com/music",
+          "https://www.amazon.com/gp/video/movie"
+        ],
+        "candidates": [
+          "amazon.com",
+          "amc.amazon.com",
+          "gaming.amazon.com",
+          "www.amazon.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SublimeText/SublimeText.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "SublimeText",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.sublimetext.com/",
+          "https://www.sublimetext.com/download",
+          "https://en.wikipedia.org/wiki/Sublime_Text",
+          "https://sublime-text.en.softonic.com/",
+          "https://www.techspot.com/downloads/5546-sublime-text.html",
+          "https://packages.sublimetext.com/installation",
+          "https://docs.sublimetext.io/guide/getting-started/installation.html",
+          "https://www.sublimetext.com/3",
+          "https://www.sublimetext.com/support",
+          "https://www.sublimetext.com/blog/articles/sublime-text-4"
+        ],
+        "candidates": [
+          "docs.sublimetext.io",
+          "en.wikipedia.org",
+          "packages.sublimetext.com",
+          "sublime-text.en.softonic.com",
+          "sublimetext.com",
+          "www.sublimetext.com",
+          "www.techspot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SuiShiChuanMei/SuiShiChuanMei.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "SuiShiChuanMei",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.amazon.com/",
+          "https://www.google.com/shopping",
+          "https://www.target.com/",
+          "https://www.amazon.com/shopping/s?k=shopping",
+          "https://www.walmart.com/",
+          "https://shopping.yahoo.com/",
+          "https://www.walmart.com/all-departments",
+          "https://www.target.com/c/shop-all-categories/-/N-5xsxf",
+          "https://www.macys.com/",
+          "https://shopping.yahoo.com/deals/"
+        ],
+        "candidates": [
+          "amazon.com",
+          "shopping.yahoo.com",
+          "walmart.com",
+          "www.amazon.com",
+          "www.google.com",
+          "www.macys.com",
+          "www.target.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Supercell/Supercell.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Supercell",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://supercell.com/en/",
+          "https://store.supercell.com/",
+          "https://en.wikipedia.org/wiki/Supercell_(company)",
+          "https://supercell.com/en/supercell-id/",
+          "https://id.supercell.com/en/account/",
+          "https://store.supercell.com/clashofclans",
+          "https://supercell.com/en/games/brawlstars/",
+          "https://supercell.com/en/support/",
+          "https://supercell.com/en/games/clashofclans/",
+          "https://store.supercell.com/hayday"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "gunshine.net",
+          "id.supercell.com",
+          "mo.co",
+          "store.supercell.com",
+          "supercell.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Synology/Synology.yaml": {
+        "checked_at": "2026-10-30 05:59 UTC",
+        "name": "Synology",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.synology.com/",
+          "https://www.synology.com/en-us/products",
+          "https://quickconnect.to/",
+          "https://account.synology.com/sso/",
+          "https://kb.synology.com/en-us/DSM/help/Assistant/assistant",
+          "https://c2.synology.com/",
+          "https://en.wikipedia.org/wiki/Synology",
+          "https://www.amazon.com/Synology/s?k=Synology",
+          "https://www.synology.cn/"
+        ],
+        "candidates": [
+          "account.synology.com",
+          "amazon.com",
+          "c2.synology.com",
+          "en.wikipedia.org",
+          "finds.synology.com",
+          "kb.synology.com",
+          "quickconnect.to",
+          "www.amazon.com",
+          "www.synology.cn",
+          "www.synology.com"
         ],
         "accepted": [],
         "ownership_evidence": []
