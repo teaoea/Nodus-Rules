@@ -206,15 +206,15 @@ class SyncTests(unittest.TestCase):
         path = self.folder / "README.md"
         path.write_text(text)
         rendered = render_readme(path, self.source / "rule/Clash", self.root).decode()
-        self.assertIn("![请通过中华人民共和国 People's Republic of China合法的互联网出入口信道访问规则中的地址。](../../../assets/china-network-notice.svg)", rendered)
-        asset = self.root / "rules/Group/Nested/../../../assets/china-network-notice.svg"
-        self.assertEqual(asset.resolve(), (self.root / "assets/china-network-notice.svg").resolve())
+        self.assertIn("![请通过中华人民共和国 People's Republic of China合法的互联网出入口信道访问规则中的地址。](../../../assets/china-network-notice-inline.svg)", rendered)
+        asset = self.root / "rules/Group/Nested/../../../assets/china-network-notice-inline.svg"
+        self.assertEqual(asset.resolve(), (self.root / "assets/china-network-notice-inline.svg").resolve())
 
     def test_country_notice_is_one_complete_sentence_image(self):
         path = self.folder / "README.md"
         path.write_text("## 前言\n\n请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的地址。\n\n## Clash\n")
         rendered = render_readme(path, self.source / "rule/Clash", self.root).decode()
-        self.assertIn("![请通过中华人民共和国 People's Republic of China合法的互联网出入口信道访问规则中的地址。](../../../assets/china-network-notice.svg)", rendered)
+        self.assertIn("![请通过中华人民共和国 People's Republic of China合法的互联网出入口信道访问规则中的地址。](../../../assets/china-network-notice-inline.svg)", rendered)
         self.assertNotIn("> ", rendered)
         self.assertNotIn("【", rendered)
 
