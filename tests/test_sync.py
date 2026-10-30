@@ -50,8 +50,8 @@ class SyncTests(unittest.TestCase):
 
     def test_every_source_has_independent_output(self):
         planned, report = self.run_prepare()
-        self.assertEqual(len(report), len(self.files) - 1)
-        self.assertEqual(len({x["output"] for x in report.values()}), len(self.files) - 1)
+        self.assertEqual(len(report), len(self.files) - 2)
+        self.assertEqual(len({x["output"] for x in report.values()}), len(self.files) - 2)
         folder = self.root / "rules/Group/Nested"
         self.assertIn(b"domain,all.example", planned[folder / "Example.list.yaml"])
         self.assertNotIn(b"domain,all.example", planned[folder / "Example.yaml"])
@@ -106,22 +106,25 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(len(warnings), 1)
 
     def test_resolve_variants_are_excluded_from_rules_and_readme(self):
-        for name in ("Example_Resolve.yaml", "Example_Classical_No_Resolve.yaml", "Resolve.list"):
+        for name in ("Example_Resolve.yaml", "Example_Classical_No_Resolve.yaml", "Resolve.list", "Example_For_Clash.txt"):
             self.files[name] = "未知类型,不应读取\n"
             (self.folder / name).write_text(self.files[name])
         planned, report = self.run_prepare()
-        self.assertFalse(any("Resolve" in key for key in report))
-        self.assertFalse(any("Resolve" in path.name for path in planned))
+        self.assertFalse(any("Resolve" in key or "For_Clash" in key for key in report))
+        self.assertFalse(any("Resolve" in path.name or "For_Clash" in path.name for path in planned))
         from convert import format_readme
         readme = ("# 示例\n\n## Clash\n\n#### 配置建议\n"
                   "- Example.yaml 单独使用。\n- Example_Resolve.yaml、Example_Domain.yaml 共同使用。\n"
+                  "- Example_Domain_For_Clash.txt 单独使用。\n"
                   "#### 规则链接\n"
+                  "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Example_Domain_For_Clash.txt\n"
                   "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Example_Resolve.yaml\n"
                   "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Example_No_%52esolve.yaml\n"
                   "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Example.yaml\n")
         rendered = format_readme(readme, "Example")
         self.assertNotIn("Resolve", rendered)
         self.assertNotIn("%52esolve", rendered)
+        self.assertNotIn("For_Clash", rendered)
         self.assertIn("Example.yaml 单独使用。", rendered)
         self.assertIn("/Example.yaml```", rendered)
 

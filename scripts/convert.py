@@ -111,8 +111,9 @@ def write_changed(path, content):
 
 
 def excluded_rule(file):
-    """按规则文件名排除 Resolve 变体，包含 No_Resolve。"""
-    return "Resolve" in Path(unquote(str(file))).name
+    """按规则文件名排除 Resolve（含 No_Resolve）及 For_Clash 变体。"""
+    name = Path(unquote(str(file))).name
+    return any(marker in name for marker in ("Resolve", "For_Clash"))
 
 
 def output_path(file, upstream, root):
