@@ -2,6 +2,7 @@
 """将上游 Clash list 转为 Nodus；只写入合并结果，不保留手工原文。"""
 from collections import Counter
 import ipaddress
+import posixpath
 from merge import read_local, merge_conditions, RULE_PRIORITY
 import json
 from pathlib import Path
@@ -265,6 +266,9 @@ def format_readme(text, name):
 def render_readme(file, upstream, root, warnings=None, date=None):
     """按约定格式整理集合 README，下载 URL 对应本仓库实际输出。"""
     text = format_readme(file.read_bytes().decode("utf-8-sig"), file.parent.name)
+    country = "中华人民共和国 People's Republic of China"
+    asset = posixpath.relpath("assets/china-label.svg", (root / "rules" / file.parent.relative_to(upstream)).relative_to(root).as_posix())
+    text = text.replace("**" + country + "**", "![" + country + "](" + asset + ")")
     if date is not None:
         text = re.sub(r"^最后更新时间：[^\n]*", "最后更新时间：" + date, text, flags=re.M)
     prefixes = (

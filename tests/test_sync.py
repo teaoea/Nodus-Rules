@@ -201,6 +201,15 @@ class SyncTests(unittest.TestCase):
         self.assertIn("【**中华人民共和国 People's Republic of China**】", rendered)
         self.assertNotIn("style=", rendered)
 
+    def test_country_image_uses_valid_relative_path_for_nested_collections(self):
+        text = "## 前言\n\n请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的地址。\n\n## Clash\n"
+        path = self.folder / "README.md"
+        path.write_text(text)
+        rendered = render_readme(path, self.source / "rule/Clash", self.root).decode()
+        self.assertIn("![中华人民共和国 People's Republic of China](../../../assets/china-label.svg)", rendered)
+        asset = self.root / "rules/Group/Nested/../../../assets/china-label.svg"
+        self.assertEqual(asset.resolve(), (self.root / "assets/china-label.svg").resolve())
+
     def test_unknown_yaml_structure_fails_closed(self):
         path = self.folder / "Example.yaml"
         path.write_text("payload: [invalid]\n")
