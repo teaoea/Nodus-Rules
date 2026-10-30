@@ -21,6 +21,7 @@ class SyncTests(unittest.TestCase):
         (self.source / "LICENSE").write_text("上游许可证\n")
         self.files = {
             "Example.list": "DOMAIN,all.example\n",
+            "OnlyList.list": "DOMAIN,only-list.example\n",
             "Example.yaml": "payload:\n  - IP-CIDR,192.0.2.0/24\n",
             "Example_Classical.yaml": "payload:\n  - DOMAIN,full.example\n  - IP-CIDR,192.0.2.0/24\n",
             "Example_No_Resolve.yaml": "payload:\n  - IP-CIDR,192.0.2.0/24,no-resolve\n",
@@ -50,10 +51,12 @@ class SyncTests(unittest.TestCase):
 
     def test_every_source_has_independent_output(self):
         planned, report = self.run_prepare()
-        self.assertEqual(len(report), len(self.files) - 2)
-        self.assertEqual(len({x["output"] for x in report.values()}), len(self.files) - 2)
+        self.assertEqual(len(report), len(self.files) - 4)
+        self.assertEqual(len({x["output"] for x in report.values()}), len(self.files) - 4)
         folder = self.root / "rules/Group/Nested"
-        self.assertIn(b"domain,all.example", planned[folder / "Example.list.yaml"])
+        self.assertIn(b"domain,only-list.example", planned[folder / "OnlyList.list.yaml"])
+        self.assertNotIn(folder / "Example.list.yaml", planned)
+        self.assertNotIn(folder / "Example_Domain.txt.yaml", planned)
         self.assertNotIn(b"domain,all.example", planned[folder / "Example.yaml"])
         self.assertIn(b"domain-suffix,example.com", planned[folder / "Example_Domain.yaml"])
         self.assertIn(b"ip-cidr,2001:db8::/32", planned[folder / "Example_IP.txt.yaml"])
@@ -66,9 +69,9 @@ class SyncTests(unittest.TestCase):
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Group/Nested/Example.yaml",
             "https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Group/Nested/Example.yaml").replace(
             "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@release/rule/Clash/Group/Nested/Example_Domain.txt",
-            "https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Group/Nested/Example_Domain.txt.yaml").replace(
+            "https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Group/Nested/Example_Domain.yaml").replace(
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Group/Nested/Example.list",
-            "https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Group/Nested/Example.list.yaml")
+            "https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Group/Nested/Example.yaml")
         self.assertEqual(planned[self.root / "rules/Group/Nested/README.md"], expected.encode())
 
     def test_incremental_readme_and_single_file_changes(self):
@@ -86,14 +89,14 @@ class SyncTests(unittest.TestCase):
         self.assertIn(self.root / "rules/Group/Nested/Example.yaml", repaired)
         self.assertEqual(repaired[destination], changed[destination])
 
-    def test_legacy_list_migration_does_not_contaminate_yaml(self):
+    def test_yaml_priority_does_not_reuse_legacy_list_union(self):
         legacy = self.root / "rules/Group/Nested/Example.yaml"
         write_changed(legacy, b"rules:\n  - domain,all.example\n  - domain,manual.example\n")
         write_changed(self.root / "rules/sync-report.json", json.dumps({"collections": {
             "rule/Clash/Group/Nested/Example.list": {"output": "rules/Group/Nested/Example.yaml", "template_version": 8}
         }}).encode())
         planned, _ = self.run_prepare()
-        self.assertIn(b"domain,manual.example", planned[legacy.with_name("Example.list.yaml")])
+        self.assertNotIn(legacy.with_name("Example.list.yaml"), planned)
         self.assertNotIn(b"domain,manual.example", planned[legacy])
 
     def test_missing_upstream_link_and_line_endings_are_preserved(self):
@@ -127,6 +130,20 @@ class SyncTests(unittest.TestCase):
         self.assertNotIn("For_Clash", rendered)
         self.assertIn("Example.yaml 单独使用。", rendered)
         self.assertIn("/Example.yaml```", rendered)
+
+    def test_yaml_preference_is_scoped_to_directory_and_stem(self):
+        from convert import select_sources, preferred_source
+        sibling = self.folder / "Other"
+        sibling.mkdir()
+        other = sibling / "OnlyList.yaml"
+        other.write_text("payload:\n  - DOMAIN,other.example\n")
+        sources = select_sources(self.source / "rule/Clash")
+        self.assertIn(self.folder / "OnlyList.list", sources)
+        self.assertIn(other, sources)
+        self.assertIn(self.folder / "Example_Classical.yaml", sources)
+        self.assertNotIn(self.folder / "Example.list", sources)
+        self.assertEqual(preferred_source(self.folder / "Example_Domain.txt"),
+                         self.folder / "Example_Domain.yaml")
 
     def test_unknown_yaml_structure_fails_closed(self):
         path = self.folder / "Example.yaml"

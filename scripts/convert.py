@@ -116,8 +116,21 @@ def excluded_rule(file):
     return any(marker in name for marker in ("Resolve", "For_Clash"))
 
 
+def preferred_source(file):
+    """同目录同主文件名优先 YAML；不同目录或不同主文件名互不替代。"""
+    yaml = file.with_suffix(".yaml")
+    return yaml if file.suffix != ".yaml" and yaml.is_file() and not excluded_rule(yaml) else file
+
+
+def select_sources(upstream):
+    return sorted({preferred_source(file) for file in upstream.rglob("*")
+                   if file.is_file() and file.suffix in {".list", ".yaml", ".txt"}
+                   and not excluded_rule(file)})
+
+
 def output_path(file, upstream, root):
-    # 保留源扩展名，避免 Foo.list、Foo.yaml 和 Foo.txt 共用同一输出。
+    file = preferred_source(file)
+    # 无同名 YAML 的 LIST/TXT 保留源扩展名，避免输出名称碰撞。
     name = file.name if file.suffix == ".yaml" else file.name + ".yaml"
     return root / "rules" / file.parent.relative_to(upstream) / safe_file(name)
 
@@ -261,9 +274,7 @@ def render_readme(file, upstream, root, warnings=None):
 
 def prepare(source, root, date, additions=None):
     upstream = source / "rule/Clash"
-    sources = sorted(file for file in upstream.rglob("*")
-                     if file.is_file() and file.suffix in {".list", ".yaml", ".txt"}
-                     and not excluded_rule(file))
+    sources = select_sources(upstream)
     if not sources or not (source / "LICENSE").is_file():
         raise ValueError("上游规则或许可证缺失")
     planned, report, entries = {}, {}, []
@@ -291,7 +302,7 @@ def prepare(source, root, date, additions=None):
             raise ValueError(f"无法取得上游 Last commit date：{source_key}；需要完整提交历史")
         old_detail = previous.get(source_key, {})
         target_key = target.relative_to(root).as_posix()
-        # 旧版 Foo.list -> Foo.yaml 的条件只迁到 Foo.list.yaml，不污染新 Foo.yaml。
+        # YAML 优先后，不把旧版 LIST 输出的并集混入上游同名 YAML。
         old_output = old_detail.get("output", target_key)
         local_path = root / old_output
         if owners.get(old_output, source_key) != source_key:
@@ -331,7 +342,7 @@ def prepare(source, root, date, additions=None):
     revision = subprocess.check_output(["git", "-C", str(source), "rev-parse", "HEAD"], text=True).strip()
     planned[root / "rules/sync-report.json"] = (json.dumps({"upstream": REPO, "revision": revision,
         "date": date, "collections": report, "readme_warnings": readme_warnings}, ensure_ascii=False, indent=2) + "\n").encode()
-    index = "# 自动同步规则集合\n\n每个上游 LIST、YAML、TXT 文件分别转换；集合 README 沿用上游正文，仅替换规则下载 URL。\n\n"
+    index = "# 自动同步规则集合\n\n同目录同名文件优先 YAML，排除 Resolve 与 For_Clash 变体；集合说明按约定格式生成。\n\n"
     index += "\n".join(f"- [{name}]({quote(name, safe='/')})：[远程规则]({url})" for name, url in entries) + "\n"
     planned[root / "rules/README.md"] = index.encode()
     return planned, report
