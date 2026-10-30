@@ -1,7 +1,7 @@
 # 名称：OpenAI
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：34
-# domain: 7
+# 来源核对日期：2026-10-30 05:38 UTC
+# 规则总数：37
+# domain: 10
 # domain-suffix: 24
 # domain-keyword: 1
 # ip-cidr: 2
@@ -16,6 +16,9 @@ rules:
   - domain,openaicomproductionae4b.blob.core.windows.net
   - domain,production-openaicom-storage.azureedge.net
   - domain,static.cloudflareinsights.com
+  - domain,chatgpt.com
+  - domain,openai.com
+  - domain,platform.openai.com
   - domain-suffix,ai.com
   - domain-suffix,algolia.net
   - domain-suffix,api.statsig.com

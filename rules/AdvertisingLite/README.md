@@ -4,22 +4,21 @@
 
 分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自互联网公开信息，不代表我们支持或使用这些服务。
 
-请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
+请通过【![中华人民共和国 People's Republic of China](../../assets/china-label.svg)】合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
 ## 规则统计
 
-最后更新时间：2026-10-30 05:31 UTC
+最后更新时间：2026-10-30 05:38 UTC
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 23753 |
-| DOMAIN-KEYWORD | 187 |
-| DOMAIN-SUFFIX | 13939 |
-| IP-CIDR | 186 |
-| IP-CIDR6 | 1 |
-| TOTAL | 38066 |
+| domain | 23753 |
+| domain-keyword | 187 |
+| domain-suffix | 13939 |
+| ip-cidr | 187 |
+| total | 38066 |
 
 ## Nodus Core
 

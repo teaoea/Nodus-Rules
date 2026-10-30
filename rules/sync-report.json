@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-30 05:31 UTC",
+  "date": "2026-10-30 05:38 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -21540,14 +21540,14 @@
         }
       ],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 34,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/OpenAI/OpenAI.yaml",
-      "rules": 34,
-      "bytes": 1418,
+      "rules": 37,
+      "bytes": 1495,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-30 05:31 UTC",
-    "next_index": 432,
+    "checked_at": "2026-10-30 05:38 UTC",
+    "next_index": 456,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -160916,6 +160916,661 @@
           "www.nytco.com",
           "www.nytimes.app",
           "www.nytimes.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NaSDDNS/NaSDDNS.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "NaSDDNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://answers.microsoft.com/ru-ru/skype/forum/all/%D0%BD%D0%B5/3f531f81-d124-4253-beb3-aa793de19e70",
+          "https://answers.microsoft.com/en-us/windows/forum/all/trying-to-upgrade-to-win-10-get-message-we-couldnt/33e98546-af83-4006-8bab-d662ce57ccd9",
+          "https://answers.microsoft.com/en-us/skype/forum/all/login-on-skype-via-fb-no-longer-possible-i-was/91ded77c-c00c-47a6-8571-af1b167d4d27",
+          "https://answers.microsoft.com/en-us/windows/forum/all/what-is-the-extension-you-put-to-a-binary-code/6193d91f-0533-43dc-8ca4-0d8da1143cf4",
+          "https://www.answers.microsoft.com/ja-jp/windows/forum/all/ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡/9804990c-60c8-440c-b1ab-2a0a01c8a749",
+          "https://www.answers.microsoft.com/en-us/windows/forum/all/snmp-missing-from-windows-features-in-windows-10/",
+          "https://www.answers.microsoft.com/ja-jp/windows/forum/all/ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡/55dd8522-1caa-4ae4-80b4-3d0fe4944f22",
+          "https://www.answers.microsoft.com/ja-jp/windows/forum/apps_windows_10-msedge/microsoft-edge/252f30fb-a46d-48f1-9dff-46f1ebf7ddc1↑少し違うかもですが、マイクロソフトのコミュニティに書いてある方法を試して下さい。&gt;アプリのトラブルシューティングを実行してみると良さそうです。手順:[コントロールパネル]→[システムとセキュリティ]→[セキュリティとメンテナンス]→[トラブルシューティング]の順に開き、[すべて表示]を選択して&quot;Windowsストアアプリ&quot;の診断を行ってみてください。もし、上記の対処法を試してみてもうまくいかない場合は、ひとまず、有効な対処法が見つかるまではIEをかわりに使用されると良いと思います。",
+          "https://www.answers.microsoft.com/ja-jp/msteams/forum/all/teamsÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©/4850be98-e651-4d92-8a05-d1489edbf168",
+          "https://www.answers.microsoft.com/ja-jp/windows/forum/all/ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â¹ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢/c359d683-300b-4e66-a279-8881b74c76b1"
+        ],
+        "candidates": [
+          "answers.microsoft.com",
+          "www.answers.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Naver/Naver.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Naver",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.naver.com/",
+          "https://www.naver.co.kr/index.html",
+          "https://korean.dict.naver.com/kozhdict/",
+          "https://entertain.naver.com/home",
+          "https://en.wikipedia.org/wiki/Naver",
+          "https://www.navercorp.cn/",
+          "https://comic.naver.com/",
+          "https://map.naver.com/p/"
+        ],
+        "candidates": [
+          "comic.naver.com",
+          "en.wikipedia.org",
+          "entertain.naver.com",
+          "korean.dict.naver.com",
+          "link.naver.com",
+          "map.naver.com",
+          "naver.com",
+          "nid.naver.com",
+          "www.naver.co.kr",
+          "www.naver.com",
+          "www.navercorp.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NaverTV/NaverTV.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "NaverTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hyatt.com/destinations/miami",
+          "https://www.hyatt.com/hyatt-regency/en-US/miarm-hyatt-regency-miami",
+          "https://www.strategistico.com/best-hyatt-hotels-in-miami-florida/",
+          "https://www.tripadvisor.com/Hotels-g34438-zfb9253-Miami_Florida-Hotels.html",
+          "https://www.booking.com/hotel/us/hyatt-regency-miami.html",
+          "https://www.expedia.com/Miami-Hotels-Hyatt-Hotels.0-0-d178286--bHyattHotels.Travel-Guide-Filter-Hotels",
+          "https://hyattregency.miamihotel.info/en/",
+          "https://www.tripadvisor.com/Hotel_Review-g34438-d85027-Reviews-Hyatt_Regency_Miami-Miami_Florida.html",
+          "https://attractions.miami/best-hyatt-hotels-in-miami/",
+          "https://hyatt-centric-south-beach-miami-miami-beach.miamibeachfl-hotel.com/en/"
+        ],
+        "candidates": [
+          "attractions.miami",
+          "booking.com",
+          "hyatt-centric-south-beach-miami-miami-beach.miamibeachfl-hotel.com",
+          "hyattregency.miamihotel.info",
+          "www.booking.com",
+          "www.expedia.com",
+          "www.hyatt.com",
+          "www.strategistico.com",
+          "www.tripadvisor.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NetEase/NetEase.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "NetEase",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.neteasegames.com/",
+          "https://en.wikipedia.org/wiki/NetEase",
+          "https://account.neteasegames.com/?lang=en_US",
+          "https://account.neteasegames.com/account/login",
+          "https://www.neteasegames.com/news/game/",
+          "https://pay.neteasegames.com/",
+          "https://www.forbes.com/companies/netease/",
+          "https://ir.netease.com/company-overview/corporate-profile"
+        ],
+        "candidates": [
+          "account.neteasegames.com",
+          "en.wikipedia.org",
+          "gameclub.support",
+          "ir.netease.com",
+          "pay.neteasegames.com",
+          "service.netease.com",
+          "store.loadingbay.com",
+          "www.forbes.com",
+          "www.netease.com",
+          "www.neteasegames.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NetEaseMusic/NetEaseMusic.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "NetEaseMusic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://support.google.com/youtube/answer/9048215?hl=en",
+          "https://obsproject.com/forum/resources/youtube-chat-transparent-background-solely-css.486/",
+          "https://support.google.com/youtube/answer/6083634?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://obsproject.com/forum/tags/youtube/",
+          "https://support.google.com/youtube/answer/95725?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtube/answer/2398242?hl=en&co=GENIE.Platform%3DAndroid",
+          "https://support.google.com/youtube/?hl=en-GB",
+          "https://support.google.com/youtube/workflow/12501482?hl=en",
+          "https://support.google.com/youtube/community?hl=pt-BR",
+          "https://support.google.com/youtube/answer/2398242?hl=en-GB&co=GENIE.Platform%3DDesktop"
+        ],
+        "candidates": [
+          "obsproject.com",
+          "support.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Netflix/Netflix.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Netflix",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.netflix.com/",
+          "https://www.netflix.com/us/login/browse",
+          "https://ir.netflix.net/ir-overview/profile/default.aspx",
+          "https://www.whats-on-netflix.com/",
+          "https://play.google.com/store/apps/details?id=com.netflix.mediaclient&hl=en_US",
+          "https://www.youtube.com/channel/UCWOA1ZGywLbqmigxE4Qlvuw",
+          "https://www.facebook.com/netflixus/",
+          "https://x.com/netflix",
+          "https://app.netflix.com/signup",
+          "https://www.britannica.com/money/Netflix-Inc"
+        ],
+        "candidates": [
+          "app.netflix.com",
+          "ir.netflix.net",
+          "play.google.com",
+          "www.britannica.com",
+          "www.facebook.com",
+          "www.netflix.com",
+          "www.whats-on-netflix.com",
+          "www.youtube.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Niconico/Niconico.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Niconico",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.photo.net/forums/topic/521856-maximum-usable-resolution-from-old-35mm-slides-type-of-scanner-to-use/",
+          "https://www.1911forum.com/threads/kimber-is-making-wilson-combats-frames-and-slides.58253/",
+          "https://www.1911forum.com/threads/early-colt-1911-slide-identification.1023424/",
+          "https://www.photo.net/forums/topic/204740-how-do-i-value-buying-50000-35mm-nature-slides/",
+          "https://www.photo.net/forums/topic/515999-problem-with-old-slides/",
+          "https://www.1911forum.com/threads/help-with-1911-slide-identification.733609/",
+          "https://www.1911forum.com/threads/gi-replacement-slide-question.155320/",
+          "https://www.1911forum.com/threads/slide-completely-stuck.1065217/",
+          "https://www.1911forum.com/threads/anyone-seen-or-have-this-1911a1-slide.1063411/",
+          "https://www.photo.net/forums/topic/139394-removing-35mm-slides-from-mounts/"
+        ],
+        "candidates": [
+          "photo.net",
+          "www.1911forum.com",
+          "www.photo.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Nike/Nike.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Nike",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nike.com/",
+          "https://www.nike.com/us/en/w/",
+          "https://en.wikipedia.org/wiki/Nike,_Inc.",
+          "https://about.nike.com/en/",
+          "https://www.nike.in/",
+          "https://about.nike.com/en/company",
+          "https://finance.yahoo.com/quote/NKE/",
+          "https://www.nike.com/ca",
+          "https://www.nike.com/w/shoes-y7ok",
+          "https://www.nike.com/men"
+        ],
+        "candidates": [
+          "about.nike.com",
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "nike.com",
+          "www.nike.com",
+          "www.nike.in"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Nikkei/Nikkei.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Nikkei",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://r.nikkei.com/",
+          "https://r.nikkei.com/markets/",
+          "https://en.m.wikipedia.org/wiki/The_Nikkei",
+          "https://asia.nikkei.com/",
+          "https://www.nikkei.co.jp/nikkeiinfo/en/",
+          "https://en.m.wikipedia.org/wiki/Nikkei_225",
+          "https://finance.yahoo.com/quote/%5EN225/",
+          "https://www.investing.com/indices/japan-ni225",
+          "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI",
+          "https://asia.nikkei.com/&"
+        ],
+        "candidates": [
+          "asia.nikkei.com",
+          "en.m.wikipedia.org",
+          "finance.yahoo.com",
+          "investing.com",
+          "r.nikkei.com",
+          "www.google.com",
+          "www.investing.com",
+          "www.nikkei.co.jp"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Nintendo/Nintendo.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Nintendo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nintendo.com/us/",
+          "https://www.nintendo.com/us/store/",
+          "https://accounts.nintendo.com/login",
+          "https://en.wikipedia.org/wiki/Nintendo",
+          "https://store.nintendo.com/en-gb",
+          "https://play.nintendo.com/",
+          "https://www.nintendo.com/en-ca/",
+          "https://www.nintendo.com/us/gaming-systems/switch/",
+          "https://www.nintendo.com/en-gb/"
+        ],
+        "candidates": [
+          "accounts.nintendo.com",
+          "en.wikipedia.org",
+          "my.nintendo.com",
+          "play.nintendo.com",
+          "store.nintendo.com",
+          "www.nintendo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NivodTV/NivodTV.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "NivodTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://webapps.stackexchange.com/questions/97310/how-to-use-arrayformula-with-query-in-google-sheets",
+          "https://support.google.com/docs/answer/17035851",
+          "https://support.google.com/docs/answer/3093224?hl=en",
+          "https://webapps.stackexchange.com/questions/94633/can-i-open-a-google-drive-document-in-read-only-mode",
+          "https://support.google.com/docs/answer/12822123?hl=en",
+          "https://support.google.com/docs/answer/3540681?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/docs/answer/3094123?hl=en",
+          "https://support.google.com/a/users/answer/9282959?hl=fr",
+          "https://support.google.com/docs/answer/6000292?hl=es&co=GENIE.Platform%3DDesktop",
+          "https://webapps.stackexchange.com/questions/40297/how-do-i-decimal-align-numbers-in-google-sheets"
+        ],
+        "candidates": [
+          "sheets.google.com",
+          "support.google.com",
+          "webapps.stackexchange.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Notion/Notion.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Notion",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.notion.com/",
+          "https://app.notion.com/login",
+          "https://www.notion.com/explore",
+          "https://www.notion.com/desktop",
+          "https://app.notion.com/index.html",
+          "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+          "https://apps.microsoft.com/detail/xpdbvss44r0l9h",
+          "https://apps.apple.com/us/app/notion-notes-tasks-ai/id1232780281",
+          "https://www.thegoodtrade.com/features/what-is-notion/",
+          "https://www.notion.com/help/notion-for-desktop"
+        ],
+        "candidates": [
+          "app.notion.com",
+          "apps.apple.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "www.notion.com",
+          "www.thegoodtrade.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NowE/NowE.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "NowE",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/CamGirlProblems/comments/fw9j2e/does_chaturbate_lock_you_into_a_broadcasting/",
+          "https://www.avvo.com/legal-answers/is-chaturbate-an-illegal-site--4681532.html",
+          "https://www.reddit.com/r/CamGirlProblems/comments/u666s0/what_do_you_like_about_chaturbate/",
+          "https://www.avvo.com/legal-answers/dmca-question-can-i-have-a-porn-website-take-down--3499347.html",
+          "https://www.reddit.com/r/CamGirlProblems/comments/18y76ov/beware_chaturbate_can_see_all_messages_including/",
+          "https://www.reddit.com/r/CamGirlProblems/comments/14p89b8/chaturbate_rules/",
+          "https://www.avvo.com/legal-answers/is-it-allowed-for-someone-to-record-free-public-sh-4948446.html",
+          "https://www.reddit.com/r/CamGirlProblems/comments/olyxk6/chaturbate_viewer_paying_to_stay_light_blue_or/",
+          "https://www.reddit.com/r/CamGirlProblems/comments/ykbizz/how_does_chaturbate_take_their_share/",
+          "https://www.avvo.com/legal-answers/will-i-lose-all-my-money-because-chaturbate-banned-5363576.html"
+        ],
+        "candidates": [
+          "avvo.com",
+          "rec-tube.com",
+          "www.avvo.com",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Npmjs/Npmjs.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Npmjs",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.allrecipes.com/recipe/84980/mexican-white-cheese-dipsauce/",
+          "https://jenaroundtheworld.com/mexican-cheese-dip-2/",
+          "https://www.eatingonadime.com/mexican-white-cheese-dip/",
+          "https://www.recipetineats.com/queso-dip-mexican-cheese-dip/",
+          "https://cafedelites.com/queso/",
+          "https://dangthatssweet.com/white-queso-dip-mexican-cheese-dip/",
+          "https://kitchenhush.com/mexican-cheese-dip-recipes/",
+          "https://foodieandwine.com/white-queso/",
+          "https://insanelygoodrecipes.com/mexican-white-queso-cheese-dip/",
+          "https://eathealthy365.com/authentic-mexican-white-cheese-dip-queso-blanco/"
+        ],
+        "candidates": [
+          "cafedelites.com",
+          "dangthatssweet.com",
+          "eathealthy365.com",
+          "foodieandwine.com",
+          "insanelygoodrecipes.com",
+          "jenaroundtheworld.com",
+          "kitchenhush.com",
+          "www.allrecipes.com",
+          "www.eatingonadime.com",
+          "www.recipetineats.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Nvidia/Nvidia.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Nvidia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nvidia.com/en-us/drivers/",
+          "https://en.wikipedia.org/wiki/Nvidia",
+          "https://www.nvidia.co.uk/Download/indexsg.aspx?lang=en-us",
+          "https://play.geforcenow.com/",
+          "https://finance.yahoo.com/quote/NVDA/",
+          "https://www.nvidia.in/Download/indexsg.aspx?lang=en-in",
+          "https://nvidianews.nvidia.com/",
+          "https://investor.nvidia.com/home/default.aspx",
+          "https://www.bloomberg.com/latest/nvidia"
+        ],
+        "candidates": [
+          "bloomberg.com",
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "investor.nvidia.com",
+          "nvidianews.nvidia.com",
+          "play.geforcenow.com",
+          "www.bloomberg.com",
+          "www.nvidia.co.uk",
+          "www.nvidia.com",
+          "www.nvidia.in"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "OKX/OKX.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "OKX",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.msn.com/en-us/news/other/steve-hilton-has-ambitious-plans-to-reshape-california-could-he-actually-pull-them-off/ar-AA2g5eDG"
+        ],
+        "candidates": [
+          "www.msn.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "OP/OP.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "OP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.op.gg/?lng=en",
+          "https://www.op.gg/",
+          "https://meanary.com/op-meaning-slang/",
+          "https://slangwordz.com/op-meaning-slang/",
+          "https://www.youtube.com/watch?v=XGzeJACNJG8",
+          "https://textzloop.com/op-meaning-slang/",
+          "https://www.op.fi/",
+          "https://www.merriam-webster.com/dictionary/op",
+          "https://www.opera.com/download",
+          "https://www.youtube.com/watch?v=2BvEgEF1NQc"
+        ],
+        "candidates": [
+          "meanary.com",
+          "op.fi",
+          "op.gg",
+          "slangwordz.com",
+          "textzloop.com",
+          "www.merriam-webster.com",
+          "www.op.fi",
+          "www.op.gg",
+          "www.opera.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "OPPO/OPPO.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "OPPO",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.oppo.com/en/",
+          "https://www.oppo.com/en/smartphones/",
+          "https://en.wikipedia.org/wiki/Oppo",
+          "https://www.amazon.com/Cell-Phones-OPPO-Accessories/s?rh=n%3A7072561011%2Cp_89%3AOPPO",
+          "https://www.amazon.com/oppo/s?k=oppo",
+          "https://www.gsmarena.com/oppo-phones-82.php",
+          "https://www.techadvisor.com/article/724734/best-oppo-phone.html",
+          "https://support.oppo.com/en/",
+          "https://www.gizmochina.com/2026/08/30/best-oppo-phones/",
+          "https://www.techradar.com/news/best-oppo-phones"
+        ],
+        "candidates": [
+          "amazon.com",
+          "en.wikipedia.org",
+          "gsmarena.com",
+          "support.oppo.com",
+          "www.amazon.com",
+          "www.gizmochina.com",
+          "www.gsmarena.com",
+          "www.oppo.com",
+          "www.techadvisor.com",
+          "www.techradar.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Olevod/Olevod.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Olevod",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.olevod.com/",
+          "https://www.olehdtv.com/index.php/user/reg.html",
+          "https://www.sgzhan.com/zh-hant/view/10002951.html",
+          "https://www.dealmoon.com/guide/976446",
+          "https://movie.le.com/",
+          "https://www.facebook.com/olevod/",
+          "https://olevod.com.siteindices.com/",
+          "https://www.ondemandchina.com/",
+          "https://www.douban.com/note/708722731/"
+        ],
+        "candidates": [
+          "index.html",
+          "movie.le.com",
+          "olevod.com",
+          "olevod.com.siteindices.com",
+          "www.dealmoon.com",
+          "www.douban.com",
+          "www.facebook.com",
+          "www.olehdtv.com",
+          "www.olevod.com",
+          "www.ondemandchina.com",
+          "www.sgzhan.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "OneDrive/OneDrive.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "OneDrive",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://onedrive.live.com/login/en-us/",
+          "https://onedrive.live.com/about/en-us/signin/",
+          "https://oauth.live.com/login",
+          "https://www.microsoft.com/en-us/microsoft-365/onedrive/download",
+          "https://www.onedrive.com/share",
+          "https://www.microsoft.com/en-us/microsoft-365/onedrive/login",
+          "https://support.microsoft.com/en-us/onedrive/download-onedrive",
+          "https://support.microsoft.com/en-us/onedrive/",
+          "https://onedrive.live.com/",
+          "https://onedrive.live.com/login/de-de/"
+        ],
+        "candidates": [
+          "oauth.live.com",
+          "onedrive.live.com",
+          "support.microsoft.com",
+          "www.microsoft.com",
+          "www.onedrive.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "OnePlus/OnePlus.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "OnePlus",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.oneplus.com/us",
+          "https://www.oneplus.com/global",
+          "https://en.wikipedia.org/wiki/OnePlus",
+          "https://www.cnet.com/tech/mobile/oneplus-pulls-out-of-us-and-europe/",
+          "https://www.amazon.com/OnePlus-Dual-SIM-Unlocked-Smartphone-Snapdragon/dp/B0FSD2VX3R",
+          "https://www.oneplus.com/us/store",
+          "https://www.oneplus.com/us/15",
+          "https://www.oneplus.com/us/oneplus-13",
+          "https://www.oneplus.com/us/oneplus-15",
+          "https://www.oneplus.in/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "www.amazon.com",
+          "www.cnet.com",
+          "www.oneplus.com",
+          "www.oneplus.in"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "OpenAI/OpenAI.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "OpenAI",
+        "status": "checked",
+        "sources": [
+          "https://openai.com/",
+          "https://openai.com/index/chatgpt/",
+          "https://chatgpt.com/",
+          "https://platform.openai.com/onboarding",
+          "https://en.wikipedia.org/wiki/OpenAI",
+          "https://platform.openai.com/",
+          "https://x.com/OpenAI",
+          "https://openai.com/index/gpt-4/",
+          "https://openai.com/news/",
+          "https://openai.com/about/"
+        ],
+        "candidates": [
+          "chatgpt.com",
+          "en.wikipedia.org",
+          "openai.com",
+          "platform.openai.com",
+          "x.com"
+        ],
+        "accepted": [
+          "chatgpt.com",
+          "openai.com",
+          "platform.openai.com"
+        ],
+        "ownership_evidence": [
+          "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+        ]
+      },
+      "Opera/Opera.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Opera",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.opera.com/download",
+          "https://www.opera.com/",
+          "https://apps-opera.com/en/",
+          "https://opera.en.softonic.com/",
+          "https://en.wikipedia.org/wiki/Opera_(web_browser)",
+          "https://apps.microsoft.com/detail/xp8cf6s8g2d5t6",
+          "https://gizmodo.com/download/opera",
+          "https://www.techspot.com/downloads/393-opera-browser.html",
+          "https://www.opera.com/download.",
+          "https://www.opera.com/browsers"
+        ],
+        "candidates": [
+          "apps-opera.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "gizmodo.com",
+          "opera.en.softonic.com",
+          "www.opera.com",
+          "www.techspot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Oracle/Oracle.yaml": {
+        "checked_at": "2026-10-30 05:38 UTC",
+        "name": "Oracle",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.oracle.com/",
+          "https://www.oracle.com/corporate/",
+          "https://en.wikipedia.org/wiki/Oracle_Corporation",
+          "https://signon.oracle.com/signin",
+          "https://profile.oracle.com/myprofile/account/secure/update-account.jspx",
+          "https://docs.oracle.com/en/menu.html",
+          "https://cloud.oracle.com/en-us/home",
+          "https://careers.oracle.com/jobs/",
+          "https://mysites.oracle.com/",
+          "https://docs.oracle.com/en/"
+        ],
+        "candidates": [
+          "careers.oracle.com",
+          "cloud.oracle.com",
+          "docs.oracle.com",
+          "en.wikipedia.org",
+          "mysites.oracle.com",
+          "profile.oracle.com",
+          "signon.oracle.com",
+          "www.oracle.com"
         ],
         "accepted": [],
         "ownership_evidence": []
