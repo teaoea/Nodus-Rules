@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-30 05:29 UTC",
+  "date": "2026-10-30 05:31 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-30 05:29 UTC",
-    "next_index": 408,
+    "checked_at": "2026-10-30 05:31 UTC",
+    "next_index": 432,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -160242,6 +160242,680 @@
           "myapps.microsoft.com",
           "outlook.office.com",
           "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Manorama/Manorama.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "Manorama",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.manoramaonline.com/",
+          "https://www.manoramaonline.com/news/latest-news.html",
+          "https://www.onmanorama.com/",
+          "https://www.manoramanews.com/?tabId=0/",
+          "https://www.onmanorama.com/news.html",
+          "https://en.wikipedia.org/wiki/Malayala_Manorama",
+          "https://www.manoramanews.com/kerala/latest.html",
+          "https://www.manoramamax.com/live/play/manorama-news-live",
+          "https://www.manoramaonline.com/news.html",
+          "https://www.manoramaonline.com/news/kerala.html"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "manorama.latest",
+          "www.manoramamax.com",
+          "www.manoramanews.com",
+          "www.manoramaonline.com",
+          "www.onmanorama.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Maocloud/Maocloud.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "Maocloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://sf.eater.com/maps/best-restaurants-san-francisco-38",
+          "https://www.tripadvisor.com/Restaurants-g60713-San_Francisco_California.html",
+          "https://www.timeout.com/usa/restaurants/best-restaurants-in-san-francisco",
+          "https://www.cntraveler.com/gallery/best-restaurants-in-san-francisco",
+          "https://www.yelp.com/search?cflt=restaurants&find_loc=san+francisco,+ca",
+          "https://www.opentable.com/metro/san-francisco-restaurants",
+          "https://secretsanfrancisco.com/san-francisco-best-restaurants/",
+          "https://restaurantobserver.com/restaurants-in-san-francisco-ca/",
+          "https://www.nytimes.com/article/best-san-francisco-restaurants.html",
+          "https://guide.michelin.com/us/en/california/san-francisco/restaurants"
+        ],
+        "candidates": [
+          "guide.michelin.com",
+          "restaurantobserver.com",
+          "secretsanfrancisco.com",
+          "sf.eater.com",
+          "www.cntraveler.com",
+          "www.nytimes.com",
+          "www.opentable.com",
+          "www.timeout.com",
+          "www.tripadvisor.com",
+          "www.yelp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Marketing/Marketing.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "Marketing",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Marketing",
+          "https://www.forbes.com/advisor/business/what-is-marketing/",
+          "https://www.ama.org/the-definition-of-marketing-what-is-marketing/",
+          "https://www.salesforce.com/marketing/what-is-marketing/",
+          "https://www.investopedia.com/terms/m/marketing.asp",
+          "https://blog.hubspot.com/marketing/what-is-marketing",
+          "https://www.apu.apus.edu/area-of-study/business-and-management/resources/what-is-marketing/",
+          "https://www.educba.com/what-is-marketing/",
+          "https://www.britannica.com/money/marketing",
+          "https://www.coursera.org/articles/marketing-is"
+        ],
+        "candidates": [
+          "blog.hubspot.com",
+          "en.wikipedia.org",
+          "www.ama.org",
+          "www.apu.apus.edu",
+          "www.britannica.com",
+          "www.coursera.org",
+          "www.educba.com",
+          "www.forbes.com",
+          "www.investopedia.com",
+          "www.salesforce.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "McDonalds/McDonalds.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "McDonalds",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.mcdonalds.com/us/en-us.html",
+          "https://www.mcdonalds.com/us/en-us/location/ca/lompoc/835-north-h-st/1716.html",
+          "https://www.menuswithprice.com/mcdonalds-menu/lompoc/48337/",
+          "https://www.yelp.com/biz/mcdonalds-lompoc",
+          "https://www.doordash.com/store/mcdonald's-lompoc-657505/",
+          "https://find-open.com/lompoc/mcdonalds-1830612",
+          "https://foodchainhub.com/mcdonalds/locations/california/lompoc/ca-lompoc-835-north-h-st/",
+          "https://www.yellowpages.com/lompoc-ca/mip/mcdonalds-7888908",
+          "https://www.menuwithprice.com/menu/mcdonalds/california/lompoc/",
+          "https://www.menuwithprice.com/menu/mcdonalds/california/lompoc/81384/"
+        ],
+        "candidates": [
+          "find-open.com",
+          "foodchainhub.com",
+          "www.doordash.com",
+          "www.mcdonalds.com",
+          "www.menuswithprice.com",
+          "www.menuwithprice.com",
+          "www.yellowpages.com",
+          "www.yelp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MeWatch/MeWatch.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "MeWatch",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.time.gov/",
+          "https://www.time.gov/widget/",
+          "https://www.time.gov/widget/dhtml/",
+          "https://time.gov/widget/embedNISTwidget.html",
+          "https://time.gov/widget/widget.html",
+          "https://time.gov/web/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2"
+        ],
+        "candidates": [
+          "time.gov",
+          "www.time.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MeiTu/MeiTu.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "MeiTu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://account.microsoft.com/account-checkup",
+          "https://myaccount.microsoft.com/",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://myaccount.microsoft.com/login",
+          "https://www.microsoft.com/en-us/microsoft-365",
+          "https://outlook.office.com/mail/",
+          "https://myapps.microsoft.com/index.html",
+          "https://apps.microsoft.com/home"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "myaccount.microsoft.com",
+          "myapps.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MeiTuan/MeiTuan.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "MeiTuan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.meituan.com/",
+          "https://en.wikipedia.org/wiki/Meituan",
+          "https://www.meituan.com/en-US/about-us",
+          "https://passport.meituan.com/account/unitivelogin",
+          "https://i.meituan.com/index/changecity/",
+          "https://passport.meituan.com/useraccount/login",
+          "https://waimai.meituan.com/",
+          "https://i.meituan.com/client/meituan",
+          "https://www.linkedin.com/company/meituan/",
+          "https://waimai.meituan.com/mobile/download/default"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "i.meituan.com",
+          "passport.meituan.com",
+          "waimai.meituan.com",
+          "www.linkedin.com",
+          "www.meituan.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MeiZu/MeiZu.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "MeiZu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://community.lincs.ed.gov/group/28/bulletin/edsurge-and-digital-promise-competition-innovation-learning",
+          "https://community.lincs.ed.gov/group/121/bulletin/brief-hear-my-voice-strengthening-college-pipeline-young-men-color-california",
+          "https://community.lincs.ed.gov/group/20/bulletin/family-literacy-policy-paper-webinar",
+          "https://community.lincs.ed.gov/group/21/discussion/mobile-devices-and-adult-education",
+          "https://community.lincs.ed.gov/group/124/discussion/week-4-chapters-8-9-question-4-reflect-positive-norms-encourage-math-class",
+          "https://community.lincs.ed.gov/group/28/bulletin/grant-opportunity-public-libraries-offer-or-expand-esolesl-or-basic-education",
+          "https://community.lincs.ed.gov/group/29/bulletin/department-educations-office-civil-rights-releases-2015-overview-disability",
+          "https://community.lincs.ed.gov/group/21/bulletin/connected-educator-month-contest-tech-tips-teachers",
+          "https://community.lincs.ed.gov/group/27/bulletin/courses-employment-c2e",
+          "https://community.lincs.ed.gov/group/20/bulletin/discussion-teaching-writing-dr-mary-ann-corley-0"
+        ],
+        "candidates": [
+          "community.lincs.ed.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MiWu/MiWu.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "MiWu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/",
+          "https://account.microsoft.com/account-checkup",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://myaccount.microsoft.com/login",
+          "https://www.microsoft.com/en-us/microsoft-365",
+          "https://outlook.office.com/mail/",
+          "https://myapps.microsoft.com/index.html",
+          "https://apps.microsoft.com/home"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "myaccount.microsoft.com",
+          "myapps.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Microsoft/Microsoft.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "Microsoft",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/",
+          "https://www.microsoft.com/en-us/download",
+          "https://myaccount.microsoft.com/%C2%A0",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://local.microsoft.com/communities/americas/greater-des-moines/",
+          "https://apps.microsoft.com/home",
+          "https://mysignins.microsoft.com/&nbsp",
+          "https://m365.cloud.microsoft/?origindomain=Office"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "local.microsoft.com",
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "mysignins.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MicrosoftEdge/MicrosoftEdge.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "MicrosoftEdge",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/edge",
+          "https://explore.microsoft.com/en-us/edge/download",
+          "https://explore.microsoft.com/en-us/edge/",
+          "https://apps.microsoft.com/detail/xpfftq037jwmhs?hl=en-US&gl=US",
+          "https://microsoft-edge.en.softonic.com/",
+          "https://support.microsoft.com/en-us/edge/update-to-the-new-microsoft-edge",
+          "https://support.microsoft.com/en-us/edge/",
+          "https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home",
+          "https://en.wikipedia.org/wiki/Microsoft_Edge",
+          "https://www.microsoft.com/en-us/education/products/edge"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "explore.microsoft.com",
+          "microsoft-edge.en.softonic.com",
+          "microsoftedge.microsoft.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Migu/Migu.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "Migu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.miguvideo.com/mgs/website/prd/index.html",
+          "https://music.migu.cn/v5/",
+          "https://www.migufun.com/middlepc/",
+          "https://i.migu.cn/v5/",
+          "https://www.migu.cn/",
+          "https://apps.microsoft.com/detail/xp9kj7zx7n7whr?hl=zh-CN&gl=CN",
+          "https://github.com/develop202/migu_video",
+          "https://www.migu-pro.com.cn/",
+          "https://tc-music-migu.com.cn/",
+          "https://zhuanlan.zhihu.com/p/2036108368461435743"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "github.com",
+          "i.migu.cn",
+          "music.migu.cn",
+          "tc-music-migu.com.cn",
+          "www.migu-pro.com.cn",
+          "www.migu.cn",
+          "www.migufun.com",
+          "www.miguvideo.com",
+          "zhuanlan.zhihu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MingLueZhaoHui/MingLueZhaoHui.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "MingLueZhaoHui",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.murphybeds.com/",
+          "https://www.costco.com/wall-beds.html",
+          "https://www.wayfair.com/furniture/sb0/murphy-beds-c1870814.html",
+          "https://murphydoor.com/collections/murphy-beds",
+          "https://murphybeddepot.com/",
+          "https://www.wallbedsbywilding.com/murphy-beds/",
+          "https://www.amazon.com/murphy-bed/s?k=murphy+bed",
+          "https://www.architecturaldigest.com/story/best-murphy-beds",
+          "https://www.lowes.com/pl/furniture/bedroom-furniture/beds/murphy/4294772292-2237789393",
+          "https://www.forbes.com/sites/forbes-personal-shopper/article/best-murphy-bed/"
+        ],
+        "candidates": [
+          "amazon.com",
+          "murphybeddepot.com",
+          "murphydoor.com",
+          "www.amazon.com",
+          "www.architecturaldigest.com",
+          "www.costco.com",
+          "www.forbes.com",
+          "www.lowes.com",
+          "www.murphybeds.com",
+          "www.wallbedsbywilding.com",
+          "www.wayfair.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Mogujie/Mogujie.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "Mogujie",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.facebook.com/bhakta.ramegowda/",
+          "https://indiankanoon.org/doc/789051/",
+          "https://lordbalarama.wordpress.com/2015/03/13/prayers/",
+          "https://patents.justia.com/inventor/namrata-bhakta",
+          "https://opencorporates.com/companies/us_tx/0804558801",
+          "https://m.youtube.com/watch?v=S8A2WEXZNvU",
+          "https://kksongs.org/songs/n/namastehalagraha.html",
+          "https://starsunfolded.com/namratha-gowda/",
+          "https://www.instagram.com/namratha__gowdaofficial/",
+          "https://www.bizapedia.com/people/namrata-bhakta.html"
+        ],
+        "candidates": [
+          "indiankanoon.org",
+          "kksongs.org",
+          "lordbalarama.wordpress.com",
+          "m.youtube.com",
+          "opencorporates.com",
+          "patents.justia.com",
+          "starsunfolded.com",
+          "www.bizapedia.com",
+          "www.facebook.com",
+          "www.instagram.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Mojitianqi/Mojitianqi.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "Mojitianqi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.speedtest.net/",
+          "https://support.google.com/googlenest/answer/9245832?hl=en",
+          "https://support.google.com/youtube/answer/2853702?hl=en-GB",
+          "https://support.google.com/websearch/thread/9654840/there-s-internet-access-but-websites-are-not-loading-except-for-google-sites-e-g-google-youtube?hl=en",
+          "https://support.google.com/chrome/answer/6098869?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtube/answer/2853856?hl=en",
+          "https://support.google.com/googlehome/answer/6246634?hl=en",
+          "https://support.google.com/meet/answer/16565148?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtubetv/answer/7129766?hl=en",
+          "https://support.google.com/voice/answer/10063441?hl=en&co=GENIE.Platform%3DDesktop"
+        ],
+        "candidates": [
+          "speedtest.net",
+          "support.google.com",
+          "www.speedtest.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Movefree/Movefree.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "Movefree",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.schiffvitamins.com/pages/move-free/",
+          "https://www.amazon.com/stores/MoveFree/page/883FF37A-00A2-4C81-B49C-88D11DF0C61C",
+          "https://www.walmart.com/browse/move-free/YnJhbmQ6TW92ZSBGcmVl",
+          "https://www.schiffvitamins.com/collections/move-free/",
+          "https://www.reckitt.com/us/our-brands/move-free/",
+          "https://www.amazon.com/movefree/s?k=movefree",
+          "https://www.costco.com/p/-/schiff-move-free-advanced-joint-supplement-200-tablets/100338957",
+          "https://www.walgreens.com/q/move+free",
+          "https://www.walgreens.com/store/c/schiff-move-free-advanced-joint-supplement/ID=prod3855572-product",
+          "https://www.healthwebmagazine.com/move-free-advanced-review"
+        ],
+        "candidates": [
+          "amazon.com",
+          "reckitt.com",
+          "walmart.com",
+          "www.amazon.com",
+          "www.costco.com",
+          "www.healthwebmagazine.com",
+          "www.reckitt.com",
+          "www.schiffvitamins.com",
+          "www.walgreens.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Mozilla/Mozilla.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "Mozilla",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.firefox.com/en-US/",
+          "https://www.mozilla.org/",
+          "https://www.mozilla.org/en-US/",
+          "https://www.firefox.com/en-US/download/windows/",
+          "https://en.wikipedia.org/wiki/Mozilla",
+          "https://www.mozillafoundation.org/",
+          "https://login.mozilla.com/",
+          "https://support.mozilla.org/en",
+          "https://support.mozilla.org/en-US/topics/installation-and-updates",
+          "https://en.wikipedia.org/wiki/Mozilla_Corporation"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "firefox.com",
+          "login.mozilla.com",
+          "mozilla.org",
+          "support.mozilla.org",
+          "www.firefox.com",
+          "www.mozilla.org",
+          "www.mozillafoundation.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "My5/My5.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "My5",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.indeed.com/q-Data-Analyst-l-Iowa-jobs.html",
+          "https://www.indeed.com/q-Pivot-jobs.html",
+          "https://www.indeed.com/cmp/Pivot-Point-Spencer,-Inc.",
+          "https://www.indeed.com/q-Speech-Language-Pathologist-l-Austin,-TX-jobs.html",
+          "https://www.indeed.com/cmp/Unitypoint-Health/jobs/q-Courier",
+          "https://www.indeed.com/q-Laboratory-l-Stevens-Point,-WI-jobs.html",
+          "https://www.indeed.com/career-advice/finding-a-job/how-to-find-entry-level-chemistry-jobs",
+          "https://www.indeed.com/q-Human-Resources-Manager-l-Austin,-TX-jobs.html",
+          "https://www.indeed.com/q-Laboratory-l-High-Point,-NC-jobs.html",
+          "https://www.indeed.com/q-Respiratory-Therapist-l-San-Antonio,-TX-jobs.html"
+        ],
+        "candidates": [
+          "indeed.com",
+          "www.indeed.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NBC/NBC.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "NBC",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nbc.com/",
+          "https://www.nbcnews.com/",
+          "https://www.nbc.com/live",
+          "https://www.nbcnews.com/us-news",
+          "https://nbcnewsusa.com/",
+          "https://en.wikipedia.org/wiki/NBC",
+          "https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg",
+          "https://www.youtube.com/nbc",
+          "https://www.nbc.com/%20%20",
+          "https://www.nbcnews.com/latest-stories"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "nbc.com",
+          "nbcnews.com",
+          "nbcnewsusa.com",
+          "www.nbc.com",
+          "www.nbcnews.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NGA/NGA.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "NGA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://mail.google.com/mail",
+          "https://workspace.google.com/gmail/",
+          "https://accounts.google.com/InteractiveLogin?service=mail",
+          "https://accounts.google.com/Login",
+          "https://mail.google.com/mail/&hl=en",
+          "https://en.wikipedia.org/wiki/Gmail",
+          "https://support.google.com/mail/answer/8494?hl=en&co=genie.platform=desktop",
+          "https://play.google.com/store/apps/details?id=com.google.android.gm&hl=en_US",
+          "https://www.google.com/",
+          "https://myaccount.google.com/email?pli=1"
+        ],
+        "candidates": [
+          "accounts.google.com",
+          "en.wikipedia.org",
+          "mail.google.com",
+          "myaccount.google.com",
+          "play.google.com",
+          "support.google.com",
+          "workspace.google.com",
+          "www.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NGAA/NGAA.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "NGAA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nga.cn/?from=onlytext.cn",
+          "https://bbs.nga.cn/index.php",
+          "https://www.ngawj.cn/",
+          "https://www.ngaa.com.cn/",
+          "https://apkpure.com/cn/ngawan-jia-she-qu/gov.pianzong.androidnga",
+          "https://www.ngaa.org/",
+          "https://en.wikipedia.org/wiki/Ngaa_people",
+          "https://www.ngaa.org.au/",
+          "https://catalinaaircrafttrust.com/ngaa-home",
+          "https://bbs.nga.cn/play"
+        ],
+        "candidates": [
+          "apkpure.com",
+          "bbs.nga.cn",
+          "catalinaaircrafttrust.com",
+          "en.wikipedia.org",
+          "nga.cn",
+          "www.nga.cn",
+          "www.ngaa.com.cn",
+          "www.ngaa.org",
+          "www.ngaa.org.au",
+          "www.ngawj.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NTPService/NTPService.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "NTPService",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.coach.com/",
+          "https://au.coach.com/",
+          "https://www.coach.com/shop/women/view-all",
+          "https://uk.coach.com/",
+          "https://au.coach.com/shop/women/bags/view-all",
+          "https://uk.coach.com/shop/outlet",
+          "https://ca.coach.com/en/shop/women/handbags/view-all",
+          "https://ca.coach.com/en/shop/outlet",
+          "https://nz.coach.com/shop/women/bags/view-all",
+          "https://malaysia.coach.com/men/bag.html"
+        ],
+        "candidates": [
+          "au.coach.com",
+          "ca.coach.com",
+          "coach.com",
+          "malaysia.coach.com",
+          "nz.coach.com",
+          "uk.coach.com",
+          "www.coach.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NYPost/NYPost.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "NYPost",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://nypost.com/",
+          "https://nypost.com/us-news/",
+          "https://en.m.wikipedia.org/wiki/New_York_Post",
+          "https://nypost.pressreader.com/",
+          "https://my.nypost.com/Home",
+          "https://www.facebook.com/NYPost/",
+          "https://my.nypost.com/",
+          "https://x.com/nypost",
+          "https://www.youtube.com/nypost",
+          "https://www.instagram.com/nypost/"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "my.nypost.com",
+          "nypost.com",
+          "nypost.pressreader.com",
+          "www.facebook.com",
+          "www.instagram.com",
+          "www.youtube.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "NYTimes/NYTimes.yaml": {
+        "checked_at": "2026-10-30 05:31 UTC",
+        "name": "NYTimes",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nytimes.com/",
+          "https://www.nytimes.com/section/todayspaper",
+          "https://myaccount.nytimes.com/seg",
+          "https://myaccount.nytimes.com/seg/subscription",
+          "https://www.nytimes.app/",
+          "https://www.nytimes.com/crosswords",
+          "https://www.nytimes.com/international/",
+          "https://cooking.nytimes.com/",
+          "https://www.nytco.com/games/",
+          "https://help.nytimes.com/115010905707-Log-in-to-Your-New-York-Times-Account"
+        ],
+        "candidates": [
+          "cooking.nytimes.com",
+          "help.nytimes.com",
+          "myaccount.nytimes.com",
+          "nytimes.app",
+          "nytimes.com",
+          "www.nytco.com",
+          "www.nytimes.app",
+          "www.nytimes.com"
         ],
         "accepted": [],
         "ownership_evidence": []
