@@ -270,7 +270,7 @@ def render_readme(file, upstream, root, warnings=None, date=None):
     asset = posixpath.relpath("assets/china-network-notice-inline.svg", (root / "rules" / file.parent.relative_to(upstream)).relative_to(root).as_posix())
     marker = "**" + country + "**"
     def country_notice(match):
-        body = match[0].replace("【" + marker + "】", country).replace(marker, country)
+        body = match[0].replace("【" + marker + "】", "中华人民共和国").replace(marker, "中华人民共和国")
         return "![" + body + "](" + asset + ")"
     text = re.sub(r"^[^\n]*" + re.escape(marker) + r"[^\n]*$", country_notice, text, flags=re.M)
     if date is not None:
