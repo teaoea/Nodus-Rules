@@ -1,5 +1,5 @@
 # 名称：ByteDance
-# 来源核对日期：2026-10-25 18:01 UTC
+# 来源核对日期：2026-10-30 05:23 UTC
 # 规则总数：371
 # domain: 0
 # domain-suffix: 370
@@ -16,7 +16,6 @@ rules:
   - domain-suffix,aigcarena.com
   - domain-suffix,aihst8.com
   - domain-suffix,amemv.cn
-  - domain-suffix,amemv.com
   - domain-suffix,amemv.net
   - domain-suffix,artistrylab.net
   - domain-suffix,baike.com
@@ -55,15 +54,10 @@ rules:
   - domain-suffix,byteeffecttos.com
   - domain-suffix,bytefcdn.com
   - domain-suffix,bytefcdnrd.com
-  - domain-suffix,bytegecko.com
-  - domain-suffix,bytegoofy.com
   - domain-suffix,bytegslb.com
-  - domain-suffix,bytehwm.com
-  - domain-suffix,byteimg.com
   - domain-suffix,bytelb.net
   - domain-suffix,bytelove.cn
   - domain-suffix,bytemaimg.com
-  - domain-suffix,bytescm.com
   - domain-suffix,bytesfield.com
   - domain-suffix,bytesmanager.com
   - domain-suffix,bytesyscdn.com
@@ -94,18 +88,14 @@ rules:
   - domain-suffix,douyin.com
   - domain-suffix,douyinact.com
   - domain-suffix,douyinact.net
-  - domain-suffix,douyincdn.com
   - domain-suffix,douyinclips.com
   - domain-suffix,douyinec.com
   - domain-suffix,douyinhanyu.com
   - domain-suffix,douyinliving.com
   - domain-suffix,douyinmusicclips.com
   - domain-suffix,douyinmusicvideo.com
-  - domain-suffix,douyinpic.com
   - domain-suffix,douyinshortvideo.com
-  - domain-suffix,douyinstatic.com
   - domain-suffix,douyinvideo.net
-  - domain-suffix,douyinvod.com
   - domain-suffix,dymusictape.com
   - domain-suffix,dymusicvideo.com
   - domain-suffix,dyshortvideo.com
@@ -174,11 +164,9 @@ rules:
   - domain-suffix,huoshanzhibo.cn
   - domain-suffix,huoshanzhibo.com
   - domain-suffix,huoshanzhibo.net
-  - domain-suffix,ibytedapm.com
   - domain-suffix,icphoto.cn
   - domain-suffix,idouyinpic.com
   - domain-suffix,idouyinstatic.com
-  - domain-suffix,idouyinvod.com
   - domain-suffix,iesdouyin.com
   - domain-suffix,iesdouyin.net
   - domain-suffix,ieshs.cn
@@ -195,8 +183,6 @@ rules:
   - domain-suffix,ihuoshanvod.com
   - domain-suffix,inluckcalendar.com
   - domain-suffix,ixgvideo.com
-  - domain-suffix,ixigua.com
-  - domain-suffix,ixiguavideo.com
   - domain-suffix,jinritemai-inc.com
   - domain-suffix,jinritemai.com
   - domain-suffix,jinritoutiao.com
@@ -260,7 +246,6 @@ rules:
   - domain-suffix,pglstatp-toutiao-b.com
   - domain-suffix,pglstatp-toutiao.com
   - domain-suffix,pipix.com
-  - domain-suffix,pstatp.com
   - domain-suffix,qmoji.mobi
   - domain-suffix,qmoji.net
   - domain-suffix,qwconnect.top
@@ -282,7 +267,6 @@ rules:
   - domain-suffix,tiquality.cn
   - domain-suffix,tiquality.com.cn
   - domain-suffix,toscdn.com
-  - domain-suffix,toutiao.com
   - domain-suffix,toutiao11.com
   - domain-suffix,toutiao12.com
   - domain-suffix,toutiao13.com
@@ -356,7 +340,6 @@ rules:
   - domain-suffix,yhgfb-cn-static.com
   - domain-suffix,youdianyisi.com
   - domain-suffix,yueantech.com.cn
-  - domain-suffix,zijieapi.com
   - domain-suffix,zijiecdn.cn
   - domain-suffix,zijiecdn.com
   - domain-suffix,zijiecdn.net
@@ -379,4 +362,21 @@ rules:
   - domain-suffix,zjurl.cn
   - domain-suffix,zlinkurl.cn
   - domain-suffix,zlinkurl.com
+  - domain-suffix,amemv.com
+  - domain-suffix,bytegecko.com
+  - domain-suffix,bytegoofy.com
+  - domain-suffix,bytehwm.com
+  - domain-suffix,byteimg.com
+  - domain-suffix,bytescm.com
+  - domain-suffix,douyincdn.com
+  - domain-suffix,douyinpic.com
+  - domain-suffix,douyinstatic.com
+  - domain-suffix,douyinvod.com
+  - domain-suffix,ibytedapm.com
+  - domain-suffix,idouyinvod.com
+  - domain-suffix,ixigua.com
+  - domain-suffix,ixiguavideo.com
+  - domain-suffix,pstatp.com
+  - domain-suffix,toutiao.com
+  - domain-suffix,zijieapi.com
   - ip-cidr,114.246.10.65/32

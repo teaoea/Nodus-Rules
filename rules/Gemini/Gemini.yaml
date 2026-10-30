@@ -1,5 +1,5 @@
 # 名称：Gemini
-# 来源核对日期：2026-10-25 18:01 UTC
+# 来源核对日期：2026-10-30 05:23 UTC
 # 规则总数：13
 # domain: 3
 # domain-suffix: 7
@@ -12,13 +12,13 @@ rules:
   - domain,ai.google.dev
   - domain,alkalimakersuite-pa.clients6.google.com
   - domain,makersuite.google.com
-  - domain-suffix,apis.google.com
   - domain-suffix,bard.google.com
   - domain-suffix,deepmind.com
   - domain-suffix,deepmind.google
   - domain-suffix,gemini.google.com
   - domain-suffix,generativeai.google
   - domain-suffix,proactivebackend-pa.googleapis.com
+  - domain-suffix,apis.google.com
   - domain-keyword,colab
   - domain-keyword,developerprofiles
   - domain-keyword,generativelanguage

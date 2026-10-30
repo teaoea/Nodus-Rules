@@ -1,5 +1,5 @@
 # 名称：Microsoft
-# 来源核对日期：2026-10-25 18:01 UTC
+# 来源核对日期：2026-10-30 05:23 UTC
 # 规则总数：668
 # domain: 1
 # domain-suffix: 663
@@ -10,7 +10,6 @@
 # port: 0
 rules:
   - domain,vsmarketplacebadge.apphb.com
-  - domain-suffix,1drv.com
   - domain-suffix,1drv.ms
   - domain-suffix,21vbc.com
   - domain-suffix,21vbluecloud.com
@@ -253,7 +252,6 @@ rules:
   - domain-suffix,live.com.au
   - domain-suffix,live.eu
   - domain-suffix,live.net
-  - domain-suffix,livefilestore.com
   - domain-suffix,livetileedge.dsx.mp.microsoft.com.edgekey.net
   - domain-suffix,livingyourambition.com
   - domain-suffix,localytics.com
@@ -384,7 +382,6 @@ rules:
   - domain-suffix,microsoftonline.com
   - domain-suffix,microsoftpartnercommunity.com
   - domain-suffix,microsoftpartnersolutions.com
-  - domain-suffix,microsoftpersonalcontent.com
   - domain-suffix,microsoftreactor.cn
   - domain-suffix,microsoftreactor.com.cn
   - domain-suffix,microsoftreactor.info
@@ -509,7 +506,6 @@ rules:
   - domain-suffix,onecollector.cloudapp.aria
   - domain-suffix,onedrive.co
   - domain-suffix,onedrive.co.uk
-  - domain-suffix,onedrive.com
   - domain-suffix,onedrive.eu
   - domain-suffix,onedrive.net
   - domain-suffix,onedrive.org
@@ -565,8 +561,6 @@ rules:
   - domain-suffix,sfbassets.net
   - domain-suffix,sfx.ms
   - domain-suffix,sharepoint.cn
-  - domain-suffix,sharepoint.com
-  - domain-suffix,sharepointonline.com
   - domain-suffix,signalr.net
   - domain-suffix,skype
   - domain-suffix,skype.com
@@ -574,7 +568,6 @@ rules:
   - domain-suffix,skypeassets.com
   - domain-suffix,skypeassets.net
   - domain-suffix,skypeforbusiness.com
-  - domain-suffix,spoprod-a.akamaihd.net
   - domain-suffix,sprinklesapp.com
   - domain-suffix,sqlserveronlinux.com
   - domain-suffix,staffhub.ms
@@ -673,7 +666,14 @@ rules:
   - domain-suffix,xbx.lv
   - domain-suffix,yammer.com
   - domain-suffix,yammerusercontent.com
-  - domain-keyword,1drv
+  - domain-suffix,1drv.com
+  - domain-suffix,livefilestore.com
+  - domain-suffix,microsoftpersonalcontent.com
+  - domain-suffix,onedrive.com
+  - domain-suffix,sharepoint.com
+  - domain-suffix,sharepointonline.com
+  - domain-suffix,spoprod-a.akamaihd.net
   - domain-keyword,microsoft
+  - domain-keyword,1drv
   - domain-keyword,onedrive
   - domain-keyword,skydrive

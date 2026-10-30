@@ -1,0 +1,15 @@
+# 名称：ProxyLite_Domain
+# 来源核对日期：2026-10-30 05:23 UTC
+# 规则总数：4
+# domain: 4
+# domain-suffix: 0
+# domain-keyword: 0
+# ip-cidr: 0
+# geoip: 0
+# protocol: 0
+# port: 0
+rules:
+  - domain,api.waqi.info
+  - domain,aqi.aqicn.org
+  - domain,assets-priconne-redive-us.akamaized.net
+  - domain,voice.telephony.goog

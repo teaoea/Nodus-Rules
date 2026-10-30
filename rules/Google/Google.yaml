@@ -1,7 +1,7 @@
 # 名称：Google
-# 来源核对日期：2026-10-29 04:09 UTC
-# 规则总数：700
-# domain: 6
+# 来源核对日期：2026-10-30 05:23 UTC
+# 规则总数：695
+# domain: 1
 # domain-suffix: 684
 # domain-keyword: 5
 # ip-cidr: 5
@@ -10,11 +10,6 @@
 # port: 0
 rules:
   - domain,voice.telephony.goog
-  - domain,accounts.google.com
-  - domain,google.com
-  - domain,maps.google.com
-  - domain,ogs.google.com
-  - domain,www.google.com
   - domain-suffix,0emm.com
   - domain-suffix,1e100.net
   - domain-suffix,1ucrs.com
@@ -482,7 +477,6 @@ rules:
   - domain-suffix,googlecompare.co.uk
   - domain-suffix,googledanmark.com
   - domain-suffix,googledomains.com
-  - domain-suffix,googledrive.com
   - domain-suffix,googlee.com
   - domain-suffix,googleearth.com
   - domain-suffix,googlefiber.com
@@ -510,7 +504,6 @@ rules:
   - domain-suffix,googletagservices.com
   - domain-suffix,googletraveladservices-cn.com
   - domain-suffix,googletraveladservices.com
-  - domain-suffix,googleusercontent.com
   - domain-suffix,googlevads-cn.com
   - domain-suffix,googleventures.com
   - domain-suffix,googlr.com
@@ -699,6 +692,8 @@ rules:
   - domain-suffix,xplr.co
   - domain-suffix,zukunftswerkstatt.de
   - domain-suffix,zynamics.com
+  - domain-suffix,googledrive.com
+  - domain-suffix,googleusercontent.com
   - domain-keyword,appspot
   - domain-keyword,blogspot
   - domain-keyword,gmail
@@ -707,5 +702,5 @@ rules:
   - ip-cidr,172.110.32.0/21
   - ip-cidr,173.194.0.0/16
   - ip-cidr,216.73.80.0/20
-  - ip-cidr,2620:120:e000::/40
   - ip-cidr,74.125.0.0/16
+  - ip-cidr,2620:120:e000::/40

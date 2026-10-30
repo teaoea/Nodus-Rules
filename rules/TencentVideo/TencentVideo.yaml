@@ -1,5 +1,5 @@
 # 名称：TencentVideo
-# 来源核对日期：2026-10-25 18:01 UTC
+# 来源核对日期：2026-10-30 05:23 UTC
 # 规则总数：51
 # domain: 14
 # domain-suffix: 5
@@ -31,20 +31,12 @@ rules:
   - ip-cidr,58.49.111.117/32
   - ip-cidr,58.49.111.79/32
   - ip-cidr,58.49.111.95/32
-  - ip-cidr,::ffff:1b9d:d12e/128
-  - ip-cidr,::ffff:3a3a:5a/128
-  - ip-cidr,::ffff:3ad9:e844/128
-  - ip-cidr,::ffff:3ad9:e84f/128
-  - ip-cidr,::ffff:3ad9:e875/128
-  - ip-cidr,::ffff:3cab:b762/128
-  - ip-cidr,::ffff:3cab:b7a1/128
-  - ip-cidr,::ffff:3cab:b7ba/128
   - ip-cidr,::ffff:71f8:acf5/128
   - ip-cidr,::ffff:72eb:60ba/128
-  - ip-cidr,::ffff:73ec:8018/128
-  - ip-cidr,::ffff:73ec:8050/128
   - ip-cidr,::ffff:73ec:8070/128
   - ip-cidr,::ffff:73ec:8078/128
+  - ip-cidr,::ffff:73ec:8018/128
+  - ip-cidr,::ffff:73ec:8050/128
   - ip-cidr,::ffff:7540:4bc4/128
   - ip-cidr,::ffff:7544:c8d2/128
   - ip-cidr,::ffff:7557:9018/128
@@ -60,3 +52,11 @@ rules:
   - ip-cidr,::ffff:c612:651/128
   - ip-cidr,::ffff:c612:653/128
   - ip-cidr,::ffff:dff0:bfee/128
+  - ip-cidr,::ffff:1b9d:d12e/128
+  - ip-cidr,::ffff:3ad9:e875/128
+  - ip-cidr,::ffff:3ad9:e844/128
+  - ip-cidr,::ffff:3ad9:e84f/128
+  - ip-cidr,::ffff:3a3a:5a/128
+  - ip-cidr,::ffff:3cab:b7a1/128
+  - ip-cidr,::ffff:3cab:b7ba/128
+  - ip-cidr,::ffff:3cab:b762/128

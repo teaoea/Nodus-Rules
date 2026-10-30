@@ -1,5 +1,5 @@
 # 名称：ProxyLite
-# 来源核对日期：2026-10-26 02:58 UTC
+# 来源核对日期：2026-10-30 05:23 UTC
 # 规则总数：997
 # domain: 24
 # domain-suffix: 861
@@ -111,7 +111,10 @@ rules:
   - domain-suffix,bet365.com
   - domain-suffix,betvictor.com
   - domain-suffix,bibox.com
+  - domain-suffix,bidobido.xyz
   - domain-suffix,bigsound.org
+  - domain-suffix,bikaios.xyz
+  - domain-suffix,bikawebapp.com
   - domain-suffix,binance.cc
   - domain-suffix,binance.com
   - domain-suffix,binance.me
@@ -217,6 +220,7 @@ rules:
   - domain-suffix,disq.us
   - domain-suffix,disqus.com
   - domain-suffix,disquscdn.com
+  - domain-suffix,diwodiwo.xyz
   - domain-suffix,dler.io
   - domain-suffix,dlive.tv
   - domain-suffix,dmm.co.jp
@@ -232,6 +236,7 @@ rules:
   - domain-suffix,duckduckgo.com
   - domain-suffix,dueapp.com
   - domain-suffix,dw.com
+  - domain-suffix,e-hentai.org
   - domain-suffix,earthcam.com
   - domain-suffix,easybib.com
   - domain-suffix,economist.com
@@ -246,6 +251,7 @@ rules:
   - domain-suffix,etherscan.io
   - domain-suffix,eurekavpt.com
   - domain-suffix,evernote.com
+  - domain-suffix,exhentai.org
   - domain-suffix,extmatrix.com
   - domain-suffix,eyny.com
   - domain-suffix,f8.com
@@ -327,6 +333,7 @@ rules:
   - domain-suffix,howtoforge.com
   - domain-suffix,hoyolab.com
   - domain-suffix,hoyoverse.com
+  - domain-suffix,huakacomic.com
   - domain-suffix,huffpost.com
   - domain-suffix,hulu.com
   - domain-suffix,humblebundle.com
@@ -410,6 +417,7 @@ rules:
   - domain-suffix,macrumors.com
   - domain-suffix,mailchimp.com
   - domain-suffix,mangaup.jp
+  - domain-suffix,manhuabika.com
   - domain-suffix,manhuaren.com
   - domain-suffix,marketwatch.com
   - domain-suffix,mashable.com
@@ -509,6 +517,7 @@ rules:
   - domain-suffix,phncdn.com
   - domain-suffix,phprcdn.com
   - domain-suffix,piaotian.net
+  - domain-suffix,pica-id.com
   - domain-suffix,picacomic.com
   - domain-suffix,picjs.xyz
   - domain-suffix,pinboard.in
@@ -686,6 +695,7 @@ rules:
   - domain-suffix,tiny.cc
   - domain-suffix,tinychat.com
   - domain-suffix,tinypic.com
+  - domain-suffix,tipatipa.xyz
   - domain-suffix,tmagazine.com
   - domain-suffix,tmblr.co
   - domain-suffix,todoist.com
@@ -805,6 +815,7 @@ rules:
   - domain-suffix,westca.com
   - domain-suffix,westpoint.edu
   - domain-suffix,whoer.net
+  - domain-suffix,wikawika.xyz
   - domain-suffix,wikibooks.org
   - domain-suffix,wikidata.org
   - domain-suffix,wikifunctions.org
@@ -883,17 +894,6 @@ rules:
   - domain-suffix,zoomgov.com
   - domain-suffix,zophar.net
   - domain-suffix,zyxel.com
-  - domain-suffix,bidobido.xyz
-  - domain-suffix,bikaios.xyz
-  - domain-suffix,bikawebapp.com
-  - domain-suffix,diwodiwo.xyz
-  - domain-suffix,e-hentai.org
-  - domain-suffix,exhentai.org
-  - domain-suffix,huakacomic.com
-  - domain-suffix,manhuabika.com
-  - domain-suffix,pica-id.com
-  - domain-suffix,tipatipa.xyz
-  - domain-suffix,wikawika.xyz
   - domain-keyword,1e100
   - domain-keyword,abema
   - domain-keyword,appledaily
@@ -964,9 +964,6 @@ rules:
   - ip-cidr,184.173.128.0/17
   - ip-cidr,185.60.216.0/22
   - ip-cidr,185.76.151.0/24
-  - ip-cidr,2001:67c:4e8::/48
-  - ip-cidr,2001:b28:f23c::/47
-  - ip-cidr,2001:b28:f23f::/48
   - ip-cidr,203.104.103.0/24
   - ip-cidr,203.104.128.0/19
   - ip-cidr,203.174.66.64/26
@@ -981,7 +978,6 @@ rules:
   - ip-cidr,220.181.174.226/32
   - ip-cidr,220.181.174.34/32
   - ip-cidr,27.0.236.0/22
-  - ip-cidr,2a0a:f280::/32
   - ip-cidr,31.13.24.0/21
   - ip-cidr,31.13.64.0/18
   - ip-cidr,34.224.0.0/12
@@ -1006,3 +1002,7 @@ rules:
   - ip-cidr,75.126.0.0/16
   - ip-cidr,91.105.192.0/23
   - ip-cidr,91.108.0.0/16
+  - ip-cidr,2001:67c:4e8::/48
+  - ip-cidr,2001:b28:f23c::/47
+  - ip-cidr,2001:b28:f23f::/48
+  - ip-cidr,2a0a:f280::/32

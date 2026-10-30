@@ -1,18 +1,31 @@
-<!-- upstream-sync:Assassin-sCreed-Odyssey.yaml:start -->
-同步时间：2026-10-25 18:11 UTC
+# Assassin'sCreed-Odyssey
 
-原始规则集，每日UTC时间`00:00`和`12:00`同步
+## 前言
 
-```text
-https://raw.githubusercontent.com/teaoea/nodus-rules/main/rules/Assassin%27sCreed/Assassin%27sCreed-Odyssey/Assassin-sCreed-Odyssey.yaml
-```
+分流规则是互联网公共服务的域名和IP地址汇总，所有数据均收集自互联网公开信息，不代表我们支持或使用这些服务。
 
-CDN加速链接
+请通过我国(中华人民共和国)合法的互联网出入口信道访问规则中的地址，并确保在使用过程中符合相关法律法规。
 
-```text
-https://cdn.jsdelivr.net/gh/teaoea/nodus-rules@main/rules/Assassin%27sCreed/Assassin%27sCreed-Odyssey/Assassin-sCreed-Odyssey.yaml
-```
+## 规则统计
 
-来源：[blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Assassin%27sCreed/Assassin%27sCreed-Odyssey/Assassin%27sCreed-Odyssey.list)；[上游说明](https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Assassin%27sCreed/Assassin%27sCreed-Odyssey/README.md)。转换及合并由本项目执行，上游内容按 GPL-2.0 分发，许可与来源记录见 [同步说明](../../../scripts/README.md)。
+总计规则：15 条。
 
-<!-- upstream-sync:Assassin-sCreed-Odyssey.yaml:end -->
+最后更新时间：2022-05-09 00:53:27
+
+各类型规则统计：
+
+| 类型 | 数量(条) |
+| ---- | ---- |
+| IP-CIDR | 15 |
+
+## Nodus Core
+
+### 配置建议
+
+- Assassin'sCreed-Odyssey.yaml 单独使用。
+
+### 规则链接
+
+## 子规则/排除规则
+
+当前分流规则，未包含其他子规则。

@@ -1,5 +1,5 @@
 # 名称：TelegramUS
-# 来源核对日期：2026-10-25 18:01 UTC
+# 来源核对日期：2026-10-30 05:23 UTC
 # 规则总数：2
 # domain: 0
 # domain-suffix: 0
@@ -9,5 +9,5 @@
 # protocol: 0
 # port: 0
 rules:
-  - ip-cidr,2001:b28:f23d::/48
   - ip-cidr,91.108.12.0/22
+  - ip-cidr,2001:b28:f23d::/48
