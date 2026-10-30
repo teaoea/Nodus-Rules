@@ -246,9 +246,11 @@ def format_readme(text, name):
     return "\n\n".join(parts) + "\n"
 
 
-def render_readme(file, upstream, root, warnings=None):
+def render_readme(file, upstream, root, warnings=None, date=None):
     """按约定格式整理集合 README，下载 URL 对应本仓库实际输出。"""
     text = format_readme(file.read_bytes().decode("utf-8-sig"), file.parent.name)
+    if date is not None:
+        text = re.sub(r"^最后更新时间：[^\n]*", "最后更新时间：" + date, text, flags=re.M)
     prefixes = (
         ("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/", RAW),
         ("https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@", "https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/"),
@@ -337,7 +339,7 @@ def prepare(source, root, date, additions=None):
     for readme in sorted(upstream.rglob("README.md")):
         if readme.parent == upstream:
             continue
-        planned[root / "rules" / readme.relative_to(upstream)] = render_readme(readme, upstream, root, readme_warnings)
+        planned[root / "rules" / readme.relative_to(upstream)] = render_readme(readme, upstream, root, readme_warnings, date=date)
     planned[root / "LICENSE"] = (source / "LICENSE").read_bytes()
     revision = subprocess.check_output(["git", "-C", str(source), "rev-parse", "HEAD"], text=True).strip()
     planned[root / "rules/sync-report.json"] = (json.dumps({"upstream": REPO, "revision": revision,

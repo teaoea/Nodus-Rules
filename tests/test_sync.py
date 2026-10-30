@@ -161,6 +161,16 @@ class SyncTests(unittest.TestCase):
         self.assertTrue(all(url.endswith("/rules/Group/Nested/Example.yaml") for url in blocks))
         self.assertNotIn("```https://", rendered)
 
+    def test_readme_uses_repository_sync_time(self):
+        text = ("## 规则统计\n\n最后更新时间：2000-01-01 00:00:00\n\n"
+                "## Clash\n\n#### 规则链接\n"
+                "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Group/Nested/Example.yaml\n")
+        (self.folder / "README.md").write_text(text)
+        planned, _ = self.run_prepare()
+        result = planned[self.root / "rules/Group/Nested/README.md"].decode()
+        self.assertIn("最后更新时间：2026-10-30 00:00 UTC", result)
+        self.assertNotIn("2000-01-01", result)
+
     def test_unknown_yaml_structure_fails_closed(self):
         path = self.folder / "Example.yaml"
         path.write_text("payload: [invalid]\n")
