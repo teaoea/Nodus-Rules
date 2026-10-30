@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-30 05:38 UTC",
+  "date": "2026-10-30 05:43 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-30 05:38 UTC",
-    "next_index": 456,
+    "checked_at": "2026-10-30 05:43 UTC",
+    "next_index": 480,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -161571,6 +161571,665 @@
           "profile.oracle.com",
           "signon.oracle.com",
           "www.oracle.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Oreilly/Oreilly.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Oreilly",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.oreillyauto.com/",
+          "https://locations.oreillyauto.com/en-us/",
+          "https://www.oreilly.com/",
+          "https://www.oreillyauto.com/shop/b",
+          "https://www.oreillypro.com/login",
+          "https://careers.oreillyauto.com/us/en/home",
+          "https://learning.oreilly.com/",
+          "https://www.oreilly.com/products/books-videos.html",
+          "https://www.nascar.com/nascar-oreilly-auto-parts-series/2026/schedule/",
+          "https://www.nascar.com/standings/nascar-oreilly-auto-parts-series/"
+        ],
+        "candidates": [
+          "careers.oreillyauto.com",
+          "learning.oreilly.com",
+          "locations.oreillyauto.com",
+          "www.nascar.com",
+          "www.oreilly.com",
+          "www.oreillyauto.com",
+          "www.oreillypro.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Origin/Origin.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Origin",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.originlab.com/",
+          "https://www.ea.com/ea-app",
+          "https://www.originlab.com/Origin",
+          "https://www.origin.com/store/odc/store-plugin/views/checkoutLoading.html",
+          "https://zhuanlan.zhihu.com/p/615212186",
+          "https://www.origin.com/usa/en-us/store/odc/",
+          "https://zhuanlan.zhihu.com/p/366668144",
+          "https://blog.csdn.net/logikol775/article/details/162340632",
+          "https://www.ea.com/zh-tw/ea-originals",
+          "https://ea-origin.en.softonic.com/"
+        ],
+        "candidates": [
+          "blog.csdn.net",
+          "ea-origin.en.softonic.com",
+          "www.ea.com",
+          "www.origin.com",
+          "www.originlab.com",
+          "zhuanlan.zhihu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "OuPeng/OuPeng.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "OuPeng",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://tugbbs.com/forums/threads/new-mvc-owner-within-10-day-cancellation-window.321000/",
+          "https://tugbbs.com/forums/threads/marriott-2024-maintenance-fees.357131/",
+          "https://tugbbs.com/forums/threads/pay-off-marriott-vacation-club.360561/",
+          "https://tugbbs.com/forums/threads/marriott-hotel-discount-code-for-owners.321411/",
+          "https://tugbbs.com/forums/threads/marriott-ii-unit-codes.163130/",
+          "https://tugbbs.com/forums/threads/using-marriott-vacation-club-points-for-collette-tours.300248/",
+          "https://tugbbs.com/forums/threads/should-we-buy-just-attended-marriott-vacation-club-presentation.375046/",
+          "https://tugbbs.com/forums/threads/do-mvc-owners-get-discount-on-marriott-hotels.286990/",
+          "https://tugbbs.com/forums/threads/star-options-to-club-points-questions.348597/",
+          "https://tugbbs.com/forums/threads/to-whom-should-i-file-a-complaint-at-marriott.90724/"
+        ],
+        "candidates": [
+          "tugbbs.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Overcast/Overcast.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Overcast",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://overcast.fm/",
+          "https://overcast.fm/login?then=notify_ad_availability",
+          "https://en.m.wikipedia.org/wiki/Overcast",
+          "https://www.merriam-webster.com/dictionary/overcast",
+          "https://dictionary.cambridge.org/dictionary/english/overcast",
+          "https://en.m.wikipedia.org/wiki/Overcast_(app)",
+          "https://weather-aware.com/posts/overcast/",
+          "https://dictionary.cambridge.org/us/dictionary/english/overcast",
+          "https://www.overcast.com/",
+          "https://www.merriam-webster.com/simple/overcast"
+        ],
+        "candidates": [
+          "dictionary.cambridge.org",
+          "en.m.wikipedia.org",
+          "overcast.fm",
+          "weather-aware.com",
+          "www.merriam-webster.com",
+          "www.overcast.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Overwatch/Overwatch.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Overwatch",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://overwatch.blizzard.com/",
+          "https://us.shop.battle.net/en-us/product/overwatch",
+          "https://store.steampowered.com/app/2357570/Overwatch/",
+          "https://overwatch.blizzard.com/en-us/heroes/",
+          "https://en.m.wikipedia.org/wiki/Overwatch",
+          "https://us.shop.battle.net/en-us/family/overwatch",
+          "https://overwatch.fandom.com/wiki/Overwatch_Wiki",
+          "https://en.m.wikipedia.org/wiki/Overwatch_(2016_video_game)",
+          "https://www.reddit.com/r/Overwatch/",
+          "https://us.forums.blizzard.com/en/overwatch/"
+        ],
+        "candidates": [
+          "battle.net",
+          "en.m.wikipedia.org",
+          "overwatch.blizzard.com",
+          "overwatch.fandom.com",
+          "store.steampowered.com",
+          "us.forums.blizzard.com",
+          "us.shop.battle.net",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PBS/PBS.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PBS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.pbs.org/",
+          "https://www.pbs.org/shows/",
+          "https://pbskids.org/",
+          "https://pbskids.org/videos",
+          "https://en.wikipedia.org/wiki/PBS",
+          "https://www.pbssocal.org/",
+          "https://www.pbssocal.org/schedule",
+          "https://www.youtube.com/PBS",
+          "https://help.pbs.org/support/solutions/articles/12000090583-how-to-watch-pbs-without-cable",
+          "https://www.pbs.org/show/newshour/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "help.pbs.org",
+          "pbs.org",
+          "pbskids.org",
+          "www.pbs.org",
+          "www.pbssocal.org",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PCCW/PCCW.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PCCW",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.pccw.com/eng/",
+          "https://en.wikipedia.org/wiki/PCCW",
+          "https://www.pccw.com/products-and-services/index.page",
+          "https://www.pccwglobalinc.com/",
+          "https://customerservice.pccw.com/myhkt/landing.html",
+          "https://www.pccwglobalinc.com/services/network/",
+          "https://www.pccw.com/about-us/index.page?locale=en",
+          "https://www.pccw.com/about-us/our-business/pccw-media/index.page",
+          "https://www.pccw.com/about-us/our-business/index.page?locale=en",
+          "https://www.pccw.com/careers/index.page"
+        ],
+        "candidates": [
+          "customerservice.pccw.com",
+          "en.wikipedia.org",
+          "www.pccw.com",
+          "www.pccwglobalinc.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PChome/PChome.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PChome",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://johnhowiesteak.com/",
+          "https://johnhowiesteak.com/dinner/",
+          "https://johnhowiesteak.com/happy-hour/",
+          "https://johnhowiesteak.com/reservations-catering/",
+          "https://johnhowiesteak.com/gift-cards/",
+          "https://johnhowiesteak.com/hours-directions/",
+          "https://johnhowiesteak.com/john-howie-club/",
+          "https://johnhowiesteak.com/bar-menu/",
+          "https://johnhowiesteak.com/privatedining/",
+          "https://johnhowiesteak.com/Wine/"
+        ],
+        "candidates": [
+          "johnhowiesteak.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PChomeTW/PChomeTW.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PChomeTW",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://m.imdb.com/title/tt3393786",
+          "https://m.imdb.com/title/tt3393786/parentalguide/",
+          "https://m.imdb.com/name/nm3551000/",
+          "https://m.imdb.com/title/tt3393786/fullcredits/",
+          "https://m.imdb.com/title/tt3393786/plotsummary/",
+          "https://m.imdb.com/title/tt0790724/quotes/",
+          "https://m.imdb.com/title/tt0790724/fullcredits/",
+          "https://m.imdb.com/title/tt3393786/ratings/",
+          "https://m.imdb.com/title/tt3393786/characters/nm3551000",
+          "https://m.imdb.com/title/tt11609062"
+        ],
+        "candidates": [
+          "m.imdb.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PPTV/PPTV.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PPTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.pptv.com/?cn",
+          "https://baike.baidu.com/item/PP%E8%A7%86%E9%A2%91/22691221",
+          "https://tv.pptv.com/",
+          "https://movie.pptv.com/",
+          "https://viptv.pptv.com/tv",
+          "https://list.pptv.com/",
+          "https://en.wikipedia.org/wiki/PPTV",
+          "https://zh.wikipedia.org/wiki/PP%E8%A7%86%E9%A2%91",
+          "https://zhibo.pptv.com/list/tv_list",
+          "https://www.163.com/dy/article/KV7JCN9B0556IIQK.html"
+        ],
+        "candidates": [
+          "baike.baidu.com",
+          "en.wikipedia.org",
+          "list.pptv.com",
+          "movie.pptv.com",
+          "pptv.com",
+          "tv.pptv.com",
+          "viptv.pptv.com",
+          "www.163.com",
+          "www.pptv.com",
+          "zh.wikipedia.org",
+          "zhibo.pptv.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PSBC/PSBC.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PSBC",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.psbc.com/en/",
+          "https://www.psbc.com/cn/index.html",
+          "https://pbank.psbc.com/perbank/",
+          "https://zh.m.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E9%82%AE%E6%94%BF%E5%82%A8%E8%93%84%E9%93%B6%E8%A1%8C",
+          "https://psbc2027.zhaopin.com/index.html",
+          "https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E9%82%AE%E6%94%BF%E5%82%A8%E8%93%84%E9%93%B6%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/3078324",
+          "https://pbank.psbc.com/perbank/en/html/login_en.html",
+          "https://en.m.wikipedia.org/wiki/Postal_Savings_Bank_of_China",
+          "https://corpebankcdn.psbc.com/SSL/index.html",
+          "https://psbc2027.zhaopin.com/jobs/index.html"
+        ],
+        "candidates": [
+          "baike.baidu.com",
+          "corpebankcdn.psbc.com",
+          "en.m.wikipedia.org",
+          "established.the",
+          "pbank.psbc.com",
+          "psbc.com",
+          "psbc2027.zhaopin.com",
+          "www.psbc.com",
+          "years.in",
+          "zh.m.wikipedia.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Pandora/Pandora.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Pandora",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.pandora.com/",
+          "https://us.pandora.net/en/",
+          "https://us.pandora.net/en/jewelry/",
+          "https://www.pandora.com/login.vm",
+          "https://stores.pandora.net/en-us/",
+          "https://uk.pandora.net/en/",
+          "https://pandora.app.link/",
+          "https://www.pandora.com/go/",
+          "https://au.pandora.net/en",
+          "https://ca.pandora.net/en/"
+        ],
+        "candidates": [
+          "au.pandora.net",
+          "ca.pandora.net",
+          "pandora.app.link",
+          "stores.pandora.net",
+          "uk.pandora.net",
+          "us.pandora.net",
+          "www.pandora.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PandoraTV/PandoraTV.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PandoraTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cinemark.com/theatres/ca-tracy/cinemark-tracy-14",
+          "https://www.cinemark.com/theatres/ca-redding/cinemark-redding-14-and-xd",
+          "https://www.showtimes.com/movie-theaters/cinemark-tracy-14-5845/",
+          "https://www.fandango.com/cinemark-tracy-14-aahcv/theater-page",
+          "https://www.cinemark.com/",
+          "https://www.fandango.com/tracy_ca_movietimes",
+          "https://www.showtimes.com/movie-theaters/cinemark-tracy-14-5845/418-198371/",
+          "https://www.cinemaclock.com/movie-theaters/cinemark-movies-14-tracy",
+          "https://www.atomtickets.com/theaters/cinemark-movies-14/2872",
+          "https://www.moviefone.com/showtimes/theaters/cinemark-movies-14/pXRnCBaYIOiGoK5O5z82L3/"
+        ],
+        "candidates": [
+          "www.atomtickets.com",
+          "www.cinemaclock.com",
+          "www.cinemark.com",
+          "www.fandango.com",
+          "www.moviefone.com",
+          "www.showtimes.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ParamountPlus/ParamountPlus.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "ParamountPlus",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.paramountplus.com/",
+          "https://www.paramountplus.com/account/signin/",
+          "https://help.paramountplus.com/s/my-account",
+          "https://support.paramountplus.com/s/my-account?language=en_US",
+          "https://help.paramountplus.com/s/",
+          "https://support.paramountplus.com/s/article/PI-I-already-have-a-Paramount-subscription-how-can-I-sign-in-on-my-device?language=en_US",
+          "https://www.paramount.com/",
+          "https://www.paramountplus.com/activate/",
+          "https://www.paramountplus.com/watch/",
+          "https://www.paramountplus.com/browse/"
+        ],
+        "candidates": [
+          "help.paramountplus.com",
+          "support.paramountplus.com",
+          "www.paramount.com",
+          "www.paramountplus.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Patreon/Patreon.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Patreon",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.patreon.com/overview/join",
+          "https://www.patreon.com/explore",
+          "https://en.wikipedia.org/wiki/Patreon",
+          "https://www.patreon.com/",
+          "https://www.patreon.com/fr-FR",
+          "https://www.patreon.com/en-GB",
+          "https://privacy.patreon.com/login/",
+          "https://news.patreon.com/",
+          "https://support.patreon.com/hc/en-us/articles/204606315-What-is-Patreon",
+          "https://www.youtube.com/Patreon"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "news.patreon.com",
+          "privacy.patreon.com",
+          "support.patreon.com",
+          "www.patreon.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PayPal/PayPal.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PayPal",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.paypal.com/",
+          "https://about.pypl.com/about-us/default.aspx",
+          "https://play.google.com/store/apps/details?id=com.paypal.android.p2pmobile&hl=en_US",
+          "https://www.investopedia.com/terms/p/paypal.asp",
+          "https://www.nerdwallet.com/banking/learn/what-is-paypal",
+          "https://www.britannica.com/money/PayPal",
+          "https://history.paypal.com/us/cshelp/topic/help_account_personal",
+          "https://www.sandbox.paypal.com/us/welcome/signup/",
+          "https://history.paypal.com/na/cshelp/topic/help_login_and_security_personal",
+          "https://en.wikipedia.org/wiki/PayPal"
+        ],
+        "candidates": [
+          "about.pypl.com",
+          "en.wikipedia.org",
+          "history.paypal.com",
+          "paypal.me",
+          "play.google.com",
+          "www.britannica.com",
+          "www.investopedia.com",
+          "www.nerdwallet.com",
+          "www.paypal.com",
+          "www.sandbox.paypal.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Peacock/Peacock.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Peacock",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.peacocktv.com/",
+          "https://www.peacocktv.com/stream/tv",
+          "https://www.nbc.com/networks/peacock",
+          "https://www.nbc.com/peacock-tv",
+          "https://en.wikipedia.org/wiki/Peacock_(streaming_service)",
+          "https://www.youtube.com/@peacock",
+          "https://www.peacocktv.com/channels"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "nbc.com",
+          "www.nbc.com",
+          "www.peacocktv.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Picacg/Picacg.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Picacg",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.picacomic.com/",
+          "https://www.picapp.com.cn/",
+          "https://manhuabika.com/download",
+          "https://github.com/raoxwup/haka_comic",
+          "https://telegram.im/@picacg?lang=en",
+          "https://x.com/picapicacomic/status/1231641856221401088",
+          "https://x.com/picapicacomic",
+          "https://www.picacgapp.com/index.html",
+          "https://telegram.im/info/picacg?lang=en",
+          "https://www.picacggw.cn/"
+        ],
+        "candidates": [
+          "bikawebapp.com",
+          "github.com",
+          "gmail.com",
+          "i.bikaios.xyz",
+          "manhuabika.com",
+          "picacomic.com",
+          "t.co",
+          "telegram.im",
+          "www.picacgapp.com",
+          "www.picacggw.cn",
+          "www.picacomic.com",
+          "www.picapp.com.cn",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Picsee/Picsee.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Picsee",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/",
+          "https://account.microsoft.com/account",
+          "https://www.microsoft.com/",
+          "https://myaccount.microsoft.com/",
+          "https://account.microsoft.com/account-checkup",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://myaccount.microsoft.com/login",
+          "https://outlook.office.com/mail/",
+          "https://myapps.microsoft.com/index.html",
+          "https://apps.microsoft.com/home"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "myaccount.microsoft.com",
+          "myapps.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PikPak/PikPak.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PikPak",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://drive.mypikpak.com/",
+          "https://mypikpak.com/zh-CN",
+          "https://mypikpak.com/en-US/desktop-app",
+          "https://inapp.mypikpak.net/",
+          "https://apps.microsoft.com/detail/xp9kcxf3r7hxvw?gl=US&hl=zh-CN",
+          "https://github.com/tpjug4/pikpak-storage-guide",
+          "https://mypikpak.net/drive/payment",
+          "https://github.com/ixasf20/pikpak-version-update/tree/main",
+          "https://apkpure.com/cn/pikpak-safe-cloud-video-saver/com.pikcloud.pikpak",
+          "https://zhuanlan.zhihu.com/p/637659061"
+        ],
+        "candidates": [
+          "apkpure.com",
+          "apps.microsoft.com",
+          "drive.mypikpak.com",
+          "github.com",
+          "inapp.mypikpak.net",
+          "mypikpak.com",
+          "mypikpak.net",
+          "zhuanlan.zhihu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Pinduoduo/Pinduoduo.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Pinduoduo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.pinduoduo.com/",
+          "https://oauth.pinduoduo.com/",
+          "https://m.pinduoduo.com/en/",
+          "https://pifa.pinduoduo.com/",
+          "https://shop.pinduoduo.com/",
+          "https://lp.pinduoduo.com/poros/app-store",
+          "https://mai.pinduoduo.com/mobile/index.html",
+          "https://pinduoduo-xo.com.cn/",
+          "https://pinduoduo-tx.com.cn/index.html"
+        ],
+        "candidates": [
+          "en.pinduoduo.com",
+          "lp.pinduoduo.com",
+          "m.pinduoduo.com",
+          "mai.pinduoduo.com",
+          "oauth.pinduoduo.com",
+          "pifa.pinduoduo.com",
+          "pinduoduo-tx.com.cn",
+          "pinduoduo-xo.com.cn",
+          "shop.pinduoduo.com",
+          "www.pinduoduo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "PingAn/PingAn.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "PingAn",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.worldtimebuddy.com/cst-to-est-converter",
+          "https://savvytime.com/converter/cst-to-est",
+          "https://www.thetimenow.com/timezones/convert/cst/est",
+          "https://time.now/tool/cst-to-est-converter/",
+          "https://timezonebase.com/convert/cst-to-est.html",
+          "https://worldtimeconverter.net/time-zone-converter/cst-to-est",
+          "https://24timezones.com/difference/cst/est",
+          "https://timealigner.com/timezone-converter/cst-to-est",
+          "https://calendarhours.com/cst-to-est/",
+          "https://timezonecalc.net/cst-to-est/"
+        ],
+        "candidates": [
+          "24timezones.com",
+          "calendarhours.com",
+          "savvytime.com",
+          "time.now",
+          "timealigner.com",
+          "timezonebase.com",
+          "timezonecalc.net",
+          "worldtimeconverter.net",
+          "www.thetimenow.com",
+          "www.worldtimebuddy.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Pinterest/Pinterest.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Pinterest",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.pinterest.com/",
+          "https://www.pinterest.com/pinterest/",
+          "https://about.pinterest.com/",
+          "https://www.pinterest.com/login/",
+          "https://www.pinterest.com/all/",
+          "https://www.pinterest.com/explore_/",
+          "https://uk.pinterest.com/pinterestuk/",
+          "https://in.pinterest.com/use_account/",
+          "https://help.pinterest.com/en/article/log-in-and-out-of-pinterest",
+          "https://en.wikipedia.org/wiki/Pinterest"
+        ],
+        "candidates": [
+          "about.pinterest.com",
+          "en.wikipedia.org",
+          "help.pinterest.com",
+          "in.pinterest.com",
+          "uk.pinterest.com",
+          "www.pinterest.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Pixiv/Pixiv.yaml": {
+        "checked_at": "2026-10-30 05:43 UTC",
+        "name": "Pixiv",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.pixiv.net/en/",
+          "https://www.pixiv.net/",
+          "https://en.m.wikipedia.org/wiki/Pixiv",
+          "https://www.pixiv.co.jp/",
+          "https://www.pixiv.net/jump.php?lang=en",
+          "https://www.pixiv.net/about.php?lang=en",
+          "https://comic.pixiv.net/",
+          "https://www.pixiv.net/discover",
+          "https://comic.pixiv.net/recent_updates",
+          "https://www.pixiv.net/en/?lang=zh"
+        ],
+        "candidates": [
+          "comic.pixiv.net",
+          "en.m.wikipedia.org",
+          "novels.community",
+          "www.pixiv.co.jp",
+          "www.pixiv.net"
         ],
         "accepted": [],
         "ownership_evidence": []
