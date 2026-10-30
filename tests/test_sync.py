@@ -179,8 +179,20 @@ class SyncTests(unittest.TestCase):
             text = "## 规则统计\n\n| 类型 | 数量(条) |\n| ---- | ---- |\n" + rows + "\n| TOTAL | 99 |\n\n## Clash\n"
             rendered = format_readme(text, "Example")
             self.assertNotIn("IP-CIDR6", rendered)
-            self.assertIn(f"| IP-CIDR | {expected} |", rendered)
-            self.assertIn("| TOTAL | 99 |", rendered)
+            self.assertIn(f"| ip-cidr | {expected} |", rendered)
+            self.assertIn("| total | 99 |", rendered)
+
+    def test_statistics_labels_are_lowercase(self):
+        from convert import format_readme
+        text = ("## 规则统计\n\n| 类型 | 数量(条) |\n| ---- | ---- |\n"
+                "| DOMAIN | 17 |\n| DOMAIN-KEYWORD | 9 |\n| DOMAIN-SUFFIX | 3674 |\n"
+                "| IP-CIDR | 17 |\n| IP-CIDR6 | 4 |\n| TOTAL | 3721 |\n\n## Clash\n")
+        rendered = format_readme(text, "Example")
+        for name in ("domain", "domain-keyword", "domain-suffix", "ip-cidr", "total"):
+            self.assertIn("| " + name + " |", rendered)
+        self.assertNotIn("IP-CIDR6", rendered)
+        self.assertNotIn("ip-cidr6", rendered)
+        self.assertIn("| ip-cidr | 21 |", rendered)
 
     def test_unknown_yaml_structure_fails_closed(self):
         path = self.folder / "Example.yaml"

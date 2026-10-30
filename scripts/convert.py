@@ -215,6 +215,9 @@ def format_readme(text, name):
             removed = {index for index, _ in ip_rows[1:]}
             rows[first] = f"| IP-CIDR | {total} |"
             statistics = "\n".join(line for index, line in enumerate(rows) if index not in removed)
+        statistics = re.sub(r"^(\s*\|\s*)([A-Z][A-Z0-9-]*)(\s*\|)",
+                            lambda match: match[1] + match[2].lower() + match[3],
+                            statistics, flags=re.M)
         parts += ["## 规则统计", tidy(statistics)]
     parts.append("## Nodus Core")
     clash = section("Clash")
