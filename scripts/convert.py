@@ -205,6 +205,16 @@ def format_readme(text, name):
         parts += ["## 前言", "\n\n".join(introduction)]
     statistics = section("规则统计")
     if statistics:
+        # Nodus 的 ip-cidr 同时承载 IPv4/IPv6；说明表不再保留上游独立的 IPv6 类型。
+        rows = statistics.splitlines()
+        ip_rows = [(index, match) for index, line in enumerate(rows)
+                   if (match := re.fullmatch(r"\s*\|\s*IP-CIDR(?:6)?\s*\|\s*(\d+)\s*\|\s*", line))]
+        if ip_rows:
+            total = sum(int(match[1]) for _, match in ip_rows)
+            first = ip_rows[0][0]
+            removed = {index for index, _ in ip_rows[1:]}
+            rows[first] = f"| IP-CIDR | {total} |"
+            statistics = "\n".join(line for index, line in enumerate(rows) if index not in removed)
         parts += ["## 规则统计", tidy(statistics)]
     parts.append("## Nodus Core")
     clash = section("Clash")

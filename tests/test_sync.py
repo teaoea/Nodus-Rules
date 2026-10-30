@@ -171,6 +171,17 @@ class SyncTests(unittest.TestCase):
         self.assertIn("最后更新时间：2026-10-30 00:00 UTC", result)
         self.assertNotIn("2000-01-01", result)
 
+    def test_readme_combines_ipv4_and_ipv6_statistics(self):
+        from convert import format_readme
+        for rows, expected in (("| IP-CIDR | 17 |\n| IP-CIDR6 | 4 |", 21),
+                               ("| IP-CIDR6 | 4 |", 4),
+                               ("| IP-CIDR | 17 |", 17)):
+            text = "## 规则统计\n\n| 类型 | 数量(条) |\n| ---- | ---- |\n" + rows + "\n| TOTAL | 99 |\n\n## Clash\n"
+            rendered = format_readme(text, "Example")
+            self.assertNotIn("IP-CIDR6", rendered)
+            self.assertIn(f"| IP-CIDR | {expected} |", rendered)
+            self.assertIn("| TOTAL | 99 |", rendered)
+
     def test_unknown_yaml_structure_fails_closed(self):
         path = self.folder / "Example.yaml"
         path.write_text("payload: [invalid]\n")
