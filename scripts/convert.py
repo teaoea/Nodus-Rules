@@ -156,9 +156,74 @@ def source_text(file):
     return "\n".join(values)
 
 
+def format_readme(text, name):
+    """按集合说明格式整理上游数据，不复制示例集合的名称、统计或链接。"""
+    # 非集合说明保持原文；集合模板以 Clash 规则章节作为识别入口。
+    if not re.search(r"^## Clash\s*$", text, re.M):
+        return text
+
+    def section(title):
+        match = re.search(r"^## " + re.escape(title) + r"[^\S\n]*\n(.*?)(?=^## |\Z)",
+                          text, re.M | re.S)
+        return match[1].strip() if match else ""
+
+    def tidy(body):
+        lines = []
+        for line in body.splitlines():
+            line = line.strip()
+            if line.startswith("|"):
+                cells = [cell.strip() for cell in line.strip("|").split("|")]
+                line = "| " + " | ".join(cells) + " |"
+                if lines and lines[-1] and not lines[-1].startswith("|"):
+                    lines.append("")
+            lines.append(line)
+        return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
+
+    introduction = [paragraph.strip() for paragraph in re.split(r"\n\s*\n", section("前言"))
+                    if paragraph.strip().startswith(("分流规则是", "请通过"))]
+    parts = ["# " + name]
+    if introduction:
+        parts += ["## 前言", "\n\n".join(introduction)]
+    statistics = section("规则统计")
+    if statistics:
+        parts += ["## 规则统计", tidy(statistics)]
+    parts.append("## Nodus Core")
+    clash = section("Clash")
+    advice = re.search(r"^#{3,4} 配置建议[^\S\n]*\n(.*?)(?=^#{1,4} |\Z)",
+                       clash, re.M | re.S)
+    if advice:
+        parts += ["### 配置建议", tidy(advice[1])]
+    parts.append("### 规则链接")
+    links = {"MASTER分支 (每日更新)": [], "MASTER分支 CDN (每日更新)": [],
+             "MASTER分支 GHProxy (每日更新)": []}
+    for url in re.findall(r"https?://[^\s`<>]+", clash):
+        # 本仓库只发布 main；模板仅展示上游 MASTER 对应的三组链接。
+        if "/master/rule/Clash/" not in url and "@master/rule/Clash/" not in url:
+            continue
+        if url.startswith("https://ghproxy.com/"):
+            group = "MASTER分支 GHProxy (每日更新)"
+        elif url.startswith("https://cdn.jsdelivr.net/"):
+            group = "MASTER分支 CDN (每日更新)"
+        elif url.startswith("https://raw.githubusercontent.com/"):
+            group = "MASTER分支 (每日更新)"
+        else:
+            continue
+        if url not in links[group]:
+            links[group].append(url)
+    for title, urls in links.items():
+        if urls:
+            parts += ["#### " + title, "\n\n".join("```\n" + url + "\n```" for url in urls)]
+    children = section("子规则/排除规则")
+    if "当前分流规则，已排除以下规则" in children:
+        children = children.replace("当前分流规则，未包含其他子规则。", "").strip()
+    if children:
+        parts += ["## 子规则/排除规则", tidy(children)]
+    return "\n\n".join(parts) + "\n"
+
+
 def render_readme(file, upstream, root, warnings=None):
-    """保留上游正文，只改写已同步规则的下载 URL；来源链接保持原样。"""
-    text = file.read_bytes().decode("utf-8-sig")
+    """按约定格式整理集合 README，下载 URL 对应本仓库实际输出。"""
+    text = format_readme(file.read_bytes().decode("utf-8-sig"), file.parent.name)
     prefixes = (
         ("https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/", RAW),
         ("https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@", "https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/"),
@@ -246,6 +311,8 @@ def prepare(source, root, date, additions=None):
     # README 独立核对：单份规则跳过不会覆盖或遗漏同目录的其他链接。
     readme_warnings = []
     for readme in sorted(upstream.rglob("README.md")):
+        if readme.parent == upstream:
+            continue
         planned[root / "rules" / readme.relative_to(upstream)] = render_readme(readme, upstream, root, readme_warnings)
     planned[root / "LICENSE"] = (source / "LICENSE").read_bytes()
     revision = subprocess.check_output(["git", "-C", str(source), "rev-parse", "HEAD"], text=True).strip()
