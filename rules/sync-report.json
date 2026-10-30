@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-29 17:58 UTC",
+  "date": "2026-10-30 04:09 UTC",
   "collections": {
     "rule/Clash/115/115.list": {
       "input": 10,
@@ -19052,8 +19052,8 @@
   },
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-29 17:58 UTC",
-    "next_index": 336,
+    "checked_at": "2026-10-30 04:09 UTC",
+    "next_index": 360,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -28288,6 +28288,654 @@
           "www.huffingtonpost.fr",
           "www.huffpost.com",
           "www.politico.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hulu/Hulu.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Hulu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hulu.com/",
+          "https://www.hulu.com/welcome",
+          "https://auth.hulu.com/web/login",
+          "https://help.hulu.com/article/hulu-how-much-does-hulu-cost",
+          "https://auth.hulu.com/web/login?next=%2F%2Fsecure.hulu.com%2Faccount",
+          "https://help.hulu.com/category/account-and-billing",
+          "https://en.wikipedia.org/wiki/Hulu",
+          "https://www.justwatch.com/us/provider/hulu",
+          "https://www.hulu.jp/"
+        ],
+        "candidates": [
+          "auth.hulu.com",
+          "en.wikipedia.org",
+          "help.hulu.com",
+          "www.app.hulu.com",
+          "www.hulu.com",
+          "www.hulu.jp",
+          "www.justwatch.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuluJP/HuluJP.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "HuluJP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://reimanga.net/manga/no-home-67841",
+          "https://www.moviefone.com/tv-shows/no-home/QkrXvctL1HT84hryDptzh2/",
+          "https://en.wikipedia.org/wiki/No_Home",
+          "https://www.topmanhua.fan/manhua/no-home",
+          "https://www.viki.com/tv/41028c-no-home",
+          "https://www.moviefone.com/tv-shows/no-home/QkrXvctL1HT84hryDptzh2/seasons/1/",
+          "https://no-home.fandom.com/wiki/No_home_Wiki",
+          "https://no-home.fandom.com/wiki/Category:Main_Characters",
+          "https://www.webtoons.com/en/canvas/no-home/list?title_no=987311",
+          "https://www.justwatch.com/us/tv-show/no-home"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "no-home.fandom.com",
+          "reimanga.net",
+          "www.justwatch.com",
+          "www.moviefone.com",
+          "www.topmanhua.fan",
+          "www.viki.com",
+          "www.webtoons.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuluUSA/HuluUSA.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "HuluUSA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://music.youtube.com/",
+          "https://www.youtube.com/feed/youtubemusic",
+          "https://music.youtube.com/explore",
+          "https://www.youtube.com/youtube%20-MUSIC",
+          "https://www.youtube.com/YouTube/music",
+          "https://www.youtube.com/channel/UCB1lnXfEjwtfLYwZSadksrA",
+          "https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+          "https://music.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+          "https://www.youtube.com/channel/UCxQgTel2eVkphBA-QGRxI9g",
+          "https://www.youtube.com/musicpremium"
+        ],
+        "candidates": [
+          "music.youtube.com",
+          "world.this",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HunanTV/HunanTV.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "HunanTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://thedentalteam.ca/silver-caps-on-teeth/",
+          "https://www.thesuperdentists.com/why-do-kids-get-silver-teeth/",
+          "https://scienceinsights.org/what-are-silver-crowns-for-teeth-benefits-risks/",
+          "https://ddsdentalimplants.com/why-do-dentist-use-silver-caps.html",
+          "https://webdmd.org/silver-teeth/",
+          "https://biologyinsights.com/why-do-some-kids-have-silver-teeth/",
+          "https://kidcodent.dental/blogs/pediatric-dentistry/why-do-kids-get-silver-teeth-a-parents-guide-to-silver-crowns",
+          "https://kidsmagazines.co.uk/why-do-some-kids-have-silver-teeth/",
+          "https://marshalldds.com/2024/11/silver-crowns-for-teeth-an-in-depth-guide-to-their-use-benefits-and-care/",
+          "https://www.cdhp.org/why-do-kids-get-silver-teeth-and-what-are-the-health-benefits/"
+        ],
+        "candidates": [
+          "biologyinsights.com",
+          "ddsdentalimplants.com",
+          "kidcodent.dental",
+          "kidsmagazines.co.uk",
+          "marshalldds.com",
+          "scienceinsights.org",
+          "thedentalteam.ca",
+          "webdmd.org",
+          "www.cdhp.org",
+          "www.thesuperdentists.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hupu/Hupu.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Hupu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hupu.com/",
+          "https://bbs.hupu.com/?u_atoken=ebb76f642c63cce898e7ed95e49dd71a&u_asig=a77b6",
+          "https://soccer.hupu.com/",
+          "https://bbs.hupu.com/",
+          "https://www.now-cn-hupu.com/en/",
+          "https://gg.hupu.com/",
+          "https://m.hupu.com/news/",
+          "https://lol-hupu-ratings.com/",
+          "https://esp-hupu.com/",
+          "https://now-hupu.com.cn/"
+        ],
+        "candidates": [
+          "bbs.hupu.com",
+          "esp-hupu.com",
+          "gg.hupu.com",
+          "lol-hupu-ratings.com",
+          "m.hupu.com",
+          "now-hupu.com.cn",
+          "soccer.hupu.com",
+          "www.hupu.com",
+          "www.now-cn-hupu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IBM/IBM.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "IBM",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ibm.com/",
+          "https://en.wikipedia.org/wiki/IBM",
+          "https://www.ibm.com/careers/locations",
+          "https://wwwpoc.ibm.com/us-en/",
+          "https://finance.yahoo.com/quote/IBM/",
+          "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "https://www.linkedin.com/jobs/ibm-jobs-houston-tx",
+          "https://newsroom.ibm.com/press-releases-corporate",
+          "https://bob.ibm.com/",
+          "https://www.indeed.com/cmp/IBM/locations/TX/Houston"
+        ],
+        "candidates": [
+          "bob.ibm.com",
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "indeed.com",
+          "newsroom.ibm.com",
+          "www.ibm.com",
+          "www.indeed.com",
+          "www.linkedin.com",
+          "wwwpoc.ibm.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ICBC/ICBC.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "ICBC",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.icbc-us.com/",
+          "https://icbrushycreek.org/",
+          "https://www.icbc.com.cn/ICBC/EN/default.htm",
+          "https://en.m.wikipedia.org/wiki/Industrial_and_Commercial_Bank_of_China",
+          "https://www.icbc.com/",
+          "https://www.icbc.com/about-icbc/contact-us",
+          "https://www.icbc.com.cn/",
+          "https://www.icbc-us.com/en/column/1438058386850988341.html",
+          "https://en.m.wikipedia.org/wiki/Insurance_Corporation_of_British_Columbia",
+          "https://www.icbc-ltd.com/icbcltd/en"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "icbrushycreek.org",
+          "www.icbc-ltd.com",
+          "www.icbc-us.com",
+          "www.icbc.com",
+          "www.icbc.com.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IKEA/IKEA.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "IKEA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ikea.com/us/en/",
+          "https://www.ikea.com/us/en/stores/minneapolis/",
+          "https://storelocatortool.com/v3/ikea-locations/search.php?store=IKEA&city=Minneapolis&region=MN&country=USA&lat=44.986.656&lon=-93.258.133",
+          "https://www.storeopeninghours.com/ikea-bloomington-mn",
+          "https://www.rosedalecenter.com/stores/ikea/",
+          "https://www.furniture.com/stores/minnesota/minneapolis/ikea",
+          "https://www.ikea.com/us/en/cat/products-products/",
+          "https://www.ikea.com/us/en/stores/",
+          "https://www.ikea.com/",
+          "https://www.ikea.com/gb/en/"
+        ],
+        "candidates": [
+          "furniture.com",
+          "storelocatortool.com",
+          "www.furniture.com",
+          "www.ikea.com",
+          "www.rosedalecenter.com",
+          "www.storeopeninghours.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IMDB/IMDB.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "IMDB",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.imdb.com/",
+          "https://data.imdb.com/",
+          "https://www.britannica.com/topic/IMDb",
+          "https://profiles.yahoo.com/brands/imdb/",
+          "https://s.media-imdb.com/what-to-watch/watch-guides/",
+          "https://www.youtube.com/watch?v=oRs-A3OwRKg",
+          "https://en.wikipedia.org/wiki/IMDb",
+          "https://help.imdb.com/",
+          "https://www.facebook.com/imdb/",
+          "https://www.imdb.com/chart/top/"
+        ],
+        "candidates": [
+          "data.imdb.com",
+          "en.wikipedia.org",
+          "help.imdb.com",
+          "profiles.yahoo.com",
+          "s.media-imdb.com",
+          "www.britannica.com",
+          "www.facebook.com",
+          "www.imdb.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IPTVMainland/IPTVMainland.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "IPTVMainland",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.msn.com/en-us/news/other/hinojosa-sues-abbott-to-see-his-offices-emails-with-elon-musk/ar-AA2fEl1C"
+        ],
+        "candidates": [
+          "www.msn.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IPTVOther/IPTVOther.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "IPTVOther",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.yelp.com/search?cflt=homecleaning&find_loc=Petersburg%2C+VA",
+          "https://www.yelp.com/search?find_desc=cleaning&find_loc=Petersburg%2C+VA",
+          "https://www.superpages.com/petersburg-va/cleaning-services",
+          "https://virginiahousekeepers.com/petersburg-va-house-cleaning-maid-services/",
+          "https://www.yellowpages.com/petersburg-va/house-cleaning",
+          "https://www.sarassparklecleaning.com/",
+          "https://www.care.com/house-cleaning/petersburg-va",
+          "https://www.residentialcleaningpetersburg.com/",
+          "https://www.thumbtack.com/va/petersburg/house-cleaning",
+          "https://portalcleaning.com/cleaning-service-in-petersburg-va/"
+        ],
+        "candidates": [
+          "portalcleaning.com",
+          "superpages.com",
+          "virginiahousekeepers.com",
+          "www.care.com",
+          "www.residentialcleaningpetersburg.com",
+          "www.sarassparklecleaning.com",
+          "www.superpages.com",
+          "www.thumbtack.com",
+          "www.yellowpages.com",
+          "www.yelp.com",
+          "yp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ITV/ITV.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "ITV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.itv.com/",
+          "https://www.itv.com/watch?channel=itv",
+          "https://en.wikipedia.org/wiki/ITV_(TV_network)",
+          "https://www.womanandhome.com/life/news-entertainment/what-is-itv-how-to-watch-it-in-the-us-and-what-are-the-best-shows-to-stream/",
+          "https://www.itvplc.com/",
+          "https://en.wikipedia.org/wiki/ITV",
+          "https://www.youtube.com/itv",
+          "https://www.tvguide.com/news/how-to-watch-itv-from-the-us/",
+          "https://www.itv-america.com/",
+          "https://simple.wikipedia.org/wiki/ITV"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "news.there",
+          "simple.wikipedia.org",
+          "www.itv-america.com",
+          "www.itv.com",
+          "www.itvplc.com",
+          "www.tvguide.com",
+          "www.womanandhome.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Identrust/Identrust.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Identrust",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://social.msdn.microsoft.com/Forums/sqlserver/en-US/561e4e77-7fe2-43fa-ba01-a4fb12dc7c7e/ssis-edi?forum=sqlintegrationservices",
+          "https://social.msdn.microsoft.com/Forums/en-US/dc818052-7553-4ed0-83f4-6cd67d86667d/add-item-in-outlook-calendar-using-javascript?forum=sharepointcustomizationprevious",
+          "https://social.msdn.microsoft.com/Forums/en-US/922de5fa-b693-4687-b81d-7a82b8733fa2/",
+          "https://social.msdn.microsoft.com/Forums/MSDNForum",
+          "https://social.msdn.microsoft.com/Forums/es-ES/4b6301fb-6873-4536-86d9-82be5fcf54a8",
+          "https://social.msdn.microsoft.com/Forums/es-ES/06155908-5664-4f5d-975d-e3df70371c65",
+          "https://social.msdn.microsoft.com/Forums/en-US/category/azure/",
+          "https://social.msdn.microsoft.com/Forums/en-US/c7b7cdcd-7f47-433d-aa0e-013ae06461cf",
+          "https://social.msdn.microsoft.com/Forums/en-US/7e536cdd-c8ab-4227-81a6-845545e5a9ea",
+          "https://social.msdn.microsoft.com/Forums/en-US/b1fc989f-e73a-4bad-a29e-bf9f5357b813"
+        ],
+        "candidates": [
+          "social.msdn.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Imgur/Imgur.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Imgur",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/JCPenney/comments/rkhiw6/what_will_happen_to_my_rewards_when_i_will_return/",
+          "https://www.reddit.com/r/JCPenney/comments/15hb4sj/hours/",
+          "https://www.maryvilleforum.com/obituaries/roger-e-tunell/article_b47e0864-5c3a-42ac-9df9-861de58c103f.html",
+          "https://www.reddit.com/r/VintageMenus/comments/a3c6ys/jcpenney_coffee_shop_december_1972/",
+          "https://www.reddit.com/r/JCPenney/comments/18lshsj/need_help_with_the_credit_card/",
+          "https://www.reddit.com/r/nostalgia/comments/1369ig7/1990_jcpenney_catalogs/",
+          "https://www.reddit.com/r/JCPenney/comments/1aevdar/trying_to_apply_for_a_job/",
+          "https://www.reddit.com/r/jewelry/comments/1abhodi/diamond_jewelry_on_sale_at_jc_penney_for_10_to_25/",
+          "https://www.reddit.com/r/malefashionadvice/comments/2nnna3/what_do_people_think_of_jcpenneys_stafford/",
+          "https://www.reddit.com/r/JCPenney/comments/1dhauje/how_much_are_the_photoshoots/"
+        ],
+        "candidates": [
+          "www.maryvilleforum.com",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Instagram/Instagram.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Instagram",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://rollerauction.com/",
+          "https://rollerauction.com/auctions/",
+          "https://bid.rollerauction.com/auctions",
+          "https://bid.rollerauction.com/",
+          "https://www.yelp.com/biz/roller-auctions-denver",
+          "https://bid.rollerauction.com/past-auctions",
+          "https://rollerauction.com/auctions/industrial/",
+          "https://rollerauction.com/auctions/government/",
+          "https://bid.rollerauction.com/all-auction-lots",
+          "https://www.dickensheet.com/"
+        ],
+        "candidates": [
+          "bid.rollerauction.com",
+          "rollerauction.com",
+          "www.dickensheet.com",
+          "www.yelp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Intel/Intel.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Intel",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.intel.com/content/www/us/en/download-center/home.html",
+          "https://www.intel.com/content/www/us/en/homepage.html",
+          "https://finance.yahoo.com/quote/INTC/",
+          "https://en.wikipedia.org/wiki/Intel",
+          "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results",
+          "https://builders.intel.com/intel-technologies/hardware",
+          "https://www.intel.ie/content/www/ie/en/company-overview/company-overview.html",
+          "https://intel.wd1.myworkdayjobs.com/External/page/6042070b79e01001f04fa9b468070000",
+          "https://timeline.intel.com/",
+          "https://www.intc.com/"
+        ],
+        "candidates": [
+          "builders.intel.com",
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "intel.wd1.myworkdayjobs.com",
+          "timeline.intel.com",
+          "www.intc.com",
+          "www.intel.com",
+          "www.intel.ie"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Intercom/Intercom.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Intercom",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.intercom.com/",
+          "https://app.intercom.com/admins/sign_in",
+          "https://en.wikipedia.org/wiki/Intercom",
+          "https://www.intercom.com/help/en/articles/294-what-is-intercom",
+          "https://www.amazon.com/intercom/s?k=intercom",
+          "https://en.wikipedia.org/wiki/Fin_(company)",
+          "https://www.homedepot.com/b/Electrical-Intercoms/N-5yc1vZbtto",
+          "https://www.amazon.com/wireless-intercom/s?k=wireless+intercom",
+          "https://www.merriam-webster.com/dictionary/intercom",
+          "https://www.verkada.com/intercom/"
+        ],
+        "candidates": [
+          "amazon.com",
+          "app.intercom.com",
+          "en.wikipedia.org",
+          "www.amazon.com",
+          "www.homedepot.com",
+          "www.intercom.com",
+          "www.merriam-webster.com",
+          "www.verkada.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "JOOX/JOOX.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "JOOX",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/",
+          "https://www.microsoft.com/",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/",
+          "https://account.microsoft.com/account-checkup",
+          "https://myaccount.microsoft.com/login",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://myapps.microsoft.com/index.html",
+          "https://outlook.office.com/mail/",
+          "https://apps.microsoft.com/home"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "myaccount.microsoft.com",
+          "myapps.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Japonx/Japonx.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Japonx",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://mail.google.com/mail",
+          "https://mail.google.com/mail/u/0/",
+          "https://accounts.google.com/servicelogin?service=mail",
+          "https://accounts.google.com/Login",
+          "https://support.google.com/mail/answer/8494?hl=en&co=genie.platform=desktop",
+          "https://workspace.google.com/gmail/",
+          "https://support.google.com/mail/answer/8494?hl=en-GB&co=GENIE.Platform%3DDesktop",
+          "https://www.google.com/",
+          "https://myaccount.google.com/",
+          "https://accounts.google.com/login?hl=es"
+        ],
+        "candidates": [
+          "accounts.google.com",
+          "mail.google.com",
+          "myaccount.google.com",
+          "support.google.com",
+          "workspace.google.com",
+          "www.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Jetbrains/Jetbrains.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Jetbrains",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.jetbrains.com/",
+          "https://www.jetbrains.com/idea/",
+          "https://account.jetbrains.com/login",
+          "https://en.wikipedia.org/wiki/JetBrains",
+          "https://www.jetbrains.com.cn/en-us/products/",
+          "https://www.jetbrains.com/ides/",
+          "https://www.jetbrains.com/pycharm/",
+          "https://www.jetbrains.com/products/",
+          "https://www.jetbrains.com/toolbox-app/",
+          "https://www.jetbrains.com.cn/en-us/academy/student-pack/"
+        ],
+        "candidates": [
+          "account.jetbrains.com",
+          "en.wikipedia.org",
+          "www.jetbrains.com",
+          "www.jetbrains.com.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Jfrog/Jfrog.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "Jfrog",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://jfrog.com/",
+          "https://oss.jfrog.org/ui/login/",
+          "https://jfrog.com/about/",
+          "https://my.jfrog.com/login?websiteLogin",
+          "https://my.jfrog.com/login",
+          "https://docs.jfrog.com/",
+          "https://technically.dev/posts/what-does-jfrog-do",
+          "https://oss.jfrog.org/",
+          "https://join.jfrog.com/",
+          "https://docs.jfrog.com/setup/docs/get-started"
+        ],
+        "candidates": [
+          "docs.jfrog.com",
+          "jfrog.com",
+          "join.jfrog.com",
+          "my.jfrog.com",
+          "oss.jfrog.org",
+          "technically.dev"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "JiGuangTuiSong/JiGuangTuiSong.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "JiGuangTuiSong",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.lexingtonky.gov/government/departments-programs/environmental-quality-public-works/traffic-engineering/real-time-traffic-ticker",
+          "https://www.wkyt.com/2026/10/14/4-injured-nicholasville-road-crash/",
+          "https://www.kentucky.com/news/local/counties/jessamine-county/",
+          "https://x.com/lexwrecks",
+          "https://myaccident.org/kentucky-accident-reports/police-agency/nicholasville-police-department",
+          "https://fox56news.com/video/4-hurt-in-major-lexington-intersection-crash/12269439/",
+          "https://localaccidentreports.com/injury-collision-on-nicholasville-rd-in-lexington-ky/",
+          "https://www.lexingtonky.gov/government/departments-programs/public-safety/police/traffic-collision-reports",
+          "https://lexington.ecrash.interplat.com/SearchReports.aspx",
+          "https://www.kentucky.com/news/local/counties/fayette-county/article316763602.html"
+        ],
+        "candidates": [
+          "fox56news.com",
+          "lexington.ecrash.interplat.com",
+          "localaccidentreports.com",
+          "myaccident.org",
+          "www.kentucky.com",
+          "www.lexingtonky.gov",
+          "www.wkyt.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "JianGuoYun/JianGuoYun.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "JianGuoYun",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.postman.com/downloads/",
+          "https://desktop.postman.com/?desktopVersion=10.6.0",
+          "https://learning.postman.com/v11/docs/getting-started/installation/install-app",
+          "https://www.postman.com/",
+          "https://www.postman.com/dowloads",
+          "https://www.postman.com/product/rest-client/",
+          "https://docs.api.getpostman.com/",
+          "https://learning.postman.com/docs/getting-started/installation/overview",
+          "https://www.postman.com/dowload",
+          "https://interceptor.postman.com/app/open"
+        ],
+        "candidates": [
+          "desktop.postman.com",
+          "docs.api.getpostman.com",
+          "interceptor.postman.com",
+          "learning.postman.com",
+          "www.postman.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "JianShu/JianShu.list": {
+        "checked_at": "2026-10-30 04:09 UTC",
+        "name": "JianShu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.progressive.com/",
+          "https://careers.progressive.com/search/jobs/in/cleveland/",
+          "https://www.progressive.com/perkshare/",
+          "https://careers.progressive.com/jobs/17290054-claims-adjuster-large-loss-injury-litigation/",
+          "https://investors.progressive.com/investor-resources/investor-contacts/default.aspx",
+          "https://www.foragentsonlylogin.progressive.com/login/",
+          "https://investors.progressive.com/home/default.aspx",
+          "https://prove.progressive.com/login",
+          "https://fnol.progressive.com/"
+        ],
+        "candidates": [
+          "app.progressive.com",
+          "careers.progressive.com",
+          "fnol.progressive.com",
+          "foragentsonly.com",
+          "investors.progressive.com",
+          "prove.progressive.com",
+          "www.foragentsonlylogin.progressive.com",
+          "www.progressive.com"
         ],
         "accepted": [],
         "ownership_evidence": []
