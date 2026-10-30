@@ -32,27 +32,45 @@
 
 #### MASTER分支 (每日更新)
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China_Classical.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China_Classical.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China_Domain.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China_Domain.yaml
+```
 
 #### MASTER分支 CDN (每日更新)
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/China/China.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/China/China.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/China/China_Classical.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/China/China_Classical.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/China/China_Domain.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/China/China_Domain.yaml
+```
 
 #### MASTER分支 GHProxy (每日更新)
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China_Classical.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China_Classical.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China_Domain.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/China/China_Domain.yaml
+```
 
 ## 子规则/排除规则
 

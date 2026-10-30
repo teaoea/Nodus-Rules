@@ -27,15 +27,21 @@
 
 #### MASTER分支 (每日更新)
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Shopify/Shopify.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Shopify/Shopify.yaml
+```
 
 #### MASTER分支 CDN (每日更新)
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Shopify/Shopify.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Shopify/Shopify.yaml
+```
 
 #### MASTER分支 GHProxy (每日更新)
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Shopify/Shopify.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Shopify/Shopify.yaml
+```
 
 ## 子规则/排除规则
 

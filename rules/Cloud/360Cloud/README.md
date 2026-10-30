@@ -28,15 +28,21 @@
 
 #### MASTER分支 (每日更新)
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Cloud/360Cloud/360Cloud.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Cloud/360Cloud/360Cloud.yaml
+```
 
 #### MASTER分支 CDN (每日更新)
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Cloud/360Cloud/360Cloud.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Cloud/360Cloud/360Cloud.yaml
+```
 
 #### MASTER分支 GHProxy (每日更新)
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Cloud/360Cloud/360Cloud.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Cloud/360Cloud/360Cloud.yaml
+```
 
 ## 子规则/排除规则
 

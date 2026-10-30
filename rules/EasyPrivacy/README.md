@@ -30,27 +30,45 @@
 
 #### MASTER分支 (每日更新)
 
-```https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EasyPrivacy/EasyPrivacy.yaml```
+```text
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EasyPrivacy/EasyPrivacy.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/EasyPrivacy/EasyPrivacy_Classical.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/EasyPrivacy/EasyPrivacy_Classical.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/EasyPrivacy/EasyPrivacy_Domain.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/EasyPrivacy/EasyPrivacy_Domain.yaml
+```
 
 #### MASTER分支 CDN (每日更新)
 
-```https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/EasyPrivacy/EasyPrivacy.yaml```
+```text
+https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/EasyPrivacy/EasyPrivacy.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/EasyPrivacy/EasyPrivacy_Classical.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/EasyPrivacy/EasyPrivacy_Classical.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/EasyPrivacy/EasyPrivacy_Domain.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/EasyPrivacy/EasyPrivacy_Domain.yaml
+```
 
 #### MASTER分支 GHProxy (每日更新)
 
-```https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EasyPrivacy/EasyPrivacy.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EasyPrivacy/EasyPrivacy.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/EasyPrivacy/EasyPrivacy_Classical.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/EasyPrivacy/EasyPrivacy_Classical.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/EasyPrivacy/EasyPrivacy_Domain.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/EasyPrivacy/EasyPrivacy_Domain.yaml
+```
 
 ## 子规则/排除规则
 

@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-30 05:23 UTC",
+  "date": "2026-10-30 05:29 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-30 05:23 UTC",
-    "next_index": 384,
+    "checked_at": "2026-10-30 05:29 UTC",
+    "next_index": 408,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -159560,6 +159560,688 @@
           "store.last.fm",
           "www.last.fm",
           "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LastPass/LastPass.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LastPass",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://app.lastpass.com/?ac=1",
+          "https://www.lastpass.com/",
+          "https://lastpass.com/misc_download2.php",
+          "https://my.lastpass.com/",
+          "https://panel.lastpass.com/?ac=1",
+          "https://support.lastpass.com/login",
+          "https://en.wikipedia.org/wiki/LastPass",
+          "https://www.lastpass.com/features/password-generator",
+          "https://lastpass.com/vault/",
+          "https://lastpass.com/f/"
+        ],
+        "candidates": [
+          "app.lastpass.com",
+          "en.wikipedia.org",
+          "lastpass.com",
+          "my.lastpass.com",
+          "panel.lastpass.com",
+          "support.lastpass.com",
+          "www.lastpass.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LeJu/LeJu.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LeJu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.m.wikipedia.org/wiki/Bill_Gates",
+          "https://starsunfolded.com/bill-gates/",
+          "https://biographywallah.com/bill-gates/",
+          "https://celebrity-birthdays.com/people/bill-gates",
+          "https://www.biography.com/business-leaders/bill-gates",
+          "https://thebiographybytes.com/bill-gates/",
+          "https://www.forbes.com/profile/bill-gates/",
+          "https://agevly.com/how-old-is-bill-gates/",
+          "https://paullingual.com/bill-gates-biography/",
+          "https://www.forbes.com/real-time-billionaires/"
+        ],
+        "candidates": [
+          "agevly.com",
+          "biographywallah.com",
+          "celebrity-birthdays.com",
+          "en.m.wikipedia.org",
+          "paullingual.com",
+          "starsunfolded.com",
+          "thebiographybytes.com",
+          "www.biography.com",
+          "www.forbes.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LeTV/LeTV.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LeTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Five_Holy_Wounds",
+          "https://en.wikipedia.org/wiki/Pentagram",
+          "https://catholicism.wiki/wiki/Five_Holy_Wounds",
+          "https://www.christianity.com/wiki/cults-and-other-religions/what-should-christians-know-about-pentagrams.html",
+          "https://christianpure.com/learn/christian-history-the-pentagram-and-star-symbols/",
+          "https://catholic-repository.org/devotions/devotion-to-the-five-holy-wounds/",
+          "https://catholic-link.org/five-holy-wounds-of-jesus/",
+          "https://belovedcatholic.com/five-wounds-of-christ/",
+          "https://everything.explained.today/Five_Wounds_of_Christ/",
+          "https://projectxeros.org/five-wounds-christ-meaning"
+        ],
+        "candidates": [
+          "belovedcatholic.com",
+          "catholic-link.org",
+          "catholic-repository.org",
+          "catholicism.wiki",
+          "christianpure.com",
+          "en.wikipedia.org",
+          "everything.explained.today",
+          "projectxeros.org",
+          "www.christianity.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Lenovo/Lenovo.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "Lenovo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.lenovo.com/us/en/",
+          "https://www.lenovo.com/us/en/pc/",
+          "https://support.lenovo.com/",
+          "https://en.wikipedia.org/wiki/Lenovo",
+          "https://pcsupport.lenovo.com/us/en/",
+          "https://support.lenovo.com/us/en/selectproduct",
+          "https://home.lenovo.com/home",
+          "https://pcsupport.lenovo.com/us/en/warranty-lookup",
+          "https://store.lenovo.com/",
+          "https://www.bestbuy.com/site/lenovo/lenovo-laptops/pcmcat230600050001.c?id=pcmcat230600050001"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "home.lenovo.com",
+          "pcsupport.lenovo.com",
+          "store.lenovo.com",
+          "support.lenovo.com",
+          "www.bestbuy.com",
+          "www.lenovo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LiTV/LiTV.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LiTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.youtube.com/@PortaldelAdultoMayor",
+          "https://www.youtube.com/playlist?list=PLgwh1TYMRTiB60Ovdueme5iLikTnjQE3z",
+          "https://planetamayores.com/",
+          "https://www.aarp.org/espanol/videos/",
+          "https://www.aarp.org/videos/",
+          "https://www.tiktok.com/@vida_plena_con_alfy/video/7661312902623694094",
+          "https://www.todo-mail.com/video.aspx?emailid=19136",
+          "https://www.tiktok.com/tag/adultosmayores",
+          "https://www.sikana.tv/es/sport/50-gym-exercises-for-seniors",
+          "https://pixabay.com/es/videos/search/personas%20mayores/"
+        ],
+        "candidates": [
+          "pixabay.com",
+          "planetamayores.com",
+          "www.aarp.org",
+          "www.sikana.tv",
+          "www.tiktok.com",
+          "www.todo-mail.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LianMeng/LianMeng.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LianMeng",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.amazon.com/amazonprime",
+          "https://www.primevideo.com/storefront/home/home",
+          "https://www.primevideo.com/-/en_US/gp/video/offers",
+          "https://www.amazon.com/b?node=15240005011",
+          "https://selection.amazon.com/sign-in?redirect_to=%2F&mons_redirect=sign_in",
+          "https://www.aboutamazon.com/what-we-do/prime",
+          "https://www.amazon.ca/amazonprime",
+          "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+          "https://www.amazon.com/gp/video/primesignup/",
+          "https://www.amazon.com/"
+        ],
+        "candidates": [
+          "amazon.ca",
+          "amazon.com",
+          "selection.amazon.com",
+          "www.aboutamazon.com",
+          "www.amazon.ca",
+          "www.amazon.com",
+          "www.primevideo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Limelight/Limelight.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "Limelight",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.limelight.pk/",
+          "https://en.wikipedia.org/wiki/Lime_light",
+          "https://limelightvision.io/",
+          "https://en.wikipedia.org/wiki/Limelight_(1952_film)",
+          "https://www.merriam-webster.com/dictionary/limelight",
+          "https://www.limelighthotels.com/",
+          "https://www.limelightusa.com/",
+          "https://www.limelighthotels.com/ketchum",
+          "https://www.history.com/articles/where-did-the-phrase-in-the-limelight-come-from",
+          "https://limelightvision.io/products/limelight-4"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "limelightvision.io",
+          "www.history.com",
+          "www.limelight.pk",
+          "www.limelighthotels.com",
+          "www.limelightusa.com",
+          "www.merriam-webster.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Line/Line.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "Line",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://line.me/en",
+          "https://line.me/tw/",
+          "https://apps.microsoft.com/detail/xpfcc4cd725961",
+          "https://fm2.lineapplication.me/oauth2/v2.1/login/1",
+          "https://en.wikipedia.org/wiki/Line_(software)",
+          "https://play.google.com/store/apps/details?id=jp.naver.line.android&hl=en-US",
+          "https://page.line.biz/",
+          "https://help.line.me/line/smartphone/categoryId/20012002/3/pc?lang=en",
+          "https://help.line.me/line/smartphone?contentId=20001192",
+          "https://line.me/"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "fm2.lineapplication.me",
+          "help.line.me",
+          "line.me",
+          "page.line.biz",
+          "play.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LineTV/LineTV.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LineTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.spaceneedle.com/",
+          "https://en.wikipedia.org/wiki/Space_Needle",
+          "https://www.spaceneedle.com/plan-your-visit",
+          "https://www.tripadvisor.com/Attraction_Review-g60878-d123109-Reviews-Space_Needle-Seattle_Washington.html",
+          "https://www.citypass.com/seattle/space-needle",
+          "https://www.getyourguide.com/explorer/seattle-ttd198/visit-space-needle/",
+          "https://www.yelp.com/biz/space-needle-seattle",
+          "https://simple.wikipedia.org/wiki/Space_Needle",
+          "https://seattlespaceneedletickets.com/guides/space-needle-hours-and-best-time-to-visit/",
+          "https://www.seattlemonorail.com/blog/easiest-way-to-space-needle-from-downtown-seattle/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "seattlespaceneedletickets.com",
+          "simple.wikipedia.org",
+          "www.citypass.com",
+          "www.getyourguide.com",
+          "www.seattlemonorail.com",
+          "www.spaceneedle.com",
+          "www.tripadvisor.com",
+          "www.yelp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Linguee/Linguee.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "Linguee",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.linguee.com/",
+          "https://www.linguee.es/",
+          "https://www.linguee.com/english-french",
+          "https://www.linguee.fr/",
+          "https://www.linguee.de/",
+          "https://www.linguee.com.br/",
+          "https://www.linguee.com.br/portugues-ingles/traducao/tradutor.html",
+          "https://www.linguee.fr/francais-anglais",
+          "https://www.linguee.com/english-spanish",
+          "https://www.linguee.com/english-german"
+        ],
+        "candidates": [
+          "www.linguee.com",
+          "www.linguee.com.br",
+          "www.linguee.de",
+          "www.linguee.es",
+          "www.linguee.fr"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LinkedIn/LinkedIn.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LinkedIn",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.linkedin.com/",
+          "https://www.linkedin.com/login/",
+          "https://in.linkedin.com/company/linkedin",
+          "https://ca.linkedin.com/",
+          "https://gb.linkedin.com/company/linkedin",
+          "https://cn.linkedin.com/",
+          "https://cn.linkedin.com/company/linkedin",
+          "https://fr.linkedin.com/",
+          "https://au.linkedin.com/company/linkedin",
+          "https://en.wikipedia.org/wiki/LinkedIn"
+        ],
+        "candidates": [
+          "au.linkedin.com",
+          "ca.linkedin.com",
+          "cn.linkedin.com",
+          "en.wikipedia.org",
+          "fr.linkedin.com",
+          "gb.linkedin.com",
+          "in.linkedin.com",
+          "www.linkedin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Linux/Linux.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "Linux",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.linux.org/pages/download/",
+          "https://www.linux.org/",
+          "https://en.wikipedia.org/wiki/Linux",
+          "https://www.linux.com/what-is-linux/",
+          "https://www.linuxmint.com/download.php",
+          "https://ubuntu.com/download",
+          "https://www.geeksforgeeks.org/linux-unix/linux-tutorial/",
+          "https://www.redhat.com/en/topics/linux/what-is-linux",
+          "https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system/",
+          "https://www.linuxmint.com/"
+        ],
+        "candidates": [
+          "distrowatch.com",
+          "en.wikipedia.org",
+          "linux.com",
+          "linux.org",
+          "ubuntu.com",
+          "www.geeksforgeeks.org",
+          "www.linux.com",
+          "www.linux.org",
+          "www.linuxmint.com",
+          "www.redhat.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LivePerson/LivePerson.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LivePerson",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.liveperson.com/",
+          "https://authentication.liveperson.net/login.html?lpservice=liveengage&servicepath=a/~~accountid~~/",
+          "https://authentication.liveperson.net/accountSelection.html?source=login_html",
+          "https://en.wikipedia.org/wiki/LivePerson",
+          "https://www.liveperson.com/company/",
+          "https://developers.liveperson.com/overview.html",
+          "https://pr.liveperson.com/",
+          "https://www.liveperson.com/products/conversational-cloud/",
+          "https://www.liveperson.com/company/careers/",
+          "https://ir.liveperson.com/"
+        ],
+        "candidates": [
+          "authentication.liveperson.net",
+          "developers.liveperson.com",
+          "en.wikipedia.org",
+          "ir.liveperson.com",
+          "pr.liveperson.com",
+          "www.liveperson.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Logitech/Logitech.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "Logitech",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.logitech.com/en-us",
+          "https://www.logitechg.com/en-us",
+          "https://www.logitech.com/en-us/shop",
+          "https://www.logitechg.com/en-us/software/ghub",
+          "https://support.logi.com/hc/en-gb?lang=en",
+          "https://en.m.wikipedia.org/wiki/Logitech",
+          "https://support.logi.com/hc/change_language/en-us?return_to=%2Fhc%2Fen-us",
+          "https://hub.sync.logitech.com/",
+          "https://sync.logitech.com/",
+          "https://hub.sync.logitech.com/syncapp"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "hub.sync.logitech.com",
+          "support.logi.com",
+          "sync.logitech.com",
+          "www.logitech.com",
+          "www.logitechg.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LondonReal/LondonReal.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LondonReal",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bandsintown.com/c/seattle-wa",
+          "https://washingtonlivemusic.com/live-music/seattle",
+          "https://everout.com/seattle/events/?category=live-music",
+          "https://allevents.in/seattle/live-music",
+          "https://stayhappening.com/seattle--concerts",
+          "https://allevents.in/seattle/music",
+          "https://stayhappening.com/seattle",
+          "https://www.eventbrite.com/b/wa--seattle/music/",
+          "https://seattlemusic.app/",
+          "https://www.songkick.com/metro-areas/2846-us-seattle"
+        ],
+        "candidates": [
+          "allevents.in",
+          "everout.com",
+          "seattlemusic.app",
+          "stayhappening.com",
+          "washingtonlivemusic.com",
+          "www.bandsintown.com",
+          "www.eventbrite.com",
+          "www.songkick.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LuDaShi/LuDaShi.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LuDaShi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.youtube.com/watch?v=T5B3ZVTvrhM",
+          "https://www.laliga.com/partidazos/el-clasico",
+          "https://www.fcbarcelona.com/en/matches/138374/fc-barcelona-real-madrid-la-liga-2026-2027",
+          "https://www.sofascore.com/football/match/real-madrid-fc-barcelona/rgbsEgb",
+          "https://www.laliga.com/en-GB/partidazos/el-clasico",
+          "https://footystats.org/spain/fc-barcelona-vs-real-madrid-cf-h2h-stats",
+          "https://www.365scores.com/en-us/football/match/laliga-11/fc-barcelona-real-madrid-131-132-11",
+          "https://www.fotmob.com/matches/real-madrid-vs-barcelona/2grk20",
+          "https://www.billboard.com/culture/product-recommendations/barcelona-real-madrid-2026-laliga-soccer-watch-online-free-1236365640/",
+          "https://www.fancode.com/football/tour/laliga-202627-19782952/video-highlights/fc-barcelona-12-real-madrid-round-10-225561"
+        ],
+        "candidates": [
+          "fancode.com",
+          "footystats.org",
+          "www.365scores.com",
+          "www.billboard.com",
+          "www.fancode.com",
+          "www.fcbarcelona.com",
+          "www.fotmob.com",
+          "www.laliga.com",
+          "www.sofascore.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "LvMiLianChuang/LvMiLianChuang.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "LvMiLianChuang",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/",
+          "https://www.microsoft.com/",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/",
+          "https://account.microsoft.com/account-checkup",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://myaccount.microsoft.com/login",
+          "https://outlook.office.com/mail/",
+          "https://myapps.microsoft.com/index.html",
+          "https://apps.microsoft.com/home"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "myaccount.microsoft.com",
+          "myapps.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MEGA/MEGA.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "MEGA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://mega.nz/login",
+          "https://mega.io/",
+          "https://mega.io/desktop",
+          "https://mega.nz/login/csp=19",
+          "https://www.megamillions.com/",
+          "https://www.lotteryusa.com/mega-millions/",
+          "https://en.wikipedia.org/wiki/Mega_(service)",
+          "https://www.megamillions.com/how-to-play.aspx",
+          "https://gizmodo.com/download/mega",
+          "https://www.usamega.com/mega-millions"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "gizmodo.com",
+          "mega.io",
+          "mega.nz",
+          "www.lotteryusa.com",
+          "www.megamillions.com",
+          "www.usamega.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MIUIPrivacy/MIUIPrivacy.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "MIUIPrivacy",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://community.ebay.com/forum/shipping-57923/topic/ups-account-number-for-ebay-account-442096/",
+          "https://community.ebay.com/forum/shipping-57923/",
+          "https://community.ebay.com/forum/selling-57920/topic/buyer-didnt-receive-item-but-tracking-shows-it-was-delivered-444629/",
+          "https://community.ebay.com/forum/buying-57914/topic/how-exactly-to-beat-the-fake-tracking-number-scam-170307/",
+          "https://community.ebay.com/forum/announcements-57928/",
+          "https://community.ebay.com/t5/Shipping/Provided-tracking-number-doesn-t-exist-and-the-seller-doesn-t/td-p/32514009/",
+          "https://community.ebay.com/forum/buying-57914/topic/does-anyone-here-know-about-qtrack-having-problems-168091/",
+          "https://community.ebay.com/forum/shipping-57923/topic/how-do-i-reprint-a-shipping-label-or-re-download-a-shipping-qr-code-ebays-help-doesnt-help-102572/",
+          "https://community.ebay.com/forum/ask-a-mentor-57913/topic/how-to-track-esus-tracking-number-230229/"
+        ],
+        "candidates": [
+          "community.ebay.com",
+          "qtrack.io"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MOMOShop/MOMOShop.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "MOMOShop",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.momoshop.com.tw/brand/Main.jsp",
+          "https://momoshop.co/collections/shop-all",
+          "https://momoshop.co/",
+          "https://www.momosworkshop.com/",
+          "https://momoshop.com/",
+          "https://www.momoshop.com.mx/en",
+          "https://www.momo-shopping.com/",
+          "https://momoshopglobal.com/collections/frontpage",
+          "https://account.momoshop.com.tw/"
+        ],
+        "candidates": [
+          "account.momoshop.com.tw",
+          "momoshop.co",
+          "momoshop.com",
+          "momoshop.com.tw",
+          "momoshopglobal.com",
+          "www.momo-shopping.com",
+          "www.momoshop.com.mx",
+          "www.momoshop.com.tw",
+          "www.momosworkshop.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "MOOV/MOOV.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "MOOV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.moovseattle.com/",
+          "https://moov.io/",
+          "https://moovpool.com/us-en/",
+          "https://moovpool.com/us-en/products/",
+          "https://moov.io/platform/ach/",
+          "https://moov.health/",
+          "https://www.moovseattle.com/moov-slu",
+          "https://dashboard.moov.io/",
+          "https://www.amazon.com/Moov-Fast-Relief-Cream-Ayurvedic/dp/B0DYFZBM11",
+          "https://www.joinmoov.com/"
+        ],
+        "candidates": [
+          "amazon.com",
+          "dashboard.moov.io",
+          "moov.health",
+          "moov.io",
+          "moovpool.com",
+          "www.amazon.com",
+          "www.joinmoov.com",
+          "www.moovseattle.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Mail/Mail.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "Mail",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://mail.google.com/mail?hl=en-US",
+          "https://www.mail.com/mail/",
+          "https://outlook.office.com/mail/",
+          "https://accounts.google.com/servicelogin?service=mail",
+          "https://mlogin.mail.com/",
+          "https://www.mail.com/premiumlogin",
+          "https://accounts.google.com/Login",
+          "https://www.icloud.com/mail",
+          "https://support.google.com/mail/answer/8494?hl=en&co=genie.platform=desktop",
+          "https://mail.163.com/"
+        ],
+        "candidates": [
+          "accounts.google.com",
+          "mail.163.com",
+          "mail.com",
+          "mail.google.com",
+          "mlogin.mail.com",
+          "outlook.office.com",
+          "support.google.com",
+          "www.icloud.com",
+          "www.mail.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Mailru/Mailru.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "Mailru",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://mail.ru/",
+          "https://account.mail.ru/login?page=https",
+          "https://account.mail.ru/login.Sign",
+          "https://my.mail.ru/video",
+          "https://account.mail.ru/login%22",
+          "https://news.mail.ru/",
+          "https://ru.wikipedia.org/wiki/Mail.ru",
+          "https://zhuanlan.zhihu.com/p/619547801",
+          "https://my.mail.ru/",
+          "https://wot.mail.ru/"
+        ],
+        "candidates": [
+          "account.mail.ru",
+          "biz.mail.ru",
+          "mail.ru",
+          "my.mail.ru",
+          "news.mail.ru",
+          "ru.wikipedia.org",
+          "vkplay.ru",
+          "wot.mail.ru",
+          "zhuanlan.zhihu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Majsoul/Majsoul.yaml": {
+        "checked_at": "2026-10-30 05:29 UTC",
+        "name": "Majsoul",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://account.microsoft.com/account-checkup",
+          "https://myaccount.microsoft.com/",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://myaccount.microsoft.com/login",
+          "https://www.microsoft.com/en-us/microsoft-365",
+          "https://outlook.office.com/mail/",
+          "https://myapps.microsoft.com/index.html",
+          "https://apps.microsoft.com/home"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "myaccount.microsoft.com",
+          "myapps.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
         ],
         "accepted": [],
         "ownership_evidence": []

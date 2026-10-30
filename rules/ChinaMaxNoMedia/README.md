@@ -34,39 +34,69 @@
 
 #### MASTER分支 (每日更新)
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml
+```
 
 #### MASTER分支 CDN (每日更新)
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml
+```
 
 #### MASTER分支 GHProxy (每日更新)
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Classical.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_Domain.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMaxNoMedia/ChinaMaxNoMedia_IP.yaml
+```
 
 ## 子规则/排除规则
 

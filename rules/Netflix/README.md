@@ -33,33 +33,57 @@
 
 #### MASTER分支 (每日更新)
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_IP.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_IP.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_Classical.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_Classical.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_IP.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_IP.yaml
+```
 
 #### MASTER分支 CDN (每日更新)
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Netflix/Netflix.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Netflix/Netflix.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Netflix/Netflix_IP.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Netflix/Netflix_IP.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Netflix/Netflix_Classical.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Netflix/Netflix_Classical.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Netflix/Netflix_IP.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/Netflix/Netflix_IP.yaml
+```
 
 #### MASTER分支 GHProxy (每日更新)
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_IP.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_IP.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_Classical.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_Classical.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_IP.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/Netflix/Netflix_IP.yaml
+```
 
 ## 子规则/排除规则
 

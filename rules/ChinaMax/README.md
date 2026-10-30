@@ -36,57 +36,105 @@
 
 #### MASTER分支 (每日更新)
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Classical.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Classical.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Classical_No_IPv6.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Classical_No_IPv6.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Domain.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Domain.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP.yaml
+```
 
-```https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml```
+```text
+https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml
+```
 
 #### MASTER分支 CDN (每日更新)
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_IP.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_IP.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_Classical.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_Classical.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_Classical_No_IPv6.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_Classical_No_IPv6.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_Domain.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_Domain.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_IP.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_IP.yaml
+```
 
-```https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml```
+```text
+https://cdn.jsdelivr.net/gh/teaoea/Nodus-Rules@main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml
+```
 
 #### MASTER分支 GHProxy (每日更新)
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Classical.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Classical.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Classical_No_IPv6.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Classical_No_IPv6.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Domain.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_Domain.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP.yaml
+```
 
-```https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml```
+```text
+https://ghproxy.com/https://raw.githubusercontent.com/teaoea/Nodus-Rules/main/rules/ChinaMax/ChinaMax_IP_No_IPv6.yaml
+```
 
 ## 子规则/排除规则
 
