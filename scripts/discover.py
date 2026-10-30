@@ -1,5 +1,6 @@
 """免费公开网络候选搜索；只有具备归属依据的域名才可自动入库。"""
 import html
+from convert import excluded_rule, preferred_source
 import json
 from pathlib import Path
 import re
@@ -72,7 +73,8 @@ def public_search(name):
 
 
 def discover(source, root, timestamp, limit=24, budget_seconds=90, search=public_search):
-    files = sorted((source / "rule/Clash").rglob("*.list"))
+    files = sorted({preferred_source(file) for file in (source / "rule/Clash").rglob("*.list")
+                    if not excluded_rule(file)})
     previous = root / "rules/sync-report.json"
     state = json.loads(previous.read_text()).get("discovery", {}) if previous.exists() else {}
     cursor = state.get("next_index", 0) % max(len(files), 1)
