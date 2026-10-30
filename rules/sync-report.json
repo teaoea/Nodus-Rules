@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-30 05:46 UTC",
+  "date": "2026-10-30 05:55 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-30 05:46 UTC",
-    "next_index": 504,
+    "checked_at": "2026-10-30 05:55 UTC",
+    "next_index": 528,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -162881,6 +162881,695 @@
           "support.reddithelp.com",
           "www.facebook.com",
           "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "RemoteDesktop/RemoteDesktop.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "RemoteDesktop",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://remotedesktop.google.com/",
+          "https://www.remotedesktop.com/",
+          "https://remotedesktop.google.com/_/oauthredirect",
+          "https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai",
+          "https://app.remotedesktop.com/login",
+          "https://anydesk.com/en/downloads/windows",
+          "https://www.microsoft.com/en-us/d/microsoft-remote-desktop/9wzdncrfj3ps",
+          "https://support.microsoft.com/en-us/windows/experience/connectivity-networking/how-to-use-remote-desktop",
+          "https://anydesk.com/en",
+          "https://remotedesktop.google.com/access"
+        ],
+        "candidates": [
+          "aka.ms",
+          "anydesk.com",
+          "app.remotedesktop.com",
+          "chromewebstore.google.com",
+          "remotedesktop.google.com",
+          "support.microsoft.com",
+          "www.microsoft.com",
+          "www.remotedesktop.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Riot/Riot.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Riot",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.riotgames.com/",
+          "https://playvalorant.com/en-us/download/",
+          "https://playvalorant.com/",
+          "https://account.riotgames.com/en-US/login",
+          "https://support.riotgames.com/en-us/riot/",
+          "https://www.leagueoflegends.com/en-us/download/",
+          "https://account.riotgames.com/log-in",
+          "https://www.leagueoflegends.com/en-sg/download/",
+          "https://www.riotgames.com/pt-br",
+          "https://account.riotgames.com/B"
+        ],
+        "candidates": [
+          "account.riotgames.com",
+          "playvalorant.com",
+          "support.riotgames.com",
+          "www.leagueoflegends.com",
+          "www.riotgames.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Rockstar/Rockstar.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Rockstar",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.rockstargames.com/",
+          "https://www.rockstargames.com/downloads/",
+          "https://www.rockstaroriginal.com/",
+          "https://socialclub.rockstargames.com/profile/signin",
+          "https://en.wikipedia.org/wiki/Rockstar_Games",
+          "https://store.rockstargames.com/",
+          "https://socialclub.rockstargames.com/member/----___--___----",
+          "https://store.rockstargames.com/game/buy-gta-v",
+          "https://www.rockstargames.com/newswire/article/89k8a554534523/Download-The-Rockstar-Games-Launcher",
+          "https://www.rockstargames.com/zh/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "socialclub.rockstargames.com",
+          "store.rockstargames.com",
+          "www.rockstargames.com",
+          "www.rockstaroriginal.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "RuanMei/RuanMei.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "RuanMei",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ncaa.com/standings/football/fbs",
+          "https://www.ncaa.com/rankings/football/fbs/associated-press",
+          "https://www.sports-reference.com/cfb/years/2025-standings.html",
+          "https://www.footballdb.com/college-football/standings.html?yr=2025",
+          "https://www.topendsports.com/sport/college-football/standings.htm",
+          "https://uxscoreboard.com/ncaaf/standings/2025",
+          "https://en.wikipedia.org/wiki/2025_NCAA_Division_I_FBS_football_rankings",
+          "https://fbschedules.com/ap-top-25-final-rankings-released-for-2025-college-football-season/",
+          "https://apnews.com/hub/ap-top-25-college-football-poll",
+          "https://www.collegefootballpoll.com/rankings/"
+        ],
+        "candidates": [
+          "apnews.com",
+          "en.wikipedia.org",
+          "fbschedules.com",
+          "ncaa.com",
+          "poll.com",
+          "sports-reference.com",
+          "uxscoreboard.com",
+          "www.collegefootballpoll.com",
+          "www.footballdb.com",
+          "www.ncaa.com",
+          "www.sports-reference.com",
+          "www.topendsports.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SFExpress/SFExpress.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "SFExpress",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.sf-international.com/us/en/",
+          "https://www.sf-express.com/chn/en/waybill/list",
+          "https://www.ordertracker.com/carriers/sf-express",
+          "https://www.17track.net/en/carriers/sf-express",
+          "https://www.sf-express.com/chn/en",
+          "https://carriers.aftership.com/sf-express",
+          "https://parcelsapp.com/en/carriers/sf-express",
+          "https://htm.sf-express.com/tw/en/",
+          "https://en.wikipedia.org/wiki/SF_Express",
+          "https://usshipweb.sf-express.com/Home/Index"
+        ],
+        "candidates": [
+          "carriers.aftership.com",
+          "en.wikipedia.org",
+          "htm.sf-express.com",
+          "parcelsapp.com",
+          "s.f.express",
+          "usshipweb.sf-express.com",
+          "www.17track.net",
+          "www.ordertracker.com",
+          "www.sf-express.com",
+          "www.sf-international.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SMG/SMG.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "SMG",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://reporting.smg.com/",
+          "https://smg.com/",
+          "https://en.wikipedia.org/wiki/List_of_submachine_guns",
+          "https://en.wikipedia.org/wiki/Submachine_gun",
+          "https://smg.com/about",
+          "https://ssbcrackexams.com/best-sub-machine-guns/",
+          "https://thegunzone.com/best-submachine-guns/",
+          "https://smggunsstore.com/",
+          "https://www.thetoptens.com/best-submachine-guns/",
+          "https://360.smg.com/"
+        ],
+        "candidates": [
+          "360.smg.com",
+          "en.wikipedia.org",
+          "reporting.smg.com",
+          "smg.com",
+          "smggunsstore.com",
+          "ssbcrackexams.com",
+          "thegunzone.com",
+          "www.thetoptens.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SMZDM/SMZDM.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "SMZDM",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.codigosinternacionales.com/world/country-code-35/",
+          "https://www.schooldrillers.com/countries-using-35-prefix-code/",
+          "https://en.wikipedia.org/wiki/List_of_telephone_country_codes",
+          "https://en.wikipedia.org/wiki/Telephone_country_code",
+          "https://www.answers.com/telecommunications/Where_is_telephone_country_code_35",
+          "https://www.ramforum.com/threads/diagnostic-code-35-help.17259/",
+          "https://rog-forum.asus.com/t5/amd-800-series/cpu-post-memory-initialization-code-35-during-normal-operation/td-p/1075021",
+          "https://police-codes.com/basic-codes/35",
+          "https://www.studycountry.com/wiki/which-country-has-code-35",
+          "https://www.studycountry.com/wiki/which-country-code-is-35"
+        ],
+        "candidates": [
+          "en.codigosinternacionales.com",
+          "en.wikipedia.org",
+          "police-codes.com",
+          "ramforum.com",
+          "rog-forum.asus.com",
+          "studycountry.com",
+          "www.answers.com",
+          "www.ramforum.com",
+          "www.schooldrillers.com",
+          "www.studycountry.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "STUN/STUN.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "STUN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/STUN",
+          "https://www.merriam-webster.com/dictionary/stun",
+          "https://liveapi.com/blog/stun-server/",
+          "https://dictionary.cambridge.org/dictionary/english/stun",
+          "https://info.support.huawei.com/info-finder/encyclopedia/en/STUN.html",
+          "https://www.bestproductsreviews.com/rated-stun-guns",
+          "https://www.sportsmans.com/shooting-gear-gun-supplies/shooting-specialty/tactical-self-defense/stun-guns-tasers/c/cat142682",
+          "https://arphost.com/what-is-a-stun-server/",
+          "https://www.merriam-webster.com/thesaurus/stun",
+          "https://www.amazon.com/stun/s?k=stun"
+        ],
+        "candidates": [
+          "amazon.com",
+          "arphost.com",
+          "bestproductsreviews.com",
+          "dictionary.cambridge.org",
+          "en.wikipedia.org",
+          "info.support.huawei.com",
+          "liveapi.com",
+          "www.amazon.com",
+          "www.bestproductsreviews.com",
+          "www.merriam-webster.com",
+          "www.sportsmans.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Salesforce/Salesforce.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Salesforce",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://login.salesforce.com/",
+          "https://www.salesforce.com/",
+          "https://www.salesforce.com/products/what-is-salesforce/",
+          "https://en.wikipedia.org/wiki/Salesforce",
+          "https://trailhead.salesforce.com/",
+          "https://login.salesforce.com/logos/",
+          "https://help.salesforce.com/s/?language=en_US",
+          "https://www.salesforce.com/homepage/",
+          "https://www.salesforce.com/in/",
+          "https://developer.salesforce.com/free-trials"
+        ],
+        "candidates": [
+          "developer.salesforce.com",
+          "en.wikipedia.org",
+          "help.salesforce.com",
+          "login.salesforce.com",
+          "trailhead.salesforce.com",
+          "www.salesforce.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Samsung/Samsung.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Samsung",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.samsung.com/us/",
+          "https://www.samsung.com/us/smartphones/",
+          "https://account.samsung.com/",
+          "https://en.wikipedia.org/wiki/Samsung",
+          "https://www.bestbuy.com/site/brands/samsung-store/pcmcat140800050115.c?id%3Dpcmcat140800050115",
+          "https://www.samsung.com/us/featured/new-releases/",
+          "https://www.samsung.com/us/peaceofmind/",
+          "https://www.samsung.com/us/offer/",
+          "https://www.samsung.com/us/support/service/locations/",
+          "https://www.samsung.com/us/store/"
+        ],
+        "candidates": [
+          "account.samsung.com",
+          "en.wikipedia.org",
+          "samsung.com",
+          "www.bestbuy.com",
+          "www.samsung.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Scaleflex/Scaleflex.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Scaleflex",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.scaleflex.com/",
+          "https://www.scaleflex.com/about-us",
+          "https://team.scaleflex.com/",
+          "https://www.linkedin.com/company/scaleflex-team",
+          "https://thedigitalprojectmanager.com/tools/scaleflex-review/",
+          "https://trust.scaleflex.com/",
+          "https://aws.amazon.com/marketplace/pp/prodview-l4fvo2m6qeyca",
+          "https://developers.scaleflex.com/",
+          "https://media.toolsinfo.com/tool/scaleflex",
+          "https://machalliance.org/members/scaleflex"
+        ],
+        "candidates": [
+          "aws.amazon.com",
+          "developers.scaleflex.com",
+          "enable-javascript.com",
+          "machalliance.org",
+          "media.toolsinfo.com",
+          "team.scaleflex.com",
+          "thedigitalprojectmanager.com",
+          "trust.scaleflex.com",
+          "www.linkedin.com",
+          "www.scaleflex.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Scholar/Scholar.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Scholar",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://scholar.google.com.tw/",
+          "https://scholar.google.com/advanced_scholar_search",
+          "https://scholar.google.com/advanced_scholar_search?hl=en",
+          "https://en.wikipedia.org/wiki/Google_Scholar",
+          "https://en.wikipedia.org/wiki/Scholar",
+          "https://scholar.google.com/?hl=fr",
+          "https://scholar.google.com/intl//scholar/about.html",
+          "https://www.semanticscholar.org/",
+          "https://scholargps.com/",
+          "https://dictionary.cambridge.org/dictionary/english/scholar"
+        ],
+        "candidates": [
+          "dictionary.cambridge.org",
+          "en.wikipedia.org",
+          "scholar.google.com",
+          "scholar.google.com.tw",
+          "scholargps.com",
+          "www.semanticscholar.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Sectigo/Sectigo.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Sectigo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.allrecipes.com/recipe/237305/apple-slice-squares/",
+          "https://thehungrybluebird.com/apple-slices/",
+          "https://cookforyou.familyfreshrecipes.com/2025/09/05/chicago-style-bakery-apple-slices-recipe/",
+          "https://www.allrecipes.com/recipe/20386/apple-slices/",
+          "https://insanelygoodrecipes.com/baked-apple-slices/",
+          "https://www.walmart.com/c/kp/apple-slices",
+          "https://thentheresfood.com/apple-slices/",
+          "https://www.theseasonedmom.com/baked-apples/",
+          "https://theferventmama.com/chicago-style-bakery-apple-slices/",
+          "https://allwecook.com/chicago-style-bakery-apple-slices/"
+        ],
+        "candidates": [
+          "allwecook.com",
+          "cookforyou.familyfreshrecipes.com",
+          "insanelygoodrecipes.com",
+          "theferventmama.com",
+          "thehungrybluebird.com",
+          "thentheresfood.com",
+          "walmart.com",
+          "www.allrecipes.com",
+          "www.theseasonedmom.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ShangHaiJuXiao/ShangHaiJuXiao.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "ShangHaiJuXiao",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.instagram.com/",
+          "https://www.instagram.com/?hl=ru",
+          "https://about.instagram.com/about-us/",
+          "https://about.instagram.com/features",
+          "https://help.instagram.com/",
+          "https://business.instagram.com/",
+          "https://help.instagram.com/help/instagram/1554245014870700",
+          "https://creators.instagram.com/how-to-grow",
+          "https://creators.instagram.com/blog/",
+          "https://privacycenter.instagram.com/search/"
+        ],
+        "candidates": [
+          "about.instagram.com",
+          "business.instagram.com",
+          "creators.instagram.com",
+          "help.instagram.com",
+          "privacycenter.instagram.com",
+          "www.instagram.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Shanling/Shanling.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Shanling",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.shanling.com/catlog/Shanling%20Q1%20-%20Advanced%20User%20Manual%20Fw%20V1.2.pdf",
+          "https://shanling.com/catlog/gecgoo/files/M0%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+          "https://shanling.com/uploads/image/UP61.1.pdf",
+          "https://en.shanling.com/download/files/ECZeroT.pdf",
+          "https://manuals.plus/asin/B0CRY96VV5.pdf",
+          "https://manuals.plus/asin/B0D4VHP8W5.pdf",
+          "https://m.media-amazon.com/images/I/81EjTADg2vL.pdf"
+        ],
+        "candidates": [
+          "en.file.shanling.com",
+          "en.shanling",
+          "en.shanling.com",
+          "m.media-amazon.com",
+          "manuals.plus",
+          "openwin.shanling.com",
+          "shanling.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Sharethis/Sharethis.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Sharethis",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://sharethis.com/",
+          "https://en.wikipedia.org/wiki/ShareThis",
+          "https://platform.sharethis.com/login",
+          "https://sharethis.com/about/",
+          "https://platform.sharethis.com/onboarding",
+          "https://www.linkedin.com/company/sharethis",
+          "https://chromewebstore.google.com/detail/sharethis/lplpcpijdokpnbjcklakgabohjgneidi",
+          "https://sharethis.com/platform/",
+          "https://sharethis.com/platform/share-buttons/",
+          "https://platform.sharethis.com/signup"
+        ],
+        "candidates": [
+          "chromewebstore.google.com",
+          "en.wikipedia.org",
+          "platform.sharethis.com",
+          "sharethis.com",
+          "www.linkedin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ShenMa/ShenMa.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "ShenMa",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://thepiratebay.party/torrent/4175339/Super_Mario_Kart_[PAL_-_Wii_-_VC]",
+          "https://tpb.party/torrent/5258445/Mario_Kart_[PAL]_[WiiTorrentZ]",
+          "https://tpb.party/torrent/7569207/[Wii]_Mario_Kart_Wii_(PAL)_[RMCP01]",
+          "https://archive.org/download/mario-kart-wii-pal",
+          "https://archive.org/download/mario-kart-wii-pal/mario-kart-wii-pal_archive.torrent",
+          "https://www.reddit.com/r/Roms/comments/9ta4mq/does_anyone_have_a_mario_kart_wii_pal_iso_or_wbfs/",
+          "https://github.com/patchzyy/Wiicompiled",
+          "https://github.com/toent/Archipelago-MKWii",
+          "https://www.reddit.com/r/CemuPiracy/comments/17bpgxr/can_anyone_explain_how_to_pirate_mario_cart_8/",
+          "https://www.redditmedia.com/r/Roms/comments/1if50cd/mario_kart_wii_pal/"
+        ],
+        "candidates": [
+          "archive.org",
+          "github.com",
+          "mkwii.apworld",
+          "redditmedia.com",
+          "thepiratebay.party",
+          "tpb.party",
+          "www.reddit.com",
+          "www.redditmedia.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ShiJiChaoXing/ShiJiChaoXing.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "ShiJiChaoXing",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://statcalc.net/standard-normal-table/",
+          "https://archive.math.arizona.edu/jwatkins/normal-table.pdf",
+          "https://en.wikipedia.org/wiki/Standard_normal_table",
+          "https://statisticsfundamentals.com/tables/z-table/",
+          "https://www.mathsisfun.com/data/standard-normal-distribution-table.html",
+          "https://www.rit.edu/academicsuccesscenter/sites/rit.edu.academicsuccesscenter/files/documents/math-handouts/Standard%20Normal%20Distribution%20Table.pdf",
+          "https://www.ztable.net/",
+          "https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/pdfs/17%20StandardNormalTable.pdf",
+          "https://archive.math.arizona.edu/rsims/ma464/standardnormaltable.pdf",
+          "https://www.soa.org/globalassets/assets/Files/Edu/2018/exam-srm-tables.pdf"
+        ],
+        "candidates": [
+          "archive.math.arizona.edu",
+          "en.wikipedia.org",
+          "statcalc.net",
+          "statisticsfundamentals.com",
+          "web.stanford.edu",
+          "www.mathsisfun.com",
+          "www.rit.edu",
+          "www.soa.org",
+          "www.ztable.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ShiNongZhiKe/ShiNongZhiKe.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "ShiNongZhiKe",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/",
+          "https://account.microsoft.com/account-checkup",
+          "https://myaccount.microsoft.com/login",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://myapps.microsoft.com/index.html",
+          "https://www.microsoft.com/en-us/download",
+          "https://outlook.office.com/mail/",
+          "https://apps.microsoft.com/"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "myaccount.microsoft.com",
+          "myapps.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Shopee/Shopee.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Shopee",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://shopee.com.br/",
+          "https://shopee.com/",
+          "https://shopee.com.br/?__classic__=1",
+          "https://seller.shopee.com.br/",
+          "https://accounts.shopee.com.br/",
+          "https://seller.shopee.com.br/register/home",
+          "https://shopee.sg/",
+          "https://shopee.in/index.html",
+          "https://shopee.vn/"
+        ],
+        "candidates": [
+          "accounts.shopee.com.br",
+          "seller.shopee.com.br",
+          "seller.shopee.com.my",
+          "shopee.com",
+          "shopee.com.br",
+          "shopee.in",
+          "shopee.sg",
+          "shopee.vn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Shopify/Shopify.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Shopify",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.shopify.com/",
+          "https://www.shopify.com/store-login",
+          "https://www.facebook.com/shopify/",
+          "https://x.com/Shopify",
+          "https://login.myshopify.com/",
+          "https://www.youtube.com/shopify",
+          "https://store.myshopify.com/",
+          "https://www.pcmag.com/reviews/shopify",
+          "https://help.shopify.com/",
+          "https://en.m.wikipedia.org/wiki/Shopify"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "help.shopify.com",
+          "login.myshopify.com",
+          "store.myshopify.com",
+          "store.shopify.com",
+          "www.facebook.com",
+          "www.pcmag.com",
+          "www.shopify.com",
+          "www.youtube.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Sina/Sina.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Sina",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.sina.com.cn/",
+          "https://www.sina.com.cn/temp/",
+          "https://sports.sina.com.cn/?locale=en_US",
+          "https://en.wikipedia.org/wiki/Sina_Corporation",
+          "https://en.wikipedia.org/wiki/Sina-Drums",
+          "https://news.sina.cn/en-US/Portal/",
+          "https://finance.sina.com.cn/stock/",
+          "https://finance.sina.com.cn/?locale=en_us",
+          "https://news.sina.com.cn/china/?locale=en_us",
+          "https://sina.cn/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "finance.sina.com.cn",
+          "news.sina.cn",
+          "news.sina.com.cn",
+          "sina.cn",
+          "sinanet.com",
+          "sports.sina.com.cn",
+          "www.sina.com.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Siri/Siri.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "Siri",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.apple.com/apple-intelligence/",
+          "https://siriai.help/",
+          "https://en.m.wikipedia.org/wiki/Siri",
+          "https://apps.apple.com/us/app/siri/id6758482875",
+          "https://support.apple.com/en-us/105020",
+          "https://www.simplymac.com/ios/set-up-siri-on-this-device",
+          "https://support.apple.com/guide/iphone/turn-on-and-activate-siri-iph83aad8922/ios",
+          "https://www.computerhope.com/jargon/s/siri.htm",
+          "https://www.apple.com/newsroom/2026/09/siri-ai-a-profoundly-more-capable-and-personal-assistant-is-here/",
+          "https://en.m.wikipedia.org/wiki/Siri_AI"
+        ],
+        "candidates": [
+          "apps.apple.com",
+          "en.m.wikipedia.org",
+          "siriai.help",
+          "support.apple.com",
+          "www.apple.com",
+          "www.computerhope.com",
+          "www.simplymac.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "SkyGO/SkyGO.yaml": {
+        "checked_at": "2026-10-30 05:55 UTC",
+        "name": "SkyGO",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.carhartt.com/c/men-coats-jackets",
+          "https://www.carhartt.com/c/outerwear/jackets",
+          "https://us.carhartt-wip.com/en-us/collections/men-jackets-and-coats",
+          "https://www.amazon.com/Mens-Outerwear-Jackets-Coats-Carhartt-Clothing/s?rh=n%3A1045830%2Cp_89%3ACarhartt",
+          "https://www.amazon.com/Carhartt-Jackets/s?k=Carhartt+Jackets",
+          "https://www.dickssportinggoods.com/f/carhartt-jackets-vests",
+          "https://us.carhartt-wip.com/en-us/collections/men-jackets-lightweight",
+          "https://www.tractorsupply.com/tsc/brand/carhartt/mens-coats-jackets",
+          "https://www.dickssportinggoods.com/f/mens-carhartt-jackets-outerwear-x-brand-202045",
+          "https://www.midwayusa.com/interest-hub/carhartt-jackets"
+        ],
+        "candidates": [
+          "amazon.com",
+          "carhartt.com",
+          "us.carhartt-wip.com",
+          "www.amazon.com",
+          "www.carhartt.com",
+          "www.dickssportinggoods.com",
+          "www.midwayusa.com",
+          "www.tractorsupply.com"
         ],
         "accepted": [],
         "ownership_evidence": []
