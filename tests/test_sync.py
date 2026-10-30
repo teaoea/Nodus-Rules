@@ -50,14 +50,15 @@ class SyncTests(unittest.TestCase):
 
     def test_every_source_has_independent_output(self):
         planned, report = self.run_prepare()
-        self.assertEqual(len(report), len(self.files))
-        self.assertEqual(len({x["output"] for x in report.values()}), len(self.files))
+        self.assertEqual(len(report), len(self.files) - 1)
+        self.assertEqual(len({x["output"] for x in report.values()}), len(self.files) - 1)
         folder = self.root / "rules/Group/Nested"
         self.assertIn(b"domain,all.example", planned[folder / "Example.list.yaml"])
         self.assertNotIn(b"domain,all.example", planned[folder / "Example.yaml"])
         self.assertIn(b"domain-suffix,example.com", planned[folder / "Example_Domain.yaml"])
         self.assertIn(b"ip-cidr,2001:db8::/32", planned[folder / "Example_IP.txt.yaml"])
-        self.assertEqual(report["rule/Clash/Group/Nested/Example_No_Resolve.yaml"]["no_resolve_removed"], 1)
+        self.assertNotIn("rule/Clash/Group/Nested/Example_No_Resolve.yaml", report)
+        self.assertNotIn(folder / "Example_No_Resolve.yaml", planned)
 
     def test_readme_changes_only_download_urls(self):
         planned, _ = self.run_prepare()
@@ -103,6 +104,26 @@ class SyncTests(unittest.TestCase):
         result = render_readme(readme, self.source / "rule/Clash", self.root, warnings)
         self.assertEqual(result, text.encode())
         self.assertEqual(len(warnings), 1)
+
+    def test_resolve_variants_are_excluded_from_rules_and_readme(self):
+        for name in ("Example_Resolve.yaml", "Example_Classical_No_Resolve.yaml", "Resolve.list"):
+            self.files[name] = "未知类型,不应读取\n"
+            (self.folder / name).write_text(self.files[name])
+        planned, report = self.run_prepare()
+        self.assertFalse(any("Resolve" in key for key in report))
+        self.assertFalse(any("Resolve" in path.name for path in planned))
+        from convert import format_readme
+        readme = ("# 示例\n\n## Clash\n\n#### 配置建议\n"
+                  "- Example.yaml 单独使用。\n- Example_Resolve.yaml、Example_Domain.yaml 共同使用。\n"
+                  "#### 规则链接\n"
+                  "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Example_Resolve.yaml\n"
+                  "https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Example_No_%52esolve.yaml\n"
+                  "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Example.yaml\n")
+        rendered = format_readme(readme, "Example")
+        self.assertNotIn("Resolve", rendered)
+        self.assertNotIn("%52esolve", rendered)
+        self.assertIn("Example.yaml 单独使用。", rendered)
+        self.assertIn("/Example.yaml```", rendered)
 
     def test_unknown_yaml_structure_fails_closed(self):
         path = self.folder / "Example.yaml"

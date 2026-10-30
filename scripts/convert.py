@@ -110,6 +110,11 @@ def write_changed(path, content):
     temporary.replace(path)
 
 
+def excluded_rule(file):
+    """按规则文件名排除 Resolve 变体，包含 No_Resolve。"""
+    return "Resolve" in Path(unquote(str(file))).name
+
+
 def output_path(file, upstream, root):
     # 保留源扩展名，避免 Foo.list、Foo.yaml 和 Foo.txt 共用同一输出。
     name = file.name if file.suffix == ".yaml" else file.name + ".yaml"
@@ -192,11 +197,17 @@ def format_readme(text, name):
     advice = re.search(r"^#{3,4} 配置建议[^\S\n]*\n(.*?)(?=^#{1,4} |\Z)",
                        clash, re.M | re.S)
     if advice:
-        parts += ["### 配置建议", tidy(advice[1])]
+        advice_lines = [line for line in advice[1].splitlines()
+                        if not any(excluded_rule(name) for name in
+                                   re.findall(r"[^\s、，,`]+\.(?:yaml|list|txt)", line))]
+        if any(line.strip() for line in advice_lines):
+            parts += ["### 配置建议", tidy("\n".join(advice_lines))]
     parts.append("### 规则链接")
     links = {"MASTER分支 (每日更新)": [], "MASTER分支 CDN (每日更新)": [],
              "MASTER分支 GHProxy (每日更新)": []}
     for url in re.findall(r"https?://[^\s`<>]+", clash):
+        if excluded_rule(url):
+            continue
         # 本仓库只发布 main；模板仅展示上游 MASTER 对应的三组链接。
         if "/master/rule/Clash/" not in url and "@master/rule/Clash/" not in url:
             continue
@@ -250,7 +261,8 @@ def render_readme(file, upstream, root, warnings=None):
 def prepare(source, root, date, additions=None):
     upstream = source / "rule/Clash"
     sources = sorted(file for file in upstream.rglob("*")
-                     if file.is_file() and file.suffix in {".list", ".yaml", ".txt"})
+                     if file.is_file() and file.suffix in {".list", ".yaml", ".txt"}
+                     and not excluded_rule(file))
     if not sources or not (source / "LICENSE").is_file():
         raise ValueError("上游规则或许可证缺失")
     planned, report, entries = {}, {}, []
