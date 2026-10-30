@@ -267,11 +267,11 @@ def render_readme(file, upstream, root, warnings=None, date=None):
     """按约定格式整理集合 README，下载 URL 对应本仓库实际输出。"""
     text = format_readme(file.read_bytes().decode("utf-8-sig"), file.parent.name)
     country = "中华人民共和国 People's Republic of China"
-    asset = posixpath.relpath("assets/china-label-compact.svg", (root / "rules" / file.parent.relative_to(upstream)).relative_to(root).as_posix())
+    asset = posixpath.relpath("assets/china-network-notice.svg", (root / "rules" / file.parent.relative_to(upstream)).relative_to(root).as_posix())
     marker = "**" + country + "**"
     def country_notice(match):
-        body = match[0].replace("【" + marker + "】", "").replace(marker, "")
-        return "> ![" + country + "](" + asset + ")\n>\n> " + body
+        body = match[0].replace("【" + marker + "】", country).replace(marker, country)
+        return "![" + body + "](" + asset + ")"
     text = re.sub(r"^[^\n]*" + re.escape(marker) + r"[^\n]*$", country_notice, text, flags=re.M)
     if date is not None:
         text = re.sub(r"^最后更新时间：[^\n]*", "最后更新时间：" + date, text, flags=re.M)
