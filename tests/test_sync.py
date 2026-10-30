@@ -194,6 +194,13 @@ class SyncTests(unittest.TestCase):
         self.assertNotIn("ip-cidr6", rendered)
         self.assertIn("| ip-cidr | 21 |", rendered)
 
+    def test_country_name_is_bold_without_custom_color_styles(self):
+        from convert import format_readme
+        text = ("## 前言\n\n请通过【中华人民共和国 People's Republic of China】合法的互联网出入口信道访问规则中的地址。\n\n## Clash\n")
+        rendered = format_readme(text, "Example")
+        self.assertIn("【**中华人民共和国 People's Republic of China**】", rendered)
+        self.assertNotIn("style=", rendered)
+
     def test_unknown_yaml_structure_fails_closed(self):
         path = self.folder / "Example.yaml"
         path.write_text("payload: [invalid]\n")

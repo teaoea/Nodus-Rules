@@ -200,6 +200,9 @@ def format_readme(text, name):
 
     introduction = [paragraph.strip() for paragraph in re.split(r"\n\s*\n", section("前言"))
                     if paragraph.strip().startswith(("分流规则是", "请通过"))]
+    country = "中华人民共和国 People's Republic of China"
+    introduction = [paragraph.replace(country, "**" + country + "**")
+                    for paragraph in introduction]
     parts = ["# " + name]
     if introduction:
         parts += ["## 前言", "\n\n".join(introduction)]
