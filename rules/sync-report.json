@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-10-31 03:52 UTC",
+  "date": "2026-10-31 16:45 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-10-31 03:52 UTC",
-    "next_index": 600,
+    "checked_at": "2026-10-31 16:45 UTC",
+    "next_index": 624,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -165530,6 +165530,622 @@
           "usa.visa.com",
           "www.visa.com",
           "www.visaonline.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "VK/VK.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "VK",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://vk.ru/",
+          "https://vk.ru/?lang=eng",
+          "https://vkvideo.ru/",
+          "https://vk.com/login?act=vkcomredirect",
+          "https://vk.company/en/",
+          "https://m.vk.ru/pwa",
+          "https://en.wikipedia.org/wiki/VK_(service)",
+          "https://vk.company/en/search/",
+          "https://vkvideo.ru/@vkvideo",
+          "https://en.wikipedia.org/wiki/VK_(company)"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "m.vk.ru",
+          "mail.ru",
+          "trk.mail.ru",
+          "vk.com",
+          "vk.company",
+          "vk.ru",
+          "vkvideo.ru"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "VOA/VOA.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "VOA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.voanews.com/",
+          "https://www.voanews.com/z/6716",
+          "https://learningenglish.voanews.com/",
+          "https://www.voachinese.com/",
+          "https://www.youtube.com/@VOANews",
+          "https://en.wikipedia.org/wiki/Voice_of_America",
+          "https://editorials.voa.gov/",
+          "https://www.voa.org/",
+          "https://learningenglish.voanews.com/p/5610.html",
+          "https://www.insidevoa.com/"
+        ],
+        "candidates": [
+          "editorials.voa.gov",
+          "en.wikipedia.org",
+          "learningenglish.voanews.com",
+          "www.insidevoa.com",
+          "www.voa.org",
+          "www.voachinese.com",
+          "www.voanews.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Vancl/Vancl.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "Vancl",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.patheos.com/blogs/loveamongtheruins/2015/06/what-wallace-fought-for-thoughts-on-braveheart-for-fathers-day/",
+          "https://www.patheos.com/blogs/hindu2/2014/09/swami-vivekananda-quotes-thoughts/",
+          "https://www.patheos.com/blogs/hindu2/2015/01/chanakya-quotes-management/",
+          "https://www.patheos.com/blogs/hearthwitchdownunder/2016/08/30-days-of-hekate-27-hymns-to-hekate.html",
+          "https://www.patheos.com/blogs/religionprof/2011/10/quote-of-the-day-tony-campolo.html",
+          "https://www.patheos.com/blogs/christiancrier/2016/02/24/top-7-bible-verses-about-saying-goodbye-or-farewell/",
+          "https://www.patheos.com/blogs/anxiousbench/2018/10/why-christians-are-afraid-of-halloween/",
+          "https://www.patheos.com/blogs/deaconsbench/2013/07/did-the-pope-really-say-that/",
+          "https://www.patheos.com/blogs/voxnova/2009/10/18/quote-of-the-day-fr-ghislain-lafont-on-the-pathology-of-the-truth/",
+          "https://www.patheos.com/blogs/religionprof/2012/10/quote-of-the-day-robert-t-weston.html"
+        ],
+        "candidates": [
+          "www.patheos.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Vercel/Vercel.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "Vercel",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://vercel.com/",
+          "https://vercel.com/login",
+          "https://en.wikipedia.org/wiki/Vercel",
+          "https://github.com/vercel",
+          "https://vercel-landing-page.vercel.app/",
+          "https://vercel.com/signup",
+          "https://vercel.com/new",
+          "https://vercel.com/pricing",
+          "https://vercel.com/docs",
+          "https://vercel.com/about"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "github.com",
+          "vercel-landing-page.vercel.app",
+          "vercel.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Verisign/Verisign.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "Verisign",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.verisign.com/",
+          "https://en.wikipedia.org/wiki/VeriSign",
+          "https://www.verisign.com/about-us/",
+          "https://accounts-otp.verisign.com/",
+          "https://webwhois.verisign.com/webwhois-ui/index.jsp?language=en_US",
+          "https://investor.verisign.com/investor-relations/",
+          "https://www.linkedin.com/company/verisign",
+          "https://blog.verisign.com/",
+          "https://investor.verisign.com/sec-filings",
+          "https://www.verisign.com/domain-names/"
+        ],
+        "candidates": [
+          "accounts-otp.verisign.com",
+          "blog.verisign.com",
+          "en.wikipedia.org",
+          "investor.verisign.com",
+          "webwhois.verisign.com",
+          "www.linkedin.com",
+          "www.verisign.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Verizon/Verizon.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "Verizon",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.verizon.com/",
+          "https://www.verizon.com/support/my-verizon/",
+          "https://opsportal.verizonwireless.com/sso?SMSESSION=NO",
+          "https://tv.verizon.com/watch/",
+          "https://cloud.verizon.com/vzCloud/home/cloudOverview.action",
+          "https://en.wikipedia.org/wiki/Verizon",
+          "https://www.verizon.com/support/knowledge-base-41025/",
+          "https://www.verizon.com/home/internet/",
+          "https://www.verizon.com/support/billing-and-payments/"
+        ],
+        "candidates": [
+          "cloud.verizon.com",
+          "en.wikipedia.org",
+          "opsportal.verizonwireless.com",
+          "tv.verizon.com",
+          "verizon.com",
+          "www.verizon.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "VidolTV/VidolTV.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "VidolTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.jw.org/en/library/music-songs/sing-out-joyfully/81-life-of-a-pioneer/",
+          "https://www.jw.org/en/bible-teachings/questions/halloween-origin/",
+          "https://www.jw.org/en/library/music-songs/sing-out-joyfully/30-my-father-god-and-friend/",
+          "https://www.jw.org/en/jehovahs-witnesses/faq/jw-celebrate-holidays/",
+          "https://www.jw.org/en/bible-teachings/questions/great-flood-noahs-ark-story/",
+          "https://www.jw.org/en/bible-teachings/teenagers/whiteboard-animations/",
+          "https://www.jw.org/en/library/videos/walk-by-faith-not-by-sight/",
+          "https://www.jw.org/en/library/books/scriptures-for-christian-living/",
+          "https://www.jw.org/sw/ni-nini-kipya/",
+          "https://www.jw.org/en/library/books/gods-love/celebrations-holidays-that-displease-god/"
+        ],
+        "candidates": [
+          "jw.org",
+          "www.jw.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "VikACG/VikACG.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "VikACG",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.vikacg.com/about",
+          "https://www.vikacg.com/app",
+          "https://github.com/Sailoud/VikACG_Rescue",
+          "https://list.tg/zh/channel/vikacg",
+          "https://x.com/VikACG_ZH",
+          "https://online.yandex.com/search?text=%E7%BB%B4%E5%92%94VikACG+%E7%A4%BE%E5%8C%BA&lr=21206",
+          "https://t.me/s/vikacg?before=4870",
+          "https://tv.yandex.com/search?text=%E7%BB%B4%E5%92%94VikACG&lr=21206",
+          "https://github.com/Sailoud/VikACG_Rescue/blob/main/docs/zh-SG/HOW_TO_LINK.md",
+          "https://www.vikacg.com/wallet/mission"
+        ],
+        "candidates": [
+          "github.com",
+          "list.tg",
+          "online.yandex.com",
+          "t.co",
+          "t.me",
+          "tv.yandex.com",
+          "www.vikacg.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Viki/Viki.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "Viki",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.viki.com/",
+          "https://www.viki.com/sign-in",
+          "https://play.google.com/store/apps/details?id=com.viki.android&hl=en-US",
+          "https://support.viki.com/hc/en-us/categories/4414313970067-Manage-My-Account",
+          "https://support.viki.com/hc/en-us/articles/200138964-What-is-Viki",
+          "https://www.rakuten.tv/ie/lists/free-rakuten-viki",
+          "https://en.wikipedia.org/wiki/Rakuten_Viki",
+          "https://www.justwatch.com/us/provider/rakuten-viki",
+          "https://www.viki.com/apps",
+          "https://www.viki.com/-/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "play.google.com",
+          "support.viki.com",
+          "www.justwatch.com",
+          "www.rakuten.tv",
+          "www.viki.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Vimeo/Vimeo.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "Vimeo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://vimeo.com/",
+          "https://vimeo.com/watch",
+          "https://en.wikipedia.org/wiki/Vimeo",
+          "https://vimeo.com/log_in",
+          "https://vimeo.com/search",
+          "https://vimeo.com/join",
+          "https://vimeo.com/about",
+          "https://vimeo.com/categories",
+          "https://help.vimeo.com/hc/en-us",
+          "https://www.youtube.com/c/@vimeo"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "help.vimeo.com",
+          "today.we",
+          "vimeo.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "VipShop/VipShop.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "VipShop",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.musehub.com/",
+          "https://www.musehub.com/learn/best-free-vst-plugins",
+          "https://support.musehub.com/en/articles/15070600-where-does-musehub-install-things",
+          "https://support.musehub.com/en/",
+          "https://developer.musehub.com/muse-partners-help/resources/muse-sdk",
+          "https://developer.musehub.com/muse-partners-help/getting-started/generate-api-keys",
+          "https://partner.musehub.com/dashboard/user-settings",
+          "https://join.musehub.com/",
+          "https://cosmos.musehub.com/",
+          "https://www.musehub.com/learn/free-musesounds-complete-guide"
+        ],
+        "candidates": [
+          "cosmos.musehub.com",
+          "developer.musehub.com",
+          "join.musehub.com",
+          "partner.musehub.com",
+          "support.musehub.com",
+          "www.musehub.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ViuTV/ViuTV.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "ViuTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.idahopress.com/elections/idaho-gov-brad-little-announces-reelection-campaign/article_32c6f992-abd0-4709-b96d-699ab778bebe.html"
+        ],
+        "candidates": [
+          "www.idahopress.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Vivo/Vivo.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "Vivo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.vivo.com/en/",
+          "https://vivo-us.com/",
+          "https://www.vivo.com/en/products",
+          "https://vivo.com.br/para-voce",
+          "https://en.wikipedia.org/wiki/Vivo_(technology_company)",
+          "https://vivo-official.com/",
+          "https://vivo-us.com/collections/standing-desks",
+          "https://www.gsmarena.com/vivo-phones-98.php",
+          "https://www.vivobarefoot.com/us/",
+          "https://vivo-official.com/collections/all"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "gsmarena.com",
+          "vivo-official.com",
+          "vivo-us.com",
+          "vivo.com.br",
+          "www.gsmarena.com",
+          "www.vivo.com",
+          "www.vivobarefoot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Voxmedia/Voxmedia.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "Voxmedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cityofsignalhill.org/",
+          "https://www.cityofsignalhill.org/493/Utilities",
+          "https://www.cityofsignalhill.org/253/Economic-Development",
+          "https://www.cityofsignalhill.org/95/Fair-Affordable-Housing",
+          "https://www.cityofsignalhill.org/612/Current-Projects",
+          "https://www.cityofsignalhill.org/218/History-of-Signal-Hill",
+          "https://www.cityofsignalhill.org/588/Walkways-and-Trails",
+          "https://www.cityofsignalhill.org/699/GIS",
+          "https://www.cityofsignalhill.org/120/Parks-Facilities",
+          "https://www.cityofsignalhill.org/22/Water"
+        ],
+        "candidates": [
+          "www.cityofsignalhill.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "W3schools/W3schools.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "W3schools",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.w3schools.com/",
+          "https://www.w3schools.com/html/",
+          "https://w3schools.dev/",
+          "https://w3schools.dev/html/default.asp",
+          "https://nav.w3schools.com/",
+          "https://en.wikipedia.org/wiki/W3Schools",
+          "https://www.w3schools.com/js/",
+          "https://campus.w3schools.com/",
+          "https://www.w3schools.in/",
+          "https://app.w3schools.com/"
+        ],
+        "candidates": [
+          "app.w3schools.com",
+          "campus.w3schools.com",
+          "en.wikipedia.org",
+          "nav.w3schools.com",
+          "w3schools.dev",
+          "www.w3schools.com",
+          "www.w3schools.in"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "WIX/WIX.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "WIX",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.wix.com/",
+          "https://users.wix.com/signin",
+          "https://www.wix.com/%22",
+          "https://support.wix.com/en/article/logging-in-to-your-wix-account",
+          "https://es.wix.com/",
+          "https://users.wix.com/signin?overrideLocale=pt",
+          "https://www.wix.com/website/design",
+          "https://www.wix.com/plans",
+          "https://www.wix.com/website/templates",
+          "https://fr.wix.com/"
+        ],
+        "candidates": [
+          "es.wix.com",
+          "fr.wix.com",
+          "support.wix.com",
+          "users.wix.com",
+          "wix.com",
+          "www.wix.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "WanKaHuanJu/WanKaHuanJu.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "WanKaHuanJu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.merriam-webster.com/thesaurus/hate!",
+          "https://www.englishgrammar.org/best-synonyms-hate/",
+          "https://www.merriam-webster.com/thesaurus/hates",
+          "https://www.thesaurus.com/browse/%20hate",
+          "https://synonymspot.com/synonyms-of-hate/",
+          "https://synonymplanet.com/synonyms-of-hate/",
+          "https://www.collinsdictionary.com/us/dictionary/english-thesaurus/hate",
+          "https://responseasy.com/synonyms-for-hate/",
+          "https://synonymsgalaxy.com/hate-synonyms/",
+          "https://www.synonyms.com/synonym/hate%20"
+        ],
+        "candidates": [
+          "responseasy.com",
+          "synonymplanet.com",
+          "synonyms.com",
+          "synonymsgalaxy.com",
+          "synonymspot.com",
+          "thesaurus.com",
+          "www.collinsdictionary.com",
+          "www.englishgrammar.org",
+          "www.merriam-webster.com",
+          "www.synonyms.com",
+          "www.thesaurus.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "WanMeiShiJie/WanMeiShiJie.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "WanMeiShiJie",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.wikipedia.org/",
+          "https://en.wikipedia.org/wiki/Wikipedia",
+          "https://en.wikipedia.org/wiki/Main_Page",
+          "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal",
+          "https://es.wikipedia.org/wiki/Wikipedia:Portada",
+          "https://it.wikipedia.org/wiki/Pagina_principale",
+          "https://de.wikipedia.org/wiki/Wikipedia:Hauptseite",
+          "https://es.wikipedia.org/wiki/Wikipedia_en_Espa%C3%B1ol",
+          "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal",
+          "https://simple.wikipedia.org/wiki/Main_Page"
+        ],
+        "candidates": [
+          "de.wikipedia.org",
+          "en.wikipedia.org",
+          "es.wikipedia.org",
+          "fr.wikipedia.org",
+          "it.wikipedia.org",
+          "pt.wikipedia.org",
+          "simple.wikipedia.org",
+          "www.wikipedia.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Wanfang/Wanfang.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "Wanfang",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.msn.com/en-us/news/other/alabama-democrats-say-this-election-is-their-best-chance-in-25-years-can-they-win/ar-AA2gp8y7"
+        ],
+        "candidates": [
+          "www.msn.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "WangSuKeJi/WangSuKeJi.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "WangSuKeJi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.zhihu.com/question/280889172",
+          "https://www.zhihu.com/topic/19618133/hot",
+          "https://www.zhihu.com/question/277724609/answers/updated",
+          "https://www.zhihu.com/question/2052643077081321839",
+          "https://www.zhihu.com/question/37459696",
+          "https://www.zhihu.com/question/278326367",
+          "https://www.zhihu.com/question/2060793804202971292",
+          "https://www.zhihu.com/question/347259620",
+          "https://www.zhihu.com/question/35296900",
+          "https://www.zhihu.com/question/264507012/answers/updated"
+        ],
+        "candidates": [
+          "www.zhihu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "WangXinKeJi/WangXinKeJi.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "WangXinKeJi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.aarp.org/states/virginia/",
+          "https://www.aarp.org/social-security/faq/what-is-my-social-security/",
+          "https://www.aarp.org/social-security/open-your-online-account/",
+          "https://www.aarp.org/social-security/faq/getting-copy-ssa-1099-tax-form/",
+          "https://www.aarp.org/social-security/ssa-sign-in-change-2024/",
+          "https://www.aarp.org/videos/social-security/6174064438001/",
+          "https://www.aarp.org/social-security/representative-payee/",
+          "https://www.aarp.org/social-security/faq/replacement-card/",
+          "https://www.aarp.org/money/retirement/financial-planning-in-your-50s/",
+          "https://www.aarp.org/espanol/jubilacion/seguro-social/preguntas-respuestas/obtener-formulario-de-impuestos-ssa-1099.html"
+        ],
+        "candidates": [
+          "id.me",
+          "login.gov",
+          "ssa.gov",
+          "www.aarp.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "WeChat/WeChat.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "WeChat",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.wechat.com/en/",
+          "https://weixin.qq.com/",
+          "https://web.wechat.com/",
+          "https://www.wechat.com/en/index.html",
+          "https://en.wikipedia.org/wiki/WeChat",
+          "https://pc.weixin.qq.com/?lang=en_US",
+          "https://wx.qq.com/",
+          "https://web.wechat.com/?lang=zh_TW",
+          "https://play.google.com/store/apps/details?id=com.tencent.mm&hl=en-US"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "pc.weixin.qq.com",
+          "play.google.com",
+          "web.wechat.com",
+          "web1.wechat.com",
+          "weixin.qq.com",
+          "www.wechat.com",
+          "wx.qq.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "WeTV/WeTV.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "WeTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://wetv.vip/en/profile",
+          "https://tv.wetv.vip/",
+          "https://www.wetv.com/",
+          "https://wetv.vip/",
+          "https://www.wetv.com/shows",
+          "https://static.wetv.vip/tv/index.html",
+          "https://play.google.com/store/apps/details?id=com.tencent.qqlivei18n&hl=en-US",
+          "https://front.wetv.vip/static/download/index.html",
+          "https://en.wikipedia.org/wiki/We_TV"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "explore.wetv.com",
+          "front.wetv.vip",
+          "play.google.com",
+          "static.wetv.vip",
+          "tv.wetv.vip",
+          "wetv.vip",
+          "www.wetv.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "WeType/WeType.yaml": {
+        "checked_at": "2026-10-31 16:45 UTC",
+        "name": "WeType",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.elpasotimes.com/",
+          "https://enewspaper.elpasotimes.com/",
+          "https://enewspaper.elpasotimes.com/?cnum=77097510-b678-e911-ac30-90b11c343abd&fod=1111111STD-0&selDate=20220216&licenseType=enterprise_subscriber",
+          "https://www.elpasotimes.com/news/",
+          "https://www.facebook.com/eptimes/",
+          "https://www.legacy.com/us/obituaries/local/texas/el-paso-area",
+          "https://www.elpasotimes.com/obituaries",
+          "https://www.dignitymemorial.com/obituaries/el-paso-tx",
+          "https://www.ktsm.com/",
+          "https://elpasomatters.org/latest-el-paso-news/"
+        ],
+        "candidates": [
+          "elpasomatters.org",
+          "enewspaper.elpasotimes.com",
+          "legacy.com",
+          "www.dignitymemorial.com",
+          "www.elpasotimes.com",
+          "www.facebook.com",
+          "www.ktsm.com",
+          "www.legacy.com"
         ],
         "accepted": [],
         "ownership_evidence": []
