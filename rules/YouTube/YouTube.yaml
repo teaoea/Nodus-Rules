@@ -1,7 +1,7 @@
 # 名称：YouTube
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：183
-# domain: 0
+# 来源核对日期：2026-11-01 17:34 UTC
+# 规则总数：185
+# domain: 2
 # domain-suffix: 179
 # domain-keyword: 1
 # ip-cidr: 3
@@ -9,6 +9,8 @@
 # protocol: 0
 # port: 0
 rules:
+  - domain,music.youtube.com
+  - domain,www.youtube.com
   - domain-suffix,ggpht.cn
   - domain-suffix,ggpht.com
   - domain-suffix,googlevideo.com

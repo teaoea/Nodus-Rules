@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-01 04:03 UTC",
+  "date": "2026-11-01 17:34 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -148358,14 +148358,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 183,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/YouTube/YouTube.yaml",
-      "rules": 183,
-      "bytes": 5910,
+      "rules": 185,
+      "bytes": 5966,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-01 04:03 UTC",
-    "next_index": 648,
+    "checked_at": "2026-11-01 17:34 UTC",
+    "next_index": 672,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -166784,6 +166784,639 @@
           "mp.xueqiu.com",
           "top-index-xueqiu.com.cn",
           "xueqiu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Xunlei/Xunlei.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "Xunlei",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://forums.tomsguide.com/threads/how-to-transfer-pics-from-de-activated-cell-phone.289900/",
+          "https://forums.tomsguide.com/threads/hyperx-cloud-ii-mic-volume-cant-be-adjusted-stuck-at-0db.445476/",
+          "https://forums.tomsguide.com/threads/same-thing-as-above-i-tried-calling-a-number-and-got-that-%E2%80%9Cwelcome-to-verizon-wireless-the-number-has-calling-that-prevent.195349/",
+          "https://forums.tomsguide.com/threads/why-no-names-on-verizon-caller-id.304145/",
+          "https://forums.tomsguide.com/threads/what-does-calling-restriction-mean-on-verizon.288702/",
+          "https://forums.tomsguide.com/threads/cellco-partnership-dba-verizon-wireless-is-texting-me-saying-there-the-fbi-is-this-a-scam.169023/",
+          "https://forums.tomsguide.com/threads/wwan-wpan-fcm-what-are-they-and-can-i-put-a-wlan-card-in-any-of-them.390674/",
+          "https://forums.tomsguide.com/threads/choosing-tracfone-sim-kit.479253/",
+          "https://forums.tomsguide.com/threads/cant-get-sound-on-my-tv-when-connected-to-my-laptop-with-hdmi-cable.338568/",
+          "https://forums.tomsguide.com/threads/rant-verizon-wireless-customer-service-and-web-site.289467/"
+        ],
+        "candidates": [
+          "alt.cellular.verizon",
+          "forums.tomsguide.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "YYeTs/YYeTs.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YYeTs",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.irs.gov/",
+          "https://apps.irs.gov/app/understandingTaxes/index.jsp",
+          "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit/school-template",
+          "https://apps.irs.gov/training/",
+          "https://sa.www4.irs.gov/ola/tax_records/transcripts",
+          "https://sa.www4.irs.gov/wmr/es/?os=fno_journeystrue&ref=app",
+          "https://foiapublicaccessportal.for.irs.gov/app/Home.aspx",
+          "https://fire.test.irs.gov/"
+        ],
+        "candidates": [
+          "apps.irs.gov",
+          "fire.test.irs.gov",
+          "foiapublicaccessportal.for.irs.gov",
+          "id.me",
+          "login.gov",
+          "sa.www4.irs.gov",
+          "www.irs.gov",
+          "www.jobs.irs.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Yandex/Yandex.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "Yandex",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://yandex.com/",
+          "https://online.yandex.com/search?text=yandex.com.&lr=21206&msp=1",
+          "https://yandex.ru/",
+          "https://yandex.ru/chrome/newtab",
+          "https://yandex.uz/",
+          "https://ya.ru/",
+          "https://en.m.wikipedia.org/wiki/Yandex",
+          "https://yandex.tm/",
+          "https://game.yandex.com/"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "game.yandex.com",
+          "online.yandex.com",
+          "server.yandex.com",
+          "ya.ru",
+          "yandex.com",
+          "yandex.ru",
+          "yandex.tm",
+          "yandex.uz"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "YiChe/YiChe.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YiChe",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.eporner.com/best-videos/",
+          "https://jp.eporner.com/",
+          "https://www.eporner.com/video-8h1d47kctIZ/tokyo-hot-n0996-haruka-inoue/",
+          "https://pt.eporner.com/",
+          "https://pl.eporner.com/",
+          "https://jp.eporner.com/cat/japanese/",
+          "https://de.eporner.com/",
+          "https://es.eporner.com/",
+          "https://es.eporner.com/categorias/",
+          "https://cams.eporner.com/"
+        ],
+        "candidates": [
+          "cams.eporner.com",
+          "de.eporner.com",
+          "eporner.com",
+          "es.eporner.com",
+          "jp.eporner.com",
+          "pl.eporner.com",
+          "pt.eporner.com",
+          "www.eporner.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "YiXiaKeJi/YiXiaKeJi.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YiXiaKeJi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://taongafarm.com/es/play/",
+          "https://support.taongafarm.com/hc/en-us/articles/4416455869458-Yacht-Orders",
+          "https://taongafarm.com/en/",
+          "https://support.taongafarm.com/hc/en-us/articles/360017446639-The-game-is-freezing-and-or-running-slow-browsers-Chrome-Microsoft-Edge-Opera",
+          "https://us2.taongafarm.com/ko/play/",
+          "https://us2.taongafarm.com/news/update/festival-has-arrived-sm84",
+          "https://support.taongafarm.com/hc/en-us/articles/14982475522450-Island-of-Blazing-Rivers",
+          "https://taongafarm.com/pt/play/",
+          "https://support.taongafarm.com/hc/en-us/articles/360014621079-Island-of-the-Turtles",
+          "https://support.taongafarm.com/hc/en-us/articles/360008241713-Island-of-the-Flower-Nectar"
+        ],
+        "candidates": [
+          "reward.first",
+          "support.taongafarm.com",
+          "taongafarm.com",
+          "us2.taongafarm.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "YiZhiBo/YiZhiBo.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YiZhiBo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.apple.com/ae/store",
+          "https://www.apple.com/ph/store",
+          "https://apps.apple.com/us/app/apple-store/id375380948",
+          "https://developer.apple.com/app-store/small-business-program/",
+          "https://developer.apple.com/app-store/asset-best-practices/",
+          "https://ecommerce.apple.com/",
+          "https://support.apple.com/en-gb/contact",
+          "https://locate.apple.com/au/en/",
+          "https://support.apple.com/en-gb/repair",
+          "https://www.apple.com/au/store"
+        ],
+        "candidates": [
+          "apps.apple.com",
+          "developer.apple.com",
+          "ecommerce.apple.com",
+          "locate.apple.com",
+          "support.apple.com",
+          "www.apple.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "YouMengChuangXiang/YouMengChuangXiang.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YouMengChuangXiang",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.spectrum.com/",
+          "https://www.spectrum.com/locations/store/4419-dixie-hwy-louisville-ky-6523",
+          "https://jobs.spectrum.com/location/charlotte-jobs/4673-14710/6252001-4482348-4478884-4460243/4",
+          "https://jobs.spectrum.com/recruiting-events",
+          "https://official.spectrum.com/address/localization",
+          "https://customers.spectrum.com/customer-portal",
+          "https://partners.spectrum.com/",
+          "https://customers.spectrum.com/customer-portal/login",
+          "https://reportspam.spectrum.com/",
+          "https://official.spectrum.com/cable-tv/plans/select"
+        ],
+        "candidates": [
+          "customers.spectrum.com",
+          "jobs.spectrum.com",
+          "official.spectrum.com",
+          "partners.spectrum.com",
+          "reportspam.spectrum.com",
+          "www.spectrum.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "YouTube/YouTube.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YouTube",
+        "status": "checked",
+        "sources": [
+          "https://www.youtube.com/",
+          "https://www.youtube.com/youtube",
+          "https://www.youtube.com/%23/",
+          "https://www.youtube.com/feed",
+          "https://www.youtube.com/@en.---",
+          "https://www.youtube.com/@---_-_",
+          "https://music.youtube.com/%EF%BB%BF",
+          "https://accounts.google.com/InteractiveLogin?service=youtube",
+          "https://music.youtube.com/explore",
+          "https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US"
+        ],
+        "candidates": [
+          "accounts.google.com",
+          "music.youtube.com",
+          "play.google.com",
+          "www.youtube.com"
+        ],
+        "accepted": [
+          "music.youtube.com",
+          "www.youtube.com"
+        ],
+        "ownership_evidence": [
+          "https://www.youtube.com/"
+        ]
+      },
+      "YouTubeMusic/YouTubeMusic.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YouTubeMusic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://music.youtube.com/",
+          "https://music.youtube.com/explore",
+          "https://www.youtube.com/youtube%20-MUSIC",
+          "https://www.youtube.com/feed/youtubemusic",
+          "https://www.youtube.com/channel/UCB1lnXfEjwtfLYwZSadksrA",
+          "https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+          "https://music.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+          "https://music.youtube.com/channel/UCStaiwu-FAgp_RC_tBiLh9A",
+          "https://music.youtube.com/new_releases/videos",
+          "https://music.youtube.com/library"
+        ],
+        "candidates": [
+          "music.youtube.com",
+          "world.this",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "YouZan/YouZan.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YouZan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://studentaid.gov/h/apply-for-aid/fafsa",
+          "https://studentaid.gov/fsa-id/sign-in",
+          "https://login.studentaid.gov/",
+          "https://cri.studentaid.gov/welcome",
+          "https://aidvantage.studentaid.gov/contact-us",
+          "https://aidvantage.studentaid.gov/",
+          "https://mohela.studentaid.gov/DL/FAQs/DLNewUser.aspx",
+          "https://cri.studentaid.gov/account/login",
+          "https://studentaid.gov/es/help/fafsa",
+          "https://studentaid.gov/help-center/contact"
+        ],
+        "candidates": [
+          "aidvantage.studentaid.gov",
+          "cri.studentaid.gov",
+          "login.studentaid.gov",
+          "mohela.studentaid.gov",
+          "studentaid.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Youku/Youku.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "Youku",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.youku.com/",
+          "https://youku.com/product/index",
+          "https://tv.youku.com/",
+          "https://www.youtube.com/@youkuenglish",
+          "https://so.youku.com/search/q_%E4%BC%98%E9%85%B7%E5%AE%98%E7%BD%91",
+          "https://en.m.wikipedia.org/wiki/Youku",
+          "https://play.google.com/store/apps/details?id=com.youku.international.phone&hl=en-US",
+          "https://v.youku.com/",
+          "https://www.youtube.com/@youku-official"
+        ],
+        "candidates": [
+          "56.com",
+          "app.thank",
+          "en.m.wikipedia.org",
+          "h5.m.youku.com",
+          "play.google.com",
+          "so.youku.com",
+          "tv.youku.com",
+          "v.youku.com",
+          "www.youku.com",
+          "www.youtube.com",
+          "youku.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "YuanFuDao/YuanFuDao.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YuanFuDao",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://localknowledge.tv/",
+          "https://localknowledge.tv/capt-ali-hussainy/",
+          "https://localknowledge.tv/capt-rush-maltz/",
+          "https://localknowledge.tv/episodes/",
+          "https://localknowledge.tv/category/news/",
+          "https://localknowledge.tv/author/scottgoodwin/",
+          "https://localknowledge.tv/2017/02/about-the-show/",
+          "https://localknowledge.tv/episode/s3e12-its-been-real/",
+          "https://localknowledge.tv/portfolio-item/season-7-9/",
+          "https://localknowledge.tv/2017/05/local-knowledge-grab-bag-preview/"
+        ],
+        "candidates": [
+          "localknowledge.tv"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "YunFanJiaSu/YunFanJiaSu.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "YunFanJiaSu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/",
+          "https://account.microsoft.com/account",
+          "https://www.microsoft.com/",
+          "https://myaccount.microsoft.com/",
+          "https://myaccount.microsoft.com/login",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://account.microsoft.com/account-checkup",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://support.microsoft.com/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365",
+          "https://outlook.office.com/mail/inbox"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "outlook.office.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZDNS/ZDNS.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "ZDNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://ignitra.colibrim.net/",
+          "https://ignitra.mediprimes.com/",
+          "https://ignitra.businesscoachingforyou.com/",
+          "https://medidime.com/wellness-goals/weight-loss-guides/low-calorie-meal-planning-tips/how-to-compare-supplements-for-low-calorie-meal-planning-tips-buy-295",
+          "https://buynusa.com/",
+          "https://medidime.com/weight-loss/ignitra-boost-your-metabolism-for-faster-fat-burning-buy-98",
+          "https://www.consumerhealthdigest.com/weight-loss-reviews/ignitra.html",
+          "https://www.amazon.com/ignitra/s?k=ignitra",
+          "https://www.supplementmag.com/ignitra-review/",
+          "https://www.newswire.com/view/content/ignitra-metabolic-support-supplement-explained-science-backed-pathways-22598573"
+        ],
+        "candidates": [
+          "amazon.com",
+          "buynusa.com",
+          "ignitra.businesscoachingforyou.com",
+          "ignitra.colibrim.net",
+          "ignitra.mediprimes.com",
+          "medidime.com",
+          "www.amazon.com",
+          "www.consumerhealthdigest.com",
+          "www.newswire.com",
+          "www.supplementmag.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Zalo/Zalo.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "Zalo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://chat.zalo.me/",
+          "https://zalo.me/pc",
+          "https://play.google.com/store/apps/details?id=com.zing.zalo&hl=en-US",
+          "https://en.wikipedia.org/wiki/Zalo",
+          "https://help.zalo.me/huong-dan/chuyen-muc/moi-bat-dau/tai-zalo-mien-phi/",
+          "https://apps.apple.com/vn/app/zalo/id579523206",
+          "https://zalo.me/ott/",
+          "https://play.google.com/store/apps/details?id=com.zing.zalo&hl=vi",
+          "https://apkpure.com/zalo/com.zing.zalo",
+          "https://zalo.en.softonic.com/"
+        ],
+        "candidates": [
+          "apkpure.com",
+          "apps.apple.com",
+          "chat.zalo.me",
+          "en.wikipedia.org",
+          "help.zalo.me",
+          "play.google.com",
+          "zalo.en.softonic.com",
+          "zalo.me"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Zee/Zee.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "Zee",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.zee5.com/",
+          "https://www.zee5.com/tv-shows",
+          "https://www.youtube.com/zeetv/featured",
+          "https://www.youtube.com/@ZEE5",
+          "https://play.google.com/store/apps/details?id=com.graymatrix.did&hl=en-US",
+          "https://en.wikipedia.org/wiki/Zee_Entertainment_Enterprises",
+          "https://en.wikipedia.org/wiki/Zee_TV",
+          "https://www.zee.com/",
+          "https://lg.zee5.com/",
+          "https://www.zeetvusa.com/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "here.great",
+          "lg.zee5.com",
+          "play.google.com",
+          "roll.from",
+          "www.youtube.com",
+          "www.zee.com",
+          "www.zee5.com",
+          "www.zeetvusa.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZeeTV/ZeeTV.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "ZeeTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.zee5.com/",
+          "https://www.zee5.com/live-tv/zee-tv/0-9-zeetv",
+          "https://www.zeetvusa.com/",
+          "https://www.youtube.com/@zeetv",
+          "https://en.wikipedia.org/wiki/Zee_TV",
+          "https://www.yupptv.com/channels/zee-tv/live",
+          "https://www.youtube.com/channel/UCqSlPR1Da1S8_hhMcQnRSuw",
+          "https://play.google.com/store/apps/details?id=com.graymatrix.did&hl=en-US",
+          "https://www.zeetvusa.com/all-channels/",
+          "https://www.yupptv.com/channels/zee-tv"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "play.google.com",
+          "www.youtube.com",
+          "www.yupptv.com",
+          "www.zee5.com",
+          "www.zeetelevision.com",
+          "www.zeetvusa.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Zendesk/Zendesk.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "Zendesk",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/",
+          "https://account.microsoft.com/account",
+          "https://www.microsoft.com/",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://myaccount.microsoft.com/",
+          "https://myaccount.microsoft.com/login",
+          "https://account.microsoft.com/account-checkup",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://support.microsoft.com/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365",
+          "https://apps.microsoft.com/"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZhangYue/ZhangYue.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "ZhangYue",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.wordplays.com/crossword-solver/festival-following-ramadan",
+          "https://www.wordhint.net/crossword-clue/nyt-midi/post-ramadan-festival-that-translates-to-festival/",
+          "https://www.wordplays.com/crossword-solver/Festival-following-Ramadan,-informally",
+          "https://nytcrosswordanswers.org/festival-following-ramadan-informally-crossword-clue/",
+          "https://nytcrossword.org/nyt-clues/festival-at-the-end-of-ramadan-informally-nyt-crossword/",
+          "https://nytcrosswordanswers.com/festival-following-ramadan-informally-crossword-clue",
+          "https://nytcrossword.org/midi-clue/post-ramadan-festival-that-translates-to-festival-nyt-crossword/",
+          "https://crossword-solver.io/clue/festival-following-ramadan-informally/",
+          "https://tryhardguides.com/festival-following-ramadan-informally-crossword-clue/",
+          "https://www.danword.com/crossword/Post_Ramadan_festival_3v7d"
+        ],
+        "candidates": [
+          "crossword-solver.io",
+          "nytcrossword.org",
+          "nytcrosswordanswers.com",
+          "nytcrosswordanswers.org",
+          "tryhardguides.com",
+          "wordplays.com",
+          "www.danword.com",
+          "www.wordhint.net",
+          "www.wordplays.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZhiYinManKe/ZhiYinManKe.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "ZhiYinManKe",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://nativeamericanheritagemonth.gov/ExhibitsandCollections.html",
+          "https://nativeamericanheritagemonth.gov/About.html",
+          "https://nativeamericanheritagemonth.gov/"
+        ],
+        "candidates": [
+          "nativeamericanheritagemonth.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZhiYunZhong/ZhiYunZhong.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "ZhiYunZhong",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://login.aol.com/?lang=en-gb&intl=us",
+          "https://login.aol.com/?src=mail&lang=en-US&language=en-US",
+          "https://login.aol.com/forgot",
+          "https://login.aol.com/account/create",
+          "https://login.aol.com/?lang=de-de&intl=de",
+          "https://login.aol.com/?src=mail&lang=ja-jp&activity=default",
+          "https://login.aol.com/?lang=fr-FR&intl=fr",
+          "https://login.aol.com/?.src=guce-mail&lang=hu-HU",
+          "https://login.aol.com/?display=login&intl=us&lang=en-us&src=fp-us",
+          "https://login.aol.com/forgot?intl=uk&lang=en-gb"
+        ],
+        "candidates": [
+          "login.aol.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Zhihu/Zhihu.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "Zhihu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.zhihu.com/",
+          "https://www.zhihu.com/explore",
+          "https://en.wikipedia.org/wiki/Zhihu",
+          "https://oia.zhihu.com/",
+          "https://www.zhihu.com/selection/",
+          "https://www.zhihu.com/?lang=zh-Hant",
+          "https://www.zhihu.com/people/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "oia.zhihu.com",
+          "www.zhihu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZhihuAds/ZhihuAds.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "ZhihuAds",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.michaels.com/",
+          "https://www.michaels.com/shop/yarn-needlework/needlework-fiber-arts/cross-stitch-embroidery/cross-stitch",
+          "https://canada.michaels.com/shop/crafts-hobbies/sewing-notions/sewing-machines",
+          "https://canada.michaels.com/shop/holidays-occasions/fall",
+          "https://locationsca.michaels.com/AB/RED-DEER/3910",
+          "https://locations.michaels.com/",
+          "https://locations.michaels.com/nc/statesville/1154",
+          "https://locationsca.michaels.com/QC/LAVAL/4954",
+          "https://enterprise.michaels.com/",
+          "https://signon.michaels.com/wps/myportal"
+        ],
+        "candidates": [
+          "canada.michaels.com",
+          "enterprise.michaels.com",
+          "locations.michaels.com",
+          "locationsca.michaels.com",
+          "signon.michaels.com",
+          "www.michaels.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZhongGuoShiHua/ZhongGuoShiHua.yaml": {
+        "checked_at": "2026-11-01 17:34 UTC",
+        "name": "ZhongGuoShiHua",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://entra.microsoft.com/auth/login/",
+          "https://entra.microsoft.com/?culture=en-us&country=us",
+          "https://entra.microsoft.com/signin/index/",
+          "https://entra.microsoft.us/",
+          "https://entra.microsoft.com/index.html",
+          "https://entra.microsoft.com/?feature.msaljs=true",
+          "https://entra.microsoft.com/?feature.msaljs=false",
+          "https://entra.microsoft.com/ktsdemo.onmicrosoft.com",
+          "https://myaccount.microsoft.com/login",
+          "https://myaccount.microsoft.com/?login"
+        ],
+        "candidates": [
+          "entra.microsoft.com",
+          "entra.microsoft.us",
+          "myaccount.microsoft.com"
         ],
         "accepted": [],
         "ownership_evidence": []
