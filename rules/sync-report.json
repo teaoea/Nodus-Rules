@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-02 04:08 UTC",
+  "date": "2026-11-02 21:20 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-02 04:08 UTC",
-    "next_index": 7,
+    "checked_at": "2026-11-02 21:20 UTC",
+    "next_index": 31,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -168068,6 +168068,637 @@
           "www.nytimes.com",
           "www.pcmag.com",
           "www.thisoldhouse.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "360/360.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "360",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.360.com/",
+          "https://www.360totalsecurity.com/en/us/",
+          "https://www.360.cn/",
+          "https://www.youtube.com/watch?v=hEdzv7D4CbQ",
+          "https://www.360training.com/",
+          "https://www.360training.com/AjaxLogonForm?catalogId=10051&langId=-1&storeId=21701&ls360Dashboard=1",
+          "https://www.microsoft.com/en-us/microsoft-365/products-apps-services",
+          "https://www.youtube.com/360",
+          "https://www.360totalsecurity.com/en/download-free-antivirus/",
+          "https://browser.360.cn/"
+        ],
+        "candidates": [
+          "browser.360.cn",
+          "www.360.cn",
+          "www.360.com",
+          "www.360totalsecurity.com",
+          "www.360training.com",
+          "www.microsoft.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "36kr/36kr.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "36kr",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.36kr.com/",
+          "https://www.36kr.com/pages/about-en",
+          "https://en.wikipedia.org/wiki/36Kr",
+          "https://m.36kr.com/",
+          "https://www.36krglobal.com/",
+          "https://baike.baidu.com/en/item/36Kr/889034",
+          "https://global.36kr.com/",
+          "https://finance.yahoo.com/quote/KRKR/",
+          "https://36kr.gcs-web.com/",
+          "https://stockanalysis.com/stocks/krkr/company/"
+        ],
+        "candidates": [
+          "36kr.gcs-web.com",
+          "baike.baidu.com",
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "global.36kr.com",
+          "m.36kr.com",
+          "stockanalysis.com",
+          "www.36kr.com",
+          "www.36krglobal.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "3Type/3Type.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "3Type",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.youtube.com/",
+          "https://support.google.com/youtube/answer/6083634?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://obsproject.com/forum/resources/youtube-chat-transparent-background-solely-css.486/",
+          "https://support.google.com/youtube/answer/9288567?hl=en-GB",
+          "https://obsproject.com/forum/resources/tuna.843/",
+          "https://support.google.com/youtube/answer/2398242?hl=en-GB&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtube/threads?hl=en",
+          "https://support.google.com/youtube/community?hl=it",
+          "https://support.google.com/youtube/answer/1311392?hl=en-gb",
+          "https://support.google.com/youtube/?hl=en-GB"
+        ],
+        "candidates": [
+          "obsproject.com",
+          "support.google.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "3dm/3dm.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "3dm",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.3dmgame.com/",
+          "https://bbs.3dmgame.com/",
+          "https://en.3dmgame.com/",
+          "https://mod.3dmgame.com/games",
+          "https://bbs.3dmgame.com/forum.php?mobile=no",
+          "https://en.3dmgame.com/games",
+          "https://mod.3dmgame.com/",
+          "https://m.3dmgame.com/s/about.html",
+          "https://en.wikipedia.org/wiki/3DM",
+          "https://3dm.net.cn/"
+        ],
+        "candidates": [
+          "3dm.net.cn",
+          "bbs.3dmgame.com",
+          "en.3dmgame.com",
+          "en.wikipedia.org",
+          "m.3dmgame.com",
+          "mod.3dmgame.com",
+          "www.3dmgame.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "4399/4399.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "4399",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.4399.com/flash/game100_4.htm",
+          "https://www.4399.com/special/2.htm",
+          "https://h.4399.com/",
+          "https://my.4399.com/",
+          "https://h.4399.com/xyx.htm",
+          "https://u.4399.com/",
+          "https://my.4399.com/game/index",
+          "https://web.4399.com/gamehall/",
+          "https://m.go-index-4399.com.cn/"
+        ],
+        "candidates": [
+          "4399.com",
+          "h.4399.com",
+          "ls-xx.cn",
+          "m.go-index-4399.com.cn",
+          "my.4399.com",
+          "u.4399.com",
+          "web.4399.com",
+          "www.4399.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "4Paradigm/4Paradigm.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "4Paradigm",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.walmart.com/",
+          "https://www.walmart.com/store/2358-alpena-mi",
+          "https://tech.walmart.com/content/walmart-global-tech/en_us/careers.html",
+          "https://my.walmart.com/home",
+          "https://seller.walmart.com/home",
+          "https://corporate.walmart.com/about/location-facts/united-states",
+          "https://photos3.walmart.com/about/calendars",
+          "https://careers.walmart.com/us/en/sams-home",
+          "https://gscope.walmart.com/login",
+          "https://corporate.walmart.com/about/leadership"
+        ],
+        "candidates": [
+          "careers.walmart.com",
+          "corporate.walmart.com",
+          "gscope.walmart.com",
+          "my.walmart.com",
+          "photos3.walmart.com",
+          "seller.walmart.com",
+          "tech.walmart.com",
+          "walmart.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "4chan/4chan.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "4chan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.m.wikipedia.org/wiki/4chan",
+          "https://gigazine.net/gsc_news/en/20250428-4chan-still-standing/",
+          "https://simple.m.wikipedia.org/wiki/4chan",
+          "https://knowyourmeme.com/news/4chan-is-back-online-days-after-the-infamous-april-2025-hack-that-leaked-its-janitors-emails",
+          "https://www.extremetech.com/internet/4chan-is-back-online-but-is-the-aura-of-anonymity-dead",
+          "https://en.m.wikipedia.org/wiki/List_of_Internet_forums",
+          "https://fr.m.wikipedia.org/wiki/4chan",
+          "https://github.com/bzvnr/4chan-Link-Updater",
+          "https://it.m.wikipedia.org/wiki/4chan",
+          "https://www.livenowfox.com/news/4chan-shut-down-after-hack"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "fr.m.wikipedia.org",
+          "gigazine.net",
+          "github.com",
+          "it.m.wikipedia.org",
+          "knowyourmeme.com",
+          "simple.m.wikipedia.org",
+          "soyjak.party",
+          "www.extremetech.com",
+          "www.livenowfox.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "51Job/51Job.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "51Job",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.51job.com/",
+          "https://login.51job.com/",
+          "https://union.51job.com/",
+          "https://big5.51job.com/",
+          "https://www.51job.com/default-e.php",
+          "https://u.51job.com/",
+          "https://we.51job.com/pc/search",
+          "https://www.linkedin.com/company/51job",
+          "https://jobs.51job.com/",
+          "https://www.51job.com/shanghai/"
+        ],
+        "candidates": [
+          "51job.com",
+          "big5.51job.com",
+          "jobs.51job.com",
+          "login.51job.com",
+          "u.51job.com",
+          "union.51job.com",
+          "we.51job.com",
+          "www.51job.com",
+          "www.linkedin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "51nod/51nod.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "51nod",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.foodinjapan.org/kansai/kyoto/obanzai/",
+          "https://www.foodinjapan.org/tag/obanzai/",
+          "https://www.foodinjapan.org/tag/%E3%81%8A%E3%81%B0%E3%82%93%E3%81%96%E3%81%84/",
+          "https://www.foodinjapan.org/?vp_page=119",
+          "https://www.foodinjapan.org/kansai/kyoto/taitan/",
+          "https://www.foodinjapan.org/fr/kansai-fr/kyoto-fr-2/obanzai-fr/",
+          "https://www.foodinjapan.org/ja/%e9%96%a2%e8%a5%bf/%e4%ba%ac%e9%83%bd/%e3%81%8a%e3%81%b0%e3%82%93%e3%81%96%e3%81%84-2/",
+          "https://www.foodinjapan.org/article/kyoto-cuisine/",
+          "https://www.foodinjapan.org/kansai/kyoto/one-day-kyoto-food-itinerary/",
+          "https://www.foodinjapan.org/kansai/kyoto/inarizushi/"
+        ],
+        "candidates": [
+          "www.foodinjapan.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "56/56.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "56",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.washington.edu/",
+          "https://en.m.wikipedia.org/wiki/University_of_Washington",
+          "https://www.uwmedicine.org/",
+          "https://myplan.uw.edu/plan/?rd=/student/myplan",
+          "https://admit.washington.edu/",
+          "https://admit.washington.edu/Apply/",
+          "https://myplan.uw.edu/home/",
+          "https://www.washington.edu/admissions/",
+          "https://www.washington.edu/students/gencat/degree_programs.html",
+          "https://www.washington.edu/about/"
+        ],
+        "candidates": [
+          "admit.washington.edu",
+          "en.m.wikipedia.org",
+          "myplan.uw.edu",
+          "www.uwmedicine.org",
+          "www.washington.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "58TongCheng/58TongCheng.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "58TongCheng",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://okpolicy.org/judges-ballot-oklahoma-need-know/",
+          "https://okpoliticstoday.com/2026/10/before-you-vote-nine-oklahoma-judges-face-retention-decisions/",
+          "https://nondoc.com/2026/10/15/oklahoma-court-of-civil-appeals-4-judges-up-for-retention-on-nov-3-ballot/",
+          "https://okpoliticstoday.com/2026/10/before-you-vote-how-oklahomas-judicial-retention-ballot-works/",
+          "https://www.muskogeepolitico.com/2026/10/heres-what-you-need-to-know-about.html",
+          "https://theballotbrief.com/judges/oklahoma",
+          "https://tulsaflyer.org/2026/10/23/government/post/oklahoma-judges-elections-2026/",
+          "https://ballotpedia.org/Oklahoma_intermediate_appellate_court_elections,_2026",
+          "https://nondoc.com/2026/10/15/oklahoma-court-of-civil-appeals-4-judges-up-for-retention-on-nov-3-ballot/?ratts_pdf=1",
+          "https://www.oklahoman.com/story/news/politics/elections/2026/10/29/oklahoma-judicial-retention-elections-robert-l-hudson-stacie-l-hixon-deborah-b-barnes/92497849007/"
+        ],
+        "candidates": [
+          "ballotpedia.org",
+          "nondoc.com",
+          "okpolicy.org",
+          "okpoliticstoday.com",
+          "theballotbrief.com",
+          "tulsaflyer.org",
+          "www.muskogeepolitico.com",
+          "www.oklahoman.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "6JianFang/6JianFang.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "6JianFang",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.similarweb.com/website/ebaumsworld.com/competitors/",
+          "https://www.similarweb.com/top-websites/",
+          "https://aisearch.similarweb.com/blog/most-used-ai/",
+          "https://support.similarweb.com/hc/en-us/articles/360001295078-Understand-The-Search-Competition",
+          "https://pro.similarweb.com/",
+          "https://aisearch.similarweb.com/geo/",
+          "https://www.similarweb.com/blog/research/business-benchmarking/benchmarking-best-practices/",
+          "https://www.similarweb.com/top-websites/business-and-consumer-services/online-marketing/",
+          "https://www.similarweb.com/top-websites/e-commerce-and-shopping/auctions/",
+          "https://www.similarweb.com/top-websites/e-commerce-and-shopping/"
+        ],
+        "candidates": [
+          "aisearch.similarweb.com",
+          "ebaumsworld.com",
+          "pro.similarweb.com",
+          "support.similarweb.com",
+          "www.similarweb.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "6park/6park.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "6park",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/6park",
+          "https://6park.com/index.php?locale=en_US",
+          "https://www.6park.co.uk/",
+          "https://archive.li/www.6park.com",
+          "https://zh.wikipedia.org/wiki/%E7%95%99%E5%9B%AD%E7%BD%91",
+          "https://apps.apple.com/us/app/%E7%95%99%E5%9B%AD%E7%A4%BE%E5%8C%BA-6park-com/id1474851292",
+          "https://www.hhlink.com/hhlink/ViewWebsiteCopy.aspx?u=www.6park.com",
+          "https://zh.wikipedia.org/zh-hant/%E7%95%99%E5%9B%AD%E7%BD%91"
+        ],
+        "candidates": [
+          "6park.com",
+          "apps.apple.com",
+          "archive.li",
+          "en.wikipedia.org",
+          "www.6park.co.uk",
+          "www.6park.com",
+          "www.hhlink.com",
+          "www.ymcanada.com",
+          "zh.wikipedia.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "8btc/8btc.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "8btc",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://vsalele.org/spip/IMG/pdf/La_femme_chocolat.pdf",
+          "https://www.lafeechocolat.com/wp-content/uploads/2025/11/Catalogue-2026-La-Fe%CC%81e-Chocolat.pdf",
+          "https://www.francepodcasts.com/wp-content/uploads/2021/07/Olivia-Ruiz-la-femme-chocolat.pdf",
+          "https://www.lafeechocolat.com/wp-content/uploads/2021/09/Catalogue-2021-la_fee_chocolat.pdf",
+          "https://www.initiatives.fr/blog/wp-content/uploads/2017/02/paroles-chanson-ruiz-femme-chocolat.pdf",
+          "https://www.sympaphonie.com/sympadoc/pdf/26018-A.pdf",
+          "https://www.jeanpierrepoulin.com/PDF/PAROLES/LA_FEMME_CHOCOLAT.pdf"
+        ],
+        "candidates": [
+          "vsalele.org",
+          "www.francepodcasts.com",
+          "www.initiatives.fr",
+          "www.jeanpierrepoulin.com",
+          "www.lafeechocolat.com",
+          "www.sympaphonie.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "9News/9News.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "9News",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://sosmt.gov/business/",
+          "https://biz.sosmt.gov/search/business",
+          "https://help.sosmt.gov/en-us/article/cancel-withdraw-or-terminate-a-business-registration-1k1n93r/",
+          "https://sosmt.gov/search/",
+          "https://help.sosmt.gov/en-us/article/how-do-i-obtain-or-renew-my-business-license-1cux7gm/",
+          "https://biz.sosmt.gov/search/business/A",
+          "https://sosmt.gov/",
+          "https://sosmt.gov/apostilles-authentications/",
+          "https://sosmt.gov/?page_id=0",
+          "https://sosmt.gov/business/business-structures/"
+        ],
+        "candidates": [
+          "biz.sosmt.gov",
+          "help.sosmt.gov",
+          "sosmt.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "9to5/9to5.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "9to5",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://9to5mac.com/",
+          "https://9to5seating.com/",
+          "https://9to5seating.com/product-detail/?chair_id=130",
+          "https://9to5google.com/",
+          "https://www.youtube.com/watch?v=UbxUSsFXYo4",
+          "https://www.imdb.com/title/tt0080319/",
+          "https://en.wikipedia.org/wiki/9_to_5_(film)",
+          "https://9to5toys.com/",
+          "https://www.youtube.com/watch?v=Pcm2yDp8XxI",
+          "https://www.fandango.com/9-to-5-re-release-2026-247645/movie-overview"
+        ],
+        "candidates": [
+          "9to5google.com",
+          "9to5mac.com",
+          "9to5seating.com",
+          "9to5toys.com",
+          "dollyparton.lnk.to",
+          "en.wikipedia.org",
+          "www.fandango.com",
+          "www.imdb.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ABC/ABC.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "ABC",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://abc.com/",
+          "https://abcnews.com/",
+          "https://abc.com/watch-live",
+          "https://abc7.com/watch/live/",
+          "https://abc7.com/",
+          "https://abcnews.com/Live",
+          "https://www.abcya.com/"
+        ],
+        "candidates": [
+          "abc.com",
+          "abc7.com",
+          "abcnews.com",
+          "www.abcya.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AFP/AFP.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "AFP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.afp.com/en/homepage",
+          "https://www.financialprofessionals.org/",
+          "https://us.afpnews.com/",
+          "https://afpglobal.org/",
+          "https://www.aafp.org/",
+          "https://www.afp.com/en/afp-world",
+          "https://en.wikipedia.org/wiki/Agence_France-Presse",
+          "https://news.afp.com/",
+          "https://conference.financialprofessionals.org/",
+          "https://us.afpnews.com/politics/"
+        ],
+        "candidates": [
+          "afp.com",
+          "afpglobal.org",
+          "conference.financialprofessionals.org",
+          "en.wikipedia.org",
+          "news.afp.com",
+          "us.afpnews.com",
+          "www.aafp.org",
+          "www.afp.com",
+          "www.financialprofessionals.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ALJazeera/ALJazeera.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "ALJazeera",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.aljazeera.com/",
+          "https://www.aljazeera.com/news/",
+          "https://www.aljazeera.net/video/live",
+          "https://www.aljazeera.net/",
+          "https://www.youtube.com/aljazeera%20english/live",
+          "https://www.aljazeera.com/video/live",
+          "https://www.aljazeera.com/middle-east/"
+        ],
+        "candidates": [
+          "www.aljazeera.com",
+          "www.aljazeera.net",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AMD/AMD.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "AMD",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.amd.com/en.html",
+          "https://www.amd.com/en/support/download/drivers.html",
+          "https://finance.yahoo.com/quote/AMD/",
+          "https://en.wikipedia.org/wiki/AMD",
+          "https://finance.yahoo.com/quote/AMD/news/",
+          "https://www.marketwatch.com/investing/stock/amd",
+          "https://newsroom.amd.com/news/amd-acquire-world-labs/",
+          "https://shop-us-en.amd.com/",
+          "https://www.cnbc.com/quotes/AMD",
+          "https://www.cnn.com/markets/stocks/AMD"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "newsroom.amd.com",
+          "shop-us-en.amd.com",
+          "www.amd.com",
+          "www.cnbc.com",
+          "www.cnn.com",
+          "www.marketwatch.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AMP/AMP.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "AMP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.sce.com/save-money/income-qualified-programs/arrearage-management-plans",
+          "https://www.sce.com/customer-service-center/help-center/rebate-savings/care-fera-financial-assistance/arrearage-management-plan",
+          "https://www.sce.com/sites/default/files/custom-files/SCE_CP_Phase1_FactSheet_EN_SP_FINAL.pdf",
+          "https://www.sce.com/save-money/rebates-financial-assistance/bill-assistance-programs",
+          "https://www.sce.com/save-money/rates-financing/residential-rate-plans/time-of-use-plans",
+          "https://www.sce.com/customer-service-center/billing-payments",
+          "https://www.sce.com/sites/default/files/custom-files/PDF_Files/G24-024_Community_Resource_Guide_042924.pdf",
+          "https://www.sce.com/my-account",
+          "https://www.sce.com/sites/default/files/custom-files/PDF_Files/Arrangement_Management_Payment_Plan_Online_Form_RedLine.pdf",
+          "https://www.sce.com/save-money/income-qualified-programs/care-fera"
+        ],
+        "candidates": [
+          "www.sce.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AOL/AOL.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "AOL",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.aol.com/",
+          "https://mail.aol.com/",
+          "https://www.aol.com/homepage/",
+          "https://login.aol.com/",
+          "https://login.aol.com/?lang=en-gb&intl=us",
+          "https://lite.aol.com/",
+          "https://help.aol.com/products/new-aol-mail",
+          "https://help.aol.com/",
+          "https://en.wikipedia.org/wiki/AOL",
+          "https://www.aol.co.uk/"
+        ],
+        "candidates": [
+          "aol.co.uk",
+          "aol.com",
+          "en.wikipedia.org",
+          "help.aol.com",
+          "lite.aol.com",
+          "login.aol.com",
+          "mail.aol.com",
+          "www.aol.co.uk",
+          "www.aol.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "APKCombo/APKCombo.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "APKCombo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://apkcombo.com/%29%20",
+          "https://apk-combo.com/",
+          "https://github.com/apkcombo",
+          "https://www.ipaddress.com/website/apkcombo.com",
+          "https://alternativeto.net/software/apkcombo/?platform=android",
+          "https://naijaknowhow.net/best-apk-download-sites/",
+          "https://www.wikihow.com/Download-an-APK-File-from-the-Google-Play-Store"
+        ],
+        "candidates": [
+          "alternativeto.net",
+          "apk-combo.com",
+          "apkcombo.com",
+          "github.com",
+          "naijaknowhow.net",
+          "play.google.com",
+          "www.ipaddress.com",
+          "www.wikihow.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ATTWatchTV/ATTWatchTV.yaml": {
+        "checked_at": "2026-11-02 21:20 UTC",
+        "name": "ATTWatchTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://social.msdn.microsoft.com/Forums/en-US/6a8ad849-7db0-43a2-a708-052c110051eb/polygons-with-holes-complex-polygons?forum=bingmaps"
+        ],
+        "candidates": [
+          "social.msdn.microsoft.com"
         ],
         "accepted": [],
         "ownership_evidence": []
