@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-01 17:34 UTC",
+  "date": "2026-11-02 04:08 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -9,14 +9,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 10,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/115/115.yaml",
-      "rules": 10,
-      "bytes": 481,
+      "rules": 15,
+      "bytes": 588,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -148814,14 +148814,14 @@
         }
       ],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 60,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/iCloud/iCloud.yaml",
-      "rules": 60,
-      "bytes": 2092,
+      "rules": 62,
+      "bytes": 2140,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2026-06-29T18:49:58Z",
       "template_version": 9
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-01 17:34 UTC",
-    "next_index": 672,
+    "checked_at": "2026-11-02 04:08 UTC",
+    "next_index": 7,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -167417,6 +167417,657 @@
           "entra.microsoft.com",
           "entra.microsoft.us",
           "myaccount.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZhongWeiShiJi/ZhongWeiShiJi.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "ZhongWeiShiJi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://populartimelines.com/timeline/Daytona-International-Speedway/full",
+          "https://en.wikipedia.org/wiki/Daytona_International_Speedway",
+          "https://www.daytonainternationalspeedway.com/event-calendar/",
+          "https://www.daytonainternationalspeedway.com/about-daytona-international-speedway/",
+          "https://frcs.pro/nascar/tracks/daytona-international-speedway",
+          "https://www.caranddriver.com/features/a15150349/between-a-cathouse-and-a-dog-track-a-brief-timeline-page-1/",
+          "https://sportsfoundation.org/nascar-history/",
+          "https://en.wikipedia.org/wiki/History_of_the_Daytona_500",
+          "https://www.nascar.com/gallery/daytona-international-speedway-through-the-years/",
+          "https://www.nascar.com/nascar75-historical-timeline/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "frcs.pro",
+          "populartimelines.com",
+          "sportsfoundation.org",
+          "www.caranddriver.com",
+          "www.daytonainternationalspeedway.com",
+          "www.nascar.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZhongXingTongXun/ZhongXingTongXun.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "ZhongXingTongXun",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://mail.yahoo.com/",
+          "https://login.yahoo.com/",
+          "https://mobile.yahoo.com/mail",
+          "https://mail.yahoo.com/%EF%BC%89%E3%80%82",
+          "https://www.yahoo.com/",
+          "https://login.yahoo.com/account/create",
+          "https://currently.att.yahoo.com/",
+          "https://mail.yahoo.com/plus/mail/",
+          "https://help.yahoo.com/kb/SLN3407.html",
+          "https://login.yahoo.com/forgot"
+        ],
+        "candidates": [
+          "currently.att.yahoo.com",
+          "currently.com",
+          "help.yahoo.com",
+          "login.yahoo.com",
+          "mail.yahoo.com",
+          "mobile.yahoo.com",
+          "www.yahoo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZhongYuanYiShang/ZhongYuanYiShang.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "ZhongYuanYiShang",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.m.wikipedia.org/wiki/Petula_Clark",
+          "https://www.petulaclark.net/",
+          "https://www.express.co.uk/celebrity-news/2156786/petula-clark-makes-end-of-life-admission",
+          "https://www.youtube.com/playlist?list=PLraeEjFDRCuJCgD84y7K1-4-OCNmIcXzL",
+          "https://m.imdb.com/name/nm0164379/bio/",
+          "https://m.imdb.com/name/nm0164379/",
+          "https://simple.m.wikipedia.org/wiki/Petula_Clark",
+          "https://opiniondesk.uk/blog/petula-clark-health-life-now/",
+          "https://www.petulaclark.net/pages/biography.html",
+          "https://en.m.wikipedia.org/wiki/Petula_Clark_discography"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "m.imdb.com",
+          "opiniondesk.uk",
+          "simple.m.wikipedia.org",
+          "www.express.co.uk",
+          "www.petulaclark.net",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ZhuanZhuan/ZhuanZhuan.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "ZhuanZhuan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.timeanddate.com/time/zones/pst",
+          "https://time.now/timezones/pst/",
+          "https://en.wikipedia.org/wiki/Pacific_Time_Zone",
+          "https://time.is/PST",
+          "https://24timezones.com/time-zone/pst",
+          "https://www.timeanddate.com/time/zone/@z-us-98047",
+          "https://pst.net/pst",
+          "https://usamap.net/time-zones/pacific/",
+          "https://www.timezone-map.com/",
+          "https://usamap.net/time-zones/"
+        ],
+        "candidates": [
+          "24timezones.com",
+          "en.wikipedia.org",
+          "pst.net",
+          "time.is",
+          "time.now",
+          "timeanddate.com",
+          "usamap.net",
+          "www.timeanddate.com",
+          "www.timezone-map.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Zoho/Zoho.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "Zoho",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.zoho.com/login.html",
+          "https://www.zoho.com/",
+          "https://start.zoho.com/app",
+          "https://www.zohocorp.com/",
+          "https://en.wikipedia.org/wiki/Zoho_Corporation",
+          "https://www.zoho.com/mail/login.html",
+          "https://www.zoho.com/crm/login.html",
+          "https://www.zoho.com/all-products.html",
+          "https://www.zoho.com/one/login.html",
+          "https://www.zoho.com/mail/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "m.saravanan",
+          "start.zoho.com",
+          "www.zoho.com",
+          "www.zohocorp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "aiXcoder/aiXcoder.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "aiXcoder",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://stackoverflow.com/questions/10690019/link-to-pin-it-on-pinterest-without-generating-a-button",
+          "https://stackoverflow.com/questions/65468063/bootstrap-5-layout-for-different-sizes-cards-like-pinterest",
+          "https://ja.stackoverflow.com/questions/51671/pinterest-access-token%e3%81%ae%e5%8f%96%e5%be%97%e3%82%84%e3%82%8a%e6%96%b9%e3%81%8c%e5%88%86%e3%81%8b%e3%82%89%e3%81%aa%e3%81%84",
+          "https://stackoverflow.com/questions/26431674/pinterest-wont-recognize-verification-metatag",
+          "https://stackoverflow.com/questions/9352021/how-can-i-rerender-pinterests-pin-it-button",
+          "https://stackoverflow.com/questions/9951045/pinterest-api-documentation",
+          "https://stackoverflow.com/questions/12570559/is-it-possible-to-create-a-pinterest-like-layout-with-bootstrap-only",
+          "https://stackoverflow.com/questions/27127156/how-to-find-your-pinterest-board-id",
+          "https://stackoverflow.com/questions/21455388/how-to-get-oauth-access-token-for-pinterest",
+          "https://stackoverflow.com/questions/28489758/how-to-get-the-list-of-followers-in-pinterest"
+        ],
+        "candidates": [
+          "ja.stackoverflow.com",
+          "pinit.js",
+          "stackoverflow.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "eBay/eBay.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "eBay",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ebay.com/",
+          "https://www.ebay.com/d/main",
+          "https://pages.ebay.com/welcome-to-ebay/",
+          "https://il.ebay.com/",
+          "https://pages.ebay.com/welcome/m/default.html",
+          "https://www.ebay.com/n/all-categories",
+          "https://www.ebay.com/welcome/index.html"
+        ],
+        "candidates": [
+          "ebay.com",
+          "il.ebay.com",
+          "pages.ebay.com",
+          "www.ebay.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "friDay/friDay.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "friDay",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.m.wikipedia.org/wiki/Friday_(1995_film)",
+          "https://tubitv.com/movies/594102/friday",
+          "https://m.imdb.com/title/tt0113118/",
+          "https://pluto.tv/us/movies/6924978453126d02e28c5a16/",
+          "https://www.netflix.com/title/525057",
+          "https://en.m.wikipedia.org/wiki/Friday",
+          "https://m.youtube.com/watch?v=kMawYCOdHF8",
+          "https://www.moviefone.com/movie/friday/1311/main/",
+          "https://m.imdb.com/title/tt0113118/fullcredits/",
+          "https://www.snokido.com/game/friday-night-funkin"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "m.imdb.com",
+          "m.youtube.com",
+          "pluto.tv",
+          "tubitv.com",
+          "www.moviefone.com",
+          "www.netflix.com",
+          "www.snokido.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "iCloud/iCloud.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "iCloud",
+        "status": "checked",
+        "sources": [
+          "https://www.icloud.com/",
+          "https://support.apple.com/en-us/108047",
+          "https://en.wikipedia.org/wiki/ICloud",
+          "https://support.apple.com/guide/icloud/introduction-to-icloud-mm74e822f6de/icloud",
+          "https://www.apple.com/icloud/",
+          "https://appleinsider.com/inside/icloud",
+          "https://www.icloud.com/iclouddrive",
+          "https://apps.microsoft.com/detail/9pktq5699m62?hl=en-GB&gl=GB",
+          "https://support.apple.com/icloud",
+          "https://support.apple.com/guide/icloud/sign-in-and-use-icloudcom-mm281e3e7d/icloud"
+        ],
+        "candidates": [
+          "appleinsider.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "icloud.com",
+          "support.apple.com",
+          "www.apple.com",
+          "www.icloud.com"
+        ],
+        "accepted": [
+          "icloud.com",
+          "www.icloud.com"
+        ],
+        "ownership_evidence": [
+          "https://support.apple.com/en-us/101555"
+        ]
+      },
+      "iCloudPrivateRelay/iCloudPrivateRelay.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "iCloudPrivateRelay",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.youtube.com/",
+          "https://www.youtube.com/youtube",
+          "https://accounts.google.com/InteractiveLogin?service=youtube",
+          "https://www.youtube.com/feed",
+          "https://www.youtube.com/@---_-_",
+          "https://www.youtube.com/@en.---",
+          "https://www.youtube.com/%3C/",
+          "https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=en-US",
+          "https://music.youtube.com/explore",
+          "https://music.youtube.com/%EF%BB%BF"
+        ],
+        "candidates": [
+          "accounts.google.com",
+          "music.youtube.com",
+          "play.google.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "iFlytek/iFlytek.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "iFlytek",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.iflytek.com/en/",
+          "https://www.iflytek.com/en/about-us/about.html",
+          "https://en.wikipedia.org/wiki/IFlytek",
+          "https://store.iflytek.com/collections/",
+          "https://store.iflytek.com/collections/all-products",
+          "https://global.xfyun.cn/",
+          "https://iflytek.ae/",
+          "https://iflytek.zhiye.com/",
+          "https://www.amazon.com/iflytek-AINOTE-16-Language-Transcription-Handwritten/dp/B0FQMHZJP4",
+          "https://global.chinadaily.com.cn/a/202504/21/WS68060e40a3104d9fd3820aa6.html"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "global.chinadaily.com.cn",
+          "global.xfyun.cn",
+          "iflytek.ae",
+          "iflytek.zhiye.com",
+          "store.iflytek.com",
+          "www.amazon.com",
+          "www.iflytek.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "iQIYI/iQIYI.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "iQIYI",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.iq.com/?lang=en_us",
+          "https://www.iqiyi.com/",
+          "https://www.iq.com/drama?lang=en_us",
+          "https://www.iqiyi.com/index.html/www.iqiyi.com/",
+          "https://go.iqiyi.com/",
+          "https://en.wikipedia.org/wiki/IQIYI",
+          "https://www.youtube.com/@iQIYIofficial/videos"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "go.iqiyi.com",
+          "iq.com",
+          "iqiyi.com",
+          "www.iq.com",
+          "www.iqiyi.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "iQIYIIntl/iQIYIIntl.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "iQIYIIntl",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.youtube.com/watch?v=FM5SRyO-WyE",
+          "https://www.youtube.com/watch?v=FvE9a-F8-2g",
+          "https://www.adweek.com/brand-marketing/taco-bells-super-bowl-ad-gives-face-time-to-hundreds-of-fans/",
+          "https://www.lbbonline.com/news/400-real-fans-star-in-taco-bells-super-bowl-spot",
+          "https://www.tacobell.com/newsroom/taco-bell-features-nearly-400-real-fans-in-its-big-game-ad",
+          "https://actingmagazine.com/2025/09/who-is-in-the-new-taco-bell-commercial-in-2025/",
+          "https://admeter.usatoday.com/story/sports/ad-meter/2025/02/09/taco-bell-super-bowl-commercial-2025-lebron-james-doja-cat/78373292007/"
+        ],
+        "candidates": [
+          "actingmagazine.com",
+          "admeter.usatoday.com",
+          "www.adweek.com",
+          "www.lbbonline.com",
+          "www.tacobell.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "iTalkBB/iTalkBB.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "iTalkBB",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.italkbb.com/us/en/",
+          "https://www.italkbb.com/us/chs/",
+          "https://webaccount.italkbb.com/CSS/Login.Responsive.loader.html",
+          "https://buy.italkbb.com/en/",
+          "https://www.italkbb.ca/en",
+          "https://www.italkbb.ca/en/multi-number-app"
+        ],
+        "candidates": [
+          "buy.italkbb.com",
+          "italkbb.com",
+          "webaccount.italkbb.com",
+          "www.italkbb.ca",
+          "www.italkbb.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ifanr/ifanr.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "ifanr",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://q.musd.net/studentportal",
+          "https://q.musd.net/StudentPortal/Home/LoginReminder",
+          "https://q.musd.net/parent",
+          "https://q.musd.net/parent/Home/LoginReminder",
+          "https://q.musd.net/OpenEnrollment/",
+          "https://q.musd.net/preenroll",
+          "https://q.musd.net/q",
+          "https://q.musd.net/FSOnline/Main/Login",
+          "https://q.musd.net/QLoader/Main/Index"
+        ],
+        "candidates": [
+          "q.musd.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "myTVSUPER/myTVSUPER.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "myTVSUPER",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.mytvsuper.com/en/home/",
+          "https://www.mytvsuper.com/tc/home/",
+          "https://en.m.wikipedia.org/wiki/MyTV_Super",
+          "https://play.google.com/store/apps/details?id=com.tvb.mytvsuper&hl=en-US",
+          "https://promo.mytvsuper.com/en/app_download",
+          "https://promo.mytvsuper.com/en/smart-tv",
+          "https://apkpure.com/mytv-super/com.tvb.mytvsuper.atv",
+          "https://play.google.com/store/apps/details?id=com.tvb.mytvsuper.atv&hl=en",
+          "https://apkpure.com/mytv-super-watch-tv-and-news/com.tvb.mytvsuper",
+          "https://www.appbrain.com/app/mytv-super-watch-tv-and-news/com.tvb.mytvsuper"
+        ],
+        "candidates": [
+          "apkpure.com",
+          "en.m.wikipedia.org",
+          "play.google.com",
+          "promo.mytvsuper.com",
+          "www.appbrain.com",
+          "www.mytvsuper.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "zhanqi/zhanqi.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "zhanqi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.miracosta.edu/",
+          "https://www.miracosta.edu/student-services/career-center/log-in-to-canvas.html",
+          "https://surf.miracosta.edu/psc/ps/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL",
+          "https://catalog.miracosta.edu/disciplines/businessadministration/",
+          "https://catalog.miracosta.edu/disciplines/horticulture/",
+          "https://commed.miracosta.edu/public/category/programArea.do?method=load&selectedProgramAreaId=1016636",
+          "https://commed.miracosta.edu/",
+          "https://library.miracosta.edu/az/databases",
+          "https://library.miracosta.edu/citations",
+          "https://jobs.miracosta.edu/"
+        ],
+        "candidates": [
+          "catalog.miracosta.edu",
+          "commed.miracosta.edu",
+          "jobs.miracosta.edu",
+          "library.miracosta.edu",
+          "miracosta.edu",
+          "surf.miracosta.edu",
+          "www.miracosta.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "115/115.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "115",
+        "status": "checked",
+        "sources": [
+          "https://m.youtube.com/watch?v=-B19u9tHnIs",
+          "https://en.m.wikipedia.org/wiki/115_(number)",
+          "https://115.com/product_browser",
+          "https://f.115.com/",
+          "https://m.youtube.com/watch?v=bmDXgBDF7lk",
+          "https://en.m.wikipedia.org/wiki/115",
+          "https://pc.115.com/index.html",
+          "https://aq.115.com/index/login",
+          "https://zh.m.wikipedia.org/wiki/115_(%E4%BA%91%E5%AD%98%E5%82%A8%E6%9C%8D%E5%8A%A1)"
+        ],
+        "candidates": [
+          "115.com",
+          "aq.115.com",
+          "en.m.wikipedia.org",
+          "f.115.com",
+          "m.youtube.com",
+          "pc.115.com",
+          "www.115.com",
+          "zh.m.wikipedia.org"
+        ],
+        "accepted": [
+          "115.com",
+          "aq.115.com",
+          "f.115.com",
+          "pc.115.com",
+          "www.115.com"
+        ],
+        "ownership_evidence": [
+          "https://115.com/"
+        ]
+      },
+      "12306/12306.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "12306",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.12306.cn/index/",
+          "https://cx.12306.cn/tlcx/welcome.html",
+          "https://kyfw.12306.cn/otn/leftTicket/init?linktypeid=wf",
+          "https://cx.12306.cn/tlcx/index.html",
+          "https://www.12306.cn/en/index.html",
+          "https://www.12306.cn/en/login.html",
+          "https://kyfw.12306.cn/",
+          "https://www.12306.cn/mormhweb/index.html"
+        ],
+        "candidates": [
+          "12306.cn",
+          "cx.12306.cn",
+          "kyfw.12306.cn",
+          "www.12306.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "1337x/1337x.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "1337x",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://1337x.to/",
+          "https://en.wikipedia.org/wiki/1337x",
+          "https://vpncentral.com/1337x-proxy-list/",
+          "https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html",
+          "https://www.reddit.com/r/1337x/about/",
+          "https://privacysavvy.com/security/torrents/best-torrent-sites/"
+        ],
+        "candidates": [
+          "1337x.to",
+          "en.wikipedia.org",
+          "privacysavvy.com",
+          "vpncentral.com",
+          "www.reddit.com",
+          "www.techworm.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "17173/17173.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "17173",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.17173.com/",
+          "https://www.17173.com/f/index_fgmore.shtml",
+          "https://newgame.17173.com/",
+          "https://m.17173.com/",
+          "https://news.17173.com/",
+          "https://search.17173.com/?_",
+          "https://h5.17173.com/",
+          "https://h5.17173.com/m/board/index.shtml",
+          "https://game.17173.com/",
+          "https://sw.17173.com/z/index_2.shtml"
+        ],
+        "candidates": [
+          "17173.com",
+          "game.17173.com",
+          "h5.17173.com",
+          "m.17173.com",
+          "newgame.17173.com",
+          "news.17173.com",
+          "search.17173.com",
+          "sw.17173.com",
+          "www.17173.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "178/178.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "178",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.m.wikipedia.org/wiki/178_(number)",
+          "https://number.academy/178",
+          "https://en.m.wikipedia.org/wiki/178",
+          "https://wowui.178.com/",
+          "https://www.foothilltransit.org/line/178",
+          "https://www.facebook.com/178barandgrill/",
+          "https://transitapp.com/en/region/los-angeles/foothill-transit/bus-178",
+          "https://roads.dot.ca.gov/?roadnumber=178",
+          "https://www.ascii-code.com/178",
+          "https://www.opm.gov/forms/pdf_fill/of178.pdf"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "number.academy",
+          "roads.dot.ca.gov",
+          "transitapp.com",
+          "wowui.178.com",
+          "www.ascii-code.com",
+          "www.facebook.com",
+          "www.foothilltransit.org",
+          "www.opm.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "17zuoye/17zuoye.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "17zuoye",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nfl.com/scores",
+          "https://www.espn.com/nfl/scoreboard",
+          "https://www.cbssports.com/nfl/scoreboard/regular/",
+          "https://www.nfl.com/",
+          "https://sports.yahoo.com/nfl/scoreboard/",
+          "https://www.espn.com/nfl/",
+          "https://sports.yahoo.com/nfl/",
+          "https://www.cbssports.com/nfl/",
+          "https://www.nbcsports.com/nfl/scores",
+          "https://www.foxsports.com/nfl/scores"
+        ],
+        "candidates": [
+          "cbssports.com",
+          "nfl.com",
+          "sports.yahoo.com",
+          "www.cbssports.com",
+          "www.espn.com",
+          "www.foxsports.com",
+          "www.nbcsports.com",
+          "www.nfl.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "2KGames/2KGames.yaml": {
+        "checked_at": "2026-11-02 04:08 UTC",
+        "name": "2KGames",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.consumerreports.org/home-garden/home-security-cameras/best-video-doorbells-of-the-year-a1115426074/",
+          "https://www.pcmag.com/picks/the-best-video-doorbells",
+          "https://www.amazon.com/wireless-doorbell-camera/s?k=wireless+doorbell+camera",
+          "https://www.amazon.com/door-bell-cameras/s?k=door+bell+cameras",
+          "https://www.nytimes.com/wirecutter/reviews/best-smart-doorbell-camera/",
+          "https://www.thisoldhouse.com/home-safety/best-doorbell-cameras",
+          "https://www.eufy.com/collections/video-doorbell",
+          "https://ring.com/video-doorbell-cameras",
+          "https://www.cnet.com/home/security/best-video-doorbell-cameras/",
+          "https://us.arlo.com/products/arlo-doorbell"
+        ],
+        "candidates": [
+          "amazon.com",
+          "ring.com",
+          "us.arlo.com",
+          "www.amazon.com",
+          "www.cnet.com",
+          "www.consumerreports.org",
+          "www.eufy.com",
+          "www.nytimes.com",
+          "www.pcmag.com",
+          "www.thisoldhouse.com"
         ],
         "accepted": [],
         "ownership_evidence": []

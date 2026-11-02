@@ -1,7 +1,7 @@
 # 名称：iCloud
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：60
-# domain: 0
+# 来源核对日期：2026-11-02 04:08 UTC
+# 规则总数：62
+# domain: 2
 # domain-suffix: 60
 # domain-keyword: 0
 # ip-cidr: 0
@@ -9,6 +9,8 @@
 # protocol: 0
 # port: 0
 rules:
+  - domain,icloud.com
+  - domain,www.icloud.com
   - domain-suffix,apple-cloudkit.com
   - domain-suffix,apple-icloud.cn
   - domain-suffix,apple-livephotoskit.com
