@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-03 05:08 UTC",
+  "date": "2026-11-03 18:59 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-03 05:08 UTC",
-    "next_index": 55,
+    "checked_at": "2026-11-03 18:59 UTC",
+    "next_index": 79,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -150768,30 +150768,24 @@
         "ownership_evidence": []
       },
       "AmazonIP/AmazonIP.list": {
-        "checked_at": "2026-10-25 17:59 UTC",
+        "checked_at": "2026-11-03 18:59 UTC",
         "name": "AmazonIP",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.youtube.com/",
-          "https://www.facebook.com/youtube/",
-          "https://about.youtube/",
-          "https://en.wikipedia.org/wiki/YouTube",
-          "https://x.com/YouTube",
-          "https://www.youtube.com/youtube",
-          "https://blog.youtube/",
-          "https://accounts.google.com/InteractiveLogin?service=youtube",
-          "https://www.britannica.com/topic/YouTube",
-          "https://www.youtube.com/feed"
+          "https://www.victoryspinalcare.com/",
+          "https://www.victoryspinalcare.com/contact-us/",
+          "https://www.victoryspinalcare.com/common-conditions/",
+          "https://www.victoryspinalcare.com/meet-the-team/",
+          "https://www.victoryspinalcare.com/our-story/",
+          "https://www.victoryspinalcare.com/becoming-a-patient/",
+          "https://www.victoryspinalcare.com/abilene-chiropractor/",
+          "https://www.victoryspinalcare.com/about-us/",
+          "https://www.victoryspinalcare.com/category/back-pain/",
+          "https://www.victoryspinalcare.com/spinal-decompression-abilene-tx/"
         ],
         "candidates": [
-          "about.youtube",
-          "accounts.google.com",
-          "blog.youtube",
-          "en.wikipedia.org",
-          "www.britannica.com",
-          "www.facebook.com",
-          "www.youtube.com",
-          "x.com"
+          "victoryspinalcare.com",
+          "www.victoryspinalcare.com"
         ],
         "accepted": [],
         "ownership_evidence": []
@@ -169333,6 +169327,650 @@
           "www.airchina.com",
           "www.airchina.com.cn",
           "www.airchina.us"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AirWick/AirWick.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "AirWick",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://mail.google.com/mail",
+          "https://support.google.com/mail/answer/8494?hl=pt-BR&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/mail/answer/8494?hl=id&co=GENIE.Platform%3DDesktop",
+          "https://discussions.apple.com/thread/256018372",
+          "https://discussions.apple.com/thread/254817395",
+          "https://support.google.com/mail/answer/8494?hl=en-GB&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/answer/2451980?hl=en",
+          "https://support.google.com/accounts/answer/3463280?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/accounts/answer/176347?hl=pt-br&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/accounts/?hl=no"
+        ],
+        "candidates": [
+          "discussions.apple.com",
+          "gmail.com",
+          "mail.google.com",
+          "support.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Akamai/Akamai.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Akamai",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.akamai.com/",
+          "https://en.wikipedia.org/wiki/Akamai_Technologies",
+          "https://www.akamai.com/cloud",
+          "https://jobs.akamai.com/",
+          "https://finance.yahoo.com/quote/AKAM/",
+          "https://control.akamai.com/apps/home-page/",
+          "https://techdocs.akamai.com/home",
+          "https://www.linkedin.com/company/akamai-technologies",
+          "https://www.ir.akamai.com/press-releases",
+          "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AB%E3%83%9E%E3%82%A4%E3%83%BB%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%82%BA"
+        ],
+        "candidates": [
+          "control.akamai.com",
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "ja.wikipedia.org",
+          "jobs.akamai.com",
+          "techdocs.akamai.com",
+          "www.akamai.com",
+          "www.ir.akamai.com",
+          "www.linkedin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Ali213/Ali213.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Ali213",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://masterkimslv.com/",
+          "https://www.yelp.com/biz/master-kims-korean-bbq-las-vegas-14",
+          "https://www.yelp.com/biz/master-kims-korean-bbq-las-vegas",
+          "https://www.restaurantji.com/nv/las-vegas/master-kims-korean-bbq-2-/",
+          "https://masterkimslv.com/las-vegas-master-kim-s-korean-bbq-locations",
+          "https://palacestation.com/eat-and-drink/master-kims-wagyu-house/",
+          "https://mrkimslv.com/",
+          "https://restaurantguru.com/Master-Kims-Korean-BBQ-Las-Vegas-2",
+          "https://www.sevenrooms.com/explore/masterkimskoreanbbq2/reservations/create/search/",
+          "https://www.zmenu.com/master-kims-korean-bbq-2-las-vegas-4-online-menu/"
+        ],
+        "candidates": [
+          "masterkimslv.com",
+          "mrkimslv.com",
+          "palacestation.com",
+          "restaurantguru.com",
+          "www.restaurantji.com",
+          "www.sevenrooms.com",
+          "www.yelp.com",
+          "www.zmenu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AliPay/AliPay.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "AliPay",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://auth.alipay.com/login/global.htm",
+          "https://www.alipay.com/",
+          "https://en.wikipedia.org/wiki/Alipay",
+          "https://global.alipay.com/platform/",
+          "https://play.google.com/store/apps/details?id=com.eg.android.AlipayGphone&hl=en-US",
+          "https://globalprod.alipay.com/login/global.htm",
+          "https://auth.alipay.com/login/option.htm",
+          "https://render.alipay.com/p/s/download",
+          "https://global.alipay.com/ilogin/account_login.htm",
+          "https://www.alipayplus.com/consumer/"
+        ],
+        "candidates": [
+          "auth.alipay.com",
+          "en.wikipedia.org",
+          "global.alipay.com",
+          "globalprod.alipay.com",
+          "play.google.com",
+          "render.alipay.com",
+          "www.alipay.com",
+          "www.alipayplus.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Alibaba/Alibaba.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Alibaba",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.alibaba.com/",
+          "https://www.alibaba.com/catalogs/",
+          "https://www.alibabagroup.com/en-US/about-alibaba-businesses-1747711844698554368",
+          "https://www.alibabagroup.com/en-US/",
+          "https://en.wikipedia.org/wiki/Alibaba_Group",
+          "https://sale.alibaba.com/category/products/index.html",
+          "https://french.alibaba.com/",
+          "https://spanish.alibaba.com/",
+          "https://www.1688.com/",
+          "https://sale.alibaba.com/p/dfijb0mab/index.html?wx_navbar_transparent=true&path=%2Fp%2Fdfijb0mab%2Findex.html&prefetchKey=met"
+        ],
+        "candidates": [
+          "1688.com",
+          "alibaba.com",
+          "alibaba.com-alibaba",
+          "en.wikipedia.org",
+          "french.alibaba.com",
+          "sale.alibaba.com",
+          "spanish.alibaba.com",
+          "www.1688.com",
+          "www.alibaba.com",
+          "www.alibabagroup.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "All4/All4.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "All4",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.all4inc.com/",
+          "https://www.channel4.com/",
+          "https://www.all4inc.com/about-us/",
+          "https://www.linkedin.com/company/all4-inc-",
+          "https://www.channel4.com/categories",
+          "https://www.all4cycling.com/en",
+          "https://www.wolterskluwer.com/en/solutions/enablon/partners/all4",
+          "https://m.youtube.com/watch?v=xcZmgYxhk5o",
+          "https://www.freeview.co.uk/get-freeview-play/channels/all-4",
+          "https://www.youtube.com/c/All4"
+        ],
+        "candidates": [
+          "live.find",
+          "m.youtube.com",
+          "place.go",
+          "www.all4.com",
+          "www.all4cycling.com",
+          "www.all4inc.com",
+          "www.channel4.com",
+          "www.freeview.co.uk",
+          "www.linkedin.com",
+          "www.wolterskluwer.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Amazon/Amazon.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Amazon",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.amazon.com/",
+          "https://www.amazon.com/stores/Homepage/page/1C97BE5A-7354-49E3-828D-1A49B8513E5E",
+          "https://amc.amazon.com/",
+          "https://pharmacy.amazon.com/",
+          "https://hiring.amazon.com/",
+          "https://xb-node-fe.amazon.com/glenn/home",
+          "https://selection.amazon.com/sign-in?redirect_to=%2F&mons_redirect=sign_in",
+          "https://www.amazon.jobs/",
+          "https://www.amazon.com/gp/css/homepage.html",
+          "https://www.amazon.com/b?node=78686046011"
+        ],
+        "candidates": [
+          "amazon.com",
+          "amc.amazon.com",
+          "hiring.amazon.com",
+          "pharmacy.amazon.com",
+          "selection.amazon.com",
+          "www.amazon.com",
+          "www.amazon.jobs",
+          "xb-node-fe.amazon.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AmazonCN/AmazonCN.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "AmazonCN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.panerabread.com/en-us/home.html",
+          "https://catering.panerabread.com/",
+          "https://www.panerabread.com/en-us/start-an-order.html",
+          "https://www.panerabread.com/en-us/menu/categories/vegetarian.html",
+          "https://www.panerabread.com/en-us/services/delivery.html",
+          "https://fundraising.panerabread.com/",
+          "https://www.panerabread.com/en-us/menu/categories/breakfast.html",
+          "https://www.panerabread.com/en-us/menu/categories/sandwiches.html",
+          "https://careers.panerabread.com/",
+          "https://www.panerabread.com/en-us/menu/categories/soups-and-mac.html"
+        ],
+        "candidates": [
+          "careers.panerabread.com",
+          "catering.panerabread.com",
+          "fundraising.panerabread.com",
+          "www.panerabread.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AmazonPrimeVideo/AmazonPrimeVideo.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "AmazonPrimeVideo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.amazon.com/gp/video/storefront/",
+          "https://www.primevideo.com/collection/IncludedwithPrime",
+          "https://www.primevideo.com/primemembers",
+          "https://app.primevideo.com/home",
+          "https://watch.amazon.com/detail?asin=B00D5F7RWQ",
+          "https://www.amazon.com/gp/video/primesignup/",
+          "https://www.primevideo.com/storefront/subscription/default",
+          "https://www.primevideo.com/",
+          "https://www.amazon.com/amazonprime",
+          "https://www.primevideo.com/movie"
+        ],
+        "candidates": [
+          "amazon.com",
+          "app.primevideo.com",
+          "primevideo.com",
+          "watch.amazon.com",
+          "www.amazon.com",
+          "www.primevideo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AmazonTrust/AmazonTrust.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "AmazonTrust",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.pinterest.com/",
+          "https://www.pinterest.com/pinterest/",
+          "https://about.pinterest.com/",
+          "https://uk.pinterest.com/pinterestuk/",
+          "https://in.pinterest.com/pinterestindia/",
+          "https://business.pinterest.com/",
+          "https://br.pinterest.com/pinterestbr/",
+          "https://help.pinterest.com/en/article/log-in-and-out-of-pinterest",
+          "https://business.pinterest.com/getting-started/",
+          "https://create.pinterest.com/creators/trends/"
+        ],
+        "candidates": [
+          "about.pinterest.com",
+          "br.pinterest.com",
+          "business.pinterest.com",
+          "create.pinterest.com",
+          "help.pinterest.com",
+          "in.pinterest.com",
+          "uk.pinterest.com",
+          "www.pinterest.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Americasvoice/Americasvoice.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Americasvoice",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.walmart.com/",
+          "https://www.walmart.com/all-departments",
+          "https://corporate.walmart.com/news/2026/06/09/walmart-deals-returns-june-22-through-28-2026",
+          "https://creator.walmart.com/account/login",
+          "https://careers.walmart.com/us/en/home",
+          "https://my.walmart.com/home",
+          "https://corporate.walmart.com/about/working-at-walmart/live-better-u",
+          "https://business.walmart.com/",
+          "https://delivery.walmart.com/login",
+          "https://careers.walmart.com/stores-clubs/walmart-store-jobs"
+        ],
+        "candidates": [
+          "business.walmart.com",
+          "careers.walmart.com",
+          "corporate.walmart.com",
+          "creator.walmart.com",
+          "delivery.walmart.com",
+          "my.walmart.com",
+          "walmart.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AnTianKeJi/AnTianKeJi.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "AnTianKeJi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/StudentLoans/comments/189aps8/anyone_else_get_a_natural_disaster_forbearance/",
+          "https://www.reddit.com/r/WGU/comments/1cwd53f/refund_question/",
+          "https://ficoforums.myfico.com/t5/Rebuilding-Your-Credit/Help-removing-late-payments-on-Nelnet-Student-loans/td-p/4925453",
+          "https://ficoforums.myfico.com/t5/Student-Loans/Nelnet-overpayment/td-p/6791658",
+          "https://www.reddit.com/r/StudentLoans/comments/15sr59r/great_lakes_payment_history/",
+          "https://www.reddit.com/r/StudentLoans/comments/17pamdu/nelnet_says_i_cant_make_principalonly_payments/",
+          "https://www.reddit.com/r/StudentLoans/comments/1767ls9/nelnet_placed_loan_into_admin_forbearance_until/",
+          "https://www.reddit.com/r/WGU/comments/15hyxmz/how_close_am_i_to_getting_my_refund_in_my_account/",
+          "https://www.reddit.com/r/VeteransBenefits/comments/14c2t2c/100_va_disability_tpd_discharge_nelnet/",
+          "https://www.reddit.com/r/StudentLoans/comments/18x9in4/how_to_get_help_if_your_loan_servicer_is_screwing/"
+        ],
+        "candidates": [
+          "ficoforums.myfico.com",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Anaconda/Anaconda.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Anaconda",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.anaconda.com/download",
+          "https://www.anaconda.com/",
+          "https://anaconda.org/",
+          "https://en.wikipedia.org/wiki/Anaconda",
+          "https://en.wikipedia.org/wiki/Anaconda_(Python_distribution)",
+          "https://anaconda.org/channels/anaconda/packages/python/overview",
+          "https://animals.howstuffworks.com/snakes/largest-anaconda.htm",
+          "https://pro.anaconda.com/",
+          "https://gizmodo.com/download/anaconda",
+          "https://conda.anaconda.org/anaconda/"
+        ],
+        "candidates": [
+          "anaconda.org",
+          "animals.howstuffworks.com",
+          "conda.anaconda.org",
+          "en.wikipedia.org",
+          "gizmodo.com",
+          "pro.anaconda.cloud",
+          "pro.anaconda.com",
+          "repo.anaconda.com",
+          "www.anaconda.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AnandTech/AnandTech.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "AnandTech",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://forums.anandtech.com/",
+          "https://en.wikipedia.org/wiki/AnandTech",
+          "https://arstechnica.com/gadgets/2024/08/anandtech-mainstay-of-computer-hardware-reviews-closes-after-27-years/",
+          "https://forums.anandtech.com/forums/politics-and-news.24/",
+          "https://www.tomshardware.com/",
+          "https://www.techpowerup.com/326107/anandtech-shuts-down-an-icon-of-tech-news-and-reviews-rides-into-the-sunset",
+          "https://www.theverge.com/2024/8/30/24232171/anandtech-tech-journalism-hardware",
+          "https://www.techspot.com/news/108967-anandtech-27-year-archive-has-vanished-but-someone.html",
+          "https://www.tomshardware.com/pc-components/cpus/news"
+        ],
+        "candidates": [
+          "arstechnica.com",
+          "en.wikipedia.org",
+          "forums.anandtech.com",
+          "it.anandtech.com",
+          "www.techpowerup.com",
+          "www.techspot.com",
+          "www.theverge.com",
+          "www.tomshardware.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Android/Android.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Android",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.android.com/",
+          "https://en.wikipedia.org/wiki/Android_(operating_system)",
+          "https://developer.android.com/studio",
+          "https://developer.android.com/studio/install",
+          "https://www.androidcentral.com/apps-software/android-os/android-17-is-finally-here",
+          "https://play.google.com/",
+          "https://www.androidauthority.com/what-is-android-328076/",
+          "https://source.android.com/",
+          "https://support.google.com/android/?hl=en",
+          "https://blog.google/products-and-platforms/platforms/android/"
+        ],
+        "candidates": [
+          "blog.google",
+          "developer.android.com",
+          "en.wikipedia.org",
+          "play.google.com",
+          "source.android.com",
+          "support.google.com",
+          "www.android.com",
+          "www.androidauthority.com",
+          "www.androidcentral.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Anime/Anime.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Anime",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.anime-planet.com/anime/watch-online/",
+          "https://www.crunchyroll.com/videos/popular",
+          "https://www.anime.com/shows",
+          "https://tubitv.com/category/anime",
+          "https://www.hidive.com/home",
+          "https://www.anime-planet.com/",
+          "https://anilist.co/search/anime",
+          "https://www.mewatch.sg/series/anime",
+          "https://www.anisearch.com/anime/streams",
+          "https://www.crunchyroll.com/"
+        ],
+        "candidates": [
+          "anilist.co",
+          "anisearch.com",
+          "tubitv.com",
+          "www.anime-planet.com",
+          "www.anime.com",
+          "www.anisearch.com",
+          "www.crunchyroll.com",
+          "www.hidive.com",
+          "www.mewatch.sg"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Anjuke/Anjuke.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Anjuke",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.youtube.com/",
+          "https://support.google.com/youtubetv/?hl=en",
+          "https://support.google.com/youtube/answer/95725?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://obsproject.com/forum/tags/youtube/",
+          "https://obsproject.com/forum/resources/youtube-chat-transparent-background-solely-css.486/",
+          "https://support.google.com/youtube/answer/6083634?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtube/answer/9288567?hl=en-GB",
+          "https://support.google.com/youtube/answer/2398242?hl=en&co=GENIE.Platform%3DAndroid",
+          "https://support.google.com/youtube/?hl=no",
+          "https://support.google.com/youtube/thread/470890423/prioritizing-original-content-on-shorts?hl=en"
+        ],
+        "candidates": [
+          "obsproject.com",
+          "support.google.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Anonv/Anonv.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Anonv",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.theconcert.com/concert",
+          "https://www.theconcert.com/concerts/serious-bacon-formyak-concert",
+          "https://admin.theconcert.com/login",
+          "https://www.theconcert.com/helpcenter/887",
+          "https://www.theconcert.com/concerts/lykn-unleashed-concert",
+          "https://www.theconcert.com/concert/4399",
+          "https://www.theconcert.com/concerts",
+          "https://www.theconcert.com/concert/4167",
+          "https://www.theconcert.com/concerts/colorists-music-festival-3",
+          "https://www.theconcert.com/concerts/monster-music-festival-2025"
+        ],
+        "candidates": [
+          "admin.theconcert.com",
+          "theconcert.com",
+          "www.theconcert.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Anthropic/Anthropic.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Anthropic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.anthropic.com/",
+          "https://claude.com/",
+          "https://en.wikipedia.org/wiki/Anthropic",
+          "https://www.anthropic.com/company",
+          "https://www.zacks.com/featured-articles/761/anthropic-ipo",
+          "https://claude.ai/",
+          "https://academy.claude.com/",
+          "https://claude.com/platform/api",
+          "https://en.wikipedia.org/wiki/Dario_Amodei",
+          "https://platform.claude.com/"
+        ],
+        "candidates": [
+          "academy.claude.com",
+          "claude.ai",
+          "claude.com",
+          "en.wikipedia.org",
+          "platform.claude.com",
+          "www.anthropic.com",
+          "www.zacks.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Antutu/Antutu.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Antutu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.antutu.com/web",
+          "https://www.antutu.com/web/ranking",
+          "https://en.m.wikipedia.org/wiki/AnTuTu",
+          "https://nanoreview.net/en/phone-list/antutu-rating",
+          "https://antuscore.com/",
+          "https://www.kimovil.com/en/best-smartphones-antutu",
+          "https://m.apkpure.com/antutu-benchmark/com.antutu.ABenchMark",
+          "https://www.antutu.com/web/download",
+          "https://www.antutu.com/web/pt",
+          "https://www.antutu.com/"
+        ],
+        "candidates": [
+          "antuscore.com",
+          "apkpure.com",
+          "en.m.wikipedia.org",
+          "kimovil.com",
+          "m.apkpure.com",
+          "nanoreview.net",
+          "www.antutu.com",
+          "www.kimovil.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Apifox/Apifox.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Apifox",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://apifox.com/",
+          "https://docs.apifox.com/download",
+          "https://apifox.com/api-design/",
+          "https://apifox.aiproducthub.cn/",
+          "https://apifox.com/help/index.html",
+          "https://docs.apifox.com/apifox-mcp-server",
+          "https://blog.csdn.net/NHB66666666/article/details/144752235",
+          "https://app.apifox.com/user/login",
+          "https://blog.csdn.net/m0_74907886/article/details/149811716",
+          "https://apifox.maxhub.com/help/overview/introduction/"
+        ],
+        "candidates": [
+          "apifox.aiproducthub.cn",
+          "apifox.com",
+          "apifox.maxhub.com",
+          "app.apifox.com",
+          "blog.csdn.net",
+          "docs.apifox.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Apkpure/Apkpure.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "Apkpure",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://apkpure.com/",
+          "https://apkpure.com/apkpure/com.apkpure.aegon",
+          "https://apkpure.net/apkpure/com.apkpure.aegon",
+          "https://apkpure.net/",
+          "https://apkpure.en.uptodown.com/android",
+          "https://apkpure.en.softonic.com/android",
+          "https://m.apkpure.com/category",
+          "https://apkpure.com/es/",
+          "https://apkpure.com/apkpure-app.html",
+          "https://apkpure.com/app"
+        ],
+        "candidates": [
+          "apkpure.com",
+          "apkpure.en.softonic.com",
+          "apkpure.en.uptodown.com",
+          "apkpure.net",
+          "m.apkpure.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppLovin/AppLovin.yaml": {
+        "checked_at": "2026-11-03 18:59 UTC",
+        "name": "AppLovin",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.applovin.com/",
+          "https://en.wikipedia.org/wiki/AppLovin",
+          "https://finance.yahoo.com/quote/APP/",
+          "https://support.applovin.com/en",
+          "https://max.applovin.com/login",
+          "https://financhle.com/articles/what-does-applovin-do",
+          "https://ads.applovin.com/auth/signin",
+          "https://investors.applovin.com/",
+          "https://max.applovin.com/signup",
+          "https://whop.com/blog/what-is-applovin/"
+        ],
+        "candidates": [
+          "ads.applovin.com",
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "financhle.com",
+          "investors.applovin.com",
+          "max.applovin.com",
+          "support.applovin.com",
+          "whop.com",
+          "www.applovin.com"
         ],
         "accepted": [],
         "ownership_evidence": []
