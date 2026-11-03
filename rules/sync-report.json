@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-02 21:20 UTC",
+  "date": "2026-11-03 05:08 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-02 21:20 UTC",
-    "next_index": 31,
+    "checked_at": "2026-11-03 05:08 UTC",
+    "next_index": 55,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -150092,23 +150092,31 @@
         "ownership_evidence": []
       },
       "AdGuardSDNSFilter/AdGuardSDNSFilter.list": {
-        "checked_at": "2026-10-25 17:55 UTC",
+        "checked_at": "2026-11-03 05:08 UTC",
         "name": "AdGuardSDNSFilter",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.mbofnorthscottsdale.com/",
-          "https://www.mbofnorthscottsdale.com/about-us/staff/",
-          "https://www.mbofnorthscottsdale.com/service/schedule-service-a-and-b/",
-          "https://www.mbofnorthscottsdale.com/parts/order-parts/",
-          "https://www.mbofnorthscottsdale.com/used-vehicles/",
-          "https://www.mbofnorthscottsdale.com/about-us/",
-          "https://www.mbofnorthscottsdale.com/service/",
-          "https://www.mbofnorthscottsdale.com/scheduleservice/",
-          "https://www.mbofnorthscottsdale.com/parts/",
-          "https://www.mbofnorthscottsdale.com/parts-specials/"
+          "https://www.fitgearsource.com/google-fitbit-google-health-2/",
+          "https://blog.google/products-and-platforms/devices/fitbit/fitbit-personal-health-coach-updates-2026/",
+          "https://blog.google/products-and-platforms/products/google-health/fitbit-google-health-updates/",
+          "https://runninglookout.com/news/fitbit-personal-health-coach-2026/",
+          "https://techwey.com/fitbit-ai-personal-health-coach-all-you-need-to-know-about-googles-gemini-powered-fitness-revolution/",
+          "https://www.analyticsinsight.net/gadgets/how-fitbit-can-leverage-edge-ai-for-smarter-health-insights",
+          "https://hlth.com/insights/news/google-expands-ai-healthcare-tools-and-integrates-medical-records-into-fitbit-with-cms-clear-and-athenahealth-2026-03-19",
+          "https://gbej.org/fitbits-future-new-hardware-and-ai-integration/",
+          "https://www.techtimes.com/articles/315296/20260320/fitbits-ai-health-push-involves-googles-new-coach-feature-your-personal-data-safe.htm",
+          "https://techcrunch.com/2026/02/03/fitbit-founders-launch-ai-platform-to-help-families-monitor-their-health/"
         ],
         "candidates": [
-          "www.mbofnorthscottsdale.com"
+          "blog.google",
+          "gbej.org",
+          "hlth.com",
+          "runninglookout.com",
+          "techcrunch.com",
+          "techwey.com",
+          "www.analyticsinsight.net",
+          "www.fitgearsource.com",
+          "www.techtimes.com"
         ],
         "accepted": [],
         "ownership_evidence": []
@@ -168699,6 +168707,632 @@
         ],
         "candidates": [
           "social.msdn.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Abema/Abema.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Abema",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.temporaryhvac.com/spot-cooler-rental/pawtucket-rhode-island/",
+          "https://www.temporaryhvac.com/service-areas/rhode-island/pawtucket/",
+          "https://www.rubbl.com/equipment-rentals/Portable%20Air%20Conditioner/Pawtucket-RI",
+          "https://www.yellowpages.com/pawtucket-ri/portable-ac-rental",
+          "https://paratusairconditioningrentals.com/location/paratus-air-conditioner-rental-pawtucket-ri-up-to-80-tons/",
+          "https://www.superpages.com/pawtucket-ri/portable-air-conditioners-rental-and-leasing",
+          "https://www.yellowpages.com/pawtucket-ri/portable-a-c-rentals",
+          "https://www.superpages.com/pawtucket-ri/air-conditioning-rental-and-leasing",
+          "https://www.unitedrentals.com/marketplace/equipment/hvac-equipment/air-conditioners/portable-air-conditioners-spot-coolers",
+          "https://www.sunbeltrentals.com/equipment-rental/cooling-heating-drying-and-indoor-air-quality/1-ton-classic-portable-air-conditioner-dehumidifier/1070110/"
+        ],
+        "candidates": [
+          "paratusairconditioningrentals.com",
+          "superpages.com",
+          "www.rubbl.com",
+          "www.sunbeltrentals.com",
+          "www.superpages.com",
+          "www.temporaryhvac.com",
+          "www.unitedrentals.com",
+          "www.yellowpages.com",
+          "yp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AbemaTV/AbemaTV.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AbemaTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://abema.tv/",
+          "https://abema.tv/now-on-air/abema-anime",
+          "https://en.wikipedia.org/wiki/Abema",
+          "https://www.abema-global.com/en",
+          "https://ja.wikipedia.org/wiki/ABEMA",
+          "https://www.youtube.com/c/AbemaTV/videos",
+          "https://www.wikiwand.com/en/Abema",
+          "https://www.abema-global.com/en/about",
+          "https://abema.tv/now-on-air/drama"
+        ],
+        "candidates": [
+          "abema.tv",
+          "en.wikipedia.org",
+          "ja.wikipedia.org",
+          "www.abema-global.com",
+          "www.wikiwand.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AcFun/AcFun.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AcFun",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.acfun.cn/",
+          "https://en.wikipedia.org/wiki/AcFun",
+          "https://tv.yandex.com/search?text=Acfun&lr=21206",
+          "https://zh.wikipedia.org/wiki/AcFun",
+          "https://x.com/acfun_",
+          "https://acfun.my/",
+          "https://acfun.biz/",
+          "https://www.acfun.hl.cn/",
+          "https://open.app.acfun.cn/home/",
+          "https://apps.microsoft.com/detail/xp9cphgd7gbp9c?hl=zh-CN&gl=CN"
+        ],
+        "candidates": [
+          "acfun.biz",
+          "acfun.my",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "open.app.acfun.cn",
+          "tv.yandex.com",
+          "www.acfun.cn",
+          "www.acfun.hl.cn",
+          "x.com",
+          "zh.wikipedia.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Accuweather/Accuweather.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Accuweather",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.accuweather.com/",
+          "https://www.accuweather.com/en/browse-locations",
+          "https://wwwl.accuweather.com/",
+          "https://wwwl.accuweather.com/pro_login.php",
+          "https://granite.accuweather.com/hosted/granite/index.asp",
+          "https://app.accuweather.com/app-download",
+          "https://www.weatherbug.com/",
+          "https://abc7.com/weather/",
+          "https://en.m.wikipedia.org/wiki/AccuWeather"
+        ],
+        "candidates": [
+          "abc7.com",
+          "accuweather.com",
+          "app.accuweather.com",
+          "en.m.wikipedia.org",
+          "granite.accuweather.com",
+          "www.accuweather.com",
+          "www.weatherbug.com",
+          "wwwl.accuweather.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Acer/Acer.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Acer",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.acer.com/us-en",
+          "https://www.acer.com/us-en/support/drivers-and-manuals",
+          "https://store.acer.com/en-us/",
+          "https://en.wikipedia.org/wiki/Acer_Inc.",
+          "https://store.acer.com/en-in/",
+          "https://blog.acer.com/en",
+          "https://service.acer.com/chat/support/en/US/",
+          "https://community.acer.com/en/kb/articles/117-downloading-and-installing-drivers-for-acer-products",
+          "https://www.bestbuy.com/site/acer/acer-laptops/pcmcat1602772370014.c?id=pcmcat1602772370014",
+          "https://community.acer.com/en"
+        ],
+        "candidates": [
+          "blog.acer.com",
+          "community.acer.com",
+          "en.wikipedia.org",
+          "service.acer.com",
+          "store.acer.com",
+          "www.acer.com",
+          "www.bestbuy.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Acplay/Acplay.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Acplay",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.youtube.com/",
+          "https://support.google.com/youtube/answer/6083634?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://obsproject.com/forum/resources/youtube-chat-transparent-background-solely-css.486/",
+          "https://support.google.com/youtube/threads?hl=en",
+          "https://obsproject.com/forum/resources/tuna.843/",
+          "https://support.google.com/youtube/answer/2398242?hl=en-GB&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/youtube/answer/9288567?hl=en-GB",
+          "https://support.google.com/youtube/answer/1311392?hl=en-gb",
+          "https://support.google.com/youtube/?hl=sv",
+          "https://support.google.com/youtube/answer/2807691?hl=en"
+        ],
+        "candidates": [
+          "obsproject.com",
+          "support.google.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Actalis/Actalis.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Actalis",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/",
+          "https://account.microsoft.com/account",
+          "https://www.microsoft.com/",
+          "https://myaccount.microsoft.com/",
+          "https://myaccount.microsoft.com/?login",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://account.microsoft.com/account-checkup",
+          "https://apps.microsoft.com/",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://support.microsoft.com/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AdColony/AdColony.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AdColony",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.kecohardware.com/page86",
+          "https://www.kecohardware.com/",
+          "https://www.kecohardware.com/DETAILS?product_id=639",
+          "https://www.kecohardware.com/DETAILS?product_id=763",
+          "https://www.kecohardware.com/DETAILS?product_id=13",
+          "https://www.kecohardware.com/DETAILS?product_id=29",
+          "https://www.kecohardware.com/DETAILS?product_id=404"
+        ],
+        "candidates": [
+          "kaierhardware.com",
+          "www.kecohardware.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AdGuardSDNSFilter/Direct/Direct.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Direct",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.directv.com/directv-login/",
+          "https://www.directv.com/",
+          "https://www.usdirect.com/packages",
+          "https://www.directauto.com/",
+          "https://www.merriam-webster.com/dictionary/direct",
+          "https://www.usdirect.com/",
+          "https://www.get.directv.com/",
+          "https://www.microsoft.com/en-US/download/details.aspx?id=35",
+          "https://stream.directv.com/login",
+          "https://en.wikipedia.org/wiki/DirecTV"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "microsoft.com",
+          "stream.directv.com",
+          "www.directauto.com",
+          "www.directv.com",
+          "www.get.directv.com",
+          "www.merriam-webster.com",
+          "www.microsoft.com",
+          "www.usdirect.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AddToAny/AddToAny.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AddToAny",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.anylabtestnow.com/",
+          "https://www.anylabtestnow.com/frequently-asked-questions/about-lab-testing/",
+          "https://altn.telemedsimplified.com/",
+          "https://www.yelp.com/brands/any-lab-test-now",
+          "https://requestatest.com/",
+          "https://easystd.com/any-lab-test-now-review",
+          "https://millennialhawk.com/any-lab-test-now-review/",
+          "https://justlabs.health/blog/lab-test-turnaround-times",
+          "https://www.yelp.com/biz/any-lab-test-now-plano-2",
+          "https://labavailability.com/guides/how-long-lab-results-take/"
+        ],
+        "candidates": [
+          "altn.telemedsimplified.com",
+          "anylabtestnow.com",
+          "easystd.com",
+          "justlabs.health",
+          "labavailability.com",
+          "millennialhawk.com",
+          "requestatest.com",
+          "www.anylabtestnow.com",
+          "www.yelp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Addthis/Addthis.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Addthis",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.facebook.com/",
+          "https://en.wikipedia.org/wiki/Facebook",
+          "https://secure.facebook.com/login/",
+          "https://l.facebook.com/facebook/",
+          "https://www.facebook.com/login.php/",
+          "https://x.com/facebook",
+          "https://upload.facebook.com/login/identify/",
+          "https://secure.facebook.com/r.php/?entry_point=login",
+          "https://m.me/login/",
+          "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_US"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "fb.me",
+          "l.facebook.com",
+          "m.me",
+          "play.google.com",
+          "secure.facebook.com",
+          "upload.facebook.com",
+          "www.facebook.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Adidas/Adidas.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Adidas",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.adidas.com/us",
+          "https://www.adidas.com/us/welcome",
+          "https://en.wikipedia.org/wiki/Adidas",
+          "https://www.dickssportinggoods.com/s/brand-shop/adidas",
+          "https://www.adidas.com/us/shoes",
+          "https://www.adidas.com/us/originals",
+          "https://www.adidas.com/us/sale",
+          "https://www.adidas.com/us/men-shoes",
+          "https://www.adidas.com/us/men",
+          "https://www.amazon.com/stores/adidas/page/5E398A61-45C7-46F9-A6C6-5B4797CC5063"
+        ],
+        "candidates": [
+          "amazon.com",
+          "en.wikipedia.org",
+          "www.adidas.com",
+          "www.amazon.com",
+          "www.dickssportinggoods.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Adobe/Adobe.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Adobe",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.adobe.com/",
+          "https://get.adobe.com/reader/",
+          "https://account.adobe.com/",
+          "https://www.adobe.com/acrobat/pdf-reader.html",
+          "https://acrobat.adobe.com/us/en/",
+          "https://account.adobe.com/sign-in",
+          "https://photoshop.adobe.com/?promoid=DZTGZS8L&mv=other&mv2=unav&lang=en"
+        ],
+        "candidates": [
+          "account.adobe.com",
+          "acrobat.adobe.com",
+          "get.adobe.com",
+          "photoshop.adobe.com",
+          "www.adobe.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AdobeActivation/AdobeActivation.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AdobeActivation",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.amazon.com/",
+          "https://www.amazon.com/-/es/",
+          "https://pharmacy.amazon.com/",
+          "https://amc.amazon.com/",
+          "https://vendorcentral.amazon.com/",
+          "https://selection.amazon.com/sign-in?redirect_to=%2F&mons_redirect=sign_in",
+          "https://ship.amazon.com/",
+          "https://shipping.amazon.com/",
+          "https://learn.amazon.com/",
+          "https://business.amazon.com/"
+        ],
+        "candidates": [
+          "amazon.com",
+          "amc.amazon.com",
+          "business.amazon.com",
+          "learn.amazon.com",
+          "pharmacy.amazon.com",
+          "selection.amazon.com",
+          "ship.amazon.com",
+          "shipping.amazon.com",
+          "vendorcentral.amazon.com",
+          "www.amazon.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Advertising/Advertising.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Advertising",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Advertising",
+          "https://ejje.weblio.jp/content/advertising",
+          "https://www.britannica.com/money/advertising",
+          "https://business.adobe.com/blog/basics/advertising",
+          "https://www.merriam-webster.com/dictionary/advertising",
+          "https://dictionary.cambridge.org/dictionary/english/advertising",
+          "https://dictionary.cambridge.org/ja/dictionary/english/advertising",
+          "https://ejje.weblio.jp/content/advertisement",
+          "https://engoo.jp/app/words/word/advertising/zga0ELstQmCjlQAAAAEZzg",
+          "https://www.themediaant.com/blog/what-is-advertising/"
+        ],
+        "candidates": [
+          "business.adobe.com",
+          "dictionary.cambridge.org",
+          "ejje.weblio.jp",
+          "en.wikipedia.org",
+          "engoo.jp",
+          "www.britannica.com",
+          "www.merriam-webster.com",
+          "www.themediaant.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AdvertisingLite/AdvertisingLite.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AdvertisingLite",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Sieve_theory",
+          "https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes",
+          "https://mathworld.wolfram.com/Sieve.html",
+          "https://ford126.web.illinois.edu/sieve2023.pdf",
+          "https://math.berkeley.edu/~avizeff/additive/talk_10.pdf",
+          "https://andrewodesky.com/res/sieves.pdf",
+          "https://personal.science.psu.edu/rcv4/personal/Publications/MNTI/07.0_pp_76_107_Principles_and_first_examples_of_sieve_methods.pdf",
+          "https://www.geeksforgeeks.org/maths/sieve-of-eratosthenes-maths/",
+          "https://www.youtube.com/watch?v=FERLTDTmxFM",
+          "https://www.geeksforgeeks.org/dsa/sieve-of-eratosthenes/"
+        ],
+        "candidates": [
+          "andrewodesky.com",
+          "en.wikipedia.org",
+          "ford126.web.illinois.edu",
+          "math.berkeley.edu",
+          "mathworld.wolfram.com",
+          "personal.science.psu.edu",
+          "www.geeksforgeeks.org",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AdvertisingMiTV/AdvertisingMiTV.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AdvertisingMiTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.tripadvisor.com/Hotels-g56081-Kilgore_Texas-Hotels.html",
+          "https://www.booking.com/city/us/kilgore.html",
+          "https://www.hotels.com/de1536291/hotels-kilgore-texas/",
+          "https://www.expedia.com/Kilgore-Hotels.d6094.Travel-Guide-Hotels",
+          "https://www.ihg.com/kilgore-texas",
+          "https://visitkilgore.com/hotels/",
+          "https://www.tripadvisor.com/HotelsNear-g56081-d18883666-75662-Kilgore_Texas.html",
+          "https://exploretexas.com/blog/hotels-in-kilgore-texas/",
+          "https://www.ihg.com/holidayinnexpress/hotels/us/en/kilgore/gggki/hoteldetail",
+          "https://www.wyndhamhotels.com/hawthorn-extended-stay/kilgore-texas/hawthorn-extended-stay-kilgore/overview"
+        ],
+        "candidates": [
+          "booking.com",
+          "exploretexas.com",
+          "hotels.com",
+          "visitkilgore.com",
+          "www.booking.com",
+          "www.expedia.com",
+          "www.hotels.com",
+          "www.ihg.com",
+          "www.tripadvisor.com",
+          "www.wyndhamhotels.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AdvertisingTest/AdvertisingTest.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AdvertisingTest",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.delta.com/",
+          "https://en.m.wikipedia.org/wiki/Delta_Air_Lines",
+          "https://www.delta.com/intl/en",
+          "https://es.delta.com/",
+          "https://www.expedia.com/Delta-Flights.cDL.Travel-Guide-Airlines",
+          "https://content.delta.com/my-trips/search",
+          "https://www.kayak.com/Delta.DL.airline.html",
+          "https://www.facebook.com/delta/",
+          "https://x.com/Delta",
+          "https://www.delta.com/us/en/booking-information/overview"
+        ],
+        "candidates": [
+          "content.delta.com",
+          "delta.com",
+          "en.m.wikipedia.org",
+          "es.delta.com",
+          "www.delta.com",
+          "www.expedia.com",
+          "www.facebook.com",
+          "www.kayak.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Aerogard/Aerogard.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Aerogard",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/unpopularopinion/comments/qiatus/xvideos_is_better_than_pornhub/",
+          "https://www.reddit.com/r/techsupport/comments/1xcpdl/on_certain_porn_sites_xvideoscom_and_xnxxcom_the/",
+          "https://www.typologycentral.com/threads/candy-mountain.13040/",
+          "https://www.typologycentral.com/threads/world-of-warcraft-classes-matching-archetypes-with-archetypes.21665/",
+          "https://www.reddit.com/r/NoStupidQuestions/comments/4zs8g2/is_xnxx_safe_i_may_have_accidentally_viewed/",
+          "https://www.reddit.com/r/unpopular/comments/kd9eys/pornography_banned_words_on_xnxx_xvideos_and/",
+          "https://www.reddit.com/r/AskReddit/comments/vibpj/reddit_what_is_your_goto_site_for_pornography/",
+          "https://www.reddit.com/r/GirlsFinishingTheJob/about/",
+          "https://www.reddit.com/r/TinyCuteTeen/",
+          "https://www.reddit.com/r/NoStupidQuestions/comments/x7aha3/why_is_xnxx_seen_as_a_worse_porn_site_compared_to/"
+        ],
+        "candidates": [
+          "www.reddit.com",
+          "www.typologycentral.com",
+          "xnxx.com",
+          "xvideos.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Afdian/Afdian.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Afdian",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.mrhsomaha.com/",
+          "https://www.mrhsomaha.com/location/omaha-ne",
+          "https://ourhealthnetwork.com/group-practice/midwest-regional-health-services-llc-omaha-ne-2567454564",
+          "https://doctor.webmd.com/practice/midwest-regional-health-services-llc-072853a7-69de-47dc-a12b-0f072fc5becd",
+          "https://www.vitals.com/practice/midwest-regional-health-services-llc-072853a7-69de-47dc-a12b-0f072fc5becd",
+          "https://www.chamberofcommerce.com/business-directory/nebraska/omaha/general-practitioner/2011964566-midwest-regional-health-services",
+          "https://midwesternregional.com/",
+          "https://www.faith.health/",
+          "https://www.whereorg.com/midwest-regional-health-service-9911354",
+          "https://form.jotform.com/212216663536050"
+        ],
+        "candidates": [
+          "doctor.webmd.com",
+          "form.jotform.com",
+          "midwesternregional.com",
+          "ourhealthnetwork.com",
+          "vitals.com",
+          "www.chamberofcommerce.com",
+          "www.faith.health",
+          "www.mrhsomaha.com",
+          "www.vitals.com",
+          "www.whereorg.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Agora/Agora.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "Agora",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.agoracares.org/",
+          "https://en.wikipedia.org/wiki/Agora",
+          "https://www.agora.io/en/",
+          "https://mentalhealth.unm.edu/resources/agora-crisis-center.html",
+          "https://agora.org/",
+          "https://www.agora.io/en/about-us/",
+          "https://agorareal.com/"
+        ],
+        "candidates": [
+          "agora.org",
+          "agorareal.com",
+          "en.wikipedia.org",
+          "mentalhealth.unm.edu",
+          "www.agora.io",
+          "www.agoracares.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AiQiCha/AiQiCha.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AiQiCha",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://aiqicha.baidu.com/",
+          "https://baike.baidu.com/en/item/AiQiCha/14497",
+          "https://aiqicha.baidu.com/global",
+          "https://www.aiqicha.com/check",
+          "https://www.aiqicha.com/m/downapp?VNK=a2c1cad9",
+          "https://qiye.baidu.com/usercenter?fl=1"
+        ],
+        "candidates": [
+          "aiqicha.baidu.com",
+          "aiqicha.com",
+          "baike.baidu.com",
+          "qiye.baidu.com",
+          "www.aiqicha.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AirChina/AirChina.yaml": {
+        "checked_at": "2026-11-03 05:08 UTC",
+        "name": "AirChina",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.airchina.com.cn/en-US",
+          "https://www.airchina.us/US/GB/Home",
+          "https://www.airchina.com.cn/",
+          "https://m.airchina.com.cn/?lang=en_US",
+          "https://www.airchina.us/US/CN/Home"
+        ],
+        "candidates": [
+          "m.airchina.com.cn",
+          "www.airchina.com",
+          "www.airchina.com.cn",
+          "www.airchina.us"
         ],
         "accepted": [],
         "ownership_evidence": []
