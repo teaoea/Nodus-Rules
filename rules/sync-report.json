@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-04 04:39 UTC",
+  "date": "2026-11-04 19:17 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-04 04:39 UTC",
-    "next_index": 103,
+    "checked_at": "2026-11-04 19:17 UTC",
+    "next_index": 127,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -149041,20 +149041,14 @@
           "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Claude/Claude.list"
         ]
       },
-      "OpenAI/OpenAI.yaml": {
+      "Copilot/Copilot.yaml": {
         "rules": [
-          "domain-suffix,oaistatsig.com"
+          "domain,copilot.cloud.microsoft",
+          "domain,copilot.com"
         ],
         "evidence": [
-          "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
-        ]
-      },
-      "Notion/Notion.yaml": {
-        "rules": [
-          "domain-suffix,notionusercontent.com"
-        ],
-        "evidence": [
-          "https://www.notion.com/help/allowlist-ip"
+          "https://support.microsoft.com/en-us/microsoft-365-copilot/troubleshoot-content-copilot-app",
+          "https://learn.microsoft.com/en-us/copilot/manage/manage-copilot-chat"
         ]
       },
       "Docker/Docker.yaml": {
@@ -149066,12 +149060,20 @@
           "https://docs.docker.com/dhi/how-to/use/"
         ]
       },
-      "Teams/Teams.yaml": {
+      "Figma/Figma.yaml": {
         "rules": [
-          "domain-suffix,teams.cloud.microsoft"
+          "domain-suffix,figma.site"
         ],
         "evidence": [
-          "https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges"
+          "https://help.figma.com/hc/en-us/articles/19424714305943-Adjust-your-network-settings"
+        ]
+      },
+      "Gemini/Gemini.yaml": {
+        "rules": [
+          "domain,cloudaicompanion.googleapis.com"
+        ],
+        "evidence": [
+          "https://docs.cloud.google.com/gemini/docs/codeassist/code-overview#known-issues"
         ]
       },
       "GitHub/GitHub.yaml": {
@@ -149083,30 +149085,28 @@
           "https://docs.github.com/en/copilot/reference/copilot-allowlist-reference"
         ]
       },
-      "Figma/Figma.yaml": {
+      "Notion/Notion.yaml": {
         "rules": [
-          "domain-suffix,figma.site"
+          "domain-suffix,notionusercontent.com"
         ],
         "evidence": [
-          "https://help.figma.com/hc/en-us/articles/19424714305943-Adjust-your-network-settings"
+          "https://www.notion.com/help/allowlist-ip"
         ]
       },
-      "Copilot/Copilot.yaml": {
+      "OpenAI/OpenAI.yaml": {
         "rules": [
-          "domain,copilot.cloud.microsoft",
-          "domain,copilot.com"
+          "domain-suffix,oaistatsig.com"
         ],
         "evidence": [
-          "https://support.microsoft.com/en-us/microsoft-365-copilot/troubleshoot-content-copilot-app",
-          "https://learn.microsoft.com/en-us/copilot/manage/manage-copilot-chat"
+          "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
         ]
       },
-      "Gemini/Gemini.yaml": {
+      "Teams/Teams.yaml": {
         "rules": [
-          "domain,cloudaicompanion.googleapis.com"
+          "domain-suffix,teams.cloud.microsoft"
         ],
         "evidence": [
-          "https://docs.cloud.google.com/gemini/docs/codeassist/code-overview#known-issues"
+          "https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges"
         ]
       }
     },
@@ -170686,6 +170686,671 @@
           "www.bocombbm.com.br",
           "www.bocomgroup.com",
           "www.bocommleasing.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Bahamut/Bahamut.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Bahamut",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Bahamut",
+          "https://forgottenrealms.fandom.com/wiki/Bahamut",
+          "https://finalfantasy.fandom.com/wiki/Bahamut",
+          "https://en.wikipedia.org/wiki/Bahamut_(Dungeons_%26_Dragons)",
+          "https://mythology.net/mythical-creatures/bahamut/",
+          "https://godsandmonsters.info/bahamut/",
+          "https://mythicalcreatures.info/characters/bahamut/",
+          "https://villains.fandom.com/wiki/Bahamut_(Shingeki_no_Bahamut)",
+          "https://mythus.fandom.com/wiki/Bahamut",
+          "https://www.gamer.com.tw/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "finalfantasy.fandom.com",
+          "forgottenrealms.fandom.com",
+          "godsandmonsters.info",
+          "mythicalcreatures.info",
+          "mythology.net",
+          "mythus.fandom.com",
+          "villains.fandom.com",
+          "www.gamer.com.tw"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BaiDuTieBa/BaiDuTieBa.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BaiDuTieBa",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://blog.hubspot.com/website/how-to-pick-a-domain-extension",
+          "https://blog.hubspot.com/website/best-one-page-wordpress-theme",
+          "https://blog.hubspot.com/website/io-domains",
+          "https://blog.hubspot.com/marketing/website-plugins",
+          "https://blog.hubspot.com/marketing/best-marketing-campaigns",
+          "https://blog.hubspot.com/marketing/marketing-techniques",
+          "https://blog.hubspot.com/website/best-wordpress-hotel-booking-system-plugins",
+          "https://blog.hubspot.com/marketing/google-adwords-ppc",
+          "https://blog.hubspot.com/website/divi-vs-elementor",
+          "https://blog.hubspot.com/marketing/brand-extensions"
+        ],
+        "candidates": [
+          "blog.hubspot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BaiFenDian/BaiFenDian.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BaiFenDian",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.tasteofhome.com/collection/quick-and-easy-desserts/",
+          "https://www.allrecipes.com/quick-dessert-recipes-11872855",
+          "https://www.allrecipes.com/recipes/2821/everyday-cooking/quick-and-easy/desserts/",
+          "https://www.tasteofhome.com/collection/easy-pantry-desserts/",
+          "https://www.simplyrecipes.com/quick-dessert-recipes-12021611",
+          "https://www.bettycrocker.com/recipes/courses/dessert-recipes/quick-easy-desserts",
+          "https://sallysbakingaddiction.com/quick-easy-dessert-recipes/",
+          "https://www.foodnetwork.com/recipes/photos/quick-dessert-recipes",
+          "https://www.seriouseats.com/quick-dessert-recipes-to-satisfy-your-sweet-tooth",
+          "https://www.simplyrecipes.com/easy-beginner-dessert-recipes-11900893"
+        ],
+        "candidates": [
+          "sallysbakingaddiction.com",
+          "www.allrecipes.com",
+          "www.bettycrocker.com",
+          "www.foodnetwork.com",
+          "www.seriouseats.com",
+          "www.simplyrecipes.com",
+          "www.tasteofhome.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BaiShanYunKeJi/BaiShanYunKeJi.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BaiShanYunKeJi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gamestop.com/",
+          "https://www.gamestop.com/store/us/il/bloomingdale/539/bloomingdale-court-gamestop",
+          "https://www.gamestop.com/store/us/ma/chicopee/3132/chicopee-marketplace-gamestop",
+          "https://powerpacks.gamestop.com/packs",
+          "https://powerpacks.gamestop.com/",
+          "https://news.gamestop.com/newsroom/",
+          "https://www.gamestop.com/gaming-accessories/gaming-headsets",
+          "https://www.gamestop.com/toys-games/trading-cards/baseball-trading-cards",
+          "https://www.gamestop.com/gaming-accessories/xbox-one-accessories",
+          "https://www.gamestop.com/consoles-hardware/nintendo-switch/nintendo-switch-amiibo"
+        ],
+        "candidates": [
+          "news.gamestop.com",
+          "powerpacks.gamestop.com",
+          "www.gamestop.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Baidu/Baidu.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Baidu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.baidu.com/",
+          "https://www.baidu.com/Index.htm",
+          "https://wap.baidu.com/",
+          "https://feed.baidu.com/",
+          "https://en.wikipedia.org/wiki/Baidu",
+          "https://pan.baidu.com/",
+          "https://global.baidu.com/s",
+          "https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6/6699",
+          "https://mc.baidu.com/s?word=%E7%99%BE%E5%BA%A6%E4%B8%80%E4%B8%8B%E4%BD%A0%E5%B0%B1%E7%9F%A5%E9%81%93%E5%AE%98%E7%BD%91&sa=brs_6&rq=%E7%99%BE%E5%BA%A6%E4%B8%80%E4%B8%8B&rsf=102631600&pqid=9029035603506794775&rqid=9029035603506794775&params_ssrt=node-san",
+          "https://mc.baidu.com/?ssid=0&bd_af=1"
+        ],
+        "candidates": [
+          "baidu.com",
+          "baike.baidu.com",
+          "en.wikipedia.org",
+          "feed.baidu.com",
+          "global.baidu.com",
+          "home.baidu.com",
+          "m.baidu.com",
+          "mc.baidu.com",
+          "pan.baidu.com",
+          "wap.baidu.com",
+          "www.baidu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BaoFengYingYin/BaoFengYingYin.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BaoFengYingYin",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.clickondetroit.com/",
+          "https://www.clickondetroit.com/contests/",
+          "https://help.clickondetroit.com/kb/section/15/",
+          "https://vote4thebest.clickondetroit.com/",
+          "https://help.clickondetroit.com/kb/article/239-how-do-i-contact-local-4-news/",
+          "https://www.clickondetroit.com/weather/alerts/",
+          "https://www.clickondetroit.com/weather/radar/",
+          "https://www.clickondetroit.com/weather/",
+          "https://www.clickondetroit.com/news/local/2026/05/11/he-was-a-ghost-since-94-detroit-murder-suspect-caught-after-30-years-on-the-run-in-panama/",
+          "https://www.clickondetroit.com/topic/Weather_Forecast/"
+        ],
+        "candidates": [
+          "clickondetroit.com",
+          "help.clickondetroit.com",
+          "vote4thebest.clickondetroit.com",
+          "www.clickondetroit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BardAI/BardAI.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BardAI",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://drive.google.com/",
+          "https://support.google.com/drive/answer/2424384?hl=de&co=GENIE.Platform=iOS",
+          "https://support.google.com/drive/answer/2424384?hl=vi&co=GENIE.Platform%3DAndroid",
+          "https://support.google.com/drive/answer/1716222",
+          "https://support.google.com/drive/answer/2424384?hl=nl&co=GENIE.Platform%3DiOS",
+          "https://support.google.com/drive/answer/2424368?hl=sv&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/googleone/answer/9003634?hl=en&co=GENIE.Platform%3DDesktop",
+          "https://support.google.com/drive/answer/2456903?hl=ar",
+          "https://support.google.com/drive/?hl=tr",
+          "https://support.google.com/drive/answer/1716222?hl=en&co=GENIE.Platform=Android"
+        ],
+        "candidates": [
+          "drive.google.com",
+          "support.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Battle/Battle.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Battle",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://us.shop.battle.net/en-us",
+          "https://download.battle.net/en-us/desktop",
+          "https://battlesports.com/",
+          "https://www.blizzard.com/login",
+          "https://en.wikipedia.org/wiki/Battle.net",
+          "https://en.wikipedia.org/wiki/Battle",
+          "https://www.crazygames.com/t/battle",
+          "https://us.shop.battle.net/en-us/family/world-of-warcraft",
+          "https://www.blizzard.com/",
+          "https://us.account.battle.net/login?theme=blizzard&app=s1&flowTrackingId=a9723167-875e-4e9e-8b03-01b8ef0692a0&continuation-type=DOWNLOAD_PHOENIX&client-environment=STANDALONE_BROWSER"
+        ],
+        "candidates": [
+          "battle.net",
+          "battlesports.com",
+          "download.battle.net",
+          "en.wikipedia.org",
+          "us.account.battle.net",
+          "us.shop.battle.net",
+          "www.blizzard.com",
+          "www.crazygames.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BeStore/BeStore.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BeStore",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://bestoresnacks.com/",
+          "https://www.weee.com/en/brand/detail/Bestore/eMjZVAxD",
+          "https://bestores.com/about-us/",
+          "https://bestoresnacks.com/collections/all",
+          "https://www.517lppz.com/en/",
+          "https://www.yami.com/us/en/b/bestore/3065",
+          "https://bestores.com/",
+          "https://www.amazon.com/clp/B09XDKCDG5",
+          "https://yumsbox.com/collections/bestore",
+          "https://autel.app/"
+        ],
+        "candidates": [
+          "amazon.com",
+          "autel.app",
+          "bestores.com",
+          "bestoresnacks.com",
+          "www.517lppz.com",
+          "www.amazon.com",
+          "www.weee.com",
+          "www.yami.com",
+          "yumsbox.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Beats/Beats.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Beats",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.beatsbydre.com/",
+          "https://www.beatsbydre.com/products",
+          "https://www.bestbuy.com/site/beats-headphones/beats-wireless-headphones/pcmcat748300634768.c?id=pcmcat748300634768",
+          "https://www.target.com/b/beats/-/N-s64q0",
+          "https://www.apple.com/shop/accessories/all/headphones-speakers/beats",
+          "https://en.wikipedia.org/wiki/Beats_(brand)",
+          "https://www.bestbuy.com/site/beats-headphones/beats-earphones/pcmcat748300634839.c?id=pcmcat748300634839",
+          "https://www.apple.com/shop/beats/accessories",
+          "https://www.amazon.com/Headphones-Earbuds-Beats-Accessories/s?rh=n%3A172541%2Cp_89%3ABeats",
+          "https://www.amazon.com/beats/s?k=beats"
+        ],
+        "candidates": [
+          "amazon.com",
+          "apple.com",
+          "en.wikipedia.org",
+          "www.amazon.com",
+          "www.apple.com",
+          "www.beatsbydre.com",
+          "www.bestbuy.com",
+          "www.target.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BesTV/BesTV.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BesTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/East_Moriches,_New_York",
+          "https://www.longislandguide.com/visit/east-moriches/",
+          "https://www.zillow.com/east-moriches-ny/",
+          "https://www.mapquest.com/us/new-york/east-moriches-ny-492910161",
+          "https://www.zillow.com/east-moriches-ny/houses/",
+          "https://www.realtor.com/realestateandhomes-search/East-Moriches_NY",
+          "https://www.homes.com/local-guide/east-moriches-ny/",
+          "https://www.localobserverdaily.com/town/new-york/east-moriches/17114",
+          "https://maps.apple.com/place?auid=216614878174997763",
+          "https://www.tripadvisor.com/Tourism-g47637-East_Moriches_Long_Island_New_York-Vacations.html"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "homes.com",
+          "maps.apple.com",
+          "realtor.com",
+          "www.homes.com",
+          "www.localobserverdaily.com",
+          "www.longislandguide.com",
+          "www.mapquest.com",
+          "www.realtor.com",
+          "www.tripadvisor.com",
+          "www.zillow.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Bestbuy/Bestbuy.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Bestbuy",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bestbuy.com/",
+          "https://www.facebook.com/bestbuy/",
+          "https://www.bestbuy.com/site/store-locator",
+          "https://citiretailservices.citibankonline.com/RSauth/signon?pageName=signon&siteId=PLCN_BESTBUY&langId=en_US",
+          "https://stores.bestbuy.com/",
+          "https://stores.bestbuy.com/ny/new-york.html",
+          "https://en.m.wikipedia.org/wiki/Best_Buy",
+          "https://corporate.bestbuy.com/about-best-buy/",
+          "https://www.slashgear.com/2290787/tech-brands-owned-by-best-buy/",
+          "https://www.bestbuy.com/site/electronics/computers-pcs/abcat0500000.c?id=abcat0500000%2F"
+        ],
+        "candidates": [
+          "citiretailservices.citibankonline.com",
+          "corporate.bestbuy.com",
+          "en.m.wikipedia.org",
+          "stores.bestbuy.com",
+          "www.bestbuy.com",
+          "www.facebook.com",
+          "www.slashgear.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BianFeng/BianFeng.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BianFeng",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://carmen.osu.edu/",
+          "https://teaching.resources.osu.edu/toolsets/carmencanvas",
+          "https://learn.canvas.net/login/instructure",
+          "https://u.osu.edu/ocscom/curriculum/technology/carmencanvas/",
+          "https://u.osu.edu/hrsteaching/carmen/",
+          "https://distanceeducation.ehe.osu.edu/carmencanvas/smart-start-course-readiness-guide/carmen-canvas-start-of-the-semester/",
+          "https://it.osu.edu/offerings/carmencanvas",
+          "https://teaching.resources.osu.edu/toolsets/carmencanvas/guides/getting-started-carmen-students",
+          "https://u.osu.edu/cphdistanceeducationresources/carmen/",
+          "https://u.osu.edu/cphstudentcourseresources/carmencanvas-2/"
+        ],
+        "candidates": [
+          "carmen.osu.edu",
+          "distanceeducation.ehe.osu.edu",
+          "it.osu.edu",
+          "learn.canvas.net",
+          "teaching.resources.osu.edu",
+          "u.osu",
+          "u.osu.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BiliBili/BiliBili.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BiliBili",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bilibili.com/",
+          "https://www.bilibili.tv/en",
+          "https://bilibili.en.softonic.com/android",
+          "https://tv.bilibili.tv/",
+          "https://www.bilibili.tv/vip/en",
+          "https://app.bilibili.com/",
+          "https://bilibili.co.jp/index.html",
+          "https://www.facebook.com/bilibiliofficial/",
+          "https://tv-danmaku-bili.en.aptoide.com/app",
+          "https://www.bilibili.com/anime/"
+        ],
+        "candidates": [
+          "app.bilibili.com",
+          "bilibili.co.jp",
+          "bilibili.com",
+          "bilibili.en.softonic.com",
+          "tv-danmaku-bili.en.aptoide.com",
+          "tv.bilibili.tv",
+          "www.bilibili.com",
+          "www.bilibili.tv",
+          "www.facebook.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BiliBiliIntl/BiliBiliIntl.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BiliBiliIntl",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://shop.advanceautoparts.com/",
+          "https://corp.advanceautoparts.com/home/default.aspx",
+          "https://stores.advanceautoparts.com/",
+          "https://shop.advanceautoparts.com/brands/advance-auto-parts",
+          "https://stores.advanceautoparts.com/tx/houston",
+          "https://jobs.advanceautoparts.com/us/en/home",
+          "https://ir.advanceautoparts.com/investors/overview/default.aspx",
+          "https://corp.advanceautoparts.com/our-story/default.aspx",
+          "https://en.wikipedia.org/wiki/Advance_Auto_Parts",
+          "https://shop.advanceautoparts.com/find/all-makes"
+        ],
+        "candidates": [
+          "advanceautoparts.com",
+          "corp.advanceautoparts.com",
+          "en.wikipedia.org",
+          "ir.advanceautoparts.com",
+          "jobs.advanceautoparts.com",
+          "shop.advanceautoparts.com",
+          "stores.advanceautoparts.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Binance/Binance.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Binance",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.binance.com/",
+          "https://accounts.binance.com/en/login",
+          "https://en.m.wikipedia.org/wiki/Binance",
+          "https://www.binance.us/",
+          "https://www.binance.us/login",
+          "https://www.binance.com/en/download",
+          "https://www.binance.bh/en-BH",
+          "https://accounts.binance.com/en/register?ref=ENGLISH",
+          "https://www.npr.org/2026/10/31/nx-s1-6024426/binance-crypto-heist-cyber-criminals-north-korea",
+          "https://support.binance.us/en/articles/9842963-about-binance-us"
+        ],
+        "candidates": [
+          "accounts.binance.com",
+          "binance.us",
+          "en.m.wikipedia.org",
+          "support.binance.us",
+          "www.binance.bh",
+          "www.binance.com",
+          "www.binance.us",
+          "www.npr.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Bing/Bing.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Bing",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bing.com/",
+          "https://www.bing.com/webhp",
+          "https://www.microsoft.com/en-ca/bing/",
+          "https://get.bing.com/",
+          "https://bingapp.microsoft.com/bing",
+          "https://www.microsoft.com/en-ie/bing/",
+          "https://explore.microsoft.com/en-us/bing",
+          "https://bingapp.microsoft.com/"
+        ],
+        "candidates": [
+          "bingapp.microsoft.com",
+          "explore.microsoft.com",
+          "get.bing.com",
+          "microsoft.com",
+          "www.bing.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Blizzard/Blizzard.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Blizzard",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.blizzard.com/",
+          "https://us.shop.battle.net/en-us",
+          "https://www.blizzard.com/login",
+          "https://download.battle.net/en-us/desktop",
+          "https://worldofwarcraft.blizzard.com/en-us/",
+          "https://en.wikipedia.org/wiki/Blizzard_Entertainment",
+          "https://overwatch.blizzard.com/en-us/",
+          "https://account.blizzard.com/en-us/signup",
+          "https://www.blizzard.com/en-us/games"
+        ],
+        "candidates": [
+          "account.blizzard.com",
+          "battle.net",
+          "download.battle.net",
+          "en.wikipedia.org",
+          "overwatch.blizzard.com",
+          "us.shop.battle.net",
+          "worldofwarcraft.blizzard.com",
+          "www.blizzard.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BlockHttpDNS/BlockHttpDNS.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BlockHttpDNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.walmart.com/browse/auto-tires/truck-batteries/91083_1752665_9117981",
+          "https://www.walmart.com/browse/auto-tires/truck-batteries/91083_1074765_6499603_1104292_9117981",
+          "https://business.walmart.com/browse/automotive/truck-batteries/3227097_6947714_9755837_6391896_8894282_9929112",
+          "https://business.walmart.com/ip/EverStart-Value-Lead-Acid-Automotive-Battery-Group-Size-34-12-Volt-600-CCA/3916154154",
+          "https://carinterior.alibaba.com/question/walmart-truck-battery-prices-buying-guide",
+          "https://automotoflux.com/electrical-systems/how-much-are-batteries-at-walmart",
+          "https://cartipsdaily.com/are-walmart-car-batteries-good",
+          "https://www.bestcarbattery.com/buying-car-battery-at-walmart/",
+          "https://walmartdesk.com/walmart-car-battery-guide/",
+          "https://batteryskills.com/are-car-batteries-at-walmart-good/"
+        ],
+        "candidates": [
+          "automotoflux.com",
+          "batteryskills.com",
+          "business.walmart.com",
+          "carinterior.alibaba.com",
+          "cartipsdaily.com",
+          "walmart.com",
+          "walmartdesk.com",
+          "www.bestcarbattery.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Bloomberg/Bloomberg.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Bloomberg",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bloomberg.com/",
+          "https://www.bloomberg.com/markets",
+          "https://en.wikipedia.org/wiki/Bloomberg_L.P.",
+          "https://professional.bloomberg.com/products/bloomberg-terminal/",
+          "https://www.youtube.com/@Bloomberg_Live",
+          "https://www.bloomberg.com/markets/stocks",
+          "https://www.bloomberg.com/asia",
+          "https://www.bloomberg.com/live/us",
+          "https://www.bloomberg.com/latest"
+        ],
+        "candidates": [
+          "bba.bloomberg.net",
+          "bloomberg.com",
+          "en.wikipedia.org",
+          "professional.bloomberg.com",
+          "www.bloomberg.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Blued/Blued.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Blued",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.blued.cn/",
+          "https://play.google.com/store/apps/details?id=com.blued.international&hl=en&gl=vn",
+          "https://en.wikipedia.org/wiki/Blued_(app)",
+          "https://apkpure.com/blued-gay-chat-social/com.soft.blued",
+          "https://appsplayground.com/blued-pc-2/",
+          "https://blue-city-holdings-co-ltd-blued.en.aptoide.com/app",
+          "https://mylive.blued.cn/",
+          "https://www.blued.cn/download.html",
+          "https://www.browsercam.com/blued-pc-2/"
+        ],
+        "candidates": [
+          "apkpure.com",
+          "appsplayground.com",
+          "blue-city-holdings-co-ltd-blued.en.aptoide.com",
+          "en.wikipedia.org",
+          "mylive.blued.cn",
+          "play.google.com",
+          "www.blued.cn",
+          "www.blued.net",
+          "www.browsercam.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BoXun/BoXun.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BoXun",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.homedepot.com/p/The-Home-Depot-5-Gal-Homer-Bucket-3-Pack-05GLHD2/100672960",
+          "https://www.walmart.com/c/kp/5-gallon-bucket",
+          "https://www.amazon.com/plastic-5-gallon-buckets/s?k=plastic+5+gallon+buckets",
+          "https://www.amazon.com/5-gallon-bucket/s?k=5+gallon+bucket",
+          "https://www.tractorsupply.com/tsc/product/tractor-supply-co-pail-5-gal",
+          "https://www.lowes.com/pl/paint-supplies/buckets-bucket-accessories/buckets/lowes/5-gallon/4294625955-4294961020-4294571498",
+          "https://www.lowes.com/pd/Leaktite-5-gal-70mil-Food-Safe-White-Bucket/5013212247",
+          "https://www.homedepot.com/p/5-gal-White-Pail-10-Pack-RG5700-10/204082827",
+          "https://www.walmart.com/c/kp/food-grade-5-gallon-bucket",
+          "https://www.bucket-outlet.com/Bulk-Plastic-Buckets.htm"
+        ],
+        "candidates": [
+          "amazon.com",
+          "walmart.com",
+          "www.amazon.com",
+          "www.bucket-outlet.com",
+          "www.homedepot.com",
+          "www.lowes.com",
+          "www.tractorsupply.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Bootcss/Bootcss.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "Bootcss",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/CemuPiracy/comments/8r6x3a/heyya_i_need_a_wii_u_super_mario_maker_rom/",
+          "https://forum.bambulab.com/t/where-are-the-users-i-follow/78537",
+          "https://www.reddit.com/r/BambuLab/comments/1b3o51i/makerworld_copyright_question/",
+          "https://forum.bambulab.com/t/print-profile-upload-to-makerworld-fails/36909",
+          "https://www.reddit.com/r/RPGMakerMZ/",
+          "https://forum.bambulab.com/t/cute-flexi-maker/232387",
+          "https://forum.bambulab.com/t/makerworld-error/64355",
+          "https://forum.bambulab.com/t/print-profile-guidelines-on-makerworld/100762",
+          "https://forum.bambulab.com/t/makerworld-search-option-disappeared-in-version-2-2-0-85/189094",
+          "https://forum.bambulab.com/t/how-people-are-getting-so-many-points-gift-cards-on-maker-world/154462"
+        ],
+        "candidates": [
+          "forum.bambulab.com",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BrightCove/BrightCove.yaml": {
+        "checked_at": "2026-11-04 19:17 UTC",
+        "name": "BrightCove",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.brightcove.com/",
+          "https://signin.brightcove.com/",
+          "https://en.wikipedia.org/wiki/Brightcove",
+          "https://www.brightcove.com/products/host-and-stream",
+          "https://www.brightcove.com/products/live-streaming",
+          "https://support.brightcove.com/support/index.html",
+          "https://www.brightcove.com/gen-2",
+          "https://general.support.brightcove.com/general/brightcove-product-overview.html",
+          "https://www.linkedin.com/company/brightcove",
+          "https://supportportal.brightcove.com/s/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "general.support.brightcove.com",
+          "signin.brightcove.com",
+          "support.brightcove.com",
+          "supportportal.brightcove.com",
+          "www.brightcove.com",
+          "www.linkedin.com"
         ],
         "accepted": [],
         "ownership_evidence": []
