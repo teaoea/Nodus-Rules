@@ -15790,8 +15790,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Copilot/Copilot.yaml",
-      "rules": 49,
-      "bytes": 1923,
+      "rules": 51,
+      "bytes": 1981,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -16720,8 +16720,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Docker/Docker.yaml",
-      "rules": 7,
-      "bytes": 433,
+      "rules": 8,
+      "bytes": 451,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -17703,8 +17703,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Figma/Figma.yaml",
-      "rules": 1,
-      "bytes": 214,
+      "rules": 2,
+      "bytes": 243,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2024-02-03T01:55:24+08:00",
       "template_version": 9
@@ -18081,8 +18081,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Gemini/Gemini.yaml",
-      "rules": 13,
-      "bytes": 657,
+      "rules": 14,
+      "bytes": 700,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -18153,8 +18153,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/GitHub/GitHub.yaml",
-      "rules": 31,
-      "bytes": 1253,
+      "rules": 32,
+      "bytes": 1279,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -21349,8 +21349,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Notion/Notion.yaml",
-      "rules": 6,
-      "bytes": 385,
+      "rules": 7,
+      "bytes": 425,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -21546,8 +21546,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/OpenAI/OpenAI.yaml",
-      "rules": 37,
-      "bytes": 1495,
+      "rules": 38,
+      "bytes": 1528,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -146522,8 +146522,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Teams/Teams.yaml",
-      "rules": 4,
-      "bytes": 337,
+      "rules": 5,
+      "bytes": 377,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -149039,6 +149039,74 @@
           "https://code.claude.com/docs/en/network-config",
           "https://code.claude.com/docs/en/desktop#network-access-requirements",
           "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Claude/Claude.list"
+        ]
+      },
+      "OpenAI/OpenAI.yaml": {
+        "rules": [
+          "domain-suffix,oaistatsig.com"
+        ],
+        "evidence": [
+          "https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"
+        ]
+      },
+      "Notion/Notion.yaml": {
+        "rules": [
+          "domain-suffix,notionusercontent.com"
+        ],
+        "evidence": [
+          "https://www.notion.com/help/allowlist-ip"
+        ]
+      },
+      "Docker/Docker.yaml": {
+        "rules": [
+          "domain,dhi.io"
+        ],
+        "evidence": [
+          "https://docs.docker.com/desktop/enterprise/allow-list/",
+          "https://docs.docker.com/dhi/how-to/use/"
+        ]
+      },
+      "Teams/Teams.yaml": {
+        "rules": [
+          "domain-suffix,teams.cloud.microsoft"
+        ],
+        "evidence": [
+          "https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges"
+        ]
+      },
+      "GitHub/GitHub.yaml": {
+        "rules": [
+          "domain-suffix,ghe.com"
+        ],
+        "evidence": [
+          "https://docs.github.com/en/enterprise-cloud%40latest/admin/data-residency/about-github-enterprise-cloud-with-data-residency",
+          "https://docs.github.com/en/copilot/reference/copilot-allowlist-reference"
+        ]
+      },
+      "Figma/Figma.yaml": {
+        "rules": [
+          "domain-suffix,figma.site"
+        ],
+        "evidence": [
+          "https://help.figma.com/hc/en-us/articles/19424714305943-Adjust-your-network-settings"
+        ]
+      },
+      "Copilot/Copilot.yaml": {
+        "rules": [
+          "domain,copilot.cloud.microsoft",
+          "domain,copilot.com"
+        ],
+        "evidence": [
+          "https://support.microsoft.com/en-us/microsoft-365-copilot/troubleshoot-content-copilot-app",
+          "https://learn.microsoft.com/en-us/copilot/manage/manage-copilot-chat"
+        ]
+      },
+      "Gemini/Gemini.yaml": {
+        "rules": [
+          "domain,cloudaicompanion.googleapis.com"
+        ],
+        "evidence": [
+          "https://docs.cloud.google.com/gemini/docs/codeassist/code-overview#known-issues"
         ]
       }
     },

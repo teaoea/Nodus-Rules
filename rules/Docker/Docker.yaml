@@ -1,7 +1,7 @@
 # 名称：Docker
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：7
-# domain: 3
+# 来源核对日期：2026-11-04 16:11 UTC
+# 规则总数：8
+# domain: 4
 # domain-suffix: 4
 # domain-keyword: 0
 # ip-cidr: 0
@@ -12,6 +12,7 @@ rules:
   - domain,d1q6f0aelx0por.cloudfront.net
   - domain,d2wy8f7a9ursnm.cloudfront.net
   - domain,d36jcksde1wxzq.cloudfront.net
+  - domain,dhi.io
   - domain-suffix,compose-spec.io
   - domain-suffix,docker.com
   - domain-suffix,docker.io

@@ -28,7 +28,47 @@ OWNERSHIP = {
     "OpenAI": {
         "roots": ["openai.com", "chatgpt.com", "oaistatic.com", "oaiusercontent.com", "oaistatsig.com"],
         "telemetry": [],
+        "verified_rules": ["domain-suffix,oaistatsig.com"],
         "evidence": ["https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps"],
+    },
+    # 2026-11-04：仅登记官方证据覆盖的服务域名，不导入共享 CDN/认证服务。
+    "Notion": {
+        "roots": ["notionusercontent.com"], "telemetry": [],
+        "verified_rules": ["domain-suffix,notionusercontent.com"],
+        "evidence": ["https://www.notion.com/help/allowlist-ip"],
+    },
+    "Docker": {
+        "roots": [], "hosts": ["dhi.io"], "telemetry": [],
+        "verified_rules": ["domain,dhi.io"],
+        "evidence": ["https://docs.docker.com/desktop/enterprise/allow-list/", "https://docs.docker.com/dhi/how-to/use/"],
+    },
+    "Teams": {
+        "roots": ["teams.cloud.microsoft"], "telemetry": [],
+        "verified_rules": ["domain-suffix,teams.cloud.microsoft"],
+        "evidence": ["https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges"],
+    },
+    "GitHub": {
+        "roots": ["ghe.com"], "telemetry": [],
+        # 数据驻留企业租户的服务分类，不作为租户级安全白名单。
+        "verified_rules": ["domain-suffix,ghe.com"],
+        "evidence": ["https://docs.github.com/en/enterprise-cloud%40latest/admin/data-residency/about-github-enterprise-cloud-with-data-residency", "https://docs.github.com/en/copilot/reference/copilot-allowlist-reference"],
+    },
+    "Figma": {
+        "roots": ["figma.site"], "telemetry": [],
+        # 包括用户发布站点与 Make 代理，服务归属不等于内容可信。
+        "verified_rules": ["domain-suffix,figma.site"],
+        "evidence": ["https://help.figma.com/hc/en-us/articles/19424714305943-Adjust-your-network-settings"],
+    },
+    "Copilot": {
+        "roots": [], "hosts": ["copilot.com", "copilot.cloud.microsoft"], "telemetry": [],
+        "verified_rules": ["domain,copilot.com", "domain,copilot.cloud.microsoft"],
+        "evidence": ["https://support.microsoft.com/en-us/microsoft-365-copilot/troubleshoot-content-copilot-app", "https://learn.microsoft.com/en-us/copilot/manage/manage-copilot-chat"],
+    },
+    "Gemini": {
+        "roots": [], "hosts": ["cloudaicompanion.googleapis.com"], "telemetry": [],
+        # Code Assist Standard/Enterprise；不是普通 Gemini 聊天的必需域名。
+        "verified_rules": ["domain,cloudaicompanion.googleapis.com"],
+        "evidence": ["https://docs.cloud.google.com/gemini/docs/codeassist/code-overview#known-issues"],
     },
     "Apple": {"roots": ["apple.com"], "telemetry": [], "evidence": ["https://www.apple.com/"]},
     "iCloud": {"roots": ["icloud.com", "icloud.com.cn"], "telemetry": [], "evidence": ["https://support.apple.com/en-us/101555"]},
@@ -39,12 +79,15 @@ OWNERSHIP["ChatGPT"] = OWNERSHIP["OpenAI"]
 DOMAIN = re.compile(r"\b(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z][a-z0-9-]{1,62}\b", re.I)
 
 
-def approved_candidate(name, candidate):
+def approved_candidate(name, candidate, kind="domain"):
     candidate = candidate.lower().rstrip(".")
     policy = OWNERSHIP.get(name)
-    if not policy or not policy.get("evidence"):
+    if not policy or not policy.get("evidence") or kind not in {"domain", "domain-suffix"}:
         return False
-    return candidate in policy["telemetry"] or any(
+    # 精确服务主机与遥测白名单不能扩展为后缀或其任意子域。
+    if kind == "domain" and candidate in policy.get("hosts", []) + policy.get("telemetry", []):
+        return True
+    return any(
         candidate == root or candidate.endswith("." + root) for root in policy["roots"])
 
 
@@ -87,7 +130,7 @@ def discover(source, root, timestamp, limit=24, budget_seconds=90, search=public
         if not rules or not policy.get("evidence"):
             continue
         if any(rule.split(",", 1)[0] not in {"domain", "domain-suffix"}
-               or not approved_candidate(file.stem, rule.split(",", 1)[1]) for rule in rules):
+               or not approved_candidate(file.stem, rule.split(",", 1)[1], rule.split(",", 1)[0]) for rule in rules):
             raise ValueError("已核实规则超出集合归属范围")
         key = file.relative_to(source / "rule/Clash").as_posix()
         additions[key] = rules

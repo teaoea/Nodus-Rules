@@ -1,7 +1,7 @@
 # 名称：Copilot
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：49
-# domain: 20
+# 来源核对日期：2026-11-04 16:11 UTC
+# 规则总数：51
+# domain: 22
 # domain-suffix: 26
 # domain-keyword: 1
 # ip-cidr: 2
@@ -29,6 +29,8 @@ rules:
   - domain,static.cloudflareinsights.com
   - domain,sydney.bing.com
   - domain,www.bing.com
+  - domain,copilot.com
+  - domain,copilot.cloud.microsoft
   - domain-suffix,algolia.net
   - domain-suffix,api.microsoftapp.net
   - domain-suffix,auth0.com

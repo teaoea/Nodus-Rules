@@ -1,8 +1,8 @@
 # 名称：GitHub
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：31
+# 来源核对日期：2026-11-04 16:11 UTC
+# 规则总数：32
 # domain: 0
-# domain-suffix: 30
+# domain-suffix: 31
 # domain-keyword: 1
 # ip-cidr: 0
 # geoip: 0
@@ -39,4 +39,5 @@ rules:
   - domain-suffix,rawgithub.com
   - domain-suffix,repo.new
   - domain-suffix,thegithubshop.com
+  - domain-suffix,ghe.com
   - domain-keyword,github

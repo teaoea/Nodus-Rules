@@ -1,8 +1,8 @@
 # 名称：OpenAI
-# 来源核对日期：2026-10-30 05:38 UTC
-# 规则总数：37
+# 来源核对日期：2026-11-04 16:11 UTC
+# 规则总数：38
 # domain: 10
-# domain-suffix: 24
+# domain-suffix: 25
 # domain-keyword: 1
 # ip-cidr: 2
 # geoip: 0
@@ -43,6 +43,7 @@ rules:
   - domain-suffix,sentry.io
   - domain-suffix,stripe.com
   - domain-suffix,turn.livekit.cloud
+  - domain-suffix,oaistatsig.com
   - domain-keyword,openai
   - ip-cidr,24.199.123.28/32
   - ip-cidr,64.23.132.171/32

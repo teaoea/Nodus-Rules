@@ -1,8 +1,8 @@
 # 名称：Notion
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：6
+# 来源核对日期：2026-11-04 16:11 UTC
+# 规则总数：7
 # domain: 1
-# domain-suffix: 5
+# domain-suffix: 6
 # domain-keyword: 0
 # ip-cidr: 0
 # geoip: 0
@@ -15,3 +15,4 @@ rules:
   - domain-suffix,notion.new
   - domain-suffix,notion.site
   - domain-suffix,notion.so
+  - domain-suffix,notionusercontent.com
