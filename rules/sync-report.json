@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-03 18:59 UTC",
+  "date": "2026-11-04 04:39 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -12297,14 +12297,14 @@
         }
       ],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 15,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Apple/Apple.yaml",
-      "rules": 15,
-      "bytes": 600,
+      "rules": 21,
+      "bytes": 759,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2026-10-25T20:20:30Z",
       "template_version": 9
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-03 18:59 UTC",
-    "next_index": 79,
+    "checked_at": "2026-11-04 04:39 UTC",
+    "next_index": 103,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -169971,6 +169971,653 @@
           "support.applovin.com",
           "whop.com",
           "www.applovin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppStore/AppStore.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppStore",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.apple.com/app-store/",
+          "https://apps.apple.com/us/iphone/search",
+          "https://play.google.com/store/apps?hl=en-us",
+          "https://apps.apple.com/us/iphone/apps",
+          "https://www.amazon.com/appstore/s?k=appstore",
+          "https://apps.microsoft.com/home?hl=en-US&gl=US",
+          "https://www.amazon.com/mobile-apps/b?node=2350149011",
+          "https://www.apple.com/store",
+          "https://kotaku.com/download/google-playstore",
+          "https://support.microsoft.com/en-us/windows/apps/mobileapps/install-mobile-apps-and-the-amazon-appstore-on-windows"
+        ],
+        "candidates": [
+          "amazon.com",
+          "apps.apple.com",
+          "apps.microsoft.com",
+          "kotaku.com",
+          "play.google.com",
+          "support.microsoft.com",
+          "www.amazon.com",
+          "www.apple.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Apple/Apple.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "Apple",
+        "status": "checked",
+        "sources": [
+          "https://www.apple.com/",
+          "https://www.apple.com/store",
+          "https://account.apple.com/",
+          "https://account.apple.com/sign-in",
+          "https://asw.apple.com/home",
+          "https://support.apple.com/en-us/111001",
+          "https://en.m.wikipedia.org/wiki/Apple_Inc.",
+          "https://support.apple.com/",
+          "https://music.apple.com/us/new",
+          "https://tv.apple.com/"
+        ],
+        "candidates": [
+          "account.apple.com",
+          "asw.apple.com",
+          "en.m.wikipedia.org",
+          "music.apple.com",
+          "support.apple.com",
+          "tv.apple.com",
+          "www.apple.com"
+        ],
+        "accepted": [
+          "account.apple.com",
+          "asw.apple.com",
+          "music.apple.com",
+          "support.apple.com",
+          "tv.apple.com",
+          "www.apple.com"
+        ],
+        "ownership_evidence": [
+          "https://www.apple.com/"
+        ]
+      },
+      "AppleDaily/AppleDaily.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleDaily",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://onlinecasinosco.com/schweiz/",
+          "https://onlinecasinosco.com/states/virginia/",
+          "https://onlinecasinosco.com/paypal/",
+          "https://onlinecasinosco.com/states/indiana/",
+          "https://onlinecasinosco.com/states/michigan/",
+          "https://onlinecasinosco.com/games/blackjack/",
+          "https://onlinecasinosco.com/states/new-york/",
+          "https://onlinecasinosco.com/states/new-jersey/",
+          "https://onlinecasinosco.com/states/pennsylvania/",
+          "https://onlinecasinosco.com/games/bingo/"
+        ],
+        "candidates": [
+          "onlinecasinosco.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleDev/AppleDev.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleDev",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://earthquaketoday.org/taiwan",
+          "https://www.cwa.gov.tw/V8/E/E/index.html",
+          "https://earthquakelist.org/taiwan/",
+          "https://earthquaketrack.com/p/taiwan/recent",
+          "https://earthquakemap.live/earthquakes/taiwan",
+          "https://earthquakes.site/earthquakes/taiwan/",
+          "https://en.wikipedia.org/wiki/List_of_earthquakes_in_Taiwan"
+        ],
+        "candidates": [
+          "earthquakelist.org",
+          "earthquakemap.live",
+          "earthquakes.site",
+          "earthquaketoday.org",
+          "earthquaketrack.com",
+          "en.wikipedia.org",
+          "www.cwa.gov.tw"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleFirmware/AppleFirmware.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleFirmware",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.shutterstock.com/",
+          "https://www.shutterstock.com/search",
+          "https://submit.shutterstock.com/",
+          "https://tech.shutterstock.com/about",
+          "https://en.wikipedia.org/wiki/Shutterstock",
+          "https://submit.shutterstock.com/help/en/",
+          "https://careers.shutterstock.com/us/en/home"
+        ],
+        "candidates": [
+          "careers.shutterstock.com",
+          "en.wikipedia.org",
+          "submit.shutterstock.com",
+          "tech.shutterstock.com",
+          "www.shutterstock.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleHardware/AppleHardware.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleHardware",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.city-data.com/forum/military-life-issues/804871-spain-any-americans-remember-royal-oaks-9.html",
+          "https://www.city-data.com/forum/military-life-issues/1437749-air-force-discharge-code-question.html",
+          "https://www.zhihu.com/question/20054401",
+          "https://www.zhihu.com/question/36270160",
+          "https://www.resetera.com/forums/gaming-forum.7/",
+          "https://www.resetera.com/threads/one-belt-one-road-one-big-mistake-foreign-policy.85624/",
+          "https://www.city-data.com/forum/seattle-area/154951-can-u-live-seattle-work-bremerton.html",
+          "https://www.city-data.com/forum/military-life-issues/804871-spain-any-americans-remember-royal-oaks-26.html",
+          "https://www.zhihu.com/question/33270045",
+          "https://www.zhihu.com/question/297465882"
+        ],
+        "candidates": [
+          "www.city-data.com",
+          "www.resetera.com",
+          "www.zhihu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleID/AppleID.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleID",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://account.apple.com/account",
+          "https://www.icloud.com/",
+          "https://asw.apple.com/home",
+          "https://appleid.apple.com/widget/account/?roleType=Agent&lv=0.3.17&widgetKey=af1139274f266b22b68c2a3e7ad932cb3c0bbe854e13a79af78dcc73136882c3&v=3&appContext=account",
+          "https://support.apple.com/zh-cn/apple-account",
+          "https://iforgot.apple.com/",
+          "https://support.apple.com/apple-account",
+          "https://appleid.apple.com/CN/",
+          "https://support.apple.com/en-us/108647",
+          "https://www.apple.com/"
+        ],
+        "candidates": [
+          "account.apple.com",
+          "appleid.apple.com",
+          "asw.apple.com",
+          "iforgot.apple.com",
+          "support.apple.com",
+          "www.apple.com",
+          "www.icloud.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleMail/AppleMail.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleMail",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.votebrevard.gov/Election-Information/Election-Results",
+          "https://www.votebrevard.gov/",
+          "https://www.aljazeera.com/us-midterm-elections-2026/results/",
+          "https://ballotpedia.org/Brevard_County,_Florida,_elections,_2026",
+          "https://www.nbcnews.com/politics/2026-elections/colorado-us-house-district-4-results",
+          "https://apnews.com/projects/elections-2026/us-house-results/",
+          "https://spacecoastdaily.com/2026/07/brevard-county-sheriff-wayne-ivey-unveils-ivey-league-endorsements-for-2026-election/",
+          "https://bluevoterguide.org/district/FL/Melbourne_city/60713/",
+          "https://www.pbs.org/newshour/elections-2026/results",
+          "https://www.nbcnews.com/politics/2026-elections/house-results"
+        ],
+        "candidates": [
+          "apnews.com",
+          "ballotpedia.org",
+          "bluevoterguide.org",
+          "spacecoastdaily.com",
+          "votebrevard.gov",
+          "www.aljazeera.com",
+          "www.nbcnews.com",
+          "www.pbs.org",
+          "www.votebrevard.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleMedia/AppleMedia.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/stormwreckisle/comments/y65jd3/creature_and_npc_tokens_for_stormwreck_isle/",
+          "https://www.reddit.com/r/theisle/comments/c7joei/best_places_to_live_in_v3_as_herbivores/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=1750506510",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3683274299",
+          "https://www.reddit.com/r/HiTMAN/comments/9ypdb6/isle_of_sg%C3%A0il_magpie_challenge_35_commemorative/",
+          "https://steamcommunity.com/app/376210/discussions/16/2592234299539979124/",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=1386359247",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=1157229017",
+          "https://steamcommunity.com/app/376210/discussions/14/4304949638716140236/",
+          "https://www.reddit.com/r/theisle/comments/b3ihk0/new_interactive_map/"
+        ],
+        "candidates": [
+          "steamcommunity.com",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleMusic/AppleMusic.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleMusic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://music.apple.com/us/new",
+          "https://music.apple.com/us/login",
+          "https://www.apple.com/apple-music/",
+          "https://apps.microsoft.com/detail/9pfhdd62mxs1",
+          "https://www.apple.com/ph/apple-music/",
+          "https://offers.applemusic.apple/student-offer",
+          "https://music.apple.com/es/new",
+          "https://music.apple.com/us/artist/login/439834157",
+          "https://music.apple.com/mx/new",
+          "https://music.apple.com/us/subscribe"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "music.apple.com",
+          "offers.applemusic.apple",
+          "www.apple.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleNews/AppleNews.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleNews",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.apple.com/apple-news/",
+          "https://news.apple.com/magazines",
+          "https://apple.news/TteGvEYvpSiyvqUON1PSdHg",
+          "https://www.apple.com/apple-news/publications/",
+          "https://apps.apple.com/us/app/apple-news/id1066498020",
+          "https://9to5mac.com/",
+          "https://news.nextapple.com/",
+          "https://podcasts.apple.com/us/podcast/apple-news-narrated/id1708072320",
+          "https://www.nbcnews.com/tech/apple",
+          "https://podcasts.apple.com/us/channel/apple-news/id6442611283"
+        ],
+        "candidates": [
+          "9to5mac.com",
+          "apple.news",
+          "apps.apple.com",
+          "nbcnews.com",
+          "news.apple.com",
+          "news.nextapple.com",
+          "podcasts.apple.com",
+          "www.apple.com",
+          "www.nbcnews.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleProxy/AppleProxy.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleProxy",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.pornpics.com/pornstars/holly-michaels/",
+          "https://xhamster.com/pornstars/holly-michaels",
+          "https://www.xvideos.com/pornstars/holly-michaels-1",
+          "https://www.elitebabes.com/model/holly-michaels/",
+          "https://www.babepedia.com/babe/Holly_Michaels",
+          "https://goldtits.com/pornstars/holly-michaels/",
+          "https://www.xerotica.com/models/holly-michaels-598.html",
+          "https://www.aznude.com/view/celeb/h/hollymichaels.html",
+          "https://www.pornhub.com/pornstar/holly-michaels",
+          "https://www.xnxx.com/pornstar/holly-michaels-1"
+        ],
+        "candidates": [
+          "goldtits.com",
+          "pornhub.com",
+          "pornpics.com",
+          "www.aznude.com",
+          "www.babepedia.com",
+          "www.elitebabes.com",
+          "www.pornhub.com",
+          "www.pornpics.com",
+          "www.xerotica.com",
+          "www.xnxx.com",
+          "www.xvideos.com",
+          "xerotica.com",
+          "xhamster.com",
+          "xnxx.com",
+          "xvideos.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AppleTV/AppleTV.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AppleTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://tv.apple.com/",
+          "https://www.apple.com/apple-tv/",
+          "https://www.apple.com/apple-tv-app/",
+          "https://tv.apple.com/us/search",
+          "https://support.apple.com/tv",
+          "https://support.apple.com/en-us/118404",
+          "https://tv.apple.com/us/home",
+          "https://www.apple.com/home/",
+          "https://www.apple.com/shop/buy-tv/apple-tv-4k",
+          "https://www.apple.com/apple-tv-4k/"
+        ],
+        "candidates": [
+          "support.apple.com",
+          "tv.apple.com",
+          "www.apple.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Arphic/Arphic.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "Arphic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.speedtest.net/",
+          "https://www.speedtest.net/zh-Hant/settings",
+          "https://www.speedtest.net/run",
+          "https://www.speedtest.net/server/m",
+          "https://www.speedtest.net/nl",
+          "https://www.speedtest.net/it",
+          "https://www.speedtest.net/apps",
+          "https://www.speedtest.net/global-index/romania",
+          "https://www.speedtest.net/about/knowledge/glossary",
+          "https://www.speedtest.net/about/knowledge/plan-for-better-internet"
+        ],
+        "candidates": [
+          "www.speedtest.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Asahi/Asahi.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "Asahi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.asahibeerusa.com/",
+          "https://www.asahi-america.com/",
+          "https://en.m.wikipedia.org/wiki/Asahi_Breweries",
+          "https://www.asahi.com/sp/",
+          "https://www.asahi.com/sp/ajw/",
+          "https://www.asahigroup-holdings.com/en/",
+          "https://www.asahi-america.com/membership-login/",
+          "https://www.asahibeerusa.com/about-us",
+          "https://www.asahibeer.co.jp/",
+          "https://en.m.wikipedia.org/wiki/Asahi"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "www.asahi-america.com",
+          "www.asahi.com",
+          "www.asahibeer.co.jp",
+          "www.asahibeerusa.com",
+          "www.asahigroup-holdings.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "AsianMedia/AsianMedia.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "AsianMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/maturemilf/",
+          "https://www.reddit.com/r/CreatorsAdvice/comments/17ya7l2/3_months_as_adult_content_creators_2m_views_and/",
+          "https://www.reddit.com/r/workgonewild/",
+          "https://www.reddit.com/r/techsupport/comments/260oz2/xhamster_doesnt_work_properly_on_my_computer_ff/",
+          "https://www.reddit.com/r/askgaybros/comments/tjghq1/has_anyone_figured_out_a_way_to_download_videos/",
+          "https://www.reddit.com/r/OutOfTheLoop/comments/56pdfn/what_happened_to_xhamster/",
+          "https://www.reddit.com/r/AlienBlue/comments/2h1mw8/complaint_xhamster_videos_are_not_playing_please/",
+          "https://www.reddit.com/r/privacy/comments/e32wtf/a_reason_not_to_get_your_porn_from_pornhub/",
+          "https://www.reddit.com/r/CamGirlProblems/comments/sadi1f/is_xhamster_the_same_as_stripchat/",
+          "https://www.reddit.com/r/NoStupidQuestions/comments/7v2s0h/why_do_they_call_the_website_xhamster_is_it/"
+        ],
+        "candidates": [
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Assassin'sCreed/Assassin'sCreed-Odyssey/Assassin'sCreed-Odyssey.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "Assassin'sCreed-Odyssey",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://masterunitlist.battletech.com/units/assassin-asn-21",
+          "https://masterunitlist.battletech.com/units/assassin-asn-101",
+          "https://masterunitlist.battletech.com/units/assassin-asn-30",
+          "https://masterunitlist.battletech.com/units/assassin-asn-99",
+          "https://masterunitlist.battletech.com/units/assassin-asn-30-alice",
+          "https://masterunitlist.battletech.com/units/assassin-servitor",
+          "https://masterunitlist.battletech.com/units/assassin-asn-23",
+          "https://masterunitlist.battletech.com/units/assassin-asn-101/record-sheet.pdf?v=420d0a3cd092",
+          "https://masterunitlist.battletech.com/units/assassin-asn-21/record-sheet.pdf?v=fec334bbbc57",
+          "https://masterunitlist.battletech.com/units/assassin-asn-30/record-sheet.pdf?v=845990641254"
+        ],
+        "candidates": [
+          "masterunitlist.battletech.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Assassin'sCreed/Assassin'sCreed-Origins/Assassin'sCreed-Origins.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "Assassin'sCreed-Origins",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://masterunitlist.battletech.com/units/assassin-asn-21",
+          "https://masterunitlist.battletech.com/units/assassin-asn-101",
+          "https://masterunitlist.battletech.com/units/assassin-asn-30",
+          "https://masterunitlist.battletech.com/units/assassin-asn-99",
+          "https://masterunitlist.battletech.com/units/assassin-asn-30-alice",
+          "https://masterunitlist.battletech.com/units/assassin-servitor",
+          "https://masterunitlist.battletech.com/units/assassin-asn-23",
+          "https://masterunitlist.battletech.com/units/assassin-asn-101/record-sheet.pdf?v=420d0a3cd092",
+          "https://masterunitlist.battletech.com/units/assassin-asn-21/record-sheet.pdf?v=fec334bbbc57",
+          "https://masterunitlist.battletech.com/units/assassin-asn-30/record-sheet.pdf?v=845990641254"
+        ],
+        "candidates": [
+          "masterunitlist.battletech.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Atlassian/Atlassian.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "Atlassian",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.atlassian.com/",
+          "https://id.atlassian.com/login",
+          "https://www.atlassian.com/software/jira",
+          "https://en.wikipedia.org/wiki/Atlassian",
+          "https://home.atlassian.com/",
+          "https://start.atlassian.com/",
+          "https://support.atlassian.com/",
+          "https://www.linkedin.com/company/atlassian",
+          "https://id.atlassian.com/manage",
+          "https://marketplace.atlassian.com/vendors/85/atlassian"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "home.atlassian.com",
+          "id.atlassian.com",
+          "marketplace.atlassian.com",
+          "start.atlassian.com",
+          "support.atlassian.com",
+          "www.atlassian.com",
+          "www.linkedin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Atomdata/Atomdata.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "Atomdata",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.raiders.com.au/ladder/",
+          "https://www.flashscore.com/team/canberra-raiders/vD4EtSRJ/standings/",
+          "https://www.raiders.com.au/draw/",
+          "https://en.wikipedia.org/wiki/Canberra_Raiders",
+          "https://www.rugbyleagueproject.org/teams/canberra-raiders/seasons.html",
+          "https://www.flashscore.in/team/canberra-raiders/vD4EtSRJ/standings/QN09jAQF/standings/overall/",
+          "https://www.flashscore.com.gh/team/canberra-raiders/vD4EtSRJ/standings/",
+          "https://www.flashscore.com.au/team/canberra-raiders/vD4EtSRJ/standings/QN09jAQF/standings/overall/",
+          "https://www.rugbyleagueproject.org/seasons/nrl-2025/canberra-raiders/summary.html",
+          "https://nationalrugbyleague.com.au/nrl-teams/canberra-raiders/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "flashscore.com.au",
+          "flashscore.in",
+          "nationalrugbyleague.com.au",
+          "www.flashscore.com",
+          "www.flashscore.com.au",
+          "www.flashscore.com.gh",
+          "www.flashscore.in",
+          "www.raiders.com.au",
+          "www.rugbyleagueproject.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BBC/BBC.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "BBC",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bbc.com/",
+          "https://www.bbc.co.uk/",
+          "https://www.bbc.com/news",
+          "https://www.bbc.co.uk/iplayer",
+          "https://en.m.wikipedia.org/wiki/BBC",
+          "https://player.bbc.com/en/live",
+          "https://www.bbc.com/news/1",
+          "https://www.youtube.com/channel/UC16niRr50-MSBwiO3YDb3RA",
+          "https://www.theguardian.com/media/bbc",
+          "https://www.youtube.com/channel/UCCj956IF62FbT7Gouszaj9w"
+        ],
+        "candidates": [
+          "bbc.com",
+          "broadcaster.we",
+          "en.m.wikipedia.org",
+          "player.bbc.com",
+          "www.bbc.co.uk",
+          "www.bbc.com",
+          "www.theguardian.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BMW/BMW.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "BMW",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bmwusa.com/",
+          "https://www.bmwusa.com/all-bmws.html",
+          "https://www.bmwofsterling.com/",
+          "https://en.m.wikipedia.org/wiki/BMW",
+          "https://mybmw.bmwusa.com/",
+          "https://www.bmwoffairfax.com/",
+          "https://www.bmwgroup.com/en.html",
+          "https://www.bmwofalexandria.com/",
+          "https://www.bmwofsterling.com/bmw-dealer-ashburn-va.html",
+          "https://www.bmwoffairfax.com/new-inventory/index.htm"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "mybmw.bmwusa.com",
+          "www.bmwgroup.com",
+          "www.bmwofalexandria.com",
+          "www.bmwoffairfax.com",
+          "www.bmwofsterling.com",
+          "www.bmwusa.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BOC/BOC.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "BOC",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://bocatc.org/",
+          "https://www.nyc.gov/site/boc/index.page",
+          "https://www.boc.cn/en/",
+          "https://www.bocusa.com/",
+          "https://ebanking.bocusa.com/ibank/user/login",
+          "https://www.bocusa.com/contact-us/new-york-branch",
+          "https://www.boc.lk/",
+          "https://www.nyc.gov/site/boc/reports/board-of-correction-reports.page",
+          "https://finance.yahoo.com/quote/BOC/",
+          "https://www.bocbanking.com/"
+        ],
+        "candidates": [
+          "bocatc.org",
+          "ebanking.bocusa.com",
+          "finance.yahoo.com",
+          "nyc.gov",
+          "www.boc.cn",
+          "www.boc.lk",
+          "www.bocbanking.com",
+          "www.bocusa.com",
+          "www.nyc.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "BOCOM/BOCOM.yaml": {
+        "checked_at": "2026-11-04 04:39 UTC",
+        "name": "BOCOM",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Bank_of_Communications",
+          "https://www.bocomgroup.com/BankCommSite/shtml/jygj/en/16641/16651/list.shtml?channelId=16641",
+          "https://www.bocombbm.com.br/en/",
+          "https://bocom.e-ciie.com/",
+          "https://www.bocomgroup.com/BankCommSite/shtml/jyjr/en/2600223/2600236/list.shtml?channelId=2600233",
+          "https://pbank.95559.com.cn/personbank/system/index.html?locale=en_US",
+          "https://bankcomm.com/BankCommSite/shtml/jyjr/en/2600212/list.shtml?channelId=2600212",
+          "https://bankcomm.com/BankCommSite/shtml/jyjr/en/2600223/2600240/2600344/list.shtml?channelId=2600344",
+          "https://www.bocommleasing.com/ywb/008002/008002001/aviation.html",
+          "https://pbank.95559.com.cn/personbank/system/syLogin.do?locale=en_US"
+        ],
+        "candidates": [
+          "bankcomm.com",
+          "bocom.e-ciie.com",
+          "bocommleasing.com",
+          "en.wikipedia.org",
+          "pbank.95559.com.cn",
+          "www.bocombbm.com.br",
+          "www.bocomgroup.com",
+          "www.bocommleasing.com"
         ],
         "accepted": [],
         "ownership_evidence": []

@@ -1,7 +1,7 @@
 # 名称：Apple
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：15
-# domain: 0
+# 来源核对日期：2026-11-04 04:39 UTC
+# 规则总数：21
+# domain: 6
 # domain-suffix: 0
 # domain-keyword: 2
 # ip-cidr: 13
@@ -9,6 +9,12 @@
 # protocol: 0
 # port: 0
 rules:
+  - domain,account.apple.com
+  - domain,asw.apple.com
+  - domain,music.apple.com
+  - domain,support.apple.com
+  - domain,tv.apple.com
+  - domain,www.apple.com
   - domain-keyword,smp-device
   - domain-keyword,testflight
   - ip-cidr,139.178.128.0/18
