@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-05 04:54 UTC",
+  "date": "2026-11-05 19:26 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -15305,14 +15305,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 3,
+        "duplicates": 12,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Claude/Claude.yaml",
-      "rules": 9,
-      "bytes": 503,
+      "rules": 14,
+      "bytes": 637,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-05 04:54 UTC",
-    "next_index": 151,
+    "checked_at": "2026-11-05 19:26 UTC",
+    "next_index": 175,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -153421,77 +153421,80 @@
         "ownership_evidence": []
       },
       "ChinaIPs/ChinaIPs.list": {
-        "checked_at": "2026-10-26 02:58 UTC",
+        "checked_at": "2026-11-05 19:26 UTC",
         "name": "ChinaIPs",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://obsproject.com/forum/resources/atem-mini-and-obs.905/",
-          "https://obsproject.com/welcome",
-          "https://obsproject.com/",
-          "https://obsproject.com/cs/download",
-          "https://obsproject.com/forum/threads/scoreboard-windows-macos.23296/",
-          "https://obsproject.com/forum/threads/doubled-audio.108667/",
-          "https://obsproject.com/forum/threads/hints-or-proof-of-recording-microsoft-teams-meeting-without-permission.161951/",
-          "https://obsproject.com/forum/resources/input-overlay.552/",
-          "https://obsproject.com/download",
-          "https://obsproject.com/forum/resources/datetime-digital-clock.882/"
+          "https://support.google.com/chrome/?hl=en",
+          "https://www.google.com/intl/en_in/chrome/",
+          "https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DAndroid",
+          "https://www.google.com/chrome/",
+          "https://chrome.google.com/sync",
+          "https://www.google.com/chrome/update/",
+          "https://www.google.com/intl/en_uk/chrome/browser-tools/",
+          "https://chromewebstore.google.com/",
+          "https://play.google.com/store/apps/details?id=com.android.chrome&hl=en-IN",
+          "https://support.google.com/chrome/answer/11032183?hl=en&co=GENIE.Platform%3DDesktop"
         ],
         "candidates": [
-          "obsproject.com",
-          "os.date"
+          "chrome.google.com",
+          "chromewebstore.google.com",
+          "play.google.com",
+          "support.google.com",
+          "www.google.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "ChinaIPs/ChinaIPsTest/ChinaIPsTest.list": {
-        "checked_at": "2026-10-26 02:58 UTC",
+        "checked_at": "2026-11-05 19:26 UTC",
         "name": "ChinaIPsTest",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://support.google.com/youtubetv/?hl=en",
-          "https://support.google.com/youtube/answer/12466883?hl=en&co=GENIE.Platform%3DDesktop",
-          "https://obsproject.com/forum/resources/youtube-chat-transparent-background-solely-css.486/",
-          "https://obsproject.com/forum/tags/youtube/",
-          "https://support.google.com/youtube/answer/6083634?hl=en&co=GENIE.Platform%3DDesktop",
-          "https://support.google.com/youtube/answer/10801543?hl=en",
-          "https://support.google.com/youtube/answer/161805?hl=tr&co=GENIE.Platform%3DDesktop",
-          "https://support.google.com/youtube/answer/13887963?hl=en",
-          "https://support.google.com/youtube/answer/16758081?hl=en-GB",
-          "https://obsproject.com/forum/resources/speechchat-for-twitch-youtube-mixer-etc.372/"
+          "https://support.microsoft.com/en-au/powerpoint/apply-a-template-to-an-existing-presentation",
+          "https://support.microsoft.com/en-gb/powerpoint/copilot/keep-your-presentation-on-brand-with-copilot",
+          "https://support.microsoft.com/en-gb/powerpoint/copy-and-paste-a-slide-master-from-one-presentation-to-another",
+          "https://support.microsoft.com/en-us/powerpoint/apply-a-template-to-an-existing-presentation",
+          "https://support.microsoft.com/en-us/powerpoint/training/apply-a-slide-layout",
+          "https://support.microsoft.com/en-us/powerpoint/training/add-color-and-design-to-your-slides-with-themes",
+          "https://support.microsoft.com/en-gb/powerpoint/change-the-background-of-slides",
+          "https://support.microsoft.com/en-us/powerpoint/change-the-color-of-text-on-a-powerpoint-slide",
+          "https://support.microsoft.com/en-us/powerpoint/use-multiple-themes-in-one-presentation",
+          "https://support.microsoft.com/en-us/powerpoint/copilot/keep-your-presentation-on-brand-with-copilot"
         ],
         "candidates": [
-          "obsproject.com",
-          "support.google.com",
-          "www.speechchat.com"
+          "support.microsoft.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "ChinaIPsBGP/ChinaIPsBGP.list": {
-        "checked_at": "2026-10-26 02:58 UTC",
+        "checked_at": "2026-11-05 19:26 UTC",
         "name": "ChinaIPsBGP",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://en.wikipedia.org/wiki/Gun_control",
-          "https://www.justice.gov/doj/reducing-gun-violence",
-          "https://uslawexplained.com/gun_control",
-          "https://www.britannica.com/story/gun-control-in-the-us",
-          "https://gunresponsibility.org/",
-          "https://www.pewresearch.org/short-reads/2024/07/24/key-facts-about-americans-and-guns/",
-          "https://kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/regional-gun-violence-prevention/guide",
-          "https://www.britannica.com/technology/gun-control",
-          "https://en.wikipedia.org/wiki/Gun_laws_in_Washington_(state)",
-          "https://www.atg.wa.gov/firearms"
+          "https://www.mayoclinic.org/diseases-conditions/pagets-disease-of-bone/symptoms-causes/syc-20350811",
+          "https://my.clevelandclinic.org/health/diseases/21929-pagets-disease-of-the-bone",
+          "https://en.wikipedia.org/wiki/Paget%27s_disease_of_bone",
+          "https://www.niams.nih.gov/health-topics/pagets-disease-bone/diagnosis-treatment-and-steps-to-take",
+          "https://www.merckmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/paget-disease-of-bone/paget-disease-of-bone",
+          "https://www.orthobullets.com/pathology/8040/pagets-disease",
+          "https://www.health.harvard.edu/diseases-and-conditions/pagets-disease-of-bone-a-to-z",
+          "https://www.harvardhealth.org/diseases-and-conditions/pagets-disease-of-bone-a-to-z",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522384/",
+          "https://www.nhs.uk/conditions/pagets-disease-bone/"
         ],
         "candidates": [
           "en.wikipedia.org",
-          "gunresponsibility.org",
-          "kingcounty.gov",
-          "uslawexplained.com",
-          "www.atg.wa.gov",
-          "www.britannica.com",
-          "www.justice.gov",
-          "www.pewresearch.org"
+          "my.clevelandclinic.org",
+          "pmc.ncbi.nlm.nih.gov",
+          "www.harvardhealth.org",
+          "www.health.harvard.edu",
+          "www.mayoclinic.org",
+          "www.merckmanuals.com",
+          "www.nhs.uk",
+          "www.niams.nih.gov",
+          "www.orthobullets.com"
         ],
         "accepted": [],
         "ownership_evidence": []
@@ -172109,6 +172112,573 @@
         ],
         "accepted": [],
         "ownership_evidence": []
+      },
+      "Canon/Canon.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "Canon",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.usa.canon.com/",
+          "https://www.usa.canon.com/digital-cameras",
+          "https://myprofile.americas.canon.com/us/signin",
+          "https://global.canon/en/",
+          "https://global.canon/cpis/",
+          "https://en.wikipedia.org/wiki/Canon_Inc.",
+          "https://www.usa.canon.com/printers",
+          "https://www.usa.canon.com/contact-us/support",
+          "https://global.canon/en/support/",
+          "https://ij.manual.canon/ij/webmanual/WebGS/WGS/wgs_start.html?lng=en"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "global.canon",
+          "ij.manual.canon",
+          "ij.start.canon",
+          "myprofile.americas.canon.com",
+          "www.usa.canon.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChengTongWangPan/ChengTongWangPan.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChengTongWangPan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://whs.swcsd.us/westlandhigh_home.aspx",
+          "https://whs.swcsd.us/TranscriptRecordRequestsWHS.aspx",
+          "https://whs.swcsd.us/athletics",
+          "https://whs.swcsd.us/OurStaffWHS.aspx",
+          "https://whs.swcsd.us/AthleticInformationWHS.aspx",
+          "https://whs.swcsd.us/AFJROTCWHS.aspx",
+          "https://whs.swcsd.us/southwesterncityschools_home.aspx",
+          "https://whs.swcsd.us/BellSchedulesWHS.aspx",
+          "https://whs.swcsd.us/HighSchoolsHistory.aspx",
+          "https://whs.swcsd.us/AboutUsWHS.aspx"
+        ],
+        "candidates": [
+          "and.or",
+          "swcsd.us",
+          "whs.records",
+          "whs.swcsd.us"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "China/China.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "China",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/China",
+          "https://www.worldatlas.com/maps/china",
+          "https://www.britannica.com/place/China",
+          "https://www.reuters.com/world/china/",
+          "https://theworldfactbook.org/country/china.html",
+          "https://en.wikipedia.org/wiki/History_of_China",
+          "https://data.worldbank.org/country/china",
+          "https://www.britannica.com/place/China/Cultural-milieu",
+          "https://www.scmp.com/news/china",
+          "https://www.countryreports.org/country/China"
+        ],
+        "candidates": [
+          "data.worldbank.org",
+          "en.wikipedia.org",
+          "reuters.com",
+          "theworldfactbook.org",
+          "www.britannica.com",
+          "www.countryreports.org",
+          "www.reuters.com",
+          "www.scmp.com",
+          "www.worldatlas.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaDNS/ChinaDNS.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaDNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.spectrum.net/",
+          "https://mail3.spectrum.net/",
+          "https://mail3.spectrum.net/login",
+          "https://ondemand.spectrum.net/networks/espn/",
+          "https://community.spectrum.net/discussion/173501/how-to-fix-error-alp1301-asking-to-change-my-password-when-i-log-in-on-multiple-devices-solved",
+          "https://community.spectrum.net/discussion/176654/where-can-i-find-my-secondary-spectrum-email-accounts",
+          "https://mail3.spectrum.net/account/",
+          "https://ondemand.spectrum.net/networks/starz/",
+          "https://cobrowse.spectrum.net/",
+          "https://community.spectrum.net/discussion/169577/why-can-i-no-longer-log-in-to-my-account"
+        ],
+        "candidates": [
+          "cobrowse.spectrum.net",
+          "community.spectrum.net",
+          "mail3.spectrum.net",
+          "ondemand.spectrum.net",
+          "spectrum.net",
+          "www.spectrum.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMax/ChinaMax.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaMax",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/",
+          "https://techcommunity.microsoft.com/blog/exchange/released-september-2026-exchange-server-security-updates/4554411",
+          "https://techcommunity.microsoft.com/blog/exchange/released-october-2026-exchange-server-security-updates/4563014",
+          "https://support.microsoft.com/en-us/sharepoint/platform/what-is-sharepoint",
+          "https://support.microsoft.com/en-gb/contactus",
+          "https://techcommunity.microsoft.com/blog/excelblog/unlock-the-power-of-copilot-in-excel-now-generally-available/4242810",
+          "https://support.microsoft.com/en-gb/outlook/install-or-reinstall-classic-outlook-on-a-windows-pc",
+          "https://support.microsoft.com/en-us/forms/sign-in-to-microsoft-forms",
+          "https://techcommunity.microsoft.com/category/windows/discussions/windowsinsiderprogram",
+          "https://techcommunity.microsoft.com/discussions/windowsinsiderprogram/windows-8-1-iso-download-for-64-and-32-bit/4454650"
+        ],
+        "candidates": [
+          "support.microsoft.com",
+          "techcommunity.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMaxNoIP/ChinaMaxNoIP.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaMaxNoIP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ssa.gov/",
+          "https://www.aarp.org/social-security/trust-fund/",
+          "https://www.aarp.org/social-security/ways-to-retire-on-social-security-alone/",
+          "https://www.justanswer.com/social-security/",
+          "https://www.justanswer.com/social-security/ap60f-recently-letter-social-security-great.html",
+          "https://www.aarp.org/advocacy/aarp-opposes-promise-act/",
+          "https://www.aarp.org/social-security/you-didnt-know-about/",
+          "https://www.aarp.org/social-security/faq/withholding-while-working/",
+          "https://www.aarp.org/social-security/aarp-fight-for-social-security-2026/",
+          "https://www.aarp.org/social-security/claim-benefits-early-or-late/"
+        ],
+        "candidates": [
+          "www.aarp.org",
+          "www.justanswer.com",
+          "www.ssa.gov"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMaxNoMedia/ChinaMaxNoMedia.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaMaxNoMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://healnsoothe.com/cancelmysubscription",
+          "https://blog.healnsoothe.com/6-health-benefits-of-papain/",
+          "https://blog.healnsoothe.com/nutrition/",
+          "https://healnsoothe.com/products/141/sp-hns?gbraid=0AAAAADnveXXnGQtaCssdnvb4lQNkJrfki",
+          "https://blog.healnsoothe.com/author/livingwell-editorial-team/feed/",
+          "https://blog.healnsoothe.com/tag/bromelain/feed/"
+        ],
+        "candidates": [
+          "blog.healnsoothe.com",
+          "healnsoothe.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMedia/ChinaMedia.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.youtube.com/shorts/FCd0uI8dwjc",
+          "https://fatburnerlab.com/reviews/24burn-review/",
+          "https://www.tutelamedical.com/product/24-burn/",
+          "https://www.tutelamedical.com/product/24-burn-supplement/",
+          "https://www.teresamorgannutrition.com/post/24-burn-review-my-game-changing-weight-loss-supplement-that-works-around-the-clock.html",
+          "https://fullphysicalexam.com/24-burn-weight-loss-supplement-reviews/",
+          "https://altholhealth.com/24-burn-review/",
+          "https://www.youtube.com/watch?v=pjKD2oNDLbA",
+          "https://dec.ny.gov/environmental-protection/air-quality/open-burning",
+          "https://www.seanfeucht.com/burn-247"
+        ],
+        "candidates": [
+          "altholhealth.com",
+          "dec.ny.gov",
+          "fatburnerlab.com",
+          "fullphysicalexam.com",
+          "tutelamedical.com",
+          "www.seanfeucht.com",
+          "www.teresamorgannutrition.com",
+          "www.tutelamedical.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaMobile/ChinaMobile.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaMobile",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.amazon.com/amazonprime",
+          "https://www.amazon.com/businessprime",
+          "https://www.amazon.com/",
+          "https://gaming.amazon.com/",
+          "https://amc.amazon.com/",
+          "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+          "https://selection.amazon.com/sign-in?redirect_to=%2F&mons_redirect=sign_in",
+          "https://www.amazon.com/b?node=15240005011",
+          "https://www.amazon.com/gp/help/customer/display.html?nodeId=GJNNP777QLUYFPNG",
+          "https://www.amazon.com/gp/video/collection/welcomehubtest"
+        ],
+        "candidates": [
+          "amazon.com",
+          "amc.amazon.com",
+          "gaming.amazon.com",
+          "selection.amazon.com",
+          "www.amazon.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaNews/ChinaNews.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaNews",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.chinanews.com.cn/",
+          "https://www.chinanews.com/?locale=en_US",
+          "https://www.chinanews.com.cn/world.shtml",
+          "https://m.chinanews.com/",
+          "https://www.ecns.cn/",
+          "https://wap.chinanews.com/",
+          "https://m.chinanews.com.cn/",
+          "https://www.sh.chinanews.com.cn/",
+          "https://en.cgtn.com/",
+          "https://www.chinanews.com/m/index.htm"
+        ],
+        "candidates": [
+          "chinanews.com",
+          "chinanews.com.cn",
+          "en.cgtn.com",
+          "m.chinanews.com",
+          "m.chinanews.com.cn",
+          "wap.chinanews.com",
+          "www.chinanews.com",
+          "www.chinanews.com.cn",
+          "www.ecns.cn",
+          "www.sh.chinanews.com.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaNoMedia/ChinaNoMedia.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaNoMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://maps.google.com/",
+          "https://www.google.com/",
+          "https://mymaps.google.com/",
+          "https://maps.google.ca/mapfiles/home3.html",
+          "https://maps.google.com/maps/dir/",
+          "https://maps.google.com/maps/search/$",
+          "https://maps.google.com/intl/en_us/mapfiles/home3.html",
+          "https://www.mapquest.com/directions",
+          "https://www.google.com/maps/about/"
+        ],
+        "candidates": [
+          "maps.google.ca",
+          "maps.google.com",
+          "mymaps.google.com",
+          "www.google.com",
+          "www.mapquest.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaTelecom/ChinaTelecom.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaTelecom",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.paycomonline.com/",
+          "https://webmail.paycomonline.com/owa/",
+          "https://pc00.paycomonline.com/v4/ats/web.php/portal/A38173AIE92874820ALRE20847CDE927PIW76526/career-page",
+          "https://bruno.paycomonline.com/",
+          "https://paycomvod-a.paycomonline.com/LMS/SCORM/PAYCU/001__LMS_b8edf41779c444301eb85b5535e37175ba0b4a24_20171030142713/lms/blank.html",
+          "https://pc00.paycomonline.com/v4/ats/web.php/portal/4F36CC2A0D477D971AED20CF5E524699/jobs/536787",
+          "https://bruno.paycomonline.com/register",
+          "https://alfred.paycomonline.com/",
+          "https://pc00.paycomonline.com/v4/ats/web.php/portal/A38173AIE92874820ALRE20847CDE927PIW76526/jobs/566600",
+          "https://pc00.paycomonline.com/v4/ats/web.php/portal/A38173AIE92874820ALRE20847CDE927PIW76526/jobs/567597"
+        ],
+        "candidates": [
+          "alfred.paycomonline.com",
+          "bruno.paycomonline.com",
+          "paycomvod-a.paycomonline.com",
+          "pc00.paycomonline.com",
+          "webmail.paycomonline.com",
+          "www.paycomonline.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaTest/ChinaTest.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaTest",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.davisenterprise.com/obituaries/robert-r-traut/article_44276839-70e0-530f-b2a1-a127dedd98dd.html",
+          "https://www.davisenterprise.com/archives/wedding-szucs-hayden/article_7439acaa-29c8-55c4-9d4e-94ad9369acaa.html",
+          "https://www.davisenterprise.com/news/toys-for-tots-brings-holiday-joy-to-yolo-county-families/article_5c31c6ca-6743-455a-bcb1-d967454cad88.html",
+          "https://www.davisenterprise.com/sports/aggies/already-loaded-aggies-add-three-talented-recruits/article_b06a1060-5e02-5f7e-8e3a-f599218f10e6.html",
+          "https://www.davisenterprise.com/obituaries/paul-brady/article_df45967b-4f01-5595-a62e-dec4fcf9f769.html",
+          "https://www.davisenterprise.com/news/cops-launch-annual-toys-for-tots-drive/article_d19c2178-8e29-11ee-b0a0-2fb96ff3a1e8.html",
+          "https://www.davisenterprise.com/obituaries/georg-wolfgang-fuhs/article_2041aa50-b18a-5b9c-89d0-923fa97b9c67.html"
+        ],
+        "candidates": [
+          "davisenterprise.com",
+          "www.davisenterprise.com",
+          "www.hackettstownlife.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChinaUnicom/ChinaUnicom.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChinaUnicom",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://ell.stackexchange.com/questions/162784/my-start-day-will-be-or-my-starting-date-will-be",
+          "https://ell.stackexchange.com/questions/163573/start-to-of-the-day",
+          "https://ell.stackexchange.com/questions/233217/every-sunday-or-on-every-sunday",
+          "https://ell.stackexchange.com/questions/43659/just-starting-vs-starting",
+          "https://ell.stackexchange.com/questions/44829/will-you-find-someone-saying-at-your-convenience-annoying-and-impolite",
+          "https://ell.stackexchange.com/questions/7832/how-to-express-working-shifts-in-perfect-english",
+          "https://ell.stackexchange.com/questions/3579/start-a-day-versus-start-the-day",
+          "https://ell.stackexchange.com/questions/331972/start-to-the-week-vs-start-of-the-week",
+          "https://ell.stackexchange.com/questions/112792/ive-started-or-i-started",
+          "https://ell.stackexchange.com/questions/119417/i-will-be-or-i-am-free-the-rest-of-today"
+        ],
+        "candidates": [
+          "ell.stackexchange.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Chromecast/Chromecast.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "Chromecast",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.google.com/cast/chromecast/home",
+          "https://www.google.com/cast/setup/",
+          "https://support.google.com/chromecast/answer/3228332?hl=en",
+          "https://www.amazon.com/chromecast/s?k=chromecast",
+          "https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&st=Chromecast",
+          "https://en.wikipedia.org/wiki/Chromecast",
+          "https://www.amazon.com/clp/B0BG131ZLF",
+          "https://www.walmart.com/browse/electronics/google-chromecast/3944_77622_7549938_1229631_3314258",
+          "https://support.google.com/chromecast/answer/2998456?hl=en&co=GENIE.Platform=Android",
+          "https://www.bestbuy.com/site/streaming-media-devices/google-chromecast/pcmcat748301684651.c?id=pcmcat748301684651"
+        ],
+        "candidates": [
+          "amazon.com",
+          "chromecast.com",
+          "en.wikipedia.org",
+          "support.google.com",
+          "walmart.com",
+          "www.amazon.com",
+          "www.bestbuy.com",
+          "www.google.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChuangKeTie/ChuangKeTie.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChuangKeTie",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.drugs.com/minoxidil.html",
+          "https://www.drugs.com/comments/minoxidil/for-hypertension.html",
+          "https://www.hairlosstalk.com/interact/threads/minoxidil-3-times-a-day.13276/",
+          "https://www.realself.com/question/upland-california-topical-minoxidil-side-effects-hair-loss-treatment",
+          "https://www.realself.com/question/san-diego-ca-minoxidil-massaged-briefly-applied",
+          "https://www.hairlosstalk.com/interact/threads/minoxidil-every-other-day.90096/",
+          "https://www.drugs.com/pro/hair-regrowth-treatment-for-women.html",
+          "https://www.hairlosstalk.com/interact/threads/apply-retin-a-before-or-after-minoxidil.35900/",
+          "https://www.realself.com/question/city-industry-ca-allergic-minoxidil-reactions-happen-allergic",
+          "https://www.drugs.com/comments/minoxidil-topical/"
+        ],
+        "candidates": [
+          "drugs.com",
+          "minoxidil.com",
+          "www.drugs.com",
+          "www.hairlosstalk.com",
+          "www.realself.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ChunYou/ChunYou.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "ChunYou",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.fidelity.com/",
+          "https://digital.fidelity.com/prgw/digital/signin/retail",
+          "https://nb.fidelity.com/static/mybenefits/netbenefitslogin/",
+          "https://digital.fidelity.com/prgw/digital/journeys/loss/report-a-death",
+          "https://www.fidelity.com/security/extra-security-login",
+          "https://institutional.fidelity.com/",
+          "https://login.fidelity.com/ftgw/Fas/Fidelity/NBPart/Upgrade/Init",
+          "https://jobs.fidelity.com/en/jobs/",
+          "https://sponsor.fidelity.com/pspublic/pca/psw/public/homepage.html",
+          "https://login.fidelity.com/ftgw/Fas/Fidelity/RtlCust/Upgrade/Init"
+        ],
+        "candidates": [
+          "digital.fidelity.com",
+          "fidelity.com",
+          "institutional.fidelity.com",
+          "jobs.fidelity.com",
+          "login.fidelity.com",
+          "nb.fidelity.com",
+          "sponsor.fidelity.com",
+          "www.fidelity.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cisco/Cisco.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "Cisco",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cisco.com/",
+          "https://www.netacad.com/",
+          "https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html",
+          "https://en.wikipedia.org/wiki/Cisco",
+          "https://www.netacad.com/login",
+          "https://careers.cisco.com/global/en/home",
+          "https://id.cisco.com/ui/v1.0/profile-ui",
+          "https://careers.cisco.com/global/en/search-results",
+          "https://learningnetwork.cisco.com/s/",
+          "https://directory.cisco.com/"
+        ],
+        "candidates": [
+          "careers.cisco.com",
+          "directory.cisco.com",
+          "en.wikipedia.org",
+          "id.cisco.com",
+          "learningnetwork.cisco.com",
+          "www.cisco.com",
+          "www.netacad.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Civitai/Civitai.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "Civitai",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://civitai.com/",
+          "https://civitai.com/models",
+          "https://huggingface.co/Civitai",
+          "https://civitai.red/models/827184/wai-illustrious-sdxl",
+          "https://en.m.wikipedia.org/wiki/Civitai",
+          "https://civitaiarchive.com/about",
+          "https://github.com/civitai/civitai",
+          "https://civitaiarchive.com/",
+          "https://education.civitai.com/about-us/",
+          "https://education.civitai.com/civitai/"
+        ],
+        "candidates": [
+          "civitai.com",
+          "civitai.red",
+          "civitaiarchive.com",
+          "education.civitai.com",
+          "en.m.wikipedia.org",
+          "github.com",
+          "huggingface.co"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Classic/Classic.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "Classic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.classic.com/",
+          "https://www.merriam-webster.com/dictionary/classic",
+          "https://www.classic.com/search",
+          "https://en.wikipedia.org/wiki/Classic",
+          "https://classics.autotrader.com/",
+          "https://dictionary.cambridge.org/dictionary/english/classic",
+          "https://www.classic.bank/",
+          "https://classiccars.com/",
+          "https://classics.autotrader.com/classic-cars-for-sale",
+          "https://www.thefreedictionary.com/classic"
+        ],
+        "candidates": [
+          "classic.com",
+          "classiccars.com",
+          "classics.autotrader.com",
+          "dictionary.cambridge.org",
+          "en.wikipedia.org",
+          "www.classic.bank",
+          "www.classic.com",
+          "www.merriam-webster.com",
+          "www.thefreedictionary.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Claude/Claude.yaml": {
+        "checked_at": "2026-11-05 19:26 UTC",
+        "name": "Claude",
+        "status": "checked",
+        "sources": [
+          "https://claude.com/",
+          "https://claude.ai/",
+          "https://claude.ai/login-Claude",
+          "https://claude.com/download",
+          "https://claude-k12.com/",
+          "https://support.claude.com/en/articles/13189465-log-in-to-your-claude-account",
+          "https://www.anthropic.com/",
+          "https://en.wikipedia.org/wiki/Claude_(AI)",
+          "https://platform.claude.com/login",
+          "https://www.anthropic.com/news/claude-2"
+        ],
+        "candidates": [
+          "claude-k12.com",
+          "claude.ai",
+          "claude.com",
+          "en.wikipedia.org",
+          "platform.claude.com",
+          "support.claude.com",
+          "www.anthropic.com"
+        ],
+        "accepted": [
+          "claude.ai",
+          "claude.com",
+          "platform.claude.com",
+          "support.claude.com",
+          "www.anthropic.com"
+        ],
+        "ownership_evidence": [
+          "https://code.claude.com/docs/en/network-config",
+          "https://code.claude.com/docs/en/desktop#network-access-requirements",
+          "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Claude/Claude.list"
+        ]
       }
     }
   }
