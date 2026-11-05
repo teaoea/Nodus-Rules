@@ -1,5 +1,7 @@
 """已核实补充不依赖搜索结果，并保持精确主机与集合边界。"""
 from pathlib import Path
+from collections import Counter
+import json
 import sys
 import tempfile
 import unittest
@@ -17,9 +19,20 @@ EXPECTED = {
     "Docker": {"domain,dhi.io"},
     "Teams": {"domain-suffix,teams.cloud.microsoft"},
     "GitHub": {"domain-suffix,ghe.com"},
-    "Figma": {"domain-suffix,figma.site"},
+    "Figma": {"domain-suffix,figma.site", "domain-suffix,weavy.ai", "domain-suffix,figmaweave.com"},
     "Copilot": {"domain,copilot.com", "domain,copilot.cloud.microsoft"},
-    "Gemini": {"domain,cloudaicompanion.googleapis.com"},
+    "Gemini": {"domain,cloudaicompanion.googleapis.com", "domain,cloudcode-pa.googleapis.com"},
+    "Atlassian": {"domain-suffix,atlassian.net", "domain-suffix,jira.com",
+                  "domain-suffix,atl-paas.net", "domain-suffix,ss-inf.net",
+                  "domain-suffix,atlassian-dev.net", "domain-suffix,atlassian-3p.com"},
+    "Jetbrains": {"domain-suffix,youtrack.cloud", "domain-suffix,myjetbrains.com"},
+    "iCloud": {"domain-suffix,apple-dns.net"},
+    "AppleID": {"domain,account.apple.com"},
+    "GoogleVoice": {"domain,voice.google.com"},
+    "Vercel": {"domain,v0.app", "domain,api.v0.dev",
+               "domain-suffix,public.blob.vercel-storage.com", "domain-suffix,vercel.run"},
+    "Dropbox": {"domain-suffix,dash.ai", "domain-suffix,docsend.com"},
+    "GitLab": {"domain-suffix,gitlab.io"},
 }
 
 
@@ -66,9 +79,9 @@ class VerifiedDiscoveryTests(unittest.TestCase):
             self.assertEqual(additions[f"{name}/{name}.yaml"], rules)
 
     def test_exact_hosts_never_expand_to_suffixes(self):
-        for name, hostname in (("Docker", "dhi.io"), ("Copilot", "copilot.com"),
-                               ("Copilot", "copilot.cloud.microsoft"),
-                               ("Gemini", "cloudaicompanion.googleapis.com")):
+        exact_hosts = [(name, rule.split(",", 1)[1]) for name, rules in EXPECTED.items()
+                       for rule in rules if rule.startswith("domain,")]
+        for name, hostname in exact_hosts:
             with self.subTest(name=name, hostname=hostname):
                 self.assertTrue(approved_candidate(name, hostname.upper() + "."))
                 self.assertFalse(approved_candidate(name, "unverified." + hostname))
@@ -77,9 +90,9 @@ class VerifiedDiscoveryTests(unittest.TestCase):
         self.assertFalse(approved_candidate("Claude", "cdn.usefathom.com", "domain-suffix"))
 
     def test_roots_keep_dns_label_boundaries(self):
-        for name, hostname in (("OpenAI", "oaistatsig.com"), ("Notion", "notionusercontent.com"),
-                               ("Teams", "teams.cloud.microsoft"), ("GitHub", "ghe.com"),
-                               ("Figma", "figma.site")):
+        roots = [(name, rule.split(",", 1)[1]) for name, rules in EXPECTED.items()
+                 for rule in rules if rule.startswith("domain-suffix,")]
+        for name, hostname in roots:
             with self.subTest(name=name):
                 self.assertTrue(approved_candidate(name, "service." + hostname))
                 self.assertTrue(approved_candidate(name, hostname, "domain-suffix"))
@@ -88,6 +101,23 @@ class VerifiedDiscoveryTests(unittest.TestCase):
         self.assertFalse(approved_candidate("Gemini", "oauth2.googleapis.com"))
         self.assertFalse(approved_candidate("Teams", "outlook.cloud.microsoft"))
         self.assertFalse(approved_candidate("Figma", "cdn.jsdelivr.net"))
+        self.assertFalse(approved_candidate("Vercel", "vercel-storage.com", "domain-suffix"))
+        self.assertFalse(approved_candidate("Vercel", "private.blob.vercel-storage.com"))
+        self.assertFalse(approved_candidate("Vercel", "v0.dev", "domain-suffix"))
+        self.assertFalse(approved_candidate("AppleID", "apple.com", "domain-suffix"))
+        self.assertFalse(approved_candidate("GoogleVoice", "google.com", "domain-suffix"))
+        self.assertFalse(approved_candidate("Gemini", "googleapis.com", "domain-suffix"))
+        self.assertFalse(approved_candidate("GitLab", "github.io"))
+        self.assertFalse(approved_candidate("Figma", "weavy.com"))
+
+    def test_verified_rules_do_not_leak_into_other_collections(self):
+        for name, rules in EXPECTED.items():
+            for rule in rules:
+                kind, hostname = rule.split(",", 1)
+                for other in EXPECTED:
+                    if other != name:
+                        with self.subTest(name=name, other=other, rule=rule):
+                            self.assertFalse(approved_candidate(other, hostname, kind))
 
     def test_invalid_verified_suffix_fails_closed(self):
         invalid = {"roots": [], "hosts": ["dhi.io"], "telemetry": [],
@@ -115,6 +145,31 @@ class VerifiedDiscoveryTests(unittest.TestCase):
         self.assertFalse(any(path.suffix == ".yaml" for path in again))
         for name, rules in EXPECTED.items():
             self.assertEqual(report[f"rule/Clash/{name}/{name}.yaml"]["rules"], len(rules) + 1)
+
+
+class PublishedVerifiedRulesTests(unittest.TestCase):
+    def test_verified_batch_is_published_with_consistent_metadata(self):
+        root = Path(__file__).resolve().parents[1]
+        report = json.loads((root / "rules/sync-report.json").read_text())
+        for name in ("Atlassian", "Jetbrains", "iCloud", "AppleID", "Gemini",
+                     "GoogleVoice", "Vercel", "Figma", "Dropbox", "GitLab"):
+            with self.subTest(name=name):
+                path = root / f"rules/{name}/{name}.yaml"
+                body = path.read_bytes()
+                rules = read_local(path)
+                self.assertTrue(EXPECTED[name].issubset(rules))
+                self.assertEqual(len(rules), len(set(rules)))
+                counts = Counter(rule.split(",", 1)[0] for rule in rules)
+                text = body.decode()
+                self.assertIn(f"# 规则总数：{len(rules)}\n", text)
+                for kind, count in counts.items():
+                    self.assertIn(f"# {kind}: {count}\n", text)
+                detail = report["collections"][f"rule/Clash/{name}/{name}.yaml"]
+                self.assertEqual(detail["rules"], len(rules))
+                self.assertEqual(detail["bytes"], len(body))
+                verified = report["discovery"]["verified_additions"][f"{name}/{name}.yaml"]
+                self.assertEqual(set(verified["rules"]), EXPECTED[name])
+                self.assertEqual(verified["evidence"], OWNERSHIP[name]["evidence"])
 
 
 if __name__ == "__main__":

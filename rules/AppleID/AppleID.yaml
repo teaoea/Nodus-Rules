@@ -1,7 +1,7 @@
 # 名称：AppleID
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：4
-# domain: 4
+# 来源核对日期：2026-11-05 04:16 UTC
+# 规则总数：5
+# domain: 5
 # domain-suffix: 0
 # domain-keyword: 0
 # ip-cidr: 0
@@ -13,3 +13,4 @@ rules:
   - domain,appleid.cdn-apple.com
   - domain,gsa.apple.com
   - domain,idmsa.apple.com
+  - domain,account.apple.com

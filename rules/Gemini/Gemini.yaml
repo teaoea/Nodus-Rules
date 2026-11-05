@@ -1,7 +1,7 @@
 # 名称：Gemini
-# 来源核对日期：2026-11-04 16:11 UTC
-# 规则总数：14
-# domain: 4
+# 来源核对日期：2026-11-05 04:16 UTC
+# 规则总数：15
+# domain: 5
 # domain-suffix: 7
 # domain-keyword: 3
 # ip-cidr: 0
@@ -13,6 +13,7 @@ rules:
   - domain,alkalimakersuite-pa.clients6.google.com
   - domain,makersuite.google.com
   - domain,cloudaicompanion.googleapis.com
+  - domain,cloudcode-pa.googleapis.com
   - domain-suffix,bard.google.com
   - domain-suffix,deepmind.com
   - domain-suffix,deepmind.google

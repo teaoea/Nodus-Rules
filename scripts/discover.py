@@ -54,9 +54,9 @@ OWNERSHIP = {
         "evidence": ["https://docs.github.com/en/enterprise-cloud%40latest/admin/data-residency/about-github-enterprise-cloud-with-data-residency", "https://docs.github.com/en/copilot/reference/copilot-allowlist-reference"],
     },
     "Figma": {
-        "roots": ["figma.site"], "telemetry": [],
+        "roots": ["figma.site", "weavy.ai", "figmaweave.com"], "telemetry": [],
         # 包括用户发布站点与 Make 代理，服务归属不等于内容可信。
-        "verified_rules": ["domain-suffix,figma.site"],
+        "verified_rules": ["domain-suffix,figma.site", "domain-suffix,weavy.ai", "domain-suffix,figmaweave.com"],
         "evidence": ["https://help.figma.com/hc/en-us/articles/19424714305943-Adjust-your-network-settings"],
     },
     "Copilot": {
@@ -65,13 +65,66 @@ OWNERSHIP = {
         "evidence": ["https://support.microsoft.com/en-us/microsoft-365-copilot/troubleshoot-content-copilot-app", "https://learn.microsoft.com/en-us/copilot/manage/manage-copilot-chat"],
     },
     "Gemini": {
-        "roots": [], "hosts": ["cloudaicompanion.googleapis.com"], "telemetry": [],
-        # Code Assist Standard/Enterprise；不是普通 Gemini 聊天的必需域名。
-        "verified_rules": ["domain,cloudaicompanion.googleapis.com"],
-        "evidence": ["https://docs.cloud.google.com/gemini/docs/codeassist/code-overview#known-issues"],
+        "roots": [], "hosts": ["cloudaicompanion.googleapis.com", "cloudcode-pa.googleapis.com"], "telemetry": [],
+        # Code Assist 端点；不是普通 Gemini 聊天的必需域名，也不扩展到 googleapis.com。
+        "verified_rules": ["domain,cloudaicompanion.googleapis.com", "domain,cloudcode-pa.googleapis.com"],
+        "evidence": ["https://docs.cloud.google.com/gemini/docs/codeassist/code-overview#known-issues", "https://docs.cloud.google.com/gemini/docs/codeassist/network-access"],
+    },
+    # 2026-11-05：仅登记本批已核实并获准加入的条件，精确主机不扩大为后缀。
+    "Atlassian": {
+        "roots": ["atlassian.net", "jira.com", "atl-paas.net", "ss-inf.net", "atlassian-dev.net", "atlassian-3p.com"],
+        "telemetry": [],
+        # 官方云产品 allowlist；部分域名承载租户、第三方应用及用户内容。
+        "verified_rules": [
+            "domain-suffix,atlassian.net", "domain-suffix,jira.com",
+            "domain-suffix,atl-paas.net", "domain-suffix,ss-inf.net",
+            "domain-suffix,atlassian-dev.net", "domain-suffix,atlassian-3p.com",
+        ],
+        "evidence": ["https://support.atlassian.com/organization-administration/docs/ip-addresses-and-domains-for-atlassian-cloud-products/"],
+    },
+    "Jetbrains": {
+        "roots": ["youtrack.cloud", "myjetbrains.com"], "telemetry": [],
+        # YouTrack Cloud 租户实例，不代表租户内容可信。
+        "verified_rules": ["domain-suffix,youtrack.cloud", "domain-suffix,myjetbrains.com"],
+        "evidence": ["https://www.jetbrains.com/help/youtrack/cloud/security.html"],
+    },
+    "AppleID": {
+        "roots": [], "hosts": ["account.apple.com"], "telemetry": [],
+        "verified_rules": ["domain,account.apple.com"],
+        "evidence": ["https://support.apple.com/en-ca/109353"],
+    },
+    "GoogleVoice": {
+        "roots": [], "hosts": ["voice.google.com"], "telemetry": [],
+        "verified_rules": ["domain,voice.google.com"],
+        "evidence": ["https://support.google.com/voice/answer/1065750?co=GENIE.Platform%3DDesktop&hl=en"],
+    },
+    "Vercel": {
+        "roots": ["public.blob.vercel-storage.com", "vercel.run"],
+        "hosts": ["v0.app", "api.v0.dev"], "telemetry": [],
+        # Blob 和 Sandbox 覆盖用户文件与用户沙箱，不扩大到 vercel-storage.com。
+        "verified_rules": [
+            "domain,v0.app", "domain,api.v0.dev",
+            "domain-suffix,public.blob.vercel-storage.com", "domain-suffix,vercel.run",
+        ],
+        "evidence": ["https://vercel.com/blog/v0-app", "https://v0.app/docs/api/v2/guides/migrating-from-v1-to-v2", "https://vercel.com/docs/vercel-blob/public-storage", "https://vercel.com/kb/guide/running-openclaw-in-vercel-sandbox"],
+    },
+    "Dropbox": {
+        "roots": ["dash.ai", "docsend.com"], "telemetry": [],
+        "verified_rules": ["domain-suffix,dash.ai", "domain-suffix,docsend.com"],
+        "evidence": ["https://help.dropbox.com/security/official-domains"],
+    },
+    "GitLab": {
+        "roots": ["gitlab.io"], "telemetry": [],
+        # GitLab Pages 包含第三方用户站点，不能作为内容安全白名单。
+        "verified_rules": ["domain-suffix,gitlab.io"],
+        "evidence": ["https://docs.gitlab.com/user/project/pages/introduction/", "https://docs.gitlab.com/user/project/pages/getting_started_part_one/"],
     },
     "Apple": {"roots": ["apple.com"], "telemetry": [], "evidence": ["https://www.apple.com/"]},
-    "iCloud": {"roots": ["icloud.com", "icloud.com.cn"], "telemetry": [], "evidence": ["https://support.apple.com/en-us/101555"]},
+    "iCloud": {
+        "roots": ["icloud.com", "icloud.com.cn", "apple-dns.net"], "telemetry": [],
+        "verified_rules": ["domain-suffix,apple-dns.net"],
+        "evidence": ["https://support.apple.com/en-us/101555"],
+    },
     "Google": {"roots": ["google.com"], "telemetry": [], "evidence": ["https://www.google.com/"]},
     "YouTube": {"roots": ["youtube.com", "youtu.be"], "telemetry": [], "evidence": ["https://www.youtube.com/"]},
 }

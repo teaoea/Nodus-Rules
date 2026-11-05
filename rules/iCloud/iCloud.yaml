@@ -1,8 +1,8 @@
 # 名称：iCloud
-# 来源核对日期：2026-11-02 04:08 UTC
-# 规则总数：62
+# 来源核对日期：2026-11-05 04:16 UTC
+# 规则总数：63
 # domain: 2
-# domain-suffix: 60
+# domain-suffix: 61
 # domain-keyword: 0
 # ip-cidr: 0
 # geoip: 0
@@ -71,3 +71,4 @@ rules:
   - domain-suffix,mylcloud.net
   - domain-suffix,www-cdn.icloud.com.akadns.net
   - domain-suffix,wwwicloud.com
+  - domain-suffix,apple-dns.net

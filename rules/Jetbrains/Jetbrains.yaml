@@ -1,8 +1,8 @@
 # 名称：Jetbrains
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：14
+# 来源核对日期：2026-11-05 04:16 UTC
+# 规则总数：16
 # domain: 0
-# domain-suffix: 14
+# domain-suffix: 16
 # domain-keyword: 0
 # ip-cidr: 0
 # geoip: 0
@@ -23,3 +23,5 @@ rules:
   - domain-suffix,jetbrains.team
   - domain-suffix,kotlinconf.com
   - domain-suffix,kotlinlang.org
+  - domain-suffix,myjetbrains.com
+  - domain-suffix,youtrack.cloud

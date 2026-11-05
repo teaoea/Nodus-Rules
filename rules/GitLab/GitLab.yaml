@@ -1,8 +1,8 @@
 # 名称：GitLab
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：6
+# 来源核对日期：2026-11-05 04:16 UTC
+# 规则总数：7
 # domain: 0
-# domain-suffix: 6
+# domain-suffix: 7
 # domain-keyword: 0
 # ip-cidr: 0
 # geoip: 0
@@ -15,3 +15,4 @@ rules:
   - domain-suffix,gitlab.net
   - domain-suffix,gitter-static.net
   - domain-suffix,gitter.im
+  - domain-suffix,gitlab.io

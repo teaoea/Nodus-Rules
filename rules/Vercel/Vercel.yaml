@@ -1,14 +1,16 @@
 # 名称：Vercel
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：27
-# domain: 0
-# domain-suffix: 27
+# 来源核对日期：2026-11-05 04:16 UTC
+# 规则总数：31
+# domain: 2
+# domain-suffix: 29
 # domain-keyword: 0
 # ip-cidr: 0
 # geoip: 0
 # protocol: 0
 # port: 0
 rules:
+  - domain,api.v0.dev
+  - domain,v0.app
   - domain-suffix,err.sh
   - domain-suffix,hyper.is
   - domain-suffix,nextjs.org
@@ -36,3 +38,5 @@ rules:
   - domain-suffix,zeit.co
   - domain-suffix,zeit.sh
   - domain-suffix,zeitworld.com
+  - domain-suffix,public.blob.vercel-storage.com
+  - domain-suffix,vercel.run

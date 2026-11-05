@@ -12520,14 +12520,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 4,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/AppleID/AppleID.yaml",
-      "rules": 4,
-      "bytes": 302,
+      "rules": 5,
+      "bytes": 331,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2024-02-03T01:55:24+08:00",
       "template_version": 9
@@ -12754,14 +12754,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 5,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Atlassian/Atlassian.yaml",
-      "rules": 5,
-      "bytes": 347,
+      "rules": 11,
+      "bytes": 539,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -16981,14 +16981,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 17,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Dropbox/Dropbox.yaml",
-      "rules": 17,
-      "bytes": 799,
+      "rules": 19,
+      "bytes": 855,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -17697,14 +17697,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 2,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Figma/Figma.yaml",
-      "rules": 2,
-      "bytes": 243,
+      "rules": 4,
+      "bytes": 303,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2024-02-03T01:55:24+08:00",
       "template_version": 9
@@ -18075,14 +18075,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 14,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Gemini/Gemini.yaml",
-      "rules": 14,
-      "bytes": 700,
+      "rules": 15,
+      "bytes": 739,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -18165,14 +18165,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 6,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/GitLab/GitLab.yaml",
-      "rules": 6,
-      "bytes": 406,
+      "rules": 7,
+      "bytes": 434,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -18600,14 +18600,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 1,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/GoogleVoice/GoogleVoice.yaml",
-      "rules": 1,
-      "bytes": 221,
+      "rules": 2,
+      "bytes": 249,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -19650,14 +19650,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 14,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Jetbrains/Jetbrains.yaml",
-      "rules": 14,
-      "bytes": 634,
+      "rules": 16,
+      "bytes": 701,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -147367,14 +147367,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 27,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Vercel/Vercel.yaml",
-      "rules": 27,
-      "bytes": 1015,
+      "rules": 31,
+      "bytes": 1133,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -148820,8 +148820,8 @@
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/iCloud/iCloud.yaml",
-      "rules": 62,
-      "bytes": 2140,
+      "rules": 63,
+      "bytes": 2172,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2026-06-29T18:49:58Z",
       "template_version": 9
@@ -149062,7 +149062,9 @@
       },
       "Figma/Figma.yaml": {
         "rules": [
-          "domain-suffix,figma.site"
+          "domain-suffix,figma.site",
+          "domain-suffix,figmaweave.com",
+          "domain-suffix,weavy.ai"
         ],
         "evidence": [
           "https://help.figma.com/hc/en-us/articles/19424714305943-Adjust-your-network-settings"
@@ -149070,10 +149072,12 @@
       },
       "Gemini/Gemini.yaml": {
         "rules": [
-          "domain,cloudaicompanion.googleapis.com"
+          "domain,cloudaicompanion.googleapis.com",
+          "domain,cloudcode-pa.googleapis.com"
         ],
         "evidence": [
-          "https://docs.cloud.google.com/gemini/docs/codeassist/code-overview#known-issues"
+          "https://docs.cloud.google.com/gemini/docs/codeassist/code-overview#known-issues",
+          "https://docs.cloud.google.com/gemini/docs/codeassist/network-access"
         ]
       },
       "GitHub/GitHub.yaml": {
@@ -149107,6 +149111,84 @@
         ],
         "evidence": [
           "https://learn.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges"
+        ]
+      },
+      "Atlassian/Atlassian.yaml": {
+        "rules": [
+          "domain-suffix,atl-paas.net",
+          "domain-suffix,atlassian-3p.com",
+          "domain-suffix,atlassian-dev.net",
+          "domain-suffix,atlassian.net",
+          "domain-suffix,jira.com",
+          "domain-suffix,ss-inf.net"
+        ],
+        "evidence": [
+          "https://support.atlassian.com/organization-administration/docs/ip-addresses-and-domains-for-atlassian-cloud-products/"
+        ]
+      },
+      "Jetbrains/Jetbrains.yaml": {
+        "rules": [
+          "domain-suffix,myjetbrains.com",
+          "domain-suffix,youtrack.cloud"
+        ],
+        "evidence": [
+          "https://www.jetbrains.com/help/youtrack/cloud/security.html"
+        ]
+      },
+      "iCloud/iCloud.yaml": {
+        "rules": [
+          "domain-suffix,apple-dns.net"
+        ],
+        "evidence": [
+          "https://support.apple.com/en-us/101555"
+        ]
+      },
+      "AppleID/AppleID.yaml": {
+        "rules": [
+          "domain,account.apple.com"
+        ],
+        "evidence": [
+          "https://support.apple.com/en-ca/109353"
+        ]
+      },
+      "GoogleVoice/GoogleVoice.yaml": {
+        "rules": [
+          "domain,voice.google.com"
+        ],
+        "evidence": [
+          "https://support.google.com/voice/answer/1065750?co=GENIE.Platform%3DDesktop&hl=en"
+        ]
+      },
+      "Vercel/Vercel.yaml": {
+        "rules": [
+          "domain,api.v0.dev",
+          "domain,v0.app",
+          "domain-suffix,public.blob.vercel-storage.com",
+          "domain-suffix,vercel.run"
+        ],
+        "evidence": [
+          "https://vercel.com/blog/v0-app",
+          "https://v0.app/docs/api/v2/guides/migrating-from-v1-to-v2",
+          "https://vercel.com/docs/vercel-blob/public-storage",
+          "https://vercel.com/kb/guide/running-openclaw-in-vercel-sandbox"
+        ]
+      },
+      "Dropbox/Dropbox.yaml": {
+        "rules": [
+          "domain-suffix,dash.ai",
+          "domain-suffix,docsend.com"
+        ],
+        "evidence": [
+          "https://help.dropbox.com/security/official-domains"
+        ]
+      },
+      "GitLab/GitLab.yaml": {
+        "rules": [
+          "domain-suffix,gitlab.io"
+        ],
+        "evidence": [
+          "https://docs.gitlab.com/user/project/pages/introduction/",
+          "https://docs.gitlab.com/user/project/pages/getting_started_part_one/"
         ]
       }
     },
@@ -171356,5 +171438,55 @@
         "ownership_evidence": []
       }
     }
+  },
+  "verified_batch": {
+    "checked_at": "2026-11-05 04:16 UTC",
+    "base_commit": "489740b3eaa8305d842542c1fab4fd8107ede40a",
+    "upstream_revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+    "rules_added": 21,
+    "collections": {
+      "Atlassian": [
+        "domain-suffix,atlassian.net",
+        "domain-suffix,jira.com",
+        "domain-suffix,atl-paas.net",
+        "domain-suffix,ss-inf.net",
+        "domain-suffix,atlassian-dev.net",
+        "domain-suffix,atlassian-3p.com"
+      ],
+      "Jetbrains": [
+        "domain-suffix,youtrack.cloud",
+        "domain-suffix,myjetbrains.com"
+      ],
+      "iCloud": [
+        "domain-suffix,apple-dns.net"
+      ],
+      "AppleID": [
+        "domain,account.apple.com"
+      ],
+      "Gemini": [
+        "domain,cloudcode-pa.googleapis.com"
+      ],
+      "GoogleVoice": [
+        "domain,voice.google.com"
+      ],
+      "Vercel": [
+        "domain,v0.app",
+        "domain,api.v0.dev",
+        "domain-suffix,public.blob.vercel-storage.com",
+        "domain-suffix,vercel.run"
+      ],
+      "Figma": [
+        "domain-suffix,weavy.ai",
+        "domain-suffix,figmaweave.com"
+      ],
+      "Dropbox": [
+        "domain-suffix,dash.ai",
+        "domain-suffix,docsend.com"
+      ],
+      "GitLab": [
+        "domain-suffix,gitlab.io"
+      ]
+    },
+    "validation": "Official-source classification and static conversion tests only; no connectivity or Nodus Core load test."
   }
 }

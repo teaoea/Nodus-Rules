@@ -1,8 +1,8 @@
 # 名称：Atlassian
-# 来源核对日期：2026-10-30 05:23 UTC
-# 规则总数：5
+# 来源核对日期：2026-11-05 04:16 UTC
+# 规则总数：11
 # domain: 0
-# domain-suffix: 5
+# domain-suffix: 11
 # domain-keyword: 0
 # ip-cidr: 0
 # geoip: 0
@@ -14,3 +14,9 @@ rules:
   - domain-suffix,statuspage.io
   - domain-suffix,trello.com
   - domain-suffix,trellocdn.com
+  - domain-suffix,atl-paas.net
+  - domain-suffix,atlassian-3p.com
+  - domain-suffix,atlassian-dev.net
+  - domain-suffix,atlassian.net
+  - domain-suffix,jira.com
+  - domain-suffix,ss-inf.net

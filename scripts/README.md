@@ -9,6 +9,8 @@
 - `merge.py`：将本地已有条件、上游条件及该集合的有效搜索补充合并。归一化完全重复条件，保留顺序；遵循 Core 的同类保守覆盖规则，不跨类型裁剪。无最终策略时不裁剪可能为 REJECT 的 IP／端口；策略冲突交给 Core。
 - `sync.py`：使用 UTC 分钟时间协调上述步骤，写入变化文件，删除旧的 `README.upstream.md` 副本，仅将上游 GPL-2.0 许可证同步到根 `LICENSE`，不再创建 `ThirdParty/ios_rule_script`。集合 README 使用上游原文，不另存上游说明副本。
 
+2026-11-05 核实补充的域名与官方来源登记在 `discover.py`，只作用于各自集合。`atlassian-dev.net`、`atlassian-3p.com`、YouTrack Cloud、Figma、Dropbox DocSend、`gitlab.io`、`public.blob.vercel-storage.com` 和 `vercel.run` 可能承载租户、第三方应用或用户内容；这里是服务分流归类，不是内容安全白名单。Vercel Blob 仅加入公开存储子域，不扩大到整个 `vercel-storage.com`；AppleID、Google Voice、Gemini Code Assist 与 v0 的精确主机不扩大为后缀。域名归属依据不代表已通过实际连通性或 Nodus Core 加载测试，也不代表已完整覆盖相应产品。本批加入不授予后续人工审查或外部定时任务自动写入新候选的权限。
+
 ## 转换边界
 
 `DOMAIN`、`DOMAIN-SUFFIX` 使用小写 Nodus 类型；关键词须满足远程正文值域。IPv4／IPv6 CIDR 统一为 `ip-cidr`。不支持的进程、ASN 等条件及非法值写入 `rules/sync-report.json`，未知类型停止本轮发布。`no-resolve` 无 Nodus 对应选项，保留 IP 条件并记录选项移除，不能声称 DNS 语义完全等价。
