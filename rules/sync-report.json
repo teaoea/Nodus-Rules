@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-05 19:26 UTC",
+  "date": "2026-11-06 04:53 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-05 19:26 UTC",
-    "next_index": 175,
+    "checked_at": "2026-11-06 04:53 UTC",
+    "next_index": 199,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -154046,31 +154046,23 @@
         "ownership_evidence": []
       },
       "Cloud/AmazonCloud/AmazonCloud.list": {
-        "checked_at": "2026-10-26 18:09 UTC",
+        "checked_at": "2026-11-06 04:53 UTC",
         "name": "AmazonCloud",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://kvcc.edu/",
-          "https://www.kvcc.edu/foundation/",
-          "https://careertraining.kvcc.edu/training-programs/medical-billing-coding-voucher-included/",
-          "https://www.athletics.kvcc.edu/sports/wbkb/index",
-          "https://athletics.kvcc.edu/sports/bsb/index",
-          "https://archives.kvcc.edu/",
-          "https://careertraining.kvcc.edu/training-programs/veterinary-assistant/",
-          "https://valleyhub.kvcc.edu/",
-          "https://signin.kvcc.edu/",
-          "https://branding.kvcc.edu/"
+          "https://stackoverflow.com/questions/23048285/call-asynchronous-method-in-constructor",
+          "https://stackoverflow.com/questions/56833469/typescript-error-ts7053-element-implicitly-has-an-any-type",
+          "https://stackoverflow.com/questions/31140521/cannot-resolve-symbol-in-intellij-idea",
+          "https://stackoverflow.com/questions/790932/how-to-wrap-text-in-latex-tables",
+          "https://stackoverflow.com/questions/34370962/no-module-named-cffi-backend",
+          "https://stackoverflow.com/questions/35480623/how-to-import-local-packages-in-go",
+          "https://stackoverflow.com/questions/75456272/trying-to-create-a-random-joke-generator-that-chooses-between-two-joke-setups-an",
+          "https://stackoverflow.com/questions/17219688/href-tel-and-mobile-numbers",
+          "https://stackoverflow.com/questions/28622523/windows-cmd-command-for-accessing-usb",
+          "https://stackoverflow.com/questions/13279593/401-unauthorized-access-is-denied-due-to-invalid-credentials"
         ],
         "candidates": [
-          "archives.kvcc.edu",
-          "athletics.kvcc.edu",
-          "branding.kvcc.edu",
-          "careertraining.kvcc.edu",
-          "kvcc.edu",
-          "signin.kvcc.edu",
-          "valleyhub.kvcc.edu",
-          "www.athletics.kvcc.edu",
-          "www.kvcc.edu"
+          "stackoverflow.com"
         ],
         "accepted": [],
         "ownership_evidence": []
@@ -172679,6 +172671,653 @@
           "https://code.claude.com/docs/en/desktop#network-access-requirements",
           "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Claude/Claude.list"
         ]
+      },
+      "Cloud/360Cloud/360Cloud.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "360Cloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://music.youtube.com/watch?v=vTnMn0fEMR0",
+          "https://music.youtube.com/watch?v=73Z7rRx6dnM",
+          "https://www.youtube.com/watch?v=ryTdYnt1eUI",
+          "https://www.youtube.com/watch?v=_cMIlPAnN9U",
+          "https://www.mydailyrosary.com/short-on-time",
+          "https://www.mydailyrosary.com/daily-rosary",
+          "https://www.catholicconnect.io/rosary",
+          "https://www.holyrosarytoday.com/rosary-today/",
+          "https://prayrosary.net/pray/today",
+          "https://rosariointeractivo.com/en/"
+        ],
+        "candidates": [
+          "music.youtube.com",
+          "prayrosary.net",
+          "rosariointeractivo.com",
+          "www.catholicconnect.io",
+          "www.holyrosarytoday.com",
+          "www.mydailyrosary.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/AkamaiCloud/AkamaiCloud.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "AkamaiCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.espn.com/nba/story/_/id/50379717/2027-nba-draft-rankings-top-100-prospects",
+          "https://nbadraftroom.com/2027-nba-mock-draft/",
+          "https://www.nbadraft.net/ranking/bigboard/",
+          "https://www.espn.com/nba/story/_/id/46886245/2026-nba-draft-big-board-rankings-top-100-prospects-players",
+          "https://bleacherreport.com/articles/25497625-top-2027-nba-draft-prospects-know-every-position",
+          "https://www.nba.com/draft/2026/prospects",
+          "https://sports.yahoo.com/articles/nba-rookie-rankings-yaxel-lendeborg-164620258.html",
+          "https://www.nytimes.com/athletic/7732404/2026/11/04/nba-draft-prospects-college-basketball/",
+          "https://fansided.com/nba/2027-nba-draft-big-board-top-60-prospects-as-college-basketball-gets-underway",
+          "https://www.nbadraft.net/2027-nba-extended-mock-draft-1-0/"
+        ],
+        "candidates": [
+          "bleacherreport.com",
+          "fansided.com",
+          "nba.com",
+          "nbadraft.net",
+          "nbadraftroom.com",
+          "sports.yahoo.com",
+          "www.espn.com",
+          "www.nba.com",
+          "www.nbadraft.net",
+          "www.nytimes.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/BaiduCloud/BaiduCloud.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "BaiduCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://genius.com/Billy-joel-uptown-girl-lyrics",
+          "https://www.azlyrics.com/lyrics/billyjoel/uptowngirl.html",
+          "https://m.youtube.com/watch?v=xUZ2TYsEM5Y",
+          "https://www.lyricsmania.com/uptown_girl_lyrics_billy_joel.html",
+          "https://www.songlyrics.com/billy-joel/uptown-girl-lyrics/",
+          "https://m.youtube.com/watch?v=Y5Ai0omTV0M",
+          "https://lyrics.lyricfind.com/lyrics/billy-joel-uptown-girl",
+          "https://www.elyrics.net/read/b/billy-joel-lyrics/uptown-girl-lyrics.html",
+          "https://www.lyricsondemand.com/billy_joel/uptown_girl",
+          "https://www.azlyrics.com/lyrics/westlife/uptowngirl.html"
+        ],
+        "candidates": [
+          "airwavemusic.tv",
+          "azlyrics.com",
+          "elyrics.net",
+          "genius.com",
+          "lyrics.lyricfind.com",
+          "m.youtube.com",
+          "open.spotify.co",
+          "songlyrics.com",
+          "spoti.fi",
+          "www.azlyrics.com",
+          "www.elyrics.net",
+          "www.lyricsmania.com",
+          "www.lyricsondemand.com",
+          "www.songlyrics.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/CloudCN/CloudCN.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "CloudCN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/wordle/comments/svk6gq/created_a_compilation_of_wordltype_games_hope_you/",
+          "https://www.reddit.com/r/wordle/comments/1by0mwc/what_other_puzzles_do_you_play_outside_of_wordle/",
+          "https://www.reddit.com/r/tesco/comments/1ah69cm/tescodle_a_wordlestyle_tesco_product_pricing_game/",
+          "https://www.reddit.com/r/northernlion/comments/1857xjq/wake_up_honey_new_dle_just_dropped_costcodle/",
+          "https://www.reddit.com/r/battlefield2042/comments/11o3vnq/what_do_the_sim_and_mps_stats_show/",
+          "https://www.reddit.com/r/pokedokuonline/comments/1ai0s3r/costcodle_play_it_online_at_pokedokuco/",
+          "https://www.reddit.com/r/northernlion/comments/12bsu4n/does_anyone_have_the_full_dles_list/",
+          "https://www.reddit.com/r/wordle/comments/zcocei/heres_all_the_wordle_type_games_ive_been_playing/",
+          "https://www.reddit.com/r/Grimdawn/top/",
+          "https://www.reddit.com/r/Costco/comments/18zhlqz/costcodlecom_for_those_who_spend_too_much_time_at/"
+        ],
+        "candidates": [
+          "costcodle.com",
+          "pokedoku.co",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/CloudGlobal/CloudGlobal.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "CloudGlobal",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://careers.marriott.com/",
+          "https://careers.marriott.com/fr/",
+          "https://careers.marriott.com/brands/jw-marriott/",
+          "https://careers.marriott.com/brands/courtyard/",
+          "https://careers.marriott.com/career-journeys/flex-talent-solutions/jobs",
+          "https://careers.marriott.com/brands/edition/",
+          "https://careers.marriott.com/jobs",
+          "https://careers.marriott.com/career-journeys/corporate/",
+          "https://careers.marriott.com/ja/",
+          "https://careers.marriott.com/brands/element/"
+        ],
+        "candidates": [
+          "careers.marriott.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/HiNet/HiNet.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "HiNet",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://ipps-a.army.mil/",
+          "https://www.hrc.army.mil/wcmt-api/sites/default/wcmtfiles/files/27058_0.pdf",
+          "https://en.wikipedia.org/wiki/Integrated_Personnel_and_Pay_System_-_Army",
+          "https://www.army.mil/ippsa",
+          "https://www.caci.com/modernizing-ipps-us-armys-largest-most-complex-personnel-system",
+          "https://ipps-a.army.mil/Site-Index/",
+          "https://www.hrcapps.army.mil/Portal/?page_id=11227",
+          "https://www.youtube.com/c/IPPSA",
+          "https://d.ippsa.com/auth",
+          "https://www.dvidshub.net/video/592512/ippsa-made-simple-army"
+        ],
+        "candidates": [
+          "d.ippsa.com",
+          "en.wikipedia.org",
+          "ipps-a.army.mil",
+          "my.ippsa.army.mil",
+          "www.army.mil",
+          "www.caci.com",
+          "www.dvidshub.net",
+          "www.hrc.army.mil",
+          "www.hrcapps.army.mil",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/HuaweiCloud/HuaweiCloud.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "HuaweiCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/",
+          "https://account.microsoft.com/account",
+          "https://www.microsoft.com/",
+          "https://myaccount.microsoft.com/%C2%A0-%3E",
+          "https://myaccount.microsoft.com/login",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://account.microsoft.com/account-checkup",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://support.microsoft.com/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365",
+          "https://apps.microsoft.com/"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/JingDongCloud/JingDongCloud.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "JingDongCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://play.google.com/store/movies?hl=en-US",
+          "https://www.justwatch.com/us/movies",
+          "https://www.plex.tv/watch-free/",
+          "https://movies.youtube.com/",
+          "https://tubitv.com/",
+          "https://moviesanywhere.com/home",
+          "https://www.primevideo.com/storefront/home/home",
+          "https://www.youtube.com/playlist?list=PL30RAv-0lkxHdTcoGGgx5L6eXIHnnrEHC",
+          "https://tubitv.com/movies",
+          "https://watch.plex.tv/on-demand"
+        ],
+        "candidates": [
+          "movies.youtube.com",
+          "moviesanywhere.com",
+          "play.google.com",
+          "tubitv.com",
+          "watch.plex.tv",
+          "www.justwatch.com",
+          "www.plex.tv",
+          "www.primevideo.com",
+          "www.youtube.com",
+          "youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/KingsoftCloud/KingsoftCloud.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "KingsoftCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.m.wikipedia.org/wiki/Lake_Nicaragua",
+          "https://www.britannica.com/place/Lake-Nicaragua",
+          "https://www.worldatlas.com/lakes/lake-nicaragua.html",
+          "https://www.globalgeografia.com/en/north-america/largest-lakes-north-central-america.htm",
+          "https://www.studycountry.com/wiki/what-are-the-two-largest-lakes-in-central-america",
+          "https://www.ruta.org/lakes-of-central-america-e-g-lake-nicaragua/",
+          "https://costarica.org/nicaragua/lake/",
+          "https://www.mikegravel.org/what-are-the-major-bodies-of-water-in-central-america/",
+          "https://www.lakepedia.com/lake/nicaragua.html",
+          "https://www.studycountry.com/wiki/what-is-the-biggest-lake-in-central-america"
+        ],
+        "candidates": [
+          "costarica.org",
+          "en.m.wikipedia.org",
+          "ruta.org",
+          "studycountry.com",
+          "www.britannica.com",
+          "www.globalgeografia.com",
+          "www.lakepedia.com",
+          "www.mikegravel.org",
+          "www.ruta.org",
+          "www.studycountry.com",
+          "www.worldatlas.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/NeteaseCloud/NeteaseCloud.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "NeteaseCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ups.com/track?loc=EN_US",
+          "https://www.ups.com/us/en/support/tracking-support/where-is-my-package",
+          "https://www.ups.com/us/en/support/tracking-support",
+          "https://www.theupsstore.com/tools/track-a-package",
+          "https://wwwapps.ups.com/us/en/fragments/apps/track.plain.html",
+          "https://locations.theupsstore.com/track-package",
+          "https://www.ups.com/track?loc=en_IN&request",
+          "https://www.ordertracker.com/carriers/ups",
+          "https://www.17track.net/en/carriers/ups",
+          "https://www.theupsstore.com/tools/track-a-package/index"
+        ],
+        "candidates": [
+          "locations.theupsstore.com",
+          "www.17track.net",
+          "www.ordertracker.com",
+          "www.theupsstore.com",
+          "www.ups.com",
+          "wwwapps.ups.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloud/TencentCloud/TencentCloud.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "TencentCloud",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/KSU/comments/g86439/can_someone_explain_what_the_difference_is/",
+          "https://www.reddit.com/r/KSU/comments/i9rfp1/how_does_one_day_access_work/",
+          "https://www.reddit.com/r/KSU/comments/wmdgjb/i_am_taking_online_classes_this_semester_but_my/",
+          "https://www.reddit.com/r/KSU/comments/p5wur9/day_one_access_where_to_find_it_on_d2l/",
+          "https://www.reddit.com/r/KSU/comments/16ecbrb/d2l_video_issue/",
+          "https://www.reddit.com/r/KSU/comments/r3iisl/trouble_accessing_d2l/",
+          "https://www.reddit.com/r/KSU/comments/96yu4k/is_there_a_way_to_get_d2l_to_send_me_notifications/",
+          "https://www.reddit.com/r/KSU/comments/p4u75b/d2l_brightspace/",
+          "https://www.reddit.com/r/KSU/comments/llehaq/on_d2l_cant_see_previous_classes_taken/",
+          "https://www.reddit.com/r/KSU/comments/ywl10l/is_anyone_else_having_issues_with_d2l_right_now/"
+        ],
+        "candidates": [
+          "status.kennesaw.edu",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloudflare/Cloudflare.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Cloudflare",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nfl.com/",
+          "https://www.nfl.com/news",
+          "https://www.espn.com/nfl/",
+          "https://www.espn.com/nfl/scoreboard",
+          "https://www.cbssports.com/nfl/",
+          "https://en.m.wikipedia.org/wiki/National_Football_League",
+          "https://sports.yahoo.com/nfl/",
+          "https://www.foxsports.com/nfl",
+          "https://www.cbssports.com/nfl/scoreboard/"
+        ],
+        "candidates": [
+          "cbssports.com",
+          "en.m.wikipedia.org",
+          "foxsports.com",
+          "nfl.com",
+          "nflnetwork.ca",
+          "sports.yahoo.com",
+          "www.cbssports.com",
+          "www.espn.com",
+          "www.foxsports.com",
+          "www.nfl.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cloudflarecn/Cloudflarecn.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Cloudflarecn",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://answers.microsoft.com/nb-no/windows/forum/all/how-can-i-remove-windows-cleaning-tools-from-my/b0f4d44b-5406-40d6-8f01-974a6318d8d0",
+          "https://answers.microsoft.com/en-us/msteams/forum/all/reading-progress-in-teams/e8bf2855-033e-48d2-b3e1-a1f1a58249ae",
+          "https://answers.microsoft.com/en-us/windows/forum/all/task-manager-and-command-prompt-as-administrator/c75bc8c7-0303-41bb-bd9d-97b31164efa5",
+          "https://answers.microsoft.com/en-us/msoffice/forum/all/syncing-onenote-when-work-blocks-onedrive-and-usb/8017e65a-84f6-4592-8f9e-102d86c79727",
+          "https://answers.microsoft.com/en-us/windows/forum/all/windows-81-fails-to-boot-ntldr-missing-press-cntl/b51d0328-7087-4b47-a60c-cb9b2527a9d0",
+          "https://answers.microsoft.com/en-us/msoffice/forum/all/cannot-delete-custom-number-format-protected-sheet/c565c52a-edfc-408a-8edf-330b73a1ae7b",
+          "https://www.answers.microsoft.com/ja-jp/windows/forum/all/ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£/b45f8dde-aa4a-4598-ab6e-21a67f8b6ec2",
+          "https://www.answers.microsoft.com/ja-jp/msteams/forum/all/teamsÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©/4850be98-e651-4d92-8a05-d1489edbf168",
+          "https://www.answers.microsoft.com/zh-hans/windows/forum/all/ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â½win8ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°/d8c51abf-b863-4da3-9596-797deace59f7",
+          "https://www.answers.microsoft.com/ja-jp/windows/forum/all/ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡/c431376e-21af-41e6-8cf5-eb47fe618c05"
+        ],
+        "candidates": [
+          "answers.microsoft.com",
+          "www.answers.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Clubhouse/Clubhouse.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Clubhouse",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.clubhouse.com/signin",
+          "https://www.clubhouse.com/",
+          "https://en.m.wikipedia.org/wiki/Clubhouse_(app)",
+          "https://play.google.com/store/apps/details?id=com.clubhouse.app&hl=en-US",
+          "https://support.clubhouse.com/hc/en-us",
+          "https://support.clubhouse.com/hc/en-us/articles/13683274674835-Getting-Started-with-Clubhouse",
+          "https://www.digitaltrends.com/social-media/what-is-clubhouse/",
+          "https://www.theclubhousesportsgrille.com/",
+          "https://clubhouse-web.com/en",
+          "https://www.wikiwand.com/en/Clubhouse_(app)"
+        ],
+        "candidates": [
+          "clubhouse-web.com",
+          "en.m.wikipedia.org",
+          "play.google.com",
+          "support.clubhouse.com",
+          "www.clubhouse.com",
+          "www.digitaltrends.com",
+          "www.theclubhousesportsgrille.com",
+          "www.wikiwand.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ClubhouseIP/ClubhouseIP.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "ClubhouseIP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://forum.roseonlinegame.com/topic/5706-mounts/",
+          "https://forum.roseonlinegame.com/forum/48-mods-and-tools/",
+          "https://forum.roseonlinegame.com/topic/6242-mage-pvp-guide-from-kruizzle/",
+          "https://forum.roseonlinegame.com/topic/961-annual-event-calendar/",
+          "https://forum.roseonlinegame.com/topic/1299-guide-pest-control-repeatable/",
+          "https://forum.roseonlinegame.com/topic/738-dual-client/",
+          "https://forum.roseonlinegame.com/topic/955-guide-making-a-custom-clan-mark/",
+          "https://forum.roseonlinegame.com/topic/1361-guide-fetch-quests/",
+          "https://forum.roseonlinegame.com/how-to-install-rose-online/",
+          "https://forum.roseonlinegame.com/topic/4414-guide-shortcuts/"
+        ],
+        "candidates": [
+          "forum.roseonlinegame.com",
+          "mark.bmp"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cnet/Cnet.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Cnet",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cnet.com/",
+          "https://www.cnet.com/latest/",
+          "https://download.cnet.com/",
+          "https://download.cnet.com/windows/",
+          "https://en.wikipedia.org/wiki/CNET",
+          "https://www.youtube.com/channel/UCOmcA3f_RrH6b9NmcNa4tdg",
+          "https://www.cnet.com/reviews/",
+          "https://www.cnet.com/best/",
+          "https://www.cnet.com/news/",
+          "https://www.cnet.com/about/"
+        ],
+        "candidates": [
+          "download.cnet.com",
+          "en.wikipedia.org",
+          "www.cnet.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Collabora/Collabora.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Collabora",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.collaboraonline.com/",
+          "https://www.collabora.com/",
+          "https://www.collaboraonline.com/collabora-office/",
+          "https://en.wikipedia.org/wiki/Collabora",
+          "https://nextcloud.com/collabora/",
+          "https://en.wikipedia.org/wiki/Collabora_Online",
+          "https://www.collaboraoffice.org/online/",
+          "https://apps.microsoft.com/detail/9p9mrbxjjg0m",
+          "https://github.com/CollaboraOnline",
+          "https://www.collabora.com/about-us/open-source/open-source-projects/libreoffice.html"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "gerrit.collaboraoffice.com",
+          "github.com",
+          "nextcloud.com",
+          "www.collabora.com",
+          "www.collaboraoffice.org",
+          "www.collaboraonline.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Comodo/Comodo.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Comodo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.comodo.com/",
+          "https://www.comodo.com/home/download/download.php?prod=antivirus",
+          "https://www.spanishdict.com/translate/c%C3%B3modo",
+          "https://one.comodo.com/app/login",
+          "https://forums.comodo.com/t/link-to-latest-free-version-of-comodo-internet-security/362758",
+          "https://ssl.comodoca.com/index.php",
+          "https://en.wikipedia.org/wiki/Xcitium",
+          "https://www.techspot.com/downloads/4758-comodo-internet-security.html",
+          "https://www.comodomotors.com/"
+        ],
+        "candidates": [
+          "antivirus.comodo.com",
+          "en.wikipedia.org",
+          "forums.comodo.com",
+          "one.comodo.com",
+          "spanishdictionary.com",
+          "ssl.comodoca.com",
+          "www.comodo.com",
+          "www.comodomotors.com",
+          "www.spanishdict.com",
+          "www.techspot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Contentful/Contentful.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Contentful",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.contentful.com/",
+          "https://www.contentful.com/products/platform/",
+          "https://app.contentful.com/?login=1",
+          "https://en.wikipedia.org/wiki/Contentful",
+          "https://www.salesforce.com/marketing/content-management-system/",
+          "https://www.contentful.com/pricing/",
+          "https://www.contentful.com/about-us/",
+          "https://www.contentful.com/products/studio/",
+          "https://training.contentful.com/catalog",
+          "https://training.contentful.com/"
+        ],
+        "candidates": [
+          "app.contentful.com",
+          "en.wikipedia.org",
+          "training.contentful.com",
+          "www.contentful.com",
+          "www.salesforce.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Coolapk/Coolapk.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Coolapk",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.coolapk.com/",
+          "https://github.com/daimiaopeng/coolapk-desktop",
+          "https://cool-apk.en.uptodown.com/android",
+          "https://www.coolapk.com/about/index.html",
+          "https://apkpure.com/cn/ku-an/com.coolapk.market",
+          "https://apkpure.com/ku-an/com.coolapk.market/download/",
+          "https://apkpure.net/cn/ku-an/com.coolapk.market",
+          "https://github.com/bjzhou/Coolapk-kotlin",
+          "https://apkpure.net/ku-an/com.coolapk.market",
+          "https://sj.qq.com/appdetail/com.coolapk.market"
+        ],
+        "candidates": [
+          "apkpure.com",
+          "apkpure.net",
+          "cool-apk.en.uptodown.com",
+          "github.com",
+          "sj.qq.com",
+          "www.coolapk.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Copilot/Copilot.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Copilot",
+        "status": "checked",
+        "sources": [
+          "https://copilot.com/",
+          "https://copilot.microsoft.com/",
+          "https://www.microsoft.com/en-us/copilot/ai-knowledge/what-is-copilot",
+          "https://adoption.microsoft.com/en-us/copilot/",
+          "https://copilot.cloud.microsoft/",
+          "https://it.rutgers.edu/ai/microsoft-copilot/",
+          "https://copilot.com/en-gb/",
+          "https://www.microsoft.com/en-us/copilot",
+          "https://m365.cloud.microsoft/?omkt=en-001&source=post_page---------------------------",
+          "https://explore.microsoft.com/en-us/microsoft-copilot/learn"
+        ],
+        "candidates": [
+          "adoption.microsoft.com",
+          "copilot.cloud.microsoft",
+          "copilot.com",
+          "copilot.microsoft.com",
+          "explore.microsoft.com",
+          "it.rutgers.edu",
+          "m365.cloud.microsoft",
+          "www.microsoft.com"
+        ],
+        "accepted": [
+          "copilot.cloud.microsoft",
+          "copilot.com"
+        ],
+        "ownership_evidence": [
+          "https://support.microsoft.com/en-us/microsoft-365-copilot/troubleshoot-content-copilot-app",
+          "https://learn.microsoft.com/en-us/copilot/manage/manage-copilot-chat"
+        ]
+      },
+      "Crypto/Crypto.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Crypto",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://coinmarketcap.com/",
+          "https://crypto.com/",
+          "https://crypto.com/en",
+          "https://accounts.crypto.com/login",
+          "https://en.wikipedia.org/wiki/Cryptocurrency",
+          "https://www.binance.com/",
+          "https://www.coingecko.com/",
+          "https://www.tradingview.com/markets/cryptocurrencies/",
+          "https://coinmarketcap.com/currencies/bitcoin/",
+          "https://www.coinbase.com/explore"
+        ],
+        "candidates": [
+          "accounts.crypto.com",
+          "coinmarketcap.com",
+          "crypto.com",
+          "en.wikipedia.org",
+          "www.binance.com",
+          "www.coinbase.com",
+          "www.coingecko.com",
+          "www.tradingview.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Cryptocurrency/Cryptocurrency.yaml": {
+        "checked_at": "2026-11-06 04:53 UTC",
+        "name": "Cryptocurrency",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://coinmarketcap.com/",
+          "https://www.britannica.com/money/what-is-cryptocurrency",
+          "https://en.wikipedia.org/wiki/Cryptocurrency",
+          "https://coinmarketcap.com/coins/",
+          "https://www.interactivecrypto.com/learn/crypto-basics/what-is-cryptocurrency",
+          "https://www.coingecko.com/",
+          "https://www.binance.com/en",
+          "https://www.coinbase.com/",
+          "https://crypto.com/en/price",
+          "https://crypto.com/us/crypto/learn/different-types-of-cryptocurrency"
+        ],
+        "candidates": [
+          "coinmarketcap.com",
+          "crypto.com",
+          "en.wikipedia.org",
+          "www.binance.com",
+          "www.britannica.com",
+          "www.coinbase.com",
+          "www.coingecko.com",
+          "www.interactivecrypto.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
       }
     }
   }
