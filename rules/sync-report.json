@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-06 04:53 UTC",
+  "date": "2026-11-06 18:49 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-06 04:53 UTC",
-    "next_index": 199,
+    "checked_at": "2026-11-06 18:49 UTC",
+    "next_index": 223,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -173315,6 +173315,677 @@
           "www.coinbase.com",
           "www.coingecko.com",
           "www.interactivecrypto.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "CyberTrust/CyberTrust.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "CyberTrust",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://passwords.google.com/",
+          "https://passwords.google/intl/en_sg/",
+          "https://en.wikipedia.org/wiki/Password_manager",
+          "https://www.nytimes.com/wirecutter/reviews/best-password-managers/",
+          "https://www.cnet.com/tech/services-and-software/best-password-manager/",
+          "https://explore.microsoft.com/en-us/edge/features/microsoft-password-manager",
+          "https://support.google.com/chrome/answer/95606?hl=en&co=GENIE.Platform%3DAndroid",
+          "https://www.pcmag.com/picks/the-best-password-managers",
+          "https://support.microsoft.com/en-us/accounts-billing/manage/view-or-edit-your-passwords-in-microsoft-password-manager",
+          "https://www.lastpass.com/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "explore.microsoft.com",
+          "passwords.google",
+          "passwords.google.com",
+          "support.google.com",
+          "support.microsoft.com",
+          "www.cnet.com",
+          "www.lastpass.com",
+          "www.nytimes.com",
+          "www.pcmag.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DAZN/DAZN.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DAZN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dazn.com/en-US/home",
+          "https://www.dazn.com/",
+          "https://beta.dazn.com/en-US/home",
+          "https://dazngroup.com/",
+          "https://safe.dazn.com/",
+          "https://app.link.dazn.com/",
+          "https://en.wikipedia.org/wiki/DAZN"
+        ],
+        "candidates": [
+          "app.link.dazn.com",
+          "beta.dazn.com",
+          "dazngroup.com",
+          "en.wikipedia.org",
+          "nhl.tv",
+          "safe.dazn.com",
+          "www.dazn.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DMM/DMM.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DMM",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dmm.com/",
+          "https://accounts.dmm.com/service/login/password",
+          "https://player.games.dmm.co.jp/",
+          "https://accounts.dmm.co.jp/service/login/password",
+          "https://en.m.wikipedia.org/wiki/DMM.com",
+          "https://dmmwales.com/",
+          "https://games.dmm.com/list/all",
+          "https://support.dmm.com/games",
+          "https://games.dmm.com/store/download"
+        ],
+        "candidates": [
+          "accounts.dmm.co.jp",
+          "accounts.dmm.com",
+          "dmm.com",
+          "dmmwales.com",
+          "en.m.wikipedia.org",
+          "games.dmm.com",
+          "player.games.dmm.co.jp",
+          "support.dmm.com",
+          "www.dmm.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DNS/DNS.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cloudflare.com/learning/dns/what-is-dns/",
+          "https://en.m.wikipedia.org/wiki/Domain_Name_System",
+          "https://www.geeksforgeeks.org/computer-networks/domain-name-system-dns-in-application-layer/",
+          "https://dnschecker.org/",
+          "https://publicdns.info/best-dns-servers.html",
+          "https://www.whatismyip.com/dns/",
+          "https://www.ibm.com/think/topics/dns",
+          "https://www.cloudflare.com/products/dns/",
+          "https://learn.microsoft.com/en-us/windows-server/networking/dns/dns-overview",
+          "https://mxtoolbox.com/DNSLookup.aspx"
+        ],
+        "candidates": [
+          "dnschecker.org",
+          "en.m.wikipedia.org",
+          "learn.microsoft.com",
+          "mxtoolbox.com",
+          "publicdns.info",
+          "www.cloudflare.com",
+          "www.example.com",
+          "www.geeksforgeeks.org",
+          "www.ibm.com",
+          "www.whatismyip.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DaMai/DaMai.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DaMai",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+          "https://x.com/SharePoint",
+          "https://www.microsoft.com/en-us/microsoft-365/sharepoint/sharepoint-server",
+          "https://apps.apple.com/us/app/microsoft-sharepoint/id1091505266",
+          "https://www.reddit.com/r/sharepoint/",
+          "https://support.microsoft.com/en-us/sharepoint/get-started-with-sharepoint/sign-in-to-sharepoint",
+          "https://support.microsoft.com/en-us/sharepoint/",
+          "https://en.wikipedia.org/wiki/SharePoint",
+          "https://learn.microsoft.com/en-us/sharepoint/",
+          "https://support.microsoft.com/en-us/sharepoint/get-started-with-sharepoint/get-started-with-sharepoint"
+        ],
+        "candidates": [
+          "apps.apple.com",
+          "en.wikipedia.org",
+          "learn.microsoft.com",
+          "microsoft.com",
+          "support.microsoft.com",
+          "www.microsoft.com",
+          "www.reddit.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dailymail/Dailymail.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "Dailymail",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dailymail.com/ushome/index.html",
+          "https://www.dailymail.com/home/index.html",
+          "https://www.dailymail.co.uk/ushome/index.html",
+          "https://newspaper.dailymail.com/",
+          "https://en.wikipedia.org/wiki/Daily_Mail",
+          "https://www.dailymail.com/news/index.html",
+          "https://www.dailymail.com/news/us/index.html",
+          "https://www.dailymail.com/auhome/index.html",
+          "https://www.dailymail.com/home/latest/index.html",
+          "https://offers.dailymail.com/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "newspaper.dailymail.com",
+          "offers.dailymail.com",
+          "www.dailymail.co.uk",
+          "www.dailymail.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dailymotion/Dailymotion.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "Dailymotion",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dailymotion.com/",
+          "https://www.dailymotion.com/us/feed",
+          "https://www.youtube.com/dailymotion",
+          "https://en.wikipedia.org/wiki/Dailymotion",
+          "https://www.facebook.com/Dailymotion/",
+          "https://dailymotion.vhx.tv/login",
+          "https://faq.dailymotion.com/hc/en-us/articles/36837758232466-Subscribe-to-and-manage-your-Dailymotion-Pass",
+          "https://www.dailymotion.com/stream/videos",
+          "https://www.dailymotion.com/us/1",
+          "https://faq.dailymotion.com/hc/en-us/categories/360002708980-Dailymotion"
+        ],
+        "candidates": [
+          "dailymotion.vhx.tv",
+          "en.wikipedia.org",
+          "faq.dailymotion.com",
+          "www.dailymotion.com",
+          "www.facebook.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DanDanZan/DanDanZan.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DanDanZan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.usps.com/",
+          "https://community.etsy.com/forum/announcements-290/topic/prepare-for-eu-customs-updates-190722/",
+          "https://forum.wordreference.com/threads/bajada-de-l%C3%ADnea.1423988/",
+          "https://community.etsy.com/forum/shipping-306/topic/usps-shipping-changes-start-july-12-184797/",
+          "https://forum.wordreference.com/threads/ganado-vacuno-porcino-y-av%C3%ADcola.1617916/",
+          "https://socratic.org/questions/why-did-federalists-want-to-go-to-war-against-france",
+          "https://community.etsy.com/forum/shipping-306/topic/usps-very-delayed-156767/",
+          "https://community.etsy.com/forum/technical-issues-301/topic/unable-to-generate-a-usps-scan-form-today-64130/",
+          "https://community.etsy.com/forum/announcements-290/topic/usps-is-raising-rates-for-some-products-on-july-10-22482/",
+          "https://community.etsy.com/forum/shipping-306/topic/shipping-difference-in-etsy-usps-and-pirate-ship-154286/"
+        ],
+        "candidates": [
+          "community.etsy.com",
+          "forum.wordreference.com",
+          "socratic.org",
+          "usps.com",
+          "www.usps.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dandanplay/Dandanplay.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "Dandanplay",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.zennioptical.com/",
+          "https://www.zennioptical.com/b/all-glasses",
+          "https://www.zennioptical.com/b/new-arrivals",
+          "https://www.zennioptical.com/about-us",
+          "https://clark.com/save-money/zenni-optical-review/",
+          "https://en.wikipedia.org/wiki/Zenni_Optical",
+          "https://ca.zennioptical.com/",
+          "https://www.healthline.com/health/zenni-optical",
+          "https://www.trustpilot.com/review/www.zennioptical.com",
+          "https://www.complaintsboard.com/zenni-optical-b121561"
+        ],
+        "candidates": [
+          "19dollareyeglasses.com",
+          "ca.zennioptical.com",
+          "clark.com",
+          "en.wikipedia.org",
+          "www.complaintsboard.com",
+          "www.healthline.com",
+          "www.trustpilot.com",
+          "www.zennioptical.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DangDang/DangDang.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DangDang",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dangdang.com/",
+          "https://en.wikipedia.org/wiki/Dangdang",
+          "https://e.dangdang.com/",
+          "https://book.dangdang.com/index",
+          "https://baike.baidu.com/en/item/dangdang/996529",
+          "https://myhome.dangdang.com/",
+          "https://www.youtube.com/watch?v=tnxpGyRig84",
+          "https://t.dangdang.com/",
+          "https://www.youtube.com/watch?v=Df8u26GfBSw"
+        ],
+        "candidates": [
+          "baike.baidu.com",
+          "bit.ly",
+          "book.dangdang.com",
+          "cs.dangdang.com",
+          "e.dangdang.com",
+          "en.wikipedia.org",
+          "main.dangdang.com",
+          "myhome.dangdang.com",
+          "t.dangdang.com",
+          "www.dangdang.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dedao/Dedao.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "Dedao",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.merriam-webster.com/dictionary/vindicate",
+          "https://dictionary.cambridge.org/us/dictionary/english/vindicate",
+          "https://dictionary.cambridge.org/dictionary/english/vindicated",
+          "https://dictionary.vocabclass.com/word/vindicate",
+          "https://spellingbeeblitz.com/spelling-bee-words/word/vindicate",
+          "https://en.thefreedictionary.com/vindicate",
+          "https://www.dictionary.com/browse/%20vindicate",
+          "https://www.merriam-webster.com/dictionary/vindication",
+          "https://www.collinsdictionary.com/us/dictionary/english/vindicate",
+          "https://www.dictionary.net/dictionary/vindicate"
+        ],
+        "candidates": [
+          "dictionary.cambridge.org",
+          "dictionary.com",
+          "dictionary.net",
+          "dictionary.vocabclass.com",
+          "en.thefreedictionary.com",
+          "spellingbeeblitz.com",
+          "www.collinsdictionary.com",
+          "www.dictionary.com",
+          "www.dictionary.net",
+          "www.merriam-webster.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Deepin/Deepin.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "Deepin",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.deepin.org/en/",
+          "https://www.deepin.org/v25/en/",
+          "https://sourceforge.net/projects/deepin/",
+          "https://en.wikipedia.org/wiki/Deepin",
+          "https://www.deepin.cn/en/deepin-25-release/",
+          "https://www.majorgeeks.com/files/details/deepin.html",
+          "https://www.deepin.cn/en/deepin-20-2-1/",
+          "https://distrowatch.com/Deepin",
+          "https://wiki.deepin.org/en/home",
+          "https://bbs.deepin.org/"
+        ],
+        "candidates": [
+          "bbs.deepin.org",
+          "distrowatch.com",
+          "en.wikipedia.org",
+          "sourceforge.net",
+          "wiki.deepin.org",
+          "www.deepin.cn",
+          "www.deepin.org",
+          "www.majorgeeks.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Deezer/Deezer.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "Deezer",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.deezer.com/en/",
+          "https://www.deezer.com/en/login/",
+          "https://tv2.deezer.com/",
+          "https://support.deezer.com/hc/en-gb/articles/360000618605-Download-The-Deezer-App",
+          "https://en.wikipedia.org/wiki/Deezer",
+          "https://account.deezer.com/en/apps/",
+          "https://account.deezer.com/en-us/signup/"
+        ],
+        "candidates": [
+          "account.deezer.com",
+          "en.wikipedia.org",
+          "support.deezer.com",
+          "tv2.deezer.com",
+          "www.deezer.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dell/Dell.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "Dell",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dell.com/en-us",
+          "https://www.dell.com/support/home/en-us",
+          "https://en.wikipedia.org/wiki/Dell",
+          "https://outlet.us.dell.com/GDOOnline/Online/InventorySearch?c=us&cs=28&l=en&s=dfb&brandid=2801",
+          "https://www.bestbuy.com/site/brands/dell/pcmcat140500050010.c?id=pcmcat140500050010",
+          "https://techdirect.dell.com/",
+          "https://www.dell.com/support/home/en-us?app=drivers",
+          "https://www.dell.com/en-us/shop/laptop-computers/scr/laptop",
+          "https://www.amazon.com/stores/Dell/page/9B75DD0E-9F42-4B9B-ACAA-F329B23ADE7D",
+          "https://en.wikipedia.org/wiki/Dell_Technologies"
+        ],
+        "candidates": [
+          "amazon.com",
+          "en.wikipedia.org",
+          "outlet.us.dell.com",
+          "techdirect.dell.com",
+          "www.amazon.com",
+          "www.bestbuy.com",
+          "www.dell.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Developer/Developer.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "Developer",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.merriam-webster.com/dictionary/vindicate",
+          "https://dictionary.cambridge.org/us/dictionary/english/vindicate",
+          "https://www.dictionary.com/browse/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20vindicate",
+          "https://dictionary.cambridge.org/dictionary/english/vindicate?q=vindicated",
+          "https://englishwordchamps.com/vindicate-meaning-and-examples/",
+          "https://www.merriam-webster.com/dictionary/vindication",
+          "https://en.thefreedictionary.com/vindicate",
+          "https://www.collinsdictionary.com/us/dictionary/english/vindicate",
+          "https://www.dictionary.net/dictionary/vindicate",
+          "https://www.oxfordlearnersdictionaries.com/definition/english/vindicate"
+        ],
+        "candidates": [
+          "dictionary.cambridge.org",
+          "dictionary.com",
+          "dictionary.net",
+          "en.thefreedictionary.com",
+          "englishwordchamps.com",
+          "www.collinsdictionary.com",
+          "www.dictionary.com",
+          "www.dictionary.net",
+          "www.merriam-webster.com",
+          "www.oxfordlearnersdictionaries.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiDi/DiDi.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DiDi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://web.didiglobal.com/",
+          "https://www.didiglobal.com/",
+          "https://en.m.wikipedia.org/wiki/DiDi",
+          "https://www.youtube.com/channel/UCr9QW8w8CvVAe3MSWZCAn-Q",
+          "https://en.m.wikipedia.org/wiki/D%C3%ACdi",
+          "https://web.didiglobal.com/mx/pasajero/",
+          "https://m.imdb.com/title/tt30319503",
+          "https://careers.didiglobal.com/signIn",
+          "https://www.youtube.com/channel/UCRQyOR3HBLCl9xex6pE2vrA",
+          "https://www.trip.com/guide/transport/how-to-use-didi-in-china.html"
+        ],
+        "candidates": [
+          "careers.didiglobal.com",
+          "en.m.wikipedia.org",
+          "m.imdb.com",
+          "web.didiglobal.com",
+          "www.didiglobal.com",
+          "www.trip.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiLianWangLuo/DiLianWangLuo.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DiLianWangLuo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://drhorine.com/",
+          "https://drhorine.com/family-chiropractor-in-visalia-comprehensive-care-for-every-generation/",
+          "https://drhorine.com/need-a-same-day-chiropractor-in-visalia-what-to-know-before-you-book/",
+          "https://drhorine.com/affordable-chiropractor-in-visalia-how-to-find-care-that-fits/",
+          "https://drhorine.com/posture-correction-chiropractor-in-visalia-restoring-alignment-and-comfort/",
+          "https://drhorine.com/finding-the-best-chiropractor-in-visalia-ca-a-patients-buying-guide/",
+          "https://drhorine.com/best-rated-chiropractor-in-visalia-what-reviews-can-and-cant-tell-you/",
+          "https://drhorine.com/chiropractor-for-joint-pain-restoring-mobility-in-visalia/",
+          "https://drhorine.com/schedule-an-appointment/",
+          "https://drhorine.com/visalia-chiropractor-for-construction-workers-protecting-your-career-and-health/"
+        ],
+        "candidates": [
+          "dr.horine",
+          "drhorine.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiSiFanShi/DiSiFanShi.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DiSiFanShi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://medivest.com/contact-us/",
+          "https://medivest.com/",
+          "https://contactout.com/company/Medivest-5172",
+          "https://craft.co/medivest/locations",
+          "https://www.bizapedia.com/ca/medivest-allocation-services-inc.html",
+          "https://www.linkedin.com/company/medivest",
+          "https://www.bizapedia.com/ca/medivest-benefit-advisors-inc.html",
+          "https://www.zoominfo.com/pic/medivest/24413025",
+          "https://www.medivest.com.my/about-company-profile.asp",
+          "https://www.medivest.com.my/"
+        ],
+        "candidates": [
+          "contactout.com",
+          "craft.co",
+          "medivest.com",
+          "www.bizapedia.com",
+          "www.linkedin.com",
+          "www.medivest.com.my",
+          "www.zoominfo.com",
+          "zoominfo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiabloIII/DiabloIII.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DiabloIII",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gatorcountry.com/florida-gators-football/uf_athletics_hall_of_fame_inducts_new_members/",
+          "https://www.gatorcountry.com/swampgas/forums/too-hot-for-swamp-gas.23/",
+          "https://www.gatorcountry.com/multimedia/photo-galleries/",
+          "https://www.gatorcountry.com/university-florida-athletics/uf_soccer_vs_vandy/",
+          "https://www.gatorcountry.com/latest/",
+          "https://www.gatorcountry.com/florida-gators-football/buddy_martin_named_exec_editor_of_gator_country/",
+          "https://www.gatorcountry.com/florida-gators-football-recruiting/curtis_grant_not_in_a_hurry/10707/",
+          "https://www.gatorcountry.com/florida-gators-baseball/leclerc_named_sec_player_of_week/",
+          "https://www.gatorcountry.com/florida-gators-basketball/michael-frazier-ii-high-ankle-sprain/",
+          "https://www.gatorcountry.com/feature/podcast-florida-gators-recruiting-preview-for-january-29th/"
+        ],
+        "candidates": [
+          "gatorcountry.com",
+          "www.gatorcountry.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DianCeWangKe/DianCeWangKe.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DianCeWangKe",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gigacalculator.com/converters/time-zone-converter.php",
+          "https://www.bestrao.com/tool/timezone-converter/",
+          "https://dayfig.com/iana-time-zones/",
+          "https://openformatter.com/timezone-converter",
+          "https://wiserwork.org/converter-tools/time-zone-converter",
+          "https://monocalc.com/tool/date_and_time/utc_offset_calculator",
+          "https://www.iana.org/time-zones",
+          "https://www.timeanddate.com/worldclock/converter.html",
+          "https://calculatormatters.com/time-date/timezone-converter/",
+          "https://www.freeonlinetools.dev/tools/timezone-converter"
+        ],
+        "candidates": [
+          "calculatormatters.com",
+          "dayfig.com",
+          "intl.datetimeformat",
+          "monocalc.com",
+          "openformatter.com",
+          "wiserwork.org",
+          "www.bestrao.com",
+          "www.freeonlinetools.dev",
+          "www.gigacalculator.com",
+          "www.iana.org",
+          "www.timeanddate.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DigiCert/DigiCert.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DigiCert",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.digicert.com/",
+          "https://www.digicert.com/buy",
+          "https://en.wikipedia.org/wiki/DigiCert",
+          "https://accounts.digicert.com/app/imauth/ui/login",
+          "https://knowledge.digicert.com/general-information/digicert-trusted-root-authority-certificates",
+          "https://www.digicert.com/account/login.php",
+          "https://www.digicert.com/support/tools/certificate-utility-for-windows",
+          "https://www.digicert.com/tls-ssl/digital-certificates",
+          "https://www.digicert.com/about",
+          "https://www.digicert.com/support"
+        ],
+        "candidates": [
+          "accounts.digicert.com",
+          "en.wikipedia.org",
+          "knowledge.digicert.com",
+          "www.digicert.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DigitalOcean/DigitalOcean.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DigitalOcean",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.digitalocean.com/",
+          "https://cloud.digitalocean.com/login",
+          "https://www.digitalocean.com/products",
+          "https://en.wikipedia.org/wiki/DigitalOcean",
+          "https://www.digitalocean.com/solutions/vps-hosting",
+          "https://www.digitalocean.com/pricing",
+          "https://www.digitalocean.com/about",
+          "https://www.digitalocean.com/products/data-services",
+          "https://www.digitalocean.com/solutions/website-hosting",
+          "https://cloudsupport.digitalocean.com/s/createticket/"
+        ],
+        "candidates": [
+          "cloud.digitalocean.com",
+          "cloudsupport.digitalocean.com",
+          "en.wikipedia.org",
+          "www.digitalocean.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DingTalk/DingTalk.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DingTalk",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.dingtalk.io/",
+          "https://www.dingtalk.io/download",
+          "https://n.dingtalk.com/ddmao/Re6l0fKOLPVKpZVELsQ32?dd_mini_app_id=5000000004997171",
+          "https://www.dingtalk.com/",
+          "https://dingtalk-global.com/",
+          "https://en.wikipedia.org/wiki/DingTalk",
+          "https://www.dingtalk.com/en/download",
+          "https://help.dingtalk.io/",
+          "https://www.dingtalk.biz/",
+          "https://page.dingtalk.com/wow/dingtalk/act/en-home"
+        ],
+        "candidates": [
+          "dingtalk-global.com",
+          "en.wikipedia.org",
+          "help.dingtalk.io",
+          "n.dingtalk.com",
+          "page.dingtalk.com",
+          "www.dingtalk.biz",
+          "www.dingtalk.com",
+          "www.dingtalk.io"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DingXiangYuan/DingXiangYuan.yaml": {
+        "checked_at": "2026-11-06 18:49 UTC",
+        "name": "DingXiangYuan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://ipps-a.army.mil/",
+          "https://www.hrc.army.mil/wcmt-api/sites/default/wcmtfiles/files/27058_0.pdf",
+          "https://en.wikipedia.org/wiki/Integrated_Personnel_and_Pay_System_-_Army",
+          "https://www.army.mil/ippsa",
+          "https://www.caci.com/modernizing-ipps-us-armys-largest-most-complex-personnel-system",
+          "https://ipps-a.army.mil/Site-Index/",
+          "https://www.hrcapps.army.mil/Portal/?page_id=11227",
+          "https://www.youtube.com/c/IPPSA",
+          "https://d.ippsa.com/auth",
+          "https://www.dvidshub.net/video/592512/ippsa-made-simple-army"
+        ],
+        "candidates": [
+          "d.ippsa.com",
+          "en.wikipedia.org",
+          "ipps-a.army.mil",
+          "my.ippsa.army.mil",
+          "www.army.mil",
+          "www.caci.com",
+          "www.dvidshub.net",
+          "www.hrc.army.mil",
+          "www.hrcapps.army.mil",
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
