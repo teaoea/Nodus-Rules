@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-06 18:49 UTC",
+  "date": "2026-11-07 04:26 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-06 18:49 UTC",
-    "next_index": 223,
+    "checked_at": "2026-11-07 04:26 UTC",
+    "next_index": 247,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -155914,32 +155914,21 @@
         "ownership_evidence": []
       },
       "EasyPrivacy/EasyPrivacy.list": {
-        "checked_at": "2026-10-28 03:46 UTC",
+        "checked_at": "2026-11-07 04:26 UTC",
         "name": "EasyPrivacy",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://en.wikipedia.org/wiki/Connie_Nielsen",
-          "https://raccoonbio.blogspot.com/2026/10/connie-nielsen-from-danish-roots-and.html",
-          "https://biographiestart.com/en/actress/connie-nielsen-biography/",
-          "https://tushstories.com/connie-nielsen-biography/",
-          "https://ifeg.info/2026/07/25/connie-nielsen-the-woman-who-stole-the-spotlight-in-gladiator-the-untold-story-of-lucillas-power-passion-and-legacy/",
-          "https://grokipedia.com/page/Connie_Nielsen",
-          "https://alexionapi.research.sts.org/danish-cinema",
-          "https://www.independent.co.uk/arts-entertainment/films/features/connie-nielsen-interview-nobody-b1860923.html",
-          "https://www.humanneedsproject.org/team/connie-nielsen",
-          "https://collider.com/connie-nielsen-interview-sea-fever-wonder-woman/"
+          "https://help.adblockplus.org/adblock-plus-help-center/why-is-my-abp-counter-so-high",
+          "https://help.adblockplus.org/adblock-plus-help-center/why-is-my-abp-counter-so-high.md",
+          "https://help.adblockplus.org/adblock-plus-help-center/privacy-policy-f-a-q-s.md",
+          "https://help.adblockplus.org/adblock-plus-help-center/privacy-policy-f-a-q-s",
+          "https://help.adblockplus.org/adblock-plus-help-center",
+          "https://help.adblockplus.org/adblock-plus-help-center/how-to-clear-cache-and-cookies.md",
+          "https://help.adblockplus.org/adblock-plus-help-center/block-all-ads.md"
         ],
         "candidates": [
-          "alexionapi.research.sts.org",
-          "biographiestart.com",
-          "collider.com",
-          "en.wikipedia.org",
-          "grokipedia.com",
-          "ifeg.info",
-          "raccoonbio.blogspot.com",
-          "tushstories.com",
-          "www.humanneedsproject.org",
-          "www.independent.co.uk"
+          "adblockplus.org",
+          "help.adblockplus.org"
         ],
         "accepted": [],
         "ownership_evidence": []
@@ -173986,6 +173975,644 @@
           "www.hrc.army.mil",
           "www.hrcapps.army.mil",
           "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Direct/Direct.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Direct",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.directv.com/directv-login/",
+          "https://www.directv.com/",
+          "https://identity.directv.com/login/signin",
+          "https://www.directvonline.com/channels/",
+          "https://stream.directv.com/watchnow.&nbsp",
+          "https://www.usdirect.com/packages",
+          "https://www.merriam-webster.com/dictionary/direct",
+          "https://www.directauto.com/",
+          "https://www.microsoft.com/en-US/download/details.aspx?id=35",
+          "https://get.directv.com/"
+        ],
+        "candidates": [
+          "directv.com",
+          "get.directv.com",
+          "identity.directv.com",
+          "microsoft.com",
+          "stream.directv.com",
+          "www.directauto.com",
+          "www.directv.com",
+          "www.directvonline.com",
+          "www.merriam-webster.com",
+          "www.microsoft.com",
+          "www.usdirect.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Discord/Discord.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Discord",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://discordapp.com/",
+          "https://discord.com/",
+          "https://discord.com/download",
+          "https://en.wikipedia.org/wiki/Discord",
+          "https://support.discord.com/hc/en-us",
+          "https://discordapp.com/.well-known/openid-configuration",
+          "https://discord.com/store",
+          "https://discord.com/discovery/applications/1",
+          "https://support.discord.com/hc/en-us/articles/360033931551-Getting-Started",
+          "https://play.google.com/store/apps/details?id=com.discord&hl=en-GB"
+        ],
+        "candidates": [
+          "discord.com",
+          "discordapp.com",
+          "en.wikipedia.org",
+          "play.google.com",
+          "support.discord.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DiscoveryPlus/DiscoveryPlus.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "DiscoveryPlus",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.discoveryplus.com/",
+          "https://auth.discoveryplus.com/login",
+          "https://www.discoveryplus.com/auth/login",
+          "https://www.discoveryplus.com/sign-in",
+          "https://links.discoveryplus.com/home",
+          "https://www.discoveryplus.com/auth/login?flow=login",
+          "https://auth.discoveryplus.com/product"
+        ],
+        "candidates": [
+          "auth.discoveryplus.com",
+          "links.discoveryplus.com",
+          "www.discoveryplus.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Disney/Disney.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Disney",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.disney.com/",
+          "https://www.disneyplus.com/identity/login",
+          "https://www.disneyplus.com/",
+          "https://disneyworld.disney.go.com/",
+          "https://www.disney.com/%22",
+          "https://movies.disney.com/",
+          "https://disneyworld.disney.go.com/admission/",
+          "https://www.disneyplus.com/welcome/filter-plans",
+          "https://disneyparks.disney.go.com/",
+          "https://www.youtube.com/disney"
+        ],
+        "candidates": [
+          "disney.com",
+          "disneyparks.disney.go.com",
+          "disneyworld.disney.go.com",
+          "movies.disney.com",
+          "www.disney.com",
+          "www.disneyplus.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Disqus/Disqus.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Disqus",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://disqus.com/",
+          "https://disqus.com/profile/login/",
+          "https://help.disqus.com/en",
+          "https://en.wikipedia.org/wiki/Disqus",
+          "https://import.disqus.com/login/",
+          "https://about.disqus.com/lp/disqus-2",
+          "https://about.disqus.com/disqus-101/getting-started-with-disqus",
+          "https://wordpress.org/plugins/disqus-comment-system/",
+          "https://blog.disqus.com/",
+          "https://help.disqus.com/en/articles/1717053-what-is-disqus"
+        ],
+        "candidates": [
+          "about.disqus.com",
+          "blog.disqus.com",
+          "disqus.com",
+          "en.wikipedia.org",
+          "help.disqus.com",
+          "import.disqus.com",
+          "wordpress.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Docker/Docker.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Docker",
+        "status": "checked",
+        "sources": [
+          "https://www.docker.com/",
+          "https://www.docker.com/products/docker-desktop/",
+          "https://docs.docker.com/desktop/setup/install/windows-install/",
+          "https://docs.docker.com/",
+          "https://en.wikipedia.org/wiki/Docker_(software)",
+          "https://www.geeksforgeeks.org/devops/introduction-to-docker/",
+          "https://hub.docker.com/",
+          "https://www.geeksforgeeks.org/devops/docker-tutorial/",
+          "https://en.wikipedia.org/wiki/Docker,_Inc.",
+          "https://www.docker.com/products/"
+        ],
+        "candidates": [
+          "docs.docker.com",
+          "en.wikipedia.org",
+          "hub.docker.com",
+          "www.docker.com",
+          "www.geeksforgeeks.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": [
+          "https://docs.docker.com/desktop/enterprise/allow-list/",
+          "https://docs.docker.com/dhi/how-to/use/"
+        ]
+      },
+      "Domob/Domob.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Domob",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.artic.edu/",
+          "https://www.artic.edu/search",
+          "https://sales.artic.edu/Admissions",
+          "https://shop.artic.edu/",
+          "https://sales.artic.edu/",
+          "https://archive.artic.edu/500ways/event/",
+          "https://archive.artic.edu/irvingpennarchives/rolleiflex/",
+          "https://www.artic.edu/visit/free-admission-opportunities",
+          "https://www.artic.edu/visit",
+          "https://www.artic.edu/press/press-releases/378/myth-and-marble-ancient-roman-sculpture-from-the-torlonia-collection"
+        ],
+        "candidates": [
+          "archive.artic.edu",
+          "sales.artic.edu",
+          "shop.artic.edu",
+          "www.artic.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dood/Dood.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Dood",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://doodle.com/en/",
+          "https://www.youtube.com/@DOOD-cc9hf",
+          "https://www.thefreedictionary.com/Dood",
+          "https://doodles.google/",
+          "https://dood-game.com/en/",
+          "https://www.youtube.com/@DOOD.Original",
+          "https://dood.al/pinktrombone/",
+          "https://t.me/s/doodstream1234?before=315",
+          "https://fluentslang.com/dood-meaning/"
+        ],
+        "candidates": [
+          "dood-game.com",
+          "dood.al",
+          "dood.original",
+          "doodle.com",
+          "doodles.google",
+          "fluentslang.com",
+          "t.me",
+          "www.thefreedictionary.com",
+          "www.wordnet-online.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DouBan/DouBan.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "DouBan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.douban.com/",
+          "https://movie.douban.com/",
+          "https://www.douban.com/?lang=zh_CN",
+          "https://en.wikipedia.org/wiki/Douban",
+          "https://book.douban.com/",
+          "https://www.douban.com/?%3E",
+          "https://movie.douban.com/chart",
+          "https://m.douban.com/",
+          "https://m.douban.com/tv/",
+          "https://music.douban.com/"
+        ],
+        "candidates": [
+          "book.douban.com",
+          "douban.com",
+          "en.wikipedia.org",
+          "m.douban.com",
+          "movie.douban.com",
+          "music.douban.com",
+          "www.douban.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DouYin/DouYin.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "DouYin",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.douyin.com/",
+          "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3",
+          "https://so.douyin.com/",
+          "https://live.douyin.com/",
+          "https://www.tiktok.com/",
+          "https://www.douyin.com/user/self",
+          "https://www.douyin.com/downloadpage/app",
+          "https://www.douyin.com/jingxuan",
+          "https://streamingtool.douyin.com/",
+          "https://z.douyin.com/p53t"
+        ],
+        "candidates": [
+          "douyin.com",
+          "live.douyin.com",
+          "so.douyin.com",
+          "streamingtool.douyin.com",
+          "www.douyin.com",
+          "www.tiktok.com",
+          "z.douyin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Douyu/Douyu.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Douyu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://m.douyu.com/?rid=33",
+          "https://www.douyu.com/search?kw=%E7%9B%B4%E6%92%AD",
+          "https://m.douyu.com/g_yqk",
+          "https://v.douyu.com/",
+          "https://www.douyu.com/cms/about/about_us.html",
+          "https://yuba.douyu.com/",
+          "https://m.cool-douyu.com.cn/",
+          "https://ir.douyu.com/Corporate-Profile",
+          "https://i-douyu.com.cn/",
+          "https://m.entry-douyu.com.cn/"
+        ],
+        "candidates": [
+          "i-douyu.com.cn",
+          "ir.douyu.com",
+          "m.cool-douyu.com.cn",
+          "m.douyu.com",
+          "m.entry-douyu.com.cn",
+          "v.douyu.com",
+          "www.douyu.com",
+          "yuba.douyu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Download/Download.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Download",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://play.google.com/store/apps/details?id=com.tech.downloader&hl=en-US",
+          "https://www.google.com/intl/en_uk/chrome/",
+          "https://www.microsoft.com/en-us/download",
+          "https://www.techspot.com/downloads/",
+          "https://www.google.com/chrome/",
+          "https://download.cnet.com/",
+          "https://www.microsoft.com/en-us/software-download/",
+          "https://ninite.com/",
+          "https://kotaku.com/download/google-playstore",
+          "https://play.google.com/"
+        ],
+        "candidates": [
+          "download.cnet.com",
+          "kotaku.com",
+          "microsoft.com",
+          "ninite.com",
+          "play.google.com",
+          "www.google.com",
+          "www.microsoft.com",
+          "www.techspot.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dropbox/Dropbox.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Dropbox",
+        "status": "checked",
+        "sources": [
+          "https://www.dropbox.com/",
+          "https://www.dropbox.com/login",
+          "https://apps.apple.com/us/app/dropbox-cloud-storage-backup/id327630330",
+          "https://www.youtube.com/watch?v=uGKnc6zVluw",
+          "https://marketing.dropbox.com/login",
+          "https://app.sign.dropbox.com/",
+          "https://aem.dropbox.com/en-us/features/cloud-storage",
+          "https://help.dropbox.com/account-access/sign-in-out",
+          "https://help.dropbox.com/installs/download-dropbox",
+          "https://en.wikipedia.org/wiki/Dropbox"
+        ],
+        "candidates": [
+          "aem.dropbox.com",
+          "app.sign.dropbox.com",
+          "apps.apple.com",
+          "dropbox.com",
+          "en.wikipedia.org",
+          "help.dropbox.com",
+          "marketing.dropbox.com",
+          "www.dropbox.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": [
+          "https://help.dropbox.com/security/official-domains"
+        ]
+      },
+      "DtDNS/DtDNS.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "DtDNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://volksswitch.org/",
+          "https://volksswitch.org/index.php/volks-devices/customizable-3d-printable-keyguard-for-grid-based-free-form-and-hybrid-aac-apps-on-tablets/recent-changes-to-the-keyguard-designer/",
+          "https://keyguard.volksswitch.org/app.html",
+          "https://webmail.volksswitch.org/?locale=pt",
+          "https://webmail.volksswitch.org/?locale=hu",
+          "https://keyguard.volksswitch.org/move-probe.json",
+          "https://conversant.volksswitch.org/",
+          "https://volksswitch.org/index.php/volks-devices/customizable-3d-printable-keyguard-for-grid-based-free-form-and-hybrid-aac-apps-on-tablets/novachat/novachat/",
+          "https://volksswitch.org/index.php/volks-devices/customizable-3d-printable-keyguard-for-grid-based-free-form-and-hybrid-aac-apps-on-tablets/ready-to-print-keyguard-designs/",
+          "https://volksswitch.org/index.php/volks-devices/keyguards-for-chromebooks/"
+        ],
+        "candidates": [
+          "conversant.volksswitch.org",
+          "keyguard.volksswitch.org",
+          "volksswitch.org",
+          "webmail.volksswitch.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dubox/Dubox.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Dubox",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://cruiseprism.com/margaritaville-at-sea-islander-hours-guide/",
+          "https://www.margaritavilleatsea.com/explore-our-ships/islander/bars-and-lounges",
+          "https://www.facebook.com/groups/margaritavilleatseaislanderfans/posts/1386528685701547/",
+          "https://cruisespotlight.com/ship/margaritaville-at-sea/islander/bars/",
+          "https://www.facebook.com/groups/margaritavilleatseaislanderfans/posts/1390068275347588/",
+          "https://www.margaritavilleatsea.com/explore-our-ships/islander/restaurants-and-dining",
+          "https://www.margaritavilleresorts.com/dining/5-oclock-somewhere-bar",
+          "https://eatsleepcruise.com/margaritaville-at-sea-islander-bars-menus-drink-prices/",
+          "https://cruiseline.com/ship/margaritaville-islander/features",
+          "https://gangwaze.com/cruise-lines/margaritaville-at-sea/margaritaville-at-sea-islander/venues/havana-daydreamin-sports-bar"
+        ],
+        "candidates": [
+          "cruiseline.com",
+          "cruiseprism.com",
+          "cruisespotlight.com",
+          "eatsleepcruise.com",
+          "gangwaze.com",
+          "www.facebook.com",
+          "www.margaritavilleatsea.com",
+          "www.margaritavilleresorts.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Duckduckgo/Duckduckgo.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Duckduckgo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://duckduckgo.com/app",
+          "https://dd53jyxmgchu8.cloudfront.net/",
+          "https://noai.duckduckgo.com/",
+          "https://en.wikipedia.org/wiki/DuckDuckGo",
+          "https://www.facebook.com/duckduckgo/",
+          "https://duck.ai/",
+          "https://gizmodo.com/download/duckduckgo",
+          "https://www.spreadprivacy.com/",
+          "https://www.spreadprivacy.com/tag/duckduckgo/"
+        ],
+        "candidates": [
+          "dd53jyxmgchu8.cloudfront.net",
+          "duck.ai",
+          "duckduckgo.com",
+          "en.wikipedia.org",
+          "gizmodo.com",
+          "noai.duckduckgo.com",
+          "www.facebook.com",
+          "www.spreadprivacy.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DuoWan/DuoWan.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "DuoWan",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.city-data.com/crime/crime-Middletown-New-York.html",
+          "https://www.city-data.com/crime/crime-Columbus-Indiana.html",
+          "https://www.city-data.com/forum/travel/3486885-lyft-what-does-ride-confirmed-mean.html",
+          "https://www.city-data.com/city/Fayetteville-West-Virginia.html",
+          "https://www.city-data.com/so/so-Vancouver-Washington.html",
+          "https://www.city-data.com/forum/city-vs-city/",
+          "https://www.city-data.com/forum/retirement/3505408-im-65-male-too-old-keep.html",
+          "https://www.city-data.com/forum/indianapolis/",
+          "https://www.city-data.com/forum/",
+          "https://www.city-data.com/city/Pahrump-Nevada.html"
+        ],
+        "candidates": [
+          "city-data.com",
+          "www.city-data.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Duolingo/Duolingo.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Duolingo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.duolingo.com/",
+          "https://en.wikipedia.org/wiki/Duolingo",
+          "https://apps.apple.com/us/app/duolingo-learn-languages/id570060128",
+          "https://x.com/duolingo",
+          "https://www.duolingo.com/register",
+          "https://en.duolingo.com/nojs/splash",
+          "https://es.duolingo.com/",
+          "https://retool.duolingo.com/auth/login",
+          "https://abc.duolingo.com/",
+          "https://www.duolingo.com/courses"
+        ],
+        "candidates": [
+          "abc.duolingo.com",
+          "apps.apple.com",
+          "duolingo.com",
+          "en.duolingo.com",
+          "en.wikipedia.org",
+          "es.duolingo.com",
+          "retool.duolingo.com",
+          "www.duolingo.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "DynDNS/DynDNS.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "DynDNS",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://account.dyn.com/",
+          "https://www.noip.com/",
+          "https://account.dyn.com/services/",
+          "https://www.noip.com/free",
+          "https://www.cloudflare.com/learning/dns/glossary/dynamic-dns/",
+          "https://www.comparitech.com/net-admin/dynamic-dns-providers/",
+          "https://www.dynu.com/",
+          "https://en.wikipedia.org/wiki/Dynamic_DNS",
+          "https://speedtesthq.com/best/best-dynamic-dns",
+          "https://www.makeuseof.com/tag/5-best-dynamic-dns-providers-can-lookup-free-today/"
+        ],
+        "candidates": [
+          "account.dyn.com",
+          "en.wikipedia.org",
+          "speedtesthq.com",
+          "www.cloudflare.com",
+          "www.comparitech.com",
+          "www.dynu.com",
+          "www.makeuseof.com",
+          "www.noip.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Dynu/Dynu.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "Dynu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/login",
+          "https://myaccount.microsoft.com/",
+          "https://account.microsoft.com/account-checkup",
+          "https://support.microsoft.com/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://mysignins.microsoft.com/",
+          "https://apps.microsoft.com/"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "mysignins.microsoft.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "EA/EA.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "EA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ea.com/",
+          "https://www.ea.com/ea-app",
+          "https://help.ea.com/en/?showhome=true%22",
+          "https://help.ea.com/en/articles/platforms/ea-app-download-install-update/",
+          "https://store.ea.com/commerce/app/products",
+          "https://en.wikipedia.org/wiki/Electronic_Arts",
+          "https://www.ea.com/ea-play",
+          "https://www.ea.com/games/the-sims/the-sims-4",
+          "https://www.ea.com/games/library/pc-download"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "help.ea.com",
+          "store.ea.com",
+          "www.ea.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "EHGallery/EHGallery.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "EHGallery",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Philadelphia_Phillies",
+          "https://www.britannica.com/topic/Philadelphia-Phillies",
+          "https://grokipedia.com/page/Philadelphia_Phillies",
+          "https://baseball.fandom.com/wiki/Philadelphia_Phillies",
+          "https://www.mlb.com/phillies",
+          "https://www.baseballbiographies.com/who-owns-the-philadelphia-phillies/",
+          "https://www.mlb.com/news/philadelphia-phillies-team-name-origin"
+        ],
+        "candidates": [
+          "baseball.fandom.com",
+          "en.wikipedia.org",
+          "grokipedia.com",
+          "mlb.com",
+          "www.baseballbiographies.com",
+          "www.britannica.com",
+          "www.mlb.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "EastMoney/EastMoney.yaml": {
+        "checked_at": "2026-11-07 04:26 UTC",
+        "name": "EastMoney",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://fastercapital.com/es/contenido/Podcast-inmobiliario--estrategias-de-marketing-para-podcasters-inmobiliarios.html",
+          "https://naranjamedia.co/",
+          "https://podway.com.co/",
+          "https://entrepodcasters.podlatinas.com/",
+          "https://www.fortunebusinessinsights.com/es/blog/top-podcasting-companies-in-the-global-market-11035",
+          "https://podcasteros.com/",
+          "https://emprendedores.es/ideas-de-negocio/oportunidades-de-negocio/triunfar-con-un-podcast/",
+          "https://spanish.entrepreneur.com/iniciar-un-negocio/63-ideas-de-pequenos-negocios-para-iniciar-en-2025/483759",
+          "https://ellocutorio.com/los-metodos-que-usan-los-podcasters-para-generar-ingresos-reales/",
+          "https://podcasters.live/guia/guia-de-como-hacer-podcast-para-negocios/"
+        ],
+        "candidates": [
+          "ellocutorio.com",
+          "emprendedores.es",
+          "entrepodcasters.podlatinas.com",
+          "fastercapital.com",
+          "naranjamedia.co",
+          "podcasteros.com",
+          "podcasters.live",
+          "podway.com.co",
+          "spanish.entrepreneur.com",
+          "www.fortunebusinessinsights.com"
         ],
         "accepted": [],
         "ownership_evidence": []
