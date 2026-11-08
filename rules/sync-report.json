@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-07 17:21 UTC",
+  "date": "2026-11-08 04:10 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -18147,14 +18147,14 @@
       "no_resolve_removed": 0,
       "skipped": [],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 32,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/GitHub/GitHub.yaml",
-      "rules": 32,
-      "bytes": 1279,
+      "rules": 33,
+      "bytes": 1305,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2025-06-17T15:19:38+08:00",
       "template_version": 9
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-07 17:21 UTC",
-    "next_index": 271,
+    "checked_at": "2026-11-08 04:10 UTC",
+    "next_index": 295,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -175256,6 +175256,670 @@
           "www.flurry.com",
           "www.merriam-webster.com",
           "www.vocabulary.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Fox/Fox.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Fox",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.fox.com/",
+          "https://www.foxnews.com/",
+          "https://www.fox.com/news",
+          "https://www.foxnews.com/us",
+          "https://www.foxsports.com/",
+          "https://en.wikipedia.org/wiki/Fox",
+          "https://www.firefox.com/en-US/",
+          "https://www.foxsports.com/live",
+          "https://www.youtube.com/@FoxNews",
+          "https://www.livenowfox.com/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "foxnews.com",
+          "foxsports.com",
+          "www.firefox.com",
+          "www.fox.com",
+          "www.foxnews.com",
+          "www.foxsports.com",
+          "www.livenowfox.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "FreeCodeCamp/FreeCodeCamp.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "FreeCodeCamp",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.freecodecamp.org/",
+          "https://www.freecodecamp.org/learn",
+          "https://www.youtube.com/@freecodecamp",
+          "https://www.freecodecamp.org/catalog",
+          "https://www.freecodecamp.org/learn/python-v9",
+          "https://github.com/freeCodeCamp",
+          "https://en.wikipedia.org/wiki/FreeCodeCamp"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "freecodecamp.org",
+          "github.com",
+          "www.freecodecamp.org",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "FuboTV/FuboTV.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "FuboTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.fubo.tv/",
+          "https://www.fubo.tv/signin",
+          "https://qa-x1.fubo.tv/",
+          "https://support.fubo.tv/hc/en-us/articles/360035300072-How-do-I-sign-in-on-my-TV-using-a-code",
+          "https://en.wikipedia.org/wiki/FuboTV",
+          "https://support.fubo.tv/hc/en-us/articles/360021527991-How-do-I-Cancel-My-Fubo-Subscription",
+          "https://www.justwatch.com/us/provider/fubotv",
+          "https://michaelsaves.com/streaming/fubo-tv-review/",
+          "https://www.cabletv.com/fubotv",
+          "https://thestreamable.com/live-tv-streaming/fubotv/channels"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "fubo.tv",
+          "michaelsaves.com",
+          "qa-x1.fubo.tv",
+          "support.fubo.tv",
+          "thestreamable.com",
+          "www.cabletv.com",
+          "www.fubo.tv",
+          "www.justwatch.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Funshion/Funshion.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Funshion",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://subscribe.wsj.com/",
+          "https://subscribe.wsj.com/barhpheader/",
+          "https://subscribe.wsj.com/textheader?navSource=subscribeTextLink",
+          "https://subscribe.wsj.com/wsjprofessorprintsub25",
+          "https://subscribe.wsj.com/wsjprocyberdi"
+        ],
+        "candidates": [
+          "subscribe.wsj.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Game/Assassin'sCreed-Odyssey/Assassin'sCreed-Odyssey.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Assassin'sCreed-Odyssey",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.merriam-webster.com/dictionary/assassin",
+          "https://en.m.wikipedia.org/wiki/Assassination",
+          "https://en.m.wikipedia.org/wiki/The_Assassin_(TV_series)",
+          "https://m.imdb.com/title/tt33246591/",
+          "https://m.imdb.com/title/tt14555174/",
+          "https://dictionary.cambridge.org/dictionary/english/assassin",
+          "https://www.dictionary.com/browse/assassin",
+          "https://www.theguardian.com/tv-and-radio/2026/nov/06/the-assassin-review-keeley-hawes-amazon-prime-video",
+          "https://www.ubisoft.com/en-us/game/assassins-creed",
+          "https://en.m.wiktionary.org/wiki/assassin"
+        ],
+        "candidates": [
+          "dictionary.cambridge.org",
+          "dictionary.com",
+          "en.m.wikipedia.org",
+          "en.m.wiktionary.org",
+          "m.imdb.com",
+          "www.dictionary.com",
+          "www.merriam-webster.com",
+          "www.theguardian.com",
+          "www.ubisoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Game/Assassin'sCreed-Origins/Assassin'sCreed-Origins.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Assassin'sCreed-Origins",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.merriam-webster.com/dictionary/assassin",
+          "https://en.m.wikipedia.org/wiki/Assassination",
+          "https://en.m.wikipedia.org/wiki/The_Assassin_(TV_series)",
+          "https://m.imdb.com/title/tt33246591/",
+          "https://m.imdb.com/title/tt14555174/",
+          "https://dictionary.cambridge.org/dictionary/english/assassin",
+          "https://www.dictionary.com/browse/assassin",
+          "https://www.theguardian.com/tv-and-radio/2026/nov/06/the-assassin-review-keeley-hawes-amazon-prime-video",
+          "https://www.ubisoft.com/en-us/game/assassins-creed",
+          "https://en.m.wiktionary.org/wiki/assassin"
+        ],
+        "candidates": [
+          "dictionary.cambridge.org",
+          "dictionary.com",
+          "en.m.wikipedia.org",
+          "en.m.wiktionary.org",
+          "m.imdb.com",
+          "www.dictionary.com",
+          "www.merriam-webster.com",
+          "www.theguardian.com",
+          "www.ubisoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Game/Game.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Game",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.carpet-wholesale.com/",
+          "https://www.carpet-wholesale.com/discount-wholesale-carpet.htm",
+          "https://www.carpet-wholesale.com/brandlist-carpet/carpet.php",
+          "https://www.carpet-wholesale.com/clearance.php",
+          "https://www.carpet-wholesale.com/mohawk-carpet.htm",
+          "https://www.carpet-wholesale.com/brandlist-commercial-carpet/commercial-carpet.php",
+          "https://www.carpet-wholesale.com/brandlist-carpet-tile/carpet-tile.php",
+          "https://www.carpet-wholesale.com/brand-shaw-floors/carpet/shaw-floors.php",
+          "https://www.carpet-wholesale.com/flooring-closeouts.php",
+          "https://www.carpet-wholesale.com/about-us.htm"
+        ],
+        "candidates": [
+          "www.carpet-wholesale.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Game/GameDownload/GameDownload.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "GameDownload",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://ctr.hofstra.edu/?crn=20001",
+          "https://ctr.hofstra.edu/?crn=20210",
+          "https://hofstraonline.hofstra.edu/ssb/twbkwbis.P_ValLogin",
+          "https://hofstraonline.hofstra.edu/ssb/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu",
+          "https://www.hofstra.edu/",
+          "https://www.hofstra.edu/financial-aid/portal.html",
+          "https://login.hofstra.edu/idp/profile/SAML2/Redirect/SSO",
+          "https://www.hofstra.edu/campus-life/student-services-here-to-help/student-financial-services/how-to-portal/",
+          "https://www.hofstra.edu/about/administration/its/activate-account/",
+          "https://mysignins.microsoft.com/security-info?tenant=e32fc43d-7c62-46d9-b49f-cd53ba8d9424"
+        ],
+        "candidates": [
+          "ctr.hofstra.edu",
+          "hofstra.edu",
+          "hofstraonline.hofstra.edu",
+          "login.hofstra.edu",
+          "my.hofstra.edu",
+          "mysignins.microsoft.com",
+          "www.hofstra.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Game/GameDownloadCN/GameDownloadCN.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "GameDownloadCN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/login",
+          "https://myaccount.microsoft.com/%C2%A0-%3E",
+          "https://www.microsoft.com/en-us/download",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://account.microsoft.com/account-checkup",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://apps.microsoft.com/",
+          "https://outlook.office.com/mail/inbox"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Game/Nikke/Nikke.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Nikke",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://nikke-en.com/",
+          "https://nikke.gg/",
+          "https://nikke-goddess-of-victory-international.fandom.com/wiki/Home",
+          "https://en.wikipedia.org/wiki/Goddess_of_Victory:_Nikke",
+          "https://nikke.gg/characters/",
+          "https://nikke-jp.com/",
+          "https://www.reddit.com/r/NikkeMobile/",
+          "https://www.prydwen.gg/nikke/tier-list",
+          "https://x.com/NIKKE_en",
+          "https://nikke-goddess-of-victory-international.fandom.com/wiki/Nikke"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "nikke-en.com",
+          "nikke-goddess-of-victory-international.fandom.com",
+          "nikke-jp.com",
+          "nikke.gg",
+          "www.prydwen.gg",
+          "www.reddit.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Game/Roblox/Roblox.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Roblox",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.roblox.com/",
+          "https://www.roblox.com/Login",
+          "https://play.google.com/store/apps/details?id=com.roblox.client&hl=en-US",
+          "https://about.roblox.com/",
+          "https://en.wikipedia.org/wiki/Roblox",
+          "https://www.roblox.com/download",
+          "https://www.roblox.com/pt"
+        ],
+        "candidates": [
+          "about.roblox.com",
+          "en.wikipedia.org",
+          "play.google.com",
+          "www.roblox.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Game/TencentLoLMobile/TencentLoLMobile.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "TencentLoLMobile",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/login",
+          "https://myaccount.microsoft.com/%C2%A0-%3E",
+          "https://www.microsoft.com/en-us/windows/",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://account.microsoft.com/account-checkup",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://apps.microsoft.com/",
+          "https://outlook.office.com/mail/inbox"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "microsoft.com",
+          "myaccount.microsoft.com",
+          "outlook.office.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GaoDe/GaoDe.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "GaoDe",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://a-z-animals.com/pets/dogs/dog-lists/best-dog-breeds-ranked/",
+          "https://www.goodhousekeeping.com/relationships/pets/g73688022/best-dog-breeds-for-families/",
+          "https://www.thesprucepets.com/best-dog-breeds-for-first-time-owners-11923881",
+          "https://www.dogster.com/dog-breeds/most-popular-dog-breeds-in-the-world/",
+          "https://articles.hepper.com/most-popular-dog-breeds/",
+          "https://blog.homesalive.ca/dog-blog/best-dog-breeds",
+          "https://iheartdogs.com/most-popular-dog-breeds-2025-akc-ranked/",
+          "https://www.ranker.com/crowdranked-list/the-best-dog-breeds",
+          "https://www.akc.org/most-popular-breeds/",
+          "https://www.dogster.com/dog-breeds/best-dog-breeds/"
+        ],
+        "candidates": [
+          "a-z-animals.com",
+          "articles.hepper.com",
+          "blog.homesalive.ca",
+          "iheartdogs.com",
+          "www.akc.org",
+          "www.dogster.com",
+          "www.goodhousekeeping.com",
+          "www.ranker.com",
+          "www.thesprucepets.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Garena/Garena.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Garena",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://intl.garena.com/",
+          "https://www.garena.vn/",
+          "https://account.garena.com/",
+          "https://en.wikipedia.org/wiki/Garena",
+          "https://ff.garena.com/",
+          "https://www.garena.mx/",
+          "https://www.garena.tw/",
+          "https://deltaforce.garena.com/en/?redirect=0",
+          "https://shop.garena.ph/",
+          "https://support-freefireind.garena.com/ind"
+        ],
+        "candidates": [
+          "account.garena.com",
+          "deltaforce.garena.com",
+          "en.wikipedia.org",
+          "ff.garena.com",
+          "intl.garena.com",
+          "shop.garena.ph",
+          "support-freefireind.garena.com",
+          "www.garena.mx",
+          "www.garena.tw",
+          "www.garena.vn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Geely/Geely.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Geely",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://global.geely.com/",
+          "https://en.wikipedia.org/wiki/Geely",
+          "https://www.geelyautogroup.com/en/",
+          "https://www.geely.com/",
+          "https://global.geely.com/en/models",
+          "https://www.geely.com/en/models/ex5",
+          "https://en.wikipedia.org/wiki/Geely_Auto",
+          "https://www.geelymexico.com/",
+          "https://galaxy.geely.com/",
+          "https://www.zgh.com/geely-auto/?lang=en"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "galaxy.geely.com",
+          "global.geely.com",
+          "www.geely.com",
+          "www.geelyautogroup.com",
+          "www.geelymexico.com",
+          "www.zgh.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Gemini/Gemini.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Gemini",
+        "status": "checked",
+        "sources": [
+          "https://gemini.google.com/",
+          "https://gemini.google.com/?hl=en-IN",
+          "https://gemini.google/us/about/?hl=en",
+          "https://deepmind.google/models/gemini/",
+          "https://gemini.google/assistant/",
+          "https://deepmind.google/models/gemini/pro/",
+          "https://gemini.google.com/app?hl=en-GB",
+          "https://gemini.google.com/app/download",
+          "https://gemini.google/subscriptions/",
+          "https://ai.google.dev/gemini-api/docs"
+        ],
+        "candidates": [
+          "ai.google.dev",
+          "deepmind.google",
+          "gemini.google",
+          "gemini.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": [
+          "https://docs.cloud.google.com/gemini/docs/codeassist/code-overview#known-issues",
+          "https://docs.cloud.google.com/gemini/docs/codeassist/network-access"
+        ]
+      },
+      "Gettyimages/Gettyimages.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Gettyimages",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gettyimages.com/",
+          "https://www.gettyimages.com/\"",
+          "https://www.gettyimages.co.uk/photos/getty-images",
+          "https://en.wikipedia.org/wiki/Getty_Images",
+          "https://www.gettyimages.com/sign-in",
+          "https://www.gettyimages.com/creative-images/stock-photos",
+          "https://www.gettyimages.com/editorial-images"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "www.gettyimages.co.uk",
+          "www.gettyimages.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Gigabyte/Gigabyte.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Gigabyte",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gigabyte.com/",
+          "https://www.gigabyte.com/Motherboard",
+          "https://www.aorus.com/",
+          "https://www.aorus.com/us/motherboards",
+          "https://www.gigabyteglobal.com/",
+          "https://www.amazon.com/stores/Gigabyte/page/854232BB-540A-4979-BE5B-6F3F3A530F1E/",
+          "https://en.wikipedia.org/wiki/Gigabyte",
+          "https://en.wikipedia.org/wiki/Gigabyte_Technology",
+          "https://www.bestbuy.com/site/searchpage.jsp?id=pcat17071&st=gigabyte",
+          "https://esupport.gigabyte.com/"
+        ],
+        "candidates": [
+          "amazon.com",
+          "en.wikipedia.org",
+          "esupport.gigabyte.com",
+          "www.amazon.com",
+          "www.aorus.com",
+          "www.bestbuy.com",
+          "www.gigabyte.com",
+          "www.gigabyteglobal.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GitBook/GitBook.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "GitBook",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gitbook.com/",
+          "https://docs.gitbook.com/",
+          "https://www.gitbook.com/solutions/public-docs",
+          "https://github.com/GitbookIO/gitbook",
+          "https://www.gitbook.com/pricing",
+          "https://www.gitbook.com/solutions/open-source",
+          "https://gitbook.com/docs/getting-started/quickstart",
+          "https://www.gitbook.com/about",
+          "https://gitbook.com/docs/guides",
+          "https://github.com/gitbookio"
+        ],
+        "candidates": [
+          "docs.gitbook.com",
+          "gitbook.com",
+          "github.com",
+          "www.gitbook.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GitHub/GitHub.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "GitHub",
+        "status": "checked",
+        "sources": [
+          "https://github.com/",
+          "https://github.com/login",
+          "https://desktop.github.com/download/",
+          "https://en.wikipedia.org/wiki/GitHub",
+          "https://github.com/github",
+          "https://github.com/about",
+          "https://github.ghe.com/",
+          "https://github.blog/",
+          "https://support.github.com/contact",
+          "https://education.github.com/"
+        ],
+        "candidates": [
+          "desktop.github.com",
+          "education.github.com",
+          "en.wikipedia.org",
+          "github.blog",
+          "github.com",
+          "github.ghe.com",
+          "support.github.com"
+        ],
+        "accepted": [
+          "github.ghe.com"
+        ],
+        "ownership_evidence": [
+          "https://docs.github.com/en/enterprise-cloud%40latest/admin/data-residency/about-github-enterprise-cloud-with-data-residency",
+          "https://docs.github.com/en/copilot/reference/copilot-allowlist-reference"
+        ]
+      },
+      "GitLab/GitLab.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "GitLab",
+        "status": "checked",
+        "sources": [
+          "https://gitlab.com/users/sign_in",
+          "https://dev.gitlab.org/users/sign_in",
+          "https://gitlab.com/__",
+          "https://about.gitlab.com/",
+          "https://en.wikipedia.org/wiki/GitLab",
+          "https://about.gitlab.com/install/",
+          "https://docs.gitlab.com/",
+          "https://dev.gitlab.org/gitlab",
+          "https://ops.gitlab.net/users/sign_in",
+          "https://support.gitlab.com/hc/en-us"
+        ],
+        "candidates": [
+          "about.gitlab.com",
+          "dev.gitlab.org",
+          "docs.gitlab.com",
+          "en.wikipedia.org",
+          "gitlab.com",
+          "ops.gitlab.net",
+          "support.gitlab.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": [
+          "https://docs.gitlab.com/user/project/pages/introduction/",
+          "https://docs.gitlab.com/user/project/pages/getting_started_part_one/"
+        ]
+      },
+      "Gitee/Gitee.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Gitee",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://gitee.com/",
+          "https://gitee.com/indexpage",
+          "https://en.wikipedia.org/wiki/Gitee",
+          "https://gitee.cn/",
+          "https://help.gitee.com/",
+          "https://gitee.com/login.html",
+          "https://gitee.com/.......&",
+          "https://gitee.com/signup?redirect_to_url=%2F",
+          "https://api.gitee.com/enterprises/code",
+          "https://github.com/Gitee-app/gitee"
+        ],
+        "candidates": [
+          "api.gitee.com",
+          "en.wikipedia.org",
+          "gitee.cn",
+          "gitee.com",
+          "github.com",
+          "help.gitee.com",
+          "oschina.net"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Global/Global.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "Global",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://globle-game.com/",
+          "https://www.merriam-webster.com/dictionary/global",
+          "https://www.cbp.gov/travel/trusted-traveler-programs/global-entry",
+          "https://www.global.com.au/",
+          "https://www.globaltv.com/",
+          "https://www.globalcu.org/accounts/online-mobile-banking/",
+          "https://dictionary.cambridge.org/dictionary/english/global",
+          "https://global.com/",
+          "https://www.globalplayer.com/",
+          "https://dictionary.cambridge.org/us/dictionary/english/global"
+        ],
+        "candidates": [
+          "dictionary.cambridge.org",
+          "global.com",
+          "globle-game.com",
+          "www.cbp.gov",
+          "www.global.com.au",
+          "www.globalcu.org",
+          "www.globalplayer.com",
+          "www.globaltv.com",
+          "www.merriam-webster.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GlobalMedia/GlobalMedia.yaml": {
+        "checked_at": "2026-11-08 04:10 UTC",
+        "name": "GlobalMedia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://straw.page/",
+          "https://omegasoftware.straw.page/",
+          "https://savieanime.straw.page/",
+          "https://mrcallowayssuperawesome.straw.page/",
+          "https://spitroses.straw.page/",
+          "https://sonic123.straw.page/",
+          "https://wykoqucuz.straw.page/",
+          "https://oraclesarts.straw.page/peckapalooza",
+          "https://losermakes.straw.page/sonicexe_home",
+          "https://m0rti-core.straw.page/"
+        ],
+        "candidates": [
+          "losermakes.straw.page",
+          "m0rti-core.straw.page",
+          "mrcallowayssuperawesome.straw.page",
+          "omegasoftware.straw.page",
+          "oraclesarts.straw.page",
+          "savieanime.straw.page",
+          "sonic.exe",
+          "sonic123.straw.page",
+          "spitroses.straw.page",
+          "straw.page",
+          "wykoqucuz.straw.page"
         ],
         "accepted": [],
         "ownership_evidence": []

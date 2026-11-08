@@ -1,7 +1,7 @@
 # 名称：GitHub
-# 来源核对日期：2026-11-04 16:11 UTC
-# 规则总数：32
-# domain: 0
+# 来源核对日期：2026-11-08 04:10 UTC
+# 规则总数：33
+# domain: 1
 # domain-suffix: 31
 # domain-keyword: 1
 # ip-cidr: 0
@@ -9,6 +9,7 @@
 # protocol: 0
 # port: 0
 rules:
+  - domain,github.ghe.com
   - domain-suffix,atom.io
   - domain-suffix,dependabot.com
   - domain-suffix,ghcr.io
