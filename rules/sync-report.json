@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-08 04:10 UTC",
+  "date": "2026-11-08 17:33 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -18498,14 +18498,14 @@
         }
       ],
       "merge": {
-        "duplicates": 0,
+        "duplicates": 695,
         "pruned": 0,
         "conflicts": 0,
         "policy": "unknown; policy-dependent pruning deferred to Core"
       },
       "output": "rules/Google/Google.yaml",
-      "rules": 695,
-      "bytes": 22369,
+      "rules": 697,
+      "bytes": 22417,
       "exceeds_current_core": false,
       "upstream_last_commit_date": "2026-05-11T18:44:43Z",
       "template_version": 9
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-08 04:10 UTC",
-    "next_index": 295,
+    "checked_at": "2026-11-08 17:33 UTC",
+    "next_index": 319,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -175920,6 +175920,647 @@
           "spitroses.straw.page",
           "straw.page",
           "wykoqucuz.straw.page"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GlobalScholar/GlobalScholar.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "GlobalScholar",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://stackoverflow.com/questions/79923946/why-can-t-google-colab-kernel-via-vs-code-access-files-from-my-local-machine",
+          "https://stackoverflow.com/questions/53198405/how-to-use-google-colab-to-work-with-local-files",
+          "https://stackoverflow.com/questions/50168315/mounting-google-drive-on-google-colab",
+          "https://stackoverflow.com/questions/49360888/google-colab-is-very-slow-compared-to-my-pc",
+          "https://stackoverflow.com/questions/66692402/how-to-split-a-code-cell-in-google-colab",
+          "https://stackoverflow.com/questions/50479576/google-colab-changing-directory",
+          "https://stackoverflow.com/questions/51485287/is-google-colab-notebook-sharing-my-drive-data-with-the-notebook-author",
+          "https://stackoverflow.com/questions/79751605/installing-python-libraries-to-google-drive-in-colab-is-extremely-slow-or-re-ins",
+          "https://stackoverflow.com/questions/54689708/filenotfounderror-errno-2-no-such-file-or-directory-google-colab",
+          "https://stackoverflow.com/questions/62238690/running-docker-on-google-colab"
+        ],
+        "candidates": [
+          "drive.mount",
+          "google.colab",
+          "stackoverflow.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GlobalSign/GlobalSign.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "GlobalSign",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.globalsign.com/en",
+          "https://www.globalsign.com/en/document-signing",
+          "https://shop.globalsign.com/en",
+          "https://shop.globalsign.com/en/ssl",
+          "https://en.wikipedia.org/wiki/GlobalSign",
+          "https://support.globalsign.com/account-finance/account-management/account-login-account-management",
+          "https://support.globalsign.com/",
+          "https://atlas.globalsign.com/login",
+          "https://www.globalsign.com/en/company",
+          "https://support.globalsign.com/ca-certificates/globalsign-root-certificates"
+        ],
+        "candidates": [
+          "atlas.globalsign.com",
+          "en.wikipedia.org",
+          "shop.globalsign.com",
+          "support.globalsign.com",
+          "www.globalsign.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Gog/Gog.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "Gog",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gog.com/",
+          "https://www.gog.com/galaxy",
+          "https://www.google.com/",
+          "https://login.gog.com/login",
+          "https://en.wikipedia.org/wiki/GOG.com",
+          "https://login.gog.com/auth?client_id=46899977096215655&layout=client2&redirect_uri=__REDIRECT_URI__&response_type=code",
+          "https://www.gog.com/en/games",
+          "https://www.gog.com/en/about_gog",
+          "https://www.gog.com/games&",
+          "https://apps.microsoft.com/detail/xpffxw40w60kcf"
+        ],
+        "candidates": [
+          "apps.microsoft.com",
+          "en.wikipedia.org",
+          "gog.com",
+          "login.gog.com",
+          "www.gog.com",
+          "www.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Google/Google.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "Google",
+        "status": "checked",
+        "sources": [
+          "https://www.google.com/",
+          "https://search.google/",
+          "https://en.wikipedia.org/wiki/Google",
+          "https://about.google/",
+          "https://www.google.com.nf/webhp?gl=nf&hl=en&gws_rd=cr&pws=0",
+          "https://ai.google/",
+          "https://about.google/products/"
+        ],
+        "candidates": [
+          "about.google",
+          "ai.google",
+          "en.wikipedia.org",
+          "google.com",
+          "search.google",
+          "www.google.com",
+          "www.google.com.nf"
+        ],
+        "accepted": [
+          "google.com",
+          "www.google.com"
+        ],
+        "ownership_evidence": [
+          "https://www.google.com/"
+        ]
+      },
+      "GoogleDrive/GoogleDrive.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "GoogleDrive",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://drive.google.com/",
+          "https://workspace.google.com/products/drive/",
+          "https://drive.google.com/?hl=pt-BR",
+          "https://www.google.com/intx/en/drive/download/",
+          "https://drive.google.com/?hl=es",
+          "https://support.google.com/drive/answer/10838124?hl=en",
+          "https://www.google.com/intx/en-GB/drive/"
+        ],
+        "candidates": [
+          "drive.google.com",
+          "support.google.com",
+          "workspace.google.com",
+          "www.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GoogleEarth/GoogleEarth.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "GoogleEarth",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://earth.google.com/web",
+          "https://earth.google.com/web/home",
+          "https://www.google.com/intl/en_US/earth/index.html",
+          "https://www.google.com/earth/about/versions/",
+          "https://www.google.co.uk/intl/en_uk/earth/index.html",
+          "https://maps.google.co.uk/intl/en_uk/earth/download/gep/agree.html",
+          "https://earth.google.es/",
+          "https://earth.google.com/intl/earth/versions/",
+          "https://www.google.com/intl/en/earth/versions/",
+          "https://www.google.com/earth/about/versions/download-thank-you/"
+        ],
+        "candidates": [
+          "earth.google.com",
+          "earth.google.es",
+          "maps.google.co.uk",
+          "www.google.co.uk",
+          "www.google.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GoogleFCM/GoogleFCM.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "GoogleFCM",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://kyteliving.com/collections/espresso-martini-pajamas",
+          "https://www.amazon.com/espresso-martini-pajamas/s?k=espresso+martini+pajamas",
+          "https://www.etsy.com/market/espresso_martini_pajamas",
+          "https://getcozygirl.com/products/coffee-and-cocktails-womens-pajama-set",
+          "https://www.walmart.com/c/kp/espresso-martini-pj-set",
+          "https://www.amazon.com/espresso-martini-pajama-set/s?k=espresso+martini+pajama+set",
+          "https://poshpeanut.com/products/espresso-martini-womens-relaxed-pant-luxe-loungewear",
+          "https://www.etsy.com/market/espresso_martinis_pajamas",
+          "https://www.pjsalvage.com/collections/coffee-cocktails",
+          "https://thepaisleybox.com/shop/pj-bar/pajama-pants/espresso-martini-pajamas/"
+        ],
+        "candidates": [
+          "amazon.com",
+          "getcozygirl.com",
+          "kyteliving.com",
+          "poshpeanut.com",
+          "thepaisleybox.com",
+          "walmart.com",
+          "www.amazon.com",
+          "www.etsy.com",
+          "www.pjsalvage.com",
+          "www.walmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GoogleSearch/GoogleSearch.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "GoogleSearch",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.google.com/xhtml/search",
+          "https://search.google/",
+          "https://www.google.com.ai/webhp?gl=ai&hl=en-GB&gws_rd=cr&pws=0",
+          "https://accounts.google.com/InteractiveLogin?service=safesearchlock",
+          "https://ogs.google.com/widget/empty",
+          "https://www.google.com.hk/?hl=en",
+          "https://search.google.com/search-console/about",
+          "https://search.google/intl/en-IN/",
+          "https://en.wikipedia.org/wiki/Google_Search",
+          "https://support.google.com/websearch/answer/464?hl=en"
+        ],
+        "candidates": [
+          "accounts.google.com",
+          "en.wikipedia.org",
+          "google.com",
+          "ogs.google.com",
+          "search.google",
+          "search.google.com",
+          "support.google.com",
+          "www.google.com",
+          "www.google.com.ai",
+          "www.google.com.hk"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GoogleVoice/GoogleVoice.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "GoogleVoice",
+        "status": "checked",
+        "sources": [
+          "https://voice.google.com/",
+          "https://voice.google.com/regain",
+          "https://support.google.com/voice/answer/1065750?hl=en&co=GENIE.platform%3DDesktop",
+          "https://support.google.com/voice/answer/1065750?hl=en-CA&co=GENIE.Platform%3DDesktop",
+          "https://play.google.com/store/apps/details?id=com.google.android.apps.googlevoice&hl=en-US",
+          "https://support.google.com/voice/answer/115061?hl=en&co=GENIE.Platform=Android",
+          "https://www.pcmag.com/how-to/google-voice-tips-get-started",
+          "https://workspace.google.com/intl/en_ie/products/voice/",
+          "https://www.wikihow.com/Get-a-Google-Voice-Phone-Number",
+          "https://apps.apple.com/us/app/google-voice/id318698524"
+        ],
+        "candidates": [
+          "apps.apple.com",
+          "play.google.com",
+          "support.google.com",
+          "voice.google.com",
+          "workspace.google.com",
+          "www.pcmag.com",
+          "www.wikihow.com"
+        ],
+        "accepted": [
+          "voice.google.com"
+        ],
+        "ownership_evidence": [
+          "https://support.google.com/voice/answer/1065750?co=GENIE.Platform%3DDesktop&hl=en"
+        ]
+      },
+      "GovCN/GovCN.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "GovCN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.reddit.com/r/SoundersFC/comments/11h48t5/parking_at_lumen_field_on_gameday/",
+          "https://www.reddit.com/r/Seahawks/comments/y2akeq/best_section_in_groans_lumen_field_its_still_the/",
+          "https://www.reddit.com/r/Seahawks/comments/nbsbw0/best_place_to_sit_at_lumen_field/",
+          "https://www.reddit.com/r/nyjets/comments/159sfod/anyone_else_hate_the_seahawks_because_of_their/",
+          "https://www.reddit.com/r/Seahawks/wiki/index/",
+          "https://www.reddit.com/r/SeattleSeahawks/",
+          "https://www.reddit.com/r/SeattleStorm/",
+          "https://www.reddit.com/r/Seahawks/comments/6vnx8t/what_is_the_best_seattle_bar_to_watch_the_games/",
+          "https://www.reddit.com/r/Seahawks/comments/17t63de/first_seahawks_game_from_out_of_town/",
+          "https://www.reddit.com/r/Seahawks/comments/74quox/mitch_levy_as_most_of_you_realize_by_now_my_23/"
+        ],
+        "candidates": [
+          "discord.gg",
+          "www.reddit.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Gucci/Gucci.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "Gucci",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.gucci.com/us/en/",
+          "https://www.gucci.com/",
+          "https://www.nordstrom.com/brands/gucci--3506",
+          "https://en.wikipedia.org/wiki/Guccio_Gucci",
+          "https://www.saksfifthavenue.com/brand/gucci",
+          "https://www.nordstromrack.com/brands/gucci",
+          "https://www.macys.com/shop/brands/gucci?id=337791",
+          "https://www.bloomingdales.com/shop/gucci?id=1004007",
+          "https://www.britannica.com/topic/Gucci",
+          "https://www.gucci.com/us/en/store/7014-east-camelback-road"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "gucci.com",
+          "www.bloomingdales.com",
+          "www.britannica.com",
+          "www.gucci.com",
+          "www.macys.com",
+          "www.nordstrom.com",
+          "www.nordstromrack.com",
+          "www.saksfifthavenue.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "GuiGuDongLi/GuiGuDongLi.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "GuiGuDongLi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.allbiz.com/business/crowne-plaza-seattle_4B-206-464-1980",
+          "https://www.crowneplaza.com/hotels/gb/en/seattle/seadt/hoteldetail/directions",
+          "https://www.ihg.com/crowneplaza/hotels/us/en/seattle/seadt/hoteldetail",
+          "https://visitseattle.org/members/crowne-plaza-seattle-downtown/",
+          "https://www.yelp.com/biz/crowne-plaza-seattle-downtown-seattle",
+          "https://www.loc8nearme.com/washington/seattle/crowne-plaza-seattle-downtown-an-ihg-hotel/7768755/",
+          "https://www.kayak.com/Seattle-Hotels-Crowne-Plaza-Seattle-Downtown-By-IHG.32172.ksp",
+          "https://www.storeshours.com/crowne-plaza/washington/seattle/crowneplz",
+          "https://www.storeshours.com/crowne-plaza/washington/seattle/internationalblvd",
+          "https://www.ihg.com/crowneplaza/hotels/us/en/seattle/seadt/hoteldetail/amenities"
+        ],
+        "candidates": [
+          "cphotelseattle.com",
+          "ihg.com",
+          "visitseattle.org",
+          "www.allbiz.com",
+          "www.crowneplaza.com",
+          "www.ihg.com",
+          "www.kayak.com",
+          "www.loc8nearme.com",
+          "www.storeshours.com",
+          "www.yelp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HBO/HBO.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HBO",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hbomax.com/",
+          "https://www.hbo.com/",
+          "https://play.hbomax.com/",
+          "https://www.hbomax.com/auth/login",
+          "https://auth.hbomax.com/login",
+          "https://webos.play-hbo.max.com/",
+          "https://www.hbo.com/ways-to-get"
+        ],
+        "candidates": [
+          "auth.hbomax.com",
+          "play.hbomax.com",
+          "webos.play-hbo.max.com",
+          "www.hbo.com",
+          "www.hbomax.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HBOAsia/HBOAsia.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HBOAsia",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.etsy.com/shop/VintageFindsMall",
+          "https://www.etsy.com/market/vintage_finds_store",
+          "https://www.etsy.com/market/vintage_finds",
+          "https://www.etsy.com/discover/vintage-finds",
+          "https://www.lostandfounddecor.com/10-best-selling-antique-and-vintage-items/",
+          "https://www.youtube.com/watch?v=_ooPmmRiIsg",
+          "https://diycraftclub.com/blogs/gift-guides/best-vintage-shops-on-etsy",
+          "https://www.youtube.com/watch?v=Z-EhJT_pkp4",
+          "https://beckiowens.com/5-etsy-shops-for-great-vintage-finds/",
+          "https://veryvintagefinds.com/"
+        ],
+        "candidates": [
+          "beckiowens.com",
+          "diycraftclub.com",
+          "fatimasvintagefinds.etsy.com",
+          "instagram.com",
+          "veryvintagefinds.com",
+          "vintagefinds.ca",
+          "www.etsy.com",
+          "www.lostandfounddecor.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HBOHK/HBOHK.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HBOHK",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.packers.com/",
+          "https://www.packers.com/team/players-roster/",
+          "https://www.packers.com/team/executive-committee",
+          "https://www.packers.com/team/coaches-roster/",
+          "https://www.packers.com/news/",
+          "https://www.packers.com/team/depth-chart",
+          "https://www.packers.com/news/green-bay-packers-2026-schedule-opponents-determined",
+          "https://www.packers.com/team/injury-report/",
+          "https://www.packers.com/team/front-office-roster/ed-policy",
+          "https://www.packers.com/news/packers-announce-updates-to-medical-staff-oct-9-2025"
+        ],
+        "candidates": [
+          "packers.com",
+          "www.packers.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HBOUSA/HBOUSA.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HBOUSA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://desk.fareharbor.com/login",
+          "https://help.desk.fareharbor.com/hc/en-us/articles/42317942219419-Payment-links",
+          "https://help.desk.fareharbor.com/hc/en-us/articles/46073423262363-Integrating-Opera-Cloud-with-Desk",
+          "https://help.desk.fareharbor.com/hc/en-us/articles/38555865958299-Adding-a-gratuity",
+          "https://help.desk.fareharbor.com/hc/en-us/articles/54060500727067-Signature-collection-using-an-EMV-reader",
+          "https://help.desk.fareharbor.com/hc/en-us",
+          "https://help.desk.fareharbor.com/hc/en-us/categories/34311374431515-Getting-started",
+          "https://help.desk.fareharbor.com/hc/en-us/articles/46073231213339-Introduction-to-reporting",
+          "https://help.desk.fareharbor.com/hc/en-us/articles/34480276529307-Connecting-an-EMV-reader",
+          "https://help.desk.fareharbor.com/hc/en-us/articles/34352607071643-Manage-products"
+        ],
+        "candidates": [
+          "content.product",
+          "desk.fareharbor.com",
+          "help.desk.fareharbor.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HKBN/HKBN.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HKBN",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.nitromater.com/threads/duane-shields-qualifies-second-at-us-nationals.41448/",
+          "https://www.nitromater.com/threads/hillary-will-wants-team-to-celebrate-4th-at-bristol-in-winner%E2%80%99s-circle.8337/",
+          "https://www.nitromater.com/threads/racers-and-business-get-together-to-present-weekend-of-drag-racing.28542/",
+          "https://www.nitromater.com/threads/fuller-suffers-rare-first-round-loss-at-atlanta.6841/",
+          "https://www.nitromater.com/threads/patient-lucas-looking-for-consistency-in-tough-top-fuel-category-as-nhra-heads-to-hou.32218/latest",
+          "https://www.nitromater.com/threads/expiring-engine-ends-the-day-early-for-replacement-driver-j-r-todd.32838/",
+          "https://www.nitromater.com/forums/nhra.5/page-450",
+          "https://www.nitromater.com/threads/good-day-for-nitro-fish-teams-at-reading.17141/",
+          "https://www.nitromater.com/threads/john-coughlin-ready-to-race-after-successful-test.5480/",
+          "https://www.nitromater.com/threads/team-kalitta-post-race-report-chicago.42046/"
+        ],
+        "candidates": [
+          "jegs.com",
+          "www.nitromater.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HKOpenTV/HKOpenTV.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HKOpenTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.powerball.com/",
+          "https://www.powerball.com/double-play",
+          "https://www.powerball.com/draw-result?date=2026-04-29&gc=powerball",
+          "https://www.powerball.com/watch-drawing",
+          "https://www.powerball.com/draw-result?gc=powerball&date=2026-08-01",
+          "https://www.powerball.com/check-your-numbers?gc=powerball",
+          "https://www.powerball.com/xo",
+          "https://www.powerball.com/jackpot-usa",
+          "https://www.powerball.com/millionaire-for-life",
+          "https://www.powerball.com/2BY2"
+        ],
+        "candidates": [
+          "www.powerball.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HKedcity/HKedcity.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HKedcity",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://stunbokep.com/",
+          "https://id.xhamster.com/categories/indonesian/newest",
+          "https://id.xhamster.com/newest",
+          "https://ladangbokep.com/",
+          "https://bokephot.net/categories/indonesia/",
+          "https://kingbokep.tv/",
+          "https://pasarbokep.co/tag/bokep-indo-terbaru",
+          "https://www.eporner.com/tag/bokep-terbaru/",
+          "https://crotmedia.rest/terbaru",
+          "https://pasarbokep.co/tag/bokep-terbaru-indonesia"
+        ],
+        "candidates": [
+          "bokephot.net",
+          "crotmedia.rest",
+          "eporner.com",
+          "id.xhamster.com",
+          "kingbokep.tv",
+          "ladangbokep.com",
+          "pasarbokep.co",
+          "stunbokep.com",
+          "www.eporner.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HP/HP.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hp.com/us-en/home.html",
+          "https://support.hp.com/us-en/drivers",
+          "https://support.hp.com/",
+          "https://www.hp.com/us-en/shop",
+          "https://account.id.hp.com/",
+          "https://www.hpsmart.com/en",
+          "https://www.hpsmart.com/us/en"
+        ],
+        "candidates": [
+          "account.id.hp.com",
+          "hp.com",
+          "support.hp.com",
+          "www.hp.com",
+          "www.hpsmart.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HWTV/HWTV.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HWTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.bloomberg.com/news/articles/2026-10-28/barclays-turns-to-insurers-to-hedge-billions-of-data-center-debt",
+          "https://www.linkedin.com/pulse/barclays-2025-134bn-internally-generated-software-cloud-sebasti%C3%A3o-pkqbf/",
+          "https://www.bankingnewsai.com/banks/barclays",
+          "https://www.gov.uk/government/news/uk-financial-system-strengthened-with-new-safeguards-for-major-technology-providers",
+          "https://www.fca.org.uk/firms/critical-third-parties-strengthening-uk-financial-services"
+        ],
+        "candidates": [
+          "www.bankingnewsai.com",
+          "www.bloomberg.com",
+          "www.fca.org.uk",
+          "www.gov.uk",
+          "www.linkedin.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HaiNanHangKong/HaiNanHangKong.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HaiNanHangKong",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://leonsgourmetgrocer.com/",
+          "https://www.leonsgourmetgrocer.com/ads",
+          "https://www.loc8nearme.com/nebraska/lincoln/leons-food-mart/2452269/",
+          "https://www.weeklyads.now/ne/lincoln/leon-s-gourmet-grocer",
+          "https://www.facebook.com/leonsgourmetgrocer/",
+          "https://www.chamberofcommerce.com/business-directory/nebraska/lincoln/grocery-store/4055932-leon-s-gourmet-grocer",
+          "https://www.lnknebraska.com/directory/places/leons-gourmet-grocer",
+          "https://www.findglocal.com/US/Lincoln/297211130261/Leon%27s-Gourmet-Grocer",
+          "https://www.bloomandpick.com/nebraska/leons-gourmet-grocer/",
+          "https://www.mercato.com/shop/leons-gourmet-grocer"
+        ],
+        "candidates": [
+          "leonsgourmetgrocer.com",
+          "lnk.nebraska",
+          "www.bloomandpick.com",
+          "www.chamberofcommerce.com",
+          "www.facebook.com",
+          "www.findglocal.com",
+          "www.leonsgourmetgrocer.com",
+          "www.lnknebraska.com",
+          "www.loc8nearme.com",
+          "www.mercato.com",
+          "www.weeklyads.now"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HamiVideo/HamiVideo.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HamiVideo",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.facebook.com",
+          "https://m.facebook.com/",
+          "https://en.m.wikipedia.org/wiki/Facebook",
+          "https://x.com/facebook",
+          "https://secure.facebook.com/login/",
+          "https://l.facebook.com/facebook/",
+          "https://upload.facebook.com/login/identify/",
+          "https://secure.facebook.com/r.php/?entry_point=login",
+          "https://m.me/login/",
+          "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_US"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "fb.me",
+          "l.facebook.com",
+          "m.facebook.com",
+          "m.me",
+          "play.google.com",
+          "secure.facebook.com",
+          "upload.facebook.com",
+          "www.facebook.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HanYi/HanYi.yaml": {
+        "checked_at": "2026-11-08 17:33 UTC",
+        "name": "HanYi",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://myviewmetro.progressive.com:10443/portal/nativeclient",
+          "https://write.as/ltr5q7ill7x6q",
+          "https://www.linkedin.com/jobs/enter-your-username-email-and-password-to-register-hotaru-ejemplo-jobs",
+          "https://tudongnghia.com/vn/synonym/Enter_your_username%252525252C_email_and_password_to_register:_Hotaru_cedil.html",
+          "https://www.foreclosure.com/listings/enter-your-username-email-and-password-to-register:-hotaru-language:en/short-sales/",
+          "https://theresanaiforthat.com/s/%2522Enter+your+username%252C+email+and+password+to+register:%2522+Hotaru+possibly/",
+          "https://www.youtube.com/watch?v=8pV-o04GuKk"
+        ],
+        "candidates": [
+          "myviewmetro.progressive.com",
+          "progressive.com",
+          "theresanaiforthat.com",
+          "tudongnghia.com",
+          "write.as",
+          "www.foreclosure.com",
+          "www.linkedin.com",
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
