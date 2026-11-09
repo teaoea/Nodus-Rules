@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-09 04:24 UTC",
+  "date": "2026-11-09 21:53 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-09 04:24 UTC",
-    "next_index": 343,
+    "checked_at": "2026-11-09 21:53 UTC",
+    "next_index": 367,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -159043,193 +159043,184 @@
         "ownership_evidence": []
       },
       "JinJiangWenXue/JinJiangWenXue.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-09 21:53 UTC",
         "name": "JinJiangWenXue",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://nursece4less.com/",
-          "https://nursece4less.com/nursing-ceus/",
-          "https://ce4less.com/courses/",
-          "https://nursece4less.com/nursing-ceu-courses/",
-          "https://nursece4less.com/about-us/",
-          "https://nursece4less.com/nursing-ceu-pricing/",
-          "https://nursece4less.com/subscribe/",
-          "https://nursece4less.com/about-us/faqs/",
-          "https://nursece4less.com/category/continuing-education-for-nurses/",
-          "https://ce4less.com/my-account/"
+          "https://eagleforum.org/about/tabitha-walter.html",
+          "https://www.zhihu.com/question/306391809/answers/updated",
+          "https://eagleforum.org/contact/states.html",
+          "https://www.zhihu.com/question/388426001",
+          "https://eagleforum.org/shop/books.html",
+          "https://eagleforum.org/events.html",
+          "https://eagleforum.org/publications/press-releases/new-nebraska-state-president.html",
+          "https://eagleforum.org/publications/press-releases/new-colorado-state-president.html",
+          "https://eagleforum.org/about/brochure.html",
+          "https://eagleforum.org/donate.html"
         ],
         "candidates": [
-          "ce4less.com",
-          "nursece4less.com"
+          "eagleforum.org",
+          "www.zhihu.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "JingDong/JingDong.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-09 21:53 UTC",
         "name": "JingDong",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.timeanddate.com/worldclock/@2634812",
-          "https://www.timeanddate.com/worldclock/uk/ipswich",
-          "https://www.timeanddate.com/worldclock/japan/date",
-          "https://www.timeanddate.com/calendar/monthly.html",
-          "https://www.timeanddate.com/sun/ireland/dublin",
-          "https://www.timeanddate.com/astronomy/usa/reno",
-          "https://www.timeanddate.com/worldclock/usa/utica",
-          "https://www.timeanddate.com/date/dateadd.html",
-          "https://www.timeanddate.com/moon/phases/",
-          "https://www.timeanddate.com/worldclock/china/chongqing"
+          "https://www.jd.com/?lang=en",
+          "https://global.jd.com/",
+          "https://en.wikipedia.org/wiki/JD.com",
+          "https://home.jd.com/",
+          "https://corporate.jd.com/home",
+          "https://www.jingdonglogistics.com/",
+          "https://order.jd.com/center/list.action",
+          "https://new.jd.com/",
+          "https://hk.jd.com/",
+          "https://m.jd.com/"
         ],
         "candidates": [
-          "timeanddate.com",
-          "www.timeanddate.com"
+          "corporate.jd.com",
+          "en.wikipedia.org",
+          "global.jd.com",
+          "hk.jd.com",
+          "home.jd.com",
+          "jd.com",
+          "m.jd.com",
+          "new.jd.com",
+          "order.jd.com",
+          "www.jd.com",
+          "www.jingdonglogistics.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Jquery/Jquery.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-09 21:53 UTC",
         "name": "Jquery",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://jquery.com/",
-          "https://jquery.com/download/",
           "https://www.w3schools.com/jquery/",
+          "https://jquery.com/download/",
           "https://releases.jquery.com/",
-          "https://api.jquery.com/",
-          "https://learn.jquery.com/about-jquery/",
-          "https://learn.jquery.com/",
-          "https://www.w3schools.com/jquery/jquery_intro.asp",
           "https://en.wikipedia.org/wiki/JQuery",
-          "https://api.jquery.com/jQuery/"
+          "https://api.jquery.com/",
+          "https://releases.jquery.com/jquery/",
+          "https://www.geeksforgeeks.org/jquery/jquery-tutorial/",
+          "https://www.w3schools.com/jquery/jquery_get_started.asp",
+          "https://www.geeksforgeeks.org/jquery/what-is-jquery/"
         ],
         "candidates": [
           "api.jquery.com",
           "en.wikipedia.org",
           "jquery.com",
-          "learn.jquery.com",
           "releases.jquery.com",
+          "www.geeksforgeeks.org",
           "www.w3schools.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Jsdelivr/Jsdelivr.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-09 21:53 UTC",
         "name": "Jsdelivr",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.jsdelivr.com/",
-          "https://en.wikipedia.org/wiki/JSDelivr",
           "https://www.jsdelivr.com/about",
+          "https://en.wikipedia.org/wiki/JSDelivr",
           "https://cdn.jsdelivr.net/gh/jsdelivr/jsdelivr@master/README.md",
           "https://github.com/jsdelivr/jsdelivr",
           "https://cdn.jsdelivr.net/gh/jsdelivr/jsdelivr/",
-          "https://www.freecodecamp.org/news/how-to-use-jsdelivr-e64e5590f66e/",
-          "https://hysenlabs.com/projects/jsdelivr-jsdelivr",
-          "https://x.com/jsdelivr",
-          "https://github.com/jsdelivr"
+          "https://www.jsdelivr.com/new-jsdelivr",
+          "https://www.jsdelivr.com/github",
+          "https://www.jsdelivr.com/documentation",
+          "https://cdn.jsdelivr.net/npm/download/"
         ],
         "candidates": [
           "cdn.jsdelivr.net",
           "en.wikipedia.org",
-          "freecodecamp.org",
           "github.com",
-          "hysenlabs.com",
-          "t.co",
           "wordpress.org",
-          "www.freecodecamp.org",
-          "www.jsdelivr.com",
-          "x.com"
+          "www.jsdelivr.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "JueJin/JueJin.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-09 21:53 UTC",
         "name": "JueJin",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://support.microsoft.com/en-us/windows/how-to-get-help-in-windows-711b6492-0435-0038-8706-7c6b0feb200a",
-          "https://helpdeskgeek.com/how-to-get-help-in-windows/",
-          "https://www.microsoft.com/en-us/windows/help-and-support",
-          "https://www.wikihow.com/Get-Help-in-Windows-11",
-          "https://techbaked.com/how-get-help-windows-11/",
-          "https://geekzag.com/guides/computers/how-to-get-help-in-windows-11-10/",
-          "https://techbaked.com/get-help-windows-10/",
-          "https://www.addictivetips.com/windows-tips/how-to-get-help-in-windows/",
-          "https://support.microsoft.com/en-us/windows/",
-          "https://www.techcommuters.com/how-to-get-help-in-windows-11/"
+          "https://stackoverflow.com/questions/495021/why-can-templates-only-be-implemented-in-the-header-file",
+          "https://www.forbbodiesonly.com/moparforum/threads/whiplash-cam-on-the-dyno.212786/",
+          "https://www.forbbodiesonly.com/moparforum/threads/f70-14-and-g60-14-equivalents-sizes-in-todays-tires.295995/",
+          "https://stackoverflow.com/questions/75021886/gmail-smtp-send-535-5-7-8-username-and-password-not-accepted",
+          "https://pt.stackoverflow.com/questions/61491/diferen%c3%a7a-entre-while-e-for",
+          "https://www.reddit.com/r/Palworld/comments/1ahgef5/is_there_a_merchant_or_anything_that_you_can_buy/",
+          "https://www.reddit.com/r/OneyPlays/",
+          "https://stackoverflow.com/questions/1445452/shell-script-for-loop-syntax",
+          "https://stackoverflow.com/questions/49161120/set-value-of-one-pandas-column-based-on-value-in-another-column",
+          "https://www.forbbodiesonly.com/moparforum/threads/i-need-to-find-a-few-727-line-fittings.130465/"
         ],
         "candidates": [
-          "geekzag.com",
-          "helpdeskgeek.com",
-          "support.microsoft.com",
-          "techbaked.com",
-          "www.addictivetips.com",
-          "www.microsoft.com",
-          "www.techcommuters.com",
-          "www.wikihow.com"
+          "pt.stackoverflow.com",
+          "stackoverflow.com",
+          "www.forbbodiesonly.com",
+          "www.reddit.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Jwplayer/Jwplayer.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-09 21:53 UTC",
         "name": "Jwplayer",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.wordunscrambler.net/crossword-answers/",
-          "https://nytcrosswordanswers.com/",
-          "https://nytcrosswordanswers.org/",
-          "https://www.tomsguide.com/news/what-is-todays-wordle-answer",
-          "https://latimescrosswordanswers.com/crossword/see",
-          "https://nytimes-crosswords.com/",
-          "https://www.thewordfinder.com/nyt-hub/",
-          "https://dazepuzzle.com/nyt-mini-crossword/",
-          "https://www.wordplays.com/crossword-solver/See",
-          "https://crossword-solver.io/"
+          "https://www.reddit.com/r/amazingtits/top/",
+          "https://www.reddit.com/r/SampleSize/comments/2yff75/results_the_ultimate_tits_or_ass_survey_3061/",
+          "https://www.reddit.com/r/TitsOutBikiniTop/",
+          "https://www.reddit.com/r/BustyPetite/comments/basqxa/blonde_with_big_tits/",
+          "https://www.reddit.com/r/NaturalBoobs/",
+          "https://www.reddit.com/r/boobs/",
+          "https://www.reddit.com/r/CelebsWithPetiteTits/",
+          "https://www.reddit.com/r/torpedotits/",
+          "https://www.reddit.com/r/90sTits/",
+          "https://www.reddit.com/r/bigtitsinbikinis/comments/os4yms/very_very_big_tits_in_bikini/"
         ],
         "candidates": [
-          "crossword-solver.io",
-          "dazepuzzle.com",
-          "latimescrosswordanswers.com",
-          "nytcrosswordanswers.com",
-          "nytcrosswordanswers.org",
-          "nytimes-crosswords.com",
-          "wordplays.com",
-          "www.thewordfinder.com",
-          "www.tomsguide.com",
-          "www.wordplays.com",
-          "www.wordunscrambler.net"
+          "www.reddit.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "KKBOX/KKBOX.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-09 21:53 UTC",
         "name": "KKBOX",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://play.kkbox.com/",
-          "https://www.kkbox.com/sg/en/",
-          "https://www.kkbox.com/",
-          "https://en.wikipedia.org/wiki/KKBox",
-          "https://kma.kkbox.com/charts/?terr=tw&lang=tc",
-          "https://play.kkbox.com/oauth/login",
-          "https://ssl.kkbox.com/tw/billing/index.php",
-          "https://kma.kkbox.com/charts/?terr=hk&lang=tc",
-          "https://help.kkbox.com/hc/",
-          "https://ssl.kkbox.com/hk/billing/index.php"
+          "https://www.microsoft.com/en-us/",
+          "https://account.microsoft.com/account",
+          "https://www.microsoft.com/",
+          "https://myaccount.microsoft.com/",
+          "https://myaccount.microsoft.com/%C2%A0-%3E",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://account.microsoft.com/account-checkup",
+          "https://support.microsoft.com/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://support.microsoft.com/en-us/support/index"
         ],
         "candidates": [
+          "account.microsoft.com",
           "en.wikipedia.org",
-          "help.kkbox.com",
-          "kma.kkbox.com",
-          "play.kkbox.com",
-          "ssl.kkbox.com",
-          "www.kkbox.com"
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "outlook.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
         ],
         "accepted": [],
         "ownership_evidence": []
@@ -177237,6 +177228,468 @@
           "www.icbc.com",
           "www.icbc.com.ar",
           "www.icbc.com.cn"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IKEA/IKEA.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "IKEA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ikea.com/us/en/",
+          "https://www.ikea.com/us/en/cat/products-products/",
+          "https://www.furniture.com/stores/new-jersey/mount-laurel/ikea",
+          "https://www.yelp.com/search?find_desc=ikea&find_loc=Mount+Laurel%2C+NJ",
+          "https://en.m.wikipedia.org/wiki/IKEA",
+          "https://www.yellowpages.com/mount-laurel-nj/ikea",
+          "https://www.ikea.com/us/en/stores/",
+          "https://www.ikea.com/",
+          "https://www.ikea.com/us/en/offers/",
+          "https://www.ikea.com/us/en/customer-service/contact-us/"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "furniture.com",
+          "www.furniture.com",
+          "www.ikea.com",
+          "www.yellowpages.com",
+          "www.yelp.com",
+          "yp.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IMDB/IMDB.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "IMDB",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.imdb.com/",
+          "https://www.facebook.com/imdb/",
+          "https://data.imdb.com/",
+          "https://www.britannica.com/topic/IMDb",
+          "https://m.youtube.com/watch?v=oRs-A3OwRKg",
+          "https://s.media-imdb.com/what-to-watch/watch-guides/",
+          "https://en.m.wikipedia.org/wiki/IMDb",
+          "https://help.imdb.com/imdb",
+          "https://collider.com/imdb-top-movies/",
+          "https://pro.imdb.com/login/ap"
+        ],
+        "candidates": [
+          "collider.com",
+          "data.imdb.com",
+          "en.m.wikipedia.org",
+          "help.imdb.com",
+          "imdb.com",
+          "m.youtube.com",
+          "pro.imdb.com",
+          "s.media-imdb.com",
+          "www.britannica.com",
+          "www.facebook.com",
+          "www.imdb.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IPTVMainland/IPTVMainland.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "IPTVMainland",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://es.wikipedia.org/wiki/Amado_Carrillo",
+          "https://www.infobae.com/america/mexico/2020/03/08/como-amado-carrillo-se-convirtio-en-el-temido-senor-de-los-cielos/",
+          "https://www.eluniversal.com.mx/espectaculos/precuela-de-el-senor-de-los-cielos-responde-a-preguntas-sobre-el-narco-en-mexico-dice-luis-felipe-tovar/",
+          "https://www.infobae.com/america/mexico/2020/03/14/la-historia-de-amado-carrillo-el-capo-que-se-convirtio-en-el-senor-de-los-cielos-y-tuvo-una-muerte-sospechosa-en-un-quirofano/",
+          "https://en.wikipedia.org/wiki/Amado_Carrillo_Fuentes",
+          "https://www.narcoenmexico.com/2018/07/la-historia-de-amado-carrillo-como-se.html",
+          "https://info.diaonia.com/amado-carrillo-por-que-el-senor-de-los-cielos/",
+          "https://rpp.pe/famosos/celebridades/el-senor-de-los-cielos-reparto-quien-fue-amado-carrillo-historia-real-narco-mexico-eg-noticia-1352846",
+          "https://www.porlalinea.com.do/la-misteriosa-desaparicion-del-jefe-narco-el-senor-de-los-cielos/",
+          "https://laverdadnoticias.com/pulso-viral/farandula-y-shows/amado-carrillo-historia"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "es.wikipedia.org",
+          "info.diaonia.com",
+          "laverdadnoticias.com",
+          "rpp.pe",
+          "www.eluniversal.com.mx",
+          "www.infobae.com",
+          "www.narcoenmexico.com",
+          "www.porlalinea.com.do"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IPTVOther/IPTVOther.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "IPTVOther",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://largebible.com/kjv/john/7",
+          "https://largebible.com/kjv/john",
+          "https://www.christianity.com/bible/large/kjv/john/7",
+          "https://www.kingjamesbibleonline.org/John-Chapter-7/",
+          "https://www.christianity.com/bible/large/",
+          "https://www.biblegateway.com/passage/?search=John%207&version=KJV",
+          "https://www.kingjamesbibleonline.org/1611_John-Chapter-7/"
+        ],
+        "candidates": [
+          "christianity.com",
+          "largebible.com",
+          "www.biblegateway.com",
+          "www.christianity.com",
+          "www.kingjamesbibleonline.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ITV/ITV.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "ITV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.itv.com/watch?channel=itv",
+          "https://www.itv.com/watch/tv-guide",
+          "https://en.m.wikipedia.org/wiki/ITV.com",
+          "https://www.youtube.com/itv",
+          "https://www.womanandhome.com/life/news-entertainment/what-is-itv-how-to-watch-it-in-the-us-and-what-are-the-best-shows-to-stream/",
+          "https://www.itv-america.com/",
+          "https://en.m.wikipedia.org/wiki/ITV",
+          "https://www.itvstudios.com/producers/itv-america",
+          "https://tv-guide-listings.co.uk/tv-guide-itv/",
+          "https://www.tvguide.com/news/how-to-watch-itv-from-the-us/"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "itv.com",
+          "news.there",
+          "stv.tv",
+          "tv-guide-listings.co.uk",
+          "www.itv-america.com",
+          "www.itv.com",
+          "www.itvstudios.com",
+          "www.tvguide.com",
+          "www.womanandhome.com",
+          "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Identrust/Identrust.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "Identrust",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.identrust.com/",
+          "https://www.identrust.com/digital-certificates",
+          "https://en.wikipedia.org/wiki/IdenTrust",
+          "https://www.hidglobal.com/solutions/digital-certificates",
+          "https://www.hidglobal.com/products/trustid",
+          "https://support.desk.identrust.com/servicedesk/customer/portals",
+          "https://www.identrust.com/manage/certificates",
+          "https://www.identrust.com/manage-my-certificates",
+          "https://www.identrust.com/contact",
+          "https://www.hidglobal.com/products/igc"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "support.desk.identrust.com",
+          "www.hidglobal.com",
+          "www.identrust.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Imgur/Imgur.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "Imgur",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://imgur.com/new",
+          "https://imgur.com/@/",
+          "https://en.wikipedia.org/wiki/Imgur",
+          "https://uploadimgur.com/",
+          "https://imgur.gg/",
+          "https://iob.imgur.com/",
+          "https://imgur.life/",
+          "https://help.imgur.com/hc/en-us",
+          "https://imgur.gg/login",
+          "https://www.wikiwand.com/en/Imgur"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "help.imgur.com",
+          "imgur.com",
+          "imgur.gg",
+          "imgur.life",
+          "iob.imgur.com",
+          "uploadimgur.com",
+          "www.wikiwand.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Instagram/Instagram.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "Instagram",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.instagram.com/",
+          "https://www.instagram.com/instagram/",
+          "https://www.meta.com/instagram/",
+          "https://x.com/instagram",
+          "https://help.instagram.com/",
+          "https://en.wikipedia.org/wiki/Instagram",
+          "https://www.facebook.com/instagram/",
+          "https://about.instagram.com/",
+          "https://about.instagram.com/features/search-and-explore",
+          "https://play.google.com/store/apps/details?id=com.instagram.android&hl=en-US"
+        ],
+        "candidates": [
+          "about.instagram.com",
+          "en.wikipedia.org",
+          "help.instagram.com",
+          "play.google.com",
+          "www.facebook.com",
+          "www.instagram.com",
+          "www.meta.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Intel/Intel.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "Intel",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.intel.com/content/www/us/en/download-center/home.html",
+          "https://www.intel.com/content/www/us/en/homepage.html",
+          "https://en.wikipedia.org/wiki/Intel",
+          "https://finance.yahoo.com/quote/INTC/",
+          "https://www.intel.ie/content/www/ie/en/company-overview/company-overview.html",
+          "https://intel.wd1.myworkdayjobs.com/External/page/6042070b79e01001f04fa9b468070000",
+          "https://www.intc.com/news-events/press-releases",
+          "https://en.wikipedia.org/wiki/List_of_Intel_processors",
+          "https://www.intc.com/",
+          "https://www.marketwatch.com/investing/stock/intc"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "intel.wd1.myworkdayjobs.com",
+          "www.intc.com",
+          "www.intel.com",
+          "www.intel.ie",
+          "www.marketwatch.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Intercom/Intercom.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "Intercom",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.intercom.com/",
+          "https://app.intercom.com/admins/sign_in",
+          "https://en.wikipedia.org/wiki/Intercom",
+          "https://www.intercom.com/help/en/articles/294-what-is-intercom",
+          "https://www.amazon.com/intercom/s?k=intercom",
+          "https://en.wikipedia.org/wiki/Fin_(company)",
+          "https://www.linkedin.com/company/intercom",
+          "https://www.homedepot.com/b/Electrical-Intercoms/N-5yc1vZbtto",
+          "https://www.verkada.com/intercom/",
+          "https://www.amazon.com/wireless-intercom/s?k=wireless+intercom"
+        ],
+        "candidates": [
+          "amazon.com",
+          "app.intercom.com",
+          "en.wikipedia.org",
+          "www.amazon.com",
+          "www.homedepot.com",
+          "www.intercom.com",
+          "www.linkedin.com",
+          "www.verkada.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "JOOX/JOOX.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "JOOX",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.joox.com/",
+          "https://www.joox.com/my-en/download",
+          "https://play.google.com/store/apps/details?id=com.tencent.ibg.joox&hl=en-US",
+          "https://en.wikipedia.org/wiki/Joox",
+          "https://static.joox.com/platform/applink/applink.html",
+          "https://static.joox.com/platform/web_announcement/index.html?lang=en",
+          "https://apkpure.com/joox-music/com.tencent.ibg.joox",
+          "https://www.joox.com/en/download.html",
+          "https://www.joox.com/en/mobile/index.html",
+          "https://www.joox.com/th"
+        ],
+        "candidates": [
+          "apkpure.com",
+          "en.wikipedia.org",
+          "joox.com",
+          "play.google.com",
+          "static.joox.com",
+          "www.joox.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Japonx/Japonx.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "Japonx",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://japanx-auction.com/",
+          "https://japonx.com/",
+          "https://www.sopornvideos.com/japanese/",
+          "https://online.yandex.com/search?text=japonx+%E5%9B%BD%E9%99%85%E7%89%88&lr=87",
+          "https://japanx.sakuraweb.com/tc/",
+          "https://online.yandex.com/search?text=%2B%E7%8B%A9+%E9%83%BD+japonx&lr=21414&p=0",
+          "https://japanx.sakuraweb.com/",
+          "https://github.com/v2ray/domain-list-community/blob/master/data/japonx",
+          "https://wap.yandex.com/search?text=japonx%E4%BC%9A%E5%91%98&lr=21206",
+          "https://xranks.com/alternative/japonx.net"
+        ],
+        "candidates": [
+          "github.com",
+          "japanx-auction.com",
+          "japanx.sakuraweb.com",
+          "japonx.com",
+          "japonx.net",
+          "japonx.tv",
+          "online.yandex.com",
+          "wap.yandex.com",
+          "www.sopornvideos.com",
+          "xranks.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Jetbrains/Jetbrains.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "Jetbrains",
+        "status": "checked",
+        "sources": [
+          "https://docs.codacy.com/getting-started/integrating-codacy-with-intellij-ides/",
+          "https://docs.codacy.com/",
+          "https://www.codacy.com/",
+          "https://blog.codacy.com/codacy-intellij-idea-extension-now-available",
+          "https://blog.codacy.com/codacy-guardrails-is-now-available-for-intellij-jetbrains-ides",
+          "https://www.codacy.com/ai-info",
+          "https://resources.codacy.com/resources"
+        ],
+        "candidates": [
+          "blog.codacy.com",
+          "docs.codacy.com",
+          "resources.codacy.com",
+          "www.codacy.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": [
+          "https://www.jetbrains.com/help/youtrack/cloud/security.html"
+        ]
+      },
+      "Jfrog/Jfrog.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "Jfrog",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://jfrog.com/",
+          "https://oss.jfrog.org/ui/login/",
+          "https://jfrog.com/about/",
+          "https://my.jfrog.com/login",
+          "https://my.jfrog.com/login?websiteLogin",
+          "https://technically.dev/posts/what-does-jfrog-do",
+          "https://oss.jfrog.org/",
+          "https://docs.jfrog.com/",
+          "https://jfrog.com/artifactory/",
+          "https://jfrog.com/pricing/"
+        ],
+        "candidates": [
+          "docs.jfrog.com",
+          "jfrog.com",
+          "my.jfrog.com",
+          "oss.jfrog.org",
+          "technically.dev"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "JiGuangTuiSong/JiGuangTuiSong.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "JiGuangTuiSong",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.mlb.com/phillies",
+          "https://www.mlb.com/phillies/stats/",
+          "https://baseballsavant.mlb.com/team/143",
+          "https://auctions.mlb.com/you-and-a-friend-included-in-the-2018-phillies-team/isynmv1/aucd/168213",
+          "https://www.mlb.com/phillies/schedule",
+          "https://www.mlb.com/phillies/scores",
+          "https://www.mlb.com/phillies/team/jobs",
+          "https://www.mlb.com/phillies/tickets/single-game-tickets",
+          "https://www.mlb.com/phillies/fans/fan-clubs"
+        ],
+        "candidates": [
+          "auctions.mlb.com",
+          "baseballsavant.mlb.com",
+          "mlb.com",
+          "www.auctions.mlb.com",
+          "www.mlb.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "JianGuoYun/JianGuoYun.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "JianGuoYun",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://politics.stackexchange.com/questions/1365/how-did-the-term-liberal-become-progressive",
+          "https://politics.stackexchange.com/questions/34822/why-are-people-asked-for-their-party-affiliation-when-registering-to-vote-in-the",
+          "https://politics.stackexchange.com/questions/11109/when-how-and-why-did-the-stars-in-the-logo-of-the-republican-party-get-turned-u",
+          "https://politics.stackexchange.com/questions/23455/can-a-us-political-party-reject-a-potential-candidate",
+          "https://politics.stackexchange.com/questions/35473/can-an-american-political-party-kick-out-a-member",
+          "https://politics.stackexchange.com/questions/77726/what-are-possible-explanations-for-why-democratic-states-appear-to-have-higher-h",
+          "https://politics.stackexchange.com/questions/10900/does-voting-really-matter-as-a-democrat-living-in-a-solidly-republican-state",
+          "https://politics.stackexchange.com/questions/8841/are-there-advantages-to-my-being-registered-as-an-independent-in-the-us",
+          "https://politics.stackexchange.com/questions/1084/in-the-us-why-do-libertarians-tend-to-side-with-the-republican-party-rather-tha",
+          "https://politics.stackexchange.com/questions/16320/jumping-political-party-ok-after-being-elected-by-people-into-a-party"
+        ],
+        "candidates": [
+          "politics.stackexchange.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "JianShu/JianShu.yaml": {
+        "checked_at": "2026-11-09 21:53 UTC",
+        "name": "JianShu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://results.vote.wa.gov/results/20141104/",
+          "https://results.vote.wa.gov/results/20161108/",
+          "https://results.vote.wa.gov/results/20241105/benton/",
+          "https://results.vote.wa.gov/results/20220802/",
+          "https://results.vote.wa.gov/results/20201103/president-vice-president_bycounty.html",
+          "https://results.vote.wa.gov/results/20250805/pierce/",
+          "https://results.vote.wa.gov/results/20161108/governor.html",
+          "https://results.vote.wa.gov/results/20161108/secretary-of-state.html",
+          "https://results.vote.wa.gov/results/20161108/turnout.html",
+          "https://results.vote.wa.gov/results/20160802/"
+        ],
+        "candidates": [
+          "results.vote.wa.gov"
         ],
         "accepted": [],
         "ownership_evidence": []
