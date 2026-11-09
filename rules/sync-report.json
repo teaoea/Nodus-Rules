@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-08 17:33 UTC",
+  "date": "2026-11-09 04:24 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-08 17:33 UTC",
-    "next_index": 319,
+    "checked_at": "2026-11-09 04:24 UTC",
+    "next_index": 343,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -176561,6 +176561,682 @@
           "www.foreclosure.com",
           "www.linkedin.com",
           "www.youtube.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HashiCorp/HashiCorp.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HashiCorp",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hashicorp.com/",
+          "https://en.wikipedia.org/wiki/HashiCorp",
+          "https://www.hashicorp.com/en/about",
+          "https://www.ibm.com/products/hashicorp",
+          "https://developer.hashicorp.com/terraform",
+          "https://github.com/hashicorp",
+          "https://developer.hashicorp.com/",
+          "https://portal.cloud.hashicorp.com/",
+          "https://www.hashicorp.com/en/products/vault",
+          "https://developer.hashicorp.com/terraform/install"
+        ],
+        "candidates": [
+          "developer.hashicorp.com",
+          "en.wikipedia.org",
+          "github.com",
+          "portal.cloud.hashicorp.com",
+          "www.hashicorp.com",
+          "www.ibm.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Haveibeenpwned/Haveibeenpwned.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Haveibeenpwned",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://haveibeenpwned.com/",
+          "https://haveibeenpwned.com/PwnedWebsites?web=1",
+          "https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader",
+          "https://en.m.wikipedia.org/wiki/Have_I_Been_Pwned%3F",
+          "https://x.com/haveibeenpwned",
+          "https://www.reddit.com/r/privacy/comments/12eavyf/how_safe_is_haveibeenpwnedcom/",
+          "https://support.haveibeenpwned.com/hc/en-au",
+          "https://github.com/HaveIBeenPwned",
+          "https://databreach.com/",
+          "https://en.m.wikipedia.org/wiki/Troy_Hunt"
+        ],
+        "candidates": [
+          "databreach.com",
+          "en.m.wikipedia.org",
+          "github.com",
+          "haveibeenpwned.com",
+          "support.haveibeenpwned.com",
+          "www.reddit.com",
+          "x.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HeMa/HeMa.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HeMa",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hema.com/",
+          "https://en.wikipedia.org/wiki/Historical_European_martial_arts",
+          "https://www.hema.nl/",
+          "https://www.hemaalliance.com/club-finders",
+          "https://corporate.hema.com/en/about-us/",
+          "https://www.hemaalliance.com/",
+          "https://www.hema.com/nl-be",
+          "https://en.wikipedia.org/wiki/HEMA_(store)",
+          "https://swordgear.com/",
+          "https://www.hema.nl/i/department-store"
+        ],
+        "candidates": [
+          "corporate.hema.com",
+          "en.wikipedia.org",
+          "hema.com",
+          "hema.nl",
+          "swordgear.com",
+          "www.hema.com",
+          "www.hema.nl",
+          "www.hemaalliance.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hearthstone/Hearthstone.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Hearthstone",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://hearthstone.blizzard.com/",
+          "https://us.shop.battle.net/en-us/product/hearthstone",
+          "https://hearthstone.blizzard.com/en-us/news/",
+          "https://www.hearthstonemarketandcatering.com/",
+          "https://hsreplay.net/meta/",
+          "https://en.wikipedia.org/wiki/Hearthstone",
+          "https://www.hearthstonestoves.com/",
+          "https://www.hearthpwn.com/news",
+          "https://us.shop.battle.net/en-us/family/hearthstone",
+          "https://hearthstone-decks.net/"
+        ],
+        "candidates": [
+          "battle.net",
+          "en.wikipedia.org",
+          "hearthstone-decks.net",
+          "hearthstone.blizzard.com",
+          "hsreplay.net",
+          "us.shop.battle.net",
+          "www.hearthpwn.com",
+          "www.hearthstonemarketandcatering.com",
+          "www.hearthstonestoves.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HeroesoftheStorm/HeroesoftheStorm.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HeroesoftheStorm",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.jetblue.com/",
+          "https://www.mlb.com/press-release/press-release-red-sox-hire-shawn-smith-as-general-manager-florida-operations-and",
+          "https://www.airliners.net/forum/viewtopic.php?t=1507083",
+          "https://www.mlb.com/redsox/spring-training/ballpark/events",
+          "https://www.pilotsofamerica.com/community/threads/adding-basic-ifr-avionics-to-a-c150.106730/",
+          "https://www.pilotsofamerica.com/community/threads/real-world-numbers-for-a-vans-rv-9.96930/page-2",
+          "https://www.airliners.net/forum/viewtopic.php?t=1344275",
+          "https://www.mlb.com/redsox/spring-training/ballpark/upcoming-events",
+          "https://www.mlb.com/redsox/spring-training",
+          "https://www.mlb.com/redsox/spring-training/ballpark/travel"
+        ],
+        "candidates": [
+          "airliners.net",
+          "mlb.com",
+          "redsox.com",
+          "www.airliners.net",
+          "www.jetblue.com",
+          "www.mlb.com",
+          "www.pilotsofamerica.com",
+          "year.focusing"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Heroku/Heroku.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Heroku",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.heroku.com/",
+          "https://id.heroku.com/login",
+          "https://en.wikipedia.org/wiki/Heroku",
+          "https://www.heroku.com/platform/",
+          "https://signup.heroku.com/",
+          "https://devcenter.heroku.com/articles/how-heroku-works",
+          "https://devcenter.heroku.com/",
+          "https://www.heroku.com/what/",
+          "https://www.heroku.com/pricing/",
+          "https://www.heroku.com/products/"
+        ],
+        "candidates": [
+          "devcenter.heroku.com",
+          "en.wikipedia.org",
+          "id.heroku.com",
+          "node.js",
+          "signup.heroku.com",
+          "www.heroku.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HibyMusic/HibyMusic.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HibyMusic",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://avzri.com/what-is-linden-tea-also-known-as-exploring-its-global-names",
+          "https://en.m.wikipedia.org/wiki/Tilia",
+          "https://www.utep.edu/herbal-safety/herbal-facts/herbal%20facts%20sheet/liden-tree.html",
+          "https://summerstirs.com/what-is-tila-tea/",
+          "https://tregothnan.co.uk/blogs/time-for-tea/linden-tea",
+          "https://en.m.wikipedia.org/wiki/Tilia_cordata",
+          "https://www.drugs.com/npp/linden.html",
+          "https://romestable.com/blog/what-is-tila-tea-good-for/",
+          "https://summerstirs.com/what-is-tilo-tea/",
+          "https://commonwealthherbs.com/linden-herb-of-the-week/"
+        ],
+        "candidates": [
+          "avzri.com",
+          "commonwealthherbs.com",
+          "drugs.com",
+          "en.m.wikipedia.org",
+          "romestable.com",
+          "summerstirs.com",
+          "tregothnan.co.uk",
+          "www.drugs.com",
+          "www.utep.edu"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hijacking/Hijacking.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Hijacking",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.espn.com/nhl/team/_/name/phi/philadelphia-flyers",
+          "https://www.nhl.com/flyers/",
+          "https://legionreport.com/flyers-score/",
+          "https://www.espn.com/nhl/recap?gameId=401892638",
+          "https://www.cbssports.com/nhl/teams/phi/philadelphia-flyers/",
+          "https://www.sportingnews.com/us/nhl/philadelphia-flyers/scores",
+          "https://www.365scores.com/en-us/hockey/team/philadelphia-flyers-6420",
+          "https://www.nhl.com/flyers/schedule",
+          "https://www.flashscore.com/team/philadelphia-flyers/QySGG7oT/",
+          "https://bleacherreport.com/philadelphia-flyers"
+        ],
+        "candidates": [
+          "bleacherreport.com",
+          "flashscore.com",
+          "legionreport.com",
+          "nhl.com",
+          "www.365scores.com",
+          "www.cbssports.com",
+          "www.espn.com",
+          "www.flashscore.com",
+          "www.nhl.com",
+          "www.sportingnews.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Himalaya/Himalaya.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Himalaya",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/",
+          "https://myaccount.microsoft.com/login",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://account.microsoft.com/account-checkup",
+          "https://www.microsoft.com/en-us/windows/",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://support.microsoft.com/en-us/support/index",
+          "https://outlook.office.com/mail/inbox"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "microsoft.com",
+          "myaccount.microsoft.com",
+          "outlook.com",
+          "outlook.office.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hkgolden/Hkgolden.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Hkgolden",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hkgolden.com/",
+          "https://forum.hkgolden.com/channel/CA/page/1",
+          "https://forum.hkgolden.com/channel/NW/page/1",
+          "https://mdd.hkgolden.com/",
+          "https://en.m.wikipedia.org/wiki/HKGolden",
+          "https://md.hkgolden.com/view_amp.aspx?message=7119311&page=4",
+          "https://m.hkgolden.com/main",
+          "https://forumd.hkgolden.com/login.aspx",
+          "https://md.hkgolden.com/view_amp.aspx",
+          "https://zh.m.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E9%AB%98%E7%99%BB%E8%A8%8E%E8%AB%96%E5%8D%80"
+        ],
+        "candidates": [
+          "en.m.wikipedia.org",
+          "forum.hkgolden.com",
+          "forumd.hkgolden.com",
+          "hkgolden.com",
+          "m.hkgolden.com",
+          "md.hkgolden.com",
+          "mdd.hkgolden.com",
+          "www.hkgolden.com",
+          "zh.m.wikipedia.org"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HoYoverse/HoYoverse.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HoYoverse",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hoyoverse.com/",
+          "https://account.hoyoverse.com/",
+          "https://genshin.hoyoverse.com/en/",
+          "https://www.hoyolab.com/home",
+          "https://en.wikipedia.org/wiki/MiHoYo",
+          "https://www.hoyoverse.com/en/",
+          "https://genshin.hoyoverse.com/en/home",
+          "https://account.hoyoverse.com/?lang=en-en",
+          "https://planet.hoyoverse.com/en-us/home",
+          "https://hoyoplay.hoyoverse.com/"
+        ],
+        "candidates": [
+          "account.hoyoverse.com",
+          "content.community",
+          "en.wikipedia.org",
+          "genshin.hoyoverse.com",
+          "hoyoplay.hoyoverse.com",
+          "planet.hoyoverse.com",
+          "www.hoyolab.com",
+          "www.hoyoverse.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hpplay/Hpplay.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Hpplay",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://resources.finalsite.net/images/v1749822594/ousdorg/n4tvxgntahmew2oxry6l/RRROAKLANDUNIFIEDSCHOOLDISTRICTCERTIFIEDPRIMECONTRACTORSLIST-2025-2026-Sheet11.pdf",
+          "https://cityclerk.lacity.org/onlinedocs/2012/12-0460-S8_misc_5_08-13-24.pdf",
+          "https://estatevuev4.com/platform/edmonton/corinne-oneil/listings/pdf_idx/4615-161-av-nw-mls-E4367381.pdf",
+          "https://storage.googleapis.com/wzukusers/user-13777155/documents/c54392442e384571abd7e732699a80d3/2024-05-01-List%20of%20Licensed%20Installers.pdf",
+          "https://www.king.ca/sites/default/files/2020-12/King%20Chamber%20Directory%202019%20low%20res.pdf",
+          "https://evergreen.data.socrata.com/api/views/7dgv-2aw2/rows.pdf?app_token=U29jcmF0YS0td2VraWNrYXNz0"
+        ],
+        "candidates": [
+          "agbayani.com",
+          "angelesmadison.com",
+          "aqsxjp.bdmhqc",
+          "borasca.xyz",
+          "chelseaoffice.com",
+          "cityclerk.lacity.org",
+          "czmymh.qtmcdpqt",
+          "estatevuev4.com",
+          "evergreen.data.socrata.com",
+          "example.com9031158",
+          "gensler.com",
+          "gmail.com",
+          "idjdnd.wcwphtc",
+          "jocelyn.bautista",
+          "king.ca",
+          "remax.net",
+          "resources.finalsite.net",
+          "rushlight.cfd",
+          "scranch.shop",
+          "seth.copenhaver",
+          "silverlakenc.org",
+          "spinapp.bar",
+          "spklae.qhdtqwtq",
+          "storage.googleapis.com",
+          "www.king.ca",
+          "www.zenonhomes.com",
+          "yahoo.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuYa/HuYa.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HuYa",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.huya.com/g",
+          "https://www.huya.com/wap/home",
+          "https://www2.huya.com/g/0",
+          "https://m.huya.com/e",
+          "https://i.huya.com/",
+          "https://hd.huya.com/download/",
+          "https://www2.huya.com/download/",
+          "https://v.huya.com/",
+          "https://i.huya.com/index.php?m=HomeIndex",
+          "https://m.v.huya.com/..._frame"
+        ],
+        "candidates": [
+          "hd.huya.com",
+          "huya.com",
+          "i.huya.com",
+          "m.huya.com",
+          "m.v.huya.com",
+          "v.huya.com",
+          "www.huya.com",
+          "www2.huya.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuaShuTV/HuaShuTV.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HuaShuTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us",
+          "https://account.microsoft.com/account",
+          "https://myaccount.microsoft.com/",
+          "https://myaccount.microsoft.com/login",
+          "https://en.wikipedia.org/wiki/Microsoft",
+          "https://account.microsoft.com/account-checkup",
+          "https://www.microsoft.com/en-us/windows/",
+          "https://m365.cloud.microsoft/?origindomain=Office",
+          "https://outlook.office.com/mail/inbox",
+          "https://support.microsoft.com/en-us/support/index"
+        ],
+        "candidates": [
+          "account.microsoft.com",
+          "en.wikipedia.org",
+          "m365.cloud.microsoft",
+          "microsoft.com",
+          "myaccount.microsoft.com",
+          "outlook.com",
+          "outlook.office.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuanJu/HuanJu.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HuanJu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.google.com/",
+          "https://search.google/",
+          "https://en.wikipedia.org/wiki/Google",
+          "https://about.google/",
+          "https://www.google.com.nf/webhp?gl=nf&hl=en&gws_rd=cr&pws=0",
+          "https://ai.google/",
+          "https://about.google/products/",
+          "https://maps.google.com/",
+          "https://accounts.google.com/",
+          "https://blog.google/"
+        ],
+        "candidates": [
+          "about.google",
+          "accounts.google.com",
+          "ai.google",
+          "blog.google",
+          "en.wikipedia.org",
+          "google.com",
+          "maps.google.com",
+          "search.google",
+          "www.google.com",
+          "www.google.com.nf"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Huawei/Huawei.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Huawei",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.huawei.com/en/",
+          "https://consumer.huawei.com/en/phones/",
+          "https://en.wikipedia.org/wiki/Huawei",
+          "https://consumer.huawei.com/en/",
+          "https://shop.huawei.com/",
+          "https://www.huawei.com/cn/",
+          "https://www.vmall.com/",
+          "https://id7.cloud.huawei.com/CAS/portal/login.html",
+          "https://myhuawei.huawei.com/?lang=en",
+          "https://www.wikiwand.com/en/Huawei"
+        ],
+        "candidates": [
+          "com.huawei.hac.module.pkg",
+          "consumer.huawei.com",
+          "en.wikipedia.org",
+          "id7.cloud.huawei.com",
+          "myhuawei.huawei.com",
+          "shop.huawei.com",
+          "www.huawei.com",
+          "www.vmall.com",
+          "www.wikiwand.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Huffpost/Huffpost.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Huffpost",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.huffpost.com/news/",
+          "https://www.huffpost.com/news/topic/huffpost",
+          "https://en.wikipedia.org/wiki/HuffPost",
+          "https://www.huffingtonpost.co.uk/",
+          "https://www.huffpost.com/news/us-news",
+          "https://www.huffpost.com/news/politics",
+          "https://www.huffpost.com/entertainment/"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "www.huffingtonpost.co.uk",
+          "www.huffpost.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hulu/Hulu.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Hulu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hulu.com/",
+          "https://www.hulu.com/welcome",
+          "https://auth.hulu.com/web/login",
+          "https://help.hulu.com/article/hulu-how-much-does-hulu-cost",
+          "https://help.hulu.com/category/account-and-billing",
+          "https://auth.hulu.com/activate",
+          "https://login.hulu.com/",
+          "https://en.wikipedia.org/wiki/Hulu",
+          "https://www.hulu.com/live-tv",
+          "https://www.hulu.com/content"
+        ],
+        "candidates": [
+          "auth.hulu.com",
+          "en.wikipedia.org",
+          "help.hulu.com",
+          "login.hulu.com",
+          "www.hulu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuluJP/HuluJP.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HuluJP",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.microsoft.com/en-us/",
+          "https://support.microsoft.com/en-us/sharepoint/platform/what-is-sharepoint",
+          "https://techcommunity.microsoft.com/event/techcommunitylive/microsoft-technical-takeoff-2026-windows--intune/4490614",
+          "https://support.microsoft.com/en-gb/contactus",
+          "https://techcommunity.microsoft.com/discussions/windowsinsiderprogram/windows-8-1-iso-download-for-64-and-32-bit/4454650",
+          "https://support.microsoft.com/es-ar/contactus/",
+          "https://support.microsoft.com/en-us/edge/",
+          "https://support.microsoft.com/en-us/accounts-billing/work-school/sign-in-to-your-work-or-school-account-using-two-step-verification",
+          "https://techcommunity.microsoft.com/blog/skills-hub-blog/the-ai-job-boom-continues-build-the-skills-that-move-business-forward/4494139",
+          "https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft-certified-azure-ai-apps-and-agents-developer-associate/4494126"
+        ],
+        "candidates": [
+          "support.microsoft.com",
+          "techcommunity.microsoft.com",
+          "www.microsoft.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HuluUSA/HuluUSA.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HuluUSA",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://flutrackers.com/",
+          "https://flutrackers.com/threads/drc-17th-ebola-outbreak-bundibugyo-virus-government-w-h-o-africa-cdc-news-may-2026.1034822/page-26",
+          "https://flutrackers.com/threads/egypt-suspected-case-news-tracking-jan-23.17107/",
+          "https://flutrackers.com/threads/influenza-viruses-resistant-to-oseltamivir-news-and-updates.33541/",
+          "https://flutrackers.com/threads/us-news-increasing-violence-as-a-health-and-safety-threat-2022-2023.936807/",
+          "https://flutrackers.com/threads/avian-flu-h5n1-discussion-news-case-lists-links-2022.960736/",
+          "https://flutrackers.com/threads/drc-17th-ebola-outbreak-bundibugyo-virus-government-w-h-o-africa-cdc-news-may-2026.1034822/page-27",
+          "https://flutrackers.com/threads/cidrap-news-scan-mers-in-austria-global-flu-update-triclosan-containing-sutures-ebola-strain-comparison.760756/",
+          "https://flutrackers.com/threads/avian-flu-h5n1-discussion-news-case-lists-links-2022.960736/page-11",
+          "https://flutrackers.com/threads/cidrap-news-briefs-march-31-2026.1032366/"
+        ],
+        "candidates": [
+          "flutrackers.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "HunanTV/HunanTV.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "HunanTV",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.cloudflare.com/learning/dns/what-is-dns/",
+          "https://www.geeksforgeeks.org/computer-networks/domain-name-system-dns-in-application-layer/",
+          "https://en.wikipedia.org/wiki/Domain_Name_System",
+          "https://www.ibm.com/think/topics/dns",
+          "https://www.pcmag.com/how-to/what-is-dns-how-it-works-domain-name-system",
+          "https://www.fortinet.com/resources/cyberglossary/what-is-dns",
+          "https://www.britannica.com/topic/DNS"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "www.britannica.com",
+          "www.cloudflare.com",
+          "www.fortinet.com",
+          "www.geeksforgeeks.org",
+          "www.ibm.com",
+          "www.pcmag.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "Hupu/Hupu.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "Hupu",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.hupu.com/",
+          "https://soccer.hupu.com/",
+          "https://bbs.hupu.com/?u_atoken=ebb76f642c63cce898e7ed95e49dd71a&u_asig=a77b6",
+          "https://bbs.hupu.com/",
+          "https://m.hupu.com/games",
+          "https://m.hupu.com/news/",
+          "https://www.now-cn-hupu.com/en/",
+          "https://now-hupu.com.cn/",
+          "https://nba.hupu.com/games"
+        ],
+        "candidates": [
+          "bbs.hupu.com",
+          "gg.hupu.com",
+          "m.hupu.com",
+          "nba.hupu.com",
+          "now-hupu.com.cn",
+          "soccer.hupu.com",
+          "www.hupu.com",
+          "www.now-cn-hupu.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "IBM/IBM.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "IBM",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.ibm.com/",
+          "https://en.wikipedia.org/wiki/IBM",
+          "https://www.ibm.com/about",
+          "https://wwwpoc.ibm.com/us-en/",
+          "https://finance.yahoo.com/quote/IBM/",
+          "https://skillsbuild.org/",
+          "https://www.ibm.com/careers"
+        ],
+        "candidates": [
+          "en.wikipedia.org",
+          "finance.yahoo.com",
+          "skillsbuild.org",
+          "www.ibm.com",
+          "wwwpoc.ibm.com"
+        ],
+        "accepted": [],
+        "ownership_evidence": []
+      },
+      "ICBC/ICBC.yaml": {
+        "checked_at": "2026-11-09 04:24 UTC",
+        "name": "ICBC",
+        "status": "needs_ownership_evidence",
+        "sources": [
+          "https://www.icbc-us.com/",
+          "https://www.icbc.com/",
+          "https://www.icbc.com.cn/ICBC/EN/default.htm",
+          "https://www.icbc.com.ar/personas",
+          "https://www.icbc.com/about-icbc/contact-us",
+          "https://www.icbc.com.cn/",
+          "https://account.icbc.com/Pages/default.aspx"
+        ],
+        "candidates": [
+          "account.icbc.com",
+          "www.icbc-us.com",
+          "www.icbc.com",
+          "www.icbc.com.ar",
+          "www.icbc.com.cn"
         ],
         "accepted": [],
         "ownership_evidence": []
