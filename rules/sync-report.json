@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-10 05:47 UTC",
+  "date": "2026-11-10 19:15 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-10 05:47 UTC",
-    "next_index": 391,
+    "checked_at": "2026-11-10 19:15 UTC",
+    "next_index": 415,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -159867,78 +159867,72 @@
         "ownership_evidence": []
       },
       "Line/Line.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Line",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://line.me/en",
-          "https://line.me/tw/",
           "https://apps.microsoft.com/detail/xpfcc4cd725961",
           "https://fm2.lineapplication.me/oauth2/v2.1/login/1",
           "https://en.wikipedia.org/wiki/Line_(software)",
-          "https://play.google.com/store/apps/details?id=jp.naver.line.android&hl=en-US",
+          "https://line.me/",
+          "https://chromewebstore.google.com/detail/line/ophjlpahpchlmihnnnihgmmeilfjmjjc",
           "https://page.line.biz/",
-          "https://help.line.me/line/smartphone/categoryId/20012002/3/pc?lang=en",
-          "https://help.line.me/line/smartphone?contentId=20001192",
-          "https://line.me/"
+          "https://gm.lineapplication.me/oauth2/v2.1/qrcode/1",
+          "https://apps.apple.com/us/app/line/id443904275"
         ],
         "candidates": [
+          "apps.apple.com",
           "apps.microsoft.com",
+          "chromewebstore.google.com",
           "en.wikipedia.org",
           "fm2.lineapplication.me",
-          "help.line.me",
+          "gm.lineapplication.me",
           "line.me",
-          "page.line.biz",
-          "play.google.com"
+          "page.line.biz"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "LineTV/LineTV.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "LineTV",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.spaceneedle.com/",
-          "https://en.wikipedia.org/wiki/Space_Needle",
-          "https://www.spaceneedle.com/plan-your-visit",
-          "https://www.tripadvisor.com/Attraction_Review-g60878-d123109-Reviews-Space_Needle-Seattle_Washington.html",
-          "https://www.citypass.com/seattle/space-needle",
-          "https://www.getyourguide.com/explorer/seattle-ttd198/visit-space-needle/",
-          "https://www.yelp.com/biz/space-needle-seattle",
-          "https://simple.wikipedia.org/wiki/Space_Needle",
-          "https://seattlespaceneedletickets.com/guides/space-needle-hours-and-best-time-to-visit/",
-          "https://www.seattlemonorail.com/blog/easiest-way-to-space-needle-from-downtown-seattle/"
+          "https://www.nbc.com/american-ninja-warrior",
+          "https://www.nbc.com/nbc-insider/american-ninja-warrior-schedule-change-july-20-27-2026-episodes",
+          "https://help.nbc.com/hc/en-us/articles/360016448294-How-Do-I-Get-Tickets-to-Watch-a-Live-Taping-of-an-NBC-Show",
+          "https://www.nbc.com/nbc-insider/meagan-martin-american-ninja-warrior-history-career",
+          "https://www.nbc.com/nbc-insider/american-ninja-warrior-season-14-winner-results",
+          "https://www.nbc.com/nbc-insider/american-ninja-warrior-winners-every-last-ninja-standing",
+          "https://www.nbc.com/nbc-insider/american-ninja-warrior-season-18-winner-revealed",
+          "https://www.nbc.com/nbc-insider/american-ninja-warrior-renewed-season-19-20",
+          "https://www.nbc.com/nbc-insider/how-to-get-tickets-to-an-american-ninja-warrior-taping",
+          "https://www.nbc.com/american-ninja-warrior/exclusives/anw-bracket"
         ],
         "candidates": [
-          "en.wikipedia.org",
-          "seattlespaceneedletickets.com",
-          "simple.wikipedia.org",
-          "www.citypass.com",
-          "www.getyourguide.com",
-          "www.seattlemonorail.com",
-          "www.spaceneedle.com",
-          "www.tripadvisor.com",
-          "www.yelp.com"
+          "help.nbc.com",
+          "nbc.com",
+          "www.nbc.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Linguee/Linguee.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Linguee",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.linguee.com/",
-          "https://www.linguee.es/",
           "https://www.linguee.com/english-french",
+          "https://www.linguee.es/",
           "https://www.linguee.fr/",
           "https://www.linguee.de/",
-          "https://www.linguee.com.br/",
-          "https://www.linguee.com.br/portugues-ingles/traducao/tradutor.html",
           "https://www.linguee.fr/francais-anglais",
+          "https://www.linguee.com.br/",
           "https://www.linguee.com/english-spanish",
-          "https://www.linguee.com/english-german"
+          "https://www.linguee.com/english-german",
+          "https://www.linguee.es/espanol-ingles/traduccion/traductor.html"
         ],
         "candidates": [
           "www.linguee.com",
@@ -159951,49 +159945,50 @@
         "ownership_evidence": []
       },
       "LinkedIn/LinkedIn.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "LinkedIn",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.linkedin.com/",
           "https://www.linkedin.com/login/",
           "https://in.linkedin.com/company/linkedin",
-          "https://ca.linkedin.com/",
-          "https://gb.linkedin.com/company/linkedin",
-          "https://cn.linkedin.com/",
-          "https://cn.linkedin.com/company/linkedin",
+          "https://www.facebook.com/LinkedIn/",
           "https://fr.linkedin.com/",
-          "https://au.linkedin.com/company/linkedin",
-          "https://en.wikipedia.org/wiki/LinkedIn"
+          "https://en.wikipedia.org/wiki/LinkedIn",
+          "https://de.linkedin.com/",
+          "https://octopuscrm.io/blog/what-is-linkedin-and-how-to-use-it/",
+          "https://www.pcmag.com/news/everything-businesses-need-to-know-about-linkedin",
+          "https://www.youtube.com/watch?v=AdVgWnviBJM"
         ],
         "candidates": [
-          "au.linkedin.com",
-          "ca.linkedin.com",
-          "cn.linkedin.com",
+          "de.linkedin.com",
           "en.wikipedia.org",
           "fr.linkedin.com",
-          "gb.linkedin.com",
           "in.linkedin.com",
-          "www.linkedin.com"
+          "octopuscrm.io",
+          "www.facebook.com",
+          "www.linkedin.com",
+          "www.pcmag.com",
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Linux/Linux.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Linux",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.linux.org/pages/download/",
-          "https://www.linux.org/",
           "https://en.wikipedia.org/wiki/Linux",
-          "https://www.linux.com/what-is-linux/",
-          "https://www.linuxmint.com/download.php",
-          "https://ubuntu.com/download",
+          "https://www.linux.org/",
           "https://www.geeksforgeeks.org/linux-unix/linux-tutorial/",
-          "https://www.redhat.com/en/topics/linux/what-is-linux",
-          "https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system/",
-          "https://www.linuxmint.com/"
+          "https://www.linux.com/what-is-linux/",
+          "https://ubuntu.com/download",
+          "https://www.comptia.org/en-us/certifications/linux/",
+          "https://www.linuxmint.com/download.php",
+          "https://www.oracle.com/linux/what-is-linux/",
+          "https://www.geeksforgeeks.org/linux-unix/introduction-to-linux-operating-system/"
         ],
         "candidates": [
           "distrowatch.com",
@@ -160001,36 +159996,35 @@
           "linux.com",
           "linux.org",
           "ubuntu.com",
+          "www.comptia.org",
           "www.geeksforgeeks.org",
           "www.linux.com",
           "www.linux.org",
           "www.linuxmint.com",
-          "www.redhat.com"
+          "www.oracle.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "LivePerson/LivePerson.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "LivePerson",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.liveperson.com/",
           "https://authentication.liveperson.net/login.html?lpservice=liveengage&servicepath=a/~~accountid~~/",
-          "https://authentication.liveperson.net/accountSelection.html?source=login_html",
           "https://en.wikipedia.org/wiki/LivePerson",
+          "https://authentication.liveperson.net/accountSelection.html?source=login_html",
           "https://www.liveperson.com/company/",
-          "https://developers.liveperson.com/overview.html",
           "https://pr.liveperson.com/",
+          "https://www.liveperson.com/company/leadership/",
           "https://www.liveperson.com/products/conversational-cloud/",
           "https://www.liveperson.com/company/careers/",
-          "https://ir.liveperson.com/"
+          "https://www.liveperson.com/products/ai-chatbots/"
         ],
         "candidates": [
           "authentication.liveperson.net",
-          "developers.liveperson.com",
           "en.wikipedia.org",
-          "ir.liveperson.com",
           "pr.liveperson.com",
           "www.liveperson.com"
         ],
@@ -160038,26 +160032,24 @@
         "ownership_evidence": []
       },
       "Logitech/Logitech.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Logitech",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.logitech.com/en-us",
-          "https://www.logitechg.com/en-us",
-          "https://www.logitech.com/en-us/shop",
           "https://www.logitechg.com/en-us/software/ghub",
+          "https://www.logitech.com/en-us/shop",
+          "https://www.logitechg.com/en-us",
           "https://support.logi.com/hc/en-gb?lang=en",
-          "https://en.m.wikipedia.org/wiki/Logitech",
           "https://support.logi.com/hc/change_language/en-us?return_to=%2Fhc%2Fen-us",
-          "https://hub.sync.logitech.com/",
-          "https://sync.logitech.com/",
-          "https://hub.sync.logitech.com/syncapp"
+          "https://en.wikipedia.org/wiki/Logitech",
+          "https://www.logitech.com/en-us/software",
+          "https://www.logitech.com/en-us/shop/c/mice",
+          "https://www.logitech.com/en-us/support.html"
         ],
         "candidates": [
-          "en.m.wikipedia.org",
-          "hub.sync.logitech.com",
+          "en.wikipedia.org",
           "support.logi.com",
-          "sync.logitech.com",
           "www.logitech.com",
           "www.logitechg.com"
         ],
@@ -160065,108 +160057,96 @@
         "ownership_evidence": []
       },
       "LondonReal/LondonReal.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "LondonReal",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.bandsintown.com/c/seattle-wa",
-          "https://washingtonlivemusic.com/live-music/seattle",
-          "https://everout.com/seattle/events/?category=live-music",
-          "https://allevents.in/seattle/live-music",
-          "https://stayhappening.com/seattle--concerts",
-          "https://allevents.in/seattle/music",
-          "https://stayhappening.com/seattle",
-          "https://www.eventbrite.com/b/wa--seattle/music/",
-          "https://seattlemusic.app/",
-          "https://www.songkick.com/metro-areas/2846-us-seattle"
+          "https://www.minecraft.net/",
+          "https://www.minecraft.net/pt-br/login",
+          "https://edusupport.minecraft.net/hc/en-us/articles/360047116432-Try-Minecraft-Education-for-free",
+          "https://education.minecraft.net/",
+          "https://help.minecraft.net/hc/en-us/articles/23907917790093-How-to-Download-and-Install-the-Minecraft-Launcher",
+          "https://edusupport.minecraft.net/hc/en-us",
+          "https://education.minecraft.net/en-us/discover/what-is-minecraft",
+          "https://feedback.minecraft.net/hc/en-us/sections/360001186971-Release-Changelogs",
+          "https://feedback.minecraft.net/hc/en-us/categories/115000410252-Knowledge-Base",
+          "https://plus.minecraft.net/"
         ],
         "candidates": [
-          "allevents.in",
-          "everout.com",
-          "seattlemusic.app",
-          "stayhappening.com",
-          "washingtonlivemusic.com",
-          "www.bandsintown.com",
-          "www.eventbrite.com",
-          "www.songkick.com"
+          "education.minecraft.net",
+          "edusupport.minecraft.net",
+          "feedback.minecraft.net",
+          "help.minecraft.net",
+          "plus.minecraft.net",
+          "www.minecraft.net"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "LuDaShi/LuDaShi.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "LuDaShi",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.youtube.com/watch?v=T5B3ZVTvrhM",
-          "https://www.laliga.com/partidazos/el-clasico",
-          "https://www.fcbarcelona.com/en/matches/138374/fc-barcelona-real-madrid-la-liga-2026-2027",
-          "https://www.sofascore.com/football/match/real-madrid-fc-barcelona/rgbsEgb",
-          "https://www.laliga.com/en-GB/partidazos/el-clasico",
-          "https://footystats.org/spain/fc-barcelona-vs-real-madrid-cf-h2h-stats",
-          "https://www.365scores.com/en-us/football/match/laliga-11/fc-barcelona-real-madrid-131-132-11",
-          "https://www.fotmob.com/matches/real-madrid-vs-barcelona/2grk20",
-          "https://www.billboard.com/culture/product-recommendations/barcelona-real-madrid-2026-laliga-soccer-watch-online-free-1236365640/",
-          "https://www.fancode.com/football/tour/laliga-202627-19782952/video-highlights/fc-barcelona-12-real-madrid-round-10-225561"
+          "https://www.ludashi.com/",
+          "https://winlatorludashi.com/",
+          "https://github.com/StevenMXZ/Winlator-Ludashi",
+          "https://www-ludashi.cn/",
+          "https://www.ludashi.com/page/dl.php",
+          "https://github.com/StevenMXZ/Winlator-Ludashi/releases",
+          "https://blog.gridinsoft.com/remove-ludashi-adware/",
+          "https://baike.baidu.com/en/item/Ludashi/16880",
+          "https://winlatorludashi.com/download/"
         ],
         "candidates": [
-          "fancode.com",
-          "footystats.org",
-          "www.365scores.com",
-          "www.billboard.com",
-          "www.fancode.com",
-          "www.fcbarcelona.com",
-          "www.fotmob.com",
-          "www.laliga.com",
-          "www.sofascore.com",
-          "www.youtube.com"
+          "baike.baidu.com",
+          "blog.gridinsoft.com",
+          "github.com",
+          "winlatorludashi.com",
+          "www-ludashi.cn",
+          "www.ludashi.com",
+          "www.ludashi.hk"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "LvMiLianChuang/LvMiLianChuang.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "LvMiLianChuang",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.microsoft.com/en-us/",
-          "https://www.microsoft.com/",
-          "https://account.microsoft.com/account",
-          "https://myaccount.microsoft.com/",
-          "https://account.microsoft.com/account-checkup",
-          "https://en.wikipedia.org/wiki/Microsoft",
-          "https://myaccount.microsoft.com/login",
-          "https://outlook.office.com/mail/",
-          "https://myapps.microsoft.com/index.html",
-          "https://apps.microsoft.com/home"
+          "https://www.reddit.com/r/UPS/comments/v9nbfj/ups_package_stuck_on_on_the_way_for_a_day_going/",
+          "https://www.reddit.com/r/UPS/comments/mw4xve/ups_website_no_longer_shows_tracking_history/",
+          "https://www.reddit.com/r/UPS/comments/h094c8/stuck_on_label_created_since_may_29th/",
+          "https://www.reddit.com/r/LifeProTips/comments/1r81rp/lpt_the_first_six_digits_of_a_ups_tracking_number/",
+          "https://www.reddit.com/r/amazonprime/comments/1bmmz3v/why_does_amazon_list_ups_tracking_number_which/",
+          "https://www.reddit.com/r/UPS/comments/139vh6v/accidentally_used_same_shipping_label_for_2/",
+          "https://www.reddit.com/r/UPS/comments/k5x1re/no_tracking_detail_anymore/",
+          "https://www.reddit.com/r/UPS/comments/19ep5jt/are_the_estimated_times_ever_correct/",
+          "https://www.reddit.com/r/UPS/comments/11ebte8/package_delay_for_several_days_no_delivery_date/",
+          "https://www.reddit.com/r/UPS/comments/h7pf0x/my_package_was_transferred_from_ups_to_usps_but/"
         ],
         "candidates": [
-          "account.microsoft.com",
-          "apps.microsoft.com",
-          "en.wikipedia.org",
-          "myaccount.microsoft.com",
-          "myapps.microsoft.com",
-          "outlook.office.com",
-          "www.microsoft.com"
+          "www.reddit.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "MEGA/MEGA.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "MEGA",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://mega.nz/login",
           "https://mega.io/",
           "https://mega.io/desktop",
-          "https://mega.nz/login/csp=19",
           "https://www.megamillions.com/",
+          "https://mega.nz/desktop%20login",
           "https://www.lotteryusa.com/mega-millions/",
-          "https://en.wikipedia.org/wiki/Mega_(service)",
           "https://www.megamillions.com/how-to-play.aspx",
+          "https://en.wikipedia.org/wiki/Mega_(service)",
           "https://gizmodo.com/download/mega",
-          "https://www.usamega.com/mega-millions"
+          "https://www.techspot.com/downloads/6238-megasync.html"
         ],
         "candidates": [
           "en.wikipedia.org",
@@ -160175,199 +160155,192 @@
           "mega.nz",
           "www.lotteryusa.com",
           "www.megamillions.com",
-          "www.usamega.com"
+          "www.techspot.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "MIUIPrivacy/MIUIPrivacy.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "MIUIPrivacy",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://community.ebay.com/forum/shipping-57923/topic/ups-account-number-for-ebay-account-442096/",
-          "https://community.ebay.com/forum/shipping-57923/",
-          "https://community.ebay.com/forum/selling-57920/topic/buyer-didnt-receive-item-but-tracking-shows-it-was-delivered-444629/",
-          "https://community.ebay.com/forum/buying-57914/topic/how-exactly-to-beat-the-fake-tracking-number-scam-170307/",
-          "https://community.ebay.com/forum/announcements-57928/",
-          "https://community.ebay.com/t5/Shipping/Provided-tracking-number-doesn-t-exist-and-the-seller-doesn-t/td-p/32514009/",
-          "https://community.ebay.com/forum/buying-57914/topic/does-anyone-here-know-about-qtrack-having-problems-168091/",
-          "https://community.ebay.com/forum/shipping-57923/topic/how-do-i-reprint-a-shipping-label-or-re-download-a-shipping-qr-code-ebays-help-doesnt-help-102572/",
-          "https://community.ebay.com/forum/ask-a-mentor-57913/topic/how-to-track-esus-tracking-number-230229/"
+          "https://www.nfl.com/news/nfl-week-1-bold-predictions-justin-jefferson-torches-packers-texans-shut-out-bills",
+          "https://www.nfl.com/news/nfl-power-rankings-post-2026-nfl-draft",
+          "https://www.nfl.com/news/series/what-we-learned-news",
+          "https://www.nfl.com/news/series/around-the-nfl-news",
+          "https://www.nfl.com/news/nfl-experience-london-presented-by-american-express-returns-this-october",
+          "https://www.nfl.com/stats/player-stats/category/rushing/2026/reg/all/rushingyards/desc",
+          "https://www.nfl.com/news/nfl-power-rankings-rams-enter-preseason-on-top-seahawks-at-no-3-patriots-outside-top-10",
+          "https://www.nfl.com/news/nfl-qb-rankings-index-week-7-2026-nfl-season",
+          "https://www.nfl.com/news/series/analysis-news",
+          "https://www.nfl.com/news/nfl-picks-week-7-2026-nfl-season"
         ],
         "candidates": [
-          "community.ebay.com",
-          "qtrack.io"
+          "nfl.com",
+          "www.nfl.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "MOMOShop/MOMOShop.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "MOMOShop",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.momoshop.com.tw/brand/Main.jsp",
-          "https://momoshop.co/collections/shop-all",
-          "https://momoshop.co/",
-          "https://www.momosworkshop.com/",
-          "https://momoshop.com/",
-          "https://www.momoshop.com.mx/en",
-          "https://www.momo-shopping.com/",
-          "https://momoshopglobal.com/collections/frontpage",
-          "https://account.momoshop.com.tw/"
+          "https://wellwhisk.com/best-insulation-for-house-walls/",
+          "https://modernize.com/insulation/types",
+          "https://modernize.com/insulation/wall-insulation-guide",
+          "https://www.homedepot.com/c/ab/types-of-insulation/9ba683603be9fa5395fab902f82532f",
+          "https://www.rmax.com/blog/best-insulation-for-walls",
+          "https://www.thisoldhouse.com/insulation/how-to-choose-the-right-insulation",
+          "https://hvacseer.com/best-kind-of-insulation-for-interior-walls/",
+          "https://www.thisoldhouse.com/insulation/how-to-choose-and-use-insulation",
+          "https://hometosight.com/best-insulation-for-house-walls/",
+          "https://www.bobvila.com/articles/types-of-insulation/"
         ],
         "candidates": [
-          "account.momoshop.com.tw",
-          "momoshop.co",
-          "momoshop.com",
-          "momoshop.com.tw",
-          "momoshopglobal.com",
-          "www.momo-shopping.com",
-          "www.momoshop.com.mx",
-          "www.momoshop.com.tw",
-          "www.momosworkshop.com"
+          "hometosight.com",
+          "hvacseer.com",
+          "modernize.com",
+          "wellwhisk.com",
+          "www.bobvila.com",
+          "www.homedepot.com",
+          "www.rmax.com",
+          "www.thisoldhouse.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "MOOV/MOOV.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "MOOV",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.moovseattle.com/",
+          "https://www.joinmoov.com/",
+          "https://staff.joinmoov.com/",
           "https://moov.io/",
           "https://moovpool.com/us-en/",
+          "https://moov.health/",
           "https://moovpool.com/us-en/products/",
           "https://moov.io/platform/ach/",
-          "https://moov.health/",
-          "https://www.moovseattle.com/moov-slu",
           "https://dashboard.moov.io/",
-          "https://www.amazon.com/Moov-Fast-Relief-Cream-Ayurvedic/dp/B0DYFZBM11",
-          "https://www.joinmoov.com/"
+          "https://moov.co/",
+          "https://www.joinmoov.com/careers"
         ],
         "candidates": [
-          "amazon.com",
           "dashboard.moov.io",
+          "moov.co",
           "moov.health",
           "moov.io",
           "moovpool.com",
-          "www.amazon.com",
-          "www.joinmoov.com",
-          "www.moovseattle.com"
+          "staff.joinmoov.com",
+          "www.joinmoov.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Mail/Mail.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Mail",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://mail.google.com/mail?hl=en-US",
-          "https://www.mail.com/mail/",
-          "https://outlook.office.com/mail/",
+          "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+          "https://www.usps.com/",
+          "https://outlook.office.com/mail/?ui=en-US&rs=US",
+          "https://en.wikipedia.org/wiki/Email",
+          "https://mail.yahoo.com/",
           "https://accounts.google.com/servicelogin?service=mail",
-          "https://mlogin.mail.com/",
-          "https://www.mail.com/premiumlogin",
-          "https://accounts.google.com/Login",
+          "https://apps.apple.com/us/app/mail/id1108187098",
           "https://www.icloud.com/mail",
-          "https://support.google.com/mail/answer/8494?hl=en&co=genie.platform=desktop",
-          "https://mail.163.com/"
+          "https://mail.aol.com/"
         ],
         "candidates": [
           "accounts.google.com",
-          "mail.163.com",
-          "mail.com",
+          "apps.apple.com",
+          "en.wikipedia.org",
+          "mail.aol.com",
           "mail.google.com",
-          "mlogin.mail.com",
+          "mail.yahoo.com",
+          "outlook.com",
           "outlook.office.com",
-          "support.google.com",
+          "usps.com",
           "www.icloud.com",
-          "www.mail.com"
+          "www.microsoft.com",
+          "www.usps.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Mailru/Mailru.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Mailru",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://mail.ru/",
-          "https://account.mail.ru/login?page=https",
-          "https://account.mail.ru/login.Sign",
-          "https://my.mail.ru/video",
-          "https://account.mail.ru/login%22",
-          "https://news.mail.ru/",
-          "https://ru.wikipedia.org/wiki/Mail.ru",
-          "https://zhuanlan.zhihu.com/p/619547801",
-          "https://my.mail.ru/",
-          "https://wot.mail.ru/"
+          "https://www.walmart.com/store/2243-redmond-or",
+          "https://www.walmart.com/cp/fabric/4232946",
+          "https://www.walmart.com/browse/food/great-value-instant-coffee/976759_1086446_1229650_8607506",
+          "https://www.walmart.com/browse/patio-garden/fertilizer-spreaders/5428_4091_1445596_1229639",
+          "https://www.walmart.com/store/2243-redmond-or/pharmacy",
+          "https://www.walmart.com/lists",
+          "https://www.walmart.com/store/2516-renton-wa",
+          "https://www.walmart.com/store/547-plant-city-fl",
+          "https://www.walmart.com/store/2243-redmond-or/shopping-services",
+          "https://www.walmart.com/store/658-rome-ga"
         ],
         "candidates": [
-          "account.mail.ru",
-          "biz.mail.ru",
-          "mail.ru",
-          "my.mail.ru",
-          "news.mail.ru",
-          "ru.wikipedia.org",
-          "vkplay.ru",
-          "wot.mail.ru",
-          "zhuanlan.zhihu.com"
+          "walmart.com",
+          "www.walmart.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Majsoul/Majsoul.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Majsoul",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.microsoft.com/en-us",
-          "https://account.microsoft.com/account",
-          "https://account.microsoft.com/account-checkup",
-          "https://myaccount.microsoft.com/",
-          "https://en.wikipedia.org/wiki/Microsoft",
-          "https://myaccount.microsoft.com/login",
-          "https://www.microsoft.com/en-us/microsoft-365",
-          "https://outlook.office.com/mail/",
-          "https://myapps.microsoft.com/index.html",
-          "https://apps.microsoft.com/home"
+          "https://www.wikihow.com/Adjust-Your-Bike-Seat",
+          "https://www.bikeride.com/adjust-seat/",
+          "https://cycleinspire.com/how-to-adjust-bicycle-seat/",
+          "https://bikexchange.com/how-to-set-correct-bike-seat-height/",
+          "https://www.bicycling.com/bikes-gear/a73307422/find-the-right-saddle-height/",
+          "https://fatboysoffroad.com/how-to-adjust-bike-seat/",
+          "https://flatironbike.com/how-to-adjust-bike-seat-maximum-comfort/"
         ],
         "candidates": [
-          "account.microsoft.com",
-          "apps.microsoft.com",
-          "en.wikipedia.org",
-          "myaccount.microsoft.com",
-          "myapps.microsoft.com",
-          "outlook.office.com",
-          "www.microsoft.com"
+          "bikexchange.com",
+          "cycleinspire.com",
+          "fatboysoffroad.com",
+          "flatironbike.com",
+          "www.bicycling.com",
+          "www.bikeride.com",
+          "www.wikihow.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Manorama/Manorama.yaml": {
-        "checked_at": "2026-10-30 05:31 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Manorama",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.manoramaonline.com/",
           "https://www.manoramaonline.com/news/latest-news.html",
           "https://www.onmanorama.com/",
-          "https://www.manoramanews.com/?tabId=0/",
+          "https://www.manoramanews.com/",
           "https://www.onmanorama.com/news.html",
           "https://en.wikipedia.org/wiki/Malayala_Manorama",
           "https://www.manoramanews.com/kerala/latest.html",
-          "https://www.manoramamax.com/live/play/manorama-news-live",
-          "https://www.manoramaonline.com/news.html",
-          "https://www.manoramaonline.com/news/kerala.html"
+          "https://epaper.manoramaonline.com/",
+          "https://epaper.manoramaonline.com/Home/Mindex",
+          "https://www.manoramaonline.com/news.html"
         ],
         "candidates": [
           "en.wikipedia.org",
+          "epaper.manoramaonline.com",
           "manorama.latest",
-          "www.manoramamax.com",
           "www.manoramanews.com",
           "www.manoramaonline.com",
           "www.onmanorama.com"
@@ -160376,60 +160349,55 @@
         "ownership_evidence": []
       },
       "Maocloud/Maocloud.yaml": {
-        "checked_at": "2026-10-30 05:31 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Maocloud",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://sf.eater.com/maps/best-restaurants-san-francisco-38",
-          "https://www.tripadvisor.com/Restaurants-g60713-San_Francisco_California.html",
-          "https://www.timeout.com/usa/restaurants/best-restaurants-in-san-francisco",
-          "https://www.cntraveler.com/gallery/best-restaurants-in-san-francisco",
-          "https://www.yelp.com/search?cflt=restaurants&find_loc=san+francisco,+ca",
-          "https://www.opentable.com/metro/san-francisco-restaurants",
-          "https://secretsanfrancisco.com/san-francisco-best-restaurants/",
-          "https://restaurantobserver.com/restaurants-in-san-francisco-ca/",
-          "https://www.nytimes.com/article/best-san-francisco-restaurants.html",
-          "https://guide.michelin.com/us/en/california/san-francisco/restaurants"
+          "https://ru.stackoverflow.com/questions/672778/%d0%9a%d0%b0%d0%ba-%d0%b2%d1%8b%d0%b2%d0%b5%d1%81%d1%82%d0%b8-%d1%82%d0%be%d1%87%d0%ba%d0%b8-%d0%bd%d0%b0-%d1%8f%d0%bd%d0%b4%d0%b5%d0%ba%d1%81-%d0%ba%d0%b0%d1%80%d1%82%d0%b5-%d0%bd%d0%b0-%d0%be%d1%81%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b8-json-%d1%84%d0%b0%d0%b9%d0%bb%d0%b0",
+          "https://stackoverflow.com/questions/13621467/how-to-find-default-web-browser-using-c",
+          "https://stackoverflow.com/questions/77611031/how-to-download-file-from-yandex-drive-to-google-drive-directy-using-google-cola",
+          "https://ru.stackoverflow.com/questions/521249/mc-yandex-ru-%D0%A7%D1%82%D0%BE-%D1%8D%D1%82%D0%BE",
+          "https://www.tivocommunity.com/attachments/usbmap-zip.8007/",
+          "https://www.tivocommunity.com/attachments/sample1-txt.33018/",
+          "https://ja.stackoverflow.com/questions/12897/%E6%94%B9%E8%A1%8C%E3%81%AE-n%E3%81%A8-r-n%E3%81%AE%E9%81%95%E3%81%84%E3%81%AF%E4%BD%95%E3%81%A7%E3%81%99%E3%81%8B",
+          "https://stackoverflow.com/questions/60283274/code-210-dbnetexception-connection-refused-localhost9000",
+          "https://stackoverflow.com/questions/63236701/got-bad-greeting-from-smtp-host-smtp-yandex-ru-port-465-response-eof-wit",
+          "https://stackoverflow.com/questions/42391432/c-sharp-yandex-mail-send-error-5-5-4-error-send-auth-command-first"
         ],
         "candidates": [
-          "guide.michelin.com",
-          "restaurantobserver.com",
-          "secretsanfrancisco.com",
-          "sf.eater.com",
-          "www.cntraveler.com",
-          "www.nytimes.com",
-          "www.opentable.com",
-          "www.timeout.com",
-          "www.tripadvisor.com",
-          "www.yelp.com"
+          "ja.stackoverflow.com",
+          "javax.mail.messagingexception",
+          "mail.yandex.com",
+          "mc.yandex.ru",
+          "ru.stackoverflow.com",
+          "smtp.yandex.com",
+          "smtp.yandex.com.tr",
+          "smtp.yandex.ru",
+          "stackoverflow.com",
+          "www.tivocommunity.com",
+          "yandex.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Marketing/Marketing.yaml": {
-        "checked_at": "2026-10-30 05:31 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "Marketing",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://en.wikipedia.org/wiki/Marketing",
           "https://www.forbes.com/advisor/business/what-is-marketing/",
           "https://www.ama.org/the-definition-of-marketing-what-is-marketing/",
-          "https://www.salesforce.com/marketing/what-is-marketing/",
           "https://www.investopedia.com/terms/m/marketing.asp",
-          "https://blog.hubspot.com/marketing/what-is-marketing",
+          "https://www.salesforce.com/marketing/what-is-marketing/",
           "https://www.apu.apus.edu/area-of-study/business-and-management/resources/what-is-marketing/",
-          "https://www.educba.com/what-is-marketing/",
-          "https://www.britannica.com/money/marketing",
-          "https://www.coursera.org/articles/marketing-is"
+          "https://blog.hubspot.com/marketing/what-is-marketing"
         ],
         "candidates": [
           "blog.hubspot.com",
           "en.wikipedia.org",
           "www.ama.org",
           "www.apu.apus.edu",
-          "www.britannica.com",
-          "www.coursera.org",
-          "www.educba.com",
           "www.forbes.com",
           "www.investopedia.com",
           "www.salesforce.com"
@@ -160438,83 +160406,88 @@
         "ownership_evidence": []
       },
       "McDonalds/McDonalds.yaml": {
-        "checked_at": "2026-10-30 05:31 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "McDonalds",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.mcdonalds.com/us/en-us.html",
-          "https://www.mcdonalds.com/us/en-us/location/ca/lompoc/835-north-h-st/1716.html",
-          "https://www.menuswithprice.com/mcdonalds-menu/lompoc/48337/",
-          "https://www.yelp.com/biz/mcdonalds-lompoc",
-          "https://www.doordash.com/store/mcdonald's-lompoc-657505/",
-          "https://find-open.com/lompoc/mcdonalds-1830612",
-          "https://foodchainhub.com/mcdonalds/locations/california/lompoc/ca-lompoc-835-north-h-st/",
-          "https://www.yellowpages.com/lompoc-ca/mip/mcdonalds-7888908",
-          "https://www.menuwithprice.com/menu/mcdonalds/california/lompoc/",
-          "https://www.menuwithprice.com/menu/mcdonalds/california/lompoc/81384/"
+          "https://www.mcdonalds.com/us/en-us/full-menu.html",
+          "https://www.yelp.com/search?find_desc=mcdonald%27s&find_loc=Southern+Pines%2C+NC",
+          "https://www.yellowpages.com/southern-pines-nc/mcdonalds",
+          "https://www.mcdonalds.com/us/en-us/restaurant-locator.html",
+          "https://www.mcdonalds.com/us/en-us/restaurant-directory.html",
+          "https://www.mcdonalds.com/us/en-us/mcdelivery.html",
+          "https://www.google.com/maps/search/",
+          "https://en.wikipedia.org/wiki/McDonald%27s",
+          "https://mapdoor.com/us/nc/southern-pines/mcdonalds"
         ],
         "candidates": [
-          "find-open.com",
-          "foodchainhub.com",
-          "www.doordash.com",
+          "en.wikipedia.org",
+          "mapdoor.com",
+          "mcdonalds.com",
+          "www.google.com",
           "www.mcdonalds.com",
-          "www.menuswithprice.com",
-          "www.menuwithprice.com",
           "www.yellowpages.com",
-          "www.yelp.com"
+          "www.yelp.com",
+          "yp.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "MeWatch/MeWatch.yaml": {
-        "checked_at": "2026-10-30 05:31 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "MeWatch",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.time.gov/",
-          "https://www.time.gov/widget/",
-          "https://www.time.gov/widget/dhtml/",
-          "https://time.gov/widget/embedNISTwidget.html",
-          "https://time.gov/widget/widget.html",
-          "https://time.gov/web/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2"
+          "https://dclottery.com/winning-numbers",
+          "https://www.lotterypost.com/results/dc",
+          "https://www.dcilottery.com/",
+          "https://dclottery.com/games",
+          "https://lottery.dc.gov/",
+          "https://www.lotteryusa.com/district-of-columbia/",
+          "https://www.dcilottery.com/lh/results",
+          "https://www.lotterypost.com/results/dc/calendar",
+          "https://lotteryguru.com/district-of-columbia-lottery-results",
+          "https://www.lotterymap.com/lottery/washington-dc"
         ],
         "candidates": [
-          "time.gov",
-          "www.time.gov"
+          "dclottery.com",
+          "lottery.dc.gov",
+          "lotteryguru.com",
+          "www.dcilottery.com",
+          "www.lotterymap.com",
+          "www.lotterypost.com",
+          "www.lotteryusa.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "MeiTu/MeiTu.yaml": {
-        "checked_at": "2026-10-30 05:31 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "MeiTu",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.microsoft.com/en-us",
-          "https://account.microsoft.com/account",
-          "https://account.microsoft.com/account-checkup",
-          "https://myaccount.microsoft.com/",
-          "https://en.wikipedia.org/wiki/Microsoft",
-          "https://myaccount.microsoft.com/login",
-          "https://www.microsoft.com/en-us/microsoft-365",
-          "https://outlook.office.com/mail/",
-          "https://myapps.microsoft.com/index.html",
-          "https://apps.microsoft.com/home"
+          "https://www.roblox.com/",
+          "https://devforum.roblox.com/t/devforum-feature-request-increase-roblox-assistant-usage-limit/4686944",
+          "https://devforum.roblox.com/c/bug-reports/10",
+          "https://www.reddit.com/r/roblox/comments/smnrwp/wat_is_that_roblox/",
+          "https://www.reddit.com/r/RobloxHelp/comments/16vm12q/roblox_installer_not_installing_roblox/",
+          "https://devforum.roblox.com/t/viewportframe-masking/2964839",
+          "https://devforum.roblox.com/t/all-about-object-oriented-programming/8585",
+          "https://devforum.roblox.com/t/pixelfix-remove-the-black-edges-on-scaled-images/201802",
+          "https://devforum.roblox.com/t/how-to-use-the-roblox-app-beta-mac-windows/1145255",
+          "https://devforum.roblox.com/t/how-to-use-loadstrings/605158"
         ],
         "candidates": [
-          "account.microsoft.com",
-          "apps.microsoft.com",
-          "en.wikipedia.org",
-          "myaccount.microsoft.com",
-          "myapps.microsoft.com",
-          "outlook.office.com",
-          "www.microsoft.com"
+          "devforum.roblox.com",
+          "www.reddit.com",
+          "www.roblox.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "MeiTuan/MeiTuan.yaml": {
-        "checked_at": "2026-10-30 05:31 UTC",
+        "checked_at": "2026-11-10 19:15 UTC",
         "name": "MeiTuan",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -160523,10 +160496,10 @@
           "https://www.meituan.com/en-US/about-us",
           "https://passport.meituan.com/account/unitivelogin",
           "https://i.meituan.com/index/changecity/",
-          "https://passport.meituan.com/useraccount/login",
-          "https://waimai.meituan.com/",
           "https://i.meituan.com/client/meituan",
-          "https://www.linkedin.com/company/meituan/",
+          "https://waimai.meituan.com/",
+          "https://www.traveltochina.net/guides/how-to-use-meituan-foreigner",
+          "https://www.forbes.com/companies/meituan/",
           "https://waimai.meituan.com/mobile/download/default"
         ],
         "candidates": [
@@ -160534,8 +160507,9 @@
           "i.meituan.com",
           "passport.meituan.com",
           "waimai.meituan.com",
-          "www.linkedin.com",
-          "www.meituan.com"
+          "www.forbes.com",
+          "www.meituan.com",
+          "www.traveltochina.net"
         ],
         "accepted": [],
         "ownership_evidence": []
