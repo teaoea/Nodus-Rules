@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-09 21:53 UTC",
+  "date": "2026-11-10 05:47 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-09 21:53 UTC",
-    "next_index": 367,
+    "checked_at": "2026-11-10 05:47 UTC",
+    "next_index": 391,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -159226,29 +159226,26 @@
         "ownership_evidence": []
       },
       "KKTV/KKTV.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "KKTV",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.kktv.com/",
-          "https://www.kktv.com/news/",
+          "https://www.kktv.com/livestream/",
           "https://en.m.wikipedia.org/wiki/KKTV",
-          "https://www.youtube.com/@kktv11news/streams",
-          "https://www.kktv.me/",
+          "https://www.youtube.com/@kktv11news",
           "https://www.facebook.com/kktv11news/",
-          "https://www.kbtx.com/authors/11-news/",
-          "https://www.ontvtonight.com/guide/listings/channel/69030828/kktv-outlaw.html",
-          "https://krdo.com/",
-          "https://gazette.com/2026/08/17/15-laid-off-at-kktv-koaa-part-of-national-consolidation-by-e-w-scripps-co/"
+          "https://www.kktv.com/about-us/",
+          "https://www.kktv.com/page/kktv-livestream/",
+          "https://www.kktv.com/news/kktv-11-news-now/",
+          "https://www.kktv.com/2026/10/31/election-day-2026-how-watch-kktv-koaa-team-coverage-southern-colorado/",
+          "https://www.ontvtonight.com/guide/listings/channel/69030828/kktv-outlaw.html"
         ],
         "candidates": [
           "en.m.wikipedia.org",
-          "gazette.com",
-          "krdo.com",
+          "kktv.com",
           "www.facebook.com",
-          "www.kbtx.com",
           "www.kktv.com",
-          "www.kktv.me",
           "www.ontvtonight.com",
           "www.youtube.com"
         ],
@@ -159256,26 +159253,26 @@
         "ownership_evidence": []
       },
       "KakaoTalk/KakaoTalk.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "KakaoTalk",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.kakaocorp.com/page/service/all?lang=ENG",
           "https://www.kakaocorp.com/page/service/all",
           "https://kakaotalk.en.softonic.com/",
-          "https://talk-apps.kakao.com/scheme/kakaotalk",
           "https://play.google.com/store/apps/details?id=com.kakao.talk&hl=en-US",
-          "https://play.google.com/store/apps/details?id=com.kakao.talk&hl=ko",
+          "https://talk-apps.kakao.com/scheme/kakaotalk",
           "https://apps.microsoft.com/detail/xp9k178l5g0jq0?hl=ko-KR&gl=KR",
+          "https://play.google.com/store/apps/details?id=com.kakao.talk&hl=ko",
+          "https://blog.naver.com/planet56725/223949810882",
           "https://apps.microsoft.com/detail/xp9k178l5g0jq0?hl=en-US&gl=US",
-          "https://en.wikipedia.org/wiki/KakaoTalk",
-          "https://kakaotalk.softonic.kr/"
+          "https://en.wikipedia.org/wiki/KakaoTalk"
         ],
         "candidates": [
           "apps.microsoft.com",
+          "blog.naver.com",
           "en.wikipedia.org",
           "kakaotalk.en.softonic.com",
-          "kakaotalk.softonic.kr",
           "play.google.com",
           "talk-apps.kakao.com",
           "www.kakaocorp.com"
@@ -159284,232 +159281,231 @@
         "ownership_evidence": []
       },
       "Kantv/Kantv.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "Kantv",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.electricfireplacesdirect.com/collections/built-in-fireplace-inserts",
-          "https://www.electricfireplacesdirect.com/collections/classicflame",
-          "https://www.electricfireplacesdirect.com/blogs/fireside-blog/fireplace-mantel-trends",
-          "https://www.electricfireplacesdirect.com/",
-          "https://www.electricfireplacesdirect.com/collections/electric-fireplace-stoves",
-          "https://www.electricfireplacesdirect.com/collections/fireplace-heaters",
-          "https://www.electricfireplacesdirect.com/collections/electric-logs",
-          "https://www.electricfireplacesdirect.com/collections/outdoor-electric-fireplaces",
-          "https://www.electricfireplacesdirect.com/collections/wall-mount-fireplaces",
-          "https://www.electricfireplacesdirect.com/collections/electric-fireplace-mantel-packages"
+          "https://www.nbcsports.com/nba/news/celtics-vs-76ers-predictions-odds-recent-stats-trends-and-best-bets-for-november-10",
+          "https://www.bostonherald.com/2026/11/08/what-jaylen-brown-jayson-tatum-expect-from-celtics-76ers-matchup/",
+          "https://sports.yahoo.com/articles/paul-george-vs-jaylen-brown-194304203.html",
+          "https://fadeawayworld.net/nba/boston-celtics/paul-george-vs-jaylen-brown-comparison-in-first-six-games-after-blockbuster-trade",
+          "https://www.masslive.com/betting/2026/11/experts-release-celtics-vs-76ers-prediction-as-tatum-and-brown-headline-latest-player-props.html",
+          "https://nesn.com/boston-celtics/news/jaylen-brown-lebron-james-playing-76ers-celtics-preseason/7bac5463e6e9701d06b8d095",
+          "https://www.nba.com/game/0022600212"
         ],
         "candidates": [
-          "www.electricfireplacesdirect.com"
+          "fadeawayworld.net",
+          "nesn.com",
+          "sports.yahoo.com",
+          "www.bostonherald.com",
+          "www.masslive.com",
+          "www.nba.com",
+          "www.nbcsports.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Keep/Keep.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "Keep",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://keep.google.com/",
           "https://workspace.google.com/products/keep/",
+          "https://keep.com/",
           "https://www.merriam-webster.com/dictionary/keep",
+          "https://app.trykeep.com/",
           "https://play.google.com/store/apps/details/?id=com.google.android.keep&hl=en-US",
           "https://en.wikipedia.org/wiki/Google_Keep",
-          "https://app.trykeep.com/",
+          "https://en.wikipedia.org/wiki/Keep",
           "https://dictionary.cambridge.org/dictionary/english/keep",
-          "https://www.vocabulary.com/dictionary/keep",
-          "https://apps.apple.com/us/app/google-keep-notes-and-lists/id1029207872",
           "https://www.thefreedictionary.com/keep"
         ],
         "candidates": [
           "app.trykeep.com",
-          "apps.apple.com",
           "dictionary.cambridge.org",
           "en.wikipedia.org",
+          "keep.com",
           "keep.google.com",
           "play.google.com",
-          "vocabulary.com",
           "workspace.google.com",
           "www.merriam-webster.com",
-          "www.thefreedictionary.com",
-          "www.vocabulary.com"
+          "www.thefreedictionary.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "KingSmith/KingSmith.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "KingSmith",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://techcommunity.microsoft.com/blog/exchange/released-september-2026-exchange-server-security-updates/4554411",
-          "https://techcommunity.microsoft.com/blog/skills-hub-blog/new-microsoft-certified-azure-ai-apps-and-agents-developer-associate/4494126",
-          "https://support.microsoft.com/en-us/sharepoint/platform/what-is-sharepoint",
-          "https://support.microsoft.com/en-au/support/index",
-          "https://techcommunity.microsoft.com/blog/azurearchitectureblog/how-ms-discovery-is-empowering-scientists-to-do-more/4516670",
-          "https://techcommunity.microsoft.com/category/windows/discussions/windowsinsiderprogram",
-          "https://support.microsoft.com/en-gb/contactus",
-          "https://support.microsoft.com/en-us/forms/sign-in-to-microsoft-forms",
-          "https://techcommunity.microsoft.com/discussions/windowsinsiderprogram/windows-8-1-iso-download-for-64-and-32-bit/4454650",
-          "https://support.microsoft.com/en-us/accounts-billing/manage/verify-your-age-microsoft-account"
+          "https://kingsmithcostarica.com/wp-content/uploads/2022/02/K12-English-User-Manual.pdf",
+          "https://www.kingsmithcostarica.com/wp-content/uploads/2022/10/K15-English-User-Manual.pdf",
+          "https://s3.ap-southeast-2.amazonaws.com/product-instruction/90000123R1EnManual.pdf",
+          "https://fccid.io/2ARDB-TRT12F/User-Manual/User-Manual-4754313.pdf",
+          "https://m.media-amazon.com/images/I/D1Sgcoz5F6L.pdf?ref=dp_product_quick_view",
+          "https://www.nfm.com/on/demandware.static/-/Library-Sites-NFMSharedLibrary/default/dw016b57aa/product-pdfs/065/48/65480527-user-manual.pdf",
+          "https://www.axdiaservice.com/wp-content/uploads/Anleitung/Kingsmith%20R2%20-%20UserManual%20EN.pdf",
+          "https://manuals.plus/asin/B0CJ34CW73.pdf",
+          "https://manuals.plus/asin/B0D4553BFG.pdf",
+          "https://m.media-amazon.com/images/I/A13vPeGIb+L.pdf?ref=dp_product_quick_view"
         ],
         "candidates": [
-          "outlook.com",
-          "support.microsoft.com",
-          "techcommunity.microsoft.com"
+          "fccid.io",
+          "kingsmithcostarica.com",
+          "m.media-amazon.com",
+          "manuals.plus",
+          "s3.ap-southeast-2.amazonaws.com",
+          "www.axdiaservice.com",
+          "www.kingsmithcostarica.com",
+          "www.nfm.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Kingsoft/Kingsoft.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "Kingsoft",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://tax.vermont.gov/",
-          "https://www.vermont.gov/service/myvtax-payment-portal",
-          "https://tax.vermont.gov/individuals",
-          "https://www.vermont.gov/service/file-and-pay-your-taxes",
-          "https://tax.vermont.gov/forms-and-publications",
-          "https://tax.vermont.gov/business/file-and-pay",
-          "https://tax.vermont.gov/businesses",
-          "https://tax.vermont.gov/personal-income-tax",
-          "https://tax.vermont.gov/individuals/refund",
-          "https://gs.tax.vermont.gov/Web/Account/Login.htm"
+          "https://www.reddit.com/r/alexa/",
+          "https://www.reddit.com/r/AmazonKDP/",
+          "https://www.reddit.com/r/AmazonDSPDrivers/",
+          "https://www.reddit.com/r/FASCAmazon/",
+          "https://www.reddit.com/r/2007scape/comments/8yvq9d/can_i_use_the_amazon_fire_hd_tablet_for_osrs/",
+          "https://www.reddit.com/r/amazon/about/",
+          "https://www.reddit.com/r/amazonprime/comments/128otcb/scary_mail_from_ofmamazoncom/",
+          "https://www.reddit.com/r/hometheater/comments/8mrmob/anyone_ever_order_their_tv_through_amazon_howd_it/",
+          "https://www.reddit.com/r/amazon/comments/8tswmg/how_to_not_save_credit_card/",
+          "https://www.reddit.com/r/australia/comments/amj0xz/does_anyone_actually_use_amazon_australia_or_have/"
         ],
         "candidates": [
-          "gs.tax.vermont.gov",
-          "tax.vermont.gov",
-          "vermont.gov",
-          "www.vermont.gov"
+          "amazon.com",
+          "www.reddit.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "KouDaiShiShang/KouDaiShiShang.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "KouDaiShiShang",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.reddit.com/r/wow/comments/170yxos/has_wowhead_become_kind_of_unusably_bad_lately/",
-          "https://us.forums.blizzard.com/en/wow/t/alternatives-to-wowhead/2223324",
-          "https://us.forums.blizzard.com/en/wow/t/troubles-with-wowhead/2278652",
-          "https://www.reddit.com/r/classicwow/comments/fduoua/searchable_ingame_data_base_like_classicdbwowhead/",
-          "https://us.forums.blizzard.com/en/wow/t/comfortably-numb-quest-bugged/2340177",
-          "https://us.forums.blizzard.com/en/wow/t/icy-veins-or-wowhead-or-something-else/2275301",
-          "https://us.forums.blizzard.com/en/wow/t/where-can-i-view-patch-notes-for-wow-forever/2367658",
-          "https://us.forums.blizzard.com/en/wow/t/warning-do-not-follow-wowhead-class-guides/2294993",
-          "https://www.reddit.com/r/wow/comments/d3av2d/where_to_find_overcharged_capacitator/",
-          "https://www.reddit.com/r/Transmogrification/comments/81wrvk/looking_for_unholy_dk_transmog/"
+          "https://www.spanishdict.com/guide/spanish-alphabet-pronunciation",
+          "https://www.spanishdict.com/guide/the-spanish-alphabet",
+          "https://www.youtube.com/watch?v=arZ9PCqmCa4",
+          "https://spanishwithtati.com/alphabet-pronunciation/",
+          "https://spanishwithwes.com/spanish-alphabet/",
+          "https://studyspanish.com/pronunciation/lessons/spanish-alphabet",
+          "https://blog.duolingo.com/spanish-alphabet-pronunciation/",
+          "https://www.youtube.com/watch?v=hsLYD1Jyf3A",
+          "https://www.tellmeinspanish.com/learning/spanish-alphabet/",
+          "https://www.fluentu.com/blog/spanish/spanish-alphabet/"
         ],
         "candidates": [
-          "us.forums.blizzard.com",
-          "wowhead.com",
-          "www.reddit.com",
-          "www.wowhead.com"
+          "blog.duolingo.com",
+          "spanishdictionary.com",
+          "spanishwithtati.com",
+          "spanishwithwes.com",
+          "studyspanish.com",
+          "www.fluentu.com",
+          "www.spanishdict.com",
+          "www.tellmeinspanish.com",
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Ku6/Ku6.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "Ku6",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.reddit.com/r/beauty/comments/13zqm7i/why_is_temu_online_makeup_so_cheap_is_it_terrible/",
-          "https://www.reddit.com/r/LinusTechTips/comments/16aw0v4/temu_is_linked_to_slave_labor_and_is_the_reason/",
-          "https://www.zhihu.com/question/551822950",
-          "https://www.zhihu.com/question/551822950/answers/updated",
-          "https://www.reddit.com/r/NoStupidQuestions/comments/17p6nl7/is_temu_a_scam_how_is_it_so_cheap_anyone_ever_use/",
-          "https://www.reddit.com/r/Scams/comments/18pfo66/paypal_on_temu/",
-          "https://www.reddit.com/r/CDMX/comments/1cmfx3s/los_regalos_de_temu_es_real_o_estafa_parte_2/",
-          "https://www.reddit.com/r/knitting/comments/172ho9t/anyone_ever_ordered_yarn_from_temu_the_reviews/",
-          "https://www.reddit.com/r/AskACanadian/comments/15m9g63/is_temu_reliable/",
-          "https://www.reddit.com/r/BeautyGuruChatter/comments/116t155/thoughts_on_temu_beauty/"
+          "https://www.reddit.com/r/tiermaker/",
+          "https://www.reddit.com/r/asoiaf/comments/oe5rgs/spoilers_main_biggest_character_tier_list/",
+          "https://www.flipline.com/games/meteorblastor/index.html",
+          "https://www.reddit.com/r/tierlists/comments/qylj9f/is_there_a_way_to_edit_a_tier_list_i_have_saved/",
+          "https://www.reddit.com/r/tiermaker/comments/vkgppk/tiermaker_problem/",
+          "https://www.reddit.com/r/slaythespire/comments/rkooih/world_record_holders_watcher_tier_list/",
+          "https://www.reddit.com/r/danganronpa/comments/iltlea/so_i_made_my_own_tier_list_template_on_tiermaker/",
+          "https://www.reddit.com/r/tiermaker/comments/k9txcd/how_do_i_delete_images/",
+          "https://www.reddit.com/r/tierlists/comments/15jbg35/meta_is_it_just_me_or_is_tiermaker_absolutely/",
+          "https://www.reddit.com/r/tiermaker/comments/qmtv4h/modify_existing_tier_list/"
         ],
         "candidates": [
-          "www.reddit.com",
-          "www.zhihu.com"
+          "meteors.those",
+          "www.flipline.com",
+          "www.reddit.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "KuKeMusic/KuKeMusic.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "KuKeMusic",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.giraffeboards.com/showthread.php?t=25295",
-          "https://www.giraffeboards.com/forumdisplay.php?f=28",
-          "https://www.giraffeboards.com/forumdisplay.php?f=58",
-          "https://www.giraffeboards.com/",
-          "https://www.giraffeboards.com/showthread.php?t=37411",
-          "https://www.giraffeboards.com/showthread.php?t=51963",
-          "https://www.giraffeboards.com/showthread.php?p=1879052",
-          "https://www.giraffeboards.com/forumdisplay.php?f=12",
-          "https://www.giraffeboards.com/forumdisplay.php?f=21",
-          "https://www.giraffeboards.com/showthread.php?p=1879216"
+          "https://earth.google.com/",
+          "https://earth.google.com/web",
+          "https://earth.google.com/intl/earth/versions/",
+          "https://earth.google.com/web/home",
+          "https://earth.google.com/intl/en-US/",
+          "https://earth.google.com/intl/ru/download/ge/index.html",
+          "https://earth.google.com/kmlpreview/",
+          "https://earth.google.com/intl/en_uk/download/ge/index.html",
+          "https://earth.google.com/web/data-layers",
+          "https://earth.google.com/web/tools"
         ],
         "candidates": [
-          "www.giraffeboards.com"
+          "earth.google.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "KuaiDi100/KuaiDi100.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "KuaiDi100",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.merriam-webster.com/dictionary/vindicate",
-          "https://dictionary.cambridge.org/us/dictionary/english/vindicate",
-          "https://dictionary.cambridge.org/dictionary/english/vindicate?q=vindicated",
-          "https://englishwordchamps.com/vindicate-meaning-and-examples/",
-          "https://www.dictionary.com/browse/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20vindicate",
-          "https://www.definitions.net/definition/vindicate",
-          "https://en.thefreedictionary.com/vindicate",
-          "https://www.merriam-webster.com/dictionary/vindication",
-          "https://www.collinsdictionary.com/us/dictionary/english/vindicate",
-          "https://www.dictionary.net/dictionary/vindicate"
+          "https://vrcmods.com/",
+          "https://vrcmods.com/item?id=1063",
+          "https://vrcmods.com/search?sort=hot&cid=2",
+          "https://vrcmods.com/search?sort=hot&cid=9",
+          "https://vrcmods.com/item?id=67",
+          "https://vrcmods.com/item?id=6231",
+          "https://vrcmods.com/login",
+          "https://vrcmods.com/search?sort=hot&cid=1",
+          "https://vrcmods.com/item?id=10502",
+          "https://vrcmods.com/item?id=10708"
         ],
         "candidates": [
-          "definitions.net",
-          "dictionary.cambridge.org",
-          "dictionary.com",
-          "dictionary.net",
-          "en.thefreedictionary.com",
-          "englishwordchamps.com",
-          "www.collinsdictionary.com",
-          "www.definitions.net",
-          "www.dictionary.com",
-          "www.dictionary.net",
-          "www.merriam-webster.com"
+          "vrcmods.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "KuaiShou/KuaiShou.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "KuaiShou",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.kuaishou.com/",
           "https://www.kuaishou.com/en",
-          "https://m.ssl.kuaishou.com/app/",
-          "https://en.wikipedia.org/wiki/Kuaishou",
           "https://www.kuaishou.cn/brilliant",
+          "https://en.wikipedia.org/wiki/Kuaishou",
+          "https://m.ssl.kuaishou.com/app/",
           "https://www.kwai.com/",
           "https://www.kwai.com/aboutus",
           "https://live.kuaishou.com/",
-          "https://cp.kuaishou.com/profile",
-          "https://webapp.kuaishou.com/"
+          "https://www.apkmirror.com/apk/beijing-kuaishou-technology-co-ltd/kuaishou/",
+          "https://www.kuaishou.cn/theater/0"
         ],
         "candidates": [
-          "cp.kuaishou.com",
           "en.wikipedia.org",
           "live.kuaishou.com",
           "m.ssl.kuaishou.com",
-          "webapp.kuaishou.com",
+          "www.apkmirror.com",
           "www.kuaishou.cn",
           "www.kuaishou.com",
           "www.kwai.com"
@@ -159518,66 +159514,69 @@
         "ownership_evidence": []
       },
       "KuangShi/KuangShi.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "KuangShi",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.pinchofattitude.com/what-to-do-if-your-sister-is-toxic/",
-          "https://ahouseinthehills.com/toxic-sister-signs-behaviors-examples-next-steps/",
-          "https://www.wikihow.com/Deal-With-an-Abusive-Sibling",
-          "https://www.pinchofattitude.com/how-to-deal-with-a-toxic-sister/",
-          "https://neurolaunch.com/what-is-unacceptable-behavior-of-a-sister/",
-          "https://cptsdfoundation.org/2023/07/11/signs-you-have-a-toxic-siblings-and-how-to-deal-with-them/",
-          "https://www.aplaceofhope.com/blog/what-is-a-toxic-sibling-relationship-and-how-do-you-know-if-your-sibling-is-toxic/",
-          "https://www.purewow.com/wellness/toxic-sister",
-          "https://upjourney.com/how-to-deal-with-a-toxic-sibling",
-          "https://www.newsweek.com/family-sibling-toxic-relationship-annoying-1756525"
+          "https://oldnavy.gap.com/stores/tx/brownsville/oldnavy-6186.html",
+          "https://www.store-locator.info/old-navy/texas/brownsville/old-navy/",
+          "https://storelocatortool.com/v3/old-navy-locations/search.php?store=OLD+NAVY&city=Brownsville&region=TX&country=USA&lat=25.901.747&lon=-97.497.482",
+          "https://www.storeopeninghours.com/old-navy-brownsville-tx",
+          "https://www.storeshours.com/old-navy/texas/brownsville/pablokiselblvd",
+          "https://www.storesinfo.com/old-navy/texas/brownsville/2780-pablo-kisel-blvd.html",
+          "https://www.hoursguide.com/old-navy/brownsville/4713/",
+          "https://oldnavy.gap.com/stores/tx/brownsville",
+          "https://www.loc8nearme.com/texas/brownsville/old-navy/",
+          "https://www.mapquest.com/us/texas/old-navy-9706179"
         ],
         "candidates": [
-          "ahouseinthehills.com",
-          "cptsdfoundation.org",
-          "neurolaunch.com",
-          "upjourney.com",
-          "www.aplaceofhope.com",
-          "www.newsweek.com",
-          "www.pinchofattitude.com",
-          "www.purewow.com",
-          "www.wikihow.com"
+          "oldnavy.gap.com",
+          "storelocatortool.com",
+          "storesinfo.com",
+          "www.hoursguide.com",
+          "www.loc8nearme.com",
+          "www.mapquest.com",
+          "www.store-locator.info",
+          "www.storeopeninghours.com",
+          "www.storeshours.com",
+          "www.storesinfo.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "KugouKuwo/KugouKuwo.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "KugouKuwo",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://wallpaperaccess.com/northern-lights",
-          "https://4kwallpapers.com/northern-lights",
-          "https://www.pexels.com/search/northern%20lights/",
-          "https://wallpaperaccess.com/northern-lights-desktop",
-          "https://wallpapercave.com/northern-lights-4k-wallpapers",
-          "https://wallpapers.com/northern-lights",
-          "https://unsplash.com/s/photos/northern-lights",
-          "https://alphacoders.com/northern-lights-wallpapers",
-          "https://getwallpapers.com/collection/northern-lights-wallpaper-4k",
-          "https://www.pexels.com/search/northern%20lights%204k/"
+          "https://fermi.gg/",
+          "https://populationguessr.com/",
+          "https://geoslice.net/",
+          "https://1in8b.life/en/",
+          "https://www.higherorlowergame.com/population/countries/",
+          "https://websim.com/@heyhey2025/live-population-simulator-50-countries-from-2025",
+          "https://blockatlas.com/games/guess-the-population",
+          "https://www.mappr.co/games/population-guess-game/",
+          "https://geoslice.org/",
+          "https://steamcommunity.com/app/691260/"
         ],
         "candidates": [
-          "4kwallpapers.com",
-          "alphacoders.com",
-          "getwallpapers.com",
-          "unsplash.com",
-          "wallpaperaccess.com",
-          "wallpapercave.com",
-          "wallpapers.com",
-          "www.pexels.com"
+          "1in8b.life",
+          "blockatlas.com",
+          "fermi.gg",
+          "geoslice.net",
+          "geoslice.org",
+          "populationguessr.com",
+          "steamcommunity.com",
+          "websim.com",
+          "www.higherorlowergame.com",
+          "www.mappr.co"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "LG/LG.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "LG",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -159585,16 +159584,17 @@
           "https://www.lg.com/us/support",
           "https://en.m.wikipedia.org/wiki/LG",
           "https://www.lgcorp.com/",
-          "https://www.bestbuy.com/site/brands/lg/pcmcat133000050031.c?id=pcmcat133000050031",
           "https://solutions.lg.com/us/promotions",
           "https://en.m.wikipedia.org/wiki/LG_Electronics",
-          "https://solutions.lg.com/us/computers",
-          "https://www.lgcorp.com/about/companies",
-          "https://www.lg.com/us/support/contact"
+          "https://www.bestbuy.com/site/brands/lg/pcmcat133000050031.c?id=pcmcat133000050031",
+          "https://solutions.lg.com/us/tvs",
+          "https://lgcorp.com/about/lgway/1",
+          "https://www.lg.com/us/tvs"
         ],
         "candidates": [
           "en.m.wikipedia.org",
           "lg.com",
+          "lgcorp.com",
           "solutions.lg.com",
           "www.bestbuy.com",
           "www.lg.com",
@@ -159604,29 +159604,29 @@
         "ownership_evidence": []
       },
       "Lan/Lan.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "Lan",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.geeksforgeeks.org/computer-networks/what-is-lan-local-area-network/",
-          "https://en.wikipedia.org/wiki/Local_area_network",
+          "https://en.m.wikipedia.org/wiki/Local_area_network",
           "https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-lan-local-area-network.html",
-          "https://www.tp-link.com/ph/blog/2067/what-is-a-lan-local-area-network-a-beginner-s-guide/",
-          "https://www.geeksforgeeks.org/computer-networks/types-of-area-networks-lan-man-and-wan/",
           "https://www.wikihow.com/Configure-Your-PC-to-a-Local-Area-Network",
+          "https://www.geeksforgeeks.org/computer-networks/types-of-area-networks-lan-man-and-wan/",
+          "https://www.tp-link.com/ph/blog/2067/what-is-a-lan-local-area-network-a-beginner-s-guide/",
           "https://www.cloudflare.com/learning/network-layer/what-is-a-lan/",
-          "https://www.lifewire.com/what-is-lan-4684071",
+          "https://www.computerhope.com/jargon/l/lan.htm",
           "https://www.merriam-webster.com/dictionary/LAN",
-          "https://www.techtarget.com/it-infrastructure/definition/local-area-network-LAN"
+          "https://www.howtogeek.com/353283/what-is-a-local-area-network-lan/"
         ],
         "candidates": [
-          "en.wikipedia.org",
+          "en.m.wikipedia.org",
           "www.cisco.com",
           "www.cloudflare.com",
+          "www.computerhope.com",
           "www.geeksforgeeks.org",
-          "www.lifewire.com",
+          "www.howtogeek.com",
           "www.merriam-webster.com",
-          "www.techtarget.com",
           "www.tp-link.com",
           "www.wikihow.com"
         ],
@@ -159634,39 +159634,31 @@
         "ownership_evidence": []
       },
       "LanZouYun/LanZouYun.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "LanZouYun",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.lanzou.com/",
-          "https://www.lanzoui.com/",
-          "https://www.ilanzou.com/",
-          "https://www.ilanzou.com/save",
-          "https://www.zhihu.com/question/266046549",
-          "https://www.lanzou.com/account.php?action=login",
-          "https://zhuanlan.zhihu.com/p/658137889",
-          "https://lanzouyun.com/"
+          "https://www.jcpenney.com/m/jcpenney-coupons",
+          "https://www.jcpenney.com/m/really-big-deals",
+          "https://www.jcpenney.com/d/sales-deals",
+          "https://www.jcpenney.com/g/women/tops?id=cat100210006",
+          "https://www.jcpenney.com/d/jewelry-and-watches",
+          "https://www.jcpenney.com/g/baby-kids/all-girls-clothing/big-girls-7-16-clothing?id=cat11100001195",
+          "https://www.jcpenney.com/g/sale-shop-all-products?s1_deals_and_promotions=SALE&id=cat1007450013",
+          "https://www.jcpenney.com/g/shoes/womens-sandals-flip-flops?id=cat100250193",
+          "https://www.jcpenney.com/signin",
+          "https://www.jcpenney.com/m/digital-books"
         ],
         "candidates": [
-          "baidu.com",
-          "baidupan.com",
-          "lanzou.com",
-          "lanzouyun.com",
-          "pan.baidu.com",
-          "pan.qq.com",
-          "www.ilanzou.com",
-          "www.lanzou.com",
-          "www.lanzoui.com",
-          "www.lanzouyun.com",
-          "www.lanzouyun.com-",
-          "www.zhihu.com",
-          "zhuanlan.zhihu.com"
+          "decor.find",
+          "jcp.com",
+          "www.jcpenney.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "LastFM/LastFM.yaml": {
-        "checked_at": "2026-10-30 05:23 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "LastFM",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -159674,45 +159666,43 @@
           "https://www.last.fm/login",
           "https://en.wikipedia.org/wiki/Last.fm",
           "https://www.last.fm/about/trackmymusic",
-          "https://www.last.fm/music",
           "https://www.last.fm/join",
-          "https://www.last.fm/charts",
-          "https://www.last.fm/de/",
+          "https://www.last.fm/about",
+          "https://www.last.fm/music",
           "https://www.reddit.com/r/lastfm/",
-          "https://store.last.fm/account/login"
+          "https://store.last.fm/account/login",
+          "https://x.com/lastfm"
         ],
         "candidates": [
           "en.wikipedia.org",
           "last.fm",
           "store.last.fm",
           "www.last.fm",
-          "www.reddit.com"
+          "www.reddit.com",
+          "x.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "LastPass/LastPass.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "LastPass",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://app.lastpass.com/?ac=1",
           "https://www.lastpass.com/",
-          "https://lastpass.com/misc_download2.php",
+          "https://lastpass.com/vault/vault.html",
           "https://my.lastpass.com/",
-          "https://panel.lastpass.com/?ac=1",
           "https://support.lastpass.com/login",
-          "https://en.wikipedia.org/wiki/LastPass",
-          "https://www.lastpass.com/features/password-generator",
-          "https://lastpass.com/vault/",
-          "https://lastpass.com/f/"
+          "https://partner.lastpass.com/px/dashboard",
+          "https://en.wikipedia.org/wiki/LastPass"
         ],
         "candidates": [
           "app.lastpass.com",
           "en.wikipedia.org",
           "lastpass.com",
           "my.lastpass.com",
-          "panel.lastpass.com",
+          "partner.lastpass.com",
           "support.lastpass.com",
           "www.lastpass.com"
         ],
@@ -159720,87 +159710,82 @@
         "ownership_evidence": []
       },
       "LeJu/LeJu.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "LeJu",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://en.m.wikipedia.org/wiki/Bill_Gates",
-          "https://starsunfolded.com/bill-gates/",
-          "https://biographywallah.com/bill-gates/",
-          "https://celebrity-birthdays.com/people/bill-gates",
-          "https://www.biography.com/business-leaders/bill-gates",
-          "https://thebiographybytes.com/bill-gates/",
-          "https://www.forbes.com/profile/bill-gates/",
-          "https://agevly.com/how-old-is-bill-gates/",
-          "https://paullingual.com/bill-gates-biography/",
-          "https://www.forbes.com/real-time-billionaires/"
+          "https://entsaustin.com/inspire-sleep-apnea-therapy/",
+          "https://austincosmeticexcellence.com/services/sleep-apnea/",
+          "https://www.austinregionalclinic.com/services/ear-nose-and-throat-ent/home-sleep-study",
+          "https://www.txsleepmedicine.com/service/inspire-therapy",
+          "https://sleepdoc.net/services/inspire/",
+          "https://www.austinsleepapneatreatment.com/locations",
+          "https://www.airwayhealth.com/solutions/myofunctional-therapy"
         ],
         "candidates": [
-          "agevly.com",
-          "biographywallah.com",
-          "celebrity-birthdays.com",
-          "en.m.wikipedia.org",
-          "paullingual.com",
-          "starsunfolded.com",
-          "thebiographybytes.com",
-          "www.biography.com",
-          "www.forbes.com"
+          "austincosmeticexcellence.com",
+          "entsaustin.com",
+          "sleepdoc.net",
+          "www.airwayhealth.com",
+          "www.austinregionalclinic.com",
+          "www.austinsleepapneatreatment.com",
+          "www.txsleepmedicine.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "LeTV/LeTV.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "LeTV",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://en.wikipedia.org/wiki/Five_Holy_Wounds",
-          "https://en.wikipedia.org/wiki/Pentagram",
-          "https://catholicism.wiki/wiki/Five_Holy_Wounds",
-          "https://www.christianity.com/wiki/cults-and-other-religions/what-should-christians-know-about-pentagrams.html",
-          "https://christianpure.com/learn/christian-history-the-pentagram-and-star-symbols/",
-          "https://catholic-repository.org/devotions/devotion-to-the-five-holy-wounds/",
-          "https://catholic-link.org/five-holy-wounds-of-jesus/",
-          "https://belovedcatholic.com/five-wounds-of-christ/",
-          "https://everything.explained.today/Five_Wounds_of_Christ/",
-          "https://projectxeros.org/five-wounds-christ-meaning"
+          "https://www.youtube.com/channel/UCUuZe7OB0yHSYAfu8annGKQ",
+          "https://tv.le.com/",
+          "https://en.wikipedia.org/wiki/LeEco",
+          "https://www.gadgets360.com/mobiles/letv-phones",
+          "https://www.le.com/?from=uc",
+          "https://letv.org/",
+          "https://en.wikipedia.org/wiki/Le.com",
+          "https://www.le.com/",
+          "https://www.gadgets360.com/letv-s1-pro-price-in-india-115308",
+          "https://music.youtube.com/channel/UCUuZe7OB0yHSYAfu8annGKQ"
         ],
         "candidates": [
-          "belovedcatholic.com",
-          "catholic-link.org",
-          "catholic-repository.org",
-          "catholicism.wiki",
-          "christianpure.com",
           "en.wikipedia.org",
-          "everything.explained.today",
-          "projectxeros.org",
-          "www.christianity.com"
+          "le.com",
+          "letv.org",
+          "music.youtube.com",
+          "tv.le.com",
+          "www.gadgets360.com",
+          "www.le.com",
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Lenovo/Lenovo.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "Lenovo",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.lenovo.com/us/en/",
           "https://www.lenovo.com/us/en/pc/",
           "https://support.lenovo.com/",
-          "https://en.wikipedia.org/wiki/Lenovo",
-          "https://pcsupport.lenovo.com/us/en/",
           "https://support.lenovo.com/us/en/selectproduct",
-          "https://home.lenovo.com/home",
-          "https://pcsupport.lenovo.com/us/en/warranty-lookup",
-          "https://store.lenovo.com/",
-          "https://www.bestbuy.com/site/lenovo/lenovo-laptops/pcmcat230600050001.c?id=pcmcat230600050001"
+          "https://pcsupport.lenovo.com/us/en/",
+          "https://en.wikipedia.org/wiki/Lenovo",
+          "https://pcsupport.lenovo.com/us/en/selectproduct",
+          "https://www.amazon.com/stores/LENOVO/page/2C6395BA-C701-4025-9D7E-BAE1BD647EEE/",
+          "https://www.bestbuy.com/site/lenovo/lenovo-laptops/pcmcat230600050001.c?id=pcmcat230600050001",
+          "https://account.lenovo.com/us/en/signin"
         ],
         "candidates": [
+          "account.lenovo.com",
+          "amazon.com",
           "en.wikipedia.org",
-          "home.lenovo.com",
           "pcsupport.lenovo.com",
-          "store.lenovo.com",
           "support.lenovo.com",
+          "www.amazon.com",
           "www.bestbuy.com",
           "www.lenovo.com"
         ],
@@ -159808,79 +159793,69 @@
         "ownership_evidence": []
       },
       "LiTV/LiTV.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "LiTV",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.youtube.com/@PortaldelAdultoMayor",
-          "https://www.youtube.com/playlist?list=PLgwh1TYMRTiB60Ovdueme5iLikTnjQE3z",
-          "https://planetamayores.com/",
-          "https://www.aarp.org/espanol/videos/",
-          "https://www.aarp.org/videos/",
-          "https://www.tiktok.com/@vida_plena_con_alfy/video/7661312902623694094",
-          "https://www.todo-mail.com/video.aspx?emailid=19136",
-          "https://www.tiktok.com/tag/adultosmayores",
-          "https://www.sikana.tv/es/sport/50-gym-exercises-for-seniors",
-          "https://pixabay.com/es/videos/search/personas%20mayores/"
+          "https://purplepainforums.com/thread/9844/fire-ko?page=8",
+          "https://purplepainforums.com/thread/9447/2026-vikings-schedule?page=3",
+          "https://purplepainforums.com/thread/9866/life-vikings-fan",
+          "https://purplepainforums.com/",
+          "https://purplepainforums.com/thread/9511/preseason-game-3-vikings-broncos?page=2",
+          "https://purplepainforums.com/thread/9525/vikings-2026-season-pressers-injuries?page=10",
+          "https://purplepainforums.com/thread/9838/vikings-bucs-depth-chart-preview",
+          "https://purplepainforums.com/thread/687/vikings-detroit-1-quick-notes?page=1",
+          "https://purplepainforums.com/page/chat-room",
+          "https://purplepainforums.com/thread/9858/week-vikes-saints-support-group"
         ],
         "candidates": [
-          "pixabay.com",
-          "planetamayores.com",
-          "www.aarp.org",
-          "www.sikana.tv",
-          "www.tiktok.com",
-          "www.todo-mail.com",
-          "www.youtube.com"
+          "purplepainforums.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "LianMeng/LianMeng.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "LianMeng",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.amazon.com/amazonprime",
-          "https://www.primevideo.com/storefront/home/home",
-          "https://www.primevideo.com/-/en_US/gp/video/offers",
-          "https://www.amazon.com/b?node=15240005011",
-          "https://selection.amazon.com/sign-in?redirect_to=%2F&mons_redirect=sign_in",
-          "https://www.aboutamazon.com/what-we-do/prime",
-          "https://www.amazon.ca/amazonprime",
-          "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
-          "https://www.amazon.com/gp/video/primesignup/",
-          "https://www.amazon.com/"
+          "https://developer.android.com/guide/topics/ui/accessibility/",
+          "https://developer.android.com/training/testing/fundamentals",
+          "https://developer.android.com/studio/terms",
+          "https://developer.android.com/guide/components/fundamentals",
+          "https://developer.android.com/privacy-and-security/security-tips",
+          "https://developer.android.com/studio/run/emulator",
+          "https://developer.android.com/reference/android/app/Application",
+          "https://developer.android.com/samples/",
+          "https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app",
+          "https://developer.android.com/training/data-storage/"
         ],
         "candidates": [
-          "amazon.ca",
-          "amazon.com",
-          "selection.amazon.com",
-          "www.aboutamazon.com",
-          "www.amazon.ca",
-          "www.amazon.com",
-          "www.primevideo.com"
+          "androidmanifest.xml",
+          "developer.android.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Limelight/Limelight.yaml": {
-        "checked_at": "2026-10-30 05:29 UTC",
+        "checked_at": "2026-11-10 05:47 UTC",
         "name": "Limelight",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.limelight.pk/",
           "https://en.wikipedia.org/wiki/Lime_light",
-          "https://limelightvision.io/",
-          "https://en.wikipedia.org/wiki/Limelight_(1952_film)",
           "https://www.merriam-webster.com/dictionary/limelight",
-          "https://www.limelighthotels.com/",
-          "https://www.limelightusa.com/",
-          "https://www.limelighthotels.com/ketchum",
+          "https://limelightvision.io/",
+          "https://limelight.store/",
+          "https://www.limelight.pk/collections/sale",
+          "https://en.wikipedia.org/wiki/Limelight_(1952_film)",
           "https://www.history.com/articles/where-did-the-phrase-in-the-limelight-come-from",
-          "https://limelightvision.io/products/limelight-4"
+          "https://www.limelighthotels.com/",
+          "https://www.limelightusa.com/"
         ],
         "candidates": [
           "en.wikipedia.org",
+          "limelight.store",
           "limelightvision.io",
           "www.history.com",
           "www.limelight.pk",
