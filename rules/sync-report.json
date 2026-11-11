@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-11 04:29 UTC",
+  "date": "2026-11-11 19:12 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-11 04:29 UTC",
-    "next_index": 439,
+    "checked_at": "2026-11-11 19:12 UTC",
+    "next_index": 463,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -161193,26 +161193,28 @@
         "ownership_evidence": []
       },
       "Nike/Nike.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Nike",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.nike.com/",
-          "https://www.nike.com/us/en/w/",
-          "https://en.wikipedia.org/wiki/Nike,_Inc.",
+          "https://www.nike.com/w/usa-10ciy/",
           "https://about.nike.com/en/",
+          "https://en.wikipedia.org/wiki/Nike,_Inc.",
+          "https://investors.nike.com/company-information/who-we-are",
           "https://www.nike.in/",
-          "https://about.nike.com/en/company",
-          "https://finance.yahoo.com/quote/NKE/",
-          "https://www.nike.com/ca",
-          "https://www.nike.com/w/shoes-y7ok",
-          "https://www.nike.com/men"
+          "https://investors.nike.com/",
+          "https://about.nike.com/en/newsroom",
+          "https://careers.nike.com/",
+          "https://www.nike.ae/en/home/"
         ],
         "candidates": [
           "about.nike.com",
+          "careers.nike.com",
           "en.wikipedia.org",
-          "finance.yahoo.com",
+          "investors.nike.com",
           "nike.com",
+          "www.nike.ae",
           "www.nike.com",
           "www.nike.in"
         ],
@@ -161220,36 +161222,37 @@
         "ownership_evidence": []
       },
       "Nikkei/Nikkei.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Nikkei",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://r.nikkei.com/",
-          "https://r.nikkei.com/markets/",
-          "https://en.m.wikipedia.org/wiki/The_Nikkei",
+          "https://www.nikkei.com/",
           "https://asia.nikkei.com/",
-          "https://www.nikkei.co.jp/nikkeiinfo/en/",
-          "https://en.m.wikipedia.org/wiki/Nikkei_225",
           "https://finance.yahoo.com/quote/%5EN225/",
           "https://www.investing.com/indices/japan-ni225",
-          "https://www.google.com/finance/beta/quote/NI225:INDEXNIKKEI",
-          "https://asia.nikkei.com/&"
+          "https://www.nikkei.com/theme/",
+          "https://en.wikipedia.org/wiki/The_Nikkei",
+          "https://indexes.nikkei.co.jp/en/nkave/nkidx",
+          "https://en.wikipedia.org/wiki/Nikkei_225",
+          "https://www.nikkei.co.jp/nikkeiinfo/en/",
+          "https://markets.businessinsider.com/index/nikkei_225"
         ],
         "candidates": [
           "asia.nikkei.com",
-          "en.m.wikipedia.org",
+          "en.wikipedia.org",
           "finance.yahoo.com",
+          "indexes.nikkei.co.jp",
           "investing.com",
-          "r.nikkei.com",
-          "www.google.com",
+          "markets.businessinsider.com",
           "www.investing.com",
-          "www.nikkei.co.jp"
+          "www.nikkei.co.jp",
+          "www.nikkei.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Nintendo/Nintendo.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Nintendo",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -161258,13 +161261,14 @@
           "https://accounts.nintendo.com/login",
           "https://en.wikipedia.org/wiki/Nintendo",
           "https://store.nintendo.com/en-gb",
+          "https://en-americas-support.nintendo.com/",
           "https://play.nintendo.com/",
-          "https://www.nintendo.com/en-ca/",
           "https://www.nintendo.com/us/gaming-systems/switch/",
-          "https://www.nintendo.com/en-gb/"
+          "https://www.nintendo.com/us/gaming-systems/switch/system/"
         ],
         "candidates": [
           "accounts.nintendo.com",
+          "en-americas-support.nintendo.com",
           "en.wikipedia.org",
           "my.nintendo.com",
           "play.nintendo.com",
@@ -161275,265 +161279,274 @@
         "ownership_evidence": []
       },
       "NivodTV/NivodTV.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "NivodTV",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://webapps.stackexchange.com/questions/97310/how-to-use-arrayformula-with-query-in-google-sheets",
-          "https://support.google.com/docs/answer/17035851",
-          "https://support.google.com/docs/answer/3093224?hl=en",
-          "https://webapps.stackexchange.com/questions/94633/can-i-open-a-google-drive-document-in-read-only-mode",
-          "https://support.google.com/docs/answer/12822123?hl=en",
-          "https://support.google.com/docs/answer/3540681?hl=en&co=GENIE.Platform%3DDesktop",
-          "https://support.google.com/docs/answer/3094123?hl=en",
-          "https://support.google.com/a/users/answer/9282959?hl=fr",
-          "https://support.google.com/docs/answer/6000292?hl=es&co=GENIE.Platform%3DDesktop",
-          "https://webapps.stackexchange.com/questions/40297/how-do-i-decimal-align-numbers-in-google-sheets"
+          "https://marcsamuelsjewelers.com/",
+          "https://marcsamuelsjewelers.com/collections/tissot-watches",
+          "https://marcsamuelsjewelers.com/collections/rolex-watches-dallas",
+          "https://marcsamuelsjewelers.com/collections/pre-owned-watches",
+          "https://marcsamuelsjewelers.com/pages/our-locations",
+          "https://marcsamuelsjewelers.com/pages/contact",
+          "https://marcsamuelsjewelers.com/collections/authorized-luxury-watch-dealer",
+          "https://marcsamuelsjewelers.com/collections/diamond-engagement-rings",
+          "https://marcsamuelsjewelers.com/pages/sell-my-watch",
+          "https://marcsamuelsjewelers.com/collections/all"
         ],
         "candidates": [
-          "sheets.google.com",
-          "support.google.com",
-          "webapps.stackexchange.com"
+          "marcsamuelsjewelers.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Notion/Notion.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Notion",
-        "status": "needs_ownership_evidence",
+        "status": "checked",
         "sources": [
           "https://www.notion.com/",
           "https://app.notion.com/login",
-          "https://www.notion.com/explore",
-          "https://www.notion.com/desktop",
-          "https://app.notion.com/index.html",
-          "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
-          "https://apps.microsoft.com/detail/xpdbvss44r0l9h",
-          "https://apps.apple.com/us/app/notion-notes-tasks-ai/id1232780281",
           "https://www.thegoodtrade.com/features/what-is-notion/",
+          "https://apps.apple.com/us/app/notion-notes-tasks-ai/id1232780281",
+          "https://www.notion.com/explore",
+          "https://app.notion.com/index.html",
+          "https://www.notion.com/desktop",
+          "https://en.wikipedia.org/wiki/Notion_(productivity_software)",
+          "https://www.notion.com/pricing",
           "https://www.notion.com/help/notion-for-desktop"
         ],
         "candidates": [
           "app.notion.com",
           "apps.apple.com",
-          "apps.microsoft.com",
           "en.wikipedia.org",
           "www.notion.com",
           "www.thegoodtrade.com"
         ],
         "accepted": [],
-        "ownership_evidence": []
+        "ownership_evidence": [
+          "https://www.notion.com/help/allowlist-ip"
+        ]
       },
       "NowE/NowE.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "NowE",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.reddit.com/r/CamGirlProblems/comments/fw9j2e/does_chaturbate_lock_you_into_a_broadcasting/",
-          "https://www.avvo.com/legal-answers/is-chaturbate-an-illegal-site--4681532.html",
-          "https://www.reddit.com/r/CamGirlProblems/comments/u666s0/what_do_you_like_about_chaturbate/",
-          "https://www.avvo.com/legal-answers/dmca-question-can-i-have-a-porn-website-take-down--3499347.html",
-          "https://www.reddit.com/r/CamGirlProblems/comments/18y76ov/beware_chaturbate_can_see_all_messages_including/",
-          "https://www.reddit.com/r/CamGirlProblems/comments/14p89b8/chaturbate_rules/",
-          "https://www.avvo.com/legal-answers/is-it-allowed-for-someone-to-record-free-public-sh-4948446.html",
-          "https://www.reddit.com/r/CamGirlProblems/comments/olyxk6/chaturbate_viewer_paying_to_stay_light_blue_or/",
-          "https://www.reddit.com/r/CamGirlProblems/comments/ykbizz/how_does_chaturbate_take_their_share/",
-          "https://www.avvo.com/legal-answers/will-i-lose-all-my-money-because-chaturbate-banned-5363576.html"
+          "https://www.nowe.com/",
+          "https://www.nowe.com/?lang=en&locale=en",
+          "https://en.wikipedia.org/wiki/Nowe",
+          "https://www.nowtv.now.com/",
+          "https://www.definitions.net/definition/NOWE",
+          "https://www.nowemoney.com/",
+          "https://en.wikipedia.org/wiki/New_Town,_Warsaw",
+          "https://nowe.de/en/",
+          "https://drakengard.fandom.com/wiki/Nowe",
+          "https://www.youtube.com/watch?v=WWjCSlCvTHc"
         ],
         "candidates": [
-          "avvo.com",
-          "rec-tube.com",
-          "www.avvo.com",
-          "www.reddit.com"
+          "definitions.net",
+          "drakengard.fandom.com",
+          "en.wikipedia.org",
+          "nowe.de",
+          "www.definitions.net",
+          "www.nowe.com",
+          "www.nowemoney.com",
+          "www.nowtv.now.com",
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Npmjs/Npmjs.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Npmjs",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.allrecipes.com/recipe/84980/mexican-white-cheese-dipsauce/",
-          "https://jenaroundtheworld.com/mexican-cheese-dip-2/",
-          "https://www.eatingonadime.com/mexican-white-cheese-dip/",
-          "https://www.recipetineats.com/queso-dip-mexican-cheese-dip/",
-          "https://cafedelites.com/queso/",
-          "https://dangthatssweet.com/white-queso-dip-mexican-cheese-dip/",
-          "https://kitchenhush.com/mexican-cheese-dip-recipes/",
-          "https://foodieandwine.com/white-queso/",
-          "https://insanelygoodrecipes.com/mexican-white-queso-cheese-dip/",
-          "https://eathealthy365.com/authentic-mexican-white-cheese-dip-queso-blanco/"
+          "https://www.npmjs.com/",
+          "https://www.npmjs.com/package/npm",
+          "https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/?ref=meilisearch-blog",
+          "https://nodejs.org/",
+          "https://docs.npmjs.com/",
+          "https://nodejs.org/learn/getting-started/an-introduction-to-the-npm-package-manager",
+          "https://en.wikipedia.org/wiki/NPM",
+          "https://api-docs.npmjs.com/",
+          "https://registry.npmjs.com/-/",
+          "https://status.npmjs.org/"
         ],
         "candidates": [
-          "cafedelites.com",
-          "dangthatssweet.com",
-          "eathealthy365.com",
-          "foodieandwine.com",
-          "insanelygoodrecipes.com",
-          "jenaroundtheworld.com",
-          "kitchenhush.com",
-          "www.allrecipes.com",
-          "www.eatingonadime.com",
-          "www.recipetineats.com"
+          "api-docs.npmjs.com",
+          "docs.npmjs.com",
+          "en.wikipedia.org",
+          "install.sh",
+          "node.js",
+          "nodejs.org",
+          "npmjs.com",
+          "registry.npmjs.com",
+          "status.npmjs.org",
+          "www.npmjs.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Nvidia/Nvidia.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Nvidia",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.nvidia.com/en-us/drivers/",
-          "https://en.wikipedia.org/wiki/Nvidia",
+          "https://www.nvidia.com/",
           "https://www.nvidia.co.uk/Download/indexsg.aspx?lang=en-us",
+          "https://en.wikipedia.org/wiki/Nvidia",
           "https://play.geforcenow.com/",
           "https://finance.yahoo.com/quote/NVDA/",
-          "https://www.nvidia.in/Download/indexsg.aspx?lang=en-in",
+          "https://store.nvidia.com/en-us/consumer/gpu/",
+          "https://www.linkedin.com/company/nvidia",
           "https://nvidianews.nvidia.com/",
-          "https://investor.nvidia.com/home/default.aspx",
-          "https://www.bloomberg.com/latest/nvidia"
+          "https://build.nvidia.com/"
         ],
         "candidates": [
-          "bloomberg.com",
+          "build.nvidia.com",
           "en.wikipedia.org",
           "finance.yahoo.com",
-          "investor.nvidia.com",
           "nvidianews.nvidia.com",
           "play.geforcenow.com",
-          "www.bloomberg.com",
+          "store.nvidia.com",
+          "www.linkedin.com",
           "www.nvidia.co.uk",
-          "www.nvidia.com",
-          "www.nvidia.in"
+          "www.nvidia.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "OKX/OKX.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "OKX",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.msn.com/en-us/news/other/steve-hilton-has-ambitious-plans-to-reshape-california-could-he-actually-pull-them-off/ar-AA2g5eDG"
+          "https://www.okx.com/",
+          "https://www.okx.com/account/login",
+          "https://en.wikipedia.org/wiki/OKX",
+          "https://web3.okx.com/",
+          "https://web3.okx.com/wallet",
+          "https://money.okx.com/",
+          "https://my.okx.com/en-eu/join",
+          "https://www.justice.gov/usao-sdny/pr/okx-pleads-guilty-violating-us-anti-money-laundering-laws-and-agrees-pay-penalties",
+          "https://www.okx.com/en-us",
+          "https://www.okx.com/en-gb"
         ],
         "candidates": [
-          "www.msn.com"
+          "en.wikipedia.org",
+          "money.okx.com",
+          "my.okx.com",
+          "web3.okx.com",
+          "www.justice.gov",
+          "www.okx.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "OP/OP.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "OP",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.op.gg/?lng=en",
-          "https://www.op.gg/",
+          "https://www.op.gg/?main=index",
           "https://meanary.com/op-meaning-slang/",
-          "https://slangwordz.com/op-meaning-slang/",
-          "https://www.youtube.com/watch?v=XGzeJACNJG8",
-          "https://textzloop.com/op-meaning-slang/",
-          "https://www.op.fi/",
           "https://www.merriam-webster.com/dictionary/op",
-          "https://www.opera.com/download",
-          "https://www.youtube.com/watch?v=2BvEgEF1NQc"
+          "https://slangwordz.com/op-meaning-slang/",
+          "https://textzloop.com/op-meaning-slang/",
+          "https://en.wikipedia.org/wiki/OP",
+          "https://www.youtube.com/watch?v=XGzeJACNJG8",
+          "https://www.usatoday.com/story/tech/2023/07/22/op-slang-term-meaning-definition-uses/70358863007/",
+          "https://www.youtube.com/watch?v=2BvEgEF1NQc",
+          "https://www.opera.com/download"
         ],
         "candidates": [
+          "en.wikipedia.org",
           "meanary.com",
-          "op.fi",
           "op.gg",
           "slangwordz.com",
           "textzloop.com",
           "www.merriam-webster.com",
-          "www.op.fi",
           "www.op.gg",
           "www.opera.com",
+          "www.usatoday.com",
           "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "OPPO/OPPO.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "OPPO",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.oppo.com/en/",
-          "https://www.oppo.com/en/smartphones/",
+          "https://www.oppo.com/",
           "https://en.wikipedia.org/wiki/Oppo",
           "https://www.amazon.com/Cell-Phones-OPPO-Accessories/s?rh=n%3A7072561011%2Cp_89%3AOPPO",
-          "https://www.amazon.com/oppo/s?k=oppo",
           "https://www.gsmarena.com/oppo-phones-82.php",
-          "https://www.techadvisor.com/article/724734/best-oppo-phone.html",
+          "https://payment.oppo.com/in/store/",
           "https://support.oppo.com/en/",
-          "https://www.gizmochina.com/2026/08/30/best-oppo-phones/",
-          "https://www.techradar.com/news/best-oppo-phones"
+          "https://en.wikipedia.org/wiki/List_of_Oppo_products",
+          "https://www.oppo.com/en/smartphones/"
         ],
         "candidates": [
           "amazon.com",
+          "cloud.oppo.com",
           "en.wikipedia.org",
           "gsmarena.com",
+          "payment.oppo.com",
           "support.oppo.com",
           "www.amazon.com",
-          "www.gizmochina.com",
           "www.gsmarena.com",
-          "www.oppo.com",
-          "www.techadvisor.com",
-          "www.techradar.com"
+          "www.oppo.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Olevod/Olevod.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Olevod",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.olevod.com/",
-          "https://www.olehdtv.com/index.php/user/reg.html",
-          "https://www.sgzhan.com/zh-hant/view/10002951.html",
-          "https://www.dealmoon.com/guide/976446",
-          "https://movie.le.com/",
-          "https://www.facebook.com/olevod/",
-          "https://olevod.com.siteindices.com/",
-          "https://www.ondemandchina.com/",
-          "https://www.douban.com/note/708722731/"
+          "https://www.meettheowner.co/",
+          "https://www.meettheowner.co/about",
+          "https://wputopia.com/insights/meet-the-owner-examples/",
+          "https://www.linkedin.com/company/meet-the-owner",
+          "https://www.youtube.com/playlist?list=PLOrUltkUqy_McH4xY4F_2nsmLI-SohStP",
+          "https://www.etsy.com/market/meet_the_owner",
+          "https://www.etsy.com/market/meet_the_owner_template"
         ],
         "candidates": [
-          "index.html",
-          "movie.le.com",
-          "olevod.com",
-          "olevod.com.siteindices.com",
-          "www.dealmoon.com",
-          "www.douban.com",
-          "www.facebook.com",
-          "www.olehdtv.com",
-          "www.olevod.com",
-          "www.ondemandchina.com",
-          "www.sgzhan.com"
+          "wputopia.com",
+          "www.etsy.com",
+          "www.linkedin.com",
+          "www.meettheowner.co",
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "OneDrive/OneDrive.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "OneDrive",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://onedrive.live.com/login/en-us/",
-          "https://onedrive.live.com/about/en-us/signin/",
           "https://oauth.live.com/login",
           "https://www.microsoft.com/en-us/microsoft-365/onedrive/download",
           "https://www.onedrive.com/share",
           "https://www.microsoft.com/en-us/microsoft-365/onedrive/login",
           "https://support.microsoft.com/en-us/onedrive/download-onedrive",
-          "https://support.microsoft.com/en-us/onedrive/",
+          "https://admin.onedrive.com/share",
           "https://onedrive.live.com/",
-          "https://onedrive.live.com/login/de-de/"
+          "https://myaccount.microsoft.com/",
+          "https://support.microsoft.com/en-us/onedrive/"
         ],
         "candidates": [
+          "admin.onedrive.com",
+          "myaccount.microsoft.com",
           "oauth.live.com",
           "onedrive.live.com",
           "support.microsoft.com",
@@ -161544,52 +161557,56 @@
         "ownership_evidence": []
       },
       "OnePlus/OnePlus.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "OnePlus",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.oneplus.com/us",
-          "https://www.oneplus.com/global",
-          "https://en.wikipedia.org/wiki/OnePlus",
-          "https://www.cnet.com/tech/mobile/oneplus-pulls-out-of-us-and-europe/",
-          "https://www.amazon.com/OnePlus-Dual-SIM-Unlocked-Smartphone-Snapdragon/dp/B0FSD2VX3R",
-          "https://www.oneplus.com/us/store",
-          "https://www.oneplus.com/us/15",
-          "https://www.oneplus.com/us/oneplus-13",
-          "https://www.oneplus.com/us/oneplus-15",
-          "https://www.oneplus.in/"
+          "https://www.facebook.com",
+          "https://stackoverflow.com/questions/39978989/facebook-pixel-pageview-vs-viewcontent",
+          "https://stackoverflow.com/questions/5023602/facebook-share-link-can-you-customize-the-message-body-text",
+          "https://stackoverflow.com/questions/4421921/what-in-the-world-of-facebook-is-rsrc-php",
+          "https://stackoverflow.com/questions/31399122/how-to-access-storage-emulated-0",
+          "https://stackoverflow.com/questions/5234651/find-facebook-user-url-to-profile-page-by-known-email-address",
+          "https://stackoverflow.com/questions/17197970/facebook-permanent-page-access-token",
+          "https://stackoverflow.com/questions/29429296/responsive-width-facebook-page-plugin",
+          "https://stackoverflow.com/questions/17426018/generate-never-expire-access-token-for-facebook-page",
+          "https://stackoverflow.com/questions/22798181/facebook-oauth-authorize-url-and-parameter-options"
         ],
         "candidates": [
-          "en.wikipedia.org",
-          "www.amazon.com",
-          "www.cnet.com",
-          "www.oneplus.com",
-          "www.oneplus.in"
+          "developers.facebook",
+          "environment.getexternalstoragedirectory",
+          "rsrc.php",
+          "stackoverflow.com",
+          "www.facebook.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "OpenAI/OpenAI.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "OpenAI",
         "status": "checked",
         "sources": [
           "https://openai.com/",
-          "https://openai.com/index/chatgpt/",
-          "https://chatgpt.com/",
-          "https://platform.openai.com/onboarding",
-          "https://en.wikipedia.org/wiki/OpenAI",
-          "https://platform.openai.com/",
           "https://x.com/OpenAI",
-          "https://openai.com/index/gpt-4/",
-          "https://openai.com/news/",
-          "https://openai.com/about/"
+          "https://www.linkedin.com/company/openai",
+          "https://www.reddit.com/r/OpenAI/",
+          "https://chatgpt.com/",
+          "https://openai.com/index/chatgpt/",
+          "https://www.coursera.org/articles/what-is-openai",
+          "https://platform.openai.com/onboarding",
+          "https://www.theverge.com/openai",
+          "https://en.wikipedia.org/wiki/OpenAI"
         ],
         "candidates": [
           "chatgpt.com",
           "en.wikipedia.org",
           "openai.com",
           "platform.openai.com",
+          "www.coursera.org",
+          "www.linkedin.com",
+          "www.reddit.com",
+          "www.theverge.com",
           "x.com"
         ],
         "accepted": [
@@ -161602,54 +161619,52 @@
         ]
       },
       "Opera/Opera.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Opera",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.opera.com/download",
           "https://www.opera.com/",
           "https://apps-opera.com/en/",
-          "https://opera.en.softonic.com/",
+          "https://www.operacolorado.org/",
+          "https://www.operacolorado.org/tickets-events/",
           "https://en.wikipedia.org/wiki/Opera_(web_browser)",
-          "https://apps.microsoft.com/detail/xp8cf6s8g2d5t6",
-          "https://gizmodo.com/download/opera",
-          "https://www.techspot.com/downloads/393-opera-browser.html",
+          "https://en.wikipedia.org/wiki/Opera",
+          "https://opera.en.softonic.com/",
           "https://www.opera.com/download.",
-          "https://www.opera.com/browsers"
+          "https://www.opera.com/opera"
         ],
         "candidates": [
           "apps-opera.com",
-          "apps.microsoft.com",
           "en.wikipedia.org",
-          "gizmodo.com",
           "opera.en.softonic.com",
           "www.opera.com",
-          "www.techspot.com"
+          "www.operacolorado.org"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Oracle/Oracle.yaml": {
-        "checked_at": "2026-10-30 05:38 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Oracle",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.oracle.com/",
           "https://www.oracle.com/corporate/",
-          "https://en.wikipedia.org/wiki/Oracle_Corporation",
           "https://signon.oracle.com/signin",
-          "https://profile.oracle.com/myprofile/account/secure/update-account.jspx",
+          "https://en.wikipedia.org/wiki/Oracle_Corporation",
+          "https://profile.oracle.com/",
           "https://docs.oracle.com/en/menu.html",
-          "https://cloud.oracle.com/en-us/home",
-          "https://careers.oracle.com/jobs/",
           "https://mysites.oracle.com/",
-          "https://docs.oracle.com/en/"
+          "https://docs.oracle.com/en/cloud/index.html",
+          "https://hcwt.fa.us2.oraclecloud.com/hcmUI/faces/FuseWelcome",
+          "https://investor.oracle.com/home/default.aspx"
         ],
         "candidates": [
-          "careers.oracle.com",
-          "cloud.oracle.com",
           "docs.oracle.com",
           "en.wikipedia.org",
+          "hcwt.fa.us2.oraclecloud.com",
+          "investor.oracle.com",
           "mysites.oracle.com",
           "profile.oracle.com",
           "signon.oracle.com",
@@ -161659,26 +161674,28 @@
         "ownership_evidence": []
       },
       "Oreilly/Oreilly.yaml": {
-        "checked_at": "2026-10-30 05:43 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Oreilly",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.oreillyauto.com/",
-          "https://locations.oreillyauto.com/en-us/",
           "https://www.oreilly.com/",
-          "https://www.oreillyauto.com/shop/b",
-          "https://www.oreillypro.com/login",
-          "https://careers.oreillyauto.com/us/en/home",
+          "https://locations.oreillyauto.com/en-us/",
           "https://learning.oreilly.com/",
-          "https://www.oreilly.com/products/books-videos.html",
-          "https://www.nascar.com/nascar-oreilly-auto-parts-series/2026/schedule/",
-          "https://www.nascar.com/standings/nascar-oreilly-auto-parts-series/"
+          "https://www.oreilly.com/online-learning/",
+          "https://www.oreillypro.com/login",
+          "https://www.oreillyauto.com/shop/b",
+          "https://careers.oreillyauto.com/us/en/home",
+          "https://learning.oreilly.com/get-learning/",
+          "https://app.oreilly.com/authors/"
         ],
         "candidates": [
+          "0.cacf5868",
+          "app.oreilly.com",
           "careers.oreillyauto.com",
           "learning.oreilly.com",
           "locations.oreillyauto.com",
-          "www.nascar.com",
+          "oreilly.com",
           "www.oreilly.com",
           "www.oreillyauto.com",
           "www.oreillypro.com"
@@ -161687,83 +161704,93 @@
         "ownership_evidence": []
       },
       "Origin/Origin.yaml": {
-        "checked_at": "2026-10-30 05:43 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Origin",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.originlab.com/",
           "https://www.ea.com/ea-app",
-          "https://www.originlab.com/Origin",
-          "https://www.origin.com/store/odc/store-plugin/views/checkoutLoading.html",
-          "https://zhuanlan.zhihu.com/p/615212186",
+          "https://ea-origin.en.softonic.com/",
           "https://www.origin.com/usa/en-us/store/odc/",
-          "https://zhuanlan.zhihu.com/p/366668144",
-          "https://blog.csdn.net/logikol775/article/details/162340632",
-          "https://www.ea.com/zh-tw/ea-originals",
-          "https://ea-origin.en.softonic.com/"
+          "https://originusa.com/",
+          "https://www.originlab.com/",
+          "https://useorigin.com/",
+          "https://originusa.com/collections/all",
+          "https://www.ea.com/",
+          "https://www.originlab.com/demodownload.aspx",
+          "https://www.merriam-webster.com/dictionary/origin"
         ],
         "candidates": [
-          "blog.csdn.net",
           "ea-origin.en.softonic.com",
+          "originusa.com",
+          "useorigin.com",
           "www.ea.com",
+          "www.merriam-webster.com",
           "www.origin.com",
-          "www.originlab.com",
-          "zhuanlan.zhihu.com"
+          "www.originlab.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "OuPeng/OuPeng.yaml": {
-        "checked_at": "2026-10-30 05:43 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "OuPeng",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://tugbbs.com/forums/threads/new-mvc-owner-within-10-day-cancellation-window.321000/",
-          "https://tugbbs.com/forums/threads/marriott-2024-maintenance-fees.357131/",
-          "https://tugbbs.com/forums/threads/pay-off-marriott-vacation-club.360561/",
-          "https://tugbbs.com/forums/threads/marriott-hotel-discount-code-for-owners.321411/",
-          "https://tugbbs.com/forums/threads/marriott-ii-unit-codes.163130/",
-          "https://tugbbs.com/forums/threads/using-marriott-vacation-club-points-for-collette-tours.300248/",
-          "https://tugbbs.com/forums/threads/should-we-buy-just-attended-marriott-vacation-club-presentation.375046/",
-          "https://tugbbs.com/forums/threads/do-mvc-owners-get-discount-on-marriott-hotels.286990/",
-          "https://tugbbs.com/forums/threads/star-options-to-club-points-questions.348597/",
-          "https://tugbbs.com/forums/threads/to-whom-should-i-file-a-complaint-at-marriott.90724/"
+          "https://www.xe.com/currencyconverter/",
+          "https://www.oanda.com/currency-converter/live-exchange-rates/",
+          "https://www.exchange-rates.org/converter/",
+          "https://www.currencyconverter.org/en",
+          "https://www.xe.com/en-us/currencyconverter/",
+          "https://www.calculator.net/currency-calculator.html",
+          "https://www.bankofamerica.com/foreign-exchange/exchange-rates/",
+          "https://www.x-rates.com/table/?from=USD&amount=1",
+          "https://www.x-rates.com/",
+          "https://www.bloomberg.com/markets/currencies"
         ],
         "candidates": [
-          "tugbbs.com"
+          "www.bankofamerica.com",
+          "www.bloomberg.com",
+          "www.calculator.net",
+          "www.currencyconverter.org",
+          "www.exchange-rates.org",
+          "www.oanda.com",
+          "www.x-rates.com",
+          "www.xe.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Overcast/Overcast.yaml": {
-        "checked_at": "2026-10-30 05:43 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Overcast",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://overcast.fm/",
-          "https://overcast.fm/login?then=notify_ad_availability",
           "https://en.m.wikipedia.org/wiki/Overcast",
+          "https://overcast.fm/login",
           "https://www.merriam-webster.com/dictionary/overcast",
           "https://dictionary.cambridge.org/dictionary/english/overcast",
-          "https://en.m.wikipedia.org/wiki/Overcast_(app)",
-          "https://weather-aware.com/posts/overcast/",
-          "https://dictionary.cambridge.org/us/dictionary/english/overcast",
           "https://www.overcast.com/",
-          "https://www.merriam-webster.com/simple/overcast"
+          "https://en.m.wikipedia.org/wiki/Overcast_(app)",
+          "https://www.overcasthq.com/",
+          "https://weather-aware.com/posts/overcast/",
+          "https://overcastinnovations.com/"
         ],
         "candidates": [
           "dictionary.cambridge.org",
           "en.m.wikipedia.org",
           "overcast.fm",
+          "overcastinnovations.com",
           "weather-aware.com",
           "www.merriam-webster.com",
-          "www.overcast.com"
+          "www.overcast.com",
+          "www.overcasthq.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Overwatch/Overwatch.yaml": {
-        "checked_at": "2026-10-30 05:43 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "Overwatch",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -161771,75 +161798,69 @@
           "https://us.shop.battle.net/en-us/product/overwatch",
           "https://store.steampowered.com/app/2357570/Overwatch/",
           "https://overwatch.blizzard.com/en-us/heroes/",
-          "https://en.m.wikipedia.org/wiki/Overwatch",
-          "https://us.shop.battle.net/en-us/family/overwatch",
+          "https://en.wikipedia.org/wiki/Overwatch",
           "https://overwatch.fandom.com/wiki/Overwatch_Wiki",
-          "https://en.m.wikipedia.org/wiki/Overwatch_(2016_video_game)",
-          "https://www.reddit.com/r/Overwatch/",
-          "https://us.forums.blizzard.com/en/overwatch/"
+          "https://us.shop.battle.net/en-us/family/overwatch",
+          "https://en.wikipedia.org/wiki/Overwatch_(2016_video_game)",
+          "https://overwatch.blizzard.com/en-us/news/patch-notes/",
+          "https://en.wikipedia.org/wiki/Overwatch_(2023_video_game)"
         ],
         "candidates": [
           "battle.net",
-          "en.m.wikipedia.org",
+          "en.wikipedia.org",
           "overwatch.blizzard.com",
           "overwatch.fandom.com",
           "store.steampowered.com",
-          "us.forums.blizzard.com",
-          "us.shop.battle.net",
-          "www.reddit.com"
+          "us.shop.battle.net"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "PBS/PBS.yaml": {
-        "checked_at": "2026-10-30 05:43 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "PBS",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.pbs.org/",
-          "https://www.pbs.org/shows/",
           "https://pbskids.org/",
+          "https://www.pbs.org/shows/",
           "https://pbskids.org/videos",
           "https://en.wikipedia.org/wiki/PBS",
-          "https://www.pbssocal.org/",
-          "https://www.pbssocal.org/schedule",
           "https://www.youtube.com/PBS",
-          "https://help.pbs.org/support/solutions/articles/12000090583-how-to-watch-pbs-without-cable",
-          "https://www.pbs.org/show/newshour/"
+          "https://www.pbs.org/show/newshour/",
+          "https://www.pbs.org/livestream/",
+          "https://www.pbs.org/about/about-pbs/",
+          "https://www.pbs.org/explore/passport/"
         ],
         "candidates": [
           "en.wikipedia.org",
-          "help.pbs.org",
-          "pbs.org",
           "pbskids.org",
           "www.pbs.org",
-          "www.pbssocal.org",
           "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "PCCW/PCCW.yaml": {
-        "checked_at": "2026-10-30 05:43 UTC",
+        "checked_at": "2026-11-11 19:12 UTC",
         "name": "PCCW",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.pccw.com/eng/",
-          "https://en.wikipedia.org/wiki/PCCW",
-          "https://www.pccw.com/products-and-services/index.page",
-          "https://www.pccwglobalinc.com/",
-          "https://customerservice.pccw.com/myhkt/landing.html",
-          "https://www.pccwglobalinc.com/services/network/",
-          "https://www.pccw.com/about-us/index.page?locale=en",
-          "https://www.pccw.com/about-us/our-business/pccw-media/index.page",
-          "https://www.pccw.com/about-us/our-business/index.page?locale=en",
-          "https://www.pccw.com/careers/index.page"
+          "https://en.wikipedia.org/wiki/Pottsville,_Pennsylvania",
+          "https://www.pottsvillepa.gov/",
+          "https://www.mapquest.com/us/pennsylvania/pottsville-pa-282026383",
+          "https://www.pottsvillepa.gov/html/gov.htm",
+          "https://thetouristchecklist.com/things-to-do-in-pottsville-pa/",
+          "https://www.experiencepa.com/pottsville/",
+          "https://www.tripadvisor.com/Attractions-g53488-Activities-Pottsville_Pennsylvania.html"
         ],
         "candidates": [
-          "customerservice.pccw.com",
           "en.wikipedia.org",
-          "www.pccw.com",
-          "www.pccwglobalinc.com"
+          "thetouristchecklist.com",
+          "www.experiencepa.com",
+          "www.mapquest.com",
+          "www.pottsvillepa.gov",
+          "www.tripadvisor.com"
         ],
         "accepted": [],
         "ownership_evidence": []
