@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-12 05:34 UTC",
+  "date": "2026-11-12 19:29 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-12 05:34 UTC",
-    "next_index": 487,
+    "checked_at": "2026-11-12 19:29 UTC",
+    "next_index": 511,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -162509,137 +162509,134 @@
         "ownership_evidence": []
       },
       "Proxy/Proxy.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Proxy",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://trickybird.com/",
           "https://www.croxyproxy.com/",
+          "https://trickybird.com/",
           "https://coproxy.io/tools/free-web-proxy/",
+          "https://anyproxy.site/proxy/",
           "https://www.cloudwards.net/best-free-proxy/",
-          "https://hide.me/en/proxy",
-          "https://www.softwaretestinghelp.com/online-proxy-websites/",
-          "https://ip-info.com/web-proxy",
+          "https://www.proxysite.com/",
+          "https://proxyium.com/",
           "https://www.croxyproxy.net/",
-          "https://www.steganos.com/en/web-proxy",
-          "https://ipfighter.com/free-web-proxy"
+          "https://shifter.io/web-proxy",
+          "https://hide.me/en/proxy"
         ],
         "candidates": [
+          "anyproxy.site",
           "coproxy.io",
           "hide.me",
-          "ip-info.com",
-          "ipfighter.com",
+          "proxyium.com",
+          "proxysite.com",
+          "shifter.io",
           "trickybird.com",
           "www.cloudwards.net",
           "www.croxyproxy.com",
           "www.croxyproxy.net",
-          "www.softwaretestinghelp.com",
-          "www.steganos.com"
+          "www.proxysite.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "ProxyLite/ProxyLite.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "ProxyLite",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://chatgpt.com/",
-          "https://openai.com/index/chatgpt/",
-          "https://chatgpt.com/download/",
-          "https://openai.com/",
-          "https://platform.openai.com/onboarding",
-          "https://en.wikipedia.org/wiki/ChatGPT",
-          "https://learn.chatgpt.com/docs/web",
-          "https://chatgpt.com/plans/free/",
-          "https://openai.com/index/gpt-4/",
-          "https://chatgpt.com/overview/"
+          "https://h30434.www3.hp.com/t5/Printing-Errors-or-Lights-Stuck-Print-Jobs/Officejet-8600-will-not-connect-to-wifi-network/td-p/6959690",
+          "https://h30434.www3.hp.com/t5/Printing-Errors-or-Lights-Stuck-Print-Jobs/Setting-up-wifi-extender-on-home-network-to-use-with-printer/td-p/7241474",
+          "https://h30434.www3.hp.com/t5/Printing-Errors-or-Lights-Stuck-Print-Jobs/Which-HP-DeskJet-All-in-One-Printer-supports-5GHz-WiFi/td-p/7258147",
+          "https://h30434.www3.hp.com/t5/Printer-Wireless-Networking-Internet/My-wifi-got-reset-so-now-i-am-unable-to-connect-my-printer/td-p/9479496",
+          "https://h30434.www3.hp.com/t5/Printers-Archive-Read-Only/How-to-connect-2-4-GHz-printer-to-5-GHz-wireless-network/td-p/6765888",
+          "https://h30434.www3.hp.com/t5/Printers-Archive-Read-Only/I-CHANGED-WIFI-IN-THE-HOUSE-SO-HOW-DO-I-CHANGE-IT-ON-THE/td-p/9093230",
+          "https://h30434.www3.hp.com/t5/Printer-Wireless-Networking-Internet/I-have-changed-wifi-and-cannot-get-my-printer-to-connect-to/td-p/8512946",
+          "https://h30434.www3.hp.com/t5/Printer-Wireless-Networking-Internet/How-do-I-change-wifi-network-on-my-envy-6000-printer/td-p/9440821",
+          "https://h30434.www3.hp.com/t5/Printer-Wireless-Networking-Internet/How-do-I-put-my-M234-on-a-new-network/td-p/9028554",
+          "https://h30434.www3.hp.com/t5/Printer-Wireless-Networking-Internet/how-do-I-reconnect-to-the-network-with-a-new-wifi-password/td-p/9448772"
         ],
         "candidates": [
-          "chatgpt.com",
-          "en.wikipedia.org",
-          "learn.chatgpt.com",
-          "openai.com",
-          "platform.openai.com"
+          "goo.gl",
+          "h30434.www3.hp.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Pubmatic/Pubmatic.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Pubmatic",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://support.google.com/maps/answer/6304221?hl=en&co=GENIE.Platform%3DDesktop",
-          "https://support.google.com/maps/answer/144349?hl=en&co=GENIE.Platform%3DAndroid",
-          "https://forum.cfx.re/t/release-nearest-postal-script/293511",
-          "https://forum.cfx.re/t/release-maps-fivem-custom-maps/48536",
-          "https://support.google.com/maps/answer/6291839?hl=fr&co=GENIE.Platform%3DAndroid",
-          "https://support.google.com/maps/answer/3093484?hl=id&co=GENIE.Platform%3DDesktop",
-          "https://support.google.com/maps/answer/3092445?hl=da&co=GENIE.Platform%3DDesktop",
-          "https://support.google.com/maps/answer/18539?hl=ro&co=GENIE.Platform%3DDesktop",
-          "https://support.google.com/maps/?hl=es-419",
-          "https://support.google.com/maps/answer/18539?hl=id&co=GENIE.Platform%3DAndroid"
+          "https://pubmatic.com/",
+          "https://pubmatic.com/about-us/",
+          "https://en.m.wikipedia.org/wiki/Pubmatic",
+          "https://finance.yahoo.com/quote/PUBM/",
+          "https://www.linkedin.com/company/pubmatic",
+          "https://investors.pubmatic.com/",
+          "https://apps.pubmatic.com/login/demand",
+          "https://pubmatic.com/careers/home/",
+          "https://pubmatic.com/solutions/buyers/",
+          "https://pubmatic.com/solutions/publishers/"
         ],
         "candidates": [
-          "forum.cfx.re",
-          "fxmanifest.lua",
-          "new-postals.json",
-          "ocrp-postals.json",
-          "old-postals.json",
-          "readme.txt",
-          "support.google.com"
+          "apps.pubmatic.com",
+          "en.m.wikipedia.org",
+          "finance.yahoo.com",
+          "investors.pubmatic.com",
+          "pubmatic.com",
+          "www.linkedin.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Purikonejp/Purikonejp.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Purikonejp",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://claude.ai/",
-          "https://claude.ai/api/desktop/win32/x64/exe/latest/redirect",
-          "https://downloads.claude.ai/claude-code-releases/bootstrap.cmd",
-          "https://downloads.claude.ai/releases/darwin/universal/RELEASES.json",
-          "https://assets.claude.ai/brand/artifacts/teams-for-research-labs/numerical-experiments-chart.html",
-          "https://assets.claude.ai/brand/artifacts/solutions/teachers/differentiate-instruction-use-case.html",
-          "https://a.claude.ai/isolated-segment.html?v=20d9aa4742",
-          "https://claude.ai/api/desktop/win32/x64/setup/latest/redirect",
-          "https://claude.ai/login-Claude",
-          "https://downloads.claude.ai/claude-code-releases/bootstrap.sh"
+          "https://alison.com/course/leadership-skills-and-applied-team-management",
+          "https://alison.com/course/leadership-skills-and-team-management",
+          "https://www.reddit.com/r/ARTestAnswers/comments/107uv0u/alison_assessment/",
+          "https://alison.com/course/leadership-and-management-skills-for-business-managing-employees",
+          "https://alison.com/tag/leadership-skills",
+          "https://alison.com/course/becoming-a-team-leader",
+          "https://alison.com/index.php",
+          "https://quizlet.com/398976191/chapter-14-learnsmarts-flash-cards/",
+          "https://www.harvardbusiness.org/wp-content/uploads/2022/07/Harvard-Business-Publishing-Critical-Leadership-Capabilities.pdf",
+          "https://www.shrm.org/topics-tools/workplace/developing-leadership-management-skills"
         ],
         "candidates": [
-          "a.claude.ai",
-          "assets.claude.ai",
-          "claude.ai",
-          "downloads.claude.ai"
+          "alison.com",
+          "quizlet.com",
+          "www.harvardbusiness.org",
+          "www.reddit.com",
+          "www.shrm.org"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Python/Python.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Python",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.python.org/",
           "https://www.python.org/downloads/",
-          "https://www.jetbrains.com/pycharm/",
-          "https://www.codecademy.com/catalog/language/python",
-          "https://www.online-python.com/",
           "https://www.w3schools.com/python/",
-          "https://docs.python.org/",
+          "https://www.online-python.com/",
           "https://www.programiz.com/python-programming/online-compiler/",
+          "https://en.wikipedia.org/wiki/Python_(programming_language)",
+          "https://docs.python.org/",
           "https://docs.python.org/3/tutorial/index.html",
-          "https://en.wikipedia.org/wiki/Python_(programming_language)"
+          "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/",
+          "https://en.wikipedia.org/wiki/Python"
         ],
         "candidates": [
           "docs.python.org",
           "en.wikipedia.org",
           "python.org",
-          "www.codecademy.com",
-          "www.jetbrains.com",
+          "www.geeksforgeeks.org",
           "www.online-python.com",
           "www.programiz.com",
           "www.python.org",
@@ -162649,59 +162646,58 @@
         "ownership_evidence": []
       },
       "QiNiuYun/QiNiuYun.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "QiNiuYun",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://apps.microsoft.com/detail/9nrx63209r7b?hl=en-US&gl=US",
-          "https://www.microsoft.com/en-us/microsoft-365/outlook/outlook-for-windows",
-          "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
-          "https://apps.microsoft.com/detail/9nrx63209r7b?gl=US&hl=en-GB",
-          "https://support.microsoft.com/en-us/outlook/install-or-reinstall-classic-outlook-on-a-windows-pc",
-          "https://outlook.office.com/mail/",
-          "https://support.microsoft.com/en-us/office/lifecycle/officeinstall/download-install-or-reinstall-microsoft-365-or-office-2024-on-a-pc-or-mac",
-          "https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en-GB",
-          "https://learn.microsoft.com/en-us/answers/questions/5868327/how-do-i-download-and-activate-the-outlook-desktop",
-          "https://microsoft-outlook.en.softonic.com/"
+          "https://www.foodnetwork.com/recipes/aida-mollenkamp/shoyu-chicken-recipe-1944460",
+          "https://www.foodnetwork.com/recipes/wicked-chicken-riggies-recipe-2126537",
+          "https://www.foodnetwork.com/recipes/alton-brown/chicken-noodle-soup-recipe-1914030",
+          "https://www.foodnetwork.com/recipes/food-network-kitchen/chicken-pumpkins-7182946",
+          "https://www.foodnetwork.com/recipes/ellie-krieger/maple-mustard-chicken-thighs-recipe-1949864",
+          "https://www.foodnetwork.com/recipes/ina-garten/chicken-with-shallots-recipe-1925108",
+          "https://www.foodnetwork.com/recipes/rachael-ray/chicken-cordon-bleu-burgers-recipe-1915797",
+          "https://www.foodnetwork.com/recipes/ina-garten/lemon-chicken-breasts-recipe-1923711",
+          "https://www.foodnetwork.com/recipes/honey-garlic-chicken-thighs-3679169",
+          "https://www.foodnetwork.com/recipes/melissa-darabian/4-step-chicken-marengo-recipe-1949194"
         ],
         "candidates": [
-          "apps.microsoft.com",
-          "learn.microsoft.com",
-          "microsoft-outlook.en.softonic.com",
-          "outlook.com",
-          "outlook.office.com",
-          "play.google.com",
-          "support.microsoft.com",
-          "www.microsoft.com"
+          "www.foodnetwork.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "QingCloud/QingCloud.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "QingCloud",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://devforum.roblox.com/c/collaboration/recruitment/82",
-          "https://devforum.roblox.com/c/bug-reports/10",
-          "https://www.reddit.com/r/robloxgamedev/",
-          "https://www.reddit.com/r/RobloxHelp/",
-          "https://devforum.roblox.com/t/all-about-object-oriented-programming/8585",
-          "https://devforum.roblox.com/t/forgegui-ai-roblox-scripting-tool-feature/4734535",
-          "https://devforum.roblox.com/t/pixelfix-remove-the-black-edges-on-scaled-images/201802",
-          "https://devforum.roblox.com/c/feature-requests/170",
-          "https://devforum.roblox.com/c/updates/45",
-          "https://devforum.roblox.com/latest"
+          "https://en.wikipedia.org/wiki/Gilda_(film)",
+          "https://www.imdb.com/title/tt0038559",
+          "https://en.wikipedia.org/wiki/Gilda",
+          "https://www.imdb.com/title/tt0038559/fullcredits/",
+          "https://thespanishradish.com/recipes/classic-gilda-tapas-gildas/",
+          "https://archive.org/details/gilda-1946_202106",
+          "https://www.amazon.com/Gilda-Criterion-Collection-4K-UHD/dp/B0GHPMHMJH",
+          "https://es.wikipedia.org/wiki/Gilda_(cantante)",
+          "https://tubitv.com/movies/691806/gilda",
+          "https://gildasalon.com/"
         ],
         "candidates": [
-          "devforum.roblox.com",
-          "www.reddit.com"
+          "archive.org",
+          "en.wikipedia.org",
+          "es.wikipedia.org",
+          "gildasalon.com",
+          "thespanishradish.com",
+          "tubitv.com",
+          "www.amazon.com",
+          "www.imdb.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Qobuz/Qobuz.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Qobuz",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -162709,19 +162705,17 @@
           "https://www.qobuz.com/us-en/shop",
           "https://en.wikipedia.org/wiki/Qobuz",
           "https://try.qobuz.com/tqs_us-en/",
+          "https://try.qobuz.com/sam/",
           "https://help.qobuz.com/en/",
-          "https://try.qobuz.com/rel-2025/",
-          "https://help.qobuz.com/en/articles/10127-the-qobuz-experience",
-          "https://club.qobuz.com/",
-          "https://www.reddit.com/r/qobuz/comments/1d01ww2/im_considering_switching_to_qobuz_what_are_the/",
-          "https://www.pcmag.com/reviews/qobuz"
+          "https://www.qobuz.com/gb-en/discover",
+          "https://www.qobuz.com/us-en/discover/apps-qobuz",
+          "https://www.qobuz.com/us-en/music/streaming/offers",
+          "https://www.reddit.com/r/qobuz/comments/1d01ww2/im_considering_switching_to_qobuz_what_are_the/"
         ],
         "candidates": [
-          "club.qobuz.com",
           "en.wikipedia.org",
           "help.qobuz.com",
           "try.qobuz.com",
-          "www.pcmag.com",
           "www.qobuz.com",
           "www.reddit.com"
         ],
@@ -162729,7 +162723,7 @@
         "ownership_evidence": []
       },
       "Qualcomm/Qualcomm.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Qualcomm",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -162737,287 +162731,296 @@
           "https://en.wikipedia.org/wiki/Qualcomm",
           "https://www.qualcomm.com/company",
           "https://finance.yahoo.com/quote/QCOM/",
+          "https://investor.qualcomm.com/overview/default.aspx",
+          "https://myaccount.qualcomm.com/login",
           "https://www.linkedin.com/company/qualcomm",
           "https://softwarecenter.qualcomm.com/",
-          "https://myaccount.qualcomm.com/login",
-          "https://investor.qualcomm.com/overview/default.aspx",
-          "https://www.qualcomm.cn/",
-          "https://aihub.qualcomm.com/en-US/models"
+          "https://www.qualcomm.com/company/careers",
+          "https://www.qualcomm.com/products"
         ],
         "candidates": [
-          "aihub.qualcomm.com",
           "en.wikipedia.org",
           "finance.yahoo.com",
           "investor.qualcomm.com",
           "myaccount.qualcomm.com",
           "softwarecenter.qualcomm.com",
           "www.linkedin.com",
-          "www.qualcomm.cn",
           "www.qualcomm.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "QuickConnect/QuickConnect.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "QuickConnect",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.dronefly.com/blogs/news/top-mavic-4-pro-alternatives-2025-best-drones-you-can-buy-in-the-u-s",
-          "https://www.dronefly.com/collections/sales-promotions-drones-on-sale",
-          "https://www.dronefly.com/pages/police-drone-infographic",
-          "https://www.dronefly.com/collections/shop-drones-parts-blue-uas",
-          "https://www.dronefly.com/collections/thermal-drones",
-          "https://www.dronefly.com/products/s220pro-640",
-          "https://www.dronefly.com/collections/acsl-soten",
-          "https://www.dronefly.com/collections/drone-monitors",
-          "https://www.dronefly.com/",
-          "https://www.dronefly.com/collections/drones"
+          "https://quickconnect.to/",
+          "https://kb.synology.com/en-global/DSM/help/DSM/Tutorial/cloud_set_up_quickconnect",
+          "https://www.synology.com/en-us/dsm/packages/QuickConnect",
+          "https://app.quickconnect.fr/",
+          "https://www.synology.com/en-global/dsm/feature/cloud_service",
+          "https://kb.synology.com/en-us/DSM/help/DSM/AdminCenter/connection_quickconnect",
+          "https://quickconnect.biz/",
+          "https://www.rdesktop.direct.quickconnect.to/drive/",
+          "https://azquickconnect.azdes.gov/login.aspx"
         ],
         "candidates": [
-          "dronefly.com",
-          "www.dronefly.com"
+          "app.quickconnect.fr",
+          "azquickconnect.azdes.gov",
+          "kb.synology.com",
+          "quickconnect.biz",
+          "quickconnect.to",
+          "www.quickconnect.cn",
+          "www.rdesktop.direct.quickconnect.to",
+          "www.synology.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Qyyjt/Qyyjt.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Qyyjt",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://daily.slickdeals.net/fitness/best-anytime-fitness-membership-deal/",
-          "https://daily.slickdeals.net/shopping/ways-to-get-the-best-deals-at-best-buy/",
-          "https://sales.slickdeals.net/",
-          "https://poppersguide.com/reviews/",
-          "https://daily.slickdeals.net/shopping/best-places-to-sell-and-trade-gift-cards/",
-          "https://daily.slickdeals.net/home-garden/milwaukee-packout-sale/",
-          "https://daily.slickdeals.net/outdoors/how-when-to-find-best-grill-deals-discounts/",
-          "https://daily.slickdeals.net/fitness/24-hour-fitness-membership-deal/",
-          "https://daily.slickdeals.net/tech/best-super-smash-bros-ultimate-discounts-deals/",
-          "https://daily.slickdeals.net/shopping/best-things-to-buy-at-costco/"
+          "https://sellercentral.amazon.com/help/hub/reference/external/G202191620?locale=en-US",
+          "https://www.amazon.com/Returns-Exchanges-Kayla-Rae-Whitaker/dp/0593733347",
+          "https://sellercentral.amazon.com/help/hub/reference/external/G200379860?locale=en-US",
+          "https://aws.amazon.com/blogs/devops/aws-codecommit-returns-to-general-availability/",
+          "https://supplychain.amazon.com/blog/how-to-process-multi-channel-fulfillment-mcf-returns",
+          "https://sell.amazon.com/blog/manage-customer-returns",
+          "https://www.amazon.com/spr/returns/label/rmaID/DBKKwqJ0RRMA",
+          "https://aws.amazon.com/blogs/business-intelligence/how-amazon-worldwide-returns-recommerce-enhanced-analytics-capabilities-with-amazon-q-in-quicksight/",
+          "https://sell.amazon.com/blog/announcements/fba-grade-and-resell",
+          "https://hiring.amazon.com/locations/arizona-jobs"
         ],
         "candidates": [
-          "daily.slickdeals.net",
-          "poppersguide.com",
-          "sales.slickdeals.net"
+          "amazon.com",
+          "aws.amazon.com",
+          "hiring.amazon.com",
+          "sell.amazon.com",
+          "sellercentral.amazon.com",
+          "supplychain.amazon.com",
+          "www.amazon.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "RTHK/RTHK.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "RTHK",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.rthk.hk/",
-          "https://www.rthk.hk/radio/radio1",
-          "https://news.rthk.hk/rthk/en/",
-          "https://en.wikipedia.org/wiki/RTHK",
-          "https://newsprd.rthk.hk/rthk/en/",
-          "https://newsprd.rthk.hk/rthk/ch/",
-          "https://news.rthk.hk/rthk/en/latest-news.htm",
-          "https://www.youtube.com/RTHK",
-          "https://gbcode.rthk.hk/TuniS/www.rthk.hk/radio/radio3",
-          "https://programme.rthk.org.hk/channel/radio/player_txt.php"
+          "https://www.allpar.com/threads/1972-dodge-w100-questions.155371/",
+          "https://www.allpar.com/threads/hvac-weird-problem.166358/",
+          "https://www.answers.microsoft.com/ja-jp/windows/forum/all/ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â£/b45f8dde-aa4a-4598-ab6e-21a67f8b6ec2",
+          "https://www.answers.microsoft.com/ja-jp/windows/forum/apps_windows_10-msedge/microsoft-edge/252f30fb-a46d-48f1-9dff-46f1ebf7ddc1↑少し違うかもですが、マイクロソフトのコミュニティに書いてある方法を試して下さい。&gt;アプリのトラブルシューティングを実行してみると良さそうです。手順:[コントロールパネル]→[システムとセキュリティ]→[セキュリティとメンテナンス]→[トラブルシューティング]の順に開き、[すべて表示]を選択して&quot;Windowsストアアプリ&quot;の診断を行ってみてください。もし、上記の対処法を試してみてもうまくいかない場合は、ひとまず、有効な対処法が見つかるまではIEをかわりに使用されると良いと思います。",
+          "https://www.allpar.com/threads/96-gc-belt-issue.156072",
+          "https://www.allpar.com/threads/radio-infinity-not-working-2000-dodge-intrepid-r-t.142684/",
+          "https://www.allpar.com/threads/barracuda-that-never-was.167655/",
+          "https://www.allpar.com/threads/duster-transmission-swap.159208/",
+          "https://www.allpar.com/threads/electric-window-door-switch-repairable.150961/",
+          "https://www.allpar.com/threads/help-id-this-slant-six-engine.152334/"
         ],
         "candidates": [
-          "en.wikipedia.org",
-          "gbcode.rthk.hk",
-          "news.rthk.hk",
-          "newsprd.rthk.hk",
-          "programme.rthk.org.hk",
-          "www.rthk.hk",
-          "www.youtube.com"
+          "www.allpar.com",
+          "www.answers.microsoft.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Rakuten/Rakuten.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Rakuten",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.rakuten.com/",
+          "https://www.rakuten.ca/",
           "https://www.rakuten.com/welcome.htm",
-          "https://www.rakuten.co.jp/",
+          "https://www.facebook.com/rakuten/",
+          "https://chromewebstore.google.com/detail/rakuten-get-cash-back-for/chhjbpecpncaggjpdakmflnfcopglcmi?hl=en",
+          "https://apps.apple.com/us/app/rakuten-cash-back-deals/id723134859",
+          "https://x.com/Rakuten",
           "https://en.wikipedia.org/wiki/Rakuten",
-          "https://go.rakuten.com/",
-          "https://global.rakuten.com/corp/",
-          "https://www.rakuten.com/new-brand",
-          "https://www.rakuten.com/f/allstores",
-          "https://eu.account.rakuten.com/login",
-          "https://global.rakuten.com/corp/about/"
+          "https://en.wikipedia.org/wiki/Rakuten.com"
         ],
         "candidates": [
+          "apps.apple.com",
+          "chromewebstore.google.com",
           "en.wikipedia.org",
-          "eu.account.rakuten.com",
-          "global.rakuten.com",
           "go.rakuten.com",
-          "www.rakuten.co.jp",
-          "www.rakuten.com"
+          "rakuten.com",
+          "www.facebook.com",
+          "www.rakuten.ca",
+          "www.rakuten.com",
+          "x.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Rarbg/Rarbg.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Rarbg",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.techworm.net/2021/08/rarbg-proxy-list-mirror.html",
           "https://techpp.com/2026/05/24/rarbg-proxy-sites/",
           "https://rarbg.beer/",
+          "https://github.com/wesharebytes/RARBG-Proxy-List",
+          "https://proxywing.com/blog/rarbg-proxy",
           "https://en.wikipedia.org/wiki/RARBG",
           "https://privacysavvy.com/security/torrents/best-torrent-sites/",
-          "https://github.com/wesharebytes/RARBG-Proxy-List",
+          "https://www.getdroidtips.com/all-rarbg-proxy-list/",
           "https://www.itechguides.com/11-best-rarbg-alternative-sites-in-2026-working/",
-          "https://www.reddit.com/r/torrents/comments/195k8o3/rarbg/",
-          "https://www.reddit.com/r/trackers/comments/16hro1r/introducing_therarbg_a_fork_of_the_nowdefunct/",
-          "https://www.techworm.net/2023/06/torrent-site-rarbg-shut-down.html"
+          "https://www.tuttotek.it/web-social/guide-web-social/rarbg-nuovo-indirizzo-e-link"
         ],
         "candidates": [
           "en.wikipedia.org",
           "github.com",
           "privacysavvy.com",
+          "proxywing.com",
           "rarbg.beer",
           "techpp.com",
+          "tuttotek.it",
+          "www.getdroidtips.com",
           "www.itechguides.com",
-          "www.reddit.com",
-          "www.techworm.net"
+          "www.techworm.net",
+          "www.tuttotek.it"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Razer/Razer.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Razer",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.razer.com/",
-          "https://www.razer.com/pc/software",
-          "https://insider.razer.com/razer-synapse-27",
-          "https://razerid.razer.com/",
-          "https://en.wikipedia.org/wiki/Razer_Inc.",
-          "https://www.razer.us/",
-          "https://www.razer.com/store",
-          "https://www.razer.com/pc",
-          "https://www.razer.com/eu-en",
-          "https://www.razer.com/pc/gaming-headsets-and-audio"
+          "https://www.britannica.com/event/Whiskey-Rebellion",
+          "https://en.wikipedia.org/wiki/Whiskey_Rebellion",
+          "https://www.history.com/articles/whiskey-rebellion",
+          "https://www.history.com/articles/whiskey-america-economy",
+          "https://www.americanhistorycentral.com/entries/whiskey-rebellion/",
+          "https://www.thoughtco.com/whiskey-rebellion-4797408",
+          "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/whiskey-rebellion",
+          "https://www.pbs.org/wgbh/americanexperience/features/duel-whiskey-rebellion/",
+          "https://anythingpolitical.com/why-the-whiskey-rebellion-was-a-turning-point-for-federal-power/",
+          "https://teachingamericanhistory.org/the-whiskey-rebellion-insurrection-in-the-early-republic/"
         ],
         "candidates": [
+          "anythingpolitical.com",
           "en.wikipedia.org",
-          "insider.razer.com",
-          "razerid.razer.com",
-          "www.razer.com",
-          "www.razer.us"
+          "teachingamericanhistory.org",
+          "www.americanhistorycentral.com",
+          "www.britannica.com",
+          "www.history.com",
+          "www.mountvernon.org",
+          "www.pbs.org",
+          "www.thoughtco.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Reabble/Reabble.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Reabble",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.usps.com/",
-          "https://store.usps.com/store/shipping-supplies",
-          "https://reg.usps.com/informeddelivery/welcome",
-          "https://www.usps.com/250/welcome.htm",
-          "https://informeddelivery.usps.com/portal/dashboard?mode=id-login",
-          "https://www.usps.com/smallbusiness/",
-          "https://facts.usps.com/",
-          "https://tools.usps.com/locations/details/1438333",
-          "https://reg.usps.com/entreg/LoginAction",
-          "https://postalpro.usps.com/ppro-tools/inspection-service"
+          "https://anusedcar.com/mazda/how-long-has-mazda-been-making-hybrids/",
+          "https://en.wikipedia.org/wiki/Mazda",
+          "https://en.wikipedia.org/wiki/Mazda_CX-50",
+          "https://www.mazdausa.com/the-mazda-difference/electric-vehicles/hybrids",
+          "https://www.cars.com/research/mazda-cx_50_hybrid/",
+          "https://www.reliablemazda.com/blog/when-did-mazda-make-their-first-electric-vehicle.htm",
+          "https://colonialmazdablog.com/2025/09/10/a-brief-history-of-mazda-hybrid-models/",
+          "https://news.mazdausa.com/mazda-history",
+          "https://www.magnamazda.co.uk/news/everything-you-need-to-know-about-mazda-s-hybrid-technology/",
+          "https://www.mazdausa.com/the-mazda-difference/electric-vehicles/plug-in-hybrids"
         ],
         "candidates": [
-          "facts.usps.com",
-          "informeddelivery.usps.com",
-          "postalpro.usps.com",
-          "reg.usps.com",
-          "store.usps.com",
-          "tools.usps.com",
-          "usps.com",
-          "www.usps.com"
+          "anusedcar.com",
+          "cars.com",
+          "colonialmazdablog.com",
+          "en.wikipedia.org",
+          "news.mazdausa.com",
+          "www.cars.com",
+          "www.magnamazda.co.uk",
+          "www.mazdausa.com",
+          "www.reliablemazda.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Reddit/Reddit.yaml": {
-        "checked_at": "2026-10-30 05:46 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Reddit",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.reddit.com/",
+          "https://x.com/Reddit",
+          "https://www.youtube.com/c/reddit",
+          "https://apps.apple.com/us/app/reddit/id1064216828",
+          "https://apps.microsoft.com/detail/9ns3rbq5hv5f?hl=en-US&gl=US",
           "https://www.reddit.com/r/reddit/wiki/index/",
-          "https://en.wikipedia.org/wiki/Reddit",
           "https://redditinc.com/",
-          "https://www.reddit.com/r/all+/",
-          "https://www.reddit.com/r/all-do/",
-          "https://ads.reddit.com/",
-          "https://www.facebook.com/reddit/",
-          "https://redditinc.com/policies/user-agreement",
-          "https://support.reddithelp.com/hc/en-us/requests/new"
+          "https://mashable.com/article/reddit-r-all-going-away-new-homepage",
+          "https://www.techtarget.com/news/What-is-Reddit-How-it-works-history-and-pros-and-cons/846994/",
+          "https://en.m.wikipedia.org/wiki/Reddit"
         ],
         "candidates": [
-          "ads.reddit.com",
-          "en.wikipedia.org",
+          "apps.apple.com",
+          "apps.microsoft.com",
+          "bit.ly",
+          "en.m.wikipedia.org",
+          "mashable.com",
           "redditinc.com",
-          "support.reddithelp.com",
-          "www.facebook.com",
-          "www.reddit.com"
+          "www.reddit.com",
+          "www.techtarget.com",
+          "www.youtube.com",
+          "x.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "RemoteDesktop/RemoteDesktop.yaml": {
-        "checked_at": "2026-10-30 05:55 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "RemoteDesktop",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://remotedesktop.google.com/",
-          "https://www.remotedesktop.com/",
-          "https://remotedesktop.google.com/_/oauthredirect",
-          "https://chromewebstore.google.com/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai",
-          "https://app.remotedesktop.com/login",
-          "https://anydesk.com/en/downloads/windows",
-          "https://www.microsoft.com/en-us/d/microsoft-remote-desktop/9wzdncrfj3ps",
-          "https://support.microsoft.com/en-us/windows/experience/connectivity-networking/how-to-use-remote-desktop",
-          "https://anydesk.com/en",
-          "https://remotedesktop.google.com/access"
+          "https://us.forums.blizzard.com/en/wow/t/transmog-of-gilneas-genn-greymane/2004761",
+          "https://us.forums.blizzard.com/en/wow/t/the-disaster-that-is-the-reclamation-of-gilneas/1768151",
+          "https://us.forums.blizzard.com/en/wow/t/pretty-amazing-how-thoroughly-retconned-tess-greymane-has-become/1767152",
+          "https://us.forums.blizzard.com/en/wow/t/reclaiming-gilneas-a-worgen-fan-reflecting/1767434",
+          "https://us.forums.blizzard.com/en/hearthstone/t/missing-cards-after-cataclysm-launch/158388",
+          "https://us.forums.blizzard.com/en/wow/t/tess-greymane-as-worgen-leader/1776887",
+          "https://us.forums.blizzard.com/en/hearthstone/t/simply-unfair-that-tess-greymane-can-replay-rogue-cards/157987",
+          "https://us.forums.blizzard.com/en/wow/t/why-is-alliance-lore-so-bad/1600148",
+          "https://us.forums.blizzard.com/en/wow/t/will-the-bloodline-of-kings-continue-in-stormwind/2239559",
+          "https://us.forums.blizzard.com/en/wow/t/cannot-access-%E2%80%9Cthe-gilneas-reclamation%E2%80%9D-storyline/2219391"
         ],
         "candidates": [
-          "aka.ms",
-          "anydesk.com",
-          "app.remotedesktop.com",
-          "chromewebstore.google.com",
-          "remotedesktop.google.com",
-          "support.microsoft.com",
-          "www.microsoft.com",
-          "www.remotedesktop.com"
+          "us.forums.blizzard.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Riot/Riot.yaml": {
-        "checked_at": "2026-10-30 05:55 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Riot",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.riotgames.com/",
+          "https://login.riotgames.com/",
           "https://playvalorant.com/en-us/download/",
-          "https://playvalorant.com/",
           "https://account.riotgames.com/en-US/login",
+          "https://playvalorant.com/",
           "https://support.riotgames.com/en-us/riot/",
           "https://www.leagueoflegends.com/en-us/download/",
-          "https://account.riotgames.com/log-in",
-          "https://www.leagueoflegends.com/en-sg/download/",
           "https://www.riotgames.com/pt-br",
-          "https://account.riotgames.com/B"
+          "https://www.leagueoflegends.com/"
         ],
         "candidates": [
           "account.riotgames.com",
+          "login.riotgames.com",
           "playvalorant.com",
           "support.riotgames.com",
           "www.leagueoflegends.com",
@@ -163027,7 +163030,7 @@
         "ownership_evidence": []
       },
       "Rockstar/Rockstar.yaml": {
-        "checked_at": "2026-10-30 05:55 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "Rockstar",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -163038,14 +163041,15 @@
           "https://en.wikipedia.org/wiki/Rockstar_Games",
           "https://store.rockstargames.com/",
           "https://socialclub.rockstargames.com/member/----___--___----",
-          "https://store.rockstargames.com/game/buy-gta-v",
-          "https://www.rockstargames.com/newswire/article/89k8a554534523/Download-The-Rockstar-Games-Launcher",
-          "https://www.rockstargames.com/zh/"
+          "https://www.rockstaroriginal.com/collections/kids-homepage",
+          "https://support.rockstargames.com/",
+          "https://store.rockstargames.com/game/buy-gta-v"
         ],
         "candidates": [
           "en.wikipedia.org",
           "socialclub.rockstargames.com",
           "store.rockstargames.com",
+          "support.rockstargames.com",
           "www.rockstargames.com",
           "www.rockstaroriginal.com"
         ],
@@ -163053,61 +163057,53 @@
         "ownership_evidence": []
       },
       "RuanMei/RuanMei.yaml": {
-        "checked_at": "2026-10-30 05:55 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "RuanMei",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.ncaa.com/standings/football/fbs",
-          "https://www.ncaa.com/rankings/football/fbs/associated-press",
-          "https://www.sports-reference.com/cfb/years/2025-standings.html",
-          "https://www.footballdb.com/college-football/standings.html?yr=2025",
-          "https://www.topendsports.com/sport/college-football/standings.htm",
-          "https://uxscoreboard.com/ncaaf/standings/2025",
-          "https://en.wikipedia.org/wiki/2025_NCAA_Division_I_FBS_football_rankings",
-          "https://fbschedules.com/ap-top-25-final-rankings-released-for-2025-college-football-season/",
-          "https://apnews.com/hub/ap-top-25-college-football-poll",
-          "https://www.collegefootballpoll.com/rankings/"
+          "https://mail.google.com/mail",
+          "https://accounts.google.com/",
+          "https://accounts.google.com/login?hl=pt-BR",
+          "https://accounts.google.com/login?hl=id",
+          "https://accounts.google.com/login?service=mail",
+          "https://mail.google.com/mail/u/0/",
+          "https://myaccount.google.com/intro/signing-in-to-google",
+          "https://support.google.com/mail/answer/8494?hl=en&co=genie.platform=desktop",
+          "https://www.google.com/account/about/",
+          "https://support.google.com/mail/answer/8494?hl=en-IN&co=GENIE.Platform%3DDesktop"
         ],
         "candidates": [
-          "apnews.com",
-          "en.wikipedia.org",
-          "fbschedules.com",
-          "ncaa.com",
-          "poll.com",
-          "sports-reference.com",
-          "uxscoreboard.com",
-          "www.collegefootballpoll.com",
-          "www.footballdb.com",
-          "www.ncaa.com",
-          "www.sports-reference.com",
-          "www.topendsports.com"
+          "accounts.google.com",
+          "mail.google.com",
+          "myaccount.google.com",
+          "support.google.com",
+          "www.google.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "SFExpress/SFExpress.yaml": {
-        "checked_at": "2026-10-30 05:55 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "SFExpress",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.sf-international.com/us/en/",
-          "https://www.sf-express.com/chn/en/waybill/list",
           "https://www.ordertracker.com/carriers/sf-express",
-          "https://www.17track.net/en/carriers/sf-express",
+          "https://www.sf-express.com/chn/en/waybill/list",
           "https://www.sf-express.com/chn/en",
-          "https://carriers.aftership.com/sf-express",
+          "https://www.17track.net/en/carriers/sf-express",
           "https://parcelsapp.com/en/carriers/sf-express",
-          "https://htm.sf-express.com/tw/en/",
-          "https://en.wikipedia.org/wiki/SF_Express",
-          "https://usshipweb.sf-express.com/Home/Index"
+          "https://en.m.wikipedia.org/wiki/SF_Express",
+          "https://carriers.aftership.com/sf-express",
+          "https://htm.sf-express.com/tw/tc/",
+          "https://htm.sf-express.com/tw/en/"
         ],
         "candidates": [
           "carriers.aftership.com",
-          "en.wikipedia.org",
+          "en.m.wikipedia.org",
           "htm.sf-express.com",
           "parcelsapp.com",
           "s.f.express",
-          "usshipweb.sf-express.com",
           "www.17track.net",
           "www.ordertracker.com",
           "www.sf-express.com",
@@ -163117,61 +163113,59 @@
         "ownership_evidence": []
       },
       "SMG/SMG.yaml": {
-        "checked_at": "2026-10-30 05:55 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "SMG",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://reporting.smg.com/",
           "https://smg.com/",
+          "https://safetymanagementgroup.com/safety-locations/indianapolis-in/",
+          "https://safetymanagementgroup.com/",
+          "https://smg.com/customer-experience-management",
           "https://en.wikipedia.org/wiki/List_of_submachine_guns",
           "https://en.wikipedia.org/wiki/Submachine_gun",
-          "https://smg.com/about",
-          "https://ssbcrackexams.com/best-sub-machine-guns/",
-          "https://thegunzone.com/best-submachine-guns/",
-          "https://smggunsstore.com/",
-          "https://www.thetoptens.com/best-submachine-guns/",
-          "https://360.smg.com/"
+          "https://smg.team/",
+          "https://360.smg.com/",
+          "https://smgconstruction.com/"
         ],
         "candidates": [
           "360.smg.com",
           "en.wikipedia.org",
           "reporting.smg.com",
+          "safetymanagementgroup.com",
           "smg.com",
-          "smggunsstore.com",
-          "ssbcrackexams.com",
-          "thegunzone.com",
-          "www.thetoptens.com"
+          "smg.team",
+          "smgconstruction.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "SMZDM/SMZDM.yaml": {
-        "checked_at": "2026-10-30 05:55 UTC",
+        "checked_at": "2026-11-12 19:29 UTC",
         "name": "SMZDM",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://en.codigosinternacionales.com/world/country-code-35/",
-          "https://www.schooldrillers.com/countries-using-35-prefix-code/",
-          "https://en.wikipedia.org/wiki/List_of_telephone_country_codes",
-          "https://en.wikipedia.org/wiki/Telephone_country_code",
-          "https://www.answers.com/telecommunications/Where_is_telephone_country_code_35",
-          "https://www.ramforum.com/threads/diagnostic-code-35-help.17259/",
-          "https://rog-forum.asus.com/t5/amd-800-series/cpu-post-memory-initialization-code-35-during-normal-operation/td-p/1075021",
-          "https://police-codes.com/basic-codes/35",
-          "https://www.studycountry.com/wiki/which-country-has-code-35",
-          "https://www.studycountry.com/wiki/which-country-code-is-35"
+          "https://www.smzdm.com/",
+          "https://www.smzdm.com/mall/smzdm/",
+          "https://post.smzdm.com/",
+          "https://m.smzdm.com/top/",
+          "https://wiki.smzdm.com/",
+          "https://faxian.smzdm.com/",
+          "https://shangjia.smzdm.com/",
+          "https://m.smzdm.com/html/whole_network_parity/",
+          "https://h5.smzdm.com/",
+          "https://zhiyou.smzdm.com/user/login/"
         ],
         "candidates": [
-          "en.codigosinternacionales.com",
-          "en.wikipedia.org",
-          "police-codes.com",
-          "ramforum.com",
-          "rog-forum.asus.com",
-          "studycountry.com",
-          "www.answers.com",
-          "www.ramforum.com",
-          "www.schooldrillers.com",
-          "www.studycountry.com"
+          "faxian.smzdm.com",
+          "h5.smzdm.com",
+          "m.smzdm.com",
+          "post.smzdm.com",
+          "shangjia.smzdm.com",
+          "smzdm.com",
+          "wiki.smzdm.com",
+          "www.smzdm.com",
+          "zhiyou.smzdm.com"
         ],
         "accepted": [],
         "ownership_evidence": []
