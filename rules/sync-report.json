@@ -1,7 +1,7 @@
 {
   "upstream": "https://github.com/blackmatrix7/ios_rule_script",
   "revision": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-  "date": "2026-11-14 04:44 UTC",
+  "date": "2026-11-14 17:37 UTC",
   "collections": {
     "rule/Clash/115/115.yaml": {
       "input": 10,
@@ -149018,8 +149018,8 @@
   ],
   "discovery": {
     "engine": "Bing public RSS",
-    "checked_at": "2026-11-14 04:44 UTC",
-    "next_index": 583,
+    "checked_at": "2026-11-14 17:37 UTC",
+    "next_index": 607,
     "attempted": 24,
     "total_collections": 689,
     "verified_additions": {
@@ -165144,57 +165144,60 @@
         "ownership_evidence": []
       },
       "TruthSocial/TruthSocial.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "TruthSocial",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://truthsocial.com/",
           "https://truthsocial.com/auth/sign_in",
-          "https://en.m.wikipedia.org/wiki/Truth_Social",
           "https://www.trumpstruth.org/",
+          "https://en.wikipedia.org/wiki/Truth_Social",
           "https://www.facebook.com/TruthSocialOfficial/",
+          "https://x.com/TruthSocial",
           "https://help.truthsocial.com/",
-          "https://truthsocial.com/@realDonaldTrump/114082877976878390",
-          "https://truthsocial.com/@realDonaldTrump/115052030103944534",
-          "https://truthplus.tv/",
+          "https://truthsocial.co.in/auth/sign_up",
+          "https://player.truthsocial.tv/",
           "https://www.reddit.com/r/trumptweets/"
         ],
         "candidates": [
-          "en.m.wikipedia.org",
+          "en.wikipedia.org",
+          "givesendgo.com",
           "help.truthsocial.com",
-          "truthplus.tv",
+          "player.truthsocial.tv",
+          "truthsocial.co.in",
           "truthsocial.com",
           "www.facebook.com",
           "www.reddit.com",
-          "www.trumpstruth.org"
+          "www.trumpstruth.org",
+          "x.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Tumblr/Tumblr.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Tumblr",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.tumblr.com/",
+          "https://www.wikihow.com/Use-Tumblr",
+          "https://apps.apple.com/us/app/tumblr-social-media-art/id305343404",
+          "https://www.britannica.com/topic/Tumblr",
           "https://www.tumblr.com/login",
-          "https://en.m.wikipedia.org/wiki/Tumblr",
           "https://dashboard.tumblr.com/",
-          "https://new.tumblr.com/",
-          "https://about.tumblr.com/",
-          "https://----.tumblr.com/",
           "https://xn--gba.tumblr.com/",
-          "https://letsgo.tumblr.com/welcome-guide",
-          "https://www.wikihow.com/Use-Tumblr"
+          "https://----.tumblr.com/",
+          "https://www.instagram.com/tumblr/",
+          "https://letsgo.tumblr.com/welcome-guide"
         ],
         "candidates": [
           "----.tumblr.com",
-          "about.tumblr.com",
+          "apps.apple.com",
           "dashboard.tumblr.com",
-          "en.m.wikipedia.org",
           "letsgo.tumblr.com",
-          "new.tumblr.com",
           "tumblr.com",
+          "www.britannica.com",
+          "www.instagram.com",
           "www.tumblr.com",
           "www.wikihow.com",
           "xn--gba.tumblr.com"
@@ -165203,25 +165206,25 @@
         "ownership_evidence": []
       },
       "Twitch/Twitch.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Twitch",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.twitch.tv/",
           "https://www.twitch.com/login",
           "https://www.twitch.tv/twitch",
+          "https://www.twitch.tv/?lang=es",
           "https://www.twitch.tv/directory",
           "https://www.youtube.com/Twitch",
-          "https://play.google.com/store/apps/details?id=tv.twitch.android.app&hl=en-US",
+          "https://meetups.twitch.com/",
           "https://en.wikipedia.org/wiki/Twitch_(service)",
-          "https://go.twitch.tv/twitch/about",
-          "https://www.twitch.tv/en-us/"
+          "https://go.twitch.tv/twitch/about"
         ],
         "candidates": [
           "app.twitch.tv",
           "en.wikipedia.org",
           "go.twitch.tv",
-          "play.google.com",
+          "meetups.twitch.com",
           "twitch.tv",
           "www.twitch.com",
           "www.twitch.tv",
@@ -165231,83 +165234,81 @@
         "ownership_evidence": []
       },
       "Twitter/Twitter.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Twitter",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://x.com/",
+          "https://pro.twitter.com/login",
           "https://x.com/TWITTER",
+          "https://api.twitter.com/oauth/authenticate",
+          "https://en.wikipedia.org/wiki/X_(social_network)",
+          "https://www.facebook.com/TwitterInc/",
           "https://play.google.com/store/apps/details?id=com.twitter.android&hl=en",
           "https://help.x.com/en/using-x/download-the-x-app",
-          "https://en.m.wikipedia.org/wiki/X_(social_network)",
-          "https://apps.apple.com/us/app/x/id333903271",
-          "https://en.m.wikipedia.org/wiki/Twitter,_Inc.",
-          "https://t.co/",
-          "https://gizmodo.com/download/x-twitter",
+          "https://en.wikipedia.org/wiki/Twitter,_Inc.",
           "https://help.x.com/en/using-x"
         ],
         "candidates": [
-          "apps.apple.com",
-          "en.m.wikipedia.org",
-          "gizmodo.com",
+          "api.twitter.com",
+          "en.wikipedia.org",
           "help.x.com",
           "play.google.com",
-          "t.co",
+          "pro.twitter.com",
+          "www.facebook.com",
           "x.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "U17/U17.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "U17",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.amazon.com/your-account",
-          "https://www.amazon.com/gp/css/homepage.html",
-          "https://pay.amazon.com/help/201212250",
-          "https://www.amazon.com/",
-          "https://selection.amazon.com/sign-in?redirect_to=%2F&mons_redirect=sign_in",
-          "https://www.amazon.com/cart",
-          "https://www.amazon.com/amazonprime",
-          "https://www.amazon.com/gp/help/customer/display.html?nodeId=GU3SL3GTHLHPDQ2H",
-          "https://business.amazon.com/en/login",
-          "https://aws.amazon.com/marketplace/login"
+          "https://www.microsoft.com/en-us/",
+          "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+          "https://support.microsoft.com/en-us/accounts-billing/work-school/sign-in-to-your-work-or-school-account-using-two-step-verification",
+          "https://techcommunity.microsoft.com/blog/plannerblog/introducing-a-refreshed-design-task-chat-and-more-in-microsoft-planner/4495440",
+          "https://support.microsoft.com/en-us/accounts-billing/work-school/verifying-your-identity-when-signing-in",
+          "https://support.microsoft.com/en-us/accounts-billing/manage/help-us-secure-your-account",
+          "https://techcommunity.microsoft.com/blog/skills-hub-blog/the-ai-job-boom-continues-build-the-skills-that-move-business-forward/4494139",
+          "https://support.microsoft.com/en-us/surface/models/surface-pro-6-specs-and-features",
+          "https://support.microsoft.com/en-us/forms/sign-in-to-microsoft-forms",
+          "https://support.microsoft.com/en-us/sharepoint/platform/what-is-sharepoint"
         ],
         "candidates": [
-          "amazon.com",
-          "aws.amazon.com",
-          "business.amazon.com",
-          "pay.amazon.com",
-          "selection.amazon.com",
-          "www.amazon.com"
+          "support.microsoft.com",
+          "techcommunity.microsoft.com",
+          "www.microsoft.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "UBI/UBI.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "UBI",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.ubisoft.com/en-us",
           "https://en.m.wikipedia.org/wiki/Universal_basic_income",
           "https://www.investopedia.com/terms/b/basic-income.asp",
-          "https://www.unionbankonline.bank.in/",
           "https://www.ubisoft.com/en-us/ubisoft-connect",
-          "https://communitiesandculture.org/universal-basic-income-ubi-explained/",
-          "https://en.m.wikipedia.org/wiki/Ubisoft",
+          "https://www.unionbankonline.bank.in/",
+          "https://www.ui.com/",
+          "https://en.m.wikipedia.org/wiki/UBI",
+          "https://dor.wa.gov/open-business/business-licensing-and-renewals-faqs",
           "https://www.britannica.com/money/universal-basic-income-ubi",
-          "https://smartasset.com/financial-advisor/universal-basic-income",
           "https://www.upcounsel.com/what-is-a-ubi-number"
         ],
         "candidates": [
-          "communitiesandculture.org",
+          "banking.do",
+          "dor.wa.gov",
           "en.m.wikipedia.org",
-          "smartasset.com",
           "www.britannica.com",
           "www.investopedia.com",
           "www.ubisoft.com",
+          "www.ui.com",
           "www.unionbankonline.bank.in",
           "www.upcounsel.com"
         ],
@@ -165315,150 +165316,127 @@
         "ownership_evidence": []
       },
       "UC/UC.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "UC",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://apply.universityofcalifornia.edu/my-application/login",
-          "https://www.uc.edu/",
-          "https://en.m.wikipedia.org/wiki/University_of_California",
-          "https://www.ucumberlands.edu/current-students",
-          "https://www.ucumberlands.edu/admissions/apply",
-          "https://www.universityofcalifornia.edu/",
-          "https://www.universityofcalifornia.edu/about-uc",
-          "https://admission.universityofcalifornia.edu/apply-now.html",
-          "https://www.uchealth.org/locations/",
-          "https://www.admissions.uc.edu/"
+          "https://www.youtube.com/@falconstor/videos"
         ],
         "candidates": [
-          "admission.universityofcalifornia.edu",
-          "apply.universityofcalifornia.edu",
-          "en.m.wikipedia.org",
-          "www.admissions.uc.edu",
-          "www.uc.edu",
-          "www.uchealth.org",
-          "www.ucumberlands.edu",
-          "www.universityofcalifornia.edu"
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "UCloud/UCloud.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "UCloud",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.ucloud.cn/",
-          "https://www.ucloud-global.com/",
-          "https://console.ucloud.cn/",
-          "https://www.ucloud.cn/site/product/uhost.html",
-          "https://console.ucloud.cn/?lang=EN",
-          "https://www.icloud.com/",
-          "https://www.ucloud-global.com/zh",
-          "https://cloud.ucloud.ufone.com/",
-          "https://baike.baidu.com/item/ucloud/1992049",
-          "https://console.ucloud-global.com/"
+          "https://en.wikipedia.org/wiki/Bellevue,_Washington",
+          "https://www.visitbellevue.com/",
+          "https://www.bellevuecollege.edu/",
+          "https://bellevuewa.gov/",
+          "https://downtownbellevue.com/things-to-do-in-bellevue/",
+          "https://bellevuewa.gov/city-bellevue",
+          "https://bellevue.com/",
+          "https://downtownbellevue.com/bellevue-visitor-guide/",
+          "https://bellevuecollection.com/",
+          "https://www.bellevue.edu/"
         ],
         "candidates": [
-          "baike.baidu.com",
-          "cloud.ucloud.ufone.com",
-          "console.ucloud-global.com",
-          "console.ucloud.cn",
-          "www.icloud.com",
-          "www.ucloud-global.com",
-          "www.ucloud.cn"
+          "bellevue.com",
+          "bellevuecollection.com",
+          "bellevuewa.gov",
+          "downtownbellevue.com",
+          "en.wikipedia.org",
+          "www.bellevue.edu",
+          "www.bellevuecollege.edu",
+          "www.visitbellevue.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "UKMedia/UKMedia.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "UKMedia",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.yelp.com/search?cflt=plumbing&find_loc=Redmond%2C+WA+98052",
-          "https://www.angi.com/companylist/us/wa/redmond/plumbing.htm",
-          "https://www.yellowpages.com/redmond-wa/plumbers",
-          "https://www.bbb.org/us/wa/redmond/category/plumber",
-          "https://www.yelp.com/search?find_desc=plumber&find_loc=Redmond%2C+WA+98052",
-          "https://pugetsoundplumbing.com/service-areas/king-county/redmond/",
-          "https://www.beaconplumbing.net/plumbing-redmond-wa/",
-          "https://www.beesplumbingandheating.com/service-area/redmond-wa-plumber/",
-          "https://www.rotorooter.com/redmondwa/",
-          "https://www.angi.com/companylist/us/wa/redmond/affordable-plumbers.htm"
+          "https://www.koaa.com/weather",
+          "https://www.koaa.com/weather/radar",
+          "https://www.koaa.com/",
+          "https://www.koaa.com/weather/hourly-forecast",
+          "https://www.koaa.com/weather/daily-forecast",
+          "https://www.koaa.com/weather/radar-maps",
+          "https://www.kktv.com/weather/"
         ],
         "candidates": [
-          "pugetsoundplumbing.com",
-          "www.angi.com",
-          "www.bbb.org",
-          "www.beaconplumbing.net",
-          "www.beesplumbingandheating.com",
-          "www.rotorooter.com",
-          "www.yellowpages.com",
-          "www.yelp.com"
+          "www.kktv.com",
+          "www.koaa.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "UPYun/UPYun.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "UPYun",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.google.com/",
-          "https://www.google.com.nf/webhp?gl=nf&hl=en&gws_rd=cr&pws=0",
-          "https://accounts.google.com/",
-          "https://search.google/",
-          "https://ogs.google.com/widget/empty",
-          "https://en.wikipedia.org/wiki/Google",
-          "https://www.google.co.uk/chrome/",
-          "https://maps.google.com/",
-          "https://images.google.com/",
-          "https://photos.google.com/"
+          "https://www.microsoft.com/en-us/",
+          "https://www.microsoft.com/",
+          "https://account.microsoft.com/account",
+          "https://m365.cloud.microsoft/",
+          "https://myaccount.microsoft.com/",
+          "https://security.microsoft.com/",
+          "https://account.microsoft.com/account-checkup",
+          "https://support.microsoft.com/en-us/accounts-billing/subscriptions/sign-in-to-microsoft-365",
+          "https://myapps.microsoft.com/index.html",
+          "https://myaccount.microsoft.com/index.html"
         ],
         "candidates": [
-          "accounts.google.com",
-          "en.wikipedia.org",
-          "google.com",
-          "images.google.com",
-          "maps.google.com",
-          "ogs.google.com",
-          "photos.google.com",
-          "search.google",
-          "www.google.co.uk",
-          "www.google.com",
-          "www.google.com.nf"
+          "account.microsoft.com",
+          "m365.cloud.microsoft",
+          "myaccount.microsoft.com",
+          "myapps.microsoft.com",
+          "security.microsoft.com",
+          "support.microsoft.com",
+          "www.microsoft.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "USMedia/USMedia.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "USMedia",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.zhihu.com/question/29508870",
-          "https://www.zhihu.com/question/274184979/answers/updated",
-          "https://support.google.com/accounts/thread/455608099/my-gmail-account-recovery-request-security-code-g-co-sc?hl=en",
-          "https://support.google.com/drive/answer/6374270?hl=en-gb",
-          "https://www.justanswer.com/tax/b2z5g-need-colorado-fed-id-number-1099-g-just-id-number.html",
-          "https://www.justanswer.com/urology/c3qcy-does-nesn-mean-0-3-protein-urine-does.html",
-          "https://www.zhihu.com/question/29154570",
-          "https://www.zhihu.com/question/26162136",
-          "https://www.zhihu.com/question/315332121",
-          "https://support.google.com/mail/answer/32046?hl=ja"
+          "https://www.xnxx.com/todays-selection/",
+          "https://www.xnxx.com/",
+          "https://m-xnxx.com/todays-selection",
+          "https://www.xnxx.es/",
+          "https://www.xnxx.es/todays-selection",
+          "https://m-xnxx.com/todays-selection/en/",
+          "https://www.xvideos.com/tags/xnxx",
+          "https://www.xnxx.net/",
+          "https://www.xnxx20.com/search/new",
+          "https://en.xnxx.place/search/xnxx"
         ],
         "candidates": [
-          "g.co",
-          "support.google.com",
-          "www.justanswer.com",
-          "www.zhihu.com"
+          "en.xnxx.place",
+          "m-xnxx.com",
+          "www.xnxx.com",
+          "www.xnxx.es",
+          "www.xnxx.net",
+          "www.xnxx20.com",
+          "www.xvideos.com",
+          "xnxx.com",
+          "xvideos.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Ubisoft/Ubisoft.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Ubisoft",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -165466,107 +165444,101 @@
           "https://www.ubisoft.com/en-us/ubisoft-connect",
           "https://account.ubisoft.com/en-US/login",
           "https://account.ubisoft.com/",
-          "https://store.ubisoft.com/us/home?lang=default",
           "https://en.wikipedia.org/wiki/Ubisoft",
-          "https://store.ubisoft.com/us/games-all?lang=en_US",
+          "https://store.ubisoft.com/us/home?lang=default",
+          "https://store.ubisoft.com/us/ubisoftplus?lang=en_US",
           "https://www.ubisoft.com/en-us/ubisoft-connect/download",
-          "https://account.ubisoft.com/en-GB/login",
-          "https://account.ubisoft.com/en-US/"
+          "https://account.ubisoft.com/en-US/",
+          "https://account.ubisoft.com/en-GB/login"
         ],
         "candidates": [
           "account.ubisoft.com",
           "en.wikipedia.org",
           "store.ubisoft.com",
-          "support.ubi.com",
-          "ubisoft.com",
           "www.ubisoft.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Ubuntu/Ubuntu.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Ubuntu",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://ubuntu.com/download",
           "https://ubuntu.com/download/desktop",
-          "https://en.wikipedia.org/wiki/Ubuntu",
           "https://releases.ubuntu.com/resolute/",
+          "https://en.wikipedia.org/wiki/Ubuntu",
           "https://releases.ubuntu.com/jammy/",
-          "https://ubuntu.com/",
-          "https://ubuntu.com/download/server",
-          "https://ubuntu.com/desktop",
-          "https://releases.ubuntu.com/24.04/"
+          "https://apps.microsoft.com/detail/9pdxgncfsczv",
+          "https://jp.ubuntu.com/download",
+          "https://en.wikipedia.org/wiki/Ubuntu_version_history",
+          "https://cn.ubuntu.com/download",
+          "https://canonical.com/solutions/ubuntu-os"
         ],
         "candidates": [
+          "apps.microsoft.com",
+          "canonical.com",
+          "cn.ubuntu.com",
           "en.wikipedia.org",
+          "jp.ubuntu.com",
           "releases.ubuntu.com",
-          "ubuntu.com",
-          "www.releases.ubuntu.com"
+          "ubuntu.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Udacity/Udacity.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Udacity",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.udacity.com/",
           "https://auth.udacity.com/sign-in",
           "https://www.udacity.com/experience",
-          "https://en.wikipedia.org/wiki/Udacity",
-          "https://students.udacity.com/",
+          "https://en.m.wikipedia.org/wiki/Udacity",
           "https://auth.udacity.com/",
+          "https://students.udacity.com/",
           "https://support.udacity.com/hc/en-us",
-          "https://studio.udacity.com/",
-          "https://www.youtube.com/@Udacity",
-          "https://www.udacity.com/course-collection/free-udacity-courses"
+          "https://www.udacity.com/course-collection/free-udacity-courses",
+          "https://auth.udacity.com/sign-up",
+          "https://www.udacity.com/schools"
         ],
         "candidates": [
           "auth.udacity.com",
-          "en.wikipedia.org",
+          "en.m.wikipedia.org",
           "students.udacity.com",
-          "studio.udacity.com",
           "support.udacity.com",
-          "www.udacity.com",
-          "www.youtube.com"
+          "www.udacity.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "UnionPay/UnionPay.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "UnionPay",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.unionpayintl.com/en/",
-          "https://en.m.wikipedia.org/wiki/UnionPay",
-          "https://portal.unionpay.com/sso/login?locale=en",
-          "https://www.unionpayintl.com/en/servicesProducts/",
-          "https://cn.unionpay.com/upowhtml/cn/templates/index/index.html",
-          "https://en.m.wikipedia.org/wiki/UnionPay_(application)",
-          "https://m.unionpayintl.com/cardholderServ/globalCard/wap/en",
-          "https://stripe.com/resources/more/china-unionpay-an-in-depth-guide",
-          "https://open.unionpayintl.com/",
-          "https://es.m.wikipedia.org/wiki/UnionPay"
+          "https://www.delta.com/",
+          "https://www.flyertalk.com/forum/delta-air-lines-skymiles/1966564-economy-vs-comfort-long-haul-a330.html",
+          "https://www.flyertalk.com/forum/delta-air-lines-skymiles/2007921-row-20-row-25-premium-select-a350.html",
+          "https://www.flyertalk.com/forum/delta-air-lines-skymiles/2113018-no-options-flight-change.html",
+          "https://www.flyertalk.com/forum/delta-air-lines-skymiles/1925477-delta-pilot-bases-aircraft-type.html",
+          "https://www.flyertalk.com/forum/delta-air-lines-skymiles/1943171-guide-getting-bumped-delta.html",
+          "https://www.flyertalk.com/forum/delta-air-lines-skymiles/2181686-delta-flight-meal-food-service-definitive-thread-2025-edition-25.html",
+          "https://www.flyertalk.com/forum/delta-air-lines-skymiles/2073015-problems-buying-delta-tickets-miles-cash.html",
+          "https://www.flyertalk.com/forum/delta-air-lines-skymiles/2072256-e-credits-multiple-passengers-same-ticket.html",
+          "https://www.flyertalk.com/forum/delta-air-lines-skymiles/1922793-flying-uk-us-under-esta-why-delta-saying-visa-required.html"
         ],
         "candidates": [
-          "cn.unionpay.com",
-          "en.m.wikipedia.org",
-          "es.m.wikipedia.org",
-          "m.unionpayintl.com",
-          "open.unionpayintl.com",
-          "portal.unionpay.com",
-          "stripe.com",
-          "www.unionpayintl.com"
+          "www.delta.com",
+          "www.flyertalk.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Unity/Unity.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Unity",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -165575,16 +165547,15 @@
           "https://docs.unity.com/en-us/hub/install-hub",
           "https://create.unity.com/choose-unity-to-create",
           "https://play.unity.com/",
+          "https://docs.unity.com/en-us/hub",
           "https://assetstore.unity.com/",
-          "https://en.wikipedia.org/wiki/Unity_(game_engine)",
-          "https://docs.unity.com/en-us/hub/add-editor",
-          "https://login.unity.com/en/sign-up"
+          "https://login.unity.com/en/sign-up",
+          "https://assetstore.unity.com/3d"
         ],
         "candidates": [
           "assetstore.unity.com",
           "create.unity.com",
           "docs.unity.com",
-          "en.wikipedia.org",
           "id.unity.com",
           "login.unity.com",
           "play.unity.com",
@@ -165594,49 +165565,49 @@
         "ownership_evidence": []
       },
       "VISA/VISA.yaml": {
-        "checked_at": "2026-10-31 03:52 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "VISA",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.visa.com/en-us",
           "https://www.visa.com/en-us/personal/cards",
           "https://usa.visa.com/contact-us.html",
-          "https://www.visaonline.com/",
-          "https://usa.visa.com/support.html",
           "https://en.wikipedia.org/wiki/Visa_Inc.",
-          "https://ais.usvisa-info.com/"
+          "https://www.visaonline.com/",
+          "https://www.visaonline.com/login",
+          "https://usa.visa.com/support.html",
+          "https://www2.ustraveldocs.com/",
+          "https://travel.state.gov/content/travel/en/us-visas.html",
+          "https://www.visa.co.uk/"
         ],
         "candidates": [
-          "ais.usvisa-info.com",
           "en.wikipedia.org",
+          "travel.state.gov",
           "usa.visa.com",
+          "www.visa.co.uk",
           "www.visa.com",
-          "www.visaonline.com"
+          "www.visaonline.com",
+          "www2.ustraveldocs.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "VK/VK.yaml": {
-        "checked_at": "2026-10-31 16:45 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "VK",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://vk.ru/",
-          "https://vk.ru/?lang=eng",
-          "https://vkvideo.ru/",
+          "https://vk.ru/ru/en",
           "https://vk.com/login?act=vkcomredirect",
+          "https://vkvideo.ru/",
           "https://vk.company/en/",
           "https://m.vk.ru/pwa",
-          "https://en.wikipedia.org/wiki/VK_(service)",
-          "https://vk.company/en/search/",
-          "https://vkvideo.ru/@vkvideo",
-          "https://en.wikipedia.org/wiki/VK_(company)"
+          "https://en.wikipedia.org/wiki/VK_(service)"
         ],
         "candidates": [
           "en.wikipedia.org",
           "m.vk.ru",
-          "mail.ru",
-          "trk.mail.ru",
           "vk.com",
           "vk.company",
           "vk.ru",
@@ -165646,71 +165617,78 @@
         "ownership_evidence": []
       },
       "VOA/VOA.yaml": {
-        "checked_at": "2026-10-31 16:45 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "VOA",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.voanews.com/",
-          "https://www.voanews.com/z/6716",
-          "https://learningenglish.voanews.com/",
           "https://www.voachinese.com/",
-          "https://www.youtube.com/@VOANews",
-          "https://en.wikipedia.org/wiki/Voice_of_America",
-          "https://editorials.voa.gov/",
-          "https://www.voa.org/",
-          "https://learningenglish.voanews.com/p/5610.html",
-          "https://www.insidevoa.com/"
+          "https://learningenglish.voanews.com/",
+          "https://www.voachinese.com/US",
+          "https://www.insidevoa.com/",
+          "https://www.youtube.com/VOAChinese",
+          "https://www.voanews.com/z/6716",
+          "https://zh.m.wikipedia.org/wiki/%E7%BE%8E%E5%9B%BD%E4%B9%8B%E9%9F%B3",
+          "https://editorials.voa.gov/video",
+          "https://www.voa.org/"
         ],
         "candidates": [
           "editorials.voa.gov",
-          "en.wikipedia.org",
           "learningenglish.voanews.com",
           "www.insidevoa.com",
           "www.voa.org",
           "www.voachinese.com",
           "www.voanews.com",
-          "www.youtube.com"
+          "www.youtube.com",
+          "zh.m.wikipedia.org"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Vancl/Vancl.yaml": {
-        "checked_at": "2026-10-31 16:45 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Vancl",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.patheos.com/blogs/loveamongtheruins/2015/06/what-wallace-fought-for-thoughts-on-braveheart-for-fathers-day/",
-          "https://www.patheos.com/blogs/hindu2/2014/09/swami-vivekananda-quotes-thoughts/",
-          "https://www.patheos.com/blogs/hindu2/2015/01/chanakya-quotes-management/",
-          "https://www.patheos.com/blogs/hearthwitchdownunder/2016/08/30-days-of-hekate-27-hymns-to-hekate.html",
-          "https://www.patheos.com/blogs/religionprof/2011/10/quote-of-the-day-tony-campolo.html",
-          "https://www.patheos.com/blogs/christiancrier/2016/02/24/top-7-bible-verses-about-saying-goodbye-or-farewell/",
-          "https://www.patheos.com/blogs/anxiousbench/2018/10/why-christians-are-afraid-of-halloween/",
-          "https://www.patheos.com/blogs/deaconsbench/2013/07/did-the-pope-really-say-that/",
-          "https://www.patheos.com/blogs/voxnova/2009/10/18/quote-of-the-day-fr-ghislain-lafont-on-the-pathology-of-the-truth/",
-          "https://www.patheos.com/blogs/religionprof/2012/10/quote-of-the-day-robert-t-weston.html"
+          "https://www.mechanicsbank.com/resources/resources-tools/help-center/watch-learn/reset-your-online-banking-password/",
+          "https://www.mechanicsbank.com/Business-Commercial/Industry-Expertise/Title-and-Escrow",
+          "https://help.mechanicsbank.com/",
+          "https://ir.mechanicsbank.com/corporate-profile/default.aspx",
+          "https://ir.mechanicsbank.com/news-events/news/news-details/2025/Mechanics-Bank-Completes-Strategic-Merger-with-HomeStreet-Inc-/default.aspx",
+          "https://prdcms.mechanicsbank.com/globalassets/pdfs/business-online-banking-and-mobile/3900.2-wire-manager-user-guide-dept-form-ech.pdf",
+          "https://homeloans.mechanicsbank.com/",
+          "https://commercialcenter.mechanicsbank.com/corporate/auth/login",
+          "https://remote2.mechanicsbank.com/portal/nativeclient",
+          "https://stgcms.mechanicsbank.com/personal/bank/personal-savings/"
         ],
         "candidates": [
-          "www.patheos.com"
+          "commercialcenter.mechanicsbank.com",
+          "help.mechanicsbank.com",
+          "homeloans.mechanicsbank.com",
+          "ir.mechanicsbank.com",
+          "prdcms.mechanicsbank.com",
+          "remote2.mechanicsbank.com",
+          "stgcms.mechanicsbank.com",
+          "www.mechanicsbank.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "Vercel/Vercel.yaml": {
-        "checked_at": "2026-10-31 16:45 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Vercel",
-        "status": "needs_ownership_evidence",
+        "status": "checked",
         "sources": [
           "https://vercel.com/",
           "https://vercel.com/login",
           "https://en.wikipedia.org/wiki/Vercel",
           "https://github.com/vercel",
-          "https://vercel-landing-page.vercel.app/",
           "https://vercel.com/signup",
           "https://vercel.com/new",
           "https://vercel.com/pricing",
+          "https://vercel.com/platform",
           "https://vercel.com/docs",
-          "https://vercel.com/about"
+          "https://vercel-landing-page.vercel.app/"
         ],
         "candidates": [
           "en.wikipedia.org",
@@ -165719,10 +165697,15 @@
           "vercel.com"
         ],
         "accepted": [],
-        "ownership_evidence": []
+        "ownership_evidence": [
+          "https://vercel.com/blog/v0-app",
+          "https://v0.app/docs/api/v2/guides/migrating-from-v1-to-v2",
+          "https://vercel.com/docs/vercel-blob/public-storage",
+          "https://vercel.com/kb/guide/running-openclaw-in-vercel-sandbox"
+        ]
       },
       "Verisign/Verisign.yaml": {
-        "checked_at": "2026-10-31 16:45 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Verisign",
         "status": "needs_ownership_evidence",
         "sources": [
@@ -165730,18 +165713,20 @@
           "https://en.wikipedia.org/wiki/VeriSign",
           "https://www.verisign.com/about-us/",
           "https://accounts-otp.verisign.com/",
-          "https://webwhois.verisign.com/webwhois-ui/index.jsp?language=en_US",
-          "https://investor.verisign.com/investor-relations/",
+          "https://webwhois.verisign.com/?language=en_US",
+          "https://finance.yahoo.com/quote/VRSN/",
           "https://www.linkedin.com/company/verisign",
           "https://blog.verisign.com/",
-          "https://investor.verisign.com/sec-filings",
-          "https://www.verisign.com/domain-names/"
+          "https://stockanalysis.com/stocks/vrsn/",
+          "https://investor.verisign.com/static-files/c80babb1-63c1-4a38-9a47-c5d574ba1a1a"
         ],
         "candidates": [
           "accounts-otp.verisign.com",
           "blog.verisign.com",
           "en.wikipedia.org",
+          "finance.yahoo.com",
           "investor.verisign.com",
+          "stockanalysis.com",
           "webwhois.verisign.com",
           "www.linkedin.com",
           "www.verisign.com"
@@ -165750,50 +165735,52 @@
         "ownership_evidence": []
       },
       "Verizon/Verizon.yaml": {
-        "checked_at": "2026-10-31 16:45 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "Verizon",
         "status": "needs_ownership_evidence",
         "sources": [
           "https://www.verizon.com/",
           "https://www.verizon.com/support/my-verizon/",
           "https://opsportal.verizonwireless.com/sso?SMSESSION=NO",
-          "https://tv.verizon.com/watch/",
-          "https://cloud.verizon.com/vzCloud/home/cloudOverview.action",
-          "https://en.wikipedia.org/wiki/Verizon",
-          "https://www.verizon.com/support/knowledge-base-41025/",
-          "https://www.verizon.com/home/internet/",
-          "https://www.verizon.com/support/billing-and-payments/"
+          "https://business.verizon.com/",
+          "https://verizonwireless.com/vzw/homepage",
+          "https://www.verizonconnect.com/login/",
+          "https://www.asurion.com/verizon/"
         ],
         "candidates": [
-          "cloud.verizon.com",
-          "en.wikipedia.org",
+          "business.verizon.com",
           "opsportal.verizonwireless.com",
-          "tv.verizon.com",
-          "verizon.com",
-          "www.verizon.com"
+          "verizonwireless.com",
+          "www.asurion.com",
+          "www.verizon.com",
+          "www.verizonconnect.com"
         ],
         "accepted": [],
         "ownership_evidence": []
       },
       "VidolTV/VidolTV.yaml": {
-        "checked_at": "2026-10-31 16:45 UTC",
+        "checked_at": "2026-11-14 17:37 UTC",
         "name": "VidolTV",
         "status": "needs_ownership_evidence",
         "sources": [
-          "https://www.jw.org/en/library/music-songs/sing-out-joyfully/81-life-of-a-pioneer/",
-          "https://www.jw.org/en/bible-teachings/questions/halloween-origin/",
-          "https://www.jw.org/en/library/music-songs/sing-out-joyfully/30-my-father-god-and-friend/",
-          "https://www.jw.org/en/jehovahs-witnesses/faq/jw-celebrate-holidays/",
-          "https://www.jw.org/en/bible-teachings/questions/great-flood-noahs-ark-story/",
-          "https://www.jw.org/en/bible-teachings/teenagers/whiteboard-animations/",
-          "https://www.jw.org/en/library/videos/walk-by-faith-not-by-sight/",
-          "https://www.jw.org/en/library/books/scriptures-for-christian-living/",
-          "https://www.jw.org/sw/ni-nini-kipya/",
-          "https://www.jw.org/en/library/books/gods-love/celebrations-holidays-that-displease-god/"
+          "https://beekey.buzz/clue/brain-cells",
+          "https://beekey.buzz/clue/nervous-system-tissue",
+          "https://www.nytimes.com/puzzles/spelling-bee",
+          "https://www.spellingbeeword.com/",
+          "https://www.sbsolver.com/h/brain",
+          "https://www.youtube.com/watch?v=X1cYS6aGstU",
+          "https://spellingbeeanswers.com/today",
+          "https://beekey.buzz/",
+          "https://beekey.buzz/clue/non-neuronal-cells-in-the-brain-and-spinal-cord",
+          "https://beekey.buzz/clue/mass-of-nerve-tissue"
         ],
         "candidates": [
-          "jw.org",
-          "www.jw.org"
+          "beekey.buzz",
+          "spellingbeeanswers.com",
+          "www.nytimes.com",
+          "www.sbsolver.com",
+          "www.spellingbeeword.com",
+          "www.youtube.com"
         ],
         "accepted": [],
         "ownership_evidence": []
